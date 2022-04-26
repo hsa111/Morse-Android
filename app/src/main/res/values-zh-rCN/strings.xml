@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">新消息</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal 正在更新…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Morse 正在更新…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">当前：%s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">您尚未设置密码！</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">禁用密码？</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">这将永久解锁 Signal 和消息通知。</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">这将永久解锁 Morse 和消息通知。</string>
   <string name="ApplicationPreferencesActivity_disable">禁用</string>
   <string name="ApplicationPreferencesActivity_unregistering">注销</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">注销 Signal 消息和呼叫…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">禁用 Signal 消息和呼叫？</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">从服务器注销将禁用 Signal 消息和呼叫。如果以后想要使用这些功能，那么需使用手机号码重新注册。</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">注销 Morse 消息和呼叫…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">禁用 Morse 消息和呼叫？</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">从服务器注销将禁用 Morse 消息和呼叫。如果以后想要使用这些功能，那么需使用手机号码重新注册。</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">连接服务出错！</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">已启用短信</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">点击修改默认短信应用</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">已禁用短信</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">点击将 Signal 设置为默认短信应用</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">点击将 Morse 设置为默认短信应用</string>
   <string name="ApplicationPreferencesActivity_on">开启</string>
   <string name="ApplicationPreferencesActivity_On">开启</string>
   <string name="ApplicationPreferencesActivity_off">关</string>
@@ -57,14 +57,14 @@
   <string name="AttachmentKeyboard_file">文件</string>
   <string name="AttachmentKeyboard_contact">联系人</string>
   <string name="AttachmentKeyboard_location">位置</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal 需相应权限以显示图片和视频。</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Morse 需相应权限以显示图片和视频。</string>
   <string name="AttachmentKeyboard_give_access">给予权限</string>
   <string name="AttachmentKeyboard_payment">付款</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">未找到选择媒体的应用。</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal 需“存储”权限，来发送图片、视频和音频，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“存储”。</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal 需“通讯录”权限，来发送通讯录信息，但是该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“通讯录”。</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal 需“位置”权限，来发送位置信息，但是该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“位置”。</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Morse 需“存储”权限，来发送图片、视频和音频，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“存储”。</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Morse 需“通讯录”权限，来发送通讯录信息，但是该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“通讯录”。</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Morse 需“位置”权限，来发送位置信息，但是该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“位置”。</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">上传媒体中…</string>
   <string name="AttachmentUploadJob_compressing_video_start">压缩视频中…</string>
@@ -108,26 +108,26 @@
   <string name="CameraXFragment_open_gallery_description">打开相册</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">最近联系人</string>
-  <string name="CameraContacts_signal_contacts">Signal 联系人</string>
-  <string name="CameraContacts_signal_groups">Signal 群组</string>
+  <string name="CameraContacts_signal_contacts">Morse 联系人</string>
+  <string name="CameraContacts_signal_groups">Morse 群组</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">最多可与 %d 个对话分享。</string>
-  <string name="CameraContacts_select_signal_recipients">选择 Signal 收件人</string>
-  <string name="CameraContacts_no_signal_contacts">没有 Signal 联系人</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">仅可通过相机按钮来发送照片给 Signal 联系人。</string>
+  <string name="CameraContacts_select_signal_recipients">选择 Morse 收件人</string>
+  <string name="CameraContacts_no_signal_contacts">没有 Morse 联系人</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">仅可通过相机按钮来发送照片给 Morse 联系人。</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">未找到联系人？</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">邀请联系人加入 Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">邀请联系人加入 Morse</string>
   <string name="CameraContacts__menu_search">搜索</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">删除</string>
   <string name="ClearProfileActivity_remove_profile_photo">删除头像</string>
   <string name="ClearProfileActivity_remove_group_photo">删除群组头像？</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">升级 Signal</string>
-  <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">此版本 Signal 已过期，升级到最新版本后才能收发消息。</string>
+  <string name="ClientDeprecatedActivity_update_signal">升级 Morse</string>
+  <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">此版本 Morse 已过期，升级到最新版本后才能收发消息。</string>
   <string name="ClientDeprecatedActivity_update">更新</string>
   <string name="ClientDeprecatedActivity_dont_update">不要更新</string>
   <string name="ClientDeprecatedActivity_warning">警告</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">您的 Signal 版本已过期，目前您只能查看历史消息，只有升级后才能收发消息。</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">您的 Morse 版本已过期，目前您只能查看历史消息，只有升级后才能收发消息。</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">未找到网页浏览器。</string>
   <string name="CommunicationActions_send_email">发送邮件</string>
@@ -136,9 +136,9 @@
   <string name="CommunicationActions_cancel">取消</string>
   <string name="CommunicationActions_call">呼叫</string>
   <string name="CommunicationActions_insecure_call">不安全的通话</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">运营商可能会收取额外的费用。 您呼叫的号码未在Signal中注册。 该呼叫将通过您的移动运营商发出，而不是通过互联网发出。</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">运营商可能会收取额外的费用。 您呼叫的号码未在Morse中注册。 该呼叫将通过您的移动运营商发出，而不是通过互联网发出。</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">您与 %1$s 的安全码已更改。可能有人试图截获你的通信，或者只是 %2$s 重装了 Signal。</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">您与 %1$s 的安全码已更改。可能有人试图截获你的通信，或者只是 %2$s 重装了 Morse。</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">您可能需要验证该联系人的安全码。</string>
   <string name="ConfirmIdentityDialog_accept">接受</string>
   <!--ContactsCursorLoader-->
@@ -149,7 +149,7 @@
   <string name="ContactsCursorLoader_username_search">用户名搜索</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">消息 %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal 呼叫 %s</string>
+  <string name="ContactsDatabase_signal_call_s">Morse 呼叫 %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">名</string>
   <string name="ContactNameEditActivity_family_name">姓</string>
@@ -172,7 +172,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">发送失败，点击使用不安全的方式发送</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">使用未加密的短信？</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">使用未加密的彩信？</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">由于对方已不再使用 Signal，该消息<b>不是</b>加密的。\n\n是否发送不安全消息？</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">由于对方已不再使用 Morse，该消息<b>不是</b>加密的。\n\n是否发送不安全消息？</string>
   <string name="ConversationItem_unable_to_open_media">未找到可打开该媒体的应用。</string>
   <string name="ConversationItem_copied_text">已复制 %s</string>
   <string name="ConversationItem_from_s">来自 %s</string>
@@ -197,8 +197,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">该设备看起来不支持拨号操作。</string>
   <string name="ConversationActivity_transport_insecure_sms">不安全短信</string>
   <string name="ConversationActivity_transport_insecure_mms">不安全彩信</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">用 Signal 来聊天吧 %1$s</string>
+  <string name="ConversationActivity_transport_signal">Morse</string>
+  <string name="ConversationActivity_lets_switch_to_signal">用 Morse 来聊天吧 %1$s</string>
   <string name="ConversationActivity_specify_recipient">请选择联系人</string>
   <string name="ConversationActivity_unblock">取消屏蔽</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">附件超过当前消息类型的大小限制。</string>
@@ -209,17 +209,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">你的设备上没有处理该链接的应用。</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">您的入群申请已发送给群组管理员，您将在管理员作出决定后收到通知。</string>
   <string name="ConversationActivity_cancel_request">撤回申请</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">如需发送语音，请允许 Signal 使用麦克风。</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal 需“麦克风”权限，来发送音频，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“麦克风”。</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal 需“麦克风”和“相机”权限，来呼叫 %s，但这些权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“麦克风”和“相机”。</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">要拍照或录像，请允许 Signal 访问相机。</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal 需“相机”权限，来拍摄图片或视频，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“相机”。</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal 需要相机权限以拍摄照片或视频</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">如需发送语音，请允许 Morse 使用麦克风。</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Morse 需“麦克风”权限，来发送音频，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“麦克风”。</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Morse 需“麦克风”和“相机”权限，来呼叫 %s，但这些权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“麦克风”和“相机”。</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">要拍照或录像，请允许 Morse 访问相机。</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Morse 需“相机”权限，来拍摄图片或视频，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“相机”。</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Morse 需要相机权限以拍摄照片或视频</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">开启麦克风权限以录制有声视频。</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal 需“麦克风”权限，来录制视频，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“麦克风”。</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal 需要麦克风权限以录制视频。</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Morse 需“麦克风”权限，来录制视频，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“麦克风”。</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Morse 需要麦克风权限以录制视频。</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal 不是默认的短信应用，不能发送短信或彩信。是否修改安卓系统的相应设置？</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Morse 不是默认的短信应用，不能发送短信或彩信。是否修改安卓系统的相应设置？</string>
   <string name="ConversationActivity_yes">是</string>
   <string name="ConversationActivity_no">否</string>
   <string name="ConversationActivity_search_position">%1$d / %2$d 匹配</string>
@@ -233,7 +233,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">你将离开这个组，它将从你所有的设备中删除。</string>
   <string name="ConversationActivity_delete">删除</string>
   <string name="ConversationActivity_delete_and_leave">删除并离开</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Signal 需要访问您的麦克风来呼叫 %1$s</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Morse 需要访问您的麦克风来呼叫 %1$s</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">“群组设置”现增加了更多选项</string>
   <string name="ConversationActivity_join">加入</string>
   <string name="ConversationActivity_full">已满</string>
@@ -262,14 +262,14 @@
     <item quantity="other">正在保存 %1$d 附件到存储…</item>
   </plurals>
   <string name="ConversationFragment_pending">待处理…</string>
-  <string name="ConversationFragment_push">数据 (Signal)</string>
+  <string name="ConversationFragment_push">数据 (Morse)</string>
   <string name="ConversationFragment_mms">彩信</string>
   <string name="ConversationFragment_sms">短信</string>
   <string name="ConversationFragment_deleting">删除中</string>
   <string name="ConversationFragment_deleting_messages">正在删除消息…</string>
   <string name="ConversationFragment_delete_for_me">对我删除</string>
   <string name="ConversationFragment_delete_for_everyone">对每个人删除</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">将对所有使用较新版本 Signal 的群组用户永久删除此消息，群成员将看到您删除了一条消息。</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">将对所有使用较新版本 Morse 的群组用户永久删除此消息，群成员将看到您删除了一条消息。</string>
   <string name="ConversationFragment_quoted_message_not_found">未找到原始消息</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">原始消息已不存在</string>
   <string name="ConversationFragment_failed_to_open_message">打开消息失败</string>
@@ -281,12 +281,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d 位群组成员的名字相同。</string>
   <string name="ConversationFragment__tap_to_review">点击开始审查</string>
   <string name="ConversationFragment__review_requests_carefully">请仔细审查请求</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal 碰到了一个同名的联系人。</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Morse 碰到了一个同名的联系人。</string>
   <string name="ConversationFragment_contact_us">联系我们</string>
   <string name="ConversationFragment_verify">验证</string>
   <string name="ConversationFragment_not_now">稍后再说</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">您与 %s 的安全码已更改</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">您与 %s 的安全码已更改，很可能是因为他们重新安装了 Signal 或更改了设备。点击“验证”以确认新的安全码。该操作可选。</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">您与 %s 的安全码已更改，很可能是因为他们重新安装了 Morse 或更改了设备。点击“验证”以确认新的安全码。该操作可选。</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="other">删除已选对话？</item>
   </plurals>
@@ -344,11 +344,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">测试备份密码并验证是否匹配</string>
   <string name="BackupsPreferenceFragment__turn_on">开启</string>
   <string name="BackupsPreferenceFragment__turn_off">关闭</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">如需还原备份，请重新安装 Signal，然后打开该应用并点击“还原备份”，接着打开备份文件。%1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">如需还原备份，请重新安装 Morse，然后打开该应用并点击“还原备份”，接着打开备份文件。%1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">了解更多</string>
   <string name="BackupsPreferenceFragment__in_progress">正在进行…</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d 到目前为止…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal 需外部存储权限，来创建备份，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“存储”。</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Morse 需外部存储权限，来创建备份，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“存储”。</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">使用定制：%s</string>
   <string name="CustomDefaultPreference_using_default">使用默认：%s</string>
@@ -367,7 +367,7 @@
   <string name="DateUtils_yesterday">昨天</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">聊天会话已刷新</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal 使用端对端加密，有时可能需刷新聊天会话。虽然这并不影响聊天的安全性，但可能错过该联系人的消息。您可请求他们重新发送。</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Morse 使用端对端加密，有时可能需刷新聊天会话。虽然这并不影响聊天的安全性，但可能错过该联系人的消息。您可请求他们重新发送。</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">取消关联“%s”？</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">取消关联之后，将不能再通过该设备发送或接收消息。</string>
@@ -384,8 +384,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">未命名文件</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">捐赠 Signal</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal 的进步离不开用户的支持，如果您觉得获益良多可以考虑捐助我们。</string>
+  <string name="DonateMegaphone_donate_to_signal">捐赠 Morse</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Morse 的进步离不开用户的支持，如果您觉得获益良多可以考虑捐助我们。</string>
   <string name="DonateMegaphone_donate">捐</string>
   <string name="DonateMegaphone_no_thanks">不用，谢谢</string>
   <!--GroupCallingMegaphone-->
@@ -393,9 +393,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">打开一个新版群组来开始一次免费的加密群语音通话</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">缺失 Google Play 服务时优化</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">该设备不支持 Google Play 服务。点击禁用系统电池优化，防止 Signal 非活动时无法获取新消息。</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">该设备不支持 Google Play 服务。点击禁用系统电池优化，防止 Morse 非活动时无法获取新消息。</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">此 Signal 版本已过期，请升级到最新版本以继续收发消息。</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">此 Morse 版本已过期，请升级到最新版本以继续收发消息。</string>
   <string name="ExpiredBuildReminder_update_now">现在升级</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -406,8 +406,8 @@
   <string name="ShareActivity_share_with">分享至</string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">多个附件只支持图像和视频</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Signal 持续连接失效！</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal 无法注册 Google Play 服务。Signal 消息和呼叫已禁用。请尝试在设置 &gt; 高级中重新注册。</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Morse 持续连接失效！</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Morse 无法注册 Google Play 服务。Morse 消息和呼叫已禁用。请尝试在设置 &gt; 高级中重新注册。</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">获取原始分辨率的 GIF 图片时出错</string>
   <!--GiphyFragmentPageAdapter-->
@@ -548,7 +548,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">必须填写此项。</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">群组创建失败。</string>
   <string name="AddGroupDetailsFragment__try_again_later">稍候再试。</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">您所选择的联系人并不支持 Signal 群组，所以此组将以彩信形式存在。</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">您所选择的联系人并不支持 Morse 群组，所以此组将以彩信形式存在。</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">自定义彩信群组名称和图片将仅对你可见。</string>
   <string name="AddGroupDetailsFragment__remove">删除</string>
   <string name="AddGroupDetailsFragment__sms_contact">短信联系人</string>
@@ -560,13 +560,13 @@
     <item quantity="other">%d位成员不支持新版群组，因此无法创建此群组。</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">将创建旧版群组，因为“%1$s”还在使用旧版 Signal。您可以在他们都升级到新版 Signal 后创建新版群组，或将他们排除后再建群。</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">将创建旧版群组，因为“%1$s”还在使用旧版 Morse。您可以在他们都升级到新版 Morse 后创建新版群组，或将他们排除后再建群。</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="other">将创建旧版群组因为%1$d位群成员还在使用旧版 Signal。您可以在他们都升级到新版 Signal 后创建新版群组，或将他们排除后再建群。</item>
+    <item quantity="other">将创建旧版群组因为%1$d位群成员还在使用旧版 Morse。您可以在他们都升级到新版 Morse 后创建新版群组，或将他们排除后再建群。</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">“%1$s”仍在使用旧版 Signal，因此无法创建此此群组。您需要将其移出后才能建群。</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">“%1$s”仍在使用旧版 Morse，因此无法创建此此群组。您需要将其移出后才能建群。</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="other">%1$d位成员仍在使用旧版 Signal，因此无法创建此此群组。您需要将其移出后才能建群。</item>
+    <item quantity="other">%1$d位成员仍在使用旧版 Morse，因此无法创建此此群组。您需要将其移出后才能建群。</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">入群申请和邀请</string>
@@ -595,7 +595,7 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">只有管理员才能启用或禁用新成员批准开关。</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">只有管理员才能重置群组链接。</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">您没有此操作的权限</string>
-  <string name="ManageGroupActivity_not_capable">您添加的部分用户无法使用新版群组，这些用户需要升级 Signal。</string>
+  <string name="ManageGroupActivity_not_capable">您添加的部分用户无法使用新版群组，这些用户需要升级 Morse。</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">无法更新群组</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">您不是该群组成员</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">无法更新群组，请稍候再试</string>
@@ -606,7 +606,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">这是一个旧版群组，要是使用@提醒和管理员功能，</string>
   <string name="ManageGroupActivity_legacy_group_too_large">由于人数太多，此旧版群组无法升级成新版群组。升级要求人数在%1$d以下。</string>
   <string name="ManageGroupActivity_upgrade_this_group">升级此群组。</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">这是个未加密的彩信群组。要加密聊天，请邀请您的联系人加入 Signal。</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">这是个未加密的彩信群组。要加密聊天，请邀请您的联系人加入 Morse。</string>
   <string name="ManageGroupActivity_invite_now">现在邀请</string>
   <string name="ManageGroupActivity_more">更多</string>
   <string name="ManageGroupActivity_add_group_description">添加群组描述…</string>
@@ -676,10 +676,10 @@
     <item quantity="other">群组 · %1$d位成员</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">升级 Signal 以使用群组链接</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">您当前版本的 Signal 不支持群组链接。请升级到最新版来通过链接入群。</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">升级 Signal</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">您有至少一台关联设备不支持群组链接，请升级其 Signal 版本来加入此群。</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">升级 Morse 以使用群组链接</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">您当前版本的 Morse 不支持群组链接。请升级到最新版来通过链接入群。</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">升级 Morse</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">您有至少一台关联设备不支持群组链接，请升级其 Morse 版本来加入此群。</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">群组链接无效</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">邀请好友</string>
@@ -708,11 +708,11 @@
   <string name="InviteActivity_cancel">取消</string>
   <string name="InviteActivity_sending">正在发送…</string>
   <string name="InviteActivity_invitations_sent">邀请已发送！</string>
-  <string name="InviteActivity_invite_to_signal">邀请使用 Signal</string>
+  <string name="InviteActivity_invite_to_signal">邀请使用 Morse</string>
   <plurals name="InviteActivity_send_sms_invites">
     <item quantity="other">发送 %d 个短信邀请？</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">用 Signal 来聊天吧：%1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">用 Morse 来聊天吧：%1$s</string>
   <string name="InviteActivity_no_app_to_share_to">看起来设备上没有可用于分享的应用。</string>
   <!--LearnMoreTextView-->
   <string name="LearnMoreTextView_learn_more">了解更多</string>
@@ -721,7 +721,7 @@
   <string name="LongMessageActivity_message_from_s">来自 %1$s 的消息</string>
   <string name="LongMessageActivity_your_message">您的消息</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Morse</string>
   <string name="MessageRetrievalService_background_connection_enabled">后台连接已启用</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">读取运营商彩信设置时出错</string>
@@ -762,7 +762,7 @@
   <string name="Megaphones_introducing_reactions">新推出“回应”功能</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">长按任何消息，即刻分享感受。</string>
   <string name="Megaphones_remind_me_later">稍后提醒</string>
-  <string name="Megaphones_verify_your_signal_pin">验证 Signal PIN 码</string>
+  <string name="Megaphones_verify_your_signal_pin">验证 Morse PIN 码</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">为了方便记住 PIN 密码，将偶尔提示验证。</string>
   <string name="Megaphones_verify_pin">验证 PIN</string>
   <string name="Megaphones_get_started">开始使用</string>
@@ -771,10 +771,10 @@
   <string name="Megaphones_use_sms">使用短信</string>
   <string name="Megaphones_appearance">外观</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">正在处理 Signal 呼叫</string>
-  <string name="NotificationBarManager__establishing_signal_call">正在建立 Signal 呼叫</string>
-  <string name="NotificationBarManager__incoming_signal_call">Signal 来电</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">正在停止 Signal 通话服务</string>
+  <string name="NotificationBarManager_signal_call_in_progress">正在处理 Morse 呼叫</string>
+  <string name="NotificationBarManager__establishing_signal_call">正在建立 Morse 呼叫</string>
+  <string name="NotificationBarManager__incoming_signal_call">Morse 来电</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">正在停止 Morse 通话服务</string>
   <string name="NotificationBarManager__answer_call">接听</string>
   <string name="NotificationBarManager__end_call">结束呼叫</string>
   <string name="NotificationBarManager__cancel_call">取消呼叫</string>
@@ -800,8 +800,8 @@
   <string name="MediaSendActivity_message_to_s">发送消息至 %s</string>
   <string name="MediaSendActivity_message">消息</string>
   <string name="MediaSendActivity_select_recipients">选择接收人</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">为了显示联系人，Signal 需其访问权限。</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal 需“联系人”权限，来显示你的联系人，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“联系人”。</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">为了显示联系人，Morse 需其访问权限。</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Morse 需“联系人”权限，来显示你的联系人，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“联系人”。</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="other">分享最多不可超过 %d 个条目。</item>
   </plurals>
@@ -815,7 +815,7 @@
   <string name="MessageDecryptionUtil_tap_to_send_a_debug_log">点击发送调试日志</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">未知</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">收到来自旧版本 Signal 的加密消息，该版本已不再支持。请提醒发送人升级至最新版本并重发该消息。</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">收到来自旧版本 Morse 的加密消息，该版本已不再支持。请提醒发送人升级至最新版本并重发该消息。</string>
   <string name="MessageRecord_left_group">您已离开该群组。</string>
   <string name="MessageRecord_you_updated_group">您已更新该群组</string>
   <string name="MessageRecord_the_group_was_updated">群组已更新。</string>
@@ -824,7 +824,7 @@
   <string name="MessageRecord_missed_video_call_date">未接视频来电 · %1$s</string>
   <string name="MessageRecord_s_updated_group">%s 已更新该群组。</string>
   <string name="MessageRecord_s_called_you_date">%1$s 曾呼叫你· %2$s</string>
-  <string name="MessageRecord_s_joined_signal">%s 加入 Signal！</string>
+  <string name="MessageRecord_s_joined_signal">%s 加入 Morse！</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">您已禁用阅后即焚。</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s 已禁用阅后即焚。</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">设置阅后即焚消失时间为 %1$s。</string>
@@ -1036,23 +1036,23 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">无效二维码。</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">很抱歉，关联设备过多，请先移除一些。</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">抱歉，设备关联二维码无效。</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">关联 Signal 设备？</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">您好像在使用第三方扫描应用来关联 Signal 设备。出于安全考量，请使用 Signal 再次扫描二维码。</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal 需“相机”权限，来扫描二维码，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“相机”。</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">关联 Morse 设备？</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">您好像在使用第三方扫描应用来关联 Morse 设备。出于安全考量，请使用 Morse 再次扫描二维码。</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Morse 需“相机”权限，来扫描二维码，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“相机”。</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">没有“相机”权限，无法扫描二维码</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">现在升级</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">此 Signal 版本将在今天过期，请升级到最新版本。</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">此 Morse 版本将在今天过期，请升级到最新版本。</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="other">此版本 Signal 将在%d天后过期，请升级到最新版本。</item>
+    <item quantity="other">此版本 Morse 将在%d天后过期，请升级到最新版本。</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">输入密码</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal 图标</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Morse 图标</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">提交密码</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">无效密码！</string>
-  <string name="PassphrasePromptActivity_unlock_signal">解锁 Signal</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - 锁定屏幕</string>
+  <string name="PassphrasePromptActivity_unlock_signal">解锁 Morse</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Morse Android - 锁定屏幕</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">地图</string>
   <string name="PlacePickerActivity_drop_pin">标注</string>
@@ -1072,16 +1072,16 @@
   <plurals name="PinRestoreEntryFragment_you_have_d_attempt_remaining">
     <item quantity="other">您还剩%1$d次机会。若尝试次数达到上限，您可以创建新的 PIN 码。您可以注册和使用您的账户，但会丢失所有保存过的设置，比如您的个人介绍。</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal 注册 - 需要安卓 PIN 码相关帮助</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Morse 注册 - 需要安卓 PIN 码相关帮助</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">输入字母数字 PIN</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">输入数字 PIN</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">创建 PIN</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">你的 PIN 码错误次数达到上限，但你还是可以通过创建新的 PIN 码以进入你的 Signal 账户。出于对你的隐私和安全考虑，你的账户会在不保存任何个人资料或设置下被还原。</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">你的 PIN 码错误次数达到上限，但你还是可以通过创建新的 PIN 码以进入你的 Morse 账户。出于对你的隐私和安全考虑，你的账户会在不保存任何个人资料或设置下被还原。</string>
   <string name="PinRestoreLockedFragment_create_new_pin">新建 PIN 码</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">警告</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">如果禁用 PIN，重新注册 Signal 时全部数据将丢失，除非使用手动备份并还原。PIN 禁用时，无法启用注册锁定。</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">如果禁用 PIN，重新注册 Morse 时全部数据将丢失，除非使用手动备份并还原。PIN 禁用时，无法启用注册锁定。</string>
   <string name="PinOptOutDialog_disable_pin">禁用 PIN</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">对此应用评分</string>
@@ -1097,7 +1097,7 @@
   <string name="ReactionsRecipientAdapter_you">您</string>
   <!--RecaptchaRequiredBottomSheetFragment-->
   <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">验证以继续发送消息</string>
-  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">为了防止 Signal 垃圾消息，请完成验证。</string>
+  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">为了防止 Morse 垃圾消息，请完成验证。</string>
   <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">验证之后，可继续发送消息。任何暂停消息将自动发送。</string>
   <!--Recipient-->
   <string name="Recipient_you">您</string>
@@ -1118,11 +1118,11 @@
   <string name="RedPhone_got_it">知道了</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">点击这里以启用视频</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Signal 需要访问您的麦克风来呼叫 %1$s</string>
-  <string name="WebRtcCallActivity__signal_s">Signal 呼叫 %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Morse 需要访问您的麦克风来呼叫 %1$s</string>
+  <string name="WebRtcCallActivity__signal_s">Morse 呼叫 %1$s</string>
   <string name="WebRtcCallActivity__calling">呼叫中…</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_call">Signal 通话</string>
+  <string name="WebRtcCallView__signal_call">Morse 通话</string>
   <string name="WebRtcCallView__start_call">发起通话</string>
   <string name="WebRtcCallView__join_call">加入通话</string>
   <string name="WebRtcCallView__call_is_full">通话人数已满</string>
@@ -1182,15 +1182,15 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">上方的电话号码是否正确？</string>
   <string name="RegistrationActivity_edit_number">编辑号码</string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play 服务缺失</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">设备缺少 Google Play 服务框架，可使用 Signal，但功能与稳定性将受到影响。\n\n如果您不是高级用户，或者运行的为原厂安卓系统，或者认为该提示有误，请联系 support@signal.org 获取帮助。</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">设备缺少 Google Play 服务框架，可使用 Morse，但功能与稳定性将受到影响。\n\n如果您不是高级用户，或者运行的为原厂安卓系统，或者认为该提示有误，请联系 support@devplusone.com 获取帮助。</string>
   <string name="RegistrationActivity_i_understand">我明白。</string>
   <string name="RegistrationActivity_play_services_error">Google Play 服务错误</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play 服务正在更新或者暂时不可用，请稍后再试。</string>
   <string name="RegistrationActivity_terms_and_privacy">条款和隐私政策</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">为了联系朋友，交换消息与进行加密呼叫，Signal 需要访问联系人和媒体。</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">为了联系朋友，交换消息与进行加密呼叫，Signal 需要访问联系人和媒体。</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">为了联系朋友，交换消息与进行加密呼叫，Morse 需要访问联系人和媒体。</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">为了联系朋友，交换消息与进行加密呼叫，Morse 需要访问联系人和媒体。</string>
   <string name="RegistrationActivity_rate_limited_to_service">您尝试注册此号码次数过多，请稍候再试。</string>
-  <string name="RegistrationActivity_unable_to_connect_to_service">无法连接到 Signal 服务，请检查网络连接并重试。</string>
+  <string name="RegistrationActivity_unable_to_connect_to_service">无法连接到 Morse 服务，请检查网络连接并重试。</string>
   <plurals name="RegistrationActivity_debug_log_hint">
     <item quantity="other">距离提交调试日志还有 %d 步之遥。</item>
   </plurals>
@@ -1209,7 +1209,7 @@
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">开启注册锁定？</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">关闭注册锁定？</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">再次注册 Signal 时，如果忘记 Signal PIN，将在 7 天内无法使用你的帐户。</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">再次注册 Morse 时，如果忘记 Morse PIN，将在 7 天内无法使用你的帐户。</string>
   <string name="RegistrationLockV2Dialog_turn_on">开启</string>
   <string name="RegistrationLockV2Dialog_turn_off">关闭</string>
   <!--RevealableMessageView-->
@@ -1225,16 +1225,16 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">添加到联系人</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">邀请使用 Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal 消息</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal 呼叫</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">邀请使用 Morse</string>
+  <string name="SharedContactDetailsActivity_signal_message">Morse 消息</string>
+  <string name="SharedContactDetailsActivity_signal_call">Morse 呼叫</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">添加到联系人</string>
-  <string name="SharedContactView_invite_to_signal">邀请使用 Signal</string>
-  <string name="SharedContactView_message">Signal 消息</string>
-  <!--SignalBottomActionBar-->
+  <string name="SharedContactView_invite_to_signal">邀请使用 Morse</string>
+  <string name="SharedContactView_message">Morse 消息</string>
+  <!--MorseBottomActionBar-->
   <string name="SignalBottomActionBar_more">更多</string>
-  <!--SignalPinReminders-->
+  <!--MorsePinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">稍后提示。</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">明天提示。</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">几天后提示。</string>
@@ -1257,14 +1257,14 @@
   <string name="SmsMessageRecord_secure_session_reset">您已重置安全会话。</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s 已重置安全会话。</string>
   <string name="SmsMessageRecord_duplicate_message">重复消息。</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">无法处理该消息，因其发自新版 Signal。请更新 Signal 并联系发送人重发。</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">无法处理该消息，因其发自新版 Morse。请更新 Morse 并联系发送人重发。</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">处理传入消息时出错。</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">表情</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">已安装表情</string>
   <string name="StickerManagementAdapter_stickers_you_received">收到的表情</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signal 艺术家系列</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Morse 艺术家系列</string>
   <string name="StickerManagementAdapter_no_stickers_installed">未安装表情</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">此处将显示传入消息中的表情</string>
   <string name="StickerManagementAdapter_untitled">未命名</string>
@@ -1290,8 +1290,8 @@
   <string name="SupportEmailUtil_filter">筛选器：</string>
   <string name="SupportEmailUtil_device_info">设备信息：</string>
   <string name="SupportEmailUtil_android_version">Android版本：</string>
-  <string name="SupportEmailUtil_signal_version">Signal版本:</string>
-  <string name="SupportEmailUtil_signal_package">Signal 软件包：</string>
+  <string name="SupportEmailUtil_signal_version">Morse版本:</string>
+  <string name="SupportEmailUtil_signal_package">Morse 软件包：</string>
   <string name="SupportEmailUtil_registration_lock">注册锁定：</string>
   <string name="SupportEmailUtil_locale">语言环境：</string>
   <!--ThreadRecord-->
@@ -1310,7 +1310,7 @@
   <string name="ThreadRecord_view_once_media">一次性媒体</string>
   <string name="ThreadRecord_this_message_was_deleted">消息已删除。</string>
   <string name="ThreadRecord_you_deleted_this_message">您删除了此消息。</string>
-  <string name="ThreadRecord_s_is_on_signal">%s 加入 Signal！</string>
+  <string name="ThreadRecord_s_is_on_signal">%s 加入 Morse！</string>
   <string name="ThreadRecord_disappearing_messages_disabled">已禁用阅后即焚</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">设置阅后即焚消失时间为 %s</string>
   <string name="ThreadRecord_safety_number_changed">安全码已更改</string>
@@ -1327,8 +1327,8 @@
   <string name="ThreadRecord_video">视频</string>
   <string name="ThreadRecord_chat_session_refreshed">聊天会话已刷新</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal 更新</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Signal 新版本可用，点击升级</string>
+  <string name="UpdateApkReadyListener_Signal_update">Morse 更新</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Morse 新版本可用，点击升级</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">发送消息？</string>
   <string name="UntrustedSendDialog_send">发送</string>
@@ -1347,19 +1347,19 @@
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">用户名不能以数字开头。</string>
   <string name="UsernameEditFragment_username_is_invalid">用户名无效。</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">用户名所含字符数量必须在 %1$d 与 %2$d 之间。</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Signal 上的用户名是可选功能。如果您选择创建用户名，其他 Signal 用户无需知道您的电话号码，即可通过此用户名与您取得联系。</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Morse 上的用户名是可选功能。如果您选择创建用户名，其他 Morse 用户无需知道您的电话号码，即可通过此用户名与您取得联系。</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="other">%d 个联系人在使用 Signal！</item>
+    <item quantity="other">%d 个联系人在使用 Morse！</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">联系人正在使用旧版 Signal。在验证安全码之前，请提示他们升级。</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">联系人正在使用较新版本的 Signal，其二维码格式不兼容。请升级并比较。</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">联系人正在使用旧版 Morse。在验证安全码之前，请提示他们升级。</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">联系人正在使用较新版本的 Morse，其二维码格式不兼容。请升级并比较。</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">扫描二维码所获的安全码格式有误，请重新扫描。</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">安全码分享方式…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">我们的 Signal 安全码：</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">我们的 Morse 安全码：</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">看起来设备上没有可用于分享的应用。</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">剪切板没有可比较的安全码</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal 需“相机”权限，来扫描二维码，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“相机”。</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Morse 需“相机”权限，来扫描二维码，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“相机”。</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">没有“相机”权限，无法扫描二维码</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">为了查看 %1$s 的安全码，必须首先交换消息。</string>
   <!--ViewOnceMessageActivity-->
@@ -1378,13 +1378,13 @@
   <string name="ApplicationMigrationService_system_database_import_is_complete">系统数据库导入完毕。</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">点击开启。</string>
-  <string name="KeyCachingService_passphrase_cached">Signal 已解锁</string>
-  <string name="KeyCachingService_lock">锁定 Signal</string>
+  <string name="KeyCachingService_passphrase_cached">Morse 已解锁</string>
+  <string name="KeyCachingService_lock">锁定 Morse</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">您</string>
   <string name="MediaPreviewActivity_unssuported_media_type">不支持的媒体类型</string>
   <string name="MediaPreviewActivity_draft">草稿</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal 需“存储”权限，来保存文件至外部存储，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“存储”。</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Morse 需“存储”权限，来保存文件至外部存储，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“存储”。</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">没有权限，无法保存至外部存储</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">删除消息？</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">这将永久删除该消息。</string>
@@ -1399,17 +1399,17 @@
   <string name="MessageNotifier_failed_to_deliver_message">消息发送失败。</string>
   <string name="MessageNotifier_error_delivering_message">发送消息出错。</string>
   <string name="MessageNotifier_message_delivery_paused">消息发送已暂停。</string>
-  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">验证以继续在 Signal 上发送消息。</string>
+  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">验证以继续在 Morse 上发送消息。</string>
   <string name="MessageNotifier_mark_all_as_read">全部已读</string>
   <string name="MessageNotifier_mark_read">已读</string>
   <string name="MessageNotifier_turn_off_these_notifications">关闭这些通知</string>
   <string name="MessageNotifier_view_once_photo">一次性图片</string>
   <string name="MessageNotifier_view_once_video">一次性图片</string>
   <string name="MessageNotifier_reply">回复</string>
-  <string name="MessageNotifier_signal_message">Signal 消息</string>
+  <string name="MessageNotifier_signal_message">Morse 消息</string>
   <string name="MessageNotifier_unsecured_sms">不安全短信</string>
   <string name="MessageNotifier_you_may_have_new_messages">您有新的消息</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">打开 Signal 查看最近通知。</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">打开 Morse 查看最近通知。</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">联系人</string>
   <string name="MessageNotifier_reacted_s_to_s">对：“%2$s”回应 %1$s。</string>
@@ -1420,7 +1420,7 @@
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">对你的阅后即焚媒体文件回应了%1$s</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">对你的表情回应 %1$s。</string>
   <string name="MessageNotifier_this_message_was_deleted">消息已删除。</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">关闭联系人加入 Signal 的通知吗？您可以在 Signal &gt; 设置 &gt; 通知 中再次启用。</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">关闭联系人加入 Morse 的通知吗？您可以在 Morse &gt; 设置 &gt; 通知 中再次启用。</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">消息</string>
   <string name="NotificationChannel_calls">通话</string>
@@ -1432,11 +1432,11 @@
   <string name="NotificationChannel_group_chats">聊天</string>
   <string name="NotificationChannel_missing_display_name">未知</string>
   <string name="NotificationChannel_voice_notes">语音笔记</string>
-  <string name="NotificationChannel_contact_joined_signal">联系人加入 Signal</string>
+  <string name="NotificationChannel_contact_joined_signal">联系人加入 Morse</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">无可用活动以打开通知渠道设置。</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Signal 锁定时不可使用快速回复。</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Morse 锁定时不可使用快速回复。</string>
   <string name="QuickResponseService_problem_sending_message">发送消息时出现问题！</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">已保存至 %s</string>
@@ -1447,7 +1447,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">无效的快捷方式</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Morse</string>
   <string name="SingleRecipientNotificationBuilder_new_message">新消息</string>
   <string name="SingleRecipientNotificationBuilder_message_request">消息请求</string>
   <string name="SingleRecipientNotificationBuilder_you">您</string>
@@ -1460,10 +1460,10 @@
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">设备已注销</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">这很可能是您在其他设备上使用号码注册了 Signal。点击重新注册。</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">这很可能是您在其他设备上使用号码注册了 Morse。点击重新注册。</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">为了接听 %s 的来电，请允许 Signal 访问麦克风。</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal 需“麦克风”和“相机”权限，来进行通话，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“麦克风”和“相机”。</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">为了接听 %s 的来电，请允许 Morse 访问麦克风。</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Morse 需“麦克风”和“相机”权限，来进行通话，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“麦克风”和“相机”。</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">已在在其它设备上接听。</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">已在其它设备上拒接。</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">在其它设备上忙碌未接。</string>
@@ -1487,7 +1487,7 @@
   <string name="change_passphrase_activity__repeat_new_passphrase">重复新密码</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">请输入名称或号码</string>
-  <string name="contact_selection_activity__invite_to_signal">邀请使用 Signal</string>
+  <string name="contact_selection_activity__invite_to_signal">邀请使用 Morse</string>
   <string name="contact_selection_activity__new_group">新建群组</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">清除已输入文字</string>
@@ -1499,27 +1499,27 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">联系人图片</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal 需“联系人”权限，来显示联系人，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“联系人”。</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Morse 需“联系人”权限，来显示联系人，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“联系人”。</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">获取联系人出错，请检查您的网络连接</string>
   <string name="ContactSelectionListFragment_username_not_found">未找到该用户名</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">“%1$s”不是 Signal 用户，请检查用户名并重试。</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">“%1$s”不是 Morse 用户，请检查用户名并重试。</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">您不需要将自己添加到群组中</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">已达到群组人数上限</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal 群组最多可有 %1$d 个成员。</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Morse 群组最多可有 %1$d 个成员。</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">已达到建议成员数上限</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">成员不多于 %1$d 时 Signal 群组性能最佳。更多成员可造成消息接发延迟。</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">成员不多于 %1$d 时 Morse 群组性能最佳。更多成员可造成消息接发延迟。</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="other">%1$d 个成员</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">为了显示联系人，Signal 需要其访问权限。</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">为了显示联系人，Morse 需要其访问权限。</string>
   <string name="contact_selection_list_fragment__show_contacts">显示联系人</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
     <item quantity="other">%1$d位成员</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">发送 Signal 消息</string>
+  <string name="conversation_activity__type_message_push">发送 Morse 消息</string>
   <string name="conversation_activity__type_message_sms_insecure">不安全短信</string>
   <string name="conversation_activity__type_message_mms_insecure">不安全彩信</string>
   <string name="conversation_activity__from_sim_name">来自 %1$s</string>
@@ -1531,7 +1531,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">切换快速相机附件抽屉</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">录音并分享附件</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">锁定音频附件录音状态</string>
-  <string name="conversation_activity__enable_signal_for_sms">启用 Signal 短信功能</string>
+  <string name="conversation_activity__enable_signal_for_sms">启用 Morse 短信功能</string>
   <string name="conversation_activity__message_could_not_be_sent">无法发送消息，请检查您的网络后再试。</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">滑动取消</string>
@@ -1581,7 +1581,7 @@
   <string name="safety_number_change_dialog__join_call">加入通话</string>
   <string name="safety_number_change_dialog__continue_call">继续通话</string>
   <string name="safety_number_change_dialog__leave_call">离开通话</string>
-  <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">以下用户可能重新安装了 Signal 或更换了设备，请重新与之验证安全码以保护您的隐私。</string>
+  <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">以下用户可能重新安装了 Morse 或更换了设备，请重新与之验证安全码以保护您的隐私。</string>
   <string name="safety_number_change_dialog__view">查看</string>
   <string name="safety_number_change_dialog__previous_verified">已验证</string>
   <!--EnableCallNotificationSettingsDialog__call_notifications_checklist-->
@@ -1634,9 +1634,9 @@
   <string name="IdentityUtil_unverified_banner_one">您与 %s 的安全码已更改，并不再标识为已验证</string>
   <string name="IdentityUtil_unverified_banner_two">您与 %1$s 和 %2$s 的安全码已不再标识未已验证</string>
   <string name="IdentityUtil_unverified_banner_many">您与 %1$s、%2$s 和 %3$s 的安全码已不再标识为已验证</string>
-  <string name="IdentityUtil_unverified_dialog_one">您与 %1$s 的安全码已更改，并不再标识为已验证。可能有人试图截获你的通信，或者只是 %1$s 重装了 Signal。</string>
-  <string name="IdentityUtil_unverified_dialog_two">您与 %1$s 和 %2$s 的安全码不再标识为已验证。可能有人试图截获你的通信，或者只是他们重装了 Signal。</string>
-  <string name="IdentityUtil_unverified_dialog_many">您与 %1$s、%2$s 和 %3$s 的安全码不再标识为已验证。可能有人试图截获你的通信，或者只是他们重装了 Signal。</string>
+  <string name="IdentityUtil_unverified_dialog_one">您与 %1$s 的安全码已更改，并不再标识为已验证。可能有人试图截获你的通信，或者只是 %1$s 重装了 Morse。</string>
+  <string name="IdentityUtil_unverified_dialog_two">您与 %1$s 和 %2$s 的安全码不再标识为已验证。可能有人试图截获你的通信，或者只是他们重装了 Morse。</string>
+  <string name="IdentityUtil_unverified_dialog_many">您与 %1$s、%2$s 和 %3$s 的安全码不再标识为已验证。可能有人试图截获你的通信，或者只是他们重装了 Morse。</string>
   <string name="IdentityUtil_untrusted_dialog_one">您与 %s 的安全码刚刚更改。</string>
   <string name="IdentityUtil_untrusted_dialog_two">您与 %1$s 和 %2$s 的安全码刚刚更改。</string>
   <string name="IdentityUtil_untrusted_dialog_many">您与 %1$s、%2$s 和 %3$s 的安全码刚刚更改。</string>
@@ -1648,7 +1648,7 @@
   <!--giphy_fragment-->
   <string name="giphy_fragment__nothing_found">未找到</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">是否将现有短信导入至 Signal 加密数据库？</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">是否将现有短信导入至 Morse 加密数据库？</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">默认系统数据库不会发生任何形式的修改或变更。</string>
   <string name="database_migration_activity__skip">跳过</string>
   <string name="database_migration_activity__import">导入</string>
@@ -1670,7 +1670,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">解锁</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">为了通过电信运营商发送媒体和群组消息，Signal 需要访问彩信设置。无法从你的设备获取相关信息。对于锁定设备或限制性配置的设备，有时存在这种情况。</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">为了通过电信运营商发送媒体和群组消息，Morse 需要访问彩信设置。无法从你的设备获取相关信息。对于锁定设备或限制性配置的设备，有时存在这种情况。</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">如需发送媒体和群组消息，点击“确定”并完成所需的设置。通常可搜索“运营商 APN”，来找到相应的彩信设置。该操作只需进行一次。</string>
   <!--BadDecryptLearnMoreDialog-->
   <string name="BadDecryptLearnMoreDialog_delivery_issue">发送问题</string>
@@ -1759,7 +1759,7 @@
   <string name="HelpFragment__how_do_you_feel">你觉得怎么样？ （可选的）</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">请告知您联系我们的因由。</string>
   <string name="HelpFragment__support_info">支持信息</string>
-  <string name="HelpFragment__signal_android_support_request">Signal Android支持请求</string>
+  <string name="HelpFragment__signal_android_support_request">Morse Android支持请求</string>
   <string name="HelpFragment__debug_log">调试日志：</string>
   <string name="HelpFragment__could_not_upload_logs">无法上传日志</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">请尽可能描述一下，以帮助我们理解该问题。</string>
@@ -1810,8 +1810,8 @@
   <string name="preferences__sms_mms">短信和彩信</string>
   <string name="preferences__pref_all_sms_title">接收全部短信</string>
   <string name="preferences__pref_all_mms_title">接收全部彩信</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">使用 Signal 接收全部短信。</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">使用 Signal 接收全部彩信。</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">使用 Morse 接收全部短信。</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">使用 Morse 接收全部彩信。</string>
   <string name="preferences__pref_enter_sends_title">按回车发送</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">按回车键发送短信</string>
   <string name="preferences__pref_use_address_book_photos">使用通讯录图片</string>
@@ -1825,8 +1825,8 @@
   <string name="preferences__enable_passphrase">启用屏幕锁定密码</string>
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">使用密码锁定屏幕和通知</string>
   <string name="preferences__screen_security">屏幕安全</string>
-  <string name="preferences__disable_screen_security_to_allow_screen_shots">屏蔽最近使用应用和 Signal 截屏</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">如果 Signal 非活动状态超过指定时间，自动锁定</string>
+  <string name="preferences__disable_screen_security_to_allow_screen_shots">屏蔽最近使用应用和 Morse 截屏</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">如果 Morse 非活动状态超过指定时间，自动锁定</string>
   <string name="preferences__inactivity_timeout_passphrase">非活动逾时密码</string>
   <string name="preferences__inactivity_timeout_interval">非活动逾时时长</string>
   <string name="preferences__notifications">通知</string>
@@ -1857,7 +1857,7 @@
   <string name="preferences__slow">缓慢</string>
   <string name="preferences__help">帮助</string>
   <string name="preferences__advanced">高级</string>
-  <string name="preferences__donate_to_signal">捐赠 Signal</string>
+  <string name="preferences__donate_to_signal">捐赠 Morse</string>
   <string name="preferences__privacy">隐私</string>
   <string name="preferences__mms_user_agent">彩信用户代理</string>
   <string name="preferences__advanced_mms_access_point_names">手动设置彩信</string>
@@ -1884,13 +1884,13 @@
   <string name="preferences__chat_color_and_wallpaper">聊天颜色与墙纸</string>
   <string name="preferences__disable_pin">禁用 PIN 码</string>
   <string name="preferences__enable_pin">启用 PIN 码</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">如果禁用 PIN 码，重新注册 Signal 时全部数据将丢失，除非使用手动备份并还原。PIN 码禁用时，无法启用注册锁定。</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN 用于加密 Signal 存储的信息，这样只有你可以访问。重装之后，可还原你的个人资料、设置和联系人。打开 Signal 无需使用 PIN。</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">如果禁用 PIN 码，重新注册 Morse 时全部数据将丢失，除非使用手动备份并还原。PIN 码禁用时，无法启用注册锁定。</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN 用于加密 Morse 存储的信息，这样只有你可以访问。重装之后，可还原你的个人资料、设置和联系人。打开 Morse 无需使用 PIN。</string>
   <string name="preferences__system_default">系统默认</string>
   <string name="preferences__language">语言</string>
-  <string name="preferences__signal_messages_and_calls">Signal 消息和通话</string>
+  <string name="preferences__signal_messages_and_calls">Morse 消息和通话</string>
   <string name="preferences__advanced_pin_settings">高级 PIN 设置</string>
-  <string name="preferences__free_private_messages_and_calls">Signal 用户可使用免费的加密消息和通话</string>
+  <string name="preferences__free_private_messages_and_calls">Morse 用户可使用免费的加密消息和通话</string>
   <string name="preferences__submit_debug_log">提交调试日志</string>
   <string name="preferences__delete_account">删除帐户</string>
   <string name="preferences__support_wifi_calling">“WiFi 呼叫”兼容模式</string>
@@ -1930,8 +1930,8 @@
   <string name="preferences_storage__s_messages">%1$s 条消息</string>
   <string name="preferences_storage__custom">自定义</string>
   <string name="preferences_advanced__use_system_emoji">使用系统表情符号</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">禁用 Signal 内置表情</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">通过 Signal 服务器中转全部通话，避免向联系人显示 IP 地址。启用该选项会降低通话质量。</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">禁用 Morse 内置表情</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">通过 Morse 服务器中转全部通话，避免向联系人显示 IP 地址。启用该选项会降低通话质量。</string>
   <string name="preferences_advanced__always_relay_calls">总是转发通话</string>
   <string name="preferences_app_protection__who_can">谁能…</string>
   <string name="preferences_app_protection__app_access">应用访问</string>
@@ -1951,9 +1951,9 @@
   <string name="preferences_notifications__calls">通话</string>
   <string name="preferences_notifications__ringtone">铃声</string>
   <string name="preferences_chats__show_invitation_prompts">显示邀请提示</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">对非 Signal 联系人显示邀请提示</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">对非 Morse 联系人显示邀请提示</string>
   <string name="preferences_chats__message_text_size">消息字体大小</string>
-  <string name="preferences_events__contact_joined_signal">联系人加入 Signal</string>
+  <string name="preferences_events__contact_joined_signal">联系人加入 Morse</string>
   <string name="preferences_notifications__priority">优先级</string>
   <string name="preferences_communication__category_sealed_sender">密封发送人</string>
   <string name="preferences_communication__sealed_sender_display_indicators">显示状态</string>
@@ -1967,7 +1967,7 @@
   <string name="preferences_off">关</string>
   <string name="preferences_on">开启</string>
   <string name="preferences_proxy_address">代理地址</string>
-  <string name="preferences_only_use_a_proxy_if">仅在无法通过移动数据或 Wi-Fi 连接 Signal 时，使用代理。</string>
+  <string name="preferences_only_use_a_proxy_if">仅在无法通过移动数据或 Wi-Fi 连接 Morse 时，使用代理。</string>
   <string name="preferences_share">分享</string>
   <string name="preferences_save">保存</string>
   <string name="preferences_connecting_to_proxy">正在连接代理…</string>
@@ -1986,7 +1986,7 @@
   <string name="PaymentsAllActivityFragment__sent">发送</string>
   <string name="PaymentsAllActivityFragment__received">接收</string>
   <string name="PaymentsHomeFragment__introducing_payments">推出付款功能（Beta 版）</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">使用 Signal 收发 MobileCoin，一种关注隐私的新数字货币。请激活开始使用。</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">使用 Morse 收发 MobileCoin，一种关注隐私的新数字货币。请激活开始使用。</string>
   <string name="PaymentsHomeFragment__activate_payments">激活付款</string>
   <string name="PaymentsHomeFragment__activating_payments">正在激活付款…</string>
   <string name="PaymentsHomeFragment__restore_payments_account">还原付款帐户</string>
@@ -2013,17 +2013,17 @@
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">您所在地区付款不可用。</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">无法启用付款，请稍后重试。</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">是否停用付款？</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">停用付款之后，将无法在 Signal 中收发 MobileCoin。</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">停用付款之后，将无法在 Morse 中收发 MobileCoin。</string>
   <string name="PaymentsHomeFragment__deactivate">停用</string>
   <string name="PaymentsHomeFragment__continue">继续</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">余额当前不可用。</string>
   <string name="PaymentsHomeFragment__payments_deactivated">付款已停用。</string>
   <string name="PaymentsHomeFragment__payment_failed">付款失败</string>
   <string name="PaymentsHomeFragment__details">更多</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">可使用 Signal 收发 MobileCoin。全部付款遵守 MobileCoins 以及 MobileCoin Wallet 的使用条款。付款当前仍为 beta 功能，可能出现一些故障，可能丢失付款或余额且不可恢复。</string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">可使用 Morse 收发 MobileCoin。全部付款遵守 MobileCoins 以及 MobileCoin Wallet 的使用条款。付款当前仍为 beta 功能，可能出现一些故障，可能丢失付款或余额且不可恢复。</string>
   <string name="PaymentsHomeFragment__activate">激活</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">查看 MobileCoin 条款</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Signal 的付款不再可用，不过您仍可将资金转移至交易平台，但是不再能够收发付款或添加资金。</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Morse 的付款不再可用，不过您仍可将资金转移至交易平台，但是不再能够收发付款或添加资金。</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">添加资金</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">您的钱包地址</string>
@@ -2060,10 +2060,10 @@
   <string name="PaymentsTransferFragment__next">下一步</string>
   <string name="PaymentsTransferFragment__invalid_address">无效地址</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">请检查转帐至的钱包地址，然后重试。</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">无法向您的 Signal 钱包地址转帐。请输入支持的交易平台帐户的钱包地址。</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">为了扫描二维码，Signal 需摄像头访问权限。</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Signal 需“相机”权限，来扫描二维码。请访问设置菜单，选择“权限”并启用“相机”。</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">为了扫描二维码，Signal 需摄像头访问权限。</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">无法向您的 Morse 钱包地址转帐。请输入支持的交易平台帐户的钱包地址。</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">为了扫描二维码，Morse 需摄像头访问权限。</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Morse 需“相机”权限，来扫描二维码。请访问设置菜单，选择“权限”并启用“相机”。</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">为了扫描二维码，Morse 需摄像头访问权限。</string>
   <string name="PaymentsTransferFragment__settings">设置</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">扫描地址二维码</string>
@@ -2121,8 +2121,8 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">呼叫</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal 呼叫</string>
-  <string name="conversation_callable_secure__menu_video">Signal 视频通话</string>
+  <string name="conversation_callable_secure__menu_call">Morse 呼叫</string>
+  <string name="conversation_callable_secure__menu_video">Morse 视频通话</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">消息详情</string>
   <string name="conversation_context__menu_copy_text">复制文本</string>
@@ -2194,10 +2194,10 @@
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">与剪切板中的内容进行比较</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">导入系统短信</string>
-  <string name="reminder_header_sms_import_text">点击将手机短信复制到 Signal 加密数据库。</string>
-  <string name="reminder_header_push_title">启用 Signal 消息和呼叫</string>
+  <string name="reminder_header_sms_import_text">点击将手机短信复制到 Morse 加密数据库。</string>
+  <string name="reminder_header_push_title">启用 Morse 消息和呼叫</string>
   <string name="reminder_header_push_text">升级您的通信体验。</string>
-  <string name="reminder_header_service_outage_text">Signal 出现技术故障，我们将努力处理尽快恢复服务。</string>
+  <string name="reminder_header_service_outage_text">Morse 出现技术故障，我们将努力处理尽快恢复服务。</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">保存</string>
@@ -2213,22 +2213,22 @@
   <string name="Insights__percent">%</string>
   <string name="Insights__title">见解</string>
   <string name="InsightsDashboardFragment__title">见解</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">在过去 %2$d 天，Signal Protocol 自动保护 %1$d%% 的传出消息。Signal 用户之间的对话一直为端对端加密。</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">提升 Signal 得分</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">在过去 %2$d 天，Morse Protocol 自动保护 %1$d%% 的传出消息。Morse 用户之间的对话一直为端对端加密。</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">提升 Morse 得分</string>
   <string name="InsightsDashboardFragment__not_enough_data">数据不足</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">您的“见解”中计算得到的百分比，来自过去 %1$d 天内未消失或删除的传出消息。</string>
   <string name="InsightsDashboardFragment__start_a_conversation">开始聊天</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">邀请更多好友加入 Signal，可使用更多新功能，不受非加密短信的限制，开启安全沟通新旅程。</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">邀请更多好友加入 Morse，可使用更多新功能，不受非加密短信的限制，开启安全沟通新旅程。</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">该统计信息为本地生成，仅对您自己可见，不会发布至其他地方。</string>
   <string name="InsightsDashboardFragment__encrypted_messages">加密消息</string>
   <string name="InsightsDashboardFragment__cancel">取消</string>
   <string name="InsightsDashboardFragment__send">发送</string>
   <string name="InsightsModalFragment__title">新推出“见解”功能</string>
-  <string name="InsightsModalFragment__description">查看多少传出消息安全发送，并可快速邀请好友一起使用 Signal，提高你的百分比。</string>
+  <string name="InsightsModalFragment__description">查看多少传出消息安全发送，并可快速邀请好友一起使用 Morse，提高你的百分比。</string>
   <string name="InsightsModalFragment__view_insights">查看“见解”</string>
-  <string name="FirstInviteReminder__title">邀请加入 Signal</string>
+  <string name="FirstInviteReminder__title">邀请加入 Morse</string>
   <string name="FirstInviteReminder__description">可增加发送的加密消息数量：%1$d%%</string>
-  <string name="SecondInviteReminder__title">提升 Signal 得分</string>
+  <string name="SecondInviteReminder__title">提升 Morse 得分</string>
   <string name="SecondInviteReminder__description">邀请 %1$s</string>
   <string name="InsightsReminder__view_insights">查看“见解”</string>
   <string name="InsightsReminder__invite">邀请</string>
@@ -2247,7 +2247,7 @@
   <string name="CreateKbsPinFragment__create_a_new_pin">新建 PIN 码</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">只有该设备已注册，你可以更改你的 PIN。</string>
   <string name="CreateKbsPinFragment__create_your_pin">创建 PIN 码</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN 码用于加密 Signal 存储的信息，只有您可以访问。借此可在您重装后还原个人资料、设置和联系人。打开 Signal 无需使用 PIN 码。</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN 码用于加密 Morse 存储的信息，只有您可以访问。借此可在您重装后还原个人资料、设置和联系人。打开 Morse 无需使用 PIN 码。</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">选择更安全 PIN 码</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PIN 码不匹配，请重试。</string>
@@ -2259,7 +2259,7 @@
   <string name="ConfirmKbsPinFragment__creating_pin">正在创建 PIN…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">新推出 PIN 密码功能</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN 用于加密 Signal 存储的信息，只有您可以访问。借此可在您重装后还原个人资料、设置和联系人。打开 Signal 无需使用 PIN。</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN 用于加密 Morse 存储的信息，只有您可以访问。借此可在您重装后还原个人资料、设置和联系人。打开 Morse 无需使用 PIN。</string>
   <string name="KbsSplashFragment__learn_more">了解更多</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">注册锁定 = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">注册锁定现在改名为 PIN，功能更强大，马上更新。</string>
@@ -2268,7 +2268,7 @@
   <string name="KbsSplashFragment__learn_more_about_pins">了解更多关于 PIN 码的信息</string>
   <string name="KbsSplashFragment__disable_pin">禁用 PIN 码</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">请输入 Signal PIN 码</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">请输入 Morse PIN 码</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">为了便于记住 PIN 码，我们将定期提示输入该密码。提示次数将逐渐减少。</string>
   <string name="KbsReminderDialog__skip">跳过</string>
   <string name="KbsReminderDialog__submit">提交</string>
@@ -2289,8 +2289,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">PIN 错误</string>
   <string name="RegistrationLockFragment__forgot_your_pin">忘记 PIN？</string>
   <string name="RegistrationLockFragment__not_many_tries_left">可尝试的次数不多了！</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal 注册 - 关于 Android 版 PIN 需要帮助（v1 PIN）</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal 注册 - 关于 Android 版本 PIN 需要帮助（v2 PIN）</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Morse 注册 - 关于 Android 版 PIN 需要帮助（v1 PIN）</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Morse 注册 - 关于 Android 版本 PIN 需要帮助（v2 PIN）</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="other">为了保护你的隐私和安全，你无法找回你的PIN码。如果您记不住您的PIN码，你可以在%1$d天的帐户不活跃后用短信重新验证。在这种情况下，你的帐户会被抹除并且所有的信息都会被删除。</item>
   </plurals>
@@ -2310,15 +2310,15 @@
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s 将收到您的消息请求，对发接受邀请后您即可向其发起通话。</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">创建 PIN 码</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Signal 储存的信息使用你的 PIN 码来加密。</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Morse 储存的信息使用你的 PIN 码来加密。</string>
   <string name="KbsMegaphone__create_pin">创建 PIN 码</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">发表您的 Signal 的感想</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">您的意见将成为 Signal 称霸即时通信界的基础，我们期待您的反馈！</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">发表您的 Morse 的感想</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">您的意见将成为 Morse 称霸即时通信界的基础，我们期待您的反馈！</string>
   <string name="ResearchMegaphone_learn_more">了解更多</string>
   <string name="ResearchMegaphone_dismiss">清除</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Signal 搜索</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>我们尊重隐私。</b></p><p>Signal 不会跟踪或搜集您的数据。我们需要用户反馈来改进 Signal ，<b>你的宝贵意见不可或缺。</b></p><p>我们正在做一份关于您使用 Signal 的调研。此调研不会搜集任何泄漏您身份的信息。若有兴趣分享更多反馈，您可以选择性提供联系方式。</p><p>如果您能抽出几分钟完成调研，我们将翘首以待。</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Morse 搜索</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>我们尊重隐私。</b></p><p>Morse 不会跟踪或搜集您的数据。我们需要用户反馈来改进 Morse ，<b>你的宝贵意见不可或缺。</b></p><p>我们正在做一份关于您使用 Morse 的调研。此调研不会搜集任何泄漏您身份的信息。若有兴趣分享更多反馈，您可以选择性提供联系方式。</p><p>如果您能抽出几分钟完成调研，我们将翘首以待。</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">参与调研</string>
   <string name="ResearchMegaphoneDialog_no_thanks">不，谢谢。</string>
   <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">该调查使用 Alchemer 并托管在安全域名 surveys.signalusers.org 上</string>
@@ -2327,11 +2327,11 @@
   <string name="ConversationListFragment_loading">正在加载…</string>
   <string name="CallNotificationBuilder_connecting">正在连接…</string>
   <string name="Permissions_permission_required">所需权限</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal 需“短信”权限，来发送短信，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“短信”。</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Morse 需“短信”权限，来发送短信，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“短信”。</string>
   <string name="Permissions_continue">继续</string>
   <string name="Permissions_not_now">稍后再说</string>
-  <string name="conversation_activity__enable_signal_messages">启用 Signal 消息</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">迁移 Signal 数据库</string>
+  <string name="conversation_activity__enable_signal_messages">启用 Morse 消息</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">迁移 Morse 数据库</string>
   <string name="PushDecryptJob_new_locked_message">新的锁定消息</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">解锁查看待处理消息</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">备份密码</string>
@@ -2349,7 +2349,7 @@
   <string name="preferences_chats__transfer_account_to_a_new_android_device">转移帐户至新的 Android 设备</string>
   <string name="RegistrationActivity_enter_backup_passphrase">输入备份密码</string>
   <string name="RegistrationActivity_restore">还原</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">无法从较新版本的 Signal 导入备份</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">无法从较新版本的 Morse 导入备份</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">备份密码错误</string>
   <string name="RegistrationActivity_checking">正在检查…</string>
   <string name="RegistrationActivity_d_messages_so_far">已处理 %d 条消息…</string>
@@ -2380,8 +2380,8 @@
   <string name="ProgressPreference_d_messages_so_far">已处理 %d 条消息</string>
   <string name="RegistrationActivity_wrong_number">号码错误</string>
   <string name="RegistrationActivity_call_me_instead_available_in">电话验证\n（%1$02d:%2$02d 后可用）</string>
-  <string name="RegistrationActivity_contact_signal_support">联系 Signal 支持</string>
-  <string name="RegistrationActivity_code_support_subject">Signal 注册 - 安卓验证码</string>
+  <string name="RegistrationActivity_contact_signal_support">联系 Morse 支持</string>
+  <string name="RegistrationActivity_code_support_subject">Morse 注册 - 安卓验证码</string>
   <string name="RegistrationActivity_incorrect_code">验证码不正确</string>
   <string name="BackupUtil_never">永不</string>
   <string name="BackupUtil_unknown">未知</string>
@@ -2391,21 +2391,21 @@
   <string name="PhoneNumberPrivacy_my_contacts">我的联系人</string>
   <string name="PhoneNumberPrivacy_nobody">没有人</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">您的电话号码将对所有对话者和群组成员可见。</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">电话簿里存有您电话号码的用户会在 Signal 联系人列表里看到您。其它知晓您电话号码的用户将能在搜索界面找到您。</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">电话簿里存有您电话号码的用户会在 Morse 联系人列表里看到您。其它知晓您电话号码的用户将能在搜索界面找到您。</string>
   <string name="preferences_app_protection__screen_lock">屏幕锁定</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">使用 Android 锁屏或者指纹锁定 Signal</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">使用 Android 锁屏或者指纹锁定 Morse</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">不活跃锁屏逾时</string>
-  <string name="preferences_app_protection__signal_pin">Signal PIN 码</string>
+  <string name="preferences_app_protection__signal_pin">Morse PIN 码</string>
   <string name="preferences_app_protection__create_a_pin">创建 PIN 码</string>
   <string name="preferences_app_protection__change_your_pin">更改 PIN 码</string>
   <string name="preferences_app_protection__pin_reminders">PIN 码提醒</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN 用于加密 Signal 存储的信息，这样只有你可以访问。重装 Signal 之后，可还原你的个人资料、设置和联系人。</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">再次使用电话号码注册 Signal 时，要求输入 PIN，这样提供了更多安全性。</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN 用于加密 Morse 存储的信息，这样只有你可以访问。重装 Morse 之后，可还原你的个人资料、设置和联系人。</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">再次使用电话号码注册 Morse 时，要求输入 PIN，这样提供了更多安全性。</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">PIN 无法恢复，提醒有助于记住它。提醒频率将逐渐降低。</string>
   <string name="preferences_app_protection__turn_off">关闭</string>
   <string name="preferences_app_protection__confirm_pin">确认 PIN</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">请确认您的 Signal PIN 码</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">请确保你能牢记或安全保存好你的 PIN 码，因为它不能被找回。如果你忘记了 PIN 码，你可能会在重新注册 Signal 账号时丢失一些数据。</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">请确认您的 Morse PIN 码</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">请确保你能牢记或安全保存好你的 PIN 码，因为它不能被找回。如果你忘记了 PIN 码，你可能会在重新注册 Morse 账号时丢失一些数据。</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">PIN 错误，请重试。</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">无法启用注册锁。</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">无法禁用注册锁。</string>
@@ -2418,19 +2418,19 @@
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">您的尝试次数过多，请稍候再试。</string>
   <string name="RegistrationActivity_error_connecting_to_service">连接服务出错</string>
   <string name="preferences_chats__backups">备份</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal 已锁定</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Morse 已锁定</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">点击解锁</string>
   <string name="Recipient_unknown">未知</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">转移或还原帐户</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">如果之前已注册 Signal 帐户，可转移或还原您的帐户和消息</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">如果之前已注册 Morse 帐户，可转移或还原您的帐户和消息</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">从 Android 设备转移</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">从旧的 Android 设备转移您的帐户和消息。您需要可访问旧设备。</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">您需要可访问旧设备。</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">从备份还原</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">从本地备份还原消息。如果现在不进行还原，以后将无法还原。</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">在旧的 Android 手机上打开 Signal</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">在旧的 Android 手机上打开 Morse</string>
   <string name="NewDeviceTransferInstructions__continue">继续</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">点击左上侧个人资料图片，打开设置。</string>
@@ -2442,18 +2442,18 @@
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">正在准备连接至旧的 Android 设备…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">请稍等，将很快准备就绪</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">正在等待旧的 Android 设备连接…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal 需位置权限，以发现并连接旧的 Android 设备。</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal 需已启用的位置服务，以发现并连接旧的 Android 设备。</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal 需开启的 Wi-Fi，以发现并连接旧的 Android 设备。Wi-Fi 需开启但不必连接 Wi-Fi 网络。</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，该设备好像不支持 Wi-Fi Direct。Signal 通过 Wi-Fi Direct 来发现并连接旧的 Android 设备。仍可通过从旧的 Android 设备还原帐户来还原备份。</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Morse 需位置权限，以发现并连接旧的 Android 设备。</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Morse 需已启用的位置服务，以发现并连接旧的 Android 设备。</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Morse 需开启的 Wi-Fi，以发现并连接旧的 Android 设备。Wi-Fi 需开启但不必连接 Wi-Fi 网络。</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，该设备好像不支持 Wi-Fi Direct。Morse 通过 Wi-Fi Direct 来发现并连接旧的 Android 设备。仍可通过从旧的 Android 设备还原帐户来还原备份。</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">还原备份</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">尝试连接旧的 Android 设备时，发生意外错误。</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">正在搜索新的 Android 设备…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal 需位置权限，以发现并连接新的 Android 设备。</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal 需已启用的位置服务，以发现并连接新的 Android 设备。</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal 需开启的 Wi-Fi，以发现并连接新的 Android 设备。Wi-Fi 需开启但不必连接 Wi-Fi 网络。</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，该设备好像不支持 Wi-Fi Direct。Signal 通过 Wi-Fi Direct 来发现并连接新的 Android 设备。仍可通过从新的 Android 设备还原帐户来还原备份。</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Morse 需位置权限，以发现并连接新的 Android 设备。</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Morse 需已启用的位置服务，以发现并连接新的 Android 设备。</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Morse 需开启的 Wi-Fi，以发现并连接新的 Android 设备。Wi-Fi 需开启但不必连接 Wi-Fi 网络。</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，该设备好像不支持 Wi-Fi Direct。Morse 通过 Wi-Fi Direct 来发现并连接新的 Android 设备。仍可通过从新的 Android 设备还原帐户来还原备份。</string>
   <string name="OldDeviceTransferSetup__create_a_backup">创建备份</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">尝试连接新的 Android 设备时，发生意外错误。</string>
   <!--DeviceTransferSetupFragment-->
@@ -2488,10 +2488,10 @@
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">在另一设备上点击“继续”，开始转移。</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">在另一设备上点击“继续”…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">无法从较新版 Signal 转移</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">无法从较新版 Morse 转移</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">正在转移数据</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">请确保两个设备互相贴近。不要关闭设备，并保持 Signal 运行。转移是端对端加密的。</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">请确保两个设备互相贴近。不要关闭设备，并保持 Morse 运行。转移是端对端加密的。</string>
   <string name="DeviceTransfer__d_messages_so_far">目前 %1$d 消息…</string>
   <string name="DeviceTransfer__cancel">取消</string>
   <string name="DeviceTransfer__try_again">重试</string>
@@ -2502,9 +2502,9 @@
   <string name="DeviceTransfer__unable_to_transfer">无法转移</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">转移帐户</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">在新的 Android 设备上设置 Signal 时，可转移您的 Signal 帐户。在继续下一步之前：</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">在新的 Android 设备上设置 Morse 时，可转移您的 Morse 帐户。在继续下一步之前：</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">在新的 Android 设备上下载 Signal</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">在新的 Android 设备上下载 Morse</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">点击“转移或还原帐户”</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2513,7 +2513,7 @@
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">转移完成</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">转至新设备</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">您的 Signal 数据已转移至新设备。为了完成转移流程，必须在新设备上继续注册。</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">您的 Morse 数据已转移至新设备。为了完成转移流程，必须在新设备上继续注册。</string>
   <string name="OldDeviceTransferComplete__close">关闭</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">成功转移 </string>
@@ -2530,7 +2530,7 @@
   <string name="DeviceToDeviceTransferService_status_service_connected">正在转移帐户…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">在新设备上完成注册</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">您的 Signal 帐户已转移到新设备，但必须在该设备上完成注册以继续。该设备上的 Signal 将停用。</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">您的 Morse 帐户已转移到新设备，但必须在该设备上完成注册以继续。该设备上的 Morse 将停用。</string>
   <string name="OldDeviceTransferLockedDialog__done">完成</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">取消并激活该设备</string>
   <!--AdvancedPreferenceFragment-->
@@ -2565,12 +2565,12 @@
   <string name="GroupsLearnMore_what_are_legacy_groups">什么是旧版群组？</string>
   <string name="GroupsLearnMore_paragraph_1">旧版群组不兼容新版群组的功能，如管理员和更完善群组更新通知。</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">我能升级旧版群组吗？</string>
-  <string name="GroupsLearnMore_paragraph_2">旧版群组暂时无法升级为新版群组，但若群成员都已升级到最新版 Signal，您可以创建一个包含相同成员的新版群组。</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal 将在未来提供升级旧版群组的渠道。</string>
+  <string name="GroupsLearnMore_paragraph_2">旧版群组暂时无法升级为新版群组，但若群成员都已升级到最新版 Morse，您可以创建一个包含相同成员的新版群组。</string>
+  <string name="GroupsLearnMore_paragraph_3">Morse 将在未来提供升级旧版群组的渠道。</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">任何人都能凭此链接查看群组名称和头像，并提交入群申请。请仅分享给您信任的人。</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">任何人都能凭此链接查看群组名称和头像，并加入群组。请仅分享给您信任的人。</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">通过 Signal 分享</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">通过 Morse 分享</string>
   <string name="GroupLinkBottomSheet_copy">复制</string>
   <string name="GroupLinkBottomSheet_qr_code">QR 代码</string>
   <string name="GroupLinkBottomSheet_share">分享</string>
@@ -2634,7 +2634,7 @@
   <string name="DeleteAccountFragment__no_number">未指定号码</string>
   <string name="DeleteAccountFragment__the_phone_number">您输入的手机号码和您的帐户不符。</string>
   <string name="DeleteAccountFragment__are_you_sure">您确定要删除您的账号吗？</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">这将会删除您的Signal帐户，并且会重置这个应用。这个应用将会在这个过程完成后关闭。</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">这将会删除您的Morse帐户，并且会重置这个应用。这个应用将会在这个过程完成后关闭。</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">删除帐户失败。您连接到网络了么？</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">删除本地数据失败。您可以手动在系统的应用设置中进行清除。</string>
   <string name="DeleteAccountFragment__launch_app_settings">打开应用设置</string>
@@ -2649,7 +2649,7 @@
   <string name="ShareActivity__share">分享</string>
   <string name="ShareActivity__send">发送</string>
   <string name="ShareActivity__comma_s">，%1$s</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">分享至多个聊天仅支持 Signal 消息。</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">分享至多个聊天仅支持 Morse 消息。</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">无法发送给某些用户</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">最多只能分享 %1$d 个对话</string>
@@ -2699,7 +2699,7 @@
   <string name="payment_info_card_about_mobilecoin">关于 MobileCoin</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin 是一种关注隐私的新数字货币。</string>
   <string name="payment_info_card_adding_funds">正在添加资金</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">通过将 MobileCoin 发送至钱包地址，即可在 Signal 中添加并使用资金。</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">通过将 MobileCoin 发送至钱包地址，即可在 Morse 中添加并使用资金。</string>
   <string name="payment_info_card_cashing_out">兑现</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">在支持 MobileCoin 的交易平台上，可随时兑现 MobileCoin。只需在该交易平台上，将资金转移至您的帐户。</string>
   <string name="payment_info_card_hide_this_card">是否隐藏该卡片？</string>
@@ -2713,18 +2713,18 @@
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">停用钱包</string>
   <string name="DeactivateWalletFragment__your_balance">您的余额</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">在停用付款之前，建议您将资金转移至其他钱包地址。如果当前选择不转移，在重新激活付款时，您的资金将保留在 Signal 关联的钱包内。</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">在停用付款之前，建议您将资金转移至其他钱包地址。如果当前选择不转移，在重新激活付款时，您的资金将保留在 Morse 关联的钱包内。</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">转移剩余余额</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">停用而不转移</string>
   <string name="DeactivateWalletFragment__deactivate">停用</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">是否停用而不转移？</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">当重新激活付款时，您的余额将保留在 Signal 关联的钱包内。</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">当重新激活付款时，您的余额将保留在 Morse 关联的钱包内。</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">停用钱包出错。</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">恢复短语</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">查看恢复短语</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">输入恢复短语</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">重新安装 Signal 并确认 Signal PIN 码后，将自动还原您的余额。另外，还可使用恢复短语，来还原您的余额。该短语包含 %1$d 个单词，并且对您是唯一的。请将其记下并妥善保存。</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">重新安装 Morse 并确认 Morse PIN 码后，将自动还原您的余额。另外，还可使用恢复短语，来还原您的余额。该短语包含 %1$d 个单词，并且对您是唯一的。请将其记下并妥善保存。</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">恢复短语包含 %1$d 个单词，并且对您是唯一的，可用于还原您的余额。</string>
   <string name="PaymentsRecoveryStartFragment__start">开始</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">手动输入</string>
@@ -2793,7 +2793,7 @@
   <!--AccountSettingsFragment-->
   <string name="AccountSettingsFragment__account">帐户</string>
   <string name="AccountSettingsFragment__youll_be_asked_less_frequently">提醒次数将逐渐减少</string>
-  <string name="AccountSettingsFragment__require_your_signal_pin">再次用您的手机号码注册 Signal，要求输入 Signal PIN 码。</string>
+  <string name="AccountSettingsFragment__require_your_signal_pin">再次用您的手机号码注册 Morse，要求输入 Morse PIN 码。</string>
   <!--ChangeNumberFragment-->
   <string name="ChangeNumberFragment__continue">继续</string>
   <!--ChangeNumberEnterPhoneNumberFragment-->
@@ -2819,15 +2819,15 @@
   <string name="NotificationsSettingsFragment__messages">消息</string>
   <string name="NotificationsSettingsFragment__calls">通话</string>
   <string name="NotificationsSettingsFragment__notify_when">发送通知，当…</string>
-  <string name="NotificationsSettingsFragment__contact_joins_signal">联系人加入 Signal</string>
+  <string name="NotificationsSettingsFragment__contact_joins_signal">联系人加入 Morse</string>
   <!--PrivacySettingsFragment-->
   <string name="PrivacySettingsFragment__blocked">已屏蔽</string>
   <string name="PrivacySettingsFragment__d_contacts">%1$d 个联系人</string>
   <string name="PrivacySettingsFragment__messaging">消息传输</string>
   <string name="PrivacySettingsFragment__disappearing_messages">限时消息</string>
   <string name="PrivacySettingsFragment__app_security">应用安全</string>
-  <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">屏蔽最近使用应用和 Signal 截屏</string>
-  <string name="PrivacySettingsFragment__signal_message_and_calls">Signal 消息和通话，总是转发通话以及密封发送人</string>
+  <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">屏蔽最近使用应用和 Morse 截屏</string>
+  <string name="PrivacySettingsFragment__signal_message_and_calls">Morse 消息和通话，总是转发通话以及密封发送人</string>
   <string name="PrivacySettingsFragment__default_timer_for_new_changes">新聊天的默认计时器</string>
   <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">对于您开启的全部新聊天，设置默认的限时消息计时器。</string>
   <!--AdvancedPrivacySettingsFragment-->
@@ -2858,7 +2858,7 @@
   <string name="HelpSettingsFragment__version">版本</string>
   <string name="HelpSettingsFragment__debug_log">调试日志</string>
   <string name="HelpSettingsFragment__terms_amp_privacy_policy">条款和隐私政策</string>
-  <string name="HelpFragment__copyright_signal_messenger">版权所有 Signal Messenger</string>
+  <string name="HelpFragment__copyright_signal_messenger">版权所有 Morse Messenger</string>
   <string name="HelpFragment__licenced_under_the_gplv3">根据 GPLv3 授权许可</string>
   <!--DataAndStorageSettingsFragment-->
   <string name="DataAndStorageSettingsFragment__high">高</string>
@@ -3007,7 +3007,7 @@
   <string name="MediaReviewSelectedItem__tap_to_select">点击选择</string>
   <string name="MediaReviewImagePageFragment__discard">放弃</string>
   <string name="SelectFeaturedBadgeFragment__preview">预览</string>
-  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Signal 由如您一样的用户提供动力。</string>
+  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Morse 由如您一样的用户提供动力。</string>
   <!-- Removed by excludeNonTranslatables <string name="SubscribeFragment__donation_amount">捐赠金额</string> -->
   <string name="SubscribeFragment__not_now">稍后再说</string>
   <string name="SubscribeFragment__confirm">确认</string>

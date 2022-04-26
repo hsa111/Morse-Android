@@ -76,7 +76,7 @@ public final class AttachmentUploadJob extends BaseJob {
                            .setMaxAttempts(Parameters.UNLIMITED)
                            .build(),
          attachmentId,
-         false);
+         true);
   }
 
   private AttachmentUploadJob(@NonNull Job.Parameters parameters, @NonNull AttachmentId attachmentId, boolean forceV2) {
@@ -261,7 +261,7 @@ public final class AttachmentUploadJob extends BaseJob {
   public static final class Factory implements Job.Factory<AttachmentUploadJob> {
     @Override
     public @NonNull AttachmentUploadJob create(@NonNull Parameters parameters, @NonNull org.thoughtcrime.securesms.jobmanager.Data data) {
-      return new AttachmentUploadJob(parameters, new AttachmentId(data.getLong(KEY_ROW_ID), data.getLong(KEY_UNIQUE_ID)), data.getBooleanOrDefault(KEY_FORCE_V2, false));
+      return new AttachmentUploadJob(parameters, new AttachmentId(data.getLong(KEY_ROW_ID), data.getLong(KEY_UNIQUE_ID)), data.getBooleanOrDefault(KEY_FORCE_V2, true));
     }
   }
 }

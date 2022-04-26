@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">Nytt meddelande</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal uppdateras…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Morse uppdateras…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Nuvarande: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Du har inte angivit ett lösenord än!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Inaktivera lösenord?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Detta låser upp Signal och meddelandeaviseringar permanent.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Detta låser upp Morse och meddelandeaviseringar permanent.</string>
   <string name="ApplicationPreferencesActivity_disable">Inaktivera</string>
   <string name="ApplicationPreferencesActivity_unregistering">Avregistrering</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Avregistrering från Signal-meddelanden och -samtal…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Inaktivera Signal-meddelanden och -samtal?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Inaktivera Signal-meddelanden och -samtal genom att avregistrera dig från servern. Du behöver återregistrera ditt telefonnummer för att kunna använda dem igen senare.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Avregistrering från Morse-meddelanden och -samtal…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Inaktivera Morse-meddelanden och -samtal?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Inaktivera Morse-meddelanden och -samtal genom att avregistrera dig från servern. Du behöver återregistrera ditt telefonnummer för att kunna använda dem igen senare.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Fel vid anslutning till server!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS aktiverat</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Tryck för att ändra din standardapp för SMS</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS inaktiverat</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Tryck för att göra Signal till din standardapp för SMS</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Tryck för att göra Morse till din standardapp för SMS</string>
   <string name="ApplicationPreferencesActivity_on">på</string>
   <string name="ApplicationPreferencesActivity_On">På</string>
   <string name="ApplicationPreferencesActivity_off">av</string>
@@ -58,14 +58,14 @@
   <string name="AttachmentKeyboard_file">Fil</string>
   <string name="AttachmentKeyboard_contact">Kontakt</string>
   <string name="AttachmentKeyboard_location">Plats</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal behöver behörighet för att visa dina foton och videoklipp.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Morse behöver behörighet för att visa dina foton och videoklipp.</string>
   <string name="AttachmentKeyboard_give_access">Ge åtkomst</string>
   <string name="AttachmentKeyboard_payment">Betalning</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Kan inte hitta app för att välja media.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal behöver behörigheten Lagring för att bifoga bilder, video och ljud men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal behöver behörigheten Kontakter för att bifoga kontaktinformation men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kontakter\".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal behöver behörigheten Plats för att bifoga platser men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Plats\".</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Morse behöver behörigheten Lagring för att bifoga bilder, video och ljud men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Morse behöver behörigheten Kontakter för att bifoga kontaktinformation men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kontakter\".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Morse behöver behörigheten Plats för att bifoga platser men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Plats\".</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Laddar upp media…</string>
   <string name="AttachmentUploadJob_compressing_video_start">Komprimerar video…</string>
@@ -109,26 +109,26 @@
   <string name="CameraXFragment_open_gallery_description">Öppna galleri</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Senaste kontakter</string>
-  <string name="CameraContacts_signal_contacts">Signal-kontakter</string>
-  <string name="CameraContacts_signal_groups">Signal-grupper</string>
+  <string name="CameraContacts_signal_contacts">Morse-kontakter</string>
+  <string name="CameraContacts_signal_groups">Morse-grupper</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">Du kan dela med högst %d konversationer.</string>
-  <string name="CameraContacts_select_signal_recipients">Välj Signal-mottagare</string>
-  <string name="CameraContacts_no_signal_contacts">Inga Signal-kontakter</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Du kan bara använda kameraknappen för att skicka foton till Signal-kontakter.</string>
+  <string name="CameraContacts_select_signal_recipients">Välj Morse-mottagare</string>
+  <string name="CameraContacts_no_signal_contacts">Inga Morse-kontakter</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Du kan bara använda kameraknappen för att skicka foton till Morse-kontakter.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Kan du inte hitta den du letar efter?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Bjud in en kontakt för att gå med i Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Bjud in en kontakt för att gå med i Morse</string>
   <string name="CameraContacts__menu_search">Sök</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Ta bort</string>
   <string name="ClearProfileActivity_remove_profile_photo">Ta bort profilbild?</string>
   <string name="ClearProfileActivity_remove_group_photo">Ta bort gruppfoto?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Uppdatera Signal</string>
+  <string name="ClientDeprecatedActivity_update_signal">Uppdatera Morse</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Denna version av appen stöds inte längre. För att fortsätta skicka och ta emot meddelanden, uppdatera till den senaste versionen.</string>
   <string name="ClientDeprecatedActivity_update">Uppdatera</string>
   <string name="ClientDeprecatedActivity_dont_update">Uppdatera inte</string>
   <string name="ClientDeprecatedActivity_warning">Varning</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Din version av Signal har gått ut. Du kan visa din meddelandehistorik men du kan inte skicka eller ta emot meddelanden förrän du uppdaterar.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Din version av Morse har gått ut. Du kan visa din meddelandehistorik men du kan inte skicka eller ta emot meddelanden förrän du uppdaterar.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">Ingen webbläsare hittades.</string>
   <string name="CommunicationActions_send_email">Skicka e-post</string>
@@ -137,9 +137,9 @@
   <string name="CommunicationActions_cancel">Avbryt</string>
   <string name="CommunicationActions_call">Ring</string>
   <string name="CommunicationActions_insecure_call">Osäkert samtal</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Operatörskostnader kan tillkomma. Numret du ringer är inte registrerat hos Signal. Detta samtal placeras via din mobiloperatör, inte över internet.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Operatörskostnader kan tillkomma. Numret du ringer är inte registrerat hos Morse. Detta samtal placeras via din mobiloperatör, inte över internet.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Ditt säkerhetsnummer med %1$s har ändrats. Detta kan antingen betyda att någon försöker avlyssna er kommunikation eller att %2$s helt enkelt installerat om Signal.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Ditt säkerhetsnummer med %1$s har ändrats. Detta kan antingen betyda att någon försöker avlyssna er kommunikation eller att %2$s helt enkelt installerat om Morse.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Du kanske vill verifiera ditt säkerhetsnummer med denna kontakt.</string>
   <string name="ConfirmIdentityDialog_accept">Acceptera</string>
   <!--ContactsCursorLoader-->
@@ -150,7 +150,7 @@
   <string name="ContactsCursorLoader_username_search">Användarnamn-sökning</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Meddelande %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal-samtal %s</string>
+  <string name="ContactsDatabase_signal_call_s">Morse-samtal %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Förnamn</string>
   <string name="ContactNameEditActivity_family_name">Efternamn</string>
@@ -173,7 +173,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Sändningen misslyckades, tryck för oskyddad fallback</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Använd okrypterat SMS istället?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Använd okrypterat MMS istället?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Detta meddelande kommer <b>inte</b> att krypteras eftersom mottagaren inte längre är en Signal-användare. \n\nSkicka osäkert meddelande?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Detta meddelande kommer <b>inte</b> att krypteras eftersom mottagaren inte längre är en Morse-användare. \n\nSkicka osäkert meddelande?</string>
   <string name="ConversationItem_unable_to_open_media">Det går inte att hitta en app som kan öppna detta medium.</string>
   <string name="ConversationItem_copied_text">Kopierade %s</string>
   <string name="ConversationItem_from_s">från %s</string>
@@ -198,8 +198,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Denna enhet verkar inte stödja ringa upp-handlingar.</string>
   <string name="ConversationActivity_transport_insecure_sms">Osäkert SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Osäkert MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Låt oss använda Signal %1$s</string>
+  <string name="ConversationActivity_transport_signal">Morse</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Låt oss använda Morse %1$s</string>
   <string name="ConversationActivity_specify_recipient">Vänligen välj en kontakt</string>
   <string name="ConversationActivity_unblock">Avblockera</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">Bilagan överskrider storleksgränserna för den typ av meddelande du skickar.</string>
@@ -213,17 +213,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Det finns ingen app tillgänglig för att hantera denna länk på din enhet.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Din förfrågan om att gå med har skickats till gruppadministratören. Du får ett meddelande när administratören vidtar åtgärder.</string>
   <string name="ConversationActivity_cancel_request">Avbryt förfrågan</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">För att skicka ljudmeddelanden, vänligen ge Signal åtkomst till din mikrofon.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal behöver behörigheten Mikrofon för att skicka ljudmeddelanden men den nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Mikrofon\".</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal behöver behörigheterna Mikrofon och Kamera för att ringa%s men de har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Mikrofon\" och Kamera\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">För att fånga fotografier och video, tillåt Signal att tillgå kameran.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal behöver behörigheten Kamera för att ta bilder och filma men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal behöver behörigheten Kamera för att ta bilder och filma</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">För att skicka ljudmeddelanden, vänligen ge Morse åtkomst till din mikrofon.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Morse behöver behörigheten Mikrofon för att skicka ljudmeddelanden men den nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Mikrofon\".</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Morse behöver behörigheterna Mikrofon och Kamera för att ringa%s men de har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Mikrofon\" och Kamera\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">För att fånga fotografier och video, tillåt Morse att tillgå kameran.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Morse behöver behörigheten Kamera för att ta bilder och filma men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Morse behöver behörigheten Kamera för att ta bilder och filma</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Aktivera behörigheten Mikrofon för att spela in videor med ljud.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal behöver mikrofonbehörigheter för att spela in videor men de har nekats. Vänligen fortsätt till appinställningar, välj \"Behörigheter\" och aktivera \"Mikrofon\" och \"Kamera\".</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal behöver behörigheten Mikrofon för att filma.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Morse behöver mikrofonbehörigheter för att spela in videor men de har nekats. Vänligen fortsätt till appinställningar, välj \"Behörigheter\" och aktivera \"Mikrofon\" och \"Kamera\".</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Morse behöver behörigheten Mikrofon för att filma.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal kan inte skicka SMS/MMS-meddelanden eftersom det inte är din standardapp för SMS. Vill du ändra detta i dina Android-inställningar?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Morse kan inte skicka SMS/MMS-meddelanden eftersom det inte är din standardapp för SMS. Vill du ändra detta i dina Android-inställningar?</string>
   <string name="ConversationActivity_yes">Ja</string>
   <string name="ConversationActivity_no">Nej</string>
   <string name="ConversationActivity_search_position">%1$d av %2$d</string>
@@ -237,7 +237,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Du lämnar denna grupp och den tas bort från alla dina enheter.</string>
   <string name="ConversationActivity_delete">Ta bort</string>
   <string name="ConversationActivity_delete_and_leave">Ta bort och lämna</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">För att ringa %1$s behöver Signal åtkomst till din mikrofon</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">För att ringa %1$s behöver Morse åtkomst till din mikrofon</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">Fler alternativ nu i \"Gruppinställningar\"</string>
   <string name="ConversationActivity_join">Gå med</string>
   <string name="ConversationActivity_full">Fullt</string>
@@ -272,14 +272,14 @@
     <item quantity="other">Sparar %1$d bilagor i lagring…</item>
   </plurals>
   <string name="ConversationFragment_pending">Väntar…</string>
-  <string name="ConversationFragment_push">Data (Signal)</string>
+  <string name="ConversationFragment_push">Data (Morse)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Tar bort</string>
   <string name="ConversationFragment_deleting_messages">Tar bort meddelanden…</string>
   <string name="ConversationFragment_delete_for_me">Ta bort för mig</string>
   <string name="ConversationFragment_delete_for_everyone">Ta bort för alla</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Detta meddelande tas bort för alla i konversationen om de har en ny version av Signal. De kommer att kunna se att du har tagit bort ett meddelande.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Detta meddelande tas bort för alla i konversationen om de har en ny version av Morse. De kommer att kunna se att du har tagit bort ett meddelande.</string>
   <string name="ConversationFragment_quoted_message_not_found">Hittade inte originalmeddelandet.</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">Originalmeddelandet inte längre tillgänglig.</string>
   <string name="ConversationFragment_failed_to_open_message">Det gick inte att öppna meddelandet</string>
@@ -291,12 +291,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d gruppmedlemmar har samma namn.</string>
   <string name="ConversationFragment__tap_to_review">Tryck för att granska</string>
   <string name="ConversationFragment__review_requests_carefully">Granska förfrågningar noggrant</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal hittade en annan kontakt med samma namn.</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Morse hittade en annan kontakt med samma namn.</string>
   <string name="ConversationFragment_contact_us">Kontakta oss</string>
   <string name="ConversationFragment_verify">Verifiera</string>
   <string name="ConversationFragment_not_now">Inte nu</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">Ditt säkerhetsnummer med %s har ändrats</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Ditt säkerhetsnummer med %s har ändrats, troligtvis för att de installerade om Signal eller bytte enheter. Tryck på Verifiera för att bekräfta det nya säkerhetsnumret. Detta är valfritt.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Ditt säkerhetsnummer med %s har ändrats, troligtvis för att de installerade om Morse eller bytte enheter. Tryck på Verifiera för att bekräfta det nya säkerhetsnumret. Detta är valfritt.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">Radera markerad konversation?</item>
     <item quantity="other">Ta bort markerade konversationer?</item>
@@ -399,11 +399,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Testa ditt lösenord för säkerhetskopian och kontrollera att den matchar</string>
   <string name="BackupsPreferenceFragment__turn_on">Aktivera</string>
   <string name="BackupsPreferenceFragment__turn_off">Inaktivera</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">För att återställa en säkerhetskopia, installera en ny kopia av Signal. Öppna appen och tryck på \"Återställ säkerhetskopia\" och leta reda på en säkerhetskopia. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">För att återställa en säkerhetskopia, installera en ny kopia av Morse. Öppna appen och tryck på \"Återställ säkerhetskopia\" och leta reda på en säkerhetskopia. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">Läs mer</string>
   <string name="BackupsPreferenceFragment__in_progress">Pågående…</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d hittills…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal behöver behörigheten Lagring för att skapa säkerhetskopior men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Morse behöver behörigheten Lagring för att skapa säkerhetskopior men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">Använder anpassade: %s</string>
   <string name="CustomDefaultPreference_using_default">Använder standard: %s</string>
@@ -422,7 +422,7 @@
   <string name="DateUtils_yesterday">Igår</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">Chattsessionen uppdaterad</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal använder ände-till-ände-kryptering och det kan behöva uppdateras din chattsession ibland. Detta påverkar inte din chatts säkerhet, men du kan ha missat ett meddelande från den här kontakten och du kan behöva be dem skicka det igen.</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Morse använder ände-till-ände-kryptering och det kan behöva uppdateras din chattsession ibland. Detta påverkar inte din chatts säkerhet, men du kan ha missat ett meddelande från den här kontakten och du kan behöva be dem skicka det igen.</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">Sluta länka till \"%s\"?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">Genom att ta bort länken till denna enhet kommer den inte längre att kunna skicka eller ta emot meddelanden.</string>
@@ -439,8 +439,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">Namnlös fil</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Donera till Signal</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal drivs av människor som du. Visa ditt stöd idag!</string>
+  <string name="DonateMegaphone_donate_to_signal">Donera till Morse</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Morse drivs av människor som du. Visa ditt stöd idag!</string>
   <string name="DonateMegaphone_donate">Donera</string>
   <string name="DonateMegaphone_no_thanks">Nej tack</string>
   <!--GroupCallingMegaphone-->
@@ -448,9 +448,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">Öppna en Ny grupp för att starta ett fritt krypterat gruppsamtal</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimera för avsaknad av Play-tjänster</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Enheten stöder inte Play-tjänster. Tryck för att inaktivera systembatterioptimeringar som hindrar Signal från att hämta meddelanden vid inaktivitet.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Enheten stöder inte Play-tjänster. Tryck för att inaktivera systembatterioptimeringar som hindrar Morse från att hämta meddelanden vid inaktivitet.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Denna version av Signal har gått ut. Uppdatera nu för att skicka och ta emot meddelanden.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Denna version av Morse har gått ut. Uppdatera nu för att skicka och ta emot meddelanden.</string>
   <string name="ExpiredBuildReminder_update_now">Uppdatera nu</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -463,8 +463,8 @@
   <string name="ShareActivity_multiple_attachments_are_only_supported">Flera bilagor stöds endast för bilder och videoklipp</string>
   <string name="ShareActivity_you_do_not_have_permission_to_send_to_this_group">Du har inte behörighet att skicka till denna grupp</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Permanent kommunikationsfel med Signal!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal kunde inte registrera sig på Google Play-tjänster. Signal-meddelanden och -samtal har inaktiverats, vänligen försök att återregistrera i Inställningar &gt; Avancerat.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Permanent kommunikationsfel med Morse!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Morse kunde inte registrera sig på Google Play-tjänster. Morse-meddelanden och -samtal har inaktiverats, vänligen försök att återregistrera i Inställningar &gt; Avancerat.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Fel vid hämtning av helupplöst GIF</string>
   <!--GiphyFragmentPageAdapter-->
@@ -622,7 +622,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">Detta fält är obligatoriskt.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">Det gick inte att skapa grupp.</string>
   <string name="AddGroupDetailsFragment__try_again_later">Försök igen senare.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Du har valt en kontakt som inte stöder Signal-grupper, så denna grupp kommer använda MMS.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Du har valt en kontakt som inte stöder Morse-grupper, så denna grupp kommer använda MMS.</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Anpassade MMS-gruppnamn och foton är bara synliga för dig.</string>
   <string name="AddGroupDetailsFragment__remove">Ta bort</string>
   <string name="AddGroupDetailsFragment__sms_contact">SMS-kontakt</string>
@@ -636,15 +636,15 @@
     <item quantity="other">%d medlemmar stöder inte Nya grupper, så denna grupp kan inte skapas.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">En Äldre grupp skapas eftersom \"%1$s\" använder en gammal version av Signal. Du kan skapa en Ny formatgrupp med medlemmen när medlemmen har uppdaterat Signal eller ta bort medlemmen före du skapar gruppen.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">En Äldre grupp skapas eftersom \"%1$s\" använder en gammal version av Morse. Du kan skapa en Ny formatgrupp med medlemmen när medlemmen har uppdaterat Morse eller ta bort medlemmen före du skapar gruppen.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">En äldre grupp skapas eftersom %1$d medlem använder en gammal version av Signal. Du kan skapa en ny formatgrupp med medlemmen när medlemmen har uppdaterat Signal eller ta bort medlemmen innan du skapar gruppen.</item>
-    <item quantity="other">En Äldre grupp skapas eftersom %1$d medlemmar använder en gammal version av Signal. Du kan skapa en Ny formatgrupp med dem när de har uppdaterat Signal eller ta bort dem innan du skapar gruppen.</item>
+    <item quantity="one">En äldre grupp skapas eftersom %1$d medlem använder en gammal version av Morse. Du kan skapa en ny formatgrupp med medlemmen när medlemmen har uppdaterat Morse eller ta bort medlemmen innan du skapar gruppen.</item>
+    <item quantity="other">En Äldre grupp skapas eftersom %1$d medlemmar använder en gammal version av Morse. Du kan skapa en Ny formatgrupp med dem när de har uppdaterat Morse eller ta bort dem innan du skapar gruppen.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Denna grupp kan inte skapas eftersom \"%1$s\" använder en gammal version av Signal. Du måste ta bort medlemmen innan du skapar gruppen.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Denna grupp kan inte skapas eftersom \"%1$s\" använder en gammal version av Morse. Du måste ta bort medlemmen innan du skapar gruppen.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">Denna grupp kan inte skapas eftersom %1$d medlem använder en gammal version av Signal. Du måste ta bort dem innan du skapar gruppen.</item>
-    <item quantity="other">Denna grupp kan inte skapas eftersom %1$d medlemmar använder en gammal version av Signal. Du måste ta bort dem innan du skapar gruppen.</item>
+    <item quantity="one">Denna grupp kan inte skapas eftersom %1$d medlem använder en gammal version av Morse. Du måste ta bort dem innan du skapar gruppen.</item>
+    <item quantity="other">Denna grupp kan inte skapas eftersom %1$d medlemmar använder en gammal version av Morse. Du måste ta bort dem innan du skapar gruppen.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">Medlemsförfrågningar &amp; inbjudningar</string>
@@ -674,8 +674,8 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">Endast administratörer kan aktivera eller inaktivera alternativet att godkänna nya medlemmar.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Endast administratörer kan återställa den delbara grupplänken.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Du har inte rätten att göra detta</string>
-  <string name="ManageGroupActivity_not_capable">Någon som du har lagt till stöder inte nya grupper och behöver uppdatera Signal</string>
-  <string name="ManageGroupActivity_not_announcement_capable">Någon du har lagt till stöder inte tillkännagivande grupper och behöver uppdatera Signal</string>
+  <string name="ManageGroupActivity_not_capable">Någon som du har lagt till stöder inte nya grupper och behöver uppdatera Morse</string>
+  <string name="ManageGroupActivity_not_announcement_capable">Någon du har lagt till stöder inte tillkännagivande grupper och behöver uppdatera Morse</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Det gick inte att uppdatera gruppen</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Du är inte medlem i gruppen</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Det gick inte att uppdatera gruppen. Vänligen försök igen senare</string>
@@ -686,7 +686,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">Detta är en Äldre grupp. För att komma åt nya funktioner som @omnämnanden och administratörer,</string>
   <string name="ManageGroupActivity_legacy_group_too_large">Denna Äldre gruppen kan inte uppgraderas till en Ny grupp eftersom den är för stor. Den största gruppstorleken är %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">uppgradera denna grupp.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Detta är en osäker MMS-grupp. Om du vill chatta privat bjuder du in dina kontakter till Signal.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Detta är en osäker MMS-grupp. Om du vill chatta privat bjuder du in dina kontakter till Morse.</string>
   <string name="ManageGroupActivity_invite_now">Bjud in nu</string>
   <string name="ManageGroupActivity_more">mer</string>
   <string name="ManageGroupActivity_add_group_description">Lägg till gruppbeskrivning…</string>
@@ -761,10 +761,10 @@
     <item quantity="other">Grupp · %1$d medlemmar</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Uppdatera Signal för att använda grupplänkar</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Den version av Signal du använder stöder inte denna grupplänk. Uppdatera till den senaste versionen för att gå med i denna grupp via länk.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Uppdatera Signal</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">En eller flera av dina länkade enheter kör en version av Signal som inte stöder grupplänkar. Uppdatera Signal på dina länkade enheter för att gå med i denna grupp.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Uppdatera Morse för att använda grupplänkar</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Den version av Morse du använder stöder inte denna grupplänk. Uppdatera till den senaste versionen för att gå med i denna grupp via länk.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Uppdatera Morse</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">En eller flera av dina länkade enheter kör en version av Morse som inte stöder grupplänkar. Uppdatera Morse på dina länkade enheter för att gå med i denna grupp.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Grupplänken är inte giltig</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Bjud in vänner</string>
@@ -794,13 +794,13 @@
   <string name="InviteActivity_cancel">Avbryt</string>
   <string name="InviteActivity_sending">Skickar…</string>
   <string name="InviteActivity_invitations_sent">Inbjudningar skickade!</string>
-  <string name="InviteActivity_invite_to_signal">Bjud in till Signal</string>
+  <string name="InviteActivity_invite_to_signal">Bjud in till Morse</string>
   <string name="InviteActivity_send_sms">Skicka SMS (%d)</string>
   <plurals name="InviteActivity_send_sms_invites">
     <item quantity="one">Skicka %d SMS-inbjudan?</item>
     <item quantity="other">Skicka %d SMS-inbjudningar?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Låt oss använda Signal: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Låt oss använda Morse: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Verkar som att du inte har några appar att dela till.</string>
   <!--LearnMoreTextView-->
   <string name="LearnMoreTextView_learn_more">Läs mer</string>
@@ -809,7 +809,7 @@
   <string name="LongMessageActivity_message_from_s">Meddelande från %1$s</string>
   <string name="LongMessageActivity_your_message">Ditt meddelande</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Morse</string>
   <string name="MessageRetrievalService_background_connection_enabled">Bakgrundsanslutning etablerad</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Fel vid läsningen av trådlös leverantör MMS-inställningar</string>
@@ -864,7 +864,7 @@
   <string name="Megaphones_introducing_reactions">Introducerar Reaktioner</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Tryck och håll ett meddelande för att snabbt dela hur du känner.</string>
   <string name="Megaphones_remind_me_later">Påminn mig senare</string>
-  <string name="Megaphones_verify_your_signal_pin">Verifiera din Signal PIN-kod</string>
+  <string name="Megaphones_verify_your_signal_pin">Verifiera din Morse PIN-kod</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Vi ber dig ibland att verifiera din PIN-kod så att du kommer ihåg den.</string>
   <string name="Megaphones_verify_pin">Verifiera PIN-kod</string>
   <string name="Megaphones_get_started">Komma igång</string>
@@ -874,11 +874,11 @@
   <string name="Megaphones_appearance">Utseende</string>
   <string name="Megaphones_add_photo">Lägg till foto</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal-samtal pågår</string>
-  <string name="NotificationBarManager__establishing_signal_call">Upprättar Signal-samtal</string>
-  <string name="NotificationBarManager__incoming_signal_call">Inkommande Signal-samtal</string>
-  <string name="NotificationBarManager__incoming_signal_group_call">Inkommande Signal-gruppsamtal</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">Avbryter Signal-samtalstjänsten</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Morse-samtal pågår</string>
+  <string name="NotificationBarManager__establishing_signal_call">Upprättar Morse-samtal</string>
+  <string name="NotificationBarManager__incoming_signal_call">Inkommande Morse-samtal</string>
+  <string name="NotificationBarManager__incoming_signal_group_call">Inkommande Morse-gruppsamtal</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">Avbryter Morse-samtalstjänsten</string>
   <string name="NotificationBarManager__decline_call">Neka samtal</string>
   <string name="NotificationBarManager__answer_call">Svara på samtal</string>
   <string name="NotificationBarManager__end_call">Avsluta samtal</string>
@@ -905,8 +905,8 @@
   <string name="MediaSendActivity_message_to_s">Meddelande till %s</string>
   <string name="MediaSendActivity_message">Meddelande</string>
   <string name="MediaSendActivity_select_recipients">Välj mottagare</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal behöver åtkomst till dina kontakter för att visa dem.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal behöver behörigheten Kontakter för att visa dina kontakter men den har nekats permanent. Vänligen fortsätt till Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kontakter\".</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Morse behöver åtkomst till dina kontakter för att visa dem.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Morse behöver behörigheten Kontakter för att visa dina kontakter men den har nekats permanent. Vänligen fortsätt till Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kontakter\".</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">Du kan inte dela mer än %d objekt.</item>
     <item quantity="other">Du kan inte dela mer än %d objekt.</item>
@@ -921,7 +921,7 @@
   <string name="MessageDecryptionUtil_tap_to_send_a_debug_log">Tryck för att skicka en felsökningslogg</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Okänd</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Tog emot ett meddelande som krypterats med en gammal version av Signal som inte längre stöds. Vänligen be avsändaren om att uppdatera till den senaste versionen och skicka om meddelandet.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Tog emot ett meddelande som krypterats med en gammal version av Morse som inte längre stöds. Vänligen be avsändaren om att uppdatera till den senaste versionen och skicka om meddelandet.</string>
   <string name="MessageRecord_left_group">Du har lämnat gruppen.</string>
   <string name="MessageRecord_you_updated_group">Du uppdaterade gruppen.</string>
   <string name="MessageRecord_the_group_was_updated">Gruppen uppdaterades.</string>
@@ -930,7 +930,7 @@
   <string name="MessageRecord_missed_video_call_date">Missat videosamtal · %1$s</string>
   <string name="MessageRecord_s_updated_group">%s uppdaterade gruppen.</string>
   <string name="MessageRecord_s_called_you_date">%1$s ringde dig · %2$s</string>
-  <string name="MessageRecord_s_joined_signal">%s finns på Signal!</string>
+  <string name="MessageRecord_s_joined_signal">%s finns på Morse!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Du inaktiverade försvinnande meddelanden.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s inaktiverade försvinnande meddelanden.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Du ställde in tidsgränsen för försvinnande meddelanden till %1$s.</string>
@@ -1157,24 +1157,24 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Ogiltig QR-kod.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Tyvärr har du för många enheter redan länkade, prova att ta bort en del</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Tyvärr, detta är ingen giltig QR-kod för enhetslänkning.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Länka en Signal-enhet?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Det verkar som att du försöker länka en Signal-enhet med hjälp av en tredjepartsskanner. För din säkerhet, vänligen skanna koden igen inifrån Signal.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal behöver behörigheten Kamera för att skanna QR-koder men det har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Länka en Morse-enhet?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Det verkar som att du försöker länka en Morse-enhet med hjälp av en tredjepartsskanner. För din säkerhet, vänligen skanna koden igen inifrån Morse.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Morse behöver behörigheten Kamera för att skanna QR-koder men det har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Det går inte att skanna en QR-kod utan behörigheten Kamera</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">Uppdatera nu</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Denna version av Signal går ut idag. Uppdatera till den senaste versionen.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Denna version av Morse går ut idag. Uppdatera till den senaste versionen.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">Denna version av Signal går ut i morgon. Uppdatera till den senaste versionen.</item>
-    <item quantity="other">Denna version av Signal går ut om %d dagar. Uppdatera till den senaste versionen.</item>
+    <item quantity="one">Denna version av Morse går ut i morgon. Uppdatera till den senaste versionen.</item>
+    <item quantity="other">Denna version av Morse går ut om %d dagar. Uppdatera till den senaste versionen.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Ange lösenord</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal-ikon</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Morse-ikon</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Skicka lösenord</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Fel lösenord!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Lås upp Signal</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Låsskärm</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Lås upp Morse</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Morse Android - Låsskärm</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Karta</string>
   <string name="PlacePickerActivity_drop_pin">Släpp stift</string>
@@ -1195,16 +1195,16 @@
     <item quantity="one">Du har %1$d försök kvar. Om du får slut på försök kan du skapa en ny PIN-kod. Du kan registrera och använda ditt konto men du kommer att förlora några sparade inställningar som din profilinformation.</item>
     <item quantity="other">Du har %1$d försök kvar. Om du får slut på försök kan du skapa en ny PIN-kod. Du kan registrera och använda ditt konto men du kommer att förlora några sparade inställningar som din profilinformation.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal-registrering - Behöver du hjälp med PIN-kod för Android</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Morse-registrering - Behöver du hjälp med PIN-kod för Android</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Ange alfanumerisk PIN-kod</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">Ange numerisk PIN-kod</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">Skapa din PIN-kod</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Du har slut på gissningar av PIN-koden men du kan fortfarande komma åt ditt Signal-konto genom att skapa en ny PIN-kod. För din integritet och säkerhet kommer ditt konto att återställas utan några sparade profilinformation eller inställningar.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Du har slut på gissningar av PIN-koden men du kan fortfarande komma åt ditt Morse-konto genom att skapa en ny PIN-kod. För din integritet och säkerhet kommer ditt konto att återställas utan några sparade profilinformation eller inställningar.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Skapa ny PIN-kod</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">Varning</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Om du inaktiverar PIN-koden kommer du att förlora alla data när du registrerar om Signal om du inte säkerhetskopierar och återställer manuellt. Du kan inte aktivera registreringslåset medan PIN-koden är inaktiverad.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Om du inaktiverar PIN-koden kommer du att förlora alla data när du registrerar om Morse om du inte säkerhetskopierar och återställer manuellt. Du kan inte aktivera registreringslåset medan PIN-koden är inaktiverad.</string>
   <string name="PinOptOutDialog_disable_pin">Inaktivera PIN-koden</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Betygsätt denna app</string>
@@ -1220,7 +1220,7 @@
   <string name="ReactionsRecipientAdapter_you">Du</string>
   <!--RecaptchaRequiredBottomSheetFragment-->
   <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Verifiera för att fortsätta skicka meddelanden</string>
-  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">För att förhindra skräppost på Signal, vänligen slutför verifieringen.</string>
+  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">För att förhindra skräppost på Morse, vänligen slutför verifieringen.</string>
   <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Efter verifiering kan du fortsätta skicka meddelanden. Alla pausade meddelanden skickas automatiskt.</string>
   <!--Recipient-->
   <string name="Recipient_you">Du</string>
@@ -1241,13 +1241,13 @@
   <string name="RedPhone_got_it">Uppfattat</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Tryck här för att aktivera din video</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">För att ringa %1$s behöver Signal åtkomst till din kamera</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">För att ringa %1$s behöver Morse åtkomst till din kamera</string>
+  <string name="WebRtcCallActivity__signal_s">Morse %1$s</string>
   <string name="WebRtcCallActivity__calling">Ringer…</string>
   <string name="WebRtcCallActivity__group_is_too_large_to_ring_the_participants">Gruppen är för stor för att ringa deltagarna.</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_call">Signal-samtal</string>
-  <string name="WebRtcCallView__signal_video_call">Signal-videosamtal</string>
+  <string name="WebRtcCallView__signal_call">Morse-samtal</string>
+  <string name="WebRtcCallView__signal_video_call">Morse-videosamtal</string>
   <string name="WebRtcCallView__start_call">Starta samtal</string>
   <string name="WebRtcCallView__join_call">Gå med i samtalet</string>
   <string name="WebRtcCallView__call_is_full">Samtalet är fullt</string>
@@ -1257,11 +1257,11 @@
   <string name="WebRtcCallView__reconnecting">Återansluter…</string>
   <string name="WebRtcCallView__joining">Ansluter sig…</string>
   <string name="WebRtcCallView__disconnected">Frånkopplad</string>
-  <string name="WebRtcCallView__signal_will_ring_s">Signal ringer %1$s</string>
-  <string name="WebRtcCallView__signal_will_ring_s_and_s">Signal ringer %1$s och %2$s</string>
+  <string name="WebRtcCallView__signal_will_ring_s">Morse ringer %1$s</string>
+  <string name="WebRtcCallView__signal_will_ring_s_and_s">Morse ringer %1$s och %2$s</string>
   <plurals name="WebRtcCallView__signal_will_ring_s_s_and_d_others">
-    <item quantity="one">Signal ringer %1$s, %2$s och %3$d annan</item>
-    <item quantity="other">Signal ringer %1$s, %2$s och %3$d andra</item>
+    <item quantity="one">Morse ringer %1$s, %2$s och %3$d annan</item>
+    <item quantity="other">Morse ringer %1$s, %2$s och %3$d andra</item>
   </plurals>
   <string name="WebRtcCallView__s_will_be_notified">%1$s kommer att meddelas</string>
   <string name="WebRtcCallView__s_and_s_will_be_notified">%1$s och %2$s kommer att meddelas</string>
@@ -1333,13 +1333,13 @@ angav (%s) är ogiltigt.</string>
   <string name="RegistrationActivity_is_your_phone_number_above_correct">Är ditt telefonnummer ovan korrekt?</string>
   <string name="RegistrationActivity_edit_number">Ändra nummer</string>
   <string name="RegistrationActivity_missing_google_play_services">Saknar Google Play-tjänster</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Denna enhet saknar Google Play-tjänster. Du kan fortfarande använda Signal men denna konfiguration kan leda till minskad tillförlitlighet eller prestanda.\n\nOm du inte är en avancerad användare, inte använder en egenhändigt modifierad Android ROM eller tror att du ser detta på grund av ett fel, vänligen kontakta support@signal.org för hjälp med felsökning.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Denna enhet saknar Google Play-tjänster. Du kan fortfarande använda Morse men denna konfiguration kan leda till minskad tillförlitlighet eller prestanda.\n\nOm du inte är en avancerad användare, inte använder en egenhändigt modifierad Android ROM eller tror att du ser detta på grund av ett fel, vänligen kontakta support@devplusone.com för hjälp med felsökning.</string>
   <string name="RegistrationActivity_i_understand">Jag förstår</string>
   <string name="RegistrationActivity_play_services_error">Fel på Google Play-tjänster</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play-tjänster uppdateras eller är tillfälligt otillgängliga. Vänligen försök igen senare.</string>
   <string name="RegistrationActivity_terms_and_privacy">Villkor &amp; integritetspolicy</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal behöver åtkomst till dina kontakter och media för att få kontakt med vänner, utbyta meddelanden och ringa säkra samtal</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal behöver åtkomst till dina kontakter för att kunna ansluta till vänner, utbyta meddelanden och ringa säkra samtal</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Morse behöver åtkomst till dina kontakter och media för att få kontakt med vänner, utbyta meddelanden och ringa säkra samtal</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Morse behöver åtkomst till dina kontakter för att kunna ansluta till vänner, utbyta meddelanden och ringa säkra samtal</string>
   <string name="RegistrationActivity_rate_limited_to_service">Du har gjort för många försök att registrera detta nummer. Vänligen försök igen senare.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Det går inte att ansluta till tjänsten. Vänligen kontrollera nätverksanslutning och försök igen.</string>
   <string name="RegistrationActivity_call_requested">Samtal begärt</string>
@@ -1362,7 +1362,7 @@ angav (%s) är ogiltigt.</string>
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Aktivera registreringslåset?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Inaktivera registreringslåset?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Om du glömmer din PIN-kod när du registrerar dig hos Signal igen, kommer du att vara utelåst från ditt konto i 7 dagar. </string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Om du glömmer din PIN-kod när du registrerar dig hos Morse igen, kommer du att vara utelåst från ditt konto i 7 dagar. </string>
   <string name="RegistrationLockV2Dialog_turn_on">Aktivera</string>
   <string name="RegistrationLockV2Dialog_turn_off">Inaktivera</string>
   <!--RevealableMessageView-->
@@ -1378,16 +1378,16 @@ angav (%s) är ogiltigt.</string>
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Lägg till i kontakter</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Bjud in till Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal-meddelande</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal-samtal</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Bjud in till Morse</string>
+  <string name="SharedContactDetailsActivity_signal_message">Morse-meddelande</string>
+  <string name="SharedContactDetailsActivity_signal_call">Morse-samtal</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Lägg till i kontakter</string>
-  <string name="SharedContactView_invite_to_signal">Bjud in till Signal</string>
-  <string name="SharedContactView_message">Signal-meddelande</string>
-  <!--SignalBottomActionBar-->
+  <string name="SharedContactView_invite_to_signal">Bjud in till Morse</string>
+  <string name="SharedContactView_message">Morse-meddelande</string>
+  <!--MorseBottomActionBar-->
   <string name="SignalBottomActionBar_more">Mer</string>
-  <!--SignalPinReminders-->
+  <!--MorsePinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">Vi påminner dig igen senare.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">Vi påminner dig igen imorgon.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">Vi påminner dig om några dagar.</string>
@@ -1408,14 +1408,14 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="SmsMessageRecord_secure_session_reset">Du har återställt den säkra sessionen.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s har återställt den säkra sessionen.</string>
   <string name="SmsMessageRecord_duplicate_message">Duplicerat meddelande.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Detta meddelande kunde inte behandlas eftersom det skickades från en nyare version av Signal. Du kan be din kontakt att skicka detta meddelande igen när du har uppdaterat.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Detta meddelande kunde inte behandlas eftersom det skickades från en nyare version av Morse. Du kan be din kontakt att skicka detta meddelande igen när du har uppdaterat.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">Felhantering av inkommande meddelande.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Klistermärken</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Installerade klistermärken</string>
   <string name="StickerManagementAdapter_stickers_you_received">Klistermärken du mottagit</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signal-artistserier</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Morse-artistserier</string>
   <string name="StickerManagementAdapter_no_stickers_installed">Inga klistermärken installerade</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Klistermärken från inkommande meddelanden visas här</string>
   <string name="StickerManagementAdapter_untitled">Utan titel</string>
@@ -1441,8 +1441,8 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="SupportEmailUtil_filter">Filter:</string>
   <string name="SupportEmailUtil_device_info">Enhetsinformation:</string>
   <string name="SupportEmailUtil_android_version">Android version:</string>
-  <string name="SupportEmailUtil_signal_version">Signal version:</string>
-  <string name="SupportEmailUtil_signal_package">Signal-paket:</string>
+  <string name="SupportEmailUtil_signal_version">Morse version:</string>
+  <string name="SupportEmailUtil_signal_package">Morse-paket:</string>
   <string name="SupportEmailUtil_registration_lock">Registreringslås:</string>
   <string name="SupportEmailUtil_locale">Språk:</string>
   <!--ThreadRecord-->
@@ -1461,7 +1461,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="ThreadRecord_view_once_media">Visa-en-gång media</string>
   <string name="ThreadRecord_this_message_was_deleted">Detta meddelande togs bort.</string>
   <string name="ThreadRecord_you_deleted_this_message">Du tog bort detta meddelande.</string>
-  <string name="ThreadRecord_s_is_on_signal">%s finns på Signal!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s finns på Morse!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Försvinnande meddelanden inaktiverat</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Tiden för försvinnande meddelanden inställd till %s</string>
   <string name="ThreadRecord_safety_number_changed">Säkerhetsnummer ändrat</string>
@@ -1478,8 +1478,8 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="ThreadRecord_video">Video</string>
   <string name="ThreadRecord_chat_session_refreshed">Chattsessionen uppdaterad</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal-uppdatering</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny version av Signal finns tillgänglig, tryck för att uppdatera</string>
+  <string name="UpdateApkReadyListener_Signal_update">Morse-uppdatering</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny version av Morse finns tillgänglig, tryck för att uppdatera</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">Skicka meddelande?</string>
   <string name="UntrustedSendDialog_send">Skicka</string>
@@ -1498,20 +1498,20 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Användarnamn kan inte börja med en siffra.</string>
   <string name="UsernameEditFragment_username_is_invalid">Användarnamnet är ogiltigt.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Användarnamn måste vara mellan %1$d och %2$d tecken.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Användarnamn på Signal är valfria. Om du väljer att skapa ett användarnamn kan andra Signal-användare hitta dig med detta användarnamn och kontakta dig utan att veta ditt telefonnummer.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Användarnamn på Morse är valfria. Om du väljer att skapa ett användarnamn kan andra Morse-användare hitta dig med detta användarnamn och kontakta dig utan att veta ditt telefonnummer.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%d kontakt finns på Signal!</item>
-    <item quantity="other">%d kontakter finns på Signal!</item>
+    <item quantity="one">%d kontakt finns på Morse!</item>
+    <item quantity="other">%d kontakter finns på Morse!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Din kontakt använder en gammal version av Signal. Vänligen be kontakten att uppdatera innan de verifierar ditt säkerhetsnummer.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Din kontakt använder en nyare version av Signal med ett inkompatibelt QR-kodformat. Vänligen uppdatera för att jämföra dem.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Din kontakt använder en gammal version av Morse. Vänligen be kontakten att uppdatera innan de verifierar ditt säkerhetsnummer.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Din kontakt använder en nyare version av Morse med ett inkompatibelt QR-kodformat. Vänligen uppdatera för att jämföra dem.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Den skannade QR-koden är inte en korrekt formaterad verifieringskod för säkerhetsnummer. Vänligen försök att skanna den igen.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Dela säkerhetsnummer via…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Vårt säkerhetsnummer för Signal:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Vårt säkerhetsnummer för Morse:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Verkar som att du inte har några appar att dela till.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Inga säkerhetsnummer att jämföra med hittades i urklipp</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal behöver behörigheten Kamera för att skanna QR-koder men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Morse behöver behörigheten Kamera för att skanna QR-koder men den har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Det går inte att skanna en QR-kod utan behörigheten Kamera</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Du måste först utbyta meddelanden för att kunna se %1$ss säkerhetsnummer.</string>
   <!--ViewOnceMessageActivity-->
@@ -1530,13 +1530,13 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="ApplicationMigrationService_system_database_import_is_complete">Systemdatabasimporten är slutförd.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Tryck för att öppna.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal är olåst</string>
-  <string name="KeyCachingService_lock">Lås Signal</string>
+  <string name="KeyCachingService_passphrase_cached">Morse är olåst</string>
+  <string name="KeyCachingService_lock">Lås Morse</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Du</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Mediatypen stöds inte</string>
   <string name="MediaPreviewActivity_draft">Utkast</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal behöver behörigheten Lagring för att spara i extern lagring men det har nekats permanent. Vänligen fortsätt till inställningar för appar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Morse behöver behörigheten Lagring för att spara i extern lagring men det har nekats permanent. Vänligen fortsätt till inställningar för appar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan inte spara i extern lagring utan behörighet</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Ta bort meddelande?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Detta tar bort detta meddelande permanent.</string>
@@ -1551,17 +1551,17 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="MessageNotifier_failed_to_deliver_message">Det gick inte att leverera meddelandet.</string>
   <string name="MessageNotifier_error_delivering_message">Fel vid leverans av meddelande.</string>
   <string name="MessageNotifier_message_delivery_paused">Meddelandeleverans har pausats.</string>
-  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Verifiera för att fortsätta skicka meddelanden på Signal.</string>
+  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Verifiera för att fortsätta skicka meddelanden på Morse.</string>
   <string name="MessageNotifier_mark_all_as_read">Markera alla som lästa</string>
   <string name="MessageNotifier_mark_read">Läst</string>
   <string name="MessageNotifier_turn_off_these_notifications">Inaktivera dessa aviseringar</string>
   <string name="MessageNotifier_view_once_photo">Visa-en-gång foto</string>
   <string name="MessageNotifier_view_once_video">Visa-en-gång video</string>
   <string name="MessageNotifier_reply">Svara</string>
-  <string name="MessageNotifier_signal_message">Signal-meddelande</string>
+  <string name="MessageNotifier_signal_message">Morse-meddelande</string>
   <string name="MessageNotifier_unsecured_sms">Osäkert SMS</string>
   <string name="MessageNotifier_you_may_have_new_messages">Du kan ha nya meddelanden</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Öppna Signal för att kontrollera efter senaste aviseringar.</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Öppna Morse för att kontrollera efter senaste aviseringar.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
   <string name="MessageNotifier_reacted_s_to_s">Reagerade %1$s på: \"%2$s\".</string>
@@ -1573,7 +1573,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">Reagerade %1$s på din visa-en-gång media.</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">Reagerade %1$s på dina klistermärken.</string>
   <string name="MessageNotifier_this_message_was_deleted">Detta meddelande togs bort.</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Inaktivera Signal-aviseringar när kontakter ansluter sig? Du kan aktivera dem igen i Signal &gt; Inställningar &gt; Aviseringar.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Inaktivera Morse-aviseringar när kontakter ansluter sig? Du kan aktivera dem igen i Morse &gt; Inställningar &gt; Aviseringar.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">Meddelanden</string>
   <string name="NotificationChannel_calls">Samtal</string>
@@ -1585,11 +1585,11 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="NotificationChannel_group_chats">Chattar</string>
   <string name="NotificationChannel_missing_display_name">Okänd</string>
   <string name="NotificationChannel_voice_notes">Röstanteckningar</string>
-  <string name="NotificationChannel_contact_joined_signal">Kontakt anslöt sig till Signal</string>
+  <string name="NotificationChannel_contact_joined_signal">Kontakt anslöt sig till Morse</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">Ingen aktivitet tillgänglig för att öppna inställningar för aviseringskanaler.</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Snabbsvar är otillgängligt när Signal är låst!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Snabbsvar är otillgängligt när Morse är låst!</string>
   <string name="QuickResponseService_problem_sending_message">Problem med att skicka meddelandet!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Sparad i %s</string>
@@ -1600,7 +1600,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Ogiltig genväg</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Morse</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Nytt meddelande</string>
   <string name="SingleRecipientNotificationBuilder_message_request">Meddelandeförfrågan</string>
   <string name="SingleRecipientNotificationBuilder_you">Du</string>
@@ -1614,10 +1614,10 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Enhet inte längre registreread</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Detta är troligen på grund av att du registrerade ditt mobilnummer hos Signal på en annan enhet. Tryck för att återregistrera dig.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Detta är troligen på grund av att du registrerade ditt mobilnummer hos Morse på en annan enhet. Tryck för att återregistrera dig.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">För att svara på samtalet från %s, ge Signal åtkomst till din mikrofon.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal behöver behörigheterna Mikrofon och Kamera för att ringa och ta emot samtal, men de har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Mikrofon\" och \"Kamera\".</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">För att svara på samtalet från %s, ge Morse åtkomst till din mikrofon.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Morse behöver behörigheterna Mikrofon och Kamera för att ringa och ta emot samtal, men de har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Mikrofon\" och \"Kamera\".</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">Besvarades på en länkad enhet.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">Avböjde på en länkad enhet.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">Upptagen på en länkad enhet.</string>
@@ -1641,7 +1641,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="change_passphrase_activity__repeat_new_passphrase">Upprepa nytt lösenord</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">Ange namn eller nummer</string>
-  <string name="contact_selection_activity__invite_to_signal">Bjud in till Signal</string>
+  <string name="contact_selection_activity__invite_to_signal">Bjud in till Morse</string>
   <string name="contact_selection_activity__new_group">Ny grupp</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">Rensa inmatad text</string>
@@ -1653,21 +1653,21 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Kontaktfoto</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal behöver behörigheten Kontakter för att bifoga kontaktinformation men det har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kontakter\".</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Morse behöver behörigheten Kontakter för att bifoga kontaktinformation men det har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kontakter\".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Ett fel inträffade med att hämta kontakter, kontrollera din nätverksanslutning</string>
   <string name="ContactSelectionListFragment_username_not_found">Användarnamn hittades inte</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" är inte en Signal-användare. Vänligen kontrollera användarnamnet och försök igen.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" är inte en Morse-användare. Vänligen kontrollera användarnamnet och försök igen.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Du behöver inte lägga till dig själv i gruppen</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">Störst gruppstorlek uppnådd</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal-grupper kan ha högst %1$d medlemmar.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Morse-grupper kan ha högst %1$d medlemmar.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">Rekommenderad medlemsgräns uppnådd</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal-grupper fungerar bäst med %1$d medlemmar eller färre. Om du lägger till fler medlemmar kommer det att orsaka förseningar när du skickar och tar emot meddelanden.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Morse-grupper fungerar bäst med %1$d medlemmar eller färre. Om du lägger till fler medlemmar kommer det att orsaka förseningar när du skickar och tar emot meddelanden.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">%1$d medlem</item>
     <item quantity="other">%1$d medlemmar</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal behöver åtkomst till dina kontakter för att visa dem.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Morse behöver åtkomst till dina kontakter för att visa dem.</string>
   <string name="contact_selection_list_fragment__show_contacts">Visa kontakter</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1675,7 +1675,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
     <item quantity="other">%1$d medlemmar</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal-meddelande</string>
+  <string name="conversation_activity__type_message_push">Morse-meddelande</string>
   <string name="conversation_activity__type_message_sms_insecure">Osäkert SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Osäkert MMS</string>
   <string name="conversation_activity__from_sim_name">Från %1$s</string>
@@ -1687,7 +1687,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Dölj/Visa snabbpanel för kamerabilaga</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Spela in och skicka ljudbilaga</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Lås inspelning av ljudbilaga</string>
-  <string name="conversation_activity__enable_signal_for_sms">Aktivera Signal för SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Aktivera Morse för SMS</string>
   <string name="conversation_activity__message_could_not_be_sent">Meddelandet kunde inte skickas. Kontrollera din anslutning och försök igen.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">Dra för att avbryta</string>
@@ -1795,9 +1795,9 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="IdentityUtil_unverified_banner_one">Ditt säkerhetsnummer med %s har ändrats och är inte längre verifierat</string>
   <string name="IdentityUtil_unverified_banner_two">Dina säkerhetsnummer med %1$s och %2$s är inte längre verifierat</string>
   <string name="IdentityUtil_unverified_banner_many">Dina säkerhetsnummer med %1$s, %2$s och %3$s är inte längre verifierade</string>
-  <string name="IdentityUtil_unverified_dialog_one">Ditt säkerhetsnummer med %1$s har ändrats och är inte längre verifierat. Detta kan antingen betyda att någon försöker avlyssna er kommunikation eller att %1$s helt enkelt installerat om Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Dina säkerhetsnummer med %1$s och %2$s är inte längre verifierade. Detta kan antingen betyda att någon försöker avlyssna er kommunikation eller att de helt enkelt installerat om Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Dina säkerhetsnummer med %1$s, %2$s och %3$s är inte längre verifierade. Detta kan antingen betyda att någon försöker avlyssna er kommunikation eller att de helt enkelt installerat om Signal.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Ditt säkerhetsnummer med %1$s har ändrats och är inte längre verifierat. Detta kan antingen betyda att någon försöker avlyssna er kommunikation eller att %1$s helt enkelt installerat om Morse.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Dina säkerhetsnummer med %1$s och %2$s är inte längre verifierade. Detta kan antingen betyda att någon försöker avlyssna er kommunikation eller att de helt enkelt installerat om Morse.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Dina säkerhetsnummer med %1$s, %2$s och %3$s är inte längre verifierade. Detta kan antingen betyda att någon försöker avlyssna er kommunikation eller att de helt enkelt installerat om Morse.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Ditt säkerhetsnummer med %s har just ändrats.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Dina säkerhetsnummer med %1$s och %2$s har just ändrats.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Dina säkerhetsnummer med %1$s, %2$s och %3$s har just ändrats.</string>
@@ -1810,7 +1810,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <!--giphy_fragment-->
   <string name="giphy_fragment__nothing_found">Inget hittat</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Vill du importera dina existerande SMS-meddelanden till Signals krypterade databas?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Vill du importera dina existerande SMS-meddelanden till Morses krypterade databas?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Standard systemdatabasen kommer inte att modifieras eller ändras på något sätt.</string>
   <string name="database_migration_activity__skip">Hoppa över</string>
   <string name="database_migration_activity__import">Importera</string>
@@ -1833,7 +1833,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Lås upp</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal kräver MMS-inställningar för att leverera medie- och gruppmeddelanden via din mobiloperatör. Din enhet gör inte denna information tillgänglig, vilket ibland stämmer för låsta enheter och andra restriktiva konfigurationer.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Morse kräver MMS-inställningar för att leverera medie- och gruppmeddelanden via din mobiloperatör. Din enhet gör inte denna information tillgänglig, vilket ibland stämmer för låsta enheter och andra restriktiva konfigurationer.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">För att skicka medie- och gruppmeddelande, tryck på \"OK\" och slutför de begärda inställningarna. MMS-inställningarna för din operatör kan i allmänhet hittas genom att söka efter \"din operatör-APN\". Du kommer bara att behöva göra detta en gång.</string>
   <!--BadDecryptLearnMoreDialog-->
   <string name="BadDecryptLearnMoreDialog_delivery_issue">Leveransproblem</string>
@@ -1873,7 +1873,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>Fyll i ett namn eller nummer</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[För att verifiera säkerheten för din ände-till-ände-kryptering med %s, jämför siffrorna ovan med deras enhet. Du kan också skanna koden på deras telefon. <a href="https://signal.org/redirect/safety-numbers">Läs mer.</a>]]></string>
+  <string name="verify_display_fragment__to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[För att verifiera säkerheten för din ände-till-ände-kryptering med %s, jämför siffrorna ovan med deras enhet. Du kan också skanna koden på deras telefon. <a href="https://devplusone.com/redirect/safety-numbers">Läs mer.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Tryck för att skanna</string>
   <string name="verify_display_fragment__successful_match">Lyckad matchning</string>
   <string name="verify_display_fragment__failed_to_verify_safety_number">Det gick inte att verifiera säkerhetsnumret</string>
@@ -1930,7 +1930,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="HelpFragment__how_do_you_feel">Hur mår du? (valfritt)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">Berätta för oss varför du tar kontakt.</string>
   <string name="HelpFragment__support_info">Supportinformation</string>
-  <string name="HelpFragment__signal_android_support_request">Signal Android-supportförfrågan</string>
+  <string name="HelpFragment__signal_android_support_request">Morse Android-supportförfrågan</string>
   <string name="HelpFragment__debug_log">Felsökningslogg:</string>
   <string name="HelpFragment__could_not_upload_logs">Det gick inte att ladda upp loggar</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Vänligen var så beskrivande som möjligt för att hjälpa oss att förstå problemet.</string>
@@ -1942,7 +1942,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
     <item>Återkoppling</item>
     <item>Annat</item>
     <item>Betalningar (MobileCoin)</item>
-    <item>Donationer (underhållare &amp; Signal Boost)</item>
+    <item>Donationer (underhållare &amp; Morse Boost)</item>
   </string-array> -->
   <!--ReactWithAnyEmojiBottomSheetDialogFragment-->
   <string name="ReactWithAnyEmojiBottomSheetDialogFragment__this_message">Detta meddelande</string>
@@ -1992,8 +1992,8 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="preferences__sms_mms">SMS och MMS</string>
   <string name="preferences__pref_all_sms_title">Ta emot alla SMS</string>
   <string name="preferences__pref_all_mms_title">Använd för alla MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Använd Signal för alla inkommande SMS-meddelanden</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Använd Signal för alla inkommande multimediameddelanden</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Använd Morse för alla inkommande SMS-meddelanden</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Använd Morse för alla inkommande multimediameddelanden</string>
   <string name="preferences__pref_enter_sends_title">Enter-tangenten skickar</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Om du trycker på enter-tangenten skickas textmeddelanden</string>
   <string name="preferences__pref_use_address_book_photos">Använd foton från adressboken</string>
@@ -2008,7 +2008,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Lås skärm och aviseringar med ett lösenord</string>
   <string name="preferences__screen_security">Skärmsäkerhet</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Blockera skärmdumpar i senaste-listan och appen</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lås Signal automatiskt efter en viss tid av inaktivitet.</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lås Morse automatiskt efter en viss tid av inaktivitet.</string>
   <string name="preferences__inactivity_timeout_passphrase">Inaktivitetsperiod för lösenord</string>
   <string name="preferences__inactivity_timeout_interval">Tidsintervall för inaktivitet</string>
   <string name="preferences__notifications">Aviseringar</string>
@@ -2039,9 +2039,9 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="preferences__slow">Långsam</string>
   <string name="preferences__help">Hjälp</string>
   <string name="preferences__advanced">Avancerat</string>
-  <string name="preferences__donate_to_signal">Donera till Signal</string>
+  <string name="preferences__donate_to_signal">Donera till Morse</string>
   <string name="preferences__subscription">Prenumeration</string>
-  <string name="preferences__signal_boost">Signal-boost</string>
+  <string name="preferences__signal_boost">Morse-boost</string>
   <string name="preferences__privacy">Integritet</string>
   <string name="preferences__mms_user_agent">MMS User Agent</string>
   <string name="preferences__advanced_mms_access_point_names">Manuella MMS-inställningar</string>
@@ -2068,13 +2068,13 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="preferences__chat_color_and_wallpaper">Chattfärg och -bakgrund</string>
   <string name="preferences__disable_pin">Inaktivera PIN-koden</string>
   <string name="preferences__enable_pin">Aktivera PIN-koden</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Om du inaktiverar PIN-koden kommer du att förlora alla data när du registrerar om Signal om du inte säkerhetskopierar och återställer manuellt. Du kan inte aktivera registreringslåset medan PIN-koden är inaktiverad.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN-koden håller information lagrad hos Signal krypterad så att du bara kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om. Du behöver inte din PIN-kod för att öppna appen.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Om du inaktiverar PIN-koden kommer du att förlora alla data när du registrerar om Morse om du inte säkerhetskopierar och återställer manuellt. Du kan inte aktivera registreringslåset medan PIN-koden är inaktiverad.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN-koden håller information lagrad hos Morse krypterad så att du bara kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om. Du behöver inte din PIN-kod för att öppna appen.</string>
   <string name="preferences__system_default">Systemets standard</string>
   <string name="preferences__language">Språk</string>
-  <string name="preferences__signal_messages_and_calls">Signal-meddelanden och -samtal</string>
+  <string name="preferences__signal_messages_and_calls">Morse-meddelanden och -samtal</string>
   <string name="preferences__advanced_pin_settings">Avancerade PIN-kodsinställningar</string>
-  <string name="preferences__free_private_messages_and_calls">Gratis privata meddelanden och samtal med andra Signal-användare</string>
+  <string name="preferences__free_private_messages_and_calls">Gratis privata meddelanden och samtal med andra Morse-användare</string>
   <string name="preferences__submit_debug_log">Skicka in felsökningslogg</string>
   <string name="preferences__delete_account">Ta bort konto</string>
   <string name="preferences__support_wifi_calling">\"Wi-Fi-samtal\"-kompatibilitetsläge</string>
@@ -2114,8 +2114,8 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="preferences_storage__s_messages">%1$s meddelanden</string>
   <string name="preferences_storage__custom">Skräddarsydd</string>
   <string name="preferences_advanced__use_system_emoji">Använd systemets emojier</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Inaktivera Signals inbyggda emojier</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Slussa alla samtal via Signal-servern för att undvika att avslöja din IP-adress för din kontakt. Aktivering försämrar samtalskvaliteten.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Inaktivera Morses inbyggda emojier</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Slussa alla samtal via Morse-servern för att undvika att avslöja din IP-adress för din kontakt. Aktivering försämrar samtalskvaliteten.</string>
   <string name="preferences_advanced__always_relay_calls">Slussa alltid samtal</string>
   <string name="preferences_app_protection__who_can">Vem kan…</string>
   <string name="preferences_app_protection__app_access">Appåtkomst</string>
@@ -2135,9 +2135,9 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="preferences_notifications__calls">Samtal</string>
   <string name="preferences_notifications__ringtone">Rington</string>
   <string name="preferences_chats__show_invitation_prompts">Visa inbjudningar</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Visa inbjudningar för kontakter utan Signal</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Visa inbjudningar för kontakter utan Morse</string>
   <string name="preferences_chats__message_text_size">Teckenstorlek för meddelanden</string>
-  <string name="preferences_events__contact_joined_signal">Kontakt anslöt sig till Signal</string>
+  <string name="preferences_events__contact_joined_signal">Kontakt anslöt sig till Morse</string>
   <string name="preferences_notifications__priority">Prioritet</string>
   <string name="preferences_communication__category_sealed_sender">Dold avsändare</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Visa indikatorer</string>
@@ -2151,7 +2151,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="preferences_off">Av</string>
   <string name="preferences_on">På</string>
   <string name="preferences_proxy_address">Proxyadress</string>
-  <string name="preferences_only_use_a_proxy_if">Använd endast en proxy om du inte kan ansluta till Signal på mobildata eller Wi-Fi.</string>
+  <string name="preferences_only_use_a_proxy_if">Använd endast en proxy om du inte kan ansluta till Morse på mobildata eller Wi-Fi.</string>
   <string name="preferences_share">Dela</string>
   <string name="preferences_save">Spara</string>
   <string name="preferences_connecting_to_proxy">Ansluter till proxy…</string>
@@ -2170,7 +2170,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="PaymentsAllActivityFragment__sent">Skickad</string>
   <string name="PaymentsAllActivityFragment__received">Mottagen</string>
   <string name="PaymentsHomeFragment__introducing_payments">Introducerar betalningar (beta)</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Använd Signal för att skicka och ta emot MobileCoin, en ny digital valuta med fokus på integritet. Aktivera för att komma igång.</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Använd Morse för att skicka och ta emot MobileCoin, en ny digital valuta med fokus på integritet. Aktivera för att komma igång.</string>
   <string name="PaymentsHomeFragment__activate_payments">Aktivera betalningar</string>
   <string name="PaymentsHomeFragment__activating_payments">Aktiverar betalningar…</string>
   <string name="PaymentsHomeFragment__restore_payments_account">Återställ betalningskontot</string>
@@ -2197,17 +2197,17 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Betalningar är inte tillgängliga i din region.</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">Det gick inte att aktivera betalningar. Försök igen senare.</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">Inaktivera betalningar?</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Du kommer inte att kunna skicka eller ta emot MobileCoin i Signal om du inaktiverar betalningar.</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Du kommer inte att kunna skicka eller ta emot MobileCoin i Morse om du inaktiverar betalningar.</string>
   <string name="PaymentsHomeFragment__deactivate">Inaktivera</string>
   <string name="PaymentsHomeFragment__continue">Fortsätt</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">Saldo är för närvarande inte tillgängligt.</string>
   <string name="PaymentsHomeFragment__payments_deactivated">Betalningar inaktiverade.</string>
   <string name="PaymentsHomeFragment__payment_failed">Betalning misslyckades</string>
   <string name="PaymentsHomeFragment__details">Detaljer</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Du kan använda Signal för att skicka och ta emot MobileCoin. Alla betalningar omfattas av användarvillkoren för MobileCoins och MobileCoin Wallet. Detta är en beta-funktion så att du kan stöta på vissa problem och betalningar eller saldon som du kan förlora kan inte återställas.</string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Du kan använda Morse för att skicka och ta emot MobileCoin. Alla betalningar omfattas av användarvillkoren för MobileCoins och MobileCoin Wallet. Detta är en beta-funktion så att du kan stöta på vissa problem och betalningar eller saldon som du kan förlora kan inte återställas.</string>
   <string name="PaymentsHomeFragment__activate">Aktivera</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">Visa MobileCoin-villkor</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Betalningar i Signal är inte längre tillgängliga. Du kan fortfarande överföra pengar till en börs men du kan inte längre skicka och ta emot betalningar eller lägga till pengar.</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Betalningar i Morse är inte längre tillgängliga. Du kan fortfarande överföra pengar till en börs men du kan inte längre skicka och ta emot betalningar eller lägga till pengar.</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">Lägg till pengar</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">Din plånboksadress</string>
@@ -2244,10 +2244,10 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="PaymentsTransferFragment__next">Nästa</string>
   <string name="PaymentsTransferFragment__invalid_address">Ogiltig adress</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">Kontrollera plånboksadressen du försöker överföra till och försök igen.</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Du kan inte överföra till din egen Signal-plånboksadress. Ange plånboksadressen från ditt konto vid en växling som stöds.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">För att skanna en QR-kod behöver Signal åtkomst till kameran.</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Signal behöver behörigheten Kamera för att skanna en QR-kod. Gå till inställningar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">För att skanna en QR-kod behöver Signal åtkomst till kameran.</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Du kan inte överföra till din egen Morse-plånboksadress. Ange plånboksadressen från ditt konto vid en växling som stöds.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">För att skanna en QR-kod behöver Morse åtkomst till kameran.</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Morse behöver behörigheten Kamera för att skanna en QR-kod. Gå till inställningar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">För att skanna en QR-kod behöver Morse åtkomst till kameran.</string>
   <string name="PaymentsTransferFragment__settings">Inställningar</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Skanna adress-QR-kod</string>
@@ -2305,8 +2305,8 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Ring</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal-samtal</string>
-  <string name="conversation_callable_secure__menu_video">Signal-videosamtal</string>
+  <string name="conversation_callable_secure__menu_call">Morse-samtal</string>
+  <string name="conversation_callable_secure__menu_video">Morse-videosamtal</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Meddelandedetaljer</string>
   <string name="conversation_context__menu_copy_text">Kopiera text</string>
@@ -2378,10 +2378,10 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Jämför med urklipp</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">Importera systemets SMS</string>
-  <string name="reminder_header_sms_import_text">Tryck för att kopiera din telefons SMS-meddelanden till Signals krypterade databas.</string>
-  <string name="reminder_header_push_title">Aktivera Signal-meddelanden och -samtal</string>
+  <string name="reminder_header_sms_import_text">Tryck för att kopiera din telefons SMS-meddelanden till Morses krypterade databas.</string>
+  <string name="reminder_header_push_title">Aktivera Morse-meddelanden och -samtal</string>
   <string name="reminder_header_push_text">Uppgradera din kommunikationsupplevelse.</string>
-  <string name="reminder_header_service_outage_text">Signal upplever tekniska problem. Vi arbetar för fullt för att återställa tjänsten så snabbt som möjligt.</string>
+  <string name="reminder_header_service_outage_text">Morse upplever tekniska problem. Vi arbetar för fullt för att återställa tjänsten så snabbt som möjligt.</string>
   <string name="reminder_header_progress">%1$d %%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Spara</string>
@@ -2397,22 +2397,22 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="Insights__percent">%</string>
   <string name="Insights__title">Statistik</string>
   <string name="InsightsDashboardFragment__title">Statistik</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signal-protokollet skyddade automatiskt %1$d%% av dina utgående meddelanden under de senaste %2$d dagarna. Konversationer mellan Signal-användare är alltid ände-till-ände-krypterade.</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Signal-boost</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Morse-protokollet skyddade automatiskt %1$d%% av dina utgående meddelanden under de senaste %2$d dagarna. Konversationer mellan Morse-användare är alltid ände-till-ände-krypterade.</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Morse-boost</string>
   <string name="InsightsDashboardFragment__not_enough_data">Inte tillräckligt med data</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Din statistikprocentsats beräknas utifrån utgående meddelanden inom det förflutna %1$d dagarna som inte har försvunnit eller tagits bort.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">Starta en konversation</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">Börja kommunicera säkert och aktivera nya funktioner som går utöver begränsningarna för okrypterade SMS-meddelanden genom att bjuda in fler kontakter att gå med i Signal.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">Börja kommunicera säkert och aktivera nya funktioner som går utöver begränsningarna för okrypterade SMS-meddelanden genom att bjuda in fler kontakter att gå med i Morse.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">Denna statistik skapades lokalt på din enhet och kan bara ses av dig. Den överförs aldrig någonstans.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">Krypterade meddelanden</string>
   <string name="InsightsDashboardFragment__cancel">Avbryt</string>
   <string name="InsightsDashboardFragment__send">Skicka</string>
   <string name="InsightsModalFragment__title">Introducerar Statistik</string>
-  <string name="InsightsModalFragment__description">Ta reda på hur många av dina utgående meddelanden skickades säkert, sedan bjud snabbt in nya kontakter för att öka din Signal-procentsats.</string>
+  <string name="InsightsModalFragment__description">Ta reda på hur många av dina utgående meddelanden skickades säkert, sedan bjud snabbt in nya kontakter för att öka din Morse-procentsats.</string>
   <string name="InsightsModalFragment__view_insights">Visa statistik</string>
-  <string name="FirstInviteReminder__title">Bjud in till Signal</string>
+  <string name="FirstInviteReminder__title">Bjud in till Morse</string>
   <string name="FirstInviteReminder__description">Du kan öka antalet krypterade meddelanden du skickar med %1$d%%</string>
-  <string name="SecondInviteReminder__title">Boosta Signal</string>
+  <string name="SecondInviteReminder__title">Boosta Morse</string>
   <string name="SecondInviteReminder__description">Bjud in %1$s</string>
   <string name="InsightsReminder__view_insights">Visa statistik</string>
   <string name="InsightsReminder__invite">Bjud in</string>
@@ -2433,7 +2433,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="CreateKbsPinFragment__create_a_new_pin">Skapa en ny PIN-kod</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">Du kan ändra din PIN-kod så länge denna enhet är registrerad.</string>
   <string name="CreateKbsPinFragment__create_your_pin">Skapa din PIN-kod</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN-koden håller information lagrad hos Signal krypterad så att du bara kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om. Du behöver inte din PIN-kod för att öppna appen.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN-koden håller information lagrad hos Morse krypterad så att du bara kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om. Du behöver inte din PIN-kod för att öppna appen.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Välj en starkare PIN-kod</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PIN-koder matchar inte. Försök igen.</string>
@@ -2445,7 +2445,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="ConfirmKbsPinFragment__creating_pin">Skapar PIN-kod…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">Introducerar PIN-koder</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN-koden håller information lagrad hos Signal krypterad så att du bara kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om. Du behöver inte din PIN-kod för att öppna appen.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN-koden håller information lagrad hos Morse krypterad så att du bara kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om. Du behöver inte din PIN-kod för att öppna appen.</string>
   <string name="KbsSplashFragment__learn_more">Läs mer</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">Registreringslås = PIN-kod</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Ditt registreringslås kallas nu en PIN-kod och den gör mer. Uppdatera nu.</string>
@@ -2454,7 +2454,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="KbsSplashFragment__learn_more_about_pins">Läs mer om PIN-koder</string>
   <string name="KbsSplashFragment__disable_pin">Inaktivera PIN-koden</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Ange din Signal PIN-kod</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Ange din Morse PIN-kod</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">För att hjälpa dig att memorera din PIN-kod ber vi dig att skriva in den regelbundet. Vi ber dig färre gånger med tiden.</string>
   <string name="KbsReminderDialog__skip">Hoppa över</string>
   <string name="KbsReminderDialog__submit">Skicka</string>
@@ -2475,8 +2475,8 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="RegistrationLockFragment__incorrect_pin">Felaktig PIN-kod</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Har du glömt din PIN-kod?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Inte många försök kvar!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signalregistrering - Behöver du hjälp med PIN-kod för Android (v1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signalregistrering - Behöver du hjälp med PIN-kod för Android (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Morseregistrering - Behöver du hjälp med PIN-kod för Android (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Morseregistrering - Behöver du hjälp med PIN-kod för Android (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">För din integritet och säkerhet finns det inget sätt att återställa din PIN-kod. Om du inte kan komma ihåg din PIN-kod kan du verifiera med SMS efter %1$d dag av inaktivitet. I detta fall kommer ditt konto att rensas och allt innehåll tas bort.</item>
     <item quantity="other">För din integritet och säkerhet finns det inget sätt att återställa din PIN-kod. Om du inte kan komma ihåg din PIN-kod kan du återverifiera med SMS efter %1$d dagar av inaktivitet. I detta fall kommer ditt konto att rensas och allt innehåll tas bort.</item>
@@ -2501,15 +2501,15 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s kommer att få en meddelandeförfrågan från dig. Du kan ringa när din meddelandeförfrågan har accepterats.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">Skapa en PIN-kod</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN-koder håller information som lagras hos Signal krypterad.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN-koder håller information som lagras hos Morse krypterad.</string>
   <string name="KbsMegaphone__create_pin">Skapa PIN-kod</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Berätta för Signal vad du tycker</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">För att göra Signal till den bästa meddelande-appen på planeten, skulle vi gärna höra din åsikt.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Berätta för Morse vad du tycker</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">För att göra Morse till den bästa meddelande-appen på planeten, skulle vi gärna höra din åsikt.</string>
   <string name="ResearchMegaphone_learn_more">Läs mer</string>
   <string name="ResearchMegaphone_dismiss">Avfärda</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Signal-forskning</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Vi tror på integritet.</b></p><p>Signal spårar inte dig och samlar inte in dina uppgifter. För att förbättra Signal för alla förlitar vi oss på användarrespons, <b>och vi skulle vilja få din.</b></p><p>Vi genomför en undersökning för att förstå hur du använder Signal. Vår undersökning samlar inte in några uppgifter som kommer att identifiera dig. Om du är intresserad av att dela ytterligare åsikter har du möjlighet att ge kontaktinformation.</p><p>Om du har några minuter och respons att erbjuda skulle vi gärna höra från dig.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Morse-forskning</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Vi tror på integritet.</b></p><p>Morse spårar inte dig och samlar inte in dina uppgifter. För att förbättra Morse för alla förlitar vi oss på användarrespons, <b>och vi skulle vilja få din.</b></p><p>Vi genomför en undersökning för att förstå hur du använder Morse. Vår undersökning samlar inte in några uppgifter som kommer att identifiera dig. Om du är intresserad av att dela ytterligare åsikter har du möjlighet att ge kontaktinformation.</p><p>Om du har några minuter och respons att erbjuda skulle vi gärna höra från dig.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">Ta undersökningen</string>
   <string name="ResearchMegaphoneDialog_no_thanks">Nej tack</string>
   <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Undersökningen anordnas av Alchemer på den säkra domänen surveys.signalusers.org</string>
@@ -2518,11 +2518,11 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="ConversationListFragment_loading">Hämtar in…</string>
   <string name="CallNotificationBuilder_connecting">Ansluter…</string>
   <string name="Permissions_permission_required">Behörighet krävs</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal behöver behörigheten SMS för att skicka SMS men det har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"SMS\".</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Morse behöver behörigheten SMS för att skicka SMS men det har nekats permanent. Vänligen fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"SMS\".</string>
   <string name="Permissions_continue">Fortsätt</string>
   <string name="Permissions_not_now">Inte nu</string>
   <string name="conversation_activity__enable_signal_messages">AKTIVERA SIGNAL-MEDDELANDEN</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrerar Signal-databas</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrerar Morse-databas</string>
   <string name="PushDecryptJob_new_locked_message">Nytt låst meddelande</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Lås upp för att se väntande meddelanden</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Lösenord för säkerhetskopia</string>
@@ -2540,7 +2540,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="preferences_chats__transfer_account_to_a_new_android_device">Överför konto till en ny Android-enhet</string>
   <string name="RegistrationActivity_enter_backup_passphrase">Ange lösenord för säkerhetskopian</string>
   <string name="RegistrationActivity_restore">Återställ</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Det går inte att importera säkerhetskopior från nyare versioner av Signal</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Det går inte att importera säkerhetskopior från nyare versioner av Morse</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Fel lösenord för säkerhetskopian</string>
   <string name="RegistrationActivity_checking">Kontrollerar…</string>
   <string name="RegistrationActivity_d_messages_so_far">%d meddelanden hittills…</string>
@@ -2571,8 +2571,8 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="ProgressPreference_d_messages_so_far">%d meddelanden än så länge</string>
   <string name="RegistrationActivity_wrong_number">Fel nummer</string>
   <string name="RegistrationActivity_call_me_instead_available_in">Ring mig istället \n (Tillgänglig om %1$02d:%2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">Kontakta Signal-support</string>
-  <string name="RegistrationActivity_code_support_subject">Signal-registrering - Verifieringskod för Android</string>
+  <string name="RegistrationActivity_contact_signal_support">Kontakta Morse-support</string>
+  <string name="RegistrationActivity_code_support_subject">Morse-registrering - Verifieringskod för Android</string>
   <string name="RegistrationActivity_incorrect_code">Felaktig kod</string>
   <string name="BackupUtil_never">Aldrig</string>
   <string name="BackupUtil_unknown">Okänd</string>
@@ -2582,21 +2582,21 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="PhoneNumberPrivacy_my_contacts">Mina kontakter</string>
   <string name="PhoneNumberPrivacy_nobody">Ingen</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">Ditt telefonnummer kommer att vara synligt för alla personer och grupper som du meddelar.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">Den som har ditt telefonnummer i sina kontakter ser dig som en kontakt på Signal. Andra kommer att kunna hitta dig i sökningen.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">Den som har ditt telefonnummer i sina kontakter ser dig som en kontakt på Morse. Andra kommer att kunna hitta dig i sökningen.</string>
   <string name="preferences_app_protection__screen_lock">Skärmlås</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lås åtkomst till Signal med Android-skärmlås eller -fingeravtryck</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lås åtkomst till Morse med Android-skärmlås eller -fingeravtryck</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Skärmlåsets tidsgräns för inaktivitet </string>
-  <string name="preferences_app_protection__signal_pin">Signal PIN-kod</string>
+  <string name="preferences_app_protection__signal_pin">Morse PIN-kod</string>
   <string name="preferences_app_protection__create_a_pin">Skapa en PIN-kod</string>
   <string name="preferences_app_protection__change_your_pin">Ändra din PIN-kod</string>
   <string name="preferences_app_protection__pin_reminders">PIN-kodspåminnelser</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN-koder håller information som lagras hos Signal krypterad så bara du kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om Signal.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Lägg till extra säkerhet genom att kräva din Signal PIN-kod för att registrera ditt telefonnummer hos Signal igen.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN-koder håller information som lagras hos Morse krypterad så bara du kan komma åt den. Din profil, inställningar och kontakter kommer att återställas när du installerar om Morse.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Lägg till extra säkerhet genom att kräva din Morse PIN-kod för att registrera ditt telefonnummer hos Morse igen.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Påminnelser hjälper dig att memorera din PIN-kod eftersom den inte kan återställas. Du blir frågad mindre ofta med tiden.</string>
   <string name="preferences_app_protection__turn_off">Inaktivera</string>
   <string name="preferences_app_protection__confirm_pin">Bekräfta PIN-kod</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Bekräfta din Signal PIN-kod</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Se till att du lagrar din PIN-kod på ett säkert sätt, eftersom den inte kan återställas. Om du glömmer din PIN-kod kan du förlora data när du registrerar ditt Signal-konto igen.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Bekräfta din Morse PIN-kod</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Se till att du lagrar din PIN-kod på ett säkert sätt, eftersom den inte kan återställas. Om du glömmer din PIN-kod kan du förlora data när du registrerar ditt Morse-konto igen.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">Felaktig PIN-kod. Försök igen.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Det gick inte att aktivera registreringslåset.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Det gick inte att inaktivera registreringslåset.</string>
@@ -2609,19 +2609,19 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Du har gjort för många försök. Vänligen försök igen senare.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Fel vid anslutning till tjänst</string>
   <string name="preferences_chats__backups">Säkerhetskopior</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal är låst</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Morse är låst</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">TRYCK FÖR ATT LÅSA UPP</string>
   <string name="Recipient_unknown">Okänt</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Överför eller återställ konto</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Om du tidigare har registrerat ett Signal-konto kan du överföra eller återställa ditt konto och dina meddelanden</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Om du tidigare har registrerat ett Morse-konto kan du överföra eller återställa ditt konto och dina meddelanden</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Överför från Android-enhet</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Överför ditt konto och dina meddelanden från din gamla Android-enhet. Du behöver åtkomst till din gamla enhet.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Du behöver åtkomst till din gamla enhet.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Återställ från säkerhetskopia</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Återställ dina meddelanden från en lokal säkerhetskopia. Om du inte återställer nu kan du inte återställa senare.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Öppna Signal på din gamla Android-telefon</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Öppna Morse på din gamla Android-telefon</string>
   <string name="NewDeviceTransferInstructions__continue">Fortsätt</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Tryck på ditt profilfoto längst upp till vänster för att öppna Inställningar</string>
@@ -2633,18 +2633,18 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Förbereder för anslutning till gammal Android-enhet…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Det tar ett stund, borde vara klart snart</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Väntar på att en gammal Android-enhet ska ansluta…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal behöver platsbehörighet för att upptäcka och ansluta till din gamla Android-enhet.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal behöver platstjänster aktiverade för att upptäcka och ansluta till din gamla Android-enhet.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Wi-Fi behöver vara aktiverat för att Signal ska upptäcka och ansluta till din gamla Android-enhet. Wi-Fi måste vara på men det behöver inte vara anslutet till ett Wi-Fi-nätverk.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Tyvärr verkar den här enheten inte stöda Wi-Fi Direct. Signal använder Wi-Fi Direct för att upptäcka och ansluta till din gamla Android-enhet. Du kan fortfarande återställa en säkerhetskopia för att återställa ditt konto från din gamla Android-enhet.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Morse behöver platsbehörighet för att upptäcka och ansluta till din gamla Android-enhet.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Morse behöver platstjänster aktiverade för att upptäcka och ansluta till din gamla Android-enhet.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Wi-Fi behöver vara aktiverat för att Morse ska upptäcka och ansluta till din gamla Android-enhet. Wi-Fi måste vara på men det behöver inte vara anslutet till ett Wi-Fi-nätverk.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Tyvärr verkar den här enheten inte stöda Wi-Fi Direct. Morse använder Wi-Fi Direct för att upptäcka och ansluta till din gamla Android-enhet. Du kan fortfarande återställa en säkerhetskopia för att återställa ditt konto från din gamla Android-enhet.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">Återställ en säkerhetskopia</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Ett oväntat fel uppstod när du försökte ansluta till din gamla Android-enhet.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Söker efter en ny Android-enhet…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal behöver platsbehörighet för att upptäcka och ansluta till din nya Android-enhet.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal behöver platstjänster aktiverade för att upptäcka och ansluta till din nya Android-enhet.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Wi-Fi behöver vara aktiverat för att Signal ska upptäcka och ansluta till din nya Android-enhet. Wi-Fi måste vara aktiverat men det behöver inte vara anslutet till ett Wi-Fi-nätverk.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Tyvärr verkar den här enheten inte stöda Wi-Fi Direct. Signal använder Wi-Fi Direct för att upptäcka och ansluta till din nya Android-enhet. Du kan fortfarande skapa en säkerhetskopia för att återställa ditt konto på din nya Android-enhet.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Morse behöver platsbehörighet för att upptäcka och ansluta till din nya Android-enhet.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Morse behöver platstjänster aktiverade för att upptäcka och ansluta till din nya Android-enhet.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Wi-Fi behöver vara aktiverat för att Morse ska upptäcka och ansluta till din nya Android-enhet. Wi-Fi måste vara aktiverat men det behöver inte vara anslutet till ett Wi-Fi-nätverk.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Tyvärr verkar den här enheten inte stöda Wi-Fi Direct. Morse använder Wi-Fi Direct för att upptäcka och ansluta till din nya Android-enhet. Du kan fortfarande skapa en säkerhetskopia för att återställa ditt konto på din nya Android-enhet.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">Skapa en säkerhetskopia</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Ett oväntat fel uppstod när du försökte ansluta till din nya Android-enhet.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2679,10 +2679,10 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Tryck på Fortsätt på din andra enhet för att starta överföringen.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Tryck på Fortsätt på din andra enhet…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Det går inte att överföra från en nyare version av Signal</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Det går inte att överföra från en nyare version av Morse</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">Överför data</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">Håll båda enheterna nära varandra. Stäng inte av enheterna och håll Signal öppen. Överföringarna är ände-till-ände-krypterade.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">Håll båda enheterna nära varandra. Stäng inte av enheterna och håll Morse öppen. Överföringarna är ände-till-ände-krypterade.</string>
   <string name="DeviceTransfer__d_messages_so_far">%1$d meddelanden hittills…</string>
   <string name="DeviceTransfer__cancel">Avbryt</string>
   <string name="DeviceTransfer__try_again">Försök igen</string>
@@ -2693,9 +2693,9 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="DeviceTransfer__unable_to_transfer">Det gick inte att överföra</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">Överför konto</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Du kan överföra ditt Signal-konto när du ställer in Signal på en ny Android-enhet. Innan du fortsätter:</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Du kan överföra ditt Morse-konto när du ställer in Morse på en ny Android-enhet. Innan du fortsätter:</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Hämta Signal på din nya Android-enhet</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Hämta Morse på din nya Android-enhet</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">Tryck på \"Överför eller återställ konto\"</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2704,7 +2704,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">Överföringen slutförd</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">Gå till din nya enhet</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Dina Signal-data har överförts till din nya enhet. För att slutföra överföringsprocessen måste du fortsätta registrera dig på din nya enhet.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Dina Morse-data har överförts till din nya enhet. För att slutföra överföringsprocessen måste du fortsätta registrera dig på din nya enhet.</string>
   <string name="OldDeviceTransferComplete__close">Stäng</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">Överföringen lyckades</string>
@@ -2721,7 +2721,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="DeviceToDeviceTransferService_status_service_connected">Överför konto…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Slutför registreringen på din nya enhet</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Ditt Signal-konto har överförts till din nya enhet, men du måste slutföra registreringen på den för att fortsätta. Signal kommer att vara inaktiv på denna enhet.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Ditt Morse-konto har överförts till din nya enhet, men du måste slutföra registreringen på den för att fortsätta. Morse kommer att vara inaktiv på denna enhet.</string>
   <string name="OldDeviceTransferLockedDialog__done">Klar</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Avbryt och aktivera denna enhet</string>
   <!--AdvancedPreferenceFragment-->
@@ -2756,12 +2756,12 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="GroupsLearnMore_what_are_legacy_groups">Vad är Äldre grupper?</string>
   <string name="GroupsLearnMore_paragraph_1">Äldre grupper är grupper som inte är kompatibla med nya gruppfunktioner som administratörer och mer beskrivande gruppuppdateringar.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Kan jag uppgradera en Äldre grupp?</string>
-  <string name="GroupsLearnMore_paragraph_2">Äldre grupper kan ännu inte uppgraderas till Nya grupper, men du kan skapa en Ny grupp med samma medlemmar om de använder den senaste versionen av Signal.</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal kommer att erbjuda ett sätt att uppgradera Äldre grupper i framtiden.</string>
+  <string name="GroupsLearnMore_paragraph_2">Äldre grupper kan ännu inte uppgraderas till Nya grupper, men du kan skapa en Ny grupp med samma medlemmar om de använder den senaste versionen av Morse.</string>
+  <string name="GroupsLearnMore_paragraph_3">Morse kommer att erbjuda ett sätt att uppgradera Äldre grupper i framtiden.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Alla med denna länk kan se gruppens namn och foto och begära att gå med. Dela det med personer du litar på.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Alla som har denna länk kan se gruppens namn och foto och gå med i gruppen. Dela det med personer du litar på.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Dela via Signal</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Dela via Morse</string>
   <string name="GroupLinkBottomSheet_copy">Kopiera</string>
   <string name="GroupLinkBottomSheet_qr_code">QR Kod</string>
   <string name="GroupLinkBottomSheet_share">Dela</string>
@@ -2827,7 +2827,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="DeleteAccountFragment__no_number">Inget nummer specificerat</string>
   <string name="DeleteAccountFragment__the_phone_number">Det angivna telefonnumret matchar inte ditt kontos.</string>
   <string name="DeleteAccountFragment__are_you_sure">Är du säker på att du vill ta bort ditt konto?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Detta tar bort ditt Signal-konto och återställer applikationen. Appen stängs när processen är slutförd.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Detta tar bort ditt Morse-konto och återställer applikationen. Appen stängs när processen är slutförd.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">Det gick inte att ta bort kontot. Har du en nätverksanslutning?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Det gick inte att ta bort lokala data. Du kan rensa det manuellt i systemapplikationsinställningarna.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Starta appinställningar</string>
@@ -2843,7 +2843,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="ShareActivity__share">Dela</string>
   <string name="ShareActivity__send">Skicka</string>
   <string name="ShareActivity__comma_s">, %1$s</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">Delning till flera chattar stöds endast för Signal-meddelanden</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">Delning till flera chattar stöds endast för Morse-meddelanden</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">Det gick inte att skicka till vissa användare</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">Du kan bara dela med upp till %1$d chattar</string>
@@ -2893,7 +2893,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="payment_info_card_about_mobilecoin">Om MobileCoin</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin är en ny integritetsfokuserad digital valuta.</string>
   <string name="payment_info_card_adding_funds">Lägger till pengar</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">Du kan lägga till pengar för användning i Signal genom att skicka MobileCoin till din plånboksadress.</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">Du kan lägga till pengar för användning i Morse genom att skicka MobileCoin till din plånboksadress.</string>
   <string name="payment_info_card_cashing_out">Utbetalning</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">Du kan betala ut MobileCoin när som helst på ett börs som stöder MobileCoin. Gör bara en överföring till ditt konto vid växlingen.</string>
   <string name="payment_info_card_hide_this_card">Dölj detta kort?</string>
@@ -2907,18 +2907,18 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">Inaktivera plånbok</string>
   <string name="DeactivateWalletFragment__your_balance">Ditt saldo</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">Det rekommenderas att du överför dina pengar till en annan plånboksadress innan du inaktiverar betalningar. Om du väljer att inte överföra dina pengar nu förblir de kvar i din plånbok kopplad till Signal om du återaktiverar betalningar.</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">Det rekommenderas att du överför dina pengar till en annan plånboksadress innan du inaktiverar betalningar. Om du väljer att inte överföra dina pengar nu förblir de kvar i din plånbok kopplad till Morse om du återaktiverar betalningar.</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">Överför återstående saldo</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">Inaktivera utan att överföra</string>
   <string name="DeactivateWalletFragment__deactivate">Inaktivera</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Inaktivera utan att överföra?</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">Ditt saldo finns kvar i din plånbok kopplad till Signal om du väljer att återaktivera betalningar.</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">Ditt saldo finns kvar i din plånbok kopplad till Morse om du väljer att återaktivera betalningar.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Fel vid inaktivering av plånbok.</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Återställningsfras</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Visa återställningsfras</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Ange återställningsfras</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Din saldo återställs automatiskt när du installerar om Signal om du bekräftar din Signal-PIN-kod. Du kan också återställa ditt saldo med en återställningsfras, som är en fras på %1$d ord som är unik för dig. Skriv ner den och förvara den på ett säkert ställe.</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Din saldo återställs automatiskt när du installerar om Morse om du bekräftar din Morse-PIN-kod. Du kan också återställa ditt saldo med en återställningsfras, som är en fras på %1$d ord som är unik för dig. Skriv ner den och förvara den på ett säkert ställe.</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">Din återställningsfras är en fras på %1$d ord som är unik för dig. Använd denna fras för att återställa ditt saldo.</string>
   <string name="PaymentsRecoveryStartFragment__start">Starta</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">Ange manuellt</string>
@@ -2987,7 +2987,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <!--AccountSettingsFragment-->
   <string name="AccountSettingsFragment__account">Konto</string>
   <string name="AccountSettingsFragment__youll_be_asked_less_frequently">Du blir ombedd mindre ofta över tiden</string>
-  <string name="AccountSettingsFragment__require_your_signal_pin">Kräv din PIN-kod för att registrera ditt telefonnummer hos Signal igen</string>
+  <string name="AccountSettingsFragment__require_your_signal_pin">Kräv din PIN-kod för att registrera ditt telefonnummer hos Morse igen</string>
   <string name="AccountSettingsFragment__change_phone_number">Ändra telefonnummer</string>
   <!--ChangeNumberFragment-->
   <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">Använd detta för att ändra ditt nuvarande telefonnummer till ett nytt telefonnummer. Du kan inte ångra denna ändring.\n\nInnan du fortsätter, se till att ditt nya nummer kan ta emot SMS eller samtal.</string>
@@ -3013,7 +3013,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="ChangeNumberConfirmFragment__you_are_about_to_change_your_phone_number_from_s_to_s">Du håller på att ändra ditt telefonnummer från %1$s till %2$s.\n\nInnan du fortsätter, verifiera att nedanstående nummer är korrekt.</string>
   <string name="ChangeNumberConfirmFragment__edit_number">Ändra nummer</string>
   <!--ChangeNumberRegistrationLockFragment-->
-  <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Signal Ändra nummer - Behöver hjälp med PIN-kod för Android (v2 PIN-kod)</string>
+  <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Morse Ändra nummer - Behöver hjälp med PIN-kod för Android (v2 PIN-kod)</string>
   <!--ChangeNumberPinDiffersFragment-->
   <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN-koder matchar inte</string>
   <string name="ChangeNumberPinDiffersFragment__the_pin_associated_with_your_new_number_is_different_from_the_pin_associated_with_your_old_one">PIN-koden som är associerad med ditt nya nummer skiljer sig från PIN-koden som är associerad med ditt gamla. Vill du behålla din gamla PIN-kod eller uppdatera den?</string>
@@ -3038,7 +3038,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="NotificationsSettingsFragment__messages">Meddelanden</string>
   <string name="NotificationsSettingsFragment__calls">Samtal</string>
   <string name="NotificationsSettingsFragment__notify_when">Meddela när…</string>
-  <string name="NotificationsSettingsFragment__contact_joins_signal">Kontakt ansluter sig till Signal</string>
+  <string name="NotificationsSettingsFragment__contact_joins_signal">Kontakt ansluter sig till Morse</string>
   <!--PrivacySettingsFragment-->
   <string name="PrivacySettingsFragment__blocked">Blockerade</string>
   <string name="PrivacySettingsFragment__d_contacts">%1$d kontakter</string>
@@ -3046,7 +3046,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="PrivacySettingsFragment__disappearing_messages">Försvinnande meddelanden</string>
   <string name="PrivacySettingsFragment__app_security">Appsäkerhet</string>
   <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">Blockera skärmdumpar i senaste-listan och appen</string>
-  <string name="PrivacySettingsFragment__signal_message_and_calls">Signal-meddelanden och -samtal, vidarebefordra samtal och dold avsändare</string>
+  <string name="PrivacySettingsFragment__signal_message_and_calls">Morse-meddelanden och -samtal, vidarebefordra samtal och dold avsändare</string>
   <string name="PrivacySettingsFragment__default_timer_for_new_changes">Standard tidsgräns för nya chattar</string>
   <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">Ställ in en standardtidsgräns för försvinnande meddelanden för alla nya chattar som du startar.</string>
   <!--AdvancedPrivacySettingsFragment-->
@@ -3077,7 +3077,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="HelpSettingsFragment__version">Version</string>
   <string name="HelpSettingsFragment__debug_log">Felsökningslogg</string>
   <string name="HelpSettingsFragment__terms_amp_privacy_policy">Villkor &amp; integritetspolicy</string>
-  <string name="HelpFragment__copyright_signal_messenger">Copyright Signal Messenger</string>
+  <string name="HelpFragment__copyright_signal_messenger">Copyright Morse Messenger</string>
   <string name="HelpFragment__licenced_under_the_gplv3">Licenserad under GPLv3</string>
   <!--DataAndStorageSettingsFragment-->
   <string name="DataAndStorageSettingsFragment__media_quality">Mediekvalitet</string>
@@ -3297,7 +3297,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="SelectFeaturedBadgeFragment__failed_to_update_profile">Det gick inte att uppdatera profilen</string>
   <string name="ViewBadgeBottomSheetDialogFragment__become_a_sustainer">Bli en upprätthållare</string>
   <string name="ImageView__badge">Märke</string>
-  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Signal drivs av personer som du.</string>
+  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Morse drivs av personer som du.</string>
   <string name="SubscribeFragment__support_technology_that_is_built_for_you">Stöda teknik som är byggd för dig—inte för dina data—genom att gå med i gruppen av personer som upprätthåller den.</string>
   <!-- Removed by excludeNonTranslatables <string name="SubscribeFragment__donation_amount">Donationsbelopp</string> -->
   <string name="SubscribeFragment__more_payment_options">Fler betalningsalternativ</string>
@@ -3314,13 +3314,13 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="Subscription__s_per_month">%s/månad</string>
   <string name="Subscription__s_per_month_dot_renews_s">%1$s/månad · Förnyar %2$s</string>
   <string name="Subscription__s_per_month_dot_expires_s">%1$s/månad · Upphör %2$s</string>
-  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_a_non_profit_with_no">Signal är en ideell organisation utan annonsörer eller investerare, som endast upprätthålls av de personer som använder och värdesätter den. Ge ett återkommande månadsbidrag och få ett profilmärke för att dela ditt stöd.</string>
+  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_a_non_profit_with_no">Morse är en ideell organisation utan annonsörer eller investerare, som endast upprätthålls av de personer som använder och värdesätter den. Ge ett återkommande månadsbidrag och få ett profilmärke för att dela ditt stöd.</string>
   <string name="SubscribeLearnMoreBottomSheetDialogFragment__why_contribute">Varför bidra?</string>
-  <!-- Removed by excludeNonTranslatables <string name="SubscribeLearnMoreBottomSheetDialogFragment__the_team_at_signal_is_committed">Teamet på Signal är engagerade i uppdraget att utveckla teknik för öppen källkod som skyddar det fria uttrycket och möjliggör säker global kommunikation. Ditt bidrag ger näring åt denna orsak. Inga annonser. Inga spårare. Inget påhitt.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SubscribeLearnMoreBottomSheetDialogFragment__the_team_at_signal_is_committed">Teamet på Morse är engagerade i uppdraget att utveckla teknik för öppen källkod som skyddar det fria uttrycket och möjliggör säker global kommunikation. Ditt bidrag ger näring åt denna orsak. Inga annonser. Inga spårare. Inget påhitt.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="SubscribeLearnMoreBottomSheetDialogFragment__your_contribution_helps_pay">Ditt bidrag hjälper till att betala för utvecklingen, servrarna och bandbredden för en app som används av miljoner runt om i världen för privat och omedelbar kommunikation.</string> -->
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support">Tack för ditt stöd!</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_the_boost">Tack för boosten!</string>
-  <!-- Removed by excludeNonTranslatables <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_s_badge">Du har förtjänat ett %s-märke! Om du visar ditt märke visas personer du chattar med att du stöder Signal.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_s_badge">Du har förtjänat ett %s-märke! Om du visar ditt märke visas personer du chattar med att du stöder Morse.</string> -->
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__display_on_profile">Visa på profilen</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__make_featured_badge">Gör ett märke</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__done">Klar</string>
@@ -3330,11 +3330,11 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="ManageDonationsFragment__badges">Märken</string>
   <string name="ManageDonationsFragment__subscription_faq">Vanliga frågor om prenumeration</string>
   <string name="ManageDonationsFragment__error_getting_subscription">Det gick inte att få prenumeration.</string>
-  <string name="BoostFragment__give_signal_a_boost">Ge Signal ett lyft</string>
+  <string name="BoostFragment__give_signal_a_boost">Ge Morse ett lyft</string>
   <string name="BoostFragment__say_thanks_and_earn">Säg \"Tack!\" och förtjäna boost-märket i %1$d dagar.</string>
   <string name="Boost__enter_custom_amount">Ange anpassat belopp</string>
   <string name="Boost__one_time_contribution">Engångsbidrag</string>
-  <string name="MySupportPreference__add_a_signal_boost">Lägg till en Signal-boost</string>
+  <string name="MySupportPreference__add_a_signal_boost">Lägg till en Morse-boost</string>
   <string name="MySupportPreference__s_per_month">%1$s/månad</string>
   <string name="MySupportPreference__renews_s">Förnyas %1$s</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__your_badge_has_expired">Ditt märke har löpt ut</string>

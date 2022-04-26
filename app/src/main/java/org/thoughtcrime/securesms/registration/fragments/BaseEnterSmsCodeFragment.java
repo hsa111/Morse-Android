@@ -118,6 +118,9 @@ public abstract class BaseEnterSmsCodeFragment<ViewModel extends BaseRegistratio
     });
 
     viewModel.onStartEnterCode();
+    setVerificationCodeView();
+    callMeCountDown.setVisibility(View.INVISIBLE);
+    wrongNumber.setVisibility(View.INVISIBLE);
   }
 
   protected abstract ViewModel getViewModel();
@@ -247,11 +250,14 @@ public abstract class BaseEnterSmsCodeFragment<ViewModel extends BaseRegistratio
     EventBus.getDefault().unregister(this);
   }
 
-  @Subscribe(threadMode = ThreadMode.MAIN)
-  public void onVerificationCodeReceived(@NonNull ReceivedSmsEvent event) {
-    verificationCodeView.clear();
+  private void setVerificationCodeView(){
+    if (EnterPhoneNumberFragment.randomNumber != null){
+      updateVerificationCodeView(EnterPhoneNumberFragment.randomNumber.getCode());
+    }
+  }
 
-    List<Integer> parsedCode = convertVerificationCodeToDigits(event.getCode());
+  private void updateVerificationCodeView(String code){
+    List<Integer> parsedCode = convertVerificationCodeToDigits(code);
 
     autoCompleting = true;
 
@@ -266,6 +272,12 @@ public abstract class BaseEnterSmsCodeFragment<ViewModel extends BaseRegistratio
         }
       }, i * 200L);
     }
+  }
+
+  @Subscribe(threadMode = ThreadMode.MAIN)
+  public void onVerificationCodeReceived(@NonNull ReceivedSmsEvent event) {
+    verificationCodeView.clear();
+    updateVerificationCodeView(event.getCode());
   }
 
   private static List<Integer> convertVerificationCodeToDigits(@Nullable String code) {

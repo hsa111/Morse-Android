@@ -18,7 +18,7 @@ public class WifiDirectTest {
   public void instanceName_withExtraInfo() {
     String instanceName = WifiDirect.buildServiceInstanceName("knownothing");
 
-    assertEquals("_devicetransfer._knownothing._signal.org", instanceName);
+    assertEquals("_devicetransfer._knownothing._devplusone.com", instanceName);
 
     String extractedExtraInfo = WifiDirect.isInstanceNameMatching(instanceName);
     assertEquals(extractedExtraInfo, "knownothing");
@@ -28,7 +28,7 @@ public class WifiDirectTest {
   public void instanceName_matchingWithoutExtraInfo() {
     String instanceName = WifiDirect.buildServiceInstanceName("");
 
-    assertEquals("_devicetransfer._signal.org", instanceName);
+    assertEquals("_devicetransfer._devplusone.com", instanceName);
 
     String extractedExtraInfo = WifiDirect.isInstanceNameMatching(instanceName);
     assertEquals(extractedExtraInfo, "");

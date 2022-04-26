@@ -43,13 +43,13 @@ class DeleteAccountRepository {
     SignalExecutors.BOUNDED.execute(() -> {
       Log.i(TAG, "deleteAccount: attempting to remove pin...");
 
-      try {
-        ApplicationDependencies.getKeyBackupService(KbsEnclaves.current()).newPinChangeSession().removePin();
-      } catch (UnauthenticatedResponseException | IOException e) {
-        Log.w(TAG, "deleteAccount: failed to remove PIN", e);
-        onFailureToRemovePin.run();
-        return;
-      }
+//      try {
+//        ApplicationDependencies.getKeyBackupService(KbsEnclaves.current()).newPinChangeSession().removePin();
+//      } catch (UnauthenticatedResponseException | IOException e) {
+//        Log.w(TAG, "deleteAccount: failed to remove PIN", e);
+//        onFailureToRemovePin.run();
+//        return;
+//      }
 
       Log.i(TAG, "deleteAccount: successfully removed pin.");
       Log.i(TAG, "deleteAccount: attempting to delete account from server...");

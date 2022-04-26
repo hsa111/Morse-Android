@@ -52,7 +52,7 @@ public final class ScrubberTest {
     { "A email with multiple parts before the @ d.c+b.a@mulitpart.domain.com and a multipart domain",
       "A email with multiple parts before the @ d...@... and a multipart domain" },
 
-    { "An avatar email filename: file:///data/user/0/org.thoughtcrime.securesms/files/avatars/abc@signal.org",
+    { "An avatar email filename: file:///data/user/0/org.thoughtcrime.securesms/files/avatars/abc@devplusone.com",
       "An avatar email filename: file:///data/user/0/org.thoughtcrime.securesms/files/avatars/a...@..." },
 
     { "An email and a number abc@def.com +155556789012345",
@@ -95,8 +95,8 @@ public final class ScrubberTest {
       "Failed to resolve textsecure-service.whispersystems.org using . Continuing."
     },
 
-    { " Caused by: java.io.IOException: unexpected end of stream on Connection{storage.signal.org:443, proxy=DIRECT hostAddress=storage.signal.org/142.251.32.211:443 cipherSuite=TLS_AES_128_GCM_SHA256 protocol=http/1.1}",
-      " Caused by: java.io.IOException: unexpected end of stream on Connection{storage.signal.org:443, proxy=DIRECT hostAddress=storage.signal.org/142.251.32.211:443 cipherSuite=TLS_AES_128_GCM_SHA256 protocol=http/1.1}"
+    { " Caused by: java.io.IOException: unexpected end of stream on Connection{storage.devplusone.com:443, proxy=DIRECT hostAddress=storage.devplusone.com/142.251.32.211:443 cipherSuite=TLS_AES_128_GCM_SHA256 protocol=http/1.1}",
+      " Caused by: java.io.IOException: unexpected end of stream on Connection{storage.devplusone.com:443, proxy=DIRECT hostAddress=storage.devplusone.com/142.251.32.211:443 cipherSuite=TLS_AES_128_GCM_SHA256 protocol=http/1.1}"
     }
 
     });

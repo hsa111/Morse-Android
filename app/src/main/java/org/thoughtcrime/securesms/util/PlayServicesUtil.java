@@ -9,6 +9,8 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 
 import org.signal.core.util.logging.Log;
+import org.thoughtcrime.securesms.gcm.FcmUtil;
+import org.whispersystems.libsignal.util.guava.Optional;
 
 public class PlayServicesUtil {
 
@@ -22,6 +24,10 @@ public class PlayServicesUtil {
   }
 
   public static PlayServicesStatus getPlayServicesStatus(Context context) {
+    if(!FcmUtil.CHK_GOOGLE_SERVICE){
+      return PlayServicesStatus.MISSING;
+    }
+
     int gcmStatus = 0;
 
     try {

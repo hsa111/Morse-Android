@@ -105,7 +105,6 @@ def selectableVariants = [
 ]
 
 android {
-    buildToolsVersion BUILD_TOOL_VERSION
     compileSdkVersion COMPILE_SDK
 
     flavorDimensions 'distribution', 'environment'
@@ -130,8 +129,9 @@ android {
             }
         }
     }
-
+    namespace 'org.thoughtcrime.securesms'
     defaultConfig {
+        applicationId "com.devplusone.morse"
         versionCode canonicalVersionCode * postFixSize
         versionName canonicalVersionName
 
@@ -141,22 +141,32 @@ android {
         multiDexEnabled true
 
         vectorDrawables.useSupportLibrary = true
-        project.ext.set("archivesBaseName", "Signal");
+        project.ext.set("archivesBaseName", "Morse");
 
         buildConfigField "long", "BUILD_TIMESTAMP", getLastCommitTimestamp() + "L"
         buildConfigField "String", "GIT_HASH", "\"${getGitHash()}\""
-        buildConfigField "String", "SIGNAL_URL", "\"https://textsecure-service.whispersystems.org\""
-        buildConfigField "String", "STORAGE_URL", "\"https://storage.signal.org\""
-        buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn.signal.org\""
-        buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://cdn2.signal.org\""
-        buildConfigField "String", "SIGNAL_CONTACT_DISCOVERY_URL", "\"https://api.directory.signal.org\""
-        buildConfigField "String", "SIGNAL_CDSH_URL", "\"https://cdsh.staging.signal.org\""
-        buildConfigField "String", "SIGNAL_SERVICE_STATUS_URL", "\"uptime.signal.org\""
-        buildConfigField "String", "SIGNAL_KEY_BACKUP_URL", "\"https://api.backup.signal.org\""
-        buildConfigField "String", "SIGNAL_SFU_URL", "\"https://sfu.voip.signal.org\""
+        //buildConfigField "String", "SIGNAL_URL", "\"https://lo.shiluchuanqi.com\""
+        buildConfigField "String", "SIGNAL_URL", "\"https://chat.devplusone.com\""
+        buildConfigField "String", "STORAGE_URL", "\"https://storage.devplusone.com\""
+
+        buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn.devplusone.com\""
+        //直接使用s3 url上传头像成功
+        //buildConfigField "String", "SIGNAL_CDN_URL", "\"https://mysignal-profiles.s3.us-west-2.amazonaws.com\""
+        //使用加速url 上传头像成功
+        //buildConfigField "String", "SIGNAL_CDN_URL", "\"https://mysignal-profiles.s3-accelerate.amazonaws.com\""
+        //直接使用cloudfront的cdn域名 上传头像成功
+        //buildConfigField "String", "SIGNAL_CDN_URL", "\"https://d1cepnsag4gdbc.cloudfront.net\""
+
+
+        buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://cdn2.devplusone.com\""
+        buildConfigField "String", "SIGNAL_CONTACT_DISCOVERY_URL", "\"https://api-directory.devplusone.com\""
+        buildConfigField "String", "SIGNAL_CDSH_URL", "\"https://cdsh.staging.devplusone.com\""
+        buildConfigField "String", "SIGNAL_SERVICE_STATUS_URL", "\"uptime.devplusone.com\""
+        buildConfigField "String", "SIGNAL_KEY_BACKUP_URL", "\"https://api-backup.devplusone.com\""
+        buildConfigField "String", "SIGNAL_SFU_URL", "\"https://sfu-voip.devplusone.com\""
         buildConfigField "String[]", "SIGNAL_SFU_INTERNAL_NAMES", "new String[]{\"Test\", \"Staging\"}"
-        buildConfigField "String[]", "SIGNAL_SFU_INTERNAL_URLS", "new String[]{\"https://sfu.test.voip.signal.org\", \"https://sfu.staging.voip.signal.org\"}"
-        buildConfigField "String", "CONTENT_PROXY_HOST", "\"contentproxy.signal.org\""
+        buildConfigField "String[]", "SIGNAL_SFU_INTERNAL_URLS", "new String[]{\"https://sfu.test.voip.devplusone.com\", \"https://sfu.staging.voip.devplusone.com\"}"
+        buildConfigField "String", "CONTENT_PROXY_HOST", "\"contentproxy.devplusone.com\""
         buildConfigField "int", "CONTENT_PROXY_PORT", "443"
         buildConfigField "String", "SIGNAL_AGENT", "\"OWA\""
         buildConfigField "String", "CDSH_PUBLIC_KEY", "\"2fe57da347cd62431528daac5fbb290730fff684afc4cfc2ed90995f58cb3b74\""
@@ -166,8 +176,9 @@ android {
                                                                                                 "\"fe7c1bfae98f9b073d220366ea31163ee82f6d04bead774f71ca8e5c40847bfe\", " +
                                                                                                 "\"a3baab19ef6ce6f34ab9ebb25ba722725ae44a8872dc0ff08ad6d83a9489de87\")";
         buildConfigField "org.thoughtcrime.securesms.KbsEnclave[]", "KBS_FALLBACKS", "new org.thoughtcrime.securesms.KbsEnclave[0]"
-        buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"BXu6QIKVz5MA8gstzfOgRQGqyLqOwNKHL6INkv3IHWMF\""
-        buildConfigField "String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"AMhf5ywVwITZMsff/eCyudZx9JDmkkkbV6PInzG4p8x3VqVJSFiMvnvlEKWuRob/1eaIetR31IYeAbm0NdOuHH8Qi+Rexi1wLlpzIo1gstHWBfZzy1+qHRV5A4TqPp15YzBPm0WSggW6PbSn+F4lf57VCnHF7p8SvzAA2ZZJPYJURt8X7bbg+H3i+PEjH9DXItNEqs2sNcug37xZQDLm7X36nOoGPs54XsEGzPdEV+itQNGUFEjY6X9Uv+Acuks7NpyGvCoKxGwgKgE5XyJ+nNKlyHHOLb6N1NuHyBrZrgtY\""
+        buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"BbGoDNekoM+bcgnwlBBW1FaWZ44FZn1hf0K7AaLHqUIH\""
+        buildConfigField "String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"AI5PGST44LrbLSejhACttNcT+ZJ31M1sqAMTRB2nuRhWuHHh1uM46dE5t3RQxADIpdueBjlpyhWKClQnj8HYPEnKGtqwp8GipRIiBYLdURjmD45LujmgLDqG02sDNKC6TeAV8HfJYycYWpLyhZ7Oyisr3gUM/IwaMQAkN/pStyNSkFAYCBhp6xRgKpML4bhmUmTwEUtkiXGZZXVWSbNiK28iOZx14ndssXmklNFoBMtvBjOx/12yScNcyXajY6M8PSwgQFiCJ2QdGYHoT9wfZ3vtX8bDcp+D3jOmuYUJXE18\""
+
         buildConfigField "String[]", "LANGUAGES", "new String[]{\"" + autoResConfig().collect { s -> s.replace('-r', '_') }.join('", "') + '"}'
         buildConfigField "int", "CANONICAL_VERSION_CODE", "$canonicalVersionCode"
         buildConfigField "String", "DEFAULT_CURRENCIES", "\"EUR,AUD,GBP,CAD,CNY\""
@@ -178,7 +189,7 @@ android {
         buildConfigField "String", "BUILD_DISTRIBUTION_TYPE", "\"unset\""
         buildConfigField "String", "BUILD_ENVIRONMENT_TYPE", "\"unset\""
         buildConfigField "String", "BUILD_VARIANT_TYPE", "\"unset\""
-        buildConfigField "String", "BADGE_STATIC_ROOT", "\"https://updates2.signal.org/static/badges/\""
+        buildConfigField "String", "BADGE_STATIC_ROOT", "\"https://updates2.devplusone.com/static/badges/\""
         buildConfigField "String", "STRIPE_PUBLISHABLE_KEY", "\"pk_live_6cmGZopuTsV8novGgJJW9JpC00vLIgtQ1D\""
 
         ndk {
@@ -293,7 +304,7 @@ android {
 
         website {
             dimension 'distribution'
-            ext.websiteUpdateUrl = "https://updates.signal.org/android"
+            ext.websiteUpdateUrl = "https://updates.devplusone.com/android"
             buildConfigField "boolean", "PLAY_STORE_DISABLED", "true"
             buildConfigField "String", "NOPLAY_UPDATE_URL", "\"$ext.websiteUpdateUrl\""
             buildConfigField "String", "BUILD_DISTRIBUTION_TYPE", "\"website\""
@@ -340,19 +351,20 @@ android {
 
             applicationIdSuffix ".staging"
 
-            buildConfigField "String", "SIGNAL_URL", "\"https://textsecure-service-staging.whispersystems.org\""
-            buildConfigField "String", "STORAGE_URL", "\"https://storage-staging.signal.org\""
-            buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn-staging.signal.org\""
-            buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://cdn2-staging.signal.org\""
-            buildConfigField "String", "SIGNAL_CONTACT_DISCOVERY_URL", "\"https://api-staging.directory.signal.org\""
-            buildConfigField "String", "SIGNAL_KEY_BACKUP_URL", "\"https://api-staging.backup.signal.org\""
+            buildConfigField "String", "SIGNAL_URL", "\"https://chat.devplusone.com\""
+            buildConfigField "String", "STORAGE_URL", "\"https://storage-staging.devplusone.com\""
+            buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn-staging.devplusone.com\""
+            buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://cdn2-staging.devplusone.com\""
+            buildConfigField "String", "SIGNAL_CONTACT_DISCOVERY_URL", "\"https://api-staging.directory.devplusone.com\""
+            buildConfigField "String", "SIGNAL_KEY_BACKUP_URL", "\"https://api-staging.backup.devplusone.com\""
             buildConfigField "String", "CDS_MRENCLAVE", "\"c98e00a4e3ff977a56afefe7362a27e4961e4f19e211febfbb19b897e6b80b15\""
             buildConfigField "org.thoughtcrime.securesms.KbsEnclave", "KBS_ENCLAVE", "new org.thoughtcrime.securesms.KbsEnclave(\"823a3b2c037ff0cbe305cc48928cfcc97c9ed4a8ca6d49af6f7d6981fb60a4e9\", " +
                                                                                                     "\"16b94ac6d2b7f7b9d72928f36d798dbb35ed32e7bb14c42b4301ad0344b46f29\", " +
                                                                                                     "\"a3baab19ef6ce6f34ab9ebb25ba722725ae44a8872dc0ff08ad6d83a9489de87\")"
             buildConfigField "org.thoughtcrime.securesms.KbsEnclave[]", "KBS_FALLBACKS", "new org.thoughtcrime.securesms.KbsEnclave[0]"
-            buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"BbqY1DzohE4NUZoVF+L18oUPrK3kILllLEJh2UnPSsEx\""
-            buildConfigField "String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"ABSY21VckQcbSXVNCGRYJcfWHiAMZmpTtTELcDmxgdFbtp/bWsSxZdMKzfCp8rvIs8ocCU3B37fT3r4Mi5qAemeGeR2X+/YmOGR5ofui7tD5mDQfstAI9i+4WpMtIe8KC3wU5w3Inq3uNWVmoGtpKndsNfwJrCg0Hd9zmObhypUnSkfYn2ooMOOnBpfdanRtrvetZUayDMSC5iSRcXKpdlukrpzzsCIvEwjwQlJYVPOQPj4V0F4UXXBdHSLK05uoPBCQG8G9rYIGedYsClJXnbrgGYG3eMTG5hnx4X4ntARB\""
+            buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"BbGoDNekoM+bcgnwlBBW1FaWZ44FZn1hf0K7AaLHqUIH\""
+            buildConfigField "String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"AI5PGST44LrbLSejhACttNcT+ZJ31M1sqAMTRB2nuRhWuHHh1uM46dE5t3RQxADIpdueBjlpyhWKClQnj8HYPEnKGtqwp8GipRIiBYLdURjmD45LujmgLDqG02sDNKC6TeAV8HfJYycYWpLyhZ7Oyisr3gUM/IwaMQAkN/pStyNSkFAYCBhp6xRgKpML4bhmUmTwEUtkiXGZZXVWSbNiK28iOZx14ndssXmklNFoBMtvBjOx/12yScNcyXajY6M8PSwgQFiCJ2QdGYHoT9wfZ3vtX8bDcp+D3jOmuYUJXE18\""
+
             buildConfigField "String", "MOBILE_COIN_ENVIRONMENT", "\"testnet\""
             buildConfigField "String", "RECAPTCHA_PROOF_URL", "\"https://signalcaptchas.org/staging/challenge/generate.html\""
 
@@ -360,7 +372,6 @@ android {
             buildConfigField "String", "STRIPE_PUBLISHABLE_KEY", "\"pk_test_sngOd8FnXNkpce9nPXawKrJD00kIDngZkD\""
         }
     }
-
     android.applicationVariants.all { variant ->
         variant.outputs.each { output ->
             if (output.baseName.contains('nightly')) {

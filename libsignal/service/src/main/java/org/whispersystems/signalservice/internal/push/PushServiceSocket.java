@@ -38,6 +38,7 @@ import org.whispersystems.libsignal.state.SignedPreKeyRecord;
 import org.whispersystems.libsignal.util.Pair;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.account.AccountAttributes;
+import org.whispersystems.signalservice.api.account.AccountRandomNumber;
 import org.whispersystems.signalservice.api.account.ChangePhoneNumberRequest;
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccess;
 import org.whispersystems.signalservice.api.groupsv2.CredentialResponse;
@@ -192,6 +193,7 @@ public class PushServiceSocket {
   private static final String DELETE_USERNAME_PATH      = "/v1/accounts/username";
   private static final String DELETE_ACCOUNT_PATH       = "/v1/accounts/me";
   private static final String CHANGE_NUMBER_PATH        = "/v1/accounts/number";
+  private static final String RANDOM_NUMBER_PATH        = "/v1/accounts/number/%s";
 
   private static final String PREKEY_METADATA_PATH      = "/v2/keys/";
   private static final String PREKEY_PATH               = "/v2/keys/%s";
@@ -223,9 +225,12 @@ public class PushServiceSocket {
 
   private static final String KBS_AUTH_PATH                  = "/v1/backup/auth";
 
-  private static final String ATTACHMENT_KEY_DOWNLOAD_PATH   = "attachments/%s";
-  private static final String ATTACHMENT_ID_DOWNLOAD_PATH    = "attachments/%d";
-  private static final String ATTACHMENT_UPLOAD_PATH         = "attachments/";
+  //private static final String ATTACHMENT_KEY_DOWNLOAD_PATH   = "attachments/%s";
+  //private static final String ATTACHMENT_ID_DOWNLOAD_PATH    = "attachments/%d";
+  private static final String ATTACHMENT_KEY_DOWNLOAD_PATH   = "%s";
+  private static final String ATTACHMENT_ID_DOWNLOAD_PATH    = "%d";
+  //private static final String ATTACHMENT_UPLOAD_PATH         = "attachments/";
+  private static final String ATTACHMENT_UPLOAD_PATH         = "";
   private static final String AVATAR_UPLOAD_PATH             = "";
 
   private static final String STICKER_MANIFEST_PATH          = "stickers/%s/manifest.proto";
@@ -976,6 +981,24 @@ public class PushServiceSocket {
     }
   }
 
+  public AccountRandomNumber requestAccountRandomNumber(String countryCode)
+     throws NonSuccessfulResponseCodeException, PushNetworkException, MalformedResponseException
+  {
+    try {
+      String response = makeServiceRequest(String.format(RANDOM_NUMBER_PATH, countryCode), "GET", null);
+
+      try {
+        return JsonUtil.fromJson(response, AccountRandomNumber.class);
+      } catch (IOException e) {
+        Log.w(TAG, e);
+        throw new MalformedResponseException("Unable to parse entity", e);
+      }
+    } catch (IOException e) {
+      Log.w(TAG, e);
+      throw new MalformedResponseException("Unable to parse entity", e);
+    }
+  }
+
   public ContactTokenDetails getContactTokenDetails(String contactToken) throws IOException {
     try {
       String response = makeServiceRequest(String.format(DIRECTORY_VERIFY_PATH, contactToken), "GET", null);
@@ -1315,6 +1338,7 @@ public class PushServiceSocket {
       request.addHeader("Host", connectionHolder.getHostHeader().get());
     }
 
+    Log.i(TAG,"httpClient connect to " + connectionHolder.getUrl() + "/" + path);
     Call call = okHttpClient.newCall(request.build());
 
     synchronized (connections) {
@@ -1726,7 +1750,7 @@ public class PushServiceSocket {
     return response;
   }
 
-  private Response getServiceConnection(String urlFragment,
+  private Response  getServiceConnection(String urlFragment,
                                         String method,
                                         RequestBody body,
                                         Map<String, String> headers,
@@ -1774,8 +1798,8 @@ public class PushServiceSocket {
 
     ServiceConnectionHolder connectionHolder = (ServiceConnectionHolder) getRandom(serviceClients, random);
 
-//      Log.d(TAG, "Push service URL: " + connectionHolder.getUrl());
-//      Log.d(TAG, "Opening URL: " + String.format("%s%s", connectionHolder.getUrl(), urlFragment));
+    Log.d(TAG, "Push service URL: " + connectionHolder.getUrl());
+    Log.d(TAG, "Opening URL: " + String.format("%s%s", connectionHolder.getUrl(), urlFragment));
 
     Request.Builder request = new Request.Builder();
     request.url(String.format("%s%s", connectionHolder.getUrl(), urlFragment));
@@ -1832,6 +1856,8 @@ public class PushServiceSocket {
                                                 .connectTimeout(soTimeoutMillis, TimeUnit.MILLISECONDS)
                                                 .readTimeout(soTimeoutMillis, TimeUnit.MILLISECONDS)
                                                 .build();
+
+    Log.i(TAG,"makeRequest for: " + connectionHolder.getUrl() + path);
 
     Request.Builder request = new Request.Builder().url(connectionHolder.getUrl() + path);
 
@@ -1910,7 +1936,7 @@ public class PushServiceSocket {
                                                         .readTimeout(soTimeoutMillis, TimeUnit.MILLISECONDS)
                                                         .build();
 
-//    Log.d(TAG, "Opening URL: " + connectionHolder.getUrl());
+    Log.d(TAG, "Opening URL: " + connectionHolder.getUrl() + path);
 
     Request.Builder request = new Request.Builder().url(connectionHolder.getUrl() + path);
     request.method(method, body);
@@ -2073,7 +2099,8 @@ public class PushServiceSocket {
       context.init(null, trustManagers, null);
 
       OkHttpClient.Builder builder = new OkHttpClient.Builder()
-                                                     .sslSocketFactory(new Tls12SocketFactory(context.getSocketFactory()), (X509TrustManager)trustManagers[0])
+                                                     //.sslSocketFactory(new Tls12SocketFactory(context.getSocketFactory()), (X509TrustManager)trustManagers[0])
+                                                     .sslSocketFactory(SSLSocketClient.getSSLSocketFactory(),(X509TrustManager)SSLSocketClient.getTrustManager()[0])
                                                      .connectionSpecs(url.getConnectionSpecs().or(Util.immutableList(ConnectionSpec.RESTRICTED_TLS)))
                                                      .dns(dns.or(Dns.SYSTEM));
 
@@ -2081,7 +2108,9 @@ public class PushServiceSocket {
         builder.socketFactory(new TlsProxySocketFactory(proxy.get().getHost(), proxy.get().getPort(), dns));
       }
 
-      builder.sslSocketFactory(new Tls12SocketFactory(context.getSocketFactory()), (X509TrustManager)trustManagers[0])
+      //builder.sslSocketFactory(new Tls12SocketFactory(context.getSocketFactory()), (X509TrustManager)trustManagers[0])
+      builder.sslSocketFactory(SSLSocketClient.getSSLSocketFactory(),(X509TrustManager)SSLSocketClient.getTrustManager()[0])
+             .hostnameVerifier(SSLSocketClient.getHostnameVerifier())
              .connectionSpecs(url.getConnectionSpecs().or(Util.immutableList(ConnectionSpec.RESTRICTED_TLS)))
              .build();
 

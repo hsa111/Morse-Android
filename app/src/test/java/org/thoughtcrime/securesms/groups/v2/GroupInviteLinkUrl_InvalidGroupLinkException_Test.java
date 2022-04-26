@@ -30,7 +30,7 @@ public final class GroupInviteLinkUrl_InvalidGroupLinkException_Test {
 
   @Test
   public void wrong_host() throws GroupInviteLinkUrl.InvalidGroupLinkException, GroupInviteLinkUrl.UnknownGroupLinkVersionException {
-    assertNull(GroupInviteLinkUrl.fromUri("https://x.signal.org/#CjQKIAD34MKnGrBkzDztTATwjXt-9LhLLCIG9pgzvmz-NN-AEhCbwyTuxDfP2mrluK779H7o"));
+    assertNull(GroupInviteLinkUrl.fromUri("https://x.devplusone.com/#CjQKIAD34MKnGrBkzDztTATwjXt-9LhLLCIG9pgzvmz-NN-AEhCbwyTuxDfP2mrluK779H7o"));
   }
 
   @Test

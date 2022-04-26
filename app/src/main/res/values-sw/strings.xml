@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">Ujumbe mpya</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal inasasishwa…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Morse inasasishwa…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Hivi sasa:  %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Bado haujaweka sisitizo.</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Lemaza ufafanuzi</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Hii itafungua kabisa Signal na arifu za ujumbe</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Hii itafungua kabisa Morse na arifu za ujumbe</string>
   <string name="ApplicationPreferencesActivity_disable">Lemaza</string>
   <string name="ApplicationPreferencesActivity_unregistering">Usajili unaghairiwa</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Usajili unaghairiwa kutoka jumbe za Signal na simu</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Lemaza jumbe za Signal na simu?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Lemaza jumbe na simu za Signal kwa kutosajili kutoka kwenye seva. Utatakiwa kusajili tena numberi yako ya simu ili uzitumie tena baadae.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Usajili unaghairiwa kutoka jumbe za Morse na simu</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Lemaza jumbe za Morse na simu?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Lemaza jumbe na simu za Morse kwa kutosajili kutoka kwenye seva. Utatakiwa kusajili tena numberi yako ya simu ili uzitumie tena baadae.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Hitilafu kuunganisha kwa mtambo.</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">Ujumbe mfupi wa simu umewezeshwa</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Gusa kubadili mpangilio msingi wa App ya jumbe</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">Ujumbe mfupi umelemazwa</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Gusa kufanya Signal mpangilio msingi wa App ya jumbe</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Gusa kufanya Morse mpangilio msingi wa App ya jumbe</string>
   <string name="ApplicationPreferencesActivity_on">Washwa</string>
   <string name="ApplicationPreferencesActivity_On">Washwa</string>
   <string name="ApplicationPreferencesActivity_off">Zima</string>
@@ -58,14 +58,14 @@
   <string name="AttachmentKeyboard_file">Faili</string>
   <string name="AttachmentKeyboard_contact">Mwasiliani</string>
   <string name="AttachmentKeyboard_location">Eneo</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal inahitaji ruhusa ili kuonyesha picha zako na video.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Morse inahitaji ruhusa ili kuonyesha picha zako na video.</string>
   <string name="AttachmentKeyboard_give_access">Ruhusu</string>
   <string name="AttachmentKeyboard_payment">Malipo</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Haiwezi kupata programu ya kuchagua media</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal inahitaji idhini ya Hifadhi ili kuunganisha picha, video, au sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezesha \"Hifadhi\".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal inahitaji idhini ya Mawasiliano ili kuunganisha maelezo ya mawasiliano, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Mawasiliano\".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal inahitaji ruhusa ya Eneo ili kuunganisha mahali, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Eneo\".</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Morse inahitaji idhini ya Hifadhi ili kuunganisha picha, video, au sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezesha \"Hifadhi\".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Morse inahitaji idhini ya Mawasiliano ili kuunganisha maelezo ya mawasiliano, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Mawasiliano\".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Morse inahitaji ruhusa ya Eneo ili kuunganisha mahali, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Eneo\".</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Media inapakiwa…</string>
   <string name="AttachmentUploadJob_compressing_video_start">Video inafinyazwa…</string>
@@ -109,26 +109,26 @@
   <string name="CameraXFragment_open_gallery_description">Fungua kitunzio</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Mawasiliano ya hivi karibuni</string>
-  <string name="CameraContacts_signal_contacts">Mawasiliano ya Signal</string>
-  <string name="CameraContacts_signal_groups">Makundi za Signal</string>
+  <string name="CameraContacts_signal_contacts">Mawasiliano ya Morse</string>
+  <string name="CameraContacts_signal_groups">Makundi za Morse</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">Unaweza kushiriki na upeo wa %dwa mazungumzo.</string>
-  <string name="CameraContacts_select_signal_recipients">Chagua wapokeaji wa Signal</string>
-  <string name="CameraContacts_no_signal_contacts">Hakuna mawasiliano ya Signal</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Unaweza kutumia kitufe cha kamera kutuma picha kwa mawasiliano ya Signal.</string>
+  <string name="CameraContacts_select_signal_recipients">Chagua wapokeaji wa Morse</string>
+  <string name="CameraContacts_no_signal_contacts">Hakuna mawasiliano ya Morse</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Unaweza kutumia kitufe cha kamera kutuma picha kwa mawasiliano ya Morse.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Huwezi kumpata unayemtafuta?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Alika mwasiliani wako ajiunge na Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Alika mwasiliani wako ajiunge na Morse</string>
   <string name="CameraContacts__menu_search">Tafuta</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Ondoa</string>
   <string name="ClearProfileActivity_remove_profile_photo">Ondoa picha ya wasifu?</string>
   <string name="ClearProfileActivity_remove_group_photo">Ungependa kuondoa picha ya kikundi?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Sasisha Signal</string>
+  <string name="ClientDeprecatedActivity_update_signal">Sasisha Morse</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Toleo hili la programu halitumiki tena. Ili kuendelea kutuma na kupokea ujumbe, sasisha utumie toleo jipya.</string>
   <string name="ClientDeprecatedActivity_update">Sasisha</string>
   <string name="ClientDeprecatedActivity_dont_update">Usisasishe</string>
   <string name="ClientDeprecatedActivity_warning">Onyo</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Muda wa toleo lako la Signal umekwisha. Unaweza kuona historia ya ujumbe wako lakini hutaweza kutuma au kupokea ujumbe hadi usasishe.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Muda wa toleo lako la Morse umekwisha. Unaweza kuona historia ya ujumbe wako lakini hutaweza kutuma au kupokea ujumbe hadi usasishe.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">Hakuna kivinjari kilichopatikana.</string>
   <string name="CommunicationActions_send_email">Tuma barua pepe</string>
@@ -137,9 +137,9 @@
   <string name="CommunicationActions_cancel">Ghairi</string>
   <string name="CommunicationActions_call">Piga</string>
   <string name="CommunicationActions_insecure_call">Mazungumzo ya simu si salama</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Huenda utatozwa gharama za mtoa huduma. Nambari unayopiga haijasajiliwa katika Signal. Simu hii itapigwa kupitia mtoa huduma wako wa simu wala si mtandaoni.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Huenda utatozwa gharama za mtoa huduma. Nambari unayopiga haijasajiliwa katika Morse. Simu hii itapigwa kupitia mtoa huduma wako wa simu wala si mtandaoni.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Nambari yako ya usalama ya 1 %1$s imebadilika. Hii inamaanisha kuwa aidha kuna mtu anajaribu kuingilia mawasiliano yako, ama tu 2 %2$s amesimiza upya Signal.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Nambari yako ya usalama ya 1 %1$s imebadilika. Hii inamaanisha kuwa aidha kuna mtu anajaribu kuingilia mawasiliano yako, ama tu 2 %2$s amesimiza upya Morse.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Ungependa kuthibitisha nambari yako ya usalama na anwani hii.</string>
   <string name="ConfirmIdentityDialog_accept">Kubali</string>
   <!--ContactsCursorLoader-->
@@ -150,7 +150,7 @@
   <string name="ContactsCursorLoader_username_search">Utafutaji wa jina la mtumizi</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Ujumbe %s</string>
-  <string name="ContactsDatabase_signal_call_s">Simu ya Signal %s</string>
+  <string name="ContactsDatabase_signal_call_s">Simu ya Morse %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Jina ulilopewa</string>
   <string name="ContactNameEditActivity_family_name">Jina la ukoo</string>
@@ -173,7 +173,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Imefeli kutuma, gusa kwa isiyo salama ili kurejea nyuma</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Rudi nyuma kwa ujumbe usio na msimbo fiche?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Rudi nyuma kwa ujumbe usio na msimbo fiche?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Huu ujumbe hau <b>ta</b>  kuwa na msimbo fiche kwa sababu mpokeaji hatumii tena Signal.\n\n Tuma ujumbe usio salama?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Huu ujumbe hau <b>ta</b>  kuwa na msimbo fiche kwa sababu mpokeaji hatumii tena Morse.\n\n Tuma ujumbe usio salama?</string>
   <string name="ConversationItem_unable_to_open_media">Haiwezi kupata programu inayoweza kufungua media hii.</string>
   <string name="ConversationItem_copied_text">nakala 1%s</string>
   <string name="ConversationItem_from_s">kutoka %s</string>
@@ -198,8 +198,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Kifaa hiki hakionekani kuwezesha matendo ya kupiga </string>
   <string name="ConversationActivity_transport_insecure_sms">Ujumbe usio salama</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS isiyo salama</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Wacha tubadili kwa Signal 1%1$s</string>
+  <string name="ConversationActivity_transport_signal">Morse</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Wacha tubadili kwa Morse 1%1$s</string>
   <string name="ConversationActivity_specify_recipient">Tafadhali chagua mawasiliano</string>
   <string name="ConversationActivity_unblock">Fungua</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">Kiambatisho kimezidi ukubwa wa aina ya ujumbe unaotuma</string>
@@ -213,17 +213,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Hakuna programu ya kuweza kushughulikia kiungo hiki kwenye kifaa chako</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Ombi lako la kujiunga limetumwa kwa msimamizi wa kikundi. Utaarifiwa atakapochukua hatua.</string>
   <string name="ConversationActivity_cancel_request">Ghairi Ombi</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Kutuma jumbe za sauti, ruhusu ufikiaji wa Signal  kwenye kipaza sauti chako.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal inahitaji idhini ya Kipaza sauti ili kutuma ujumbe wa sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\".</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal inahitaji ruhusa ya Kipaza sauti na Kamera ili kupiga%s , lakini zimekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\" na \"Kamera\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ili kupiga picha na video, ruhusu ufikiaji wa Signal kwa kamera.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal inahitaji kibali cha Kamera kuchukua picha au video, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal inahitaji ruhusa ya kamera kuchukua picha na video</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Kutuma jumbe za sauti, ruhusu ufikiaji wa Morse  kwenye kipaza sauti chako.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Morse inahitaji idhini ya Kipaza sauti ili kutuma ujumbe wa sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\".</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Morse inahitaji ruhusa ya Kipaza sauti na Kamera ili kupiga%s , lakini zimekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\" na \"Kamera\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ili kupiga picha na video, ruhusu ufikiaji wa Morse kwa kamera.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Morse inahitaji kibali cha Kamera kuchukua picha au video, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Morse inahitaji ruhusa ya kamera kuchukua picha na video</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Wezesha ruhusa ya kipaza sauti kiweze kunasa video za sauti.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal inahitaji ruhusa za kipaza sauti kurekodi video, lakini imekataliwa. Tafadhali enda kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza Sauti\" na \"Kamera\".</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal inahitaji ruhusa za kipaza sauti ili kurekodi video.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Morse inahitaji ruhusa za kipaza sauti kurekodi video, lakini imekataliwa. Tafadhali enda kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza Sauti\" na \"Kamera\".</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Morse inahitaji ruhusa za kipaza sauti ili kurekodi video.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal haiwezi kutuma jumbe za SMS au MMS kwa sababu sio programu chaguo-msingi ya SMS. Unataka kubadilisha mipangilio ya Android?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Morse haiwezi kutuma jumbe za SMS au MMS kwa sababu sio programu chaguo-msingi ya SMS. Unataka kubadilisha mipangilio ya Android?</string>
   <string name="ConversationActivity_yes">Ndio</string>
   <string name="ConversationActivity_no">Hapana</string>
   <string name="ConversationActivity_search_position">%1$d kwa %2$d</string>
@@ -237,7 +237,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Utaondoka kundi hili, na litafutwa kutoka kwa vifaa vyako vyote.</string>
   <string name="ConversationActivity_delete">Futa</string>
   <string name="ConversationActivity_delete_and_leave">Futa na uondoke</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Ili kumpigia %1$s simu, Signal inahitaji kufikia maikrofoni yako</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Ili kumpigia %1$s simu, Morse inahitaji kufikia maikrofoni yako</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">Chaguo zaidi sasa katika \";Mipangilio ya Kikundi\"</string>
   <string name="ConversationActivity_join">Jiunge</string>
   <string name="ConversationActivity_full">Imejaa</string>
@@ -272,14 +272,14 @@
     <item quantity="other">Inahifadhi viambatisho %1$dkwenye hifadhi</item>
   </plurals>
   <string name="ConversationFragment_pending">Subiriwa…</string>
-  <string name="ConversationFragment_push">Data (Signal)</string>
+  <string name="ConversationFragment_push">Data (Morse)</string>
   <string name="ConversationFragment_mms">Ujumbe wa picha</string>
   <string name="ConversationFragment_sms">Ujumbe wa maneno</string>
   <string name="ConversationFragment_deleting">Kufuta</string>
   <string name="ConversationFragment_deleting_messages">Inafuta jumbe</string>
   <string name="ConversationFragment_delete_for_me">Nifutie</string>
   <string name="ConversationFragment_delete_for_everyone">Futa kwa kila mtu</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Ujumbe huu utafutwa kwa kila mtu aliye katika mazungumzo ikiwa anatumia toleo jipya la Signal. Kila mtu ataweza kuona kuwa umefuta ujumbe.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Ujumbe huu utafutwa kwa kila mtu aliye katika mazungumzo ikiwa anatumia toleo jipya la Morse. Kila mtu ataweza kuona kuwa umefuta ujumbe.</string>
   <string name="ConversationFragment_quoted_message_not_found">Ujumbe halisi haupatikani</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">Ujumbe halisi haupo tena</string>
   <string name="ConversationFragment_failed_to_open_message">Imeshindwa kufungua ujumbe</string>
@@ -291,12 +291,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">Washiriki %1$d wa kikundi wana majina yanayofanana</string>
   <string name="ConversationFragment__tap_to_review">Gusa ili ukague</string>
   <string name="ConversationFragment__review_requests_carefully">Kagua maombi kwa uangalifu</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal imempata mtu mwingine mwenye jina kama hili.</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Morse imempata mtu mwingine mwenye jina kama hili.</string>
   <string name="ConversationFragment_contact_us">Wasiliana nasi</string>
   <string name="ConversationFragment_verify">Hakikisha</string>
   <string name="ConversationFragment_not_now">Sio sasa</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">Nambari yako ya usalama unayotumia na %s imebadilika</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Nambari yako ya usalama unayotumia kwa %s imebadilika kwa sababu amesakinisha tena Signal au kubadilisha kifaa. Gusa Thibitisha ili uthibitishe nambari mpya ya usalama. Hatua hii si ya lazima.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Nambari yako ya usalama unayotumia kwa %s imebadilika kwa sababu amesakinisha tena Morse au kubadilisha kifaa. Gusa Thibitisha ili uthibitishe nambari mpya ya usalama. Hatua hii si ya lazima.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">Futa mazungumzo umechagua?</item>
     <item quantity="other">Futa mazungumzo uliyoyachagua?</item>
@@ -359,11 +359,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Jaribu kifungu maneno chako cha nakilihifadhi na uhakikishe kinalingana</string>
   <string name="BackupsPreferenceFragment__turn_on">Washa</string>
   <string name="BackupsPreferenceFragment__turn_off">Zima</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">Ili kurejesha nakala hifadhi, sakinisha nakala mpya ya Signal. Fungua programu na uguse \"Rejesha nakala rudufu\", kisha utafute faili ya nakala hifadhi. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">Ili kurejesha nakala hifadhi, sakinisha nakala mpya ya Morse. Fungua programu na uguse \"Rejesha nakala rudufu\", kisha utafute faili ya nakala hifadhi. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">Jifunze zaidi</string>
   <string name="BackupsPreferenceFragment__in_progress">Inaendelea…</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d hadi sasa…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal inahitaji idhini ya hifadhi ya nje ili kuunda nakalahifadhi, lakini imekataliwa kabisa. Tafadhali enda kwenye mipangilio ya programu, chagua \"Ruhusa\" na uwezeshe \"Hifadhi\".</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Morse inahitaji idhini ya hifadhi ya nje ili kuunda nakalahifadhi, lakini imekataliwa kabisa. Tafadhali enda kwenye mipangilio ya programu, chagua \"Ruhusa\" na uwezeshe \"Hifadhi\".</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">Inatumia kaida: %s</string>
   <string name="CustomDefaultPreference_using_default">Inatumia chaguo msingi: %s</string>
@@ -382,7 +382,7 @@
   <string name="DateUtils_yesterday">Jana</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">Kipindi cha gumzo kimeonyeshwa upya</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal hutumia usimbaji wa mwisho hadi mwisho na inaweza kuhitaji kuonyesha upya gumzo zako wakati mwingine. Kitendo hiki hakiathiri usalama wa gumzo yako lakini huenda umekosa ujumbe kutoka kwa mwasiliani huyu na unaweza kumwomba autume tena.</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Morse hutumia usimbaji wa mwisho hadi mwisho na inaweza kuhitaji kuonyesha upya gumzo zako wakati mwingine. Kitendo hiki hakiathiri usalama wa gumzo yako lakini huenda umekosa ujumbe kutoka kwa mwasiliani huyu na unaweza kumwomba autume tena.</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">Tenganisha \' %s\'?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">Kwa kutengua uunganishwaji wa kifaa hiki, hakitaweza tena kutuma au kupokea ujumbe.</string>
@@ -399,8 +399,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">Faili isiyo na jina</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Changia Signal</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal inaendeshwa na watu kama wewe. Simama uhesabike leo!</string>
+  <string name="DonateMegaphone_donate_to_signal">Changia Morse</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Morse inaendeshwa na watu kama wewe. Simama uhesabike leo!</string>
   <string name="DonateMegaphone_donate">Toa</string>
   <string name="DonateMegaphone_no_thanks">Hapana, Asante</string>
   <!--GroupCallingMegaphone-->
@@ -408,9 +408,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">Fungua Kikundi Kipya ili uanzishe mkutano wa kikundi uliosimbwa na usiolipishwa</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Panga kwa Huduma za Play sizizopo.</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Kifaa hiki hakiwezeshi Huduma za Play. Gonga ili kulemaza na kuboresha mfumo wa betri unaozuia Signal kupokea ujumbe wakati haupo kwenye matumizi.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Kifaa hiki hakiwezeshi Huduma za Play. Gonga ili kulemaza na kuboresha mfumo wa betri unaozuia Morse kupokea ujumbe wakati haupo kwenye matumizi.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Muda wa toleo hili la Signal umekwisha. Sasisha sasa ili utume na kupokea ujumbe.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Muda wa toleo hili la Morse umekwisha. Sasisha sasa ili utume na kupokea ujumbe.</string>
   <string name="ExpiredBuildReminder_update_now">Sasisha sasa</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -423,8 +423,8 @@
   <string name="ShareActivity_multiple_attachments_are_only_supported">Viambatisho vingi hutumika tu kwa picha na video</string>
   <string name="ShareActivity_you_do_not_have_permission_to_send_to_this_group">Huna ruhusa ya kutuma kwenye kikundi hiki</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Muda wote mawasiliano ya Signal yanafeli!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal haikuweza kujisajili na Huduma za Google Play. Ujumbe wa Signal na simu zimezimwa, tafadhali jaribu kujiandikisha katika Mipangilio &gt;  Zaidi.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Muda wote mawasiliano ya Morse yanafeli!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Morse haikuweza kujisajili na Huduma za Google Play. Ujumbe wa Morse na simu zimezimwa, tafadhali jaribu kujiandikisha katika Mipangilio &gt;  Zaidi.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Hitilafu wakati wa kurejesha GIF kamili ya azimio</string>
   <!--GiphyFragmentPageAdapter-->
@@ -582,7 +582,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">Sharti ujaze sehemu hii.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">Kikundi hakijaundwa.</string>
   <string name="AddGroupDetailsFragment__try_again_later">Jaribu tena baadaye.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Umechagua mwasiliani asiyetumia vikundi vya Signal, kwa hiyo kikundi hiki kitakuwa MMS.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Umechagua mwasiliani asiyetumia vikundi vya Morse, kwa hiyo kikundi hiki kitakuwa MMS.</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Ni wewe tu utakayeona majina na picha maalum za kikundi cha MMS zitaonekana.</string>
   <string name="AddGroupDetailsFragment__remove">Ondoa</string>
   <string name="AddGroupDetailsFragment__sms_contact">Mawasiliano ya SMS</string>
@@ -596,15 +596,15 @@
     <item quantity="other">Wanachama %d hawakubali Vikundi Vipya, kwa hivyo hiki hakiwezi kuundwa. </item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Kikundi Kizee kitaundwa kwa sababu “%1$s” anatumia toleo la awali la Signal. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Signal, au uwaondoe kabla ya kuunda kikundi.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Kikundi Kizee kitaundwa kwa sababu “%1$s” anatumia toleo la awali la Morse. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Morse, au uwaondoe kabla ya kuunda kikundi.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">Kikundi Kizee kitaundwa kwa sababu mwanachama %1$danatumia toleo la awali la Signal. Unaweza kuunda Kikundi Kipya cha Mitindo kinachomjumuisha baada ya kusasisha Signal, au umwondoe kabla ya kuunda kikundi.</item>
-    <item quantity="other">Kikundi Kizee kitaundwa kwa sababu wanachama wa %1$dwanatumia toleo la awali la Signal. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Signal, au uwaondoe kabla ya kuunda kikundi.</item>
+    <item quantity="one">Kikundi Kizee kitaundwa kwa sababu mwanachama %1$danatumia toleo la awali la Morse. Unaweza kuunda Kikundi Kipya cha Mitindo kinachomjumuisha baada ya kusasisha Morse, au umwondoe kabla ya kuunda kikundi.</item>
+    <item quantity="other">Kikundi Kizee kitaundwa kwa sababu wanachama wa %1$dwanatumia toleo la awali la Morse. Unaweza kuunda Kikundi Kipya cha Mitindo kinachowajumuisha baada ya kusasisha Morse, au uwaondoe kabla ya kuunda kikundi.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Kikundi hiki hakiwezi kuundwa kwa sababu \"%1$s\" anatumia toleo zee la Signal. Unatakiwa kumwondoa kabla ya kuunda kikundi.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Kikundi hiki hakiwezi kuundwa kwa sababu \"%1$s\" anatumia toleo zee la Morse. Unatakiwa kumwondoa kabla ya kuunda kikundi.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">Kikundi hiki hakiwezi kuundwa kwa sababu mwanachama %1$d anatumia toleo zee la Signal. Unatakiwa kumwondoa kabla ya kuunda kikundi.</item>
-    <item quantity="other">Kikundi hiki hakiwezi kuundwa kwa sababu wanachama %1$dwanatumia toleo zee la Signal. Unatakiwa kuwaondoa kabla ya kuunda kikundi.</item>
+    <item quantity="one">Kikundi hiki hakiwezi kuundwa kwa sababu mwanachama %1$d anatumia toleo zee la Morse. Unatakiwa kumwondoa kabla ya kuunda kikundi.</item>
+    <item quantity="other">Kikundi hiki hakiwezi kuundwa kwa sababu wanachama %1$dwanatumia toleo zee la Morse. Unatakiwa kuwaondoa kabla ya kuunda kikundi.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">Maombi na mialiko ya wanachama </string>
@@ -634,8 +634,8 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">Ni wasimamizi pekee wanaoweza kuwezesha au kuzima chaguo la kuwaidhinisha wanachama wapya.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Ni wasimamizi pekee wanaoweza kuweka upya kiungo kinachoweza kushirikiwa.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Huna haki ya kufanya hivi</string>
-  <string name="ManageGroupActivity_not_capable">Mtu uliyeongeza hana programu inayokubali vikundi vipya, kwa hivyo anahitaji kusasisha Signal</string>
-  <string name="ManageGroupActivity_not_announcement_capable">Mtu uliyeongeza hana programu inayokubali matangazo, kwa hivyo anahitaji kusasisha Signal</string>
+  <string name="ManageGroupActivity_not_capable">Mtu uliyeongeza hana programu inayokubali vikundi vipya, kwa hivyo anahitaji kusasisha Morse</string>
+  <string name="ManageGroupActivity_not_announcement_capable">Mtu uliyeongeza hana programu inayokubali matangazo, kwa hivyo anahitaji kusasisha Morse</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Kikundi hakijasasishwa</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Wewe si mwanachama wa kikundi hiki</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Hujaweza kusasisha kikundi hiki, tafadhali jaribu tena baadaye</string>
@@ -646,7 +646,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">Hiki ni Kikundi Kizee. Ili upate huduma mpya kama @kutajwa na kuteua wasimamizi,</string>
   <string name="ManageGroupActivity_legacy_group_too_large">Kikundi hiki cha Urithi hakiwezi kupandishwa hadhi kuwa Kikundi kipya kwa sababu ni kubwa mno. Ukubwa wa juu wa kikundi ni %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">boresha kikundi hiki.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Hili ni Kikundi cha MMS kisicho salama. Ili kupiga gumzo kwa faragha, waalike wawasiliani wako kwenye Signal.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Hili ni Kikundi cha MMS kisicho salama. Ili kupiga gumzo kwa faragha, waalike wawasiliani wako kwenye Morse.</string>
   <string name="ManageGroupActivity_invite_now">Waalike sasa</string>
   <string name="ManageGroupActivity_more">zaidi</string>
   <string name="ManageGroupActivity_add_group_description">Weka maelezo ya kikundi…</string>
@@ -720,10 +720,10 @@
     <item quantity="other">Wanachama wa kikundi %1$d</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Sasisha Signal ili utumie viungo vya vikundi</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Toleo la Signal unalotumia halikubali kiungo hiki cha kikundi. Sakinisha toleo jipya ili ujiunge na kikundi hiki kupitia kiungo.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Sasisha Signal</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Kifaa kimoja au vingi vyako vilichounganishwa vinatumia toleo la Signal ambalo halikubali viungo vya vikundi. Sasisha Signal kwenye (kifaa au) vifaa vyako vilivyounganishwa ili ujiunge na kikundi hiki.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Sasisha Morse ili utumie viungo vya vikundi</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Toleo la Morse unalotumia halikubali kiungo hiki cha kikundi. Sakinisha toleo jipya ili ujiunge na kikundi hiki kupitia kiungo.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Sasisha Morse</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Kifaa kimoja au vingi vyako vilichounganishwa vinatumia toleo la Morse ambalo halikubali viungo vya vikundi. Sasisha Morse kwenye (kifaa au) vifaa vyako vilivyounganishwa ili ujiunge na kikundi hiki.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Kiungo cha kikundi si sahihi</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Alika marafiki</string>
@@ -752,12 +752,12 @@
   <string name="InviteActivity_cancel">Ghairi</string>
   <string name="InviteActivity_sending">Inatuma…</string>
   <string name="InviteActivity_invitations_sent">Mialiko imetumwa!</string>
-  <string name="InviteActivity_invite_to_signal">Alika kwa Signal</string>
+  <string name="InviteActivity_invite_to_signal">Alika kwa Morse</string>
   <plurals name="InviteActivity_send_sms_invites">
     <item quantity="one">Tuma miwito za SMS 1%d?</item>
     <item quantity="other">Tuma %d mialiko ya SMS?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Wacha tubadili kwa Signal: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Wacha tubadili kwa Morse: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Inaonekana huna programu zozote za kushiriki</string>
   <!--LearnMoreTextView-->
   <string name="LearnMoreTextView_learn_more">Jifunze zaidi</string>
@@ -766,7 +766,7 @@
   <string name="LongMessageActivity_message_from_s">Ujumbe kutoka %1$s</string>
   <string name="LongMessageActivity_your_message">Ujumbe wako</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Morse</string>
   <string name="MessageRetrievalService_background_connection_enabled">kuunganisha kwa usuli kumewezeshwa</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Hitilafu kusoma mipangilio ya mtoa huduma za wireless MMS </string>
@@ -809,7 +809,7 @@
   <string name="Megaphones_introducing_reactions">Kuzindua hisia</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Donoa na ushikilie ujumbe wowote ili kwa haraka ushiriki unavyohisi.</string>
   <string name="Megaphones_remind_me_later">Nikumbushe baadaye</string>
-  <string name="Megaphones_verify_your_signal_pin">Thibitisha PINI yako ya Signal</string>
+  <string name="Megaphones_verify_your_signal_pin">Thibitisha PINI yako ya Morse</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Tutakuomba mara kwa mara uthibitishe PIN yako ili uikumbuke.</string>
   <string name="Megaphones_verify_pin">Thibitisha PINI</string>
   <string name="Megaphones_get_started">Anza</string>
@@ -819,10 +819,10 @@
   <string name="Megaphones_appearance">Muonekano</string>
   <string name="Megaphones_add_photo">Ongeza picha</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Simu ya Signal inaendelea</string>
-  <string name="NotificationBarManager__establishing_signal_call">Inaanzisha simu ya Signal</string>
-  <string name="NotificationBarManager__incoming_signal_call">Simu ya Signal inayoingia</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">Kusimamisha huduma ya mazungumzo ya simu ya Signal</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Simu ya Morse inaendelea</string>
+  <string name="NotificationBarManager__establishing_signal_call">Inaanzisha simu ya Morse</string>
+  <string name="NotificationBarManager__incoming_signal_call">Simu ya Morse inayoingia</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">Kusimamisha huduma ya mazungumzo ya simu ya Morse</string>
   <string name="NotificationBarManager__answer_call">Pokea simu</string>
   <string name="NotificationBarManager__end_call">Mwisho wa kupiga simu</string>
   <string name="NotificationBarManager__cancel_call">Ghairi simu</string>
@@ -848,8 +848,8 @@
   <string name="MediaSendActivity_message_to_s">Tuma ujumbe kwa %s</string>
   <string name="MediaSendActivity_message">Ujumbe</string>
   <string name="MediaSendActivity_select_recipients">Chagua wapokeaji</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal inahitaji upatikanaji wa anwani zako ili kuzionyesha.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal inahitaji ruhusa za Wawasiliani wako ili kuonyesha wawasiliani wako, lakini imekataliwa kabisa. Tafadhali enda kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Wawasiliani\".</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Morse inahitaji upatikanaji wa anwani zako ili kuzionyesha.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Morse inahitaji ruhusa za Wawasiliani wako ili kuonyesha wawasiliani wako, lakini imekataliwa kabisa. Tafadhali enda kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Wawasiliani\".</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">Huwezi kugawiza kuliko vitu 1%d.</item>
     <item quantity="other">Huwezi kushiriki zaidi ya %dvitu</item>
@@ -864,7 +864,7 @@
   <string name="MessageDecryptionUtil_tap_to_send_a_debug_log">Gusa ili utume kumbukumbu ya utatuzi</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Isiyojulikana</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Umepokea ujumbe uliosimbwa kutumia toleo la zamani la Signal ambalo halitumiki tena. Tafadhali muombe mtumaji kusasisha hadi toleo la hivi karibuni na kutuma tena ujumbe.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Umepokea ujumbe uliosimbwa kutumia toleo la zamani la Morse ambalo halitumiki tena. Tafadhali muombe mtumaji kusasisha hadi toleo la hivi karibuni na kutuma tena ujumbe.</string>
   <string name="MessageRecord_left_group">Umeondoka kwenye kundi.</string>
   <string name="MessageRecord_you_updated_group">Umesasisha kikundi</string>
   <string name="MessageRecord_the_group_was_updated">Kikundi kimesasishwa.</string>
@@ -873,7 +873,7 @@
   <string name="MessageRecord_missed_video_call_date">Umekosa simu ya video · %1$s</string>
   <string name="MessageRecord_s_updated_group">1%s amesasisha kikundi</string>
   <string name="MessageRecord_s_called_you_date">%1$s amekupigia simu · %2$s</string>
-  <string name="MessageRecord_s_joined_signal">1%s yupo Signal!</string>
+  <string name="MessageRecord_s_joined_signal">1%s yupo Morse!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Umelemaza jumbe zinazopotea</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s  amelemaza jumbe zinazopotea</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Umeweka kitufe cha wakati cha ujumbe unaotoweka kwa %1$s.</string>
@@ -1100,25 +1100,25 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Msimbo wa QR sio sahihi</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Samahani, una vifaa vingi vilivyounganishwa tayari, jaribu kuondoa baadhi</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Samahani, hiki sio kiungo halali cha msimbo wa QR kwa kifaa</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Unganisha kifaa cha Signal</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Inaonekana unajaribu kuunganisha kifaa cha Signal kwa kutumia skana ya mhusika wa 3. Kwa usalama wako, tafadhali skani msimbo tena kutoka ndani ya Signal.</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Unganisha kifaa cha Morse</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Inaonekana unajaribu kuunganisha kifaa cha Morse kwa kutumia skana ya mhusika wa 3. Kwa usalama wako, tafadhali skani msimbo tena kutoka ndani ya Morse.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">
-Signal inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
+Morse inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Imeshindwa kuskani msimbo wa QR bila ruhusa ya Kamera</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">Sasisha sasa</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Muda wa toleo hili la Signal utaisha leo. Sasisha utumie toleo jipya.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Muda wa toleo hili la Morse utaisha leo. Sasisha utumie toleo jipya.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">Muda wa toleo hili la Signal utaisha kesho. Sasisha utumie toleo jipya.</item>
-    <item quantity="other">Muda wa toleo hili la Signal utaisha katika siku %d. Sasisha utumie toleo jipya.</item>
+    <item quantity="one">Muda wa toleo hili la Morse utaisha kesho. Sasisha utumie toleo jipya.</item>
+    <item quantity="other">Muda wa toleo hili la Morse utaisha katika siku %d. Sasisha utumie toleo jipya.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Ingiza nenosiri</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal ikoni</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Morse ikoni</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Wasilisha nenosiri</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Nenosiri sio sahihi</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Fungua Signal</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Kufunga Skrini</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Fungua Morse</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Morse Android - Kufunga Skrini</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Ramani</string>
   <string name="PlacePickerActivity_drop_pin">Weka nambari ya siri</string>
@@ -1139,16 +1139,16 @@ Signal inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa k
     <item quantity="one">Una jaribio %1$d lililosalia. Ukimaliza majaribio unaweza kuunda PINI mpya. Unaweza kujisajili na kutumia akaunti yako ila utapoteza mipangilio fulani iliyohifadhiwa kama vile taarifa za wasifu wako.</item>
     <item quantity="other">Una majaribio %1$dyaliyosalia. Ukimaliza majaribio unaweza kuunda PINI mpya. Unaweza kujisajili na kutumia akaunti yako ila utapoteza mipangilio fulani iliyohifadhiwa kama vile taarifa za wasifu wako.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Usajili wa Signal - Nahitaji Usaidizi wa Nambari ya Usajili kwenye Android</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Usajili wa Morse - Nahitaji Usaidizi wa Nambari ya Usajili kwenye Android</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Ingiza Nenosiri la herufi na nambari</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">Ingiza Nenosiri lenye nambari </string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">Unda Nenosiri lako</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Umefikia idadi ya juu zaidi ya majaribio ya PIN, lakini bado unaweza kufikia akaunti yako ya Signal kwa kuunda PIN mpya. Kwa faragha na usalama wako, akaunti yako itarejeshwa bila maelezo au mipangilio ya wasifu iliyohifadhiwa.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Umefikia idadi ya juu zaidi ya majaribio ya PIN, lakini bado unaweza kufikia akaunti yako ya Morse kwa kuunda PIN mpya. Kwa faragha na usalama wako, akaunti yako itarejeshwa bila maelezo au mipangilio ya wasifu iliyohifadhiwa.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Unda PIN mpya</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">Onyo</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Ukizima PIN, utapoteza data yote utakaposajili upya Signal isipokuwa ukihifadhi nakala yake na kuirejesha mwenyewe. Huwezi kuwasha Kufuli ya Usajili wakati PIN imezimwa.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Ukizima PIN, utapoteza data yote utakaposajili upya Morse isipokuwa ukihifadhi nakala yake na kuirejesha mwenyewe. Huwezi kuwasha Kufuli ya Usajili wakati PIN imezimwa.</string>
   <string name="PinOptOutDialog_disable_pin">Lemaza PIN</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Tathmini programu hii</string>
@@ -1164,7 +1164,7 @@ Signal inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa k
   <string name="ReactionsRecipientAdapter_you">Wewe</string>
   <!--RecaptchaRequiredBottomSheetFragment-->
   <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Thibitisha ili uendelee kutuma ujumbe</string>
-  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Ili kusaidia kuzuia maudhui taka kwenye Signal, tafadhali kamilisha uthibitishaji.</string>
+  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Ili kusaidia kuzuia maudhui taka kwenye Morse, tafadhali kamilisha uthibitishaji.</string>
   <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Baada ya kuthibitisha, unaweza kuendelea kutuma ujumbe. Ujumbe wowote uliositishwa utatumwa kiotomatiki.</string>
   <!--Recipient-->
   <string name="Recipient_you">Wewe</string>
@@ -1185,12 +1185,12 @@ Signal inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa k
   <string name="RedPhone_got_it">Nimeelewa</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Gusa hapa ili kuwasha video yako</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Ili kumpigia simu %1$s, Signal inahitaji idhini ya kufikia kamera yako</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Ili kumpigia simu %1$s, Morse inahitaji idhini ya kufikia kamera yako</string>
+  <string name="WebRtcCallActivity__signal_s">Morse %1$s</string>
   <string name="WebRtcCallActivity__calling">Unapiga simu…</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_call">Simu ya Signal</string>
-  <string name="WebRtcCallView__signal_video_call">Simu ya Video ya Signal</string>
+  <string name="WebRtcCallView__signal_call">Simu ya Morse</string>
+  <string name="WebRtcCallView__signal_video_call">Simu ya Video ya Morse</string>
   <string name="WebRtcCallView__start_call">Anza Kupiga Simu</string>
   <string name="WebRtcCallView__join_call">Jiunge na Mazungumzo ya Simu</string>
   <string name="WebRtcCallView__call_is_full">Mazungumzo ya simu yamejaa</string>
@@ -1247,13 +1247,13 @@ nambari yako ya simu</string>
   <string name="RegistrationActivity_is_your_phone_number_above_correct">Je, nambari yako ya simu hapo juu ni sahihi?</string>
   <string name="RegistrationActivity_edit_number">Hariri nambari</string>
   <string name="RegistrationActivity_missing_google_play_services">Huduma za Google Play zinakosekana</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Kifaa hiki kimekosa huduma za Google Play. Bado unaweza kutumia Signal, lakini usanidi huu unaweza kusababisha upungufu wa kutegemewa au utendaji. \ n\n \ Kama wewe si mtumiaji wa juu, hautumii Android ROM, au unaamini kwamba unaona hili kimakosa, tafadhali wasiliana na support@signal.org kwa usaidizi wa matatizo.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Kifaa hiki kimekosa huduma za Google Play. Bado unaweza kutumia Morse, lakini usanidi huu unaweza kusababisha upungufu wa kutegemewa au utendaji. \ n\n \ Kama wewe si mtumiaji wa juu, hautumii Android ROM, au unaamini kwamba unaona hili kimakosa, tafadhali wasiliana na support@devplusone.com kwa usaidizi wa matatizo.</string>
   <string name="RegistrationActivity_i_understand">Nimeelewa</string>
   <string name="RegistrationActivity_play_services_error">Hitilafu katika huduma za Play</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Huduma za Google Play zinasasisha au hazipatikani kwa muda. Tafadhali jaribu tena.</string>
   <string name="RegistrationActivity_terms_and_privacy">Vigezo &amp;amp: Sera ya Faragha</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal inahitaji kupata wawasiliani wako ama Media ili kukuunganisha na marafiki, kubadilishana jumbe, na kupiga simu kisalama</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal inahitaji ufikizi kwenye waasiliani wako ili kukuunganisha na marafiki, kubadilishana ujumbe, na kupiga miito salama</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Morse inahitaji kupata wawasiliani wako ama Media ili kukuunganisha na marafiki, kubadilishana jumbe, na kupiga simu kisalama</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Morse inahitaji ufikizi kwenye waasiliani wako ili kukuunganisha na marafiki, kubadilishana ujumbe, na kupiga miito salama</string>
   <string name="RegistrationActivity_rate_limited_to_service">Umefanya majaribio mengi sana ili kusajili nambari hii. Tafadhali jaribu tena baadaye.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Imeshindwa kuunganisha kwenye huduma. Tafadhali angalia muunganisho wako wa mtandao na ujaribu tena.</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1275,7 +1275,7 @@ nambari yako ya simu</string>
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Je, washa Kufuli ya Usajili?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Je, zima Kufuli ya Usajili?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Iwapo utasahau PINI yako ya Signal wakati wa kusajili na Signal tena, utafungiwa akaunti yako kwa siku 7.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Iwapo utasahau PINI yako ya Morse wakati wa kusajili na Morse tena, utafungiwa akaunti yako kwa siku 7.</string>
   <string name="RegistrationLockV2Dialog_turn_on">Washa</string>
   <string name="RegistrationLockV2Dialog_turn_off">Zima</string>
   <!--RevealableMessageView-->
@@ -1291,16 +1291,16 @@ nambari yako ya simu</string>
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Ongeza mawasiliano</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Mwalike kwenye Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Ujumbe wa Signal</string>
-  <string name="SharedContactDetailsActivity_signal_call">Simu ya Signal</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Mwalike kwenye Morse</string>
+  <string name="SharedContactDetailsActivity_signal_message">Ujumbe wa Morse</string>
+  <string name="SharedContactDetailsActivity_signal_call">Simu ya Morse</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Ongeza kwa wawasiliani</string>
-  <string name="SharedContactView_invite_to_signal">Mwalike kwenye Signal</string>
-  <string name="SharedContactView_message">Ujumbe wa Signal</string>
-  <!--SignalBottomActionBar-->
+  <string name="SharedContactView_invite_to_signal">Mwalike kwenye Morse</string>
+  <string name="SharedContactView_message">Ujumbe wa Morse</string>
+  <!--MorseBottomActionBar-->
   <string name="SignalBottomActionBar_more">Zaidi</string>
-  <!--SignalPinReminders-->
+  <!--MorsePinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">Tutakukumbusha tena baadaye.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">Tutakukumbusha tena kesho.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">Tutakukumbusha tena baada ya siku chache.</string>
@@ -1320,14 +1320,14 @@ nambari yako ya simu</string>
   <string name="SmsMessageRecord_secure_session_reset">Umeseti upya kipindi salama</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s Seti tena kipindi salama</string>
   <string name="SmsMessageRecord_duplicate_message">Ujumbe nakala</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Huu ujumbe haukuchakatishwa kwa sababu umetumwa kutoka kwa toleo jipya la Signal. Unaweza kuomba mwasiliani wako akutumie ujumbe huu tena baada ya wewe kusasisha.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Huu ujumbe haukuchakatishwa kwa sababu umetumwa kutoka kwa toleo jipya la Morse. Unaweza kuomba mwasiliani wako akutumie ujumbe huu tena baada ya wewe kusasisha.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">Hitilafu kushughulikia ujumbe unaoingia.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Vibandiko</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Vibandiko Vilivyosakinishwa</string>
   <string name="StickerManagementAdapter_stickers_you_received">Vibandiko Ulivyovipokea</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Mfululizo wa Msanii wa Signal</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Mfululizo wa Msanii wa Morse</string>
   <string name="StickerManagementAdapter_no_stickers_installed">Hakuna vibandiko vilivyosakinishwa</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Vibandiko kutoka kwa jumbe zinazoingia zitaonekana hapa</string>
   <string name="StickerManagementAdapter_untitled">Haina kichwa</string>
@@ -1353,8 +1353,8 @@ nambari yako ya simu</string>
   <string name="SupportEmailUtil_filter">Kichujio:</string>
   <string name="SupportEmailUtil_device_info">Maelezo ya kifaa:</string>
   <string name="SupportEmailUtil_android_version">Toleo la Android:</string>
-  <string name="SupportEmailUtil_signal_version">Toleo la Signal:</string>
-  <string name="SupportEmailUtil_signal_package">Kifurushi cha Signal:</string>
+  <string name="SupportEmailUtil_signal_version">Toleo la Morse:</string>
+  <string name="SupportEmailUtil_signal_package">Kifurushi cha Morse:</string>
   <string name="SupportEmailUtil_registration_lock">Kufuli ya usajili:</string>
   <string name="SupportEmailUtil_locale">Lugha:</string>
   <!--ThreadRecord-->
@@ -1373,7 +1373,7 @@ nambari yako ya simu</string>
   <string name="ThreadRecord_view_once_media">Media ya mtazamo mmoja</string>
   <string name="ThreadRecord_this_message_was_deleted">Ujumbe huu umefutwa</string>
   <string name="ThreadRecord_you_deleted_this_message">Umefuta ujumbe huu.</string>
-  <string name="ThreadRecord_s_is_on_signal">%s yupo Signal</string>
+  <string name="ThreadRecord_s_is_on_signal">%s yupo Morse</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Jumbe zinazopotea  zimelemazwa</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Muda wa jumbe zinazopotea umewekwa kwa 1%s</string>
   <string name="ThreadRecord_safety_number_changed">Nambari salama imebadilika</string>
@@ -1390,8 +1390,8 @@ nambari yako ya simu</string>
   <string name="ThreadRecord_video">Video</string>
   <string name="ThreadRecord_chat_session_refreshed">Kipindi cha gumzo kimeonyeshwa upya</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Sasisho ya Signal</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Toleo jipya la Signal linapatikana, bonyeza kusasisha</string>
+  <string name="UpdateApkReadyListener_Signal_update">Sasisho ya Morse</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Toleo jipya la Morse linapatikana, bonyeza kusasisha</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">Tuma ujumbe?</string>
   <string name="UntrustedSendDialog_send">Tuma</string>
@@ -1410,20 +1410,20 @@ nambari yako ya simu</string>
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Majina ya watumiaji hayawezi kuanza kwa nambari.</string>
   <string name="UsernameEditFragment_username_is_invalid">Jina la mtumiaji si halali.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Majina ya watumiaji lazima yawe kati ya vibambo  %1$dna %2$d.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Si lazima uweke jina la mtumiaji kwenye Signal. Ukichagua kuunda jina la mtumiaji, watumiaji wengine wa Signal wataweza kukupata kwa kutafuta jina hili la mtumiaji na kuwasiliana nawe bila kujua nambari yako ya simu.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Si lazima uweke jina la mtumiaji kwenye Morse. Ukichagua kuunda jina la mtumiaji, watumiaji wengine wa Morse wataweza kukupata kwa kutafuta jina hili la mtumiaji na kuwasiliana nawe bila kujua nambari yako ya simu.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">Anwani %diko katika Signal!</item>
-    <item quantity="other">Anwani %dziko katika Signal!</item>
+    <item quantity="one">Anwani %diko katika Morse!</item>
+    <item quantity="other">Anwani %dziko katika Morse!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Mawasiliano yako yanaendesha toleo la zamani la Signal. Tafadhali waombe wasasishe kabla ya kuthibitisha nambari yako ya usalama.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Mawasiliano yako yanaendesha toleo jipya la Signal na muundo wa msimbo wa QR usiopatanisha. Tafadhali sasisha ili upatanishe</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Mawasiliano yako yanaendesha toleo la zamani la Morse. Tafadhali waombe wasasishe kabla ya kuthibitisha nambari yako ya usalama.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Mawasiliano yako yanaendesha toleo jipya la Morse na muundo wa msimbo wa QR usiopatanisha. Tafadhali sasisha ili upatanishe</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Scani ya msimbo wa QR sio ya muundo sahihi wa nambari ya msimbo salama wa kuthibitisha. Tafadhali jaribu kuscani tena.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Shiriki nambari salama kupitia…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Nambari yetu ya usalama ya Signal</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Nambari yetu ya usalama ya Morse</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Inaonekana huna programu yoyote ya kushiriki</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Hamna nambari ya usalama ya kulinganisha iliyopatikana kwenye bodi ya kupogoa</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Morse inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Imeshindwa kuskani msimbo wa QR bila ruhusa ya kamera</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Sharti kwanza mtumiane ujumbe ili uone nambari ya usalama ya %1$s.</string>
   <!--ViewOnceMessageActivity-->
@@ -1442,13 +1442,13 @@ nambari yako ya simu</string>
   <string name="ApplicationMigrationService_system_database_import_is_complete">Mfumo wa hifadhidata umemaliza kuingiza</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Gusa kufungua</string>
-  <string name="KeyCachingService_passphrase_cached">Signal imefunguliwa</string>
-  <string name="KeyCachingService_lock">Funga Signal</string>
+  <string name="KeyCachingService_passphrase_cached">Morse imefunguliwa</string>
+  <string name="KeyCachingService_lock">Funga Morse</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Wewe</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Aina ya media isiyowezeshwa</string>
   <string name="MediaPreviewActivity_draft">Rasimu</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal inahitaji ruhusa ya Hifadhi ili kuhifadhi kwenye hifadhi ya nje, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Uhifadhi\".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Morse inahitaji ruhusa ya Hifadhi ili kuhifadhi kwenye hifadhi ya nje, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Uhifadhi\".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Haiwezekani kuhifadhi kwenye hifadhi ya nje bila ruhusa</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Futa ujumbe?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Hii itafuta ujumbe kabisa</string>
@@ -1463,17 +1463,17 @@ nambari yako ya simu</string>
   <string name="MessageNotifier_failed_to_deliver_message">Imefeli kuwasilisha ujumbe</string>
   <string name="MessageNotifier_error_delivering_message">Hitilafu kuwasilisha ujumbe</string>
   <string name="MessageNotifier_message_delivery_paused">Uwasilishaji wa ujumbe umesitishwa.</string>
-  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Thibitisha ili uendelee kutuma ujumbe kwenye Signal.</string>
+  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Thibitisha ili uendelee kutuma ujumbe kwenye Morse.</string>
   <string name="MessageNotifier_mark_all_as_read">Nakili yote kama imesomwa</string>
   <string name="MessageNotifier_mark_read">Nakili imesomwa</string>
   <string name="MessageNotifier_turn_off_these_notifications">Zima arifa hizi</string>
   <string name="MessageNotifier_view_once_photo">Picha ya mtazamo mmoja</string>
   <string name="MessageNotifier_view_once_video">Video ya mtazamo mmoja</string>
   <string name="MessageNotifier_reply">Jibu</string>
-  <string name="MessageNotifier_signal_message">Ujumbe wa Signal</string>
+  <string name="MessageNotifier_signal_message">Ujumbe wa Morse</string>
   <string name="MessageNotifier_unsecured_sms">Ujumbe usio salama</string>
   <string name="MessageNotifier_you_may_have_new_messages">Inawezekana una jumbe mpya</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Fungua Signal kuangalia taarifa mpya</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Fungua Morse kuangalia taarifa mpya</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Mawasiliano</string>
   <string name="MessageNotifier_reacted_s_to_s">Ametoa hisia %1$skwa: \"%2$s\".</string>
@@ -1484,7 +1484,7 @@ nambari yako ya simu</string>
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">Ametoa hisia ya %1$s kwenye media yako ya kutazama mara moja.</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">Ametoa hisia%1$s kwa kibandiko chako.</string>
   <string name="MessageNotifier_this_message_was_deleted">Ujumbe huu umefutwa</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Ungependa kuzima waasiliani waliojiunga kupitia arifa za Signal? Unaweza kuwawezesha tena katika Signal &gt; Mipangilio &gt; Arifa.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Ungependa kuzima waasiliani waliojiunga kupitia arifa za Morse? Unaweza kuwawezesha tena katika Morse &gt; Mipangilio &gt; Arifa.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">Jumbe</string>
   <string name="NotificationChannel_calls">Simu</string>
@@ -1496,11 +1496,11 @@ nambari yako ya simu</string>
   <string name="NotificationChannel_group_chats">Gumzo</string>
   <string name="NotificationChannel_missing_display_name">Isiyojulikana</string>
   <string name="NotificationChannel_voice_notes">Vidokezo vya Sauti</string>
-  <string name="NotificationChannel_contact_joined_signal">Mwasiliani amejiunga na Signal</string>
+  <string name="NotificationChannel_contact_joined_signal">Mwasiliani amejiunga na Morse</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">Hakuna shughuli inayopatikana ili kufungua mipangilio ya kituo cha arifa.</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Jibu la haraka halipatikani wakati Signal imefungwa!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Jibu la haraka halipatikani wakati Morse imefungwa!</string>
   <string name="QuickResponseService_problem_sending_message">Tatizo kutuma ujumbe</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Imehifadhiwa kwa %s</string>
@@ -1511,7 +1511,7 @@ nambari yako ya simu</string>
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Mkato batili</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal </string>
+  <string name="SingleRecipientNotificationBuilder_signal">Morse </string>
   <string name="SingleRecipientNotificationBuilder_new_message">Ujumbe mpya</string>
   <string name="SingleRecipientNotificationBuilder_message_request">Ombi la ujumbe</string>
   <string name="SingleRecipientNotificationBuilder_you">Wewe</string>
@@ -1525,10 +1525,10 @@ nambari yako ya simu</string>
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Kifaa hakijasajiliwa tena</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Hii inawezekana kwa sababu umeandikisha nambari yako ya simu na Signal kwenye kifaa tofauti. Gonga ili kujiandikisha tena.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Hii inawezekana kwa sababu umeandikisha nambari yako ya simu na Morse kwenye kifaa tofauti. Gonga ili kujiandikisha tena.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Ili kujibu simu kutoka kwa %s, ruhusu Signal ifikie kipaza sauti chako.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal inahitaji ruhusa ya kipaza sauti na Kamera ili kufanya au kupokea simu, lakini zimekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\" na \"Kamera\".</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Ili kujibu simu kutoka kwa %s, ruhusu Morse ifikie kipaza sauti chako.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Morse inahitaji ruhusa ya kipaza sauti na Kamera ili kufanya au kupokea simu, lakini zimekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\" na \"Kamera\".</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">Umejibu kwenye kifaa kilichounganishwa.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">Umekataa kwenye kifaa kilichounganishwa.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">Una shughuli kwenye kifaa kilichounganishwa.</string>
@@ -1552,7 +1552,7 @@ nambari yako ya simu</string>
   <string name="change_passphrase_activity__repeat_new_passphrase">Rudia nenosiri mpya</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">Ingiza jina au nambari</string>
-  <string name="contact_selection_activity__invite_to_signal">Mwalike kwenye Signal</string>
+  <string name="contact_selection_activity__invite_to_signal">Mwalike kwenye Morse</string>
   <string name="contact_selection_activity__new_group">Kikundi kipya</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">Futa matini iliyoingizwa</string>
@@ -1564,21 +1564,21 @@ nambari yako ya simu</string>
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Picha ya mwasiliani</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal inahitaji idhini ya Wawasiliani ili kuonyesha wawasiliani wako, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Wawasiliani\".</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Morse inahitaji idhini ya Wawasiliani ili kuonyesha wawasiliani wako, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Wawasiliani\".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Hitilafu kupata wawasiliani, angalia uunganisho wako wa mtandao</string>
   <string name="ContactSelectionListFragment_username_not_found">Jina la mtumiaji halijapatikana</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" sio mtumiaji wa Signal. Tafadhali angalia jina la mtumiaji na ujaribu tena.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" sio mtumiaji wa Morse. Tafadhali angalia jina la mtumiaji na ujaribu tena.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Huhitaji kujiongeza kwenye kikundi</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">Umefikia ukubwa wa juu zaidi wa kikundi</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Upeo wa wanachama wa Vikundi vya Signal ni %1$d.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Upeo wa wanachama wa Vikundi vya Morse ni %1$d.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">Umefikia idadi juu zaidi ya wanachama iliyopendekezwa</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Vikundi vya Signal hufanya vizuri zaidi vikiwa na wanachama wasiozidi %1$d. Kuongeza wanachama zaidi kutasababisha kucheleweshwa kwa kutuma na kupokea ujumbe.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Vikundi vya Morse hufanya vizuri zaidi vikiwa na wanachama wasiozidi %1$d. Kuongeza wanachama zaidi kutasababisha kucheleweshwa kwa kutuma na kupokea ujumbe.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">Mwanachama %1$d</item>
     <item quantity="other">Wanachama %1$d</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal inahitaji upatikanaji wa wawasiliani yako ili kuonyesha.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Morse inahitaji upatikanaji wa wawasiliani yako ili kuonyesha.</string>
   <string name="contact_selection_list_fragment__show_contacts">onyesha mawasiliano</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1586,7 +1586,7 @@ nambari yako ya simu</string>
     <item quantity="other">Wanachama %1$d</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Ujumbe wa Signal</string>
+  <string name="conversation_activity__type_message_push">Ujumbe wa Morse</string>
   <string name="conversation_activity__type_message_sms_insecure">Ujumbe usio salama</string>
   <string name="conversation_activity__type_message_mms_insecure">MMS isiyo salama</string>
   <string name="conversation_activity__from_sim_name">Kutoka 1%1$s</string>
@@ -1599,7 +1599,7 @@ nambari yako ya simu</string>
  kamera</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Rekodi na tuma kiambatisho cha sauti</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Funga kurekodi kwa kiambatisho cha sauti</string>
-  <string name="conversation_activity__enable_signal_for_sms">Wezesha Signal kwa Ujumbe</string>
+  <string name="conversation_activity__enable_signal_for_sms">Wezesha Morse kwa Ujumbe</string>
   <string name="conversation_activity__message_could_not_be_sent">Ujumbe haujatumwa. Kagua muunganisho wako kisha ujaribu tena.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">Telezesha ili kughairi</string>
@@ -1707,9 +1707,9 @@ nambari yako ya simu</string>
   <string name="IdentityUtil_unverified_banner_one">Nambari yako ya usalama %sna imebadilika na haijathibitishwa tena</string>
   <string name="IdentityUtil_unverified_banner_two">Nambari zako za usalama %1$s na %2$s sasa hazijathibitishwa tena</string>
   <string name="IdentityUtil_unverified_banner_many">Nambari zako za usalama na %1$s, %2$s, na %3$shazijathibitishwa tena. </string>
-  <string name="IdentityUtil_unverified_dialog_one">Nambari yako ya usalama na %1$simebadilika na haijathibitishwa tena. Hili linamaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yako, ama tu %1$samesakinisha upya Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Nambari zako za usalama na %1$s na %2$s hazijathibitishwa tena. Hili linaweza kumaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yako, au tu amesakinisha upya Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Nambari zako za usalama na %1$s, %2$s, na %3$s hazijahakikishwa. Hili linaweza kumaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yenu, au tu wamesimika upya Signal.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Nambari yako ya usalama na %1$simebadilika na haijathibitishwa tena. Hili linamaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yako, ama tu %1$samesakinisha upya Morse.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Nambari zako za usalama na %1$s na %2$s hazijathibitishwa tena. Hili linaweza kumaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yako, au tu amesakinisha upya Morse.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Nambari zako za usalama na %1$s, %2$s, na %3$s hazijahakikishwa. Hili linaweza kumaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yenu, au tu wamesimika upya Morse.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Nambari yako ya usalama pamoja na 1%s imebadilika </string>
   <string name="IdentityUtil_untrusted_dialog_two">Nambari zako za usalama na %1$s na %2$szimebadilika.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Nambari zako za usalama na %1$s, %2$s, na %3$s zimebadilika.</string>
@@ -1722,7 +1722,7 @@ nambari yako ya simu</string>
   <!--giphy_fragment-->
   <string name="giphy_fragment__nothing_found">Hakuna kilichopatikana</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Je! Ungependa kuingiza jumbe zako za matini zilizopo kwenye hifadhidata salama ya Signal?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Je! Ungependa kuingiza jumbe zako za matini zilizopo kwenye hifadhidata salama ya Morse?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Chaguo msingi lako ya mfumo wa hifadhidata halitabadilishwa kwa njia yoyote.</string>
   <string name="database_migration_activity__skip">Ruka</string>
   <string name="database_migration_activity__import">Ingiza</string>
@@ -1745,7 +1745,7 @@ nambari yako ya simu</string>
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Fungua</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal inahitaji mipangilio ya MMS ili kuwasilisha ujumbe wa media na wa kikundi kwa njia ya mtoa huduma yako ya wireless. Kifaa chako hakitoi taarifa hizi, ambazo mara kwa mara ni za kweli kwa vifaa vilivyofungwa na usanidi mwingine unaozuia.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Morse inahitaji mipangilio ya MMS ili kuwasilisha ujumbe wa media na wa kikundi kwa njia ya mtoa huduma yako ya wireless. Kifaa chako hakitoi taarifa hizi, ambazo mara kwa mara ni za kweli kwa vifaa vilivyofungwa na usanidi mwingine unaozuia.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Kutuma ujumbe wa media na vikundi, gonga \'Sawa\' na kamilisha mipangilio iliyoombwa. Mipangilio ya MMS ya mtoa huduma yako inaweza kwa kawaida kupatikana kwa kutafuta \'APN ya mtoa huduma yako\'. Utahitaji tu kufanya hili mara moja.</string>
   <!--BadDecryptLearnMoreDialog-->
   <string name="BadDecryptLearnMoreDialog_delivery_issue">Hitilafu ya Uwasilishaji</string>
@@ -1834,7 +1834,7 @@ nambari yako ya simu</string>
   <string name="HelpFragment__how_do_you_feel">Unahisije? (Si lazima)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">Tuambie kwa nini unawasiliana nasi</string>
   <string name="HelpFragment__support_info">Maelezo ya Usaidizi</string>
-  <string name="HelpFragment__signal_android_support_request">Ombi la Usaidizi wa Signal Android</string>
+  <string name="HelpFragment__signal_android_support_request">Ombi la Usaidizi wa Morse Android</string>
   <string name="HelpFragment__debug_log">Kumbukumbu ya Utatuzi:</string>
   <string name="HelpFragment__could_not_upload_logs">Hukuweza kupakia kumbukumbu</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Tafadhali toa maelezo ya kina iwezekanavyo utusaidie kuelewa suala hili.</string>
@@ -1886,8 +1886,8 @@ nambari yako ya simu</string>
   <string name="preferences__sms_mms">SMS na MMS</string>
   <string name="preferences__pref_all_sms_title">Pokea SMS zote</string>
   <string name="preferences__pref_all_mms_title">Pokea MMS zote</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Tumia Signal kwa ujumbe wote unaoingia</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Tumia Signal kwa ujumbe wote unaoingia wa multimedia</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Tumia Morse kwa ujumbe wote unaoingia</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Tumia Morse kwa ujumbe wote unaoingia wa multimedia</string>
   <string name="preferences__pref_enter_sends_title">Ingiza za kutuma zilizo muhimu</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Kubonyeza kitufe cha ingizo kutatutuma ujumbe wa maandishi</string>
   <string name="preferences__pref_use_address_book_photos">Tumia picha za orodha ya waasiliani</string>
@@ -1902,7 +1902,7 @@ nambari yako ya simu</string>
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Funga skriini na arifa pamoja na Nenosiri</string>
   <string name="preferences__screen_security">usalama wa skrini</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Zuia viwambo vya skrini katika orodha ya rekodi na ndani ya programu</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Funga Signal kiotomatiki baada ya muda fulani usio na utendaji</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Funga Morse kiotomatiki baada ya muda fulani usio na utendaji</string>
   <string name="preferences__inactivity_timeout_passphrase">Nenosiri la uishaji muda</string>
   <string name="preferences__inactivity_timeout_interval">Kipindi cha uishaji muda </string>
   <string name="preferences__notifications">Arifa</string>
@@ -1933,7 +1933,7 @@ nambari yako ya simu</string>
   <string name="preferences__slow">Polepole</string>
   <string name="preferences__help">Msaada</string>
   <string name="preferences__advanced">ya juu</string>
-  <string name="preferences__donate_to_signal">Changia Signal</string>
+  <string name="preferences__donate_to_signal">Changia Morse</string>
   <string name="preferences__privacy">Faragha</string>
   <string name="preferences__mms_user_agent">Wakala wa mtumiaji wa MMS</string>
   <string name="preferences__advanced_mms_access_point_names">Mwongozo wa mpangilio wa MMS</string>
@@ -1960,13 +1960,13 @@ nambari yako ya simu</string>
   <string name="preferences__chat_color_and_wallpaper">Rangi ya gumzo na ya picha ya mandhari</string>
   <string name="preferences__disable_pin">Zima PIN</string>
   <string name="preferences__enable_pin">Washa PIN</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Ukizima PIN, utapoteza data yote utakaposajili upya Signal isipokuwa ukihifadhi nakala yake na kuirejesha mwenyewe. Huwezi kuwasha Kufuli ya Usajili wakati PIN imezimwa.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Signal yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia. Wasifu wako, mipangilio, na waasilian wako wa watarejeshwa utakapoisakinisha upya. Hutahitaji PIN yako kufungua programu.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Ukizima PIN, utapoteza data yote utakaposajili upya Morse isipokuwa ukihifadhi nakala yake na kuirejesha mwenyewe. Huwezi kuwasha Kufuli ya Usajili wakati PIN imezimwa.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Morse yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia. Wasifu wako, mipangilio, na waasilian wako wa watarejeshwa utakapoisakinisha upya. Hutahitaji PIN yako kufungua programu.</string>
   <string name="preferences__system_default">Chaguo-msingi la mfumo</string>
   <string name="preferences__language">Lugha</string>
-  <string name="preferences__signal_messages_and_calls">Ujumbe na simu za Signal</string>
+  <string name="preferences__signal_messages_and_calls">Ujumbe na simu za Morse</string>
   <string name="preferences__advanced_pin_settings">Mipangilio ya PIN ya Hali ya Juu</string>
-  <string name="preferences__free_private_messages_and_calls">Ujumbe wa faragha wa bure na simu kwa watumiaji wa Signal</string>
+  <string name="preferences__free_private_messages_and_calls">Ujumbe wa faragha wa bure na simu kwa watumiaji wa Morse</string>
   <string name="preferences__submit_debug_log">Wasilisha tunzakumbukumbu ya ueuaji</string>
   <string name="preferences__delete_account">Futa akaunti</string>
   <string name="preferences__support_wifi_calling">\'\'Simu ya Wi-Fi\' aina ya utangamano</string>
@@ -2006,8 +2006,8 @@ nambari yako ya simu</string>
   <string name="preferences_storage__s_messages">Jumbe %1$s</string>
   <string name="preferences_storage__custom">Maalum</string>
   <string name="preferences_advanced__use_system_emoji">Tumia emoji ya mfumo</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Lemaza emoji iliyojengwa ndani ya Signal</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Wasilisha simu zote kupitia Signal seva kuzuia kutambulisha anwani yako ya IP kwa mwasiliani wako. Kuwezesha kutapunguza ubora wa simu</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Lemaza emoji iliyojengwa ndani ya Morse</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Wasilisha simu zote kupitia Morse seva kuzuia kutambulisha anwani yako ya IP kwa mwasiliani wako. Kuwezesha kutapunguza ubora wa simu</string>
   <string name="preferences_advanced__always_relay_calls">Wasilisha simu kila mara</string>
   <string name="preferences_app_protection__who_can">Nani anayeweza…</string>
   <string name="preferences_app_protection__app_access">Ufikiaji programu</string>
@@ -2027,9 +2027,9 @@ nambari yako ya simu</string>
   <string name="preferences_notifications__calls">Simu</string>
   <string name="preferences_notifications__ringtone">Mlio wa simu</string>
   <string name="preferences_chats__show_invitation_prompts">Onyesha mwaliko</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Onyesha mwaliko ya wawasiliani wasio na Signal</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Onyesha mwaliko ya wawasiliani wasio na Morse</string>
   <string name="preferences_chats__message_text_size">ukubwa wa maandishi ya ujumbe</string>
-  <string name="preferences_events__contact_joined_signal">Mwasiliani amejiunga na Signal</string>
+  <string name="preferences_events__contact_joined_signal">Mwasiliani amejiunga na Morse</string>
   <string name="preferences_notifications__priority">Kipaumbele</string>
   <string name="preferences_communication__category_sealed_sender">Mtumaji mwenye muhuri</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Onyesha viashiria</string>
@@ -2043,7 +2043,7 @@ nambari yako ya simu</string>
   <string name="preferences_off">Zima</string>
   <string name="preferences_on">Washwa</string>
   <string name="preferences_proxy_address">Anwani mbadala</string>
-  <string name="preferences_only_use_a_proxy_if">Tumia tu kipengele mbadala ikiwa huwezi kuunganisha kwenye Signal kwenye mtandao wa simu au Wi-Fi.</string>
+  <string name="preferences_only_use_a_proxy_if">Tumia tu kipengele mbadala ikiwa huwezi kuunganisha kwenye Morse kwenye mtandao wa simu au Wi-Fi.</string>
   <string name="preferences_share">Shiriki</string>
   <string name="preferences_save">Hifadhi</string>
   <string name="preferences_connecting_to_proxy">Unaunganisha kwenye kipengele mbadala…</string>
@@ -2062,7 +2062,7 @@ nambari yako ya simu</string>
   <string name="PaymentsAllActivityFragment__sent">Umetumwa</string>
   <string name="PaymentsAllActivityFragment__received">Umepokewa</string>
   <string name="PaymentsHomeFragment__introducing_payments">Tunakuletea malipo (Beta)</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Tumia Signal kutuma na kupokea MobileCoin, sarafu mpya dijitali inayozingatia faragha. Wezesha ili uanze.</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Tumia Morse kutuma na kupokea MobileCoin, sarafu mpya dijitali inayozingatia faragha. Wezesha ili uanze.</string>
   <string name="PaymentsHomeFragment__activate_payments">Wezesha Malipo</string>
   <string name="PaymentsHomeFragment__activating_payments">Unawezesha malipo…</string>
   <string name="PaymentsHomeFragment__restore_payments_account">Rejesha akaunti ya malipo</string>
@@ -2089,17 +2089,17 @@ nambari yako ya simu</string>
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Malipo hayapatikani katika eneo lako.</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">Hukuwezesha malipo. Jaribu tena baadaye.</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">Ungependa Kuzima Malipo?</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Hutaweza kutuma au kupokea MobileCoin katika Signal ukizima malipo.</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Hutaweza kutuma au kupokea MobileCoin katika Morse ukizima malipo.</string>
   <string name="PaymentsHomeFragment__deactivate">Zima</string>
   <string name="PaymentsHomeFragment__continue">Endelea</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">Salio halipatikani kwa sasa.</string>
   <string name="PaymentsHomeFragment__payments_deactivated">Malipo yamezimwa.</string>
   <string name="PaymentsHomeFragment__payment_failed">Malipo hayajatumwa</string>
   <string name="PaymentsHomeFragment__details">Maelezo</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Unaweza kutumia Signal kutuma na kupokea MobileCoin. Malipo yote yanathibitiwa na Masharti ya Matumizi ya MobileCoin na Mkoba wa MobileCoin. Hii ni huduma ya jaribio kwa hivyo huenda ukakabiliwa na hitilafu ya malipo au masalio ambayo unaweza kupoteza hayawezi kurejeshwa. </string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Unaweza kutumia Morse kutuma na kupokea MobileCoin. Malipo yote yanathibitiwa na Masharti ya Matumizi ya MobileCoin na Mkoba wa MobileCoin. Hii ni huduma ya jaribio kwa hivyo huenda ukakabiliwa na hitilafu ya malipo au masalio ambayo unaweza kupoteza hayawezi kurejeshwa. </string>
   <string name="PaymentsHomeFragment__activate">Wezesha</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">Angalia masharti ya MobileCoin</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Malipo katika Signal hayapatikani tena. Bado unaweza kuhamishia fedha kwenye ubadilishanaji lakini huwezi kutuma na kupokea malipo au kuongeza pesa.</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Malipo katika Morse hayapatikani tena. Bado unaweza kuhamishia fedha kwenye ubadilishanaji lakini huwezi kutuma na kupokea malipo au kuongeza pesa.</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">Ongeza fedha</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">Anwani ya Mkoba Wako</string>
@@ -2136,10 +2136,10 @@ nambari yako ya simu</string>
   <string name="PaymentsTransferFragment__next">Ifuatayo</string>
   <string name="PaymentsTransferFragment__invalid_address">Anwani si sahihi</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">Angalia anwani ya mkoba unayojaribu kuhamishia pesa kisha ujaribu tena.</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Huwezi kuhamishia kwenye anwani yako mwenyewe ya mkoba wa Signal. Weka anwani ya mkoba kutoka kwenye akaunti yako kwenye ubadilishanaji unaotumika.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Ili kuchanganua msimbo wa QR, Signal inahitaji idhini ya kufikia kamera.</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Signal inahitaji ruhusa ya Kamera ili kunasa msimbo wa QR. Nenda kwenye mipangilio, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Ili kuchanganua msimbo wa QR, Signal inahitaji idhini ya kufikia kamera.</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Huwezi kuhamishia kwenye anwani yako mwenyewe ya mkoba wa Morse. Weka anwani ya mkoba kutoka kwenye akaunti yako kwenye ubadilishanaji unaotumika.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Ili kuchanganua msimbo wa QR, Morse inahitaji idhini ya kufikia kamera.</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Morse inahitaji ruhusa ya Kamera ili kunasa msimbo wa QR. Nenda kwenye mipangilio, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Ili kuchanganua msimbo wa QR, Morse inahitaji idhini ya kufikia kamera.</string>
   <string name="PaymentsTransferFragment__settings">Mipangilio</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Changanua Msimbo wa QR wa Anwani</string>
@@ -2197,8 +2197,8 @@ nambari yako ya simu</string>
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Simu</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Simu ya Signal</string>
-  <string name="conversation_callable_secure__menu_video">Simu ya video ya Signal</string>
+  <string name="conversation_callable_secure__menu_call">Simu ya Morse</string>
+  <string name="conversation_callable_secure__menu_video">Simu ya video ya Morse</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Maelezo ya ujumbe</string>
   <string name="conversation_context__menu_copy_text">Nakili matini</string>
@@ -2271,9 +2271,9 @@ nambari yako ya simu</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">Ingiza SMS ya mfumo</string>
   <string name="reminder_header_sms_import_text">Gonga ili kunakili jumbe za SMS za simu yako kwenye hifadhidata iliyosimbwa.</string>
-  <string name="reminder_header_push_title">Wezesha jumbe na simu za Signal</string>
+  <string name="reminder_header_push_title">Wezesha jumbe na simu za Morse</string>
   <string name="reminder_header_push_text">Boresha uzoefu wako wa mawasiliano</string>
-  <string name="reminder_header_service_outage_text">Signal inakabiliwa na matatizo ya kiufundi. Tunajitahidi kurejesha huduma haraka iwezekanavyo.</string>
+  <string name="reminder_header_service_outage_text">Morse inakabiliwa na matatizo ya kiufundi. Tunajitahidi kurejesha huduma haraka iwezekanavyo.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Hifadhi</string>
@@ -2289,22 +2289,22 @@ nambari yako ya simu</string>
   <string name="Insights__percent">%</string>
   <string name="Insights__title">Ufahamu</string>
   <string name="InsightsDashboardFragment__title">Ufahamu</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Itifaki za Signal moja kwa moja zimelinda %1$d%% ya jumbe zako zilizotumwa kwenye siku %2$d zilizopita. Gumzo kati ya watumizi wa Signal zimesimbwa mwisho hadi mwisho.</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Ongezo-hadhi la Signal</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Itifaki za Morse moja kwa moja zimelinda %1$d%% ya jumbe zako zilizotumwa kwenye siku %2$d zilizopita. Gumzo kati ya watumizi wa Morse zimesimbwa mwisho hadi mwisho.</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Ongezo-hadhi la Morse</string>
   <string name="InsightsDashboardFragment__not_enough_data">Data haitoshi</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Asilimia ya Ufahamu wako inahesabiwa kulingana na jumbe zilizotumwa kwa siku %1$dzilizopita  ambazo hazijatoweka wala kufutwa. </string>
   <string name="InsightsDashboardFragment__start_a_conversation">Anza gumzo</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">Anza kuwasiliana kwa usalama na uwezeshe vipengele vipya ambavyo vinazidi matarajio ya ujumbe mfupi usiosimbwa kwa kualika wawasiliani zaidi kujiunga na Signal.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">Anza kuwasiliana kwa usalama na uwezeshe vipengele vipya ambavyo vinazidi matarajio ya ujumbe mfupi usiosimbwa kwa kualika wawasiliani zaidi kujiunga na Morse.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">Takwimu hizi zimetolewa ndani ya kifaa chako na zinaonekana na wewe pekee. Kamwe hazisambazwi kokote.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">Jumbe zilizosimbwa</string>
   <string name="InsightsDashboardFragment__cancel">Ghairi</string>
   <string name="InsightsDashboardFragment__send">Tuma</string>
   <string name="InsightsModalFragment__title">Kuwasilisha Ufahamu</string>
-  <string name="InsightsModalFragment__description">Pata kujua ni jumbe ngapi ulizotuma zilitumwa salama, halafu alika wawasiliani wapya upesi ili kuongeza asilimia yako ya Signal.</string>
+  <string name="InsightsModalFragment__description">Pata kujua ni jumbe ngapi ulizotuma zilitumwa salama, halafu alika wawasiliani wapya upesi ili kuongeza asilimia yako ya Morse.</string>
   <string name="InsightsModalFragment__view_insights">Tazama Ufahamu</string>
-  <string name="FirstInviteReminder__title">Alika kwenye Signal</string>
+  <string name="FirstInviteReminder__title">Alika kwenye Morse</string>
   <string name="FirstInviteReminder__description">Unaweza kuongeza nambari ya jumbe zilizosimbwa unazotuma kwa %1$d %%</string>
-  <string name="SecondInviteReminder__title">Ongeza hadhi ya Signal yako</string>
+  <string name="SecondInviteReminder__title">Ongeza hadhi ya Morse yako</string>
   <string name="SecondInviteReminder__description">Alika %1$s</string>
   <string name="InsightsReminder__view_insights">Tazama Ufahamu</string>
   <string name="InsightsReminder__invite">Alika</string>
@@ -2325,7 +2325,7 @@ nambari yako ya simu</string>
   <string name="CreateKbsPinFragment__create_a_new_pin">Unda Nenosiri jipya</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">Unaweza kubadili PINI mradi tu kifaa hiki kimesajiliwa</string>
   <string name="CreateKbsPinFragment__create_your_pin">Unda Nenosiri lako</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Signal yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia. Wasifu wako, mipangilio, na waasilian wako wa watarejeshwa utakapoisakinisha upya. Hutahitaji PIN yako kufungua programu.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Morse yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia. Wasifu wako, mipangilio, na waasilian wako wa watarejeshwa utakapoisakinisha upya. Hutahitaji PIN yako kufungua programu.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Chagua PINI yenye nguvu zaidi.</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">Nenosiri hazifanani. Jaribu tena.</string>
@@ -2337,7 +2337,7 @@ nambari yako ya simu</string>
   <string name="ConfirmKbsPinFragment__creating_pin">Inaunda Nenosiri…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">Uanzishaji Nenosiri</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Signal yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia. Wasifu wako, mipangilio, na waasilian wako wa watarejeshwa utakapoisakinisha upya. Hutahitaji PIN yako kufungua programu.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN hutumiwa kuhakikisha maelezo yaliyohifadhiwa katika Morse yamesimbwa kwa njia fiche hivi kwamba ni wewe tu unayeweza kuyafikia. Wasifu wako, mipangilio, na waasilian wako wa watarejeshwa utakapoisakinisha upya. Hutahitaji PIN yako kufungua programu.</string>
   <string name="KbsSplashFragment__learn_more">Jifunze Zaidi</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">Kufuli ya Usajili = Nenosiri</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Kifunga usajili wako sasa kinaitwa Nenosiri, na kinafanya mengi zaidi. Kisasishe sasa.</string>
@@ -2346,7 +2346,7 @@ nambari yako ya simu</string>
   <string name="KbsSplashFragment__learn_more_about_pins">Jifunze zaidi kuhusu PINI</string>
   <string name="KbsSplashFragment__disable_pin">Zima PIN</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Ingiza Nenosiri lako ya Signal</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Ingiza Nenosiri lako ya Morse</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">Ili kukusaidia kukariri Nenosiri lako, tutakuuliza uliingize mara kwa mara. Tunapunguza kukuuliza baada ya muda.</string>
   <string name="KbsReminderDialog__skip">Ruka</string>
   <string name="KbsReminderDialog__submit">Wasilisha</string>
@@ -2367,8 +2367,8 @@ nambari yako ya simu</string>
   <string name="RegistrationLockFragment__incorrect_pin">Nenosiri sio sahihi</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Umesahau Nenosiri lako?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Sio majaribio mengi yaliyosalia!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Usajili wa Signal - Unahitaji Usaidizi kuhusu PIN ya Android (v1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Usajili wa Signal - Unahitaji Usaidizi kuhusu PIN ya Android (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Usajili wa Morse - Unahitaji Usaidizi kuhusu PIN ya Android (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Usajili wa Morse - Unahitaji Usaidizi kuhusu PIN ya Android (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">Kwa ajili ya faragha yako na usalama wako, hamna njia yoyote ya kuokoa PINI yako. Kama hukumbuki PINI yako, unaweza kuhakikisha kupitia Ujumbe Mfupi baada ya siku %1$d ya kimya. Katika kesi hii, akaunti yako itafutwa na yote yaliyomo kufutwa.</item>
     <item quantity="other">Kwa faragha yako na usalama wako, hamna njia yoyote ya kupata tena Nenosiri lako. Iwapo hukumbuki Nenosiri, unaweza kuhakikisha kupitia Ujumbe Mfupi baada ya siku %1$d bila shughuli. Kwenye tukio kama hili, akaunti yako itafutwa na yote yaliyomo kufutwa.</item>
@@ -2393,15 +2393,15 @@ nambari yako ya simu</string>
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s atapokea ombi la ujumbe kutoka kwako. Unaweza kupiga simu mara tu atakapokubali ombi lako.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">Unda Nenosiri</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN hutumika kusimba maelezo yaliyohifadhiwa kwa kutumia Signal.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN hutumika kusimba maelezo yaliyohifadhiwa kwa kutumia Morse.</string>
   <string name="KbsMegaphone__create_pin">Unda Nenosiri</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Tuma maoni yako kwa Signal</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Ili kuiwezesha Signal kuwa programu bora zaidi ya kutuma ujumbe kote duniani, tungependa kusikia maoni yako.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Tuma maoni yako kwa Morse</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Ili kuiwezesha Morse kuwa programu bora zaidi ya kutuma ujumbe kote duniani, tungependa kusikia maoni yako.</string>
   <string name="ResearchMegaphone_learn_more">Jifunze zaidi</string>
   <string name="ResearchMegaphone_dismiss">Tupilia mbali</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Utafiti wa Signal</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Unazingatia sana faragha.</b></p><p>Signal haifuatilii wala kukusanya data yako. Ili kuboresha Signal kwa kila mtu, tunategemea maoni ya watumiaji, <b>na tungependa kusikia yako.</b></p><p>Tunafanya utafiti huu ili kuelewa jinsi unavyotumia Signal. Utafiti wetu haukusanyi data yoyote ambayo itakutambulisha. Ikiwa ungependa kushiriki maoni ya ziada, utakuwa na fursa ya kutoa maelezo yako ya mawasiliano.Ikiwa unaweza kutenga dakika chache na una maoni ungependa kutoa, tungependa kusikia kutoka kwako.</p><p>Ikiwa unaweza kutenga dakika chache na una maoni ungependa kutoa, tungependa kusikia kutoka kwako.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Utafiti wa Morse</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Unazingatia sana faragha.</b></p><p>Morse haifuatilii wala kukusanya data yako. Ili kuboresha Morse kwa kila mtu, tunategemea maoni ya watumiaji, <b>na tungependa kusikia yako.</b></p><p>Tunafanya utafiti huu ili kuelewa jinsi unavyotumia Morse. Utafiti wetu haukusanyi data yoyote ambayo itakutambulisha. Ikiwa ungependa kushiriki maoni ya ziada, utakuwa na fursa ya kutoa maelezo yako ya mawasiliano.Ikiwa unaweza kutenga dakika chache na una maoni ungependa kutoa, tungependa kusikia kutoka kwako.</p><p>Ikiwa unaweza kutenga dakika chache na una maoni ungependa kutoa, tungependa kusikia kutoka kwako.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">Fanya utafiti</string>
   <string name="ResearchMegaphoneDialog_no_thanks">Hapana nashukuru</string>
   <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Utafiti huu unasimamiwa na Alchemer kwenye kikoa salama cha surveys.signalusers.org</string>
@@ -2410,11 +2410,11 @@ nambari yako ya simu</string>
   <string name="ConversationListFragment_loading">Inafunguka</string>
   <string name="CallNotificationBuilder_connecting">Inaunganisha</string>
   <string name="Permissions_permission_required">Idhini inahitajika</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal inahitaji idhini ya SMS ili kutuma SMS, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\" na uwezeshe \"SMS\".</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Morse inahitaji idhini ya SMS ili kutuma SMS, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\" na uwezeshe \"SMS\".</string>
   <string name="Permissions_continue">Endelea</string>
   <string name="Permissions_not_now">Sio sasa</string>
   <string name="conversation_activity__enable_signal_messages">WEZESHA JUMBE ZA SIGNAL</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Inahamisha hifadhidata ya Signal</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Inahamisha hifadhidata ya Morse</string>
   <string name="PushDecryptJob_new_locked_message">Ujumbe mpya uliofungwa</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Fungua ili uone jumbe zinazosubiri</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Hifadhi Nenosiri</string>
@@ -2432,7 +2432,7 @@ nambari yako ya simu</string>
   <string name="preferences_chats__transfer_account_to_a_new_android_device">Hamishia akaunti kwenye kifaa kipya cha Android</string>
   <string name="RegistrationActivity_enter_backup_passphrase">ingiza nenosiri la nakalahifadhi</string>
   <string name="RegistrationActivity_restore">Rejesha</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Haiwezi kuingiza nakalahifadhi kutoka kwa matoleo mapya ya Signal</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Haiwezi kuingiza nakalahifadhi kutoka kwa matoleo mapya ya Morse</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Nenosiri la nakalahifadhi sio sahihi</string>
   <string name="RegistrationActivity_checking">Inaangalia</string>
   <string name="RegistrationActivity_d_messages_so_far">1%d Jumbe hadi sasa</string>
@@ -2463,8 +2463,8 @@ nambari yako ya simu</string>
   <string name="ProgressPreference_d_messages_so_far">1%d Jumbe hadi sasa</string>
   <string name="RegistrationActivity_wrong_number">Nambari sio sahihi</string>
   <string name="RegistrationActivity_call_me_instead_available_in">Nipigie badala yake.  \n (Inapatikana kwenye %1$02d : %2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">Wasiliana na Msaada wa Signal</string>
-  <string name="RegistrationActivity_code_support_subject">Usajili wa Signal: Msimbo wa Hakiki wa Android</string>
+  <string name="RegistrationActivity_contact_signal_support">Wasiliana na Msaada wa Morse</string>
+  <string name="RegistrationActivity_code_support_subject">Usajili wa Morse: Msimbo wa Hakiki wa Android</string>
   <string name="BackupUtil_never">Kamwe</string>
   <string name="BackupUtil_unknown">Isiyojulikana</string>
   <string name="preferences_app_protection__see_my_phone_number">Ona nambari yangu ya simu</string>
@@ -2473,22 +2473,22 @@ nambari yako ya simu</string>
   <string name="PhoneNumberPrivacy_my_contacts">Waasiliani wangu</string>
   <string name="PhoneNumberPrivacy_nobody">Hakuna mtu</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">Nambari yako ya simu itaonekana na watu wote na vikundi unavyowatumia ujumbe.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">Mtu yeyote ambaye ana nambari yako ya simu katika anwani zake atakuona kama mwasiliani kwenye Signal. Wengine wataweza kukupata kwenye kipengele utafutaji.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">Mtu yeyote ambaye ana nambari yako ya simu katika anwani zake atakuona kama mwasiliani kwenye Morse. Wengine wataweza kukupata kwenye kipengele utafutaji.</string>
   <string name="preferences_app_protection__screen_lock">Kifunga skrini</string>
   <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">
-Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
+Funga ufikiaji wa Morse na ufungaji wa Android au alama za vidole</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Muda wa kuisha Screen Lock isipokuwa na shughuli</string>
-  <string name="preferences_app_protection__signal_pin">Nenosiri la Signal</string>
+  <string name="preferences_app_protection__signal_pin">Nenosiri la Morse</string>
   <string name="preferences_app_protection__create_a_pin">Unda Nenosiri</string>
   <string name="preferences_app_protection__change_your_pin">Badilisha PINI yako</string>
   <string name="preferences_app_protection__pin_reminders">Vikumbusho vya PIN</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PINI hufanya taarifa iliyohifadhiwa na Signal iliyosimbwa kuweza kufikiwa na wewe tu. Wasifu wako, mipangilio, na wawasiliani vitarejeshwa utakaposakinisha upya Signal.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Ongeza usalama wa ziada kwa kuitisha PIN yako ya Signal ili kusajili tena nambari yako ya simu kwenye Signal.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PINI hufanya taarifa iliyohifadhiwa na Morse iliyosimbwa kuweza kufikiwa na wewe tu. Wasifu wako, mipangilio, na wawasiliani vitarejeshwa utakaposakinisha upya Morse.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Ongeza usalama wa ziada kwa kuitisha PIN yako ya Morse ili kusajili tena nambari yako ya simu kwenye Morse.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Vikumbusho hukusaidia kukumbuka PINI yako kwa sababu haiwezi kunusuriwa. Utaulizwa mara kwa mara baada ya muda.</string>
   <string name="preferences_app_protection__turn_off">Zima</string>
   <string name="preferences_app_protection__confirm_pin">Thibitisha PIN</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Thibitisha PINI yako ya Signal</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Hakikisha unakumbuka au kuhifadhi PIN yako salama kwani haiwezi kurejeshwa. Ukisahau PIN yako, unaweza kupoteza data unaposajili upya akaunti yako ya Signal.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Thibitisha PINI yako ya Morse</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Hakikisha unakumbuka au kuhifadhi PIN yako salama kwani haiwezi kurejeshwa. Ukisahau PIN yako, unaweza kupoteza data unaposajili upya akaunti yako ya Morse.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">Nenosiri sio sahihi. Jaribu tena.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Imeshindwa kuwezesha kufuli ya usajili.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Imeshindwa kulemaza kufuli ya usajili.</string>
@@ -2501,19 +2501,19 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Umefanya majaribio mengi sana. Tafadhali jaribu tena baadaye.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Hitilafu kujiunga kwa huduma</string>
   <string name="preferences_chats__backups">Nakala zilizohifadhiwa</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal Imefungwa</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Morse Imefungwa</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">Gusa kufungua</string>
   <string name="Recipient_unknown">Isiyojulikana</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Hamisha au urejeshe akaunti</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ikiwa ulisajili akaunti ya Signal awali, unaweza kuhamisha au kurejesha akaunti na jumbe zako</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ikiwa ulisajili akaunti ya Morse awali, unaweza kuhamisha au kurejesha akaunti na jumbe zako</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Hamisha kutoka kifaa cha Android</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Hamisha akaunti na jumbe zako kutoka kwenye kifaa chako cha awali cha Android. Unahitaji kufikia kifaa chako cha awali.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Unahitaji kufikia kifaa chako cha awali.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Rejesha kutoka nakala hifadhi</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Rejesha jumbe zako kutoka kwenye nakala hifadhi ya ndani ya kifaa chako. Usiporejesha sasa, hutaweza kurejesha baadaye.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Fungua Signal kwenye simu yako ya awali ya Android</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Fungua Morse kwenye simu yako ya awali ya Android</string>
   <string name="NewDeviceTransferInstructions__continue">Endelea</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Gusa picha yako ya wasifu kwenye sehemu ya juu kushoto ili ufungue Mipangilio</string>
@@ -2525,18 +2525,18 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Inasubiri kuunganisha kwenye kifaa cha awali cha Android…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Subiri kidogo, itakuwa tayari hivi punde</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Inasubiri kifaa cha awali cha Android kiunganishwe…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal inahitaji idhini ya kufikia maelezo ya eneo ili igundue na kuunganisha na kifaa chako cha awali cha Android.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal inahitaji idhini ya kufikia huduma za eneo ili igundue na kuunganisha na kifaa chako cha awali cha Android.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal inahitaji Wi-Fi ili kugundua na kuunganisha kifaa chako cha awali cha Android. Unatakiwa kuwasha Wi-Fi lakini si lazima uunganishe kwenye mtandao wa Wi-Fi.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Samahani, inaonekana kifaa hiki hakitumii huduma ya Wi-Fi Direct. Signal hutumia Wi-Fi Direct kugundua na kuunganisha kifaa chako cha awali cha Android. Bado unaweza kurejesha nakala hifadhi kurejesha akaunti yako kutoka kwenye kifaa chako cha awali cha Android.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Morse inahitaji idhini ya kufikia maelezo ya eneo ili igundue na kuunganisha na kifaa chako cha awali cha Android.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Morse inahitaji idhini ya kufikia huduma za eneo ili igundue na kuunganisha na kifaa chako cha awali cha Android.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Morse inahitaji Wi-Fi ili kugundua na kuunganisha kifaa chako cha awali cha Android. Unatakiwa kuwasha Wi-Fi lakini si lazima uunganishe kwenye mtandao wa Wi-Fi.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Samahani, inaonekana kifaa hiki hakitumii huduma ya Wi-Fi Direct. Morse hutumia Wi-Fi Direct kugundua na kuunganisha kifaa chako cha awali cha Android. Bado unaweza kurejesha nakala hifadhi kurejesha akaunti yako kutoka kwenye kifaa chako cha awali cha Android.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">Rejesha nakala hifadhi</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Hitilafu isiyotarajiwa imetokea wakati wa kujaribu kuunganisha kwenye kifaa chako cha awali cha Android.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Inatafuta kifaa kipya cha Android…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal inahitaji idhini ya kufikia maelezo ya eneo ili igundue na kuunganisha na kifaa chako kipya cha Android.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal inahitaji idhini ya kufikia huduma za eneo ili igundue na kuunganisha na kifaa chako kipya cha Android.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal inahitaji Wi-Fi ili kugundua na kuunganisha kifaa chako kipya cha Android. Unatakiwa kuwasha Wi-Fi lakini si lazima uunganishe kwenye mtandao wa Wi-Fi.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Samahani, inaonekana kifaa hiki hakitumii huduma ya Wi-Fi Direct. Signal hutumia Wi-Fi Direct kugundua na kuunganisha kifaa chako kipya cha Android. Bado unaweza kuunda nakala hifadhi kurejesha akaunti yako kutoka kwenye kifaa chako cha awali cha Android.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Morse inahitaji idhini ya kufikia maelezo ya eneo ili igundue na kuunganisha na kifaa chako kipya cha Android.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Morse inahitaji idhini ya kufikia huduma za eneo ili igundue na kuunganisha na kifaa chako kipya cha Android.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Morse inahitaji Wi-Fi ili kugundua na kuunganisha kifaa chako kipya cha Android. Unatakiwa kuwasha Wi-Fi lakini si lazima uunganishe kwenye mtandao wa Wi-Fi.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Samahani, inaonekana kifaa hiki hakitumii huduma ya Wi-Fi Direct. Morse hutumia Wi-Fi Direct kugundua na kuunganisha kifaa chako kipya cha Android. Bado unaweza kuunda nakala hifadhi kurejesha akaunti yako kutoka kwenye kifaa chako cha awali cha Android.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">Unda nakala hifadhi</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Hitilafu isiyotarajiwa imetokea wakati wa kujaribu kuunganisha kwenye kifaa chako kipya cha Android.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2571,10 +2571,10 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Gusa Endelea kwenye kifaa chako kingine ili kuanza mchakato wa kuhamisha.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Gusa Endelea kwenye kifaa chako kingine…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Haiwezi kuhamisha kutoka matoleo mapya ya Signal</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Haiwezi kuhamisha kutoka matoleo mapya ya Morse</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">Inahamisha data</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">Weka vifaa vyote viwili karibu. Usizime vifaa hivi na hakikisha Signal imefunguliwa. Mchakato wa kuhamisha umesimbwa kwa njia ya mwisho kwa mwisho.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">Weka vifaa vyote viwili karibu. Usizime vifaa hivi na hakikisha Morse imefunguliwa. Mchakato wa kuhamisha umesimbwa kwa njia ya mwisho kwa mwisho.</string>
   <string name="DeviceTransfer__d_messages_so_far">Jumbe %1$d hadi sasa…</string>
   <string name="DeviceTransfer__cancel">Ghairi</string>
   <string name="DeviceTransfer__try_again">Jaribu tena</string>
@@ -2585,9 +2585,9 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="DeviceTransfer__unable_to_transfer">Imeshindwa kuhamisha</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">Hamisha Akaunti</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Unaweza kuhamisha akaunti yako ya Signal unapoweka mipangilio ya Signal kwenye kifaa kipya cha Android. Kabla ya kuendelea:</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Unaweza kuhamisha akaunti yako ya Morse unapoweka mipangilio ya Morse kwenye kifaa kipya cha Android. Kabla ya kuendelea:</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Pakua Signal kwenye kifaa chako kipya cha Android</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Pakua Morse kwenye kifaa chako kipya cha Android</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">Gonga \"Hamisha au rejesha akaunti\"</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2596,7 +2596,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">Mchakato wa kuhamisha umekamilika</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">Nenda kwenye kifaa chako kipya</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Data yako ya Signal imehamishiwa kwenye kifaa chako kipya. Ili kukamilisha mchakato wa kuhamisha, unatakiwa kuendelea na usajili kwenye kifaa chako kipya.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Data yako ya Morse imehamishiwa kwenye kifaa chako kipya. Ili kukamilisha mchakato wa kuhamisha, unatakiwa kuendelea na usajili kwenye kifaa chako kipya.</string>
   <string name="OldDeviceTransferComplete__close">Funga</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">Mchakato wa kuhamisha umefanikiwa</string>
@@ -2613,7 +2613,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="DeviceToDeviceTransferService_status_service_connected">Tunahamisha akaunti…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Kamilisha usajili kwenye kifaa chako kipya</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Akaunti yako ya Signal imehamishiwa kwenye kifaa chako kipya, lakini sharti ukamilishe usajili ili uendelee. Signal haitatumika kwenye kifaa hiki.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Akaunti yako ya Morse imehamishiwa kwenye kifaa chako kipya, lakini sharti ukamilishe usajili ili uendelee. Morse haitatumika kwenye kifaa hiki.</string>
   <string name="OldDeviceTransferLockedDialog__done">Imekamilika</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Ghairi na uwezeshe kifaa hiki</string>
   <!--AdvancedPreferenceFragment-->
@@ -2648,12 +2648,12 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="GroupsLearnMore_what_are_legacy_groups">Vikundi Vizee ni nini?</string>
   <string name="GroupsLearnMore_paragraph_1">Vikundi Vizee ni vikundi ambavyo haviingiliani na vipengee vya Vikundi Vipya kama wasimamizi na masasisho ya kikundi yaliyo na maelezo zaidi.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Je, ninaweza kupandisha daraja ya Kikundi Kizee?</string>
-  <string name="GroupsLearnMore_paragraph_2">Vikundi Vizee bado haviwezi kuboreshwa kuwa Vikundi Vipya, lakini unaweza kuunda Kundi Jipya kilicho na washiriki wale wale ikiwa wako na toleo jipya la Signal.</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal itatoa njia ya kuboresha Vikundi Vizee katika siku zijazo.</string>
+  <string name="GroupsLearnMore_paragraph_2">Vikundi Vizee bado haviwezi kuboreshwa kuwa Vikundi Vipya, lakini unaweza kuunda Kundi Jipya kilicho na washiriki wale wale ikiwa wako na toleo jipya la Morse.</string>
+  <string name="GroupsLearnMore_paragraph_3">Morse itatoa njia ya kuboresha Vikundi Vizee katika siku zijazo.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Yeyote aliye na kiungo hiki anaweza kutazama jina na picha za kikundi hiki na kuomba kujiunga. Shiriki na watu unaowaamini.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Yeyote aliye na kiungo hiki anaweza kutazama jina na picha ya kikundi na kujiunga na kikundi. Shiriki na watu unaowaamini.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Shiriki kupitia Signal</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Shiriki kupitia Morse</string>
   <string name="GroupLinkBottomSheet_copy">Nakili</string>
   <string name="GroupLinkBottomSheet_qr_code">Msimbo wa QR</string>
   <string name="GroupLinkBottomSheet_share">Shiriki</string>
@@ -2719,7 +2719,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="DeleteAccountFragment__no_number">Hakuna nambari iliyochaguliwa</string>
   <string name="DeleteAccountFragment__the_phone_number">Nambari ya simu uliyoweka hailingani na iliyo katika akaunti yako.</string>
   <string name="DeleteAccountFragment__are_you_sure">Una uhakika unataka kufuta akaunti yako?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Hatua hii itafuta akaunti yako ya Signal na kuweka upya programu. Programu itafungwa baada ya mchakato huu kukamilika.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Hatua hii itafuta akaunti yako ya Morse na kuweka upya programu. Programu itafungwa baada ya mchakato huu kukamilika.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">Imeshindwa kufuta akaunti. Una muunganisho wa mtandao?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Imeshindwa kufuta data ya ndani ya kifaa. Unaweza kuifuta wewe mwenyewe katika mipangilio ya matumizi ya mfumo.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Zindua Mipangilio ya Programu</string>
@@ -2735,7 +2735,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="ShareActivity__share">Shiriki</string>
   <string name="ShareActivity__send">Tuma</string>
   <string name="ShareActivity__comma_s">, %1$s</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">Kushiriki kwenye gumzo nyingi kunawezekana tu kwa jumbe za Signal</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">Kushiriki kwenye gumzo nyingi kunawezekana tu kwa jumbe za Morse</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">Baadhi ya watumiaji hawajatumiwa</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">Unaweza tu kushiriki hadi gumzo %1$d</string>
@@ -2785,7 +2785,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="payment_info_card_about_mobilecoin">Kuhusu MobileCoin</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin ni sarafu mpya dijitali inayozingatia faragha.</string>
   <string name="payment_info_card_adding_funds">Kuongeza fedha</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">Unaweza kuongeza pesa za matumizi katika Signal kwa kutuma MobileCoin kwenye anwani yako ya mkoba.</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">Unaweza kuongeza pesa za matumizi katika Morse kwa kutuma MobileCoin kwenye anwani yako ya mkoba.</string>
   <string name="payment_info_card_cashing_out">Kutoa pesa</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">Unaweza kutoa MobileCoin wakati wowote kwenye ubadilishaji unaotumia MobileCoin. Hamishia tu kwenye akaunti yako katika ubadilishaji huo.</string>
   <string name="payment_info_card_hide_this_card">Ungependa kuficha kadi hii?</string>
@@ -2799,18 +2799,18 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">Zima Mkoba</string>
   <string name="DeactivateWalletFragment__your_balance">Salio lako</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">Inashauriwa uhamishie fedha zako kwa anwani nyingine ya mkoba kabla ya kuzima malipo. Ukichagua kutohamisha pesa zako sasa, zitabaki kwenye mkoba wako uliounganishwa na Signal ikiwa utawezasha malipo tena.</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">Inashauriwa uhamishie fedha zako kwa anwani nyingine ya mkoba kabla ya kuzima malipo. Ukichagua kutohamisha pesa zako sasa, zitabaki kwenye mkoba wako uliounganishwa na Morse ikiwa utawezasha malipo tena.</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">Hamisha salio lililobakia</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">Zima bila kuhamisha</string>
   <string name="DeactivateWalletFragment__deactivate">Zima</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Ungependa kuzima bila kuhamisha?</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">Salio lako litabaki kwenye mkoba wako uliounganishwa kwenye Signal ukichagua kuwezesha tena malipo.</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">Salio lako litabaki kwenye mkoba wako uliounganishwa kwenye Morse ukichagua kuwezesha tena malipo.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Hitilafu imetokea wakati wa kuzima mkoba.</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Maneno ya kurejesha</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Angalia maneno ya kurejesha</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Weka maneno ya kurejesha</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Salio lako litarejeshwa kiotomatiki utakapoweka tena Signal ikiwa utathibitisha PIN yako ya Signal. Unaweza pia kurejesha salio lako ukitumia maneno ya kurejesha, ambayo ni maneno %1$d maalum kwako. Yaandike na kuyahifadhi mahali salama.</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Salio lako litarejeshwa kiotomatiki utakapoweka tena Morse ikiwa utathibitisha PIN yako ya Morse. Unaweza pia kurejesha salio lako ukitumia maneno ya kurejesha, ambayo ni maneno %1$d maalum kwako. Yaandike na kuyahifadhi mahali salama.</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">Maneno yako ya kurejesha ni kifungu cha maneno %1$d maalum kwako. Yatumie kurejesha salio lako.</string>
   <string name="PaymentsRecoveryStartFragment__start">Anza</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">Weka mwenyewe</string>
@@ -2879,7 +2879,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <!--AccountSettingsFragment-->
   <string name="AccountSettingsFragment__account">Akaunti</string>
   <string name="AccountSettingsFragment__youll_be_asked_less_frequently">Utaulizwa mara chache zaidi baada ya muda</string>
-  <string name="AccountSettingsFragment__require_your_signal_pin">Itisha PIN yako ya Signal ili usajili tena nambari yako ya simu katika Signal.</string>
+  <string name="AccountSettingsFragment__require_your_signal_pin">Itisha PIN yako ya Morse ili usajili tena nambari yako ya simu katika Morse.</string>
   <!--ChangeNumberFragment-->
   <string name="ChangeNumberFragment__continue">Endelea</string>
   <!--ChangeNumberEnterPhoneNumberFragment-->
@@ -2903,7 +2903,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="NotificationsSettingsFragment__messages">Jumbe</string>
   <string name="NotificationsSettingsFragment__calls">Simu</string>
   <string name="NotificationsSettingsFragment__notify_when">Nisrifu wakati…</string>
-  <string name="NotificationsSettingsFragment__contact_joins_signal">Mwasiliano amejiunga na Signal</string>
+  <string name="NotificationsSettingsFragment__contact_joins_signal">Mwasiliano amejiunga na Morse</string>
   <!--PrivacySettingsFragment-->
   <string name="PrivacySettingsFragment__blocked">Zuiwa</string>
   <string name="PrivacySettingsFragment__d_contacts">Waasiliani %1$d </string>
@@ -2911,7 +2911,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="PrivacySettingsFragment__disappearing_messages">Jumbe zinazotoweka</string>
   <string name="PrivacySettingsFragment__app_security">Usalama wa programu</string>
   <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">Zuia viwambo vya skrini katika orodha ya rekodi na ndani ya programu</string>
-  <string name="PrivacySettingsFragment__signal_message_and_calls">Ujumbe na simu za Signal, elekeza simu kila wakati, na kutumia huduma ya kuficha ujumbe</string>
+  <string name="PrivacySettingsFragment__signal_message_and_calls">Ujumbe na simu za Morse, elekeza simu kila wakati, na kutumia huduma ya kuficha ujumbe</string>
   <string name="PrivacySettingsFragment__default_timer_for_new_changes">Kipima muda chaguo-msingi cha gumzo mpya</string>
   <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">Weka kipima muda cha ujumbe unaotoweka kwa gumzo zote mpya zilizoanzishwa na wewe.</string>
   <!--AdvancedPrivacySettingsFragment-->
@@ -2942,7 +2942,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="HelpSettingsFragment__version">Toleo</string>
   <string name="HelpSettingsFragment__debug_log">Faili la rekebisho</string>
   <string name="HelpSettingsFragment__terms_amp_privacy_policy">Vigezo &amp;amp: Sera ya Faragha</string>
-  <string name="HelpFragment__copyright_signal_messenger">Signal Messenger yenye Hakimiliki</string>
+  <string name="HelpFragment__copyright_signal_messenger">Morse Messenger yenye Hakimiliki</string>
   <string name="HelpFragment__licenced_under_the_gplv3">Imeidhinishwa kwa Leseni chini ya GPLv3</string>
   <!--DataAndStorageSettingsFragment-->
   <string name="DataAndStorageSettingsFragment__sending_high_quality_media_will_use_more_data">Kutuma media ya hali ya juu kutatumia data zaidi.</string>
@@ -3110,7 +3110,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="MediaReviewSelectedItem__tap_to_select">Gusa kuchagua</string>
   <string name="MediaReviewImagePageFragment__discard">Ghairi</string>
   <string name="SelectFeaturedBadgeFragment__preview">Hakiki</string>
-  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Signal inaendeshwa na watu kama wewe.</string>
+  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Morse inaendeshwa na watu kama wewe.</string>
   <!-- Removed by excludeNonTranslatables <string name="SubscribeFragment__donation_amount">Kiasi cha mchango</string> -->
   <string name="SubscribeFragment__not_now">Sio sasa</string>
   <string name="SubscribeFragment__confirm">Thibitisha</string>

@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">စာအသစ်</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal ကို အပ်ဒိတ်လုပ်နေသည်…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Morse ကို အပ်ဒိတ်လုပ်နေသည်…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">လက်ရှိ: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">စကားဝှက်မသတ်မှတ်ရသေးပါ</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">စကားဝှက်ပိတ်မလား?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Signal ကိုအမြဲဖွင့်ထားပြီး စာတိုဝင်လာပါကအသိပေးပါမည်။</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Morse ကိုအမြဲဖွင့်ထားပြီး စာတိုဝင်လာပါကအသိပေးပါမည်။</string>
   <string name="ApplicationPreferencesActivity_disable">ပိတ်ထားပါ</string>
   <string name="ApplicationPreferencesActivity_unregistering">စာရင်းမသွင်းထားပါ </string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Signal စာတိုများနှင့် ဖုန်းခေါ်ဆိုမှုများ မလုပ်တော့ပါ</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal စာတို နှင့် ဖုန်းခေါ်ဆိုမှုများကို ပိတ်မလား။ </string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Signal စာတိုနှင့် ဖုန်းခေါ်ဆိုမှုများ ပိတ်လိုက်ပါပြီ။ ထပ်မံသုံးစွဲလိုပါက ဖုန်းနံပါတ်ဖြင့် ပြန်လည်စာရင်းသွင်းရန်လိုအပ်ပါလိမ့်မည်။ </string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Morse စာတိုများနှင့် ဖုန်းခေါ်ဆိုမှုများ မလုပ်တော့ပါ</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Morse စာတို နှင့် ဖုန်းခေါ်ဆိုမှုများကို ပိတ်မလား။ </string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Morse စာတိုနှင့် ဖုန်းခေါ်ဆိုမှုများ ပိတ်လိုက်ပါပြီ။ ထပ်မံသုံးစွဲလိုပါက ဖုန်းနံပါတ်ဖြင့် ပြန်လည်စာရင်းသွင်းရန်လိုအပ်ပါလိမ့်မည်။ </string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">ဆာဗာနှင့် ဆက်သွယ်၍မရပါ</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">စာတိုပို့စနစ်လုပ်ဆောင်နိုင်ပါပြီ</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">မူလစာတိုစနစ်သို့ ပြန်လည်ပြောင်းလဲရန်နှိပ်ပါ </string>
   <string name="ApplicationPreferencesActivity_sms_disabled">စာတိုပို့ခြင်းစနစ် ပိတ်လိုက်ပြီ</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Signal ကိုသင်၏ဖုန်းစာတိုပို့စနစ်အဖြစ်သုံးရန် ဤနေရာကိုနှိပ်ပါ</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Morse ကိုသင်၏ဖုန်းစာတိုပို့စနစ်အဖြစ်သုံးရန် ဤနေရာကိုနှိပ်ပါ</string>
   <string name="ApplicationPreferencesActivity_on">ဖွင့်သည်</string>
   <string name="ApplicationPreferencesActivity_On">ဖွင့်ပါ</string>
   <string name="ApplicationPreferencesActivity_off">ပိတ်သည်</string>
@@ -57,14 +57,14 @@
   <string name="AttachmentKeyboard_file">ဖိုင်</string>
   <string name="AttachmentKeyboard_contact">အဆက်အသွယ်</string>
   <string name="AttachmentKeyboard_location">တည်နေရာ</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal သည် သင်၏ဓာတ်ပုံနှင့်ဗီဒီယိုများကိုပြသရန် ခွင့်ပြုချက်လိုအပ်သည်။</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Morse သည် သင်၏ဓာတ်ပုံနှင့်ဗီဒီယိုများကိုပြသရန် ခွင့်ပြုချက်လိုအပ်သည်။</string>
   <string name="AttachmentKeyboard_give_access">အသုံးပြုခွင့်ပေးပါ</string>
   <string name="AttachmentKeyboard_payment">ငွေပေးချေမှု</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">ရုပ်သံကိုဖွင့်ရန်သင့်တော်သည့် app မတွေ့ပါ </string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">အဆက်အသွယ်များ၏ အချက်အလက်များကို ပို့နိုင်ရန် Signalမှ အဆက်အသွယ်များအား အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ဖိုင်ကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">အဆက်အသွယ်များ၏ အချက်အလက်များကို ပို့နိုင်ရန် Signalမှ အဆက်အသွယ်များအား အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ အဆက်အသွယ်များကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">မိမိ၏ တည်နေရာကို ပို့နိုင်ရန် တည်နေရာအား Signalမှ အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာတည်နေရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">အဆက်အသွယ်များ၏ အချက်အလက်များကို ပို့နိုင်ရန် Morseမှ အဆက်အသွယ်များအား အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ဖိုင်ကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">အဆက်အသွယ်များ၏ အချက်အလက်များကို ပို့နိုင်ရန် Morseမှ အဆက်အသွယ်များအား အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ အဆက်အသွယ်များကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">မိမိ၏ တည်နေရာကို ပို့နိုင်ရန် တည်နေရာအား Morseမှ အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာတည်နေရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">မီဒီယာဖိုင်တင်နေသည်</string>
   <string name="AttachmentUploadJob_compressing_video_start">ဗီဒီယိုကိုချုံ့နေသည်</string>
@@ -108,26 +108,26 @@
   <string name="CameraXFragment_open_gallery_description">ဓာတ်ပုံ၊ ဗီဒီယိုများသိမ်းဆည်းရာ ဖွင့်ရန်</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">နောက်ဆုံးဆက်သွယ်မှုများ</string>
-  <string name="CameraContacts_signal_contacts"> Signal အဆက်အသွယ်များ</string>
-  <string name="CameraContacts_signal_groups">Signal အဖွဲ့များ</string>
+  <string name="CameraContacts_signal_contacts"> Morse အဆက်အသွယ်များ</string>
+  <string name="CameraContacts_signal_groups">Morse အဖွဲ့များ</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">အများဆုံးစကားဝိုင်း%dကို မျှဝေနိုင်သည်</string>
-  <string name="CameraContacts_select_signal_recipients">Signal လက်ခံရရှိသူများကိုရွေးချယ်ပါ</string>
-  <string name="CameraContacts_no_signal_contacts">Signal အဆက်အသွယ်များ မရှိပါ</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Signal သူငယ်ချင်းထံသို့ ကင်မရာခလုတ်နှိပ်၍သာ ဓာတ်ပုံပို့နိုင်သည် </string>
+  <string name="CameraContacts_select_signal_recipients">Morse လက်ခံရရှိသူများကိုရွေးချယ်ပါ</string>
+  <string name="CameraContacts_no_signal_contacts">Morse အဆက်အသွယ်များ မရှိပါ</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Morse သူငယ်ချင်းထံသို့ ကင်မရာခလုတ်နှိပ်၍သာ ဓာတ်ပုံပို့နိုင်သည် </string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">သင်ရှာတဲ့သူကို မတွေ့ဘူးလား</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Signal အသုံးပြုရန် ဖိတ်ခေါ်ပါ</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Morse အသုံးပြုရန် ဖိတ်ခေါ်ပါ</string>
   <string name="CameraContacts__menu_search">ရှာရန်</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">ဖယ်ရှားသည် </string>
   <string name="ClearProfileActivity_remove_profile_photo">ဓါတ်ပုံ ဖယ်ရှားမှာလား ?</string>
   <string name="ClearProfileActivity_remove_group_photo">အဖွဲ့ဓာတ်ပုံကို ဖယ်ရှားမည်လား။</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Signal ကို Update လုပ်ပါ။</string>
+  <string name="ClientDeprecatedActivity_update_signal">Morse ကို Update လုပ်ပါ။</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">ဤအက်ပလီကေးရှင်း၏ ဗားရှင်းသည် သုံးရန်အဆင်မပြေတော့ပါ။ မက်ဆေ့ခ်ျများ ဆက်လက်ပေးပို့ခြင်း၊ လက်ခံရရှိခြင်းအတွက် နောက်ဆုံးဗားရှင်းသို့ ပြောင်းပါ။</string>
   <string name="ClientDeprecatedActivity_update">Update လုပ်သည်</string>
   <string name="ClientDeprecatedActivity_dont_update">Update မလုပ်ပါ</string>
   <string name="ClientDeprecatedActivity_warning">သတိပေးချက်</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">သင်၏ Signal ဗားရှင်းသက်တမ်းကုန်သွားပြီ။ သင်၏မက်ဆေ့ခ်ျမှတ်တမ်းကိုသင်ကြည့်နိုင်သည်။ သို့သော် update မလုပ်မချင်း မက်ဆေ့ခ်ျများပို့ခြင်း၊ လက်ခံရရှိခြင်း မရနိုင်ပါ။</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">သင်၏ Morse ဗားရှင်းသက်တမ်းကုန်သွားပြီ။ သင်၏မက်ဆေ့ခ်ျမှတ်တမ်းကိုသင်ကြည့်နိုင်သည်။ သို့သော် update မလုပ်မချင်း မက်ဆေ့ခ်ျများပို့ခြင်း၊ လက်ခံရရှိခြင်း မရနိုင်ပါ။</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">Web Browser ကိုရှာမတွေ့ပါ</string>
   <string name="CommunicationActions_send_email">အီးမေးလ်ပို့ပါ။</string>
@@ -136,9 +136,9 @@
   <string name="CommunicationActions_cancel">ပယ်ဖျက်သည်။</string>
   <string name="CommunicationActions_call">ဖုန်းခေါ်ဆိုသည်</string>
   <string name="CommunicationActions_insecure_call">လုံခြုံမှုမရှိသော ဖုန်းခေါ်ဆိုမှု</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">ခေါ်ဆိုခ ယူနိုင်ပါသည်။ သင်ခေါ်ဆိုသောနံပါတ်သည် Signal တွင်မှတ်ပုံတင်ထားခြင်းမရှိပါ။ ဤခေါ်ဆိုမှုကို အင်တာနက်မှ မဟုတ်ဘဲ သင်၏မိုဘိုင်းအော်ပရေတာမှ တစ်ဆင့်ခေါ်ဆိုနိုင်သည်။ </string>
+  <string name="CommunicationActions_carrier_charges_may_apply">ခေါ်ဆိုခ ယူနိုင်ပါသည်။ သင်ခေါ်ဆိုသောနံပါတ်သည် Morse တွင်မှတ်ပုံတင်ထားခြင်းမရှိပါ။ ဤခေါ်ဆိုမှုကို အင်တာနက်မှ မဟုတ်ဘဲ သင်၏မိုဘိုင်းအော်ပရေတာမှ တစ်ဆင့်ခေါ်ဆိုနိုင်သည်။ </string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">%1$sဖြင့် စိတ်ချရသော ဖုန်းနံပတ်ပြောင်းလဲသွားသည်။ တစ်စုံတစ်ယောက်က သင့်ဆက်သွယ်မှုကို ကြားဖြတ်ခြင်းကြောင့် သို့မဟုတ် %2$s Signal ကို ဖြုတ်လိုက်ခြင်းကြောင့် ဖြစ်နိုင်သည်။</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">%1$sဖြင့် စိတ်ချရသော ဖုန်းနံပတ်ပြောင်းလဲသွားသည်။ တစ်စုံတစ်ယောက်က သင့်ဆက်သွယ်မှုကို ကြားဖြတ်ခြင်းကြောင့် သို့မဟုတ် %2$s Morse ကို ဖြုတ်လိုက်ခြင်းကြောင့် ဖြစ်နိုင်သည်။</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">ဤလူနှင့် ဆက်သွယ်ရန် စိတ်ချရသောနံပါတ်ကို အတည်ပြုပါမည်လား။ </string>
   <string name="ConfirmIdentityDialog_accept">လက်ခံသည် </string>
   <!--ContactsCursorLoader-->
@@ -149,7 +149,7 @@
   <string name="ContactsCursorLoader_username_search">အသုံးပြုသူအမည်ရှာဖွေခြင်း</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">စာတို %s </string>
-  <string name="ContactsDatabase_signal_call_s">Signal ခေါ်ဆိုမှု %s </string>
+  <string name="ContactsDatabase_signal_call_s">Morse ခေါ်ဆိုမှု %s </string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">ပေးထားပြီးသော နာမည်</string>
   <string name="ContactNameEditActivity_family_name">မိသားစုအမည်</string>
@@ -172,7 +172,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">ပို့ရန် မအောင်မြင်ပါ၊ လုံခြုံမှုမရှိသော အရန်အတွက် အသာထိပါ။</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">မလုံခြုံသောဖုန်းစာတိုပို့စနစ်ကိုပြန်သုံးမလား? </string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">မလုံခြုံသော ရုပ်သံပုံပါ စာပို့စနစ်ကို ပြန်သုံးမလား? </string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">သင်ပေးပို့သော သူသည် Signal မသုံးတော့သဖြင့် ဤနည်းလမ်းဖြင့် စာတိုကို ပေးပို့၍မရနိုင်ပါ။ \n\n ရိုးရိုးစာတိုစနစ်ဖြင့်ပေးပို့မလား? </string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">သင်ပေးပို့သော သူသည် Morse မသုံးတော့သဖြင့် ဤနည်းလမ်းဖြင့် စာတိုကို ပေးပို့၍မရနိုင်ပါ။ \n\n ရိုးရိုးစာတိုစနစ်ဖြင့်ပေးပို့မလား? </string>
   <string name="ConversationItem_unable_to_open_media">ရုပ်သံ ကိုဖွင့်နိုင်သည့် app မရှိပါ။ </string>
   <string name="ConversationItem_copied_text">ကူးပြီးပါပြီ %s </string>
   <string name="ConversationItem_from_s">%s မှ </string>
@@ -197,8 +197,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">ဖုန်းနံပါတ်နှိပ် ခေါ်ဆိုမှုကို ယခုစက်တွင်မရပါ။ </string>
   <string name="ConversationActivity_transport_insecure_sms">မလုံခြုံသော SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">မလုံခြုံသော MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal </string>
-  <string name="ConversationActivity_lets_switch_to_signal">Signal %1$s ကိုပြောင်းသုံးကြပါစို့</string>
+  <string name="ConversationActivity_transport_signal">Morse </string>
+  <string name="ConversationActivity_lets_switch_to_signal">Morse %1$s ကိုပြောင်းသုံးကြပါစို့</string>
   <string name="ConversationActivity_specify_recipient">ဆက်သွယ်လိုသည့်သူကို ရွေးချယ်ပါ </string>
   <string name="ConversationActivity_unblock">ဘလော့ဖြည်ပါ </string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">ပူးတွဲဖိုင်သည် သတ်မှတ်ဖိုင်အရွယ်အစားထက်ကြီးနေသည်။ </string>
@@ -207,17 +207,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">ယခုလင့်ခ် ကိုဖွင့်နိုင်သည့် app သင့်စက်တွင် မရှိပါ။ </string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">သင်၏အဖွဲ့ဝင်ရန် တောင်းဆိုမှုကို အဖွဲ့အက်မင်ထံသို့ ပို့ပြီးပါပြီ။ သူတို့ဆောင်ရွက်ချက်ကို အကြောင်းပြန်ပေးပါမည်။</string>
   <string name="ConversationActivity_cancel_request">တောင်းဆိုမှုကိုပယ်ဖျက်သည်။</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">အသံဖိုင်ပို့နိုင်ရန် မိမိမိုက်ခရိုဖုန်းကို Signal အား အသုံးပြုခွင့်ပေးပါ။</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">အသံဖိုင်များပို့နိုင်ရန် Signalမှ မိုက်ခရိုဖုန်းအား အသုံးပြုခွင့်ရရန် လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ မိုက်ခရိုဖုန်းကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">%sဖုန်းခေါ်ဆိုမှုပြုနိုင်ရန် Signalမှ မိုက်ခရိုဖုန်း နှင့် ကင်မရာအား အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ မိုက်ခရိုဖုန်း နှင့် ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ဓါတ်ပုံနှင့် ဗီဒီယိုရိုက်နိုင်ရန် Signal မှ မိမိကင်မရာကို အသုံးပြုခွင့်ပေးပါ။</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">ဓါတ်ပုံနှင့် ဗီဒီယိုရိုက်နိုင်ရန် Signal မှ မိမိကင်မရာကို အသုံးပြုခွင့်ပေးထားရန်လိုသည်။  သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">ဓါတ်ပုံနှင့် ဗီဒီယိုရိုက်နိုင်ရန် Signal မှ မိမိကင်မရာကို အသုံးပြုခွင့်ပေးထားရန်လိုသည်</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">အသံဖိုင်ပို့နိုင်ရန် မိမိမိုက်ခရိုဖုန်းကို Morse အား အသုံးပြုခွင့်ပေးပါ။</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">အသံဖိုင်များပို့နိုင်ရန် Morseမှ မိုက်ခရိုဖုန်းအား အသုံးပြုခွင့်ရရန် လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ မိုက်ခရိုဖုန်းကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">%sဖုန်းခေါ်ဆိုမှုပြုနိုင်ရန် Morseမှ မိုက်ခရိုဖုန်း နှင့် ကင်မရာအား အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ မိုက်ခရိုဖုန်း နှင့် ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ဓါတ်ပုံနှင့် ဗီဒီယိုရိုက်နိုင်ရန် Morse မှ မိမိကင်မရာကို အသုံးပြုခွင့်ပေးပါ။</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">ဓါတ်ပုံနှင့် ဗီဒီယိုရိုက်နိုင်ရန် Morse မှ မိမိကင်မရာကို အသုံးပြုခွင့်ပေးထားရန်လိုသည်။  သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">ဓါတ်ပုံနှင့် ဗီဒီယိုရိုက်နိုင်ရန် Morse မှ မိမိကင်မရာကို အသုံးပြုခွင့်ပေးထားရန်လိုသည်</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">အသံပါ ဗွီဒီယိုများကို ရိုက်ကူးရန် မိုက်ခရိုဖုန်းအသုံးပြုခွင့်ပေးပါ။</string>
   <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">ဗွီဒီယိုရိုက်ကူးရန် မိုက်ကရိုဖုန်းခွင့်ပြုချက်လိုအပ်ပါသည်။ သို့သော် ငြင်းဆိုခံရပါက အက်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ \"ခွင့်ပြုချက်များ\" ကို ရွေးချယ်ကာ \"မိုက်ခရိုဖုန်း\" နှင့် \"ကင်မရာ\" ကို အသုံးပြုနိုင်အောင် လုပ်ပါ။</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">ဗီဒီယိုရိုက်ကူးရန် Signal သည် မိုက်ကရိုဖုန်းအသုံးပြုခွင့် လိုအပ်သည်။</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">ဗီဒီယိုရိုက်ကူးရန် Morse သည် မိုက်ကရိုဖုန်းအသုံးပြုခွင့် လိုအပ်သည်။</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal သည်သင်၏ မူလ SMS အက်ပလီကေးရှင်း မဟုတ်သောကြောင့် SMS / MMS စာတိုများကိုမပို့နိုင်ပါ။ သင်၏ Android ဆက်တင်အပြင်အဆင်တွင်၎င်းကို ပြောင်းလဲလိုပါသလား။</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Morse သည်သင်၏ မူလ SMS အက်ပလီကေးရှင်း မဟုတ်သောကြောင့် SMS / MMS စာတိုများကိုမပို့နိုင်ပါ။ သင်၏ Android ဆက်တင်အပြင်အဆင်တွင်၎င်းကို ပြောင်းလဲလိုပါသလား။</string>
   <string name="ConversationActivity_yes">ဟုတ်ပါသည်</string>
   <string name="ConversationActivity_no">မဟုတ်ပါ</string>
   <string name="ConversationActivity_search_position">%1$d ၏ %2$d</string>
@@ -231,7 +231,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">သင်ဤအုပ်စုမှထွက်သွားပြီး၎င်းကိုသင်၏စက်ပစ္စည်းအားလုံးမှဖျက်ပစ်လိမ့်မည်။</string>
   <string name="ConversationActivity_delete">ဖျက်မည်</string>
   <string name="ConversationActivity_delete_and_leave">ဖျက်၍ ထွက်ခွာပါ</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">ခေါ်ရန်%1$s Signal သည်သင်၏မိုက်ခရိုဖုန်းကိုအသုံးပြုရန်လိုအပ်သည်</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">ခေါ်ရန်%1$s Morse သည်သင်၏မိုက်ခရိုဖုန်းကိုအသုံးပြုရန်လိုအပ်သည်</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">ယခု "အုပ်စုဖွဲ့ချိန်ညှိချက်များ" တွင်နောက်ထပ်ရွေးချယ်စရာများ</string>
   <string name="ConversationActivity_join">ပူးပေါင်း</string>
   <string name="ConversationActivity_full">ပြည့်နေသည်</string>
@@ -260,14 +260,14 @@
     <item quantity="other">ပူးတွဲဖိုင် %1$d ကို ဖုန်းထဲတွင် သိမ်းနေသည် </item>
   </plurals>
   <string name="ConversationFragment_pending">ဆိုင်းငံ့ထားသည်…</string>
-  <string name="ConversationFragment_push">ဒေတာ (Signal)</string>
+  <string name="ConversationFragment_push">ဒေတာ (Morse)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">ဖျက်နေသည်</string>
   <string name="ConversationFragment_deleting_messages">စာများဖျက်နေသည်</string>
   <string name="ConversationFragment_delete_for_me">ကျွန်ုပ်အတွက် ဖျက်မယ်</string>
   <string name="ConversationFragment_delete_for_everyone">လူတိုင်းအတွက်ဖျက်ပါ</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">အကယ်၍ သူတို့ကလတ်တလော Signal ပုံစံတွင်ရှိနေလျှင်ဤမက်ဆေ့ခ်ျသည်စကားပြောဆိုမှုတွင်ပါဝင်သူများအတွက်ဖျက်ပစ်လိမ့်မည်။ သူတို့ကသင်မက်ဆေ့ခ်ျတစ်ခုဖျက်လိုက်သည်ကိုတွေ့နိုင်လိမ့်မည်။</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">အကယ်၍ သူတို့ကလတ်တလော Morse ပုံစံတွင်ရှိနေလျှင်ဤမက်ဆေ့ခ်ျသည်စကားပြောဆိုမှုတွင်ပါဝင်သူများအတွက်ဖျက်ပစ်လိမ့်မည်။ သူတို့ကသင်မက်ဆေ့ခ်ျတစ်ခုဖျက်လိုက်သည်ကိုတွေ့နိုင်လိမ့်မည်။</string>
   <string name="ConversationFragment_quoted_message_not_found">မူရင်းစာကိုမတွေ့ပါ</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">မူရင်းသတင်းကိုမရရှိနိုင်ပါ</string>
   <string name="ConversationFragment_failed_to_open_message">စာတိုကိုဖွင့်လို့မရပါ</string>
@@ -279,12 +279,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$dအဖွဲ့ဝင်များသည်တူညီသောနာမည်ရှိသည်။</string>
   <string name="ConversationFragment__tap_to_review">ပြန်လည်သုံးသပ်ရန်ကိုအသာပုတ်ပါ</string>
   <string name="ConversationFragment__review_requests_carefully">တောင်းဆိုမှုများကိုအသေအချာပြန်လည်စစ်ဆေးပါ</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal သည်ထိုအမည်နှင့်အတူအခြားအဆက်အသွယ်လည်းရှိသည်</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Morse သည်ထိုအမည်နှင့်အတူအခြားအဆက်အသွယ်လည်းရှိသည်</string>
   <string name="ConversationFragment_contact_us">ကျွန်ုပ်တို့ကိုဆက်သွယ်ရန်</string>
   <string name="ConversationFragment_verify">စစ်ဆေးအတည်ပြုသည်</string>
   <string name="ConversationFragment_not_now">အခုမဟုတ်သေးပါ။</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">သင်၏လုံခြုံရေးနံပါတ်%s ပြောင်းလဲသွားတယ်</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">သင်၏လုံခြုံရေးနံပါတ်%s သူတို့ Signal reinstall သို့မဟုတ် ထုတ်ကုန်ပြောင်းလဲသောကြောင့် ပြောင်းလဲသွားတယ်။ လုံခြုံရေးနံပါတ်အသစ်ကိုအတည်ပြုရန် အတည်ပြုကိုနှိပ်ပါ။ ဒါက optional ကိုဖြစ်ပါတယ်။</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">သင်၏လုံခြုံရေးနံပါတ်%s သူတို့ Morse reinstall သို့မဟုတ် ထုတ်ကုန်ပြောင်းလဲသောကြောင့် ပြောင်းလဲသွားတယ်။ လုံခြုံရေးနံပါတ်အသစ်ကိုအတည်ပြုရန် အတည်ပြုကိုနှိပ်ပါ။ ဒါက optional ကိုဖြစ်ပါတယ်။</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="other">ရွေးထားသည့် စာတိုကိုဖျက်မလား? </item>
   </plurals>
@@ -344,11 +344,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">သင်၏ backup စကားဝှက်ကိုစစ်ဆေးပြီး ကိုက်ညီမှုရှိမရှိစစ်ဆေးပါ</string>
   <string name="BackupsPreferenceFragment__turn_on">ဖွင့်မည်</string>
   <string name="BackupsPreferenceFragment__turn_off">ပိတ်မည်</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">အရန်ကူးခြင်းတစ်ခုကို ပြန်ယူလိုလျှင် Signal မိတ္တူအသစ်ကိုထည့်သွင်းပါ။ အက်ပ်ကိုဖွင့်၍ \"အရန်ကူးထားခြင်းကိုပြန်ယူပါ\" ကို နှိပ်ပြီး အရန်ဖိုင်ကို ရှာဖွေရွေးပေးပါ။ %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">အရန်ကူးခြင်းတစ်ခုကို ပြန်ယူလိုလျှင် Morse မိတ္တူအသစ်ကိုထည့်သွင်းပါ။ အက်ပ်ကိုဖွင့်၍ \"အရန်ကူးထားခြင်းကိုပြန်ယူပါ\" ကို နှိပ်ပြီး အရန်ဖိုင်ကို ရှာဖွေရွေးပေးပါ။ %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">ထပ်မံလေ့လာရန်</string>
   <string name="BackupsPreferenceFragment__in_progress">ဆောင်ရွက်ဆဲ</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d ထိလုပ်ဆောင်ပြီး…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">သင်၏ အပလီကေးရှင်းပြင်ပ ဖုန်းထဲတွင် သိမ်းထားခွင့်အား  Signal ကို ပေးရန်လိုအပ်ပါသည်။သို့သော် လုံးဝခွင့်မပြုပါဟု ရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ သိုလှောင်မှုခွင့်ပြုချက်ကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">သင်၏ အပလီကေးရှင်းပြင်ပ ဖုန်းထဲတွင် သိမ်းထားခွင့်အား  Morse ကို ပေးရန်လိုအပ်ပါသည်။သို့သော် လုံးဝခွင့်မပြုပါဟု ရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ သိုလှောင်မှုခွင့်ပြုချက်ကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">အထူးပြုသုံး %s</string>
   <string name="CustomDefaultPreference_using_default">မူရင်းကိုသုံး %s </string>
@@ -367,7 +367,7 @@
   <string name="DateUtils_yesterday">မနေ့က </string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">စကားပြောဆိုမှု အပိုင်းကို ပြန်လည်တင်ထားသည်</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal သည်အဆုံးမှအဆုံးသို့ encryption ကိုအသုံးပြုသည်။ ၎င်းသည်သင်၏ chat session ကိုတစ်ခါတစ်ရံ refresh လုပ်ရန်လိုအပ်နိုင်သည်။ ၎င်းသည်သင်၏စကားဝိုင်း၏လုံခြုံရေးကိုမထိခိုက်စေပါ၊ သို့သော်သင်သည်ဤအဆက်အသွယ်မှမက်ဆေ့ခ်ျတစ်ခုကိုလွဲချော်ပြီး၎င်းတို့အားပြန်လည်ပေးပို့ရန်တောင်းဆိုနိုင်သည်။</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Morse သည်အဆုံးမှအဆုံးသို့ encryption ကိုအသုံးပြုသည်။ ၎င်းသည်သင်၏ chat session ကိုတစ်ခါတစ်ရံ refresh လုပ်ရန်လိုအပ်နိုင်သည်။ ၎င်းသည်သင်၏စကားဝိုင်း၏လုံခြုံရေးကိုမထိခိုက်စေပါ၊ သို့သော်သင်သည်ဤအဆက်အသွယ်မှမက်ဆေ့ခ်ျတစ်ခုကိုလွဲချော်ပြီး၎င်းတို့အားပြန်လည်ပေးပို့ရန်တောင်းဆိုနိုင်သည်။</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">\'%s\' ကိုမချိတ်တော့ဘူးလား?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">မချိတ်ဆက်တော့သည့်အတွက် စာတိုများကို ပေးပို့ခြင်း သို့မဟုတ် လက်ခံခြင်း မပြုနိုင်တော့ပါ။ </string>
@@ -384,8 +384,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">အမည်မဖော်သောဖိုင်</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Signal ကိုလှူဒါန်းပါ</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">သင့်လိုမျိုး သုံးသူများက Signal ကို ပံ့ပိုးပါသည်။ ဒီနေ့သင်၏ ထောက်ခံမှုကိုပြလိုက်ပါ!</string>
+  <string name="DonateMegaphone_donate_to_signal">Morse ကိုလှူဒါန်းပါ</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">သင့်လိုမျိုး သုံးသူများက Morse ကို ပံ့ပိုးပါသည်။ ဒီနေ့သင်၏ ထောက်ခံမှုကိုပြလိုက်ပါ!</string>
   <string name="DonateMegaphone_donate">လှူဒါန်းပါ</string>
   <string name="DonateMegaphone_no_thanks">ရပါတယ်ကျေးဇူးပါ</string>
   <!--GroupCallingMegaphone-->
@@ -393,9 +393,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">အခမဲ့ စာဝှက်ထားသော အုပ်စုခေါ်ဆိုမှုကို စတင်ရန် အုပ်စုအသစ်တစ်ခုကိုဖွင့်ပါ</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">မပါရှိသေးသော Play Service များကို  ရှာဖွေပါ </string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">ဤဖုန်းသည် Play Services အသုံးပြု၍မရပါ။ Signal အသုံးမပြုသည့်အချိန်တွင် သတင်းစကားများပြန်လည် ထုတ်ယူရာတွင် အနှောက်အယှက်ပြုသည့်အတွက် ဘက်ထရီ အသုံးပြုမှုစောင့် ကြည့်သည့်စနစ်ကို ပိတ်ထားပေးပါ။ </string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">ဤဖုန်းသည် Play Services အသုံးပြု၍မရပါ။ Morse အသုံးမပြုသည့်အချိန်တွင် သတင်းစကားများပြန်လည် ထုတ်ယူရာတွင် အနှောက်အယှက်ပြုသည့်အတွက် ဘက်ထရီ အသုံးပြုမှုစောင့် ကြည့်သည့်စနစ်ကို ပိတ်ထားပေးပါ။ </string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">ယခု အသုံးပြုနေသော Signal ဗားရှင်း သက်တမ်းကုန်သွားပြီ။ မက်ဆေ့ခ်ျများပို့ရန်နှင့် လက်ခံရန် ယခု Update လုပ်ပါ။</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">ယခု အသုံးပြုနေသော Morse ဗားရှင်း သက်တမ်းကုန်သွားပြီ။ မက်ဆေ့ခ်ျများပို့ရန်နှင့် လက်ခံရန် ယခု Update လုပ်ပါ။</string>
   <string name="ExpiredBuildReminder_update_now">ယခု Update လုပ်ပါ။</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -406,8 +406,8 @@
   <string name="ShareActivity_share_with">နှင့် မျှဝေရန်</string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">ဖိုင်တွဲအများအပြား ပူးတွဲခြင်းကို ရုပ်ပုံများနှင့် ဗွီဒီယိုများ အတွက်သာ ထောက်ပံ့သည်။</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Signal ဆက်သွယ်မှု လုံးဝမလုပ်နိုင်ပါ။</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal ကို Google Play Services ဖြင့် မှတ်ပုံတင်၍မရနိုင်ပါ။ Signal စာတိုနှင့် ဖုန်းခေါ်ဆိုမှု ကိုပိတ်လိုက်သည်။ ပြင်ဆင်ခြင်း &gt; အဆင့်မြင့်တွင် ပြန်လည်မှတ်ပုံတင်ကြည့်ပါ။ </string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Morse ဆက်သွယ်မှု လုံးဝမလုပ်နိုင်ပါ။</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Morse ကို Google Play Services ဖြင့် မှတ်ပုံတင်၍မရနိုင်ပါ။ Morse စာတိုနှင့် ဖုန်းခေါ်ဆိုမှု ကိုပိတ်လိုက်သည်။ ပြင်ဆင်ခြင်း &gt; အဆင့်မြင့်တွင် ပြန်လည်မှတ်ပုံတင်ကြည့်ပါ။ </string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">GIF ပုံ၏ မူရင်းအရည်အသွေးကို ပြသရန်အခက်အခဲရှိ </string>
   <!--GiphyFragmentPageAdapter-->
@@ -548,7 +548,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">ကွက်လပ်မှာဖြည့်ရန်လိုအပ်ပါသည်။</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">အုပ်စုဖွဲ့ခြင်း မအောင်မြင်ပါ။</string>
   <string name="AddGroupDetailsFragment__try_again_later">နောက်တကြိမ် ပြန်ကြိုးစားပါ</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">သင် Signal အုပ်စုများကိုမထောက်ခံသည့်အဆက်အသွယ်တစ်ခုကိုသင်ရွေးပြီးပါပြီ၊ ဒါကြောင့်ဒီအုပ်စုသည် MMS ဖြစ်လိမ့်မည်။</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">သင် Morse အုပ်စုများကိုမထောက်ခံသည့်အဆက်အသွယ်တစ်ခုကိုသင်ရွေးပြီးပါပြီ၊ ဒါကြောင့်ဒီအုပ်စုသည် MMS ဖြစ်လိမ့်မည်။</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">စိတ်ကြိုက် MMS အုပ်စုအမည်များနှင့်ဓာတ်ပုံများကိုသင်သာမြင်နိုင်သည်။</string>
   <string name="AddGroupDetailsFragment__remove">ဖယ်ပစ်ပါ။</string>
   <string name="AddGroupDetailsFragment__sms_contact">SMS နှင့်ဆက်သွယ်ပါ</string>
@@ -560,13 +560,13 @@
     <item quantity="other">အဖွဲ့ဝင် %d ဦးသည် အဖွဲ့အသစ်များကို မပံ့ပိုးပါ၊ ထို့ကြောင့် ဤအဖွဲ့ကိုမဖန်တီးနိုင်ပါ။</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">အဖွဲ့ဝင် \"%1$s\" သည် Signal ဗားရှင်းအဟောင်းတစ်ခု ကိုသုံးနေ၍ အမွေအဖွဲ့သာ ဖန်တီးခဲ့ပါသည်။ ၎င်းသူမှ​ Signal ကို အဆင့်မြှင့်ပြီးလျှင် သို့မဟုတ် ထိုသူကို ဖယ်ရှားပြီးလျှင် အဖွဲ့သစ်ကို ဖန်တီးနိုင်ပါသည်။</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">အဖွဲ့ဝင် \"%1$s\" သည် Morse ဗားရှင်းအဟောင်းတစ်ခု ကိုသုံးနေ၍ အမွေအဖွဲ့သာ ဖန်တီးခဲ့ပါသည်။ ၎င်းသူမှ​ Morse ကို အဆင့်မြှင့်ပြီးလျှင် သို့မဟုတ် ထိုသူကို ဖယ်ရှားပြီးလျှင် အဖွဲ့သစ်ကို ဖန်တီးနိုင်ပါသည်။</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="other">ဘာဖြစ်လို့လဲဆိုတော့တစ် ဦး ကအမွေအုပ်စုကိုဖန်တီးလိမ့်မည်%1$d အဖွဲ့ဝင်များသည် Signal ပုံစံဟောင်းကိုအသုံးပြုနေသည်။ သူတို့က Signal ကို update ပြီးနောက်သူတို့နှင့်အတူ New Style Group တစ်ခုကိုဖန်တီးနိုင်သည်၊</item>
+    <item quantity="other">ဘာဖြစ်လို့လဲဆိုတော့တစ် ဦး ကအမွေအုပ်စုကိုဖန်တီးလိမ့်မည်%1$d အဖွဲ့ဝင်များသည် Morse ပုံစံဟောင်းကိုအသုံးပြုနေသည်။ သူတို့က Morse ကို update ပြီးနောက်သူတို့နှင့်အတူ New Style Group တစ်ခုကိုဖန်တီးနိုင်သည်၊</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">\"%1$s\" သည် Signal ၏ဗားရှင်းအဟောင်းကို အသုံးပြုနေ၍ ဤအုပ်စုကို မဖန်တီးနိုင်ပါ။ အုပ်စုကိုမဖွဲ့စည်းခင် ၎င်းတို့ကို သင်ဖယ်ရှား ရပါမည်။</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">\"%1$s\" သည် Morse ၏ဗားရှင်းအဟောင်းကို အသုံးပြုနေ၍ ဤအုပ်စုကို မဖန်တီးနိုင်ပါ။ အုပ်စုကိုမဖွဲ့စည်းခင် ၎င်းတို့ကို သင်ဖယ်ရှား ရပါမည်။</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="other">ဤအုပ်စုအား ဖန်တီး၍ မရပါ%1$d အဖွဲ့ဝင်များသည် Signal ပုံစံဟောင်းကိုအသုံးပြုနေသည်။ အုပ်စုကိုမဖွဲ့စည်းခင် သင်ဖယ်ရှားပစ်ရမည်။</item>
+    <item quantity="other">ဤအုပ်စုအား ဖန်တီး၍ မရပါ%1$d အဖွဲ့ဝင်များသည် Morse ပုံစံဟောင်းကိုအသုံးပြုနေသည်။ အုပ်စုကိုမဖွဲ့စည်းခင် သင်ဖယ်ရှားပစ်ရမည်။</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">အသင်းဝင်တောင်းဆိုမှုများ &amp; amp; ဖိတ်ကြားထား</string>
@@ -594,7 +594,7 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">စီမံသူများသာ အဖွဲ့ဝင်အသစ်များ လက်ခံနိုင်သည့်ရွေးချယ်မှုကို အပိတ်အဖွင့်ပြုလုပ်နိုင်ပါသည်။</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">အက်ဒင်များသာမျှဝေနိုင်သောအုပ်စု link ကိုပြန်လည်သတ်မှတ်နိုင်သည်။</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">ဤသို့လုပ်ရန်သင့်တွင်အခွင့်အရေးမရှိပါ</string>
-  <string name="ManageGroupActivity_not_capable">သင်ဖြည့်စွက်ထားသူတစ်ဦး သည်အဖွဲ့အသစ်များကိုမထောက်ခံပါ။ Signal ကိုအသစ်ပြောင်းရန်လိုအပ်သည်</string>
+  <string name="ManageGroupActivity_not_capable">သင်ဖြည့်စွက်ထားသူတစ်ဦး သည်အဖွဲ့အသစ်များကိုမထောက်ခံပါ။ Morse ကိုအသစ်ပြောင်းရန်လိုအပ်သည်</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">အုပ်စုအားမွမ်းမံရန်မအောင်မြင်ပါ</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">သင်သည် အဖွဲ့ဝင်တစ်ဦးမဟုတ်ပါ</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">အုပ်စုအားမွမ်းမံရန်မအောင်မြင်ပါကျေးဇူးပြုပြီးနောက်မှပြန်ကြိုးစားပါ</string>
@@ -605,7 +605,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">၎င်းသည် အမွေအဖွဲ့ တစ်ဖွဲ့ဖြစ်ပါတယ်။ @မန်းရှင်းများ နဲ့ စီမံသူများ စတဲ့ အင်္ဂါရပ်အသစ်များကို အသုံးပြုရန်အတွက်၊</string>
   <string name="ManageGroupActivity_legacy_group_too_large">ဤ အမွေအဖွဲ့သည် အလွန်ကြီးသောဖြင့် အဖွဲ့သစ်သို့အဆင့်မြှင့်၍မရပါ။ အကြီးဆုံး အဖွဲ့အရွယ်အစားသည် %1$d ဦးသာ ဖြစ်ပါသည်။</string>
   <string name="ManageGroupActivity_upgrade_this_group">၎င်းအဖွဲ့ကို အဆင့်မြှင့်ပါ။</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">၎င်းသည်မလုံခြုံသော MMS အဖွဲ့ဖြစ်သည်။ သီးသန့်စကားပြောနိုင်ရန် သင်၏အဆက်အသွယ်များကို Signal သို့ဖိတ်ပါ။</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">၎င်းသည်မလုံခြုံသော MMS အဖွဲ့ဖြစ်သည်။ သီးသန့်စကားပြောနိုင်ရန် သင်၏အဆက်အသွယ်များကို Morse သို့ဖိတ်ပါ။</string>
   <string name="ManageGroupActivity_invite_now">ယခုဖိတ်ကြားပါ</string>
   <!--GroupMentionSettingDialog-->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">မန်းရှင်းများရှိလျှင် ကျွန်ုပ်ကိုအသိပေးပါ</string>
@@ -673,10 +673,10 @@
     <item quantity="other">အဖွဲ့ · အဖွဲ့ဝင်များ %1$d ဦး</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">အဖွဲ့လင့်ခ်များသုံးရန် Signal ကို အပ်ဒိတ်လုပ်ပါ</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">သင်အသုံးပြုနေသော Signal ဗားရှင်းသည် ၎င်းအဖွဲ့လင့်ခ်ကို မပံ့ပိုးပါ။ နောက်ဆုံးဗားရှင်းသို့ ၎င်းလင့်ခ်ဖြင့် အပ်ဒိတ်ပြုလုပ်ပါ။</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Signal ကို အပ်ဒိတ် လုပ်ပါ</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">သင်ချိတ်ဆက်ထားသောစက်ပစ္စည်းတစ်ခုခုသည် အဖွဲ့လင့်ခ်များကို မပံ့ပိုးသော Signal ဗားရှင်းကို သုံးနေပါသည်။ ၎င်းအဖွဲ့သို့ ဝင်ရောက်ရန် ချိတ်ဆက်ထားသော စက်များပေါ်ရှိ Signal ကို အပ်ဒိတ်ပြုလုပ်ပါ။</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">အဖွဲ့လင့်ခ်များသုံးရန် Morse ကို အပ်ဒိတ်လုပ်ပါ</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">သင်အသုံးပြုနေသော Morse ဗားရှင်းသည် ၎င်းအဖွဲ့လင့်ခ်ကို မပံ့ပိုးပါ။ နောက်ဆုံးဗားရှင်းသို့ ၎င်းလင့်ခ်ဖြင့် အပ်ဒိတ်ပြုလုပ်ပါ။</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Morse ကို အပ်ဒိတ် လုပ်ပါ</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">သင်ချိတ်ဆက်ထားသောစက်ပစ္စည်းတစ်ခုခုသည် အဖွဲ့လင့်ခ်များကို မပံ့ပိုးသော Morse ဗားရှင်းကို သုံးနေပါသည်။ ၎င်းအဖွဲ့သို့ ဝင်ရောက်ရန် ချိတ်ဆက်ထားသော စက်များပေါ်ရှိ Morse ကို အပ်ဒိတ်ပြုလုပ်ပါ။</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">အဖွဲ့လင့်ခ် မမှန်ကန်ပါ</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">သူငယ်ချင်းများကို ဖိတ်ခေါ်ပါ</string>
@@ -705,11 +705,11 @@
   <string name="InviteActivity_cancel">မလုပ်တော့ပါ</string>
   <string name="InviteActivity_sending">ပို့နေသည်…</string>
   <string name="InviteActivity_invitations_sent">ဖိတ်ကြားမှု ပြုလုပ်ပြီး!</string>
-  <string name="InviteActivity_invite_to_signal">Signal သုံးဖို့ဖိတ်ရန်</string>
+  <string name="InviteActivity_invite_to_signal">Morse သုံးဖို့ဖိတ်ရန်</string>
   <plurals name="InviteActivity_send_sms_invites">
     <item quantity="other">%dစာ SMS ဖြင့် ဖိတ်ခေါ်မလား။</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Signal ကိုပြောင်းသုံးကြစို့ : %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Morse ကိုပြောင်းသုံးကြစို့ : %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">သင့်မှာမျှဝေစရာ app များရှိပုံမရပါ။</string>
   <!--LearnMoreTextView-->
   <string name="LearnMoreTextView_learn_more">ထပ်မံလေ့လာရန်</string>
@@ -718,7 +718,7 @@
   <string name="LongMessageActivity_message_from_s">%1$s ထံမှ မက်ဆေ့ချ်</string>
   <string name="LongMessageActivity_your_message">သင့် မက်ဆေ့ချ်</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Morse</string>
   <string name="MessageRetrievalService_background_connection_enabled">အင်တာနက်ဆက်သွယ်မှု နောက်ကွယ်တွင် ဖွင့်ထားသည်</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">အင်တာနက်ဝန်ဆောင်မှုမှ MMS အပြင်အဆင်များ ဖတ်၍မရပါ</string>
@@ -759,7 +759,7 @@
   <string name="Megaphones_introducing_reactions">တုံ့ပြန်မှုများကို မိတ်ဆက်ပါသည်</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">မည်သည့်မက်ဆေ့ချ်ကိုမဆို နှိပ်ဆွဲပြီး သင်၏ ခံစားချက်ကို လျင်မြန်စွာမျှဝေလိုက်ပါ။</string>
   <string name="Megaphones_remind_me_later">နောက်မှပြန်သတိပေးပါ</string>
-  <string name="Megaphones_verify_your_signal_pin">သင်၏ Signal ပင်နံပါတ်ကို အတည်ပြုပါ</string>
+  <string name="Megaphones_verify_your_signal_pin">သင်၏ Morse ပင်နံပါတ်ကို အတည်ပြုပါ</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">ကျွန်ုပ်တို့သည် သင်၏ ပင်နံပါတ်ကို မှတ်မိစေရန် သင်၏ ပင်နံပါတ်ကိုအတည်ပြုရန် မကြာခဏ ကျွန်ုပ်တို့တောင်းဆိုပါမည်။</string>
   <string name="Megaphones_verify_pin">ပင်နံပါတ်ကို အတည်ပြုပါ</string>
   <string name="Megaphones_get_started">စတင်ပါ</string>
@@ -768,10 +768,10 @@
   <string name="Megaphones_use_sms">SMS ကိုသုံးပါ</string>
   <string name="Megaphones_appearance">ပုံပန်းသဏ္ဌာန်</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal ဖုန်းခေါ်နေသည်</string>
-  <string name="NotificationBarManager__establishing_signal_call">Signal ဖုန်းခေါ်ဆိုမှုစတင်နေသည်</string>
-  <string name="NotificationBarManager__incoming_signal_call">Signal မှဖုန်းဝင်လာသည်</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">Signal ဖုန်းခေါ်ဆိုခြင်း ဝန်ဆောင်မှုကို ရပ်ဆိုင်းနေသည်</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Morse ဖုန်းခေါ်နေသည်</string>
+  <string name="NotificationBarManager__establishing_signal_call">Morse ဖုန်းခေါ်ဆိုမှုစတင်နေသည်</string>
+  <string name="NotificationBarManager__incoming_signal_call">Morse မှဖုန်းဝင်လာသည်</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">Morse ဖုန်းခေါ်ဆိုခြင်း ဝန်ဆောင်မှုကို ရပ်ဆိုင်းနေသည်</string>
   <string name="NotificationBarManager__answer_call">ဖုန်းကိုင်မည်</string>
   <string name="NotificationBarManager__end_call">ဖုန်းချမည်</string>
   <string name="NotificationBarManager__cancel_call">ဖုန်းခေါ်နေခြင်း ရပ်ဆိုင်းမည်</string>
@@ -795,8 +795,8 @@
   <string name="MediaSendActivity_message_to_s">%s သို့ မက်ဆေ့ချ်ပို့မယ်</string>
   <string name="MediaSendActivity_message">မက်ဆေ့ချ်</string>
   <string name="MediaSendActivity_select_recipients">လက်ခံသူများကိုရွေးပါ</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">မိမိ၏ အဆက်အသွယ်များကို ပြသရန် Signal မှ အဆက်အသွယ်များကို ရယူရန်လိုသည်။</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">မိမိ၏အဆက်အသွယ်များကို ပြသရန်အတွက် Signal မှ​ အဆက်အသွယ်များသုံးခွင့် လိုအပ်ပါသည်၊ သို့သော် ၎င်းသုံးခွင့်ကို အမြဲငြင်းဆိုထားပါသည်။ အပ္ပလီကေးရှင်း အပြင်အဆင်များသို့ ဆက်လက်သွားပြီး \"ခွင့်ပြုချက်များ\" ရွေးခါ \"အဆက်အသွယ်များ\" ကို ဖွင့်ပေးပါ။</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">မိမိ၏ အဆက်အသွယ်များကို ပြသရန် Morse မှ အဆက်အသွယ်များကို ရယူရန်လိုသည်။</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">မိမိ၏အဆက်အသွယ်များကို ပြသရန်အတွက် Morse မှ​ အဆက်အသွယ်များသုံးခွင့် လိုအပ်ပါသည်၊ သို့သော် ၎င်းသုံးခွင့်ကို အမြဲငြင်းဆိုထားပါသည်။ အပ္ပလီကေးရှင်း အပြင်အဆင်များသို့ ဆက်လက်သွားပြီး \"ခွင့်ပြုချက်များ\" ရွေးခါ \"အဆက်အသွယ်များ\" ကို ဖွင့်ပေးပါ။</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="other">သင်သည် အရာ %d ခုထက်ပို၍ မျှဝေလို့မရပါ။</item>
   </plurals>
@@ -808,7 +808,7 @@
   <!--MessageDecryptionUtil-->
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">မသိ</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ထပ်မံပံ့ပိုးမှုမရှိတော့သော Signal ဗားရှင်းအဟောင်းဖြင့် encrypt လုပ်ထားသော စာကိုလက်ခံရရှိသည်။ စာပို့သူအား signal နောက်ဆုံးဗားရှင်းကိုမြှင့်ပြီး စာအားပြန်ပို့ခုိင်းပါ။</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ထပ်မံပံ့ပိုးမှုမရှိတော့သော Morse ဗားရှင်းအဟောင်းဖြင့် encrypt လုပ်ထားသော စာကိုလက်ခံရရှိသည်။ စာပို့သူအား signal နောက်ဆုံးဗားရှင်းကိုမြှင့်ပြီး စာအားပြန်ပို့ခုိင်းပါ။</string>
   <string name="MessageRecord_left_group">အဖွဲ့မှ သင်ထွက်လိုက်သည်။</string>
   <string name="MessageRecord_you_updated_group">အဖွဲ့အား သင်ပြောင်းလဲမှုပြုလိုက်သည်။</string>
   <string name="MessageRecord_the_group_was_updated">အဖွဲ့အား အပ်ဒိတ်ပြီးပါပြီ</string>
@@ -817,7 +817,7 @@
   <string name="MessageRecord_missed_video_call_date">လွဲချော်ခဲ့သော ဗီဒီယိုခေါ်ဆိုမှု · %1$s</string>
   <string name="MessageRecord_s_updated_group">%s မှအဖွဲ့အား ပြောင်းလဲမှု လုပ်လိုက်သည်။</string>
   <string name="MessageRecord_s_called_you_date">%1$s မှ​ သင့်ထံ ခေါ်ဆိုခဲ့ပါသည် · %2$s</string>
-  <string name="MessageRecord_s_joined_signal">%s က Signal အသုံးပြုသည်!</string>
+  <string name="MessageRecord_s_joined_signal">%s က Morse အသုံးပြုသည်!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">မက်ဆေ့ချ်များ ဖျောက်ကွယ်ရန် ပိတ်ထားပါသည်။</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s မှ​ မက်ဆေ့ချ်များ ဖျောက်ကွယ်ရန် ပိတ်ထားပါသည်။</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">သင်သည် မက်ဆေ့ချ်များကို %1$s အတောအတွင်း ပျောက်ကွယ်သွားစေရန် သတ်မှတ်ထားပါသည်။</string>
@@ -1020,23 +1020,23 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">QR code မှားနေသည်။</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">သင့်ဖုန်းဖြင့် ချိတ်ဆက်ထားသော ဖုန်းများ များနေသည်။ အချို့ချိတ်ဆက်မှုများအား ဖယ်လိုက်ပါ။</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">ဝမ်းနည်းပါတယ်။ QR ကုဒ်မှားနေသည်။</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Signal အသုံးပြုသော ဖုန်းအားချိတ်မည်။</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">သင်သည် Signal သုံးသောဖုန်းအား 3rd party scanner ဖြင့်ချိတ်ဆက်အတည်ပြုနေပုံရသည်။ လုံခြုံမှုရှိစေရန် ကုဒ်အား Signal အတွင်းတွင်ပါသော scanner ဖြင့်ပြန်ဖတ်ပါ။</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">QR Code အားစစ်ဆေးနိုင်ရန် မိမိ ကင်မရာကို Signalမှ အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Morse အသုံးပြုသော ဖုန်းအားချိတ်မည်။</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">သင်သည် Morse သုံးသောဖုန်းအား 3rd party scanner ဖြင့်ချိတ်ဆက်အတည်ပြုနေပုံရသည်။ လုံခြုံမှုရှိစေရန် ကုဒ်အား Morse အတွင်းတွင်ပါသော scanner ဖြင့်ပြန်ဖတ်ပါ။</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">QR Code အားစစ်ဆေးနိုင်ရန် မိမိ ကင်မရာကို Morseမှ အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">ကင်မရာကို ခွင့်ပြုချက် မပေးထားဘဲ QR ကုတ်ကို စကန်ဖတ်၍ မရပါ</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">ယခု အပ်ဒိတ် လုပ်ပါ</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">၎င်း Signal ဗားရှင်းသည် ဒီနေ့ သက်တမ်းကုန်ပါလိမ့်မယ်။ နောက်ဆုံးဗားရှင်းသို့ အပ်ဒိတ်ပြုလုပ်ပါ။</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">၎င်း Morse ဗားရှင်းသည် ဒီနေ့ သက်တမ်းကုန်ပါလိမ့်မယ်။ နောက်ဆုံးဗားရှင်းသို့ အပ်ဒိတ်ပြုလုပ်ပါ။</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="other">၎င်း Signal ဗားရှင်းသည် %d ရက်အတွင်း သက်တမ်းကုန်ပါလိမ့်မယ်။ နောက်ဆုံးဗားရှင်းသို့ အပ်ဒိတ်ပြုလုပ်ပါ။</item>
+    <item quantity="other">၎င်း Morse ဗားရှင်းသည် %d ရက်အတွင်း သက်တမ်းကုန်ပါလိမ့်မယ်။ နောက်ဆုံးဗားရှင်းသို့ အပ်ဒိတ်ပြုလုပ်ပါ။</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">စကားဝှက် ထည့်ပါ။</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal ပုံသင်္ကေတ</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Morse ပုံသင်္ကေတ</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">စကားဝှက် တင်သွင်းပါ</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">စကားဝှက် မှားနေသည်</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Signal ကို ပြန်ဖွင့်ပါ</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - သော့ခတ် စကင်ရင်</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Morse ကို ပြန်ဖွင့်ပါ</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Morse Android - သော့ခတ် စကင်ရင်</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">မြေပုံ</string>
   <string name="PlacePickerActivity_drop_pin">ပင်ချမယ်</string>
@@ -1056,16 +1056,16 @@
   <plurals name="PinRestoreEntryFragment_you_have_d_attempt_remaining">
     <item quantity="other">သင့်တွင် ကြိုးစားရန် %1$d ကြိမ် ကျန်ရှိပါတော့သည်။ ကြိုးစားနိုင်ရန်အကြိမ် မရှိတော့လျှင် ပင်နံပါတ်အသစ်တစ်ခု ဖန်တီးနိုင်ပါသည်။ မှတ်ပုံစာရင်းသွင်း၍ သင့်အကောင့်ကို ပြန်သုံးနိုင်ပါသည်၊ သို့သော် သိမ်းဆည်းထားသော အချို့သောအပြင်အဆင်များ (ဥပမာ သင့်ပရိုဖိုင်း အချက်အလက်များ) ဆုံရှုံးပါမည်။</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal မှတ်ပုံတင်ခြင်း - Android ပေါ်တွင် ပင်နံပါတ်နှင့် ပါတ်သက်သော အကူအညီရယူလိုပါသည်</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Morse မှတ်ပုံတင်ခြင်း - Android ပေါ်တွင် ပင်နံပါတ်နှင့် ပါတ်သက်သော အကူအညီရယူလိုပါသည်</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">အက္ခရာနံပါတ်ပါ ပင်နံပါတ်ကို ရိုက်ထည့်ပါ</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">နံပါတ်ပါ ပင်နံပါတ်ကို ရိုက်ထည့်ပါ</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">သင်၏ပင်နံပါတ်ကိုဖန်တီးပါ</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">သင်မှ ပင်နံပါတ် မှန်းနိုင်သည့် အကြိမ်းပေါင်း ကုန်သွားပါပြီ၊ သို့သော် သင်သည် ပင်နံပါတ်အသစ် ဖန်တီး၍ သင့် Signal အကောင့်ကို ပြန်ရရှိနိုင်ပါသည်။​ သင့်ပုဂ္ဂိုလ်လုံခြုံရေးအတွက် မည်သည့် သိမ်းဆည်းထားသော ပရိုဖိုင်း အချက်အလက်နှင့် အပြင်အဆင်များ မပါဘဲ သင့်အကောင့်ကို ပြန်လည်ရယူပါမည်။</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">သင်မှ ပင်နံပါတ် မှန်းနိုင်သည့် အကြိမ်းပေါင်း ကုန်သွားပါပြီ၊ သို့သော် သင်သည် ပင်နံပါတ်အသစ် ဖန်တီး၍ သင့် Morse အကောင့်ကို ပြန်ရရှိနိုင်ပါသည်။​ သင့်ပုဂ္ဂိုလ်လုံခြုံရေးအတွက် မည်သည့် သိမ်းဆည်းထားသော ပရိုဖိုင်း အချက်အလက်နှင့် အပြင်အဆင်များ မပါဘဲ သင့်အကောင့်ကို ပြန်လည်ရယူပါမည်။</string>
   <string name="PinRestoreLockedFragment_create_new_pin">ပင်နံပါတ်အသစ်ဖန်တီးပါ</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">သတိပေးချက်</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">ပင်နံပါတ်ကို ပိတ်ထားလျှင် သင်မှ​ ကိုယ်တိုင် အရန်ပြုပြင်ထားခြင်းမရှိခဲ့လျှင် Signal ပေါ်ပြန်စာရင်းသွင်းသောအခါ ဒေတာအားလုံးကို ဆုံးရှူံးပါလိမ့်မည်။ ပင်နံပါတ်ကို ပိတ်ထားစဉ် မှတ်ပုံတင်ခြင်းသော့ကို သင်ဖွင့်၍ မရပါ။</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">ပင်နံပါတ်ကို ပိတ်ထားလျှင် သင်မှ​ ကိုယ်တိုင် အရန်ပြုပြင်ထားခြင်းမရှိခဲ့လျှင် Morse ပေါ်ပြန်စာရင်းသွင်းသောအခါ ဒေတာအားလုံးကို ဆုံးရှူံးပါလိမ့်မည်။ ပင်နံပါတ်ကို ပိတ်ထားစဉ် မှတ်ပုံတင်ခြင်းသော့ကို သင်ဖွင့်၍ မရပါ။</string>
   <string name="PinOptOutDialog_disable_pin">ပင်နံပါတ်ပိတ်ပါ</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">ဒီ app ကို အမှတ်ပေးပါ</string>
@@ -1099,11 +1099,11 @@
   <string name="RedPhone_got_it">ရပြီ</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">ဤနေရာတွင်နှိပ်၍ သင့်ဗီဒီယိုကို ဖွင့်ပါ</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$s သို့ ခေါ်ဆိုရန် Signal မှ သင့်ကင်မရာသုံးခွင့် လိုအပ်ပါသည်</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$s သို့ ခေါ်ဆိုရန် Morse မှ သင့်ကင်မရာသုံးခွင့် လိုအပ်ပါသည်</string>
+  <string name="WebRtcCallActivity__signal_s">Morse %1$s</string>
   <string name="WebRtcCallActivity__calling">ခေါ်ဆိုနေပါသည်…</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_call">Signal ခေါ်ဆိုမှု</string>
+  <string name="WebRtcCallView__signal_call">Morse ခေါ်ဆိုမှု</string>
   <string name="WebRtcCallView__start_call">စတင်ခေါ်ဆိုပါ</string>
   <string name="WebRtcCallView__join_call">ခေါ်ဆိုမှုထဲဝင်မယ်</string>
   <string name="WebRtcCallView__call_is_full">ခေါ်ဆိုမှုထဲ လူပြည့်နေပါပြီ</string>
@@ -1155,15 +1155,15 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">သင်၏ အထက်ပါဖုန်းနံပါတ် မှန်ကန်ပါသလား?</string>
   <string name="RegistrationActivity_edit_number">နံပါတ်ကို ပြင်မယ်</string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play မရှိပါ</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">သင့်ဖုန်းတွင် Google Play Services လိုအပ်နေပါသည်။ သင် Signal ကို အသုံးပြုနိုင်ပါတယ် 
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">သင့်ဖုန်းတွင် Google Play Services လိုအပ်နေပါသည်။ သင် Morse ကို အသုံးပြုနိုင်ပါတယ် 
 ဒီဖွဲ့စည်းပုံအကျိုးရလဒ်ကယုံကြည်ဖို့အတွက် ဒါမှမဟုတ် စွမ်းဆောင်ရည် ကောင်းဖို့အတွက်ဖြစ်နိုင်ပါတယ်။
-\n\n သင်က  ကျွမ်းကျင်အဆင့် မဟုတ်လျှင် Android Rom market ကို သွားရန် မလိုပါ။ သို့မဟုတ် အမှားတစ်ခုခုဟု ထင်ပါက ဖြေရှင်းပေးနိုင်ဖို့အတွက် support@signal.org သို့ ဆက်သွယ်ပေးပါ။</string>
+\n\n သင်က  ကျွမ်းကျင်အဆင့် မဟုတ်လျှင် Android Rom market ကို သွားရန် မလိုပါ။ သို့မဟုတ် အမှားတစ်ခုခုဟု ထင်ပါက ဖြေရှင်းပေးနိုင်ဖို့အတွက် support@devplusone.com သို့ ဆက်သွယ်ပေးပါ။</string>
   <string name="RegistrationActivity_i_understand">နားလည် လက်ခံပါသည်</string>
   <string name="RegistrationActivity_play_services_error">Google Play အသုံးပြု၍မရပါ</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Serivice ကို အဆင့်မြှင့်တင်နေခြင်း၊ သို့၊ အသုံးပြု၍ မရခြင်းဖြစ်နေပါသည်။ ပြန်လည် စမ်းသပ်ကြည့်ပါ။</string>
   <string name="RegistrationActivity_terms_and_privacy">လိုက်နာဆောင်ရွက်ရမည့် အချက်များ</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">မိမိ၏ မိတ်ဆွေများနှင့် အဆက်အသွယ်လုပ်ရန်၊ စာတိုများအပြန်အလှန်ပေးပို့ရန်၊ စိတ်ချလုံခြုံသော ဖုန်းခေါ်ဆိုမှုများ ပြုလုပ်နိုင်ရန် မိမိ၏ အဆက်အသွယ်များနှင့် ရုပ်/သံ/ပုံ ပါသော ဖိုင်များကို Signalမှ အသုံးပြုခွင့်ရရန် လိုအပ်သည်</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">မိမိ၏ မိတ်ဆွေများနှင့် အဆက်အသွယ်လုပ်ရန်၊ မက်ဆေ့ချ်များအပြန်အလှန်ပေးပို့ရန်၊ စိတ်ချလုံခြုံသော ဖုန်းခေါ်ဆိုမှုများ ပြုလုပ်နိုင်ရန် အဆက်အသွယ်များကို Signal မှ အသုံးပြုခွင့်ရရန် လိုအပ်သည်</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">မိမိ၏ မိတ်ဆွေများနှင့် အဆက်အသွယ်လုပ်ရန်၊ စာတိုများအပြန်အလှန်ပေးပို့ရန်၊ စိတ်ချလုံခြုံသော ဖုန်းခေါ်ဆိုမှုများ ပြုလုပ်နိုင်ရန် မိမိ၏ အဆက်အသွယ်များနှင့် ရုပ်/သံ/ပုံ ပါသော ဖိုင်များကို Morseမှ အသုံးပြုခွင့်ရရန် လိုအပ်သည်</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">မိမိ၏ မိတ်ဆွေများနှင့် အဆက်အသွယ်လုပ်ရန်၊ မက်ဆေ့ချ်များအပြန်အလှန်ပေးပို့ရန်၊ စိတ်ချလုံခြုံသော ဖုန်းခေါ်ဆိုမှုများ ပြုလုပ်နိုင်ရန် အဆက်အသွယ်များကို Morse မှ အသုံးပြုခွင့်ရရန် လိုအပ်သည်</string>
   <string name="RegistrationActivity_rate_limited_to_service">ဤနံပတ်ဖြင့် မှတ်ပုံတင်ခြင်းကို အကြိမ်ပေါင်းများစွာ ကြိုးစားပြီးပါပြီ။ ကျေးဇူးပြူ၍ နောင်အခါမှ ပြန်လည်ကြိုးစားပါ။</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">ဝန်ဆောင်မှုနှင့် ဆက်သွယ်၍ မရနိုင်ပါ။ အင်တာနက်ချိတ်ဆက်မှုအား နောက်တစ်ကြိမ် စစ်ဆေး၍ ပြန်လည်ကြိုးစားကြည့်ပါ။</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1184,7 +1184,7 @@
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">မှတ်ပုံတင်မှု ပိတ်ထားခြင်းကို အသုံးပြုမည်လား?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">မှတ်ပုံတင်မှု ပိတ်ထားခြင်းကို အသုံးမပြုမည်လား?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">အကယ်၍ သင်၏ Signal ပင်နံပါတ် ကို နောက်တစ်ကြိမ် မှတ်ပုံတင်သည့်အခါတွင် မေ့နေပါက သင်၏ အကောင့်ကို ၇ ရက် အသုံးပြုနိုင်မည်မဟုတ်ပါ။</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">အကယ်၍ သင်၏ Morse ပင်နံပါတ် ကို နောက်တစ်ကြိမ် မှတ်ပုံတင်သည့်အခါတွင် မေ့နေပါက သင်၏ အကောင့်ကို ၇ ရက် အသုံးပြုနိုင်မည်မဟုတ်ပါ။</string>
   <string name="RegistrationLockV2Dialog_turn_on">ဖွင့်မည်</string>
   <string name="RegistrationLockV2Dialog_turn_off">ပိတ်မည်</string>
   <!--RevealableMessageView-->
@@ -1200,15 +1200,15 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">အဆက်အသွယ်များထဲသို့ ထည့်မည်</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Signal သုံးဖို့ ဖိတ်ရန်</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal မက်ဆေ့ချ်</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal ခေါ်ဆိုမှု</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Morse သုံးဖို့ ဖိတ်ရန်</string>
+  <string name="SharedContactDetailsActivity_signal_message">Morse မက်ဆေ့ချ်</string>
+  <string name="SharedContactDetailsActivity_signal_call">Morse ခေါ်ဆိုမှု</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">အဆက်အသွယ်များထဲသို့ ထည့်မည်</string>
-  <string name="SharedContactView_invite_to_signal">Signal သုံးဖို့ ဖိတ်ရန်</string>
-  <string name="SharedContactView_message">Signal မက်ဆေ့ချ်</string>
-  <!--SignalBottomActionBar-->
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">Morse သုံးဖို့ ဖိတ်ရန်</string>
+  <string name="SharedContactView_message">Morse မက်ဆေ့ချ်</string>
+  <!--MorseBottomActionBar-->
+  <!--MorsePinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">နောက်မှ သင့်ကို ပြန်သတိပေးမည်။</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">မနက်ဖြန်မှ သင့်ကို ပြန်သတိပေးမည်။</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">ရက်အနည်းငယ်အတွင်း သင့်ကို ပြန်သတိပေးမည်။</string>
@@ -1228,14 +1228,14 @@
   <string name="SmsMessageRecord_secure_session_reset">သင်သည် လုံခြုံသောဆက်ရှင်များကို ပြန်ညှိလိုက်ပါသည်။</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s သည် လုံခြုံသောဆက်ရှင်ကို ပြန်ညှိလိုက်ပါသည်။</string>
   <string name="SmsMessageRecord_duplicate_message">ဆင်တူဖြစ်နေသောစာ</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">၎င်း မက်ဆေ့ချ်ကို Signal ၏ ပိုသစ်သောဗားရှင်းမှ ပို့ဆောင်ထား၍ လုပ်ဆောင်၍မရပါ။ သင်မှ အပ်ဒိတ်ပြုလုပ်ပြီးလျှင် သင်၏ အဆက်အသွယ်ကို ၎င်းမက်ဆေ့ချ် ပြန်ပို့ပေးရန် တောင်းဆိုနိုင်ပါသည်။</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">၎င်း မက်ဆေ့ချ်ကို Morse ၏ ပိုသစ်သောဗားရှင်းမှ ပို့ဆောင်ထား၍ လုပ်ဆောင်၍မရပါ။ သင်မှ အပ်ဒိတ်ပြုလုပ်ပြီးလျှင် သင်၏ အဆက်အသွယ်ကို ၎င်းမက်ဆေ့ချ် ပြန်ပို့ပေးရန် တောင်းဆိုနိုင်ပါသည်။</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">အဝင်မက်ဆေ့ချ်ကို ကိုယ်တွယ်နေစဥ် မှားယွင်းချက်ဖြစ်ခဲ့သည်။</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">စတစ်ကာများ </string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">ထည့်သွင်းစတစ်ကာများ</string>
   <string name="StickerManagementAdapter_stickers_you_received">သင်ရရှိသောစတစ်ကာများ</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signal အနုပညာရှင် စီးရီးများ</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Morse အနုပညာရှင် စီးရီးများ</string>
   <string name="StickerManagementAdapter_no_stickers_installed">စတစ်ကာများ မတပ်ဆင်ထားပါ</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">အဝင်မက်ဆေ့ခ်ျများမှ စတစ်ကာများသည် ၎င်းနေရာတွင် ပေါ်ပါမည်</string>
   <string name="StickerManagementAdapter_untitled">ခေါင်းစဉ်မဲ့</string>
@@ -1260,8 +1260,8 @@
   <string name="SupportEmailUtil_filter">စီစစ်ခြင်း -</string>
   <string name="SupportEmailUtil_device_info">ကိရိယာအချက်အလက် -</string>
   <string name="SupportEmailUtil_android_version">Android ဗားရှင်း -</string>
-  <string name="SupportEmailUtil_signal_version">Signal ဗားရှင်း -</string>
-  <string name="SupportEmailUtil_signal_package">Signal ပက်ကေ့ချ် -</string>
+  <string name="SupportEmailUtil_signal_version">Morse ဗားရှင်း -</string>
+  <string name="SupportEmailUtil_signal_package">Morse ပက်ကေ့ချ် -</string>
   <string name="SupportEmailUtil_registration_lock">မှတ်ပုံတင်မှု သော့ပိတ်ထားခြင်း -</string>
   <string name="SupportEmailUtil_locale">Locale -</string>
   <!--ThreadRecord-->
@@ -1280,7 +1280,7 @@
   <string name="ThreadRecord_view_once_media">တစ်ခါကြည့် မီဒီယာ</string>
   <string name="ThreadRecord_this_message_was_deleted">၎င်းမက်ဆေ့ချ်ကို ဖျက်ခဲ့ပါသည်။</string>
   <string name="ThreadRecord_you_deleted_this_message">သင်သည် ဤမက်ဆေ့ချ်ကို ဖျက်လိုက်ပါပြီ။</string>
-  <string name="ThreadRecord_s_is_on_signal">%s က Signal တွင်ရှိသည်!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s က Morse တွင်ရှိသည်!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">မက်ဆေ့ချ်များ ပျောက်ကွယ်ခြင်းကို ပိတ်ထားပါသည်</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">စာများသည် %s အတွင်းပျောက်သွားရန် ချိန်ညှိထားသည်။</string>
   <string name="ThreadRecord_safety_number_changed">လုံခြုံရေးနံပါတ် ပြောင်းလဲသွားသည်</string>
@@ -1296,8 +1296,8 @@
   <string name="ThreadRecord_video">ဗီဒီယို</string>
   <string name="ThreadRecord_chat_session_refreshed">စကားပြောဆိုမှု အချိန်ပိုင်း ပြန်စတင်ခဲ့ပါသည်</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal ဗားရှင်းအသစ်</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Signal ဗားရှင်းအသစ်ရပါပြီ၊ အဆင့်မြှင့်ရန် နှိပ်လိုက်ပါ</string>
+  <string name="UpdateApkReadyListener_Signal_update">Morse ဗားရှင်းအသစ်</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Morse ဗားရှင်းအသစ်ရပါပြီ၊ အဆင့်မြှင့်ရန် နှိပ်လိုက်ပါ</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">စာပို့မလား?</string>
   <string name="UntrustedSendDialog_send">ပို့ပါ</string>
@@ -1316,19 +1316,19 @@
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">အသုံးပြုသူအမည်များသည်ည် နံပါတ်နှင့် စတင်၍ မရပါ။</string>
   <string name="UsernameEditFragment_username_is_invalid">အသုံးပြုသူအမည် မမှန်ကန်ပါ</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">အသုံးပြုသူအမည်များသည် %1$d နှင့် %2$d ကြား အက္ခရာလုံး အရေတွက်ရှိရပါမည် ။</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Signal ပေါ်တွင် အသုံးပြုသူအမည်များသည် မဖြစ်မနေ သတ်မှတ်ရမည်မဟုတ်ပါ။ သင်မှ​ အသုံးပြုသူအမည်ကို ဖန်တီးရန်ရွေးချယ်ပါက အခြား Signal အသုံးပြုသူများသည် သင့်ကို သင်၏ဖုန်းနံပါတ်မသိဘဲ သင်၏ အသုံးပြုသူအမည်သုံး၍ သင့်ကို ရှာဖွေနိုင်ပါသည်။</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Morse ပေါ်တွင် အသုံးပြုသူအမည်များသည် မဖြစ်မနေ သတ်မှတ်ရမည်မဟုတ်ပါ။ သင်မှ​ အသုံးပြုသူအမည်ကို ဖန်တီးရန်ရွေးချယ်ပါက အခြား Morse အသုံးပြုသူများသည် သင့်ကို သင်၏ဖုန်းနံပါတ်မသိဘဲ သင်၏ အသုံးပြုသူအမည်သုံး၍ သင့်ကို ရှာဖွေနိုင်ပါသည်။</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="other">အဆက်အသွယ် %d ဦးသည် Signal ပေါ်ရှိပါသည်!</item>
+    <item quantity="other">အဆက်အသွယ် %d ဦးသည် Morse ပေါ်ရှိပါသည်!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">သင့်မိတ်ဆွေသည် signal ဗားရှင်းအဟောင်းအသုံးပြုထားပါသည်။ လုံခြုံရေးနံပါတ်များ အတည်မပြုခင် Signal ဗားရှင်းအား မြှင့်တင်ခိုင်းလိုက်ပါ။</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">သင့်မိတ်ဆွေသည်  Signal ဗားရှင်းအသစ်နှင့် သင်နှင့်လိုက်လျောညီထွေမရှိသည့် QR code ပုံစံကိုအသုံးပြုထားပါသည်။ နှိုင်းယှဉ်စစ်ဆေးရန် အဆင့်မြှင့်ပါ။</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">သင့်မိတ်ဆွေသည် signal ဗားရှင်းအဟောင်းအသုံးပြုထားပါသည်။ လုံခြုံရေးနံပါတ်များ အတည်မပြုခင် Morse ဗားရှင်းအား မြှင့်တင်ခိုင်းလိုက်ပါ။</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">သင့်မိတ်ဆွေသည်  Morse ဗားရှင်းအသစ်နှင့် သင်နှင့်လိုက်လျောညီထွေမရှိသည့် QR code ပုံစံကိုအသုံးပြုထားပါသည်။ နှိုင်းယှဉ်စစ်ဆေးရန် အဆင့်မြှင့်ပါ။</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">စကန်ဖတ်ထားသော QR ကုဒ်သည် မှန်ကန်သော လုံခြုံရေးနံပါတ်ပုံစံမဟုတ်သဖြင့် ထပ်မံ စကန်ဖတ်လိုက်ပါ။</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">… မှတဆင့် လုံခြုံရေးနံပါတ်ကို မျှဝေမယ်</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">တို့တွေရဲ့ Signal လုံခြုံရေးနံပါတ်:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">တို့တွေရဲ့ Morse လုံခြုံရေးနံပါတ်:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">သင့်မှာမျှဝေစရာ app များရှိပုံမရပါ။</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">ကလစ်ဘုတ် တွင်တိုက်ကြည့်စရာ လုံခြုံရေးနံပါတ်များ မရှိပါ</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">QR Code အားစစ်ဆေးနိုင်ရန် မိမိ ကင်မရာကို Signalမှ အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">QR Code အားစစ်ဆေးနိုင်ရန် မိမိ ကင်မရာကို Morseမှ အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">ကင်မရာကို ခွင့်ပြုချက် မပေးထားဘဲ QR ကုတ်ကို စကန်ဖတ်၍ မရပါ</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">%1$s ၏ လုံခြုံရေးနံပါတ်ကို ကြည်ရှုရန် သင်မှအရင် မက်ဆေ့ချ်များကို ပေးပို့လက်ခံ ရပါမည်။</string>
   <!--ViewOnceMessageActivity-->
@@ -1347,13 +1347,13 @@
   <string name="ApplicationMigrationService_system_database_import_is_complete">System ဒေတာဘေစ့်ကိုသွင်းယူခြင်း ပြီးဆုံးပါပြီ။</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">ဖွင့်ရန် နှိပ်ပါ။</string>
-  <string name="KeyCachingService_passphrase_cached">Signal ကိုဖွင့်လိုက်ပါပြီ</string>
-  <string name="KeyCachingService_lock">Lock Signal</string>
+  <string name="KeyCachingService_passphrase_cached">Morse ကိုဖွင့်လိုက်ပါပြီ</string>
+  <string name="KeyCachingService_lock">Lock Morse</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">သင်</string>
   <string name="MediaPreviewActivity_unssuported_media_type">ပံ့ပိုးမှုမပြုနိုင်သော ရုပ်၊သံ၊ပုံ ဖိုင်များ</string>
   <string name="MediaPreviewActivity_draft">မူကြမ်း</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">သင်၏ ပြင်ပသိုလှောင်ရာနေရာတွင် သိမ်းရန် သိုလှောင်မှုခွင့်ပြုချက်အား Signal ကို ပေးရန်လိုအပ်ပါသည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ သိုလှောင်မှုခွင့်ပြုချက်ကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">သင်၏ ပြင်ပသိုလှောင်ရာနေရာတွင် သိမ်းရန် သိုလှောင်မှုခွင့်ပြုချက်အား Morse ကို ပေးရန်လိုအပ်ပါသည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ သိုလှောင်မှုခွင့်ပြုချက်ကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ခွင့်ပြုချက်မပေးထားပါက အပြင်ဘက်တွင် သိမ်းဆည်း၍မရပါ</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">စာကို ဖျက်မှှှှှှှာလား? </string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">ဤစာများကို အပြီးတိုင်ဖျက်မည်။  </string>
@@ -1373,10 +1373,10 @@
   <string name="MessageNotifier_view_once_photo">တစ်ခါကြည့် ဓါတ်ပုံ</string>
   <string name="MessageNotifier_view_once_video">တစ်ခါကြည့် ဗီဒီယို</string>
   <string name="MessageNotifier_reply">အကြောင်းပြန်မည်</string>
-  <string name="MessageNotifier_signal_message">Signal မက်ဆေ့ချ်</string>
+  <string name="MessageNotifier_signal_message">Morse မက်ဆေ့ချ်</string>
   <string name="MessageNotifier_unsecured_sms">မလုံခြုံသော SMS</string>
   <string name="MessageNotifier_you_may_have_new_messages">သင့်တွင် မက်ဆေ့ချ်အသစ်များ ရောက်ရှိနေပါသည်</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">လတ်တလော သတိပေးချက်များ ကိုစစ်ဆေးရန် Signal ကိုဖွင့်ပါ။</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">လတ်တလော သတိပေးချက်များ ကိုစစ်ဆေးရန် Morse ကိုဖွင့်ပါ။</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">အဆက်အသွယ်</string>
   <string name="MessageNotifier_reacted_s_to_s">\"%2$s\" သို့ %1$s ဖြင့် တုံ့ပြန်ခဲ့ပါသည်။</string>
@@ -1387,7 +1387,7 @@
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">သင့် တစ်ခါကြည့် မီဒီယာ သို့ %1$s ဖြင့် တုံ့ပြန်ခဲ့ပါသည်။</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">သင့် စတစ်ကာ သို့ %1$s ဖြင့် တုံ့ပြန်ခဲ့ပါသည်။</string>
   <string name="MessageNotifier_this_message_was_deleted">၎င်းမက်ဆေ့ချ်ကို ဖျက်ပြီးပါပြီ။</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">အဆက်အသွယ်မှ​ Signal သို့ ဝင်ရောက်သည်ဆိုသည့် အသိပေးချက်များကို ပိတ်မည်လား? Signal &gt; အပြင်အဆင်များ &gt; အသိပေးချက်များ ထဲဝင်၍ ၎င်းအသိပေးချက်များကို ဖွင့်လို့ရပါသည်။</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">အဆက်အသွယ်မှ​ Morse သို့ ဝင်ရောက်သည်ဆိုသည့် အသိပေးချက်များကို ပိတ်မည်လား? Morse &gt; အပြင်အဆင်များ &gt; အသိပေးချက်များ ထဲဝင်၍ ၎င်းအသိပေးချက်များကို ဖွင့်လို့ရပါသည်။</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">မက်ဆေ့ချ်များ</string>
   <string name="NotificationChannel_calls">ဖုန်းခေါ်ဆိုမှုများ</string>
@@ -1399,11 +1399,11 @@
   <string name="NotificationChannel_group_chats">စကားပြောဆိုမှုများ</string>
   <string name="NotificationChannel_missing_display_name">မသိ</string>
   <string name="NotificationChannel_voice_notes">အသံမှတ်စုများ</string>
-  <string name="NotificationChannel_contact_joined_signal">အဆက်အသွယ်သည် Signal ပေါ်တက်ရောက်လာပါပြီ</string>
+  <string name="NotificationChannel_contact_joined_signal">အဆက်အသွယ်သည် Morse ပေါ်တက်ရောက်လာပါပြီ</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">အသိပေးချက်လိုင်း၏ အပြင်အဆင်များကို ဖွင့်ရန် လှုပ်ရှားမှုမရှိပါ။</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Signal လော့ခ်ကျသွားသည့်အခါ ချက်ချင်းမတုံ့ပြန်နိုင်ပါ!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Morse လော့ခ်ကျသွားသည့်အခါ ချက်ချင်းမတုံ့ပြန်နိုင်ပါ!</string>
   <string name="QuickResponseService_problem_sending_message">စာပို့ခြင်းအခက်အခဲ</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">%s တွင် သိမ်းဆည်းပြီးပါပြီ</string>
@@ -1414,7 +1414,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">မမှန်ကန်သောဖြတ်လမ်း</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Morse</string>
   <string name="SingleRecipientNotificationBuilder_new_message">စာအသစ်</string>
   <string name="SingleRecipientNotificationBuilder_message_request">မက်ဆေ့ပို့ရန် တောင်းဆိုချက်</string>
   <string name="SingleRecipientNotificationBuilder_you">သင်</string>
@@ -1427,10 +1427,10 @@
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">ယခုဖုန်းမှာ မှတ်ပုံတင်ထားခြင်း မရှိတော့ပါ</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">ဤကဲ့သို့ ဖြစ်ရခြင်းမှာ Signal အား မိမိဖုန်းနံပါတ်နှင့် အခြားဖုန်းတစ်ခုတွင် မှတ်ပုံတင်ခဲ့ခြင်းကြောင့်ဖြစ်သည်။ Re-register ကို နှိပ်၍ မှတ်ပုံတင်ခြင်း ပြန်လည်ပြုလုပ်ပါ။ </string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">ဤကဲ့သို့ ဖြစ်ရခြင်းမှာ Morse အား မိမိဖုန်းနံပါတ်နှင့် အခြားဖုန်းတစ်ခုတွင် မှတ်ပုံတင်ခဲ့ခြင်းကြောင့်ဖြစ်သည်။ Re-register ကို နှိပ်၍ မှတ်ပုံတင်ခြင်း ပြန်လည်ပြုလုပ်ပါ။ </string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%sမှ ဖုန်းကိုဖြေဆိုရန် Signal အား မိုက်ခရိုဖုန်းအသုံးပြုခွင့်ပေးပါ။</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">ဖုန်းခေါ်ဆိုမှုပြုနိုင်ရန် Signalမှ မိုက်ခရိုဖုန်း နှင့် ကင်မရာအား အသုံးပြုခွင့် ရရန်လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ မိုက်ခရိုဖုန်း နှင့် ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%sမှ ဖုန်းကိုဖြေဆိုရန် Morse အား မိုက်ခရိုဖုန်းအသုံးပြုခွင့်ပေးပါ။</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">ဖုန်းခေါ်ဆိုမှုပြုနိုင်ရန် Morseမှ မိုက်ခရိုဖုန်း နှင့် ကင်မရာအား အသုံးပြုခွင့် ရရန်လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ မိုက်ခရိုဖုန်း နှင့် ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">ချိတ်ဆက်ထားသော စက်ပေါ်တွင် ဖြေဆိုခဲ့ပါသည်။</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">ချိတ်ဆက်ထားသော စက်ပေါ်တွင် ငြင်းဆိုခဲ့ပါသည်။</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">ချိတ်ဆက်ထားသော စက်ပေါ်တွင် မအားပါ။</string>
@@ -1454,7 +1454,7 @@
   <string name="change_passphrase_activity__repeat_new_passphrase">စကားဝှက်အသစ်ကိုထပ်ထည့်ပါ</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">နာမည် သို့မဟုတ် နံပါတ်ထည့်ပါ</string>
-  <string name="contact_selection_activity__invite_to_signal">Signal သို့ ဖိတ်ခေါ်မည်</string>
+  <string name="contact_selection_activity__invite_to_signal">Morse သို့ ဖိတ်ခေါ်မည်</string>
   <string name="contact_selection_activity__new_group">အဖွဲ့သစ်</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">ထည့်သွင်းထားသော စာသားကိုရှင်းမယ်</string>
@@ -1466,28 +1466,28 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">လိပ်စာတွင်ထည့်ရန်ဓာတ်ပုံ</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">အဆက်အသွယ်များ၏ အချက်အလက်များကို ပို့နိုင်ရန် Signalမှ အဆက်အသွယ်များအား အသုံးပြုခွင့် ရရန်လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ အဆက်အသွယ်များကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">အဆက်အသွယ်များ၏ အချက်အလက်များကို ပို့နိုင်ရန် Morseမှ အဆက်အသွယ်များအား အသုံးပြုခွင့် ရရန်လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ အဆက်အသွယ်များကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">သင့်မိတ်ဆွေများစာရင်းများကို ပြန်လည်ထုတ်ယူ၍မရရှိနိုင်ပါ။
 သင့်၏ အင်တာနက်ကွန်ယက်ကို ပြန်လည်စစ်ဆေးပါ။</string>
   <string name="ContactSelectionListFragment_username_not_found">အသုံးပြုသူအမည်မတွေ့ပါ</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" သည် Signal သုံးသူမဟုတ်ပါ။​ သုံးသူအမည်ကို အပြည့်အဝ မှန်ကန်စွာ ဖြည့်ထားရန် သေချာစေပါ။</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" သည် Morse သုံးသူမဟုတ်ပါ။​ သုံးသူအမည်ကို အပြည့်အဝ မှန်ကန်စွာ ဖြည့်ထားရန် သေချာစေပါ။</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">သင်ကိုယ်တိုင် အဖွဲ့ထဲထည့်ရန် မလိုအပ်ပါ</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">အများဆုံးဆံ့နိုင်သော အဖွဲ့ဝင် အရေအတွက် ပြည့်ပါပြီ</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal အဖွဲ့များထဲတွင် အဖွဲ့ဝင် အများဆုံး %1$d ဦးဆံ့ပါသည်။</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Morse အဖွဲ့များထဲတွင် အဖွဲ့ဝင် အများဆုံး %1$d ဦးဆံ့ပါသည်။</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">အကြံပြုထားသော အဖွဲ့ဝင် အရေအတွက် အကန့်သတ် ပြည့်ပါပြီ</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal အဖွဲ့များသည် အဖွဲ့ဝင် %1$d ဦးထက် နည်းလျှင် အကောင်းဆုံး လုပ်ဆောင်နိုင်ပါသည်။​ ဒီထက်ပို၍ အဖွဲ့ဝင်များပေါင်းမိခဲ့လျှင် မက်ဆေ့ချ်များ ပေးပို့လက်ခံရာတွင် နှောင့်နှေးစေပါသည်။</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Morse အဖွဲ့များသည် အဖွဲ့ဝင် %1$d ဦးထက် နည်းလျှင် အကောင်းဆုံး လုပ်ဆောင်နိုင်ပါသည်။​ ဒီထက်ပို၍ အဖွဲ့ဝင်များပေါင်းမိခဲ့လျှင် မက်ဆေ့ချ်များ ပေးပို့လက်ခံရာတွင် နှောင့်နှေးစေပါသည်။</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="other">%1$dအဖွဲ့ဝင်များ</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">မိမိ၏ အဆက်အသွယ်များကို ပြသရန် Signal က အဆက်အသွယ်များကို ရယူရန်လိုသည်။</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">မိမိ၏ အဆက်အသွယ်များကို ပြသရန် Morse က အဆက်အသွယ်များကို ရယူရန်လိုသည်။</string>
   <string name="contact_selection_list_fragment__show_contacts">အဆက်အသွယ်များကို ပြသပါ။</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
     <item quantity="other">%1$dအဖွဲ့ဝင်များ</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal မက်ဆေ့ချ်</string>
+  <string name="conversation_activity__type_message_push">Morse မက်ဆေ့ချ်</string>
   <string name="conversation_activity__type_message_sms_insecure">မလုံခြုံသော SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">မလုံခြုံသော MMS</string>
   <string name="conversation_activity__from_sim_name">%1$s မှ</string>
@@ -1499,7 +1499,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">ကင်မရာပူးတွဲဖိုင်စီစဉ်ခြင်း နှိပ်ရန် </string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">အသံဖမ်းပြီး ပေးပို့လိုက်ပါ</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">အသံဖိုင်တွဲ၏ အသံသွင်းချက်ကို လော့ခ်ချပါ</string>
-  <string name="conversation_activity__enable_signal_for_sms">Signal မှာ SMS ပို့လို့ရပါပြီ</string>
+  <string name="conversation_activity__enable_signal_for_sms">Morse မှာ SMS ပို့လို့ရပါပြီ</string>
   <string name="conversation_activity__message_could_not_be_sent">မက်ဆေ့ချ်ပို့ လို့မရပါ။ သင်၏ အင်တာနက်လိုင်းကို စစ်၍ ပြန်စမ်းကြည့်ပါ။</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">ပယ်ဖျက်ရန် ဆွဲချပါ</string>
@@ -1601,9 +1601,9 @@
   <string name="IdentityUtil_unverified_banner_one">%sဖြင့်စိတ်ချရသောနံပါတ်ပြောင်းလဲသွားပြီး ထပ်မံအတည်မပြုရသေးပါ။</string>
   <string name="IdentityUtil_unverified_banner_two">%1$sနှင့်%2$sတို့ဖြင့်စိတ်ချရသောနံပါတ်ပြောင်းလဲသွားပြီး ထပ်မံအတည်မပြုရသေးပါ။</string>
   <string name="IdentityUtil_unverified_banner_many">%1$s၊ %2$s နှင့် %3$s တို့ဖြင့်စိတ်ချရသော နံပါတ်ပြောင်းလဲသွားပြီး ထပ်မံအတည်မပြုရသေးပါ။</string>
-  <string name="IdentityUtil_unverified_dialog_one">%1$s ဖြင့်စိတ်ချရသော ဖုန်းနံပါတ်ပြောင်းလဲသွားပြီး ထပ်မံအတည်မပြုရသေးပါ။ တစ်စုံတယောက်က သင့်ဆက်သွယ်မှုကိုကြားဖြတ်ခြင်းကြောင့် သို့မဟုတ် %1$sက Signal ကိုဖြုတ်လိုက်ခြင်းကြောင့်ဖြစ်နိုင်သည်။ </string>
-  <string name="IdentityUtil_unverified_dialog_two">%1$sနှင့်%2$sတို့ဖြင့်စိတ်ချရသော ဖုန်းနံပါတ်ပြောင်းလဲသွားပြီး ထပ်မံအတည်မပြုရသေးပါ။ တစ်စုံတယောက်က သင့်ဆက်သွယ်မှုကိုကြားဖြတ်ခြင်းကြောင့် သို့မဟုတ် သူတို့ကိုယ်တိုင်က Signal ကိုဖြုတ်လိုက်ခြင်းကြောင့်ဖြစ်နိုင်သည်။ </string>
-  <string name="IdentityUtil_unverified_dialog_many">%1$s၊ %2$s နှင့် %3$sတို့ဖြင့်စိတ်ချရသော ဖုန်းနံပါတ်ပြောင်းလဲသွားပြီး ထပ်မံအတည်မပြုရသေးပါ။ တစ်စုံတယောက်က သင့်ဆက်သွယ်မှုကိုကြားဖြတ်ခြင်းကြောင့် သို့မဟုတ် သူတို့ကိုယ်တိုင်က Signal ကိုဖြုတ်လိုက်ခြင်းကြောင့်ဖြစ်နိုင်သည်။</string>
+  <string name="IdentityUtil_unverified_dialog_one">%1$s ဖြင့်စိတ်ချရသော ဖုန်းနံပါတ်ပြောင်းလဲသွားပြီး ထပ်မံအတည်မပြုရသေးပါ။ တစ်စုံတယောက်က သင့်ဆက်သွယ်မှုကိုကြားဖြတ်ခြင်းကြောင့် သို့မဟုတ် %1$sက Morse ကိုဖြုတ်လိုက်ခြင်းကြောင့်ဖြစ်နိုင်သည်။ </string>
+  <string name="IdentityUtil_unverified_dialog_two">%1$sနှင့်%2$sတို့ဖြင့်စိတ်ချရသော ဖုန်းနံပါတ်ပြောင်းလဲသွားပြီး ထပ်မံအတည်မပြုရသေးပါ။ တစ်စုံတယောက်က သင့်ဆက်သွယ်မှုကိုကြားဖြတ်ခြင်းကြောင့် သို့မဟုတ် သူတို့ကိုယ်တိုင်က Morse ကိုဖြုတ်လိုက်ခြင်းကြောင့်ဖြစ်နိုင်သည်။ </string>
+  <string name="IdentityUtil_unverified_dialog_many">%1$s၊ %2$s နှင့် %3$sတို့ဖြင့်စိတ်ချရသော ဖုန်းနံပါတ်ပြောင်းလဲသွားပြီး ထပ်မံအတည်မပြုရသေးပါ။ တစ်စုံတယောက်က သင့်ဆက်သွယ်မှုကိုကြားဖြတ်ခြင်းကြောင့် သို့မဟုတ် သူတို့ကိုယ်တိုင်က Morse ကိုဖြုတ်လိုက်ခြင်းကြောင့်ဖြစ်နိုင်သည်။</string>
   <string name="IdentityUtil_untrusted_dialog_one">%sဖြင့်စိတ်ချရသော ဖုန်းနံပါတ်ပြောင်းလဲသွားသည်။</string>
   <string name="IdentityUtil_untrusted_dialog_two">%1$sနှင့်%2$sတို့ဖြင့်စိတ်ချရသော ဖုန်းနံပါတ်ပြောင်းလဲသွားသည်။</string>
   <string name="IdentityUtil_untrusted_dialog_many">%1$s၊ %2$s နှင့် %3$sတို့ဖြင့်စိတ်ချရသော ဖုန်းနံပါတ်ပြောင်းလဲသွားသည်။</string>
@@ -1615,7 +1615,7 @@
   <!--giphy_fragment-->
   <string name="giphy_fragment__nothing_found">ဘာမှ မတွေ့ဘူး</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">သင်၏စာသားသတင်းစကားများကို Signal ၏encrypt အချက်အလက်အဖြစ်ကူးပြောင်းချင်ပါသလား?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">သင်၏စာသားသတင်းစကားများကို Morse ၏encrypt အချက်အလက်အဖြစ်ကူးပြောင်းချင်ပါသလား?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">မူလဒေတာဘေ့စ်စနစ်ကို ပြောင်းလဲမည် မဟုတ်ပါ။</string>
   <string name="database_migration_activity__skip">ကျော်ပါ။</string>
   <string name="database_migration_activity__import">သွင်းယူသည်။</string>
@@ -1637,7 +1637,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">ဖွင့်ပါ။</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal သည် MMS အပြင်အဆင်ကို သင့်ဖုန်းမှတစ်ဆင့် မီဒီယာနှင့် အဖွဲ့သတင်းစကားများကိုပေးပို့နိုင်အောင်လုပ်ထားရန်လိုအပ်သည်။ ယင်းသို့ပြုလုပ်နိုင်ခြင်းသည် လော့ပိတ်ထားသော ဖုန်းများနှင့် အခြားသော ကန့်သတ်ဒီဇိုင်းပုံစံများအတွက်ပါအကြုံးဝင်သဖြင့် သင့်ဖုန်းကအထူးတလည် မဖော်ပြပါ။ </string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Morse သည် MMS အပြင်အဆင်ကို သင့်ဖုန်းမှတစ်ဆင့် မီဒီယာနှင့် အဖွဲ့သတင်းစကားများကိုပေးပို့နိုင်အောင်လုပ်ထားရန်လိုအပ်သည်။ ယင်းသို့ပြုလုပ်နိုင်ခြင်းသည် လော့ပိတ်ထားသော ဖုန်းများနှင့် အခြားသော ကန့်သတ်ဒီဇိုင်းပုံစံများအတွက်ပါအကြုံးဝင်သဖြင့် သင့်ဖုန်းကအထူးတလည် မဖော်ပြပါ။ </string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">ရုပ်၊သံ၊ပုံ နှင့်စာများပို့ရန် \'အိုခေ\' နှိပ်ပြီးပြောင်းလိုသော ပြင်ဆင်ချက်များပြုလုပ်ပါ။ ကိုယ်အသုံးပြုသော အော်ပရေတာ၏ MMS ပြင်ဆင်ချက်များကို \'your carrier APN\'  ဟုရေးပြီးရှာဖွေနိုင်ပါသည်။ ယခုပြင်ဆင်ချက်ကို တစ်ကြိမ်တည်းလုပ်ရန်လိုပါသည်။</string>
   <!--BadDecryptLearnMoreDialog-->
   <!--profile_create_activity-->
@@ -1719,7 +1719,7 @@
   <string name="HelpFragment__how_do_you_feel">သင်ဘယ်လိုခံစားရပါသလဲ? (မဖြစ်မနေ ဖြေစရာမလိုပါ)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">ကျွန်ုပ်တို့အား အဘယ်ကြောင့် ဆက်သွယ်လဲသိပါရစေ။</string>
   <string name="HelpFragment__support_info">ပံ့ပိုးမှု အချက်အလက်များ</string>
-  <string name="HelpFragment__signal_android_support_request">Signal Android ပံ့ပိုးရန် တောင်းဆိုမှု</string>
+  <string name="HelpFragment__signal_android_support_request">Morse Android ပံ့ပိုးရန် တောင်းဆိုမှု</string>
   <string name="HelpFragment__debug_log">ပျက်ကွက်မှုဖြေရှင်းသည့် မှတ်တမ်းစာ -</string>
   <string name="HelpFragment__could_not_upload_logs">မှတ်တမ်းများ မတင်သွင်းနိုင်ပါ</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">ကျွနှ်ပ်တို့နားလည်နိုင်ရန် ကိစ္စအကြောင်းကို တတ်နိုင်သမျှ ဖေါ်ပြပေးပါ။</string>
@@ -1769,8 +1769,8 @@
   <string name="preferences__sms_mms">SMS နှင့် MMS</string>
   <string name="preferences__pref_all_sms_title">စာတိုများအားလုံးကို လက်ခံပါ။</string>
   <string name="preferences__pref_all_mms_title">MMS အားလုံးကို လက်ခံပါ။</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">နောက်ဝင်လာမယ့် စာတွေအားလုံးအတွက် Signal ကို သုံးမယ်။</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">နောက်ဝင်လာမယ့်  ရုပ်၊ သံ၊ ပုံပါစာတွေ အားလုံးအတွက် Signal ကို သုံးမယ်။</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">နောက်ဝင်လာမယ့် စာတွေအားလုံးအတွက် Morse ကို သုံးမယ်။</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">နောက်ဝင်လာမယ့်  ရုပ်၊ သံ၊ ပုံပါစာတွေ အားလုံးအတွက် Morse ကို သုံးမယ်။</string>
   <string name="preferences__pref_enter_sends_title">ထည့်ထားတဲ့ ကီးပို့ပါ</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">စာပို့ရန်အတွက် Enter ကို နှိပ်ခြင်း</string>
   <string name="preferences__pref_use_address_book_photos">လိပ်စာစာအုပ်ဓာတ်ပုံများကို သုံးပါ</string>
@@ -1785,7 +1785,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">ဖုန်းမျက်နှာပြင်နှင့် အသိပေးချက်များကို စကားဝှက်နှင့် ပိတ်ပါ</string>
   <string name="preferences__screen_security">အဖွင့်စာမျက်နှာ လုံခြုံရေး</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">မကြာသေးမီ စာရင်းနှင့် app အတွင်း Screenshot များကို တားမြစ်ပါ</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">အချိန်အတိုင်းအတာတစ်ခု အကြာ လှုပ်ရှားမှုမရှိတော့သည့် ကြားချိန်တွင် Signal ကို အလိုအလျောက် ပိတ်ချပါ</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">အချိန်အတိုင်းအတာတစ်ခု အကြာ လှုပ်ရှားမှုမရှိတော့သည့် ကြားချိန်တွင် Morse ကို အလိုအလျောက် ပိတ်ချပါ</string>
   <string name="preferences__inactivity_timeout_passphrase">လှုပ်ရှားမှုမရှိခြင်းကြာသွားသည့်အတွက် စကားဝှက်</string>
   <string name="preferences__inactivity_timeout_interval">လှုပ်ရှားမှုမရှိခြင်းကြာသွားသည့် ကြားကာလ</string>
   <string name="preferences__notifications">အသိပေးချက်များ</string>
@@ -1816,7 +1816,7 @@
   <string name="preferences__slow">အနှေး</string>
   <string name="preferences__help">အကူအညီ</string>
   <string name="preferences__advanced">အဆင့်မြင့်</string>
-  <string name="preferences__donate_to_signal">Signal ကိုလှူဒါန်းပါ</string>
+  <string name="preferences__donate_to_signal">Morse ကိုလှူဒါန်းပါ</string>
   <string name="preferences__privacy">ကိုယ်ရေးအချက်အလက်များ လုံခြုံမှု</string>
   <string name="preferences__mms_user_agent">MMS သုံးသူကိုယ်စားလှယ်</string>
   <string name="preferences__advanced_mms_access_point_names">MMS အပြင်အဆင်များကို ကိုယ်တိုင်လုပ်ပါ</string>
@@ -1842,13 +1842,13 @@
   <string name="preferences__chat_wallpaper">စကားပြောဆိုမှု၏ နောက်ခံပုံ</string>
   <string name="preferences__disable_pin">ပင်နံပါတ်ပိတ်ပါ</string>
   <string name="preferences__enable_pin">ပင်နံပါတ်ဖွင့်ပါ</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">ပင်နံပါတ်ကို ပိတ်ထားလျှင် သင်မှ​ ကိုယ်တိုင် အရန်ပြုပြင်ထားခြင်းမရှိခဲ့လျှင် Signal ပေါ်ပြန်စာရင်းသွင်းသောအခါ ဒေတာအားလုံးကို ဆုံးရှူံးပါလိမ့်မည်။ ပင်နံပါတ်ကို ပိတ်ထားစဉ် မှတ်ပုံတင်ခြင်းသော့ကို သင်ဖွင့်၍ မရပါ။</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">ပင်နံပါတ်များသည် Signal ပေါ်တွင် အချက်အလက်များကို ကုဒ်ဖြင့်သိမ်းဆည်းထားဖြင့် သင်သာ သုံးခွင်းရှိပါသည်။ သင့် ပရိုဖိုင်း၊ အပြင်အဆင်များ၊ နှင့် အဆက်အသွယ်များကို သင် ပြန်ထည့်သွင်းသောအခါ ပြန်လည်ရရှိပါမည်။​ အပ္ပလီကေးရှင်း ဖွင့်ရန် သင့် ပင်နံပါတ်မလိုအပ်ပါ။</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">ပင်နံပါတ်ကို ပိတ်ထားလျှင် သင်မှ​ ကိုယ်တိုင် အရန်ပြုပြင်ထားခြင်းမရှိခဲ့လျှင် Morse ပေါ်ပြန်စာရင်းသွင်းသောအခါ ဒေတာအားလုံးကို ဆုံးရှူံးပါလိမ့်မည်။ ပင်နံပါတ်ကို ပိတ်ထားစဉ် မှတ်ပုံတင်ခြင်းသော့ကို သင်ဖွင့်၍ မရပါ။</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">ပင်နံပါတ်များသည် Morse ပေါ်တွင် အချက်အလက်များကို ကုဒ်ဖြင့်သိမ်းဆည်းထားဖြင့် သင်သာ သုံးခွင်းရှိပါသည်။ သင့် ပရိုဖိုင်း၊ အပြင်အဆင်များ၊ နှင့် အဆက်အသွယ်များကို သင် ပြန်ထည့်သွင်းသောအခါ ပြန်လည်ရရှိပါမည်။​ အပ္ပလီကေးရှင်း ဖွင့်ရန် သင့် ပင်နံပါတ်မလိုအပ်ပါ။</string>
   <string name="preferences__system_default">မူလ စနစ်</string>
   <string name="preferences__language">ဘာသာစကား</string>
-  <string name="preferences__signal_messages_and_calls">Signal စာများနှင့် ဖုန်းခေါ်ဆိုမှုများ</string>
+  <string name="preferences__signal_messages_and_calls">Morse စာများနှင့် ဖုန်းခေါ်ဆိုမှုများ</string>
   <string name="preferences__advanced_pin_settings">အဆင့်မြင့် ပင်နံပါတ် အပြင်အဆင်များ</string>
-  <string name="preferences__free_private_messages_and_calls">Signal အသုံးပြုသူများအတွက် အခမဲ့စာများနှင့် ဖုန်းခေါ်ဆိုမှုများ</string>
+  <string name="preferences__free_private_messages_and_calls">Morse အသုံးပြုသူများအတွက် အခမဲ့စာများနှင့် ဖုန်းခေါ်ဆိုမှုများ</string>
   <string name="preferences__submit_debug_log">Debug log ကို တင်ပြပါ</string>
   <string name="preferences__delete_account">အကောင့်ကို ဖျက်သိမ်းမယ်</string>
   <string name="preferences__support_wifi_calling">\'WiFi Calling\' လိုက်လျောညီထွေမှု ရှိသည့် ပုံစံ</string>
@@ -1886,8 +1886,8 @@
   <string name="preferences_storage__s_messages">မက်ဆေ့ခ်ျများ %1$s ခု</string>
   <string name="preferences_storage__custom">စိတ်ကြိုက်</string>
   <string name="preferences_advanced__use_system_emoji">emoji စနစ်ကို သုံးပါ</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Signal ရဲ့ emoji ကို ပိတ်ပါ</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">သင်၏ လိပ်စာစာရင်းတွင် သင့် IP address ပေါ်လာခြင်းကို ရှောင်လွှဲရန်အတွက် ဖုန်းခေါ်ဆိုမှုများ အားလုံးကို Signal ဆာဗာကို လွှဲပြောင်းပါ။ ဤသို့ လွှဲပြောင်းလိုက်ပါက ဖုန်းခေါ်ဆိုမှု အရည်အသွေး ကျသွားနိုင်ပါသည်။</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Morse ရဲ့ emoji ကို ပိတ်ပါ</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">သင်၏ လိပ်စာစာရင်းတွင် သင့် IP address ပေါ်လာခြင်းကို ရှောင်လွှဲရန်အတွက် ဖုန်းခေါ်ဆိုမှုများ အားလုံးကို Morse ဆာဗာကို လွှဲပြောင်းပါ။ ဤသို့ လွှဲပြောင်းလိုက်ပါက ဖုန်းခေါ်ဆိုမှု အရည်အသွေး ကျသွားနိုင်ပါသည်။</string>
   <string name="preferences_advanced__always_relay_calls">ဖုန်းခေါ်ဆိုမှုများကို လွှဲပြောင်းပါ</string>
   <string name="preferences_app_protection__who_can">မည်သူ လုပ်နိုင်ပါလဲ…</string>
   <string name="preferences_app_protection__app_access">App ကို အသုံးပြုခြင်း</string>
@@ -1907,9 +1907,9 @@
   <string name="preferences_notifications__calls">ဖုန်းခေါ်ဆိုမှုများ</string>
   <string name="preferences_notifications__ringtone">ဖုန်းသံစဉ်များ</string>
   <string name="preferences_chats__show_invitation_prompts">ဖိတ်ကြားမှုကို ပြပါ။</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Signal မရှိသည့် လိပ်စာစာရင်းများအတွက် ဖိတ်ကြားမှု ပြပါ</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Morse မရှိသည့် လိပ်စာစာရင်းများအတွက် ဖိတ်ကြားမှု ပြပါ</string>
   <string name="preferences_chats__message_text_size">စာလုံးအရွယ်အစား</string>
-  <string name="preferences_events__contact_joined_signal">Signal ကို လာသုံးနေပြီ</string>
+  <string name="preferences_events__contact_joined_signal">Morse ကို လာသုံးနေပြီ</string>
   <string name="preferences_notifications__priority">ဦးစားပေး</string>
   <string name="preferences_communication__category_sealed_sender">ဖုံးကွယ်ထားသော ပေးပို့သူ</string>
   <string name="preferences_communication__sealed_sender_display_indicators">ပြသမှု ညွှန်ကိန်းများ</string>
@@ -1941,7 +1941,7 @@
   <string name="PaymentsAllActivityFragment__sent">ပို့ပြီးပြီ</string>
   <string name="PaymentsAllActivityFragment__received">လက်ခံရရှိပြီး</string>
   <string name="PaymentsHomeFragment__introducing_payments">ငွေပေးချေမှုများ (စမ်းသပ်သည့် Beta ဗားရှင်း) မိတ်ဆက်ပါသည်</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Signal သုံး၍ MobileCoin ပေးပို့လက်ခံလိုက်ပါ၊​ ၎င်းသည် ပုဂ္ဂိုလုံခြုံရေး အလေးထားသော ဒစ်ဂျစ်တယ်ငွေကြေး ဖြစ်ပါသည်။ ဖွင့်၍ စတင်သုံးလိုက်ပါ။</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Morse သုံး၍ MobileCoin ပေးပို့လက်ခံလိုက်ပါ၊​ ၎င်းသည် ပုဂ္ဂိုလုံခြုံရေး အလေးထားသော ဒစ်ဂျစ်တယ်ငွေကြေး ဖြစ်ပါသည်။ ဖွင့်၍ စတင်သုံးလိုက်ပါ။</string>
   <string name="PaymentsHomeFragment__activate_payments">ငွေပေးချေမှုများ ဖွင့်မယ်</string>
   <string name="PaymentsHomeFragment__activating_payments">ငွေပေးချေမှုများ ဖွင့်နေသည်…</string>
   <string name="PaymentsHomeFragment__restore_payments_account">ငွေပေးချမှုလုပ်သည့် အကောင့် ပြန်ရယူမယ်</string>
@@ -1968,17 +1968,17 @@
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">သင့်ဒေသတွင်း ငွေပေးချေမှုများ မရရှိနိုင်ပါ။</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">ငွေပေးချေမှုများ မလုပ်ဆောင်နိုင်ပါ။ နောက်မှ ပြန်စမ်းကြည့်ပေးပါ။</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">ငွေပေးချေမှုများကို ပိတ်မည်လား?</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">သင်မှ ငွေပေးချေမှုများ ပိတ်ထားလျှင် Signal ထဲတွင် သင်မှ MobileCoin ပေးပို့လက်ခံရန် မရနိုင်ပါ။</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">သင်မှ ငွေပေးချေမှုများ ပိတ်ထားလျှင် Morse ထဲတွင် သင်မှ MobileCoin ပေးပို့လက်ခံရန် မရနိုင်ပါ။</string>
   <string name="PaymentsHomeFragment__deactivate">ပိတ်မယ်</string>
   <string name="PaymentsHomeFragment__continue">ဆက်လုပ်ရန်</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">လက်ကျန်ငွေ လက်ရှိမရနိုင်ပါ။</string>
   <string name="PaymentsHomeFragment__payments_deactivated">ငွေပေးချေမှုများ ပိတ်ပြီး</string>
   <string name="PaymentsHomeFragment__payment_failed">ငွေပေးချေမှု မအောင်မြင်ပါ</string>
   <string name="PaymentsHomeFragment__details">အသေးစိတ်အချက်အလက်များ</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Signal ကို သုံး၍ MobileCoin ကို ပေးပို့လက်ခံနိုင်ပါသည်။ ငွေပေးချေမှုများအားလုံးသည် MobileCoin နှင့် MobileCoin Wallet ၏ စည်းကမ်းသတ်မှတ်ချက်များကို လိုက်နာရပါမည်။ ၎င်းသည် စမ်းသပ်သည့်ဗားရှင်းသာဖြစ်၍ အချို့ကိစ္စရပ်များ ကြုံတွေ့နိုင်ပြီး ငွေပေးချေမှုများ သို့မဟုတ် လက်ကျန်ငွေတို့ ဆုံးရှူံးခဲ့လျှင် ပြန်လည်မရရှိနိုင်ပါ။</string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Morse ကို သုံး၍ MobileCoin ကို ပေးပို့လက်ခံနိုင်ပါသည်။ ငွေပေးချေမှုများအားလုံးသည် MobileCoin နှင့် MobileCoin Wallet ၏ စည်းကမ်းသတ်မှတ်ချက်များကို လိုက်နာရပါမည်။ ၎င်းသည် စမ်းသပ်သည့်ဗားရှင်းသာဖြစ်၍ အချို့ကိစ္စရပ်များ ကြုံတွေ့နိုင်ပြီး ငွေပေးချေမှုများ သို့မဟုတ် လက်ကျန်ငွေတို့ ဆုံးရှူံးခဲ့လျှင် ပြန်လည်မရရှိနိုင်ပါ။</string>
   <string name="PaymentsHomeFragment__activate">ဖွင့်မယ်</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">MobileCoin ၏သတ်မှတ်ချက်များ ကြည့်ရှုမယ်</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Signal ထဲတွင် ငွေပေးချေမှုများ မလုပ်ဆောင်နိုင်တော့ပါ။ ငွေလဲလှယ်မှုတစ်ခုသို့ ငွေများလွှဲနိုင်ပါသည်၊ သို့သော် သင်မှ ငွေပေးချေမှုများ ပေးပို့လက်ခံလို့မရတော့ပါ၊​ ငွေလည်း ထည့်ပေါင်းလို့မရတော့ပါ။</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Morse ထဲတွင် ငွေပေးချေမှုများ မလုပ်ဆောင်နိုင်တော့ပါ။ ငွေလဲလှယ်မှုတစ်ခုသို့ ငွေများလွှဲနိုင်ပါသည်၊ သို့သော် သင်မှ ငွေပေးချေမှုများ ပေးပို့လက်ခံလို့မရတော့ပါ၊​ ငွေလည်း ထည့်ပေါင်းလို့မရတော့ပါ။</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">ငွေဖြည့်မယ်</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">သင့် ပိုက်ဆံအိတ် Wallet လိပ်စာ</string>
@@ -2016,9 +2016,9 @@
   <string name="PaymentsTransferFragment__invalid_address">အကြုံးမဝင်သော လိပ်စာ</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">သင်လွှဲပြောင်းရန် ကြိုးစားနေသည့် ပိုက်ဆံအိတ် wallet လိပ်စာ ကိုစစ်ပြီး ပြန်စမ်းကြည့်ပေးပါ။</string>
   <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">သင့်ပိုက်ဆံအိတ် wallet လိပ်စာသို့ သင်ကိုယ်တိုင် လွှဲလို့မရပါ။ သင့်အကောင့်မှ ပိုက်ဆံအိတ် wallet လိပ်စာ ကို ပံ့ပိုးသော ငွေလဲလှယ်မှုတစ်နေရာတွင် ရိုက်ထည့်ပေးပါ။</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR ကုဒ်ကို စကင်ဖတ်ရန် Signal မှ သင့် ကင်မရာသုံးခွင့် လိုအပ်ပါသည်။</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">QR ကုဒ်ဖတ်ရန် Signal မှ သင့်ကင်မရာသုံးခွင့် လိုအပ်ပါသည်။ အပြင်အဆင်များ သို့သွား၍ \"ခွင့်ပြုချက်များ\" ကိုရွေးပါ၊ ပြီးလျှင် \"ကင်မရာ\" ကို ဖွင့်ပါ။</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR ကုဒ်ကို စကင်ဖတ်ရန် Signal မှ သင့် ကင်မရာသုံးခွင့် လိုအပ်ပါသည်။</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR ကုဒ်ကို စကင်ဖတ်ရန် Morse မှ သင့် ကင်မရာသုံးခွင့် လိုအပ်ပါသည်။</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">QR ကုဒ်ဖတ်ရန် Morse မှ သင့်ကင်မရာသုံးခွင့် လိုအပ်ပါသည်။ အပြင်အဆင်များ သို့သွား၍ \"ခွင့်ပြုချက်များ\" ကိုရွေးပါ၊ ပြီးလျှင် \"ကင်မရာ\" ကို ဖွင့်ပါ။</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR ကုဒ်ကို စကင်ဖတ်ရန် Morse မှ သင့် ကင်မရာသုံးခွင့် လိုအပ်ပါသည်။</string>
   <string name="PaymentsTransferFragment__settings">အပြင်အဆင်များ</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">QR ကုဒ် လိပ်စာ စကင်ဖတ်မယ်</string>
@@ -2076,8 +2076,8 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">ခေါ်ဆိုမယ်</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal ဖုန်းခေါ်ဆိုမှု</string>
-  <string name="conversation_callable_secure__menu_video">Signal ဗီဒီယိုခေါ်ဆိုမှု</string>
+  <string name="conversation_callable_secure__menu_call">Morse ဖုန်းခေါ်ဆိုမှု</string>
+  <string name="conversation_callable_secure__menu_video">Morse ဗီဒီယိုခေါ်ဆိုမှု</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">မက်ဆေ့ချ် အသေးစိတ်အချက်အလက်များ</string>
   <string name="conversation_context__menu_copy_text">စာသား ကူးမယ်</string>
@@ -2149,10 +2149,10 @@
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">ကလစ်ဘုတ် နဲ့ ယှဥ်လိုက်ပါ</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">SMS စနစ်ကို တင်ပို့ပါ</string>
-  <string name="reminder_header_sms_import_text">ဖုန်း SMS များကို Signal ရဲ့ encrypted အချက်အလက် သိမ်းဆည်းရာထဲတွင် ကူးသိမ်းဖို့ရန် နှိပ်ပါ။</string>
-  <string name="reminder_header_push_title">စာပို့ခြင်းနှင့် ဖုန်းခေါ်ဆိုမှုများကို Signal ဖြင့် လုပ်ဆောင်ပါ။</string>
+  <string name="reminder_header_sms_import_text">ဖုန်း SMS များကို Morse ရဲ့ encrypted အချက်အလက် သိမ်းဆည်းရာထဲတွင် ကူးသိမ်းဖို့ရန် နှိပ်ပါ။</string>
+  <string name="reminder_header_push_title">စာပို့ခြင်းနှင့် ဖုန်းခေါ်ဆိုမှုများကို Morse ဖြင့် လုပ်ဆောင်ပါ။</string>
   <string name="reminder_header_push_text">သင့်ဆက်သွယ်မှုအတွေ့အကြုံကို အဆင့်မြှင့်လိုက်ပါ။</string>
-  <string name="reminder_header_service_outage_text">Signal သည် နည်းပညာပိုင်းဆိုင်ရာ အခက်အခဲများ ကြုံတွေ့နေပါသည်။ ဝန်ဆောင်မှုများကို အမြန်ဆုံးပြန်လည်စတင်နိုင်ရန် ကျွနု်ပ်တို့ ကြိုးစားနေပါသည်။</string>
+  <string name="reminder_header_service_outage_text">Morse သည် နည်းပညာပိုင်းဆိုင်ရာ အခက်အခဲများ ကြုံတွေ့နေပါသည်။ ဝန်ဆောင်မှုများကို အမြန်ဆုံးပြန်လည်စတင်နိုင်ရန် ကျွနု်ပ်တို့ ကြိုးစားနေပါသည်။</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">သိမ်းထားပါ။</string>
@@ -2168,22 +2168,22 @@
   <string name="Insights__percent">%</string>
   <string name="Insights__title">ထင်မြင်ချက်များ</string>
   <string name="InsightsDashboardFragment__title">ထင်မြင်ချက်များ</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signal Protocol သည် အလိုအလျောက် လွန်ခဲ့သော %2$d ရက်တွင်းရှိ သင်၏ %1$d%% အထွက်စာများကို ကာကွယ်ထားပေးပါသည်။ Signal အသုံးပြုသူများအကြား စကားပြောဆိုမှုများကို အစမှအဆုံးထိ အမြဲ ကုဒ်ဖြင့်စာဝှက်ထားပါသည်။</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Signal မြှင့်တင်ခြင်း</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Morse Protocol သည် အလိုအလျောက် လွန်ခဲ့သော %2$d ရက်တွင်းရှိ သင်၏ %1$d%% အထွက်စာများကို ကာကွယ်ထားပေးပါသည်။ Morse အသုံးပြုသူများအကြား စကားပြောဆိုမှုများကို အစမှအဆုံးထိ အမြဲ ကုဒ်ဖြင့်စာဝှက်ထားပါသည်။</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Morse မြှင့်တင်ခြင်း</string>
   <string name="InsightsDashboardFragment__not_enough_data">ဒေတာ မလုံလောက်ပါ</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">သင်၏ ထင်မြင်ချက် ရာခိုင်နှုန်းသည် လွန်ခဲ့သည့် %1$d ရက်အတွင်း မဖျောက်ကွယ်ထားသော သို့မဟုတ် မဖျက်သိမ်းထားသော မက်ဆေ့ချ်များပေါ်မူ၍ တွက်ထားပါသည်။</string>
   <string name="InsightsDashboardFragment__start_a_conversation">စကားစပြောပါ</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">လုံခြုံစွာ ဆက်သွယ်မှုကို စတင်ပါ။ Signal နှင့်ဆက်သွယ်ရန် အဆက်အသွယ်များထပ်မံဖိတ်ခေါ်ခြင်းဖြင့် ကုဒ်ဖြင့်စာမဝှက်ထားသည့် SMS မက်ဆေ့ချ်များ ပေးပို့မှုများ၏ ကန့်သတ်ချက်များထက်ကျော်လွန်သော အင်္ဂါရပ်အသစ်များကို ဖွင့်သုံးစွဲပါ။</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">လုံခြုံစွာ ဆက်သွယ်မှုကို စတင်ပါ။ Morse နှင့်ဆက်သွယ်ရန် အဆက်အသွယ်များထပ်မံဖိတ်ခေါ်ခြင်းဖြင့် ကုဒ်ဖြင့်စာမဝှက်ထားသည့် SMS မက်ဆေ့ချ်များ ပေးပို့မှုများ၏ ကန့်သတ်ချက်များထက်ကျော်လွန်သော အင်္ဂါရပ်အသစ်များကို ဖွင့်သုံးစွဲပါ။</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">၎င်းကိန်းဂဏန်းများသည် သင်၏စက်ကိရိယာပေါ်တွင် ထုတ်လုပ်ပြီး သင်သာမြင်နိုင်သည်။ ဘယ်တော့မှ အခြားနေရာကို မကူးစက်ပါဘူး။</string>
   <string name="InsightsDashboardFragment__encrypted_messages">ကုဒ်ဖြင့် ဝှက်ထားသော မက်ဆေ့ချ်များ</string>
   <string name="InsightsDashboardFragment__cancel">ပယ်ဖျက်မယ်</string>
   <string name="InsightsDashboardFragment__send">ပေးပို့မယ်</string>
   <string name="InsightsModalFragment__title">ထင်မြင်ချက်များနှင့် မိတ်ဆက်ပေးခြင်း</string>
-  <string name="InsightsModalFragment__description">သင်၏ အထွက်စာများ မည်မျှလုံလုံခြုံခြုံ ပေးပို့ခဲ့သည်ကို ရှာဖွေပါ။ သင်၏ Signal ရာခိုင်နှုန်းကို တိုးစေရန် အဆက်အသွယ်အသစ်များကို လျင်မြန်စွာဖိတ်ပါ။</string>
+  <string name="InsightsModalFragment__description">သင်၏ အထွက်စာများ မည်မျှလုံလုံခြုံခြုံ ပေးပို့ခဲ့သည်ကို ရှာဖွေပါ။ သင်၏ Morse ရာခိုင်နှုန်းကို တိုးစေရန် အဆက်အသွယ်အသစ်များကို လျင်မြန်စွာဖိတ်ပါ။</string>
   <string name="InsightsModalFragment__view_insights">ထင်မြင်ချက်များ ကိုကြည့်မယ်</string>
-  <string name="FirstInviteReminder__title">Signal သို့ ဖိတ်ခေါ်မည်</string>
+  <string name="FirstInviteReminder__title">Morse သို့ ဖိတ်ခေါ်မည်</string>
   <string name="FirstInviteReminder__description">သင်ပေးပို့သည့် ကုဒ်ဖြင့်ဝှက်ထားသော မက်ဆေ့ချ်အရေအတွက်ကို %1$d %% ထက်တိုးမြှင့်နိုင်ပါသည်</string>
-  <string name="SecondInviteReminder__title">သင်၏ Signal ကိုမြှင့်တင်ပါ</string>
+  <string name="SecondInviteReminder__title">သင်၏ Morse ကိုမြှင့်တင်ပါ</string>
   <string name="SecondInviteReminder__description">%1$s ကို ဖိတ်ခေါ်မယ်</string>
   <string name="InsightsReminder__view_insights">ထင်မြင်ချက်များ (Insights) ကိုကြည့်မယ်</string>
   <string name="InsightsReminder__invite">ဖိတ်ခေါ်မယ်</string>
@@ -2202,7 +2202,7 @@
   <string name="CreateKbsPinFragment__create_a_new_pin">ပင်နံပါတ်အသစ်တစ်ခုဖန်တီးပါ</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">၎င်းစက်အား စာရင်းသွင်းထားသည်၍ သင့်ပင်နံပါတ်ကို ပြောင်းလဲနိုင်ပါသည်။</string>
   <string name="CreateKbsPinFragment__create_your_pin">သင်၏ ပင်နံပါတ်ကို ဖန်တီးပါ</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">ပင်နံပါတ်များသည် Signal ပေါ်တွင် အချက်အလက်များကို ကုဒ်ဖြင့်သိမ်းဆည်းထားဖြင့် သင်သာ သုံးခွင်းရှိပါသည်။ သင့် ပရိုဖိုင်း၊ အပြင်အဆင်များ၊ နှင့် အဆက်အသွယ်များကို သင် ပြန်ထည့်သွင်းသောအခါ ပြန်လည်ရရှိပါမည်။​ အပ္ပလီကေးရှင်း ဖွင့်ရန် သင့် ပင်နံပါတ်မလိုအပ်ပါ။</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">ပင်နံပါတ်များသည် Morse ပေါ်တွင် အချက်အလက်များကို ကုဒ်ဖြင့်သိမ်းဆည်းထားဖြင့် သင်သာ သုံးခွင်းရှိပါသည်။ သင့် ပရိုဖိုင်း၊ အပြင်အဆင်များ၊ နှင့် အဆက်အသွယ်များကို သင် ပြန်ထည့်သွင်းသောအခါ ပြန်လည်ရရှိပါမည်။​ အပ္ပလီကေးရှင်း ဖွင့်ရန် သင့် ပင်နံပါတ်မလိုအပ်ပါ။</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">ပိုခိုင်မာသော ပင်နံပါတ်ကို ရွေးပါ</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">ပင်နံပါတ်များ မကိုက်ညီပါ။ ပြန်စမ်းပေးပါ။</string>
@@ -2214,7 +2214,7 @@
   <string name="ConfirmKbsPinFragment__creating_pin">ပင်နံပါတ် ဖန်တီးနေသည်…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">ပင်နံပါတ်များကို မိတ်ဆက်ပေးသည်</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">ပင်နံပါတ်များသည် Signal ပေါ်တွင် အချက်အလက်များကို ကုဒ်ဖြင့်သိမ်းဆည်းထားဖြင့် သင်သာ သုံးခွင်းရှိပါသည်။ သင့် ပရိုဖိုင်း၊ အပြင်အဆင်များ၊ နှင့် အဆက်အသွယ်များကို သင် ပြန်ထည့်သွင်းသောအခါ ပြန်လည်ရရှိပါမည်။​ အပ္ပလီကေးရှင်း ဖွင့်ရန် သင့် ပင်နံပါတ်မလိုအပ်ပါ။</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">ပင်နံပါတ်များသည် Morse ပေါ်တွင် အချက်အလက်များကို ကုဒ်ဖြင့်သိမ်းဆည်းထားဖြင့် သင်သာ သုံးခွင်းရှိပါသည်။ သင့် ပရိုဖိုင်း၊ အပြင်အဆင်များ၊ နှင့် အဆက်အသွယ်များကို သင် ပြန်ထည့်သွင်းသောအခါ ပြန်လည်ရရှိပါမည်။​ အပ္ပလီကေးရှင်း ဖွင့်ရန် သင့် ပင်နံပါတ်မလိုအပ်ပါ။</string>
   <string name="KbsSplashFragment__learn_more">ထပ်မံလေ့လာရန်</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">မှတ်ပုံတင်ခြင်း သော့ပိတ်ထားမှု = ပင်နံပါတ်</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">သင်၏ မှတ်ပုံတင်ခြင် သော့ပိတ်ထားမှုသည် ပင်နံပါတ်လို့ခေါ်ပါသည်။ ထပ်မံလုပ်ဆောင်ချက်များလည်း လုပ်ဆောင်ပါသည်။ ယခုဘဲ အပ်ဒိတ်လိုက်ပါ။</string>
@@ -2223,7 +2223,7 @@
   <string name="KbsSplashFragment__learn_more_about_pins">ပင်နံပါတ်များအကြောင်းပိုမိုလေ့လာပါ</string>
   <string name="KbsSplashFragment__disable_pin">ပင်နံပါတ်ပိတ်ပါ</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">သင့် Signal ပင်နံပါတ်ကို ရိုက်ထည့်ပါ</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">သင့် Morse ပင်နံပါတ်ကို ရိုက်ထည့်ပါ</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">သင်၏ ပင်နံပါတ်ကို အလွတ်ကျက်မှတ်ရန်အတွက် အခါအားလျော်စွာ ရိုက်ထည့်ရန် သင့်အား တောင်းဆိုလိမ့်မည်။ ကျွန်ုပ်တို့ အချိန်ကြာလာတာနှင့်အမျှ လျော့နည်းစွာ မေးပါလိမ့်မယ်။</string>
   <string name="KbsReminderDialog__skip">ကျော်မယ်</string>
   <string name="KbsReminderDialog__submit">တင်မယ်</string>
@@ -2244,8 +2244,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">ပင်နံပါတ်မှားနေသည်</string>
   <string name="RegistrationLockFragment__forgot_your_pin">ပင်နံပါတ်ကို မေ့သွားပြီလား?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">နောက်အကြိမ်များစွာ ကြိုးစားရန် မကျန်တော့ပါ!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal မှတ်ပုံတင်ခြင်း - Android ပေါ်တွင် ပင်နံပါတ် (v1 PIN) နှင့်ပါတ်သက်သော အကူအညီရယူလိုပါသည်</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal မှတ်ပုံတင်ခြင်း - Android ပေါ်တွင် ပင်နံပါတ် (v2 PIN) နှင့်ပါတ်သက်သော အကူအညီရယူလိုပါသည်</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Morse မှတ်ပုံတင်ခြင်း - Android ပေါ်တွင် ပင်နံပါတ် (v1 PIN) နှင့်ပါတ်သက်သော အကူအညီရယူလိုပါသည်</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Morse မှတ်ပုံတင်ခြင်း - Android ပေါ်တွင် ပင်နံပါတ် (v2 PIN) နှင့်ပါတ်သက်သော အကူအညီရယူလိုပါသည်</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="other">ကိုယ်ရေးကိုယ်တာ လုံခြုံရေးအတွက် သင်၏ ပင်နံပါတ်ကို ပြန်လည်ရယူရန် မဖြစ်နိုင်ပါ။ ပင်နံပါတ် ကိုမမှတ်မိနိုင်ပါက SMS စာတိုဖြင့် အတည်ပြုကုဒ်ဖြင့် ရက်ပေါင်း %1$d ရက်အတွင်းအသုံးမပြုဘဲ ရယူနိုင်ပါသည်။ ဤအခြေအနေတွင် သင့်အကောင့် အသုံးပြုမှုမှတ်တမ်းများအားလုံးကို ဖျက်ပစ်ပြီးဖြစ်သည်။</item>
   </plurals>
@@ -2265,15 +2265,15 @@
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s သည် သင့်စီမှ မက်ဆေ့ချ်တောင်းဆိုမှု လက်ခံရရှိပါမည်။ သင့် မက်ဆေ့ချ်တောင်းဆိုမှုကို လက်ခံပြီးလျှင် သင် ခေါ်ဆိုနိုင်ပါသည်။</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">ပင်နံပါတ်တစ်ခုဖန်တီးပါ</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">ပင်နံပါတ်အသုံးပြုချင်းသည် Signal ဖြင့်သိမ်းထားသောသတင်းအချက်အလက်များကို ကုဒ်ဖြင့်သိမ်းဆည်းသည်။</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">ပင်နံပါတ်အသုံးပြုချင်းသည် Morse ဖြင့်သိမ်းထားသောသတင်းအချက်အလက်များကို ကုဒ်ဖြင့်သိမ်းဆည်းသည်။</string>
   <string name="KbsMegaphone__create_pin">ပင်နံပါတ်ဖန်တီးပါ</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Signal ပေါ်ထင်မြင်ချက်များ ကျွန်ုပ်တို့ကို ပြောပြပေးပါ</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Signal ကိုကမ္ဘာပေါ်ရှိ အကောင်းဆုံးစာတိုပေးပို့ရေးအက်ပ် ဖြစ်စေရန် သင်၏အကြံပေးချက်များကို ကျွန်ုပ်တို့ကြားချင်ပါသည်။</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Morse ပေါ်ထင်မြင်ချက်များ ကျွန်ုပ်တို့ကို ပြောပြပေးပါ</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Morse ကိုကမ္ဘာပေါ်ရှိ အကောင်းဆုံးစာတိုပေးပို့ရေးအက်ပ် ဖြစ်စေရန် သင်၏အကြံပေးချက်များကို ကျွန်ုပ်တို့ကြားချင်ပါသည်။</string>
   <string name="ResearchMegaphone_learn_more">ထပ်မံလေ့လာရန်</string>
   <string name="ResearchMegaphone_dismiss">ဖယ်လိုက်မယ်</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Signal သုတေသန</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b> ကျွန်ုပ်တို့သည် ပုဂ္ဂိုလ်ရေးလုံခြုံမှုကို ယုံကြည်ပါသည်။ </b></p><p> Signal သည် သင့်ခြေရာမလိုက်ပါ သို့မဟုတ် သင့်ဒေတာမကောက်ပါ။ အားလုံးအတွက် Signal ကိုတိုးတက်စေရန် ကျွန်ုပ်တို့သည် သုံးသူများ၏ တုံ့ပြန်ချက်ကို အားကိုးပါသည်။ <b> ကျွန်ုပ်တို့သည် သင်၏အကြံပေးချက်များကိုလည်း ကြားချင်ပါသည်။ </b></p><p> သင်မှ Signal ကိုမည်ကဲ့သို့ အသုံးပြုသည်ကို ကျွန်ုပ်တို့ စစ်တမ်းကောက်နေပါသည်။ ၎င်းစစ်တမ်းသည် သင့်ကို ဖေါ်ထုတ်နိုင်သည့် ဒေတာများမကောက်ပါ။ သင်မှ ထပ်မံ အကြံပေးချင်လျှင် သင့်အား ဆက်သွယ်နိုင်သည့် အချက်အလက်များ ပေးနိုင်ပါသည်။ </p><p> မိနစ်အချိန်ပိုင်း နှင့် အကြံပြုချက်များ ရှိလျှင် ကျွှန်ုပ်တို့ သင့်ထံမှ ကြားချင်ပါသည်။</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Morse သုတေသန</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b> ကျွန်ုပ်တို့သည် ပုဂ္ဂိုလ်ရေးလုံခြုံမှုကို ယုံကြည်ပါသည်။ </b></p><p> Morse သည် သင့်ခြေရာမလိုက်ပါ သို့မဟုတ် သင့်ဒေတာမကောက်ပါ။ အားလုံးအတွက် Morse ကိုတိုးတက်စေရန် ကျွန်ုပ်တို့သည် သုံးသူများ၏ တုံ့ပြန်ချက်ကို အားကိုးပါသည်။ <b> ကျွန်ုပ်တို့သည် သင်၏အကြံပေးချက်များကိုလည်း ကြားချင်ပါသည်။ </b></p><p> သင်မှ Morse ကိုမည်ကဲ့သို့ အသုံးပြုသည်ကို ကျွန်ုပ်တို့ စစ်တမ်းကောက်နေပါသည်။ ၎င်းစစ်တမ်းသည် သင့်ကို ဖေါ်ထုတ်နိုင်သည့် ဒေတာများမကောက်ပါ။ သင်မှ ထပ်မံ အကြံပေးချင်လျှင် သင့်အား ဆက်သွယ်နိုင်သည့် အချက်အလက်များ ပေးနိုင်ပါသည်။ </p><p> မိနစ်အချိန်ပိုင်း နှင့် အကြံပြုချက်များ ရှိလျှင် ကျွှန်ုပ်တို့ သင့်ထံမှ ကြားချင်ပါသည်။</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">စစ်တမ်းကောက်ယူမည်</string>
   <string name="ResearchMegaphoneDialog_no_thanks">မလုပ်တော့ပါ</string>
   <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Alchemer မှ စစ်တမ်းကို လုံခြုံသော ဆာဗာဒိုမိန်း surveys.signalusers.org တွင် ဆောင်ရွက်ပါသည်။</string>
@@ -2282,11 +2282,11 @@
   <string name="ConversationListFragment_loading">လုပ်ဆောင်နေသည်…</string>
   <string name="CallNotificationBuilder_connecting">ချိတ်ဆက်နေသည်…</string>
   <string name="Permissions_permission_required">ခွင့်ပြုချက် လိုအပ်သည်</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">SMS များပို့နိုင်ရန် မိမိ SMS ကို Signal မှ အသုံးပြုခွင့်ရရန် လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ SMS ကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">SMS များပို့နိုင်ရန် မိမိ SMS ကို Morse မှ အသုံးပြုခွင့်ရရန် လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ SMS ကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ</string>
   <string name="Permissions_continue">ရှေ့ဆက်ပါ</string>
   <string name="Permissions_not_now">အခုမဟုတ်သေးပါ။</string>
-  <string name="conversation_activity__enable_signal_messages">Signal စာပို့မှုကို လုပ်ဆောင်ပါ</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal ၏ အချက်အလက်ထိန်းသိမ်းရာနေရာကို ပြောင်းရွှေ့ခြင်း</string>
+  <string name="conversation_activity__enable_signal_messages">Morse စာပို့မှုကို လုပ်ဆောင်ပါ</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Morse ၏ အချက်အလက်ထိန်းသိမ်းရာနေရာကို ပြောင်းရွှေ့ခြင်း</string>
   <string name="PushDecryptJob_new_locked_message">lock လုပ်ထားသောစာတိုအသစ်</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">မဖတ်ရသေးသော စာတိုများကို ဖတ်ရန် ပြန်ဖွင့်ပါ</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">စကားဝှက်ကို အရန်သိမ်းဆည်းထားပါ</string>
@@ -2304,7 +2304,7 @@
   <string name="preferences_chats__transfer_account_to_a_new_android_device">သင့် Android စက်အသစ်ပေါ်သို့ အကောင့်လွှဲပြောင်းမယ်</string>
   <string name="RegistrationActivity_enter_backup_passphrase">အရန်သိမ်းဆည်းမှုအတွက် စကားဝှက် ထည့်ပါ</string>
   <string name="RegistrationActivity_restore">ပြန်ရယူမယ်</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Signal ဗားရှင်းအသစ်များတွင် အရန်သိမ်းဆည်းထားသော ဖိုင်များဖွင့်၍ မရပါ</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Morse ဗားရှင်းအသစ်များတွင် အရန်သိမ်းဆည်းထားသော ဖိုင်များဖွင့်၍ မရပါ</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">အရန်သိမ်းဆည်းမှုအတွက်စကားဝှက် မမှန်ကန်ပါ</string>
   <string name="RegistrationActivity_checking">စစ်ဆေးနေသည်…</string>
   <string name="RegistrationActivity_d_messages_so_far">လက်ရှိအချိန်အထိ %d စာတိုများရှိပါသည်…</string>
@@ -2335,8 +2335,8 @@
   <string name="ProgressPreference_d_messages_so_far">လက်ရှိအချိန်အထိ %d စာ ရှိပါသည်</string>
   <string name="RegistrationActivity_wrong_number">နံပါတ်မှားယွင်းနေပါသည်</string>
   <string name="RegistrationActivity_call_me_instead_available_in">ဤအချိန် (%1$02d:%2$02d အတွင်း) \n ဖုန်းခေါ်ပေးပါ</string>
-  <string name="RegistrationActivity_contact_signal_support">Signal အကူအညီ ရယူမည်</string>
-  <string name="RegistrationActivity_code_support_subject">Signal မှတ်ပုံတင်ခြင်း Android အတွက် အတည်ပြုကုဒ်</string>
+  <string name="RegistrationActivity_contact_signal_support">Morse အကူအညီ ရယူမည်</string>
+  <string name="RegistrationActivity_code_support_subject">Morse မှတ်ပုံတင်ခြင်း Android အတွက် အတည်ပြုကုဒ်</string>
   <string name="BackupUtil_never">ဘယ်တော့မှ</string>
   <string name="BackupUtil_unknown">မသိ</string>
   <string name="preferences_app_protection__see_my_phone_number">ကျွန်ုပ်ဖုန်းနံပါတ်ကိုကြည့်မည်</string>
@@ -2345,21 +2345,21 @@
   <string name="PhoneNumberPrivacy_my_contacts">ကျွန်ုပ်၏အဆက်အသွယ်များ</string>
   <string name="PhoneNumberPrivacy_nobody">ဘယ်သူမှ</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">သင်၏ ဖုန်းနံပါတ်ကို သင်မက်ဆေ့ခ်ျပို့ထားသော လူများအားလုံး နှင့် အဖွဲ့များအားလုံး  မြင်နိုင်လိမ့်မည်။</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">သင်၏ အဆက်အသွယ်များ၌ သင်၏ဖုန်းနံပါတ်ရှိသူမည်သူမဆို သင့်ကို Signal ပေါ်တွင်အဆက်အသွယ်တစ်ခုအဖြစ် မြင်လိမ့်မည်။ အခြားသူများက သင့်အားရှာဖွေမှုတွင် တွေ့နိုင်သည်။</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">သင်၏ အဆက်အသွယ်များ၌ သင်၏ဖုန်းနံပါတ်ရှိသူမည်သူမဆို သင့်ကို Morse ပေါ်တွင်အဆက်အသွယ်တစ်ခုအဖြစ် မြင်လိမ့်မည်။ အခြားသူများက သင့်အားရှာဖွေမှုတွင် တွေ့နိုင်သည်။</string>
   <string name="preferences_app_protection__screen_lock">စကင်ရင် ပိတ်ထားခြင်း</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Signal ကို မဝင်ရောက်နိုင်ရန် ဖုန်းစကင်ရင်ကို ပိတ်ချသည့် စနစ်/ Screen Lock သို့မဟုတ် လက်ဗွေရာစနစ်ဖြင့် လုပ်ဆောင်ပါ</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Morse ကို မဝင်ရောက်နိုင်ရန် ဖုန်းစကင်ရင်ကို ပိတ်ချသည့် စနစ်/ Screen Lock သို့မဟုတ် လက်ဗွေရာစနစ်ဖြင့် လုပ်ဆောင်ပါ</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">စကင်ရင်ကို ထိတွေ့မှုမရှိသောကြောင့် ပိတ်ရန်အချိန်စေ့ပါပြီ</string>
-  <string name="preferences_app_protection__signal_pin">Signal ပင်နံပါတ်</string>
+  <string name="preferences_app_protection__signal_pin">Morse ပင်နံပါတ်</string>
   <string name="preferences_app_protection__create_a_pin">ပင်နံပါတ်တစ်ခုဖန်တီးမည်</string>
   <string name="preferences_app_protection__change_your_pin">သင်၏ပင်နံပါတ်ကိုပြောင်းပါ</string>
   <string name="preferences_app_protection__pin_reminders">ပင်နံပါတ်သတိပေးချက်များ</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">ပင်နံပါတ်များသည် အချက်အလက်များကို Signal မှ စာဝှက်ခါ သိမ်းထားသည်။ သင် Signal ကို ပြန်လည်တပ်ဆင်သောအခါ သင်၏ ပရိုဖိုင်း၊ ချိန်ညှိချက်မျာ းနှင့်အဆက်အသွယ်များသည် ပြန်လည်ရရှိပါလိမ့်မည်။</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">သင်၏ ဖုန်းနံပါတ်ကို Signal ပင်နံပါတ်နှင့် ပြန်လည်မှတ်ပုံတင်ရန် လိုအပ်ခြင်းအားဖြင့် ပိုမိုလုံခြုံစေပါ။</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">ပင်နံပါတ်များသည် အချက်အလက်များကို Morse မှ စာဝှက်ခါ သိမ်းထားသည်။ သင် Morse ကို ပြန်လည်တပ်ဆင်သောအခါ သင်၏ ပရိုဖိုင်း၊ ချိန်ညှိချက်မျာ းနှင့်အဆက်အသွယ်များသည် ပြန်လည်ရရှိပါလိမ့်မည်။</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">သင်၏ ဖုန်းနံပါတ်ကို Morse ပင်နံပါတ်နှင့် ပြန်လည်မှတ်ပုံတင်ရန် လိုအပ်ခြင်းအားဖြင့် ပိုမိုလုံခြုံစေပါ။</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">သင်၏ပင်နံပါတ်ကို ပြန်လည်မဖော်ထုတ်နိုင်သောကြောင့် သတိပေးချက်များက သင့်ကိုကူညီသည်။ အချိန်ကြာလာသည် နှင့်အမျှ သင့်ကိုမကြာခဏ မေးလိမ့်မည်။</string>
   <string name="preferences_app_protection__turn_off">ပိတ်မည်</string>
   <string name="preferences_app_protection__confirm_pin">ပင်နံပါတ်အား အတည်ပြုမည်</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">သင်၏ Signal ပင်နံပါတ်ကိုအတည်ပြုပါ</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">သင်၏ပင်နံပါတ်ကို ပြန်လည်သိမ်းဆည်းမရပါကြောင့် အလွတ်ကျက်ထား သို့မဟုတ် သေချာစွာသိမ်းထားပါ။ သင်၏ပင်နံပါတ်ကိုသင်မေ့သွားပါက သင်၏ Signal အကောင့်ကိုပြန်လည်မှတ်ပုံတင်သောအခါ ဒေတာဆုံးရှုံးနိုင်သည်။</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">သင်၏ Morse ပင်နံပါတ်ကိုအတည်ပြုပါ</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">သင်၏ပင်နံပါတ်ကို ပြန်လည်သိမ်းဆည်းမရပါကြောင့် အလွတ်ကျက်ထား သို့မဟုတ် သေချာစွာသိမ်းထားပါ။ သင်၏ပင်နံပါတ်ကိုသင်မေ့သွားပါက သင်၏ Morse အကောင့်ကိုပြန်လည်မှတ်ပုံတင်သောအခါ ဒေတာဆုံးရှုံးနိုင်သည်။</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">ပင်နံပါတ်မှားနေသည်။ နောက်တစ်ကြိမ် ကြိုးစားပါ။</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">မှတ်ပုံတင်ခြင်းသော့ခတ်ရန် မအောင်မြင်ပါ</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">မှတ်ပုံတင်ခြင်းသော့ခတ်မှုကို ရပ်ခြင်း မအောင်မြင်ပါ</string>
@@ -2372,19 +2372,19 @@
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">သင်သည် အကြိမ်များစွာ ကြိုးစားပြီးပါပြီ၊ နောင်အခါမှ ပြန်လည်ကြိုးစားပါ။</string>
   <string name="RegistrationActivity_error_connecting_to_service">ဝန်ဆောင်မှုနှင့် ဆက်သွယ်ရာတွင် အခက်အခဲဖြစ်နေသည်</string>
   <string name="preferences_chats__backups">အရန်သိမ်းဆည်းမှုများ</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal လော့ကျနေပါသည်</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Morse လော့ကျနေပါသည်</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">လော့ခ်ဖြည်ရန် စကင်ရင်ကို နှိပ်ပါ</string>
   <string name="Recipient_unknown">အမျိုးအမည်မသိ</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">အကောင့် လွှဲပြောင်းမယ် သို့ ပြန်လည်ရယူမယ်</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">သင် ယခင်က Signal အကောင့်ပြုလုပ်ခဲ့ဖူးလျှင် သင့်အကောင့်မှ မက်ဆေ့များ လွှဲပြောင်း သို့မဟုတ် ပြန်လည်ရယူ နိုင်ပါသည်။</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">သင် ယခင်က Morse အကောင့်ပြုလုပ်ခဲ့ဖူးလျှင် သင့်အကောင့်မှ မက်ဆေ့များ လွှဲပြောင်း သို့မဟုတ် ပြန်လည်ရယူ နိုင်ပါသည်။</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Android စက်မှ လွှဲပြောင်းမယ်</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Android စက်အဟောင်းမှ အကောင့်နှင့် မက်ဆေ့များ လွှဲပြောင်းပါ။​ သင့် စက်အဟောင်းအား အသုံးပြုခွင့် လိုအပ်ပါသည်။</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">သင့် စက်အဟောင်းအား အသုံးပြုခွင့် လိုအပ်ပါသည်။</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">နောက်ခံအရန်မှ ပြန်လည်ရယူမယ်</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">လိုကယ် နောက်ခံအရန်မှ သင့်မက်ဆေ့ချ်များ ပြန်လည်ရယူပါ။ ယခု ပြန်လည်မရယူလျှင် နောက်မှပြန်လည်မရယူနိုင်ပါ။</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">သင့် Android ဖုန်းအဟောင်းပေါ်တွင် Signal ဖွင့်ပါ</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">သင့် Android ဖုန်းအဟောင်းပေါ်တွင် Morse ဖွင့်ပါ</string>
   <string name="NewDeviceTransferInstructions__continue">ဆက်လက်ရန်</string>
   <string name="NewDeviceTransferInstructions__first_bullet">၁။</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">ထိပ်ဘယ်ဘက်၌ရှိသော သင့်ပရိုဖိုင်းပုံပေါ်အား နှိပ်၍ အပြင်အဆင်သို့သွားနိုင်ပါသည်</string>
@@ -2395,18 +2395,18 @@
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Android စက်အဟောင်းနှင့် ချိတ်ဆက်ရန် ပြင်ဆင်နေပါသည်…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">အချိန်ခဏယူနေပါသည်၊ မကြာမီရရှိပါမည်</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Android စက်အဟောင်းဖြင့် ချိတ်ရန် စောင့်နေပါသည်…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">သင့် Android စက်အဟောင်းဖြင့် ချိတ်ရန် Signal မှ တည်နေရာရှာဖွေခွင့် လိုအပ်ပါသည်။</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">သင့် Android စက်အဟောင်းဖြင့် ချိတ်ရန် Signal မှ တည်နေရာဝန်ဆောင်မှုများ ဖွင့်ထားရန် လိုအပ်ပါသည်။</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">သင့် Android စက်အဟောင်းအား ရှာဖွေချိတ်ဆက်ရန် Signal မှ ဝိုင်ဖိုင်ဖွင့်ထားခြင်း လိုအပ်ပါသည်။ ဝိုင်ဖိုင်ဖွင့်ထားရန်သာ လိုအပ်ပြီး ဝိုင်ဖိုင်လိုင်းပေါ်တက်ခြင်း မလိုအပ်ပါ။</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">တောင်းပန်ပါသည်၊ ကြည့်ရတာ ဤစက်သည် ဝိုင်ဖိုင်တိုက်ရိုက် ဝန်ဆောင်မှုအား မပံ့ပိုးပါ။ သင့် Android စက်အဟောင်းအား ရှာဖွေချိတ်ဆက်ရန် Signal မှ ဝိုင်ဖိုင်တိုက်ရိုက် အသုံးပြုရပါသည်။  သင့် Android စက်အဟောင်းမှ အကောင့်အား ပြန်လည်ရယူရန် နောက်ခံအရန်အား ပြန်လည်တည်ထောင်နိုင်ပါသည်။</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">သင့် Android စက်အဟောင်းဖြင့် ချိတ်ရန် Morse မှ တည်နေရာရှာဖွေခွင့် လိုအပ်ပါသည်။</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">သင့် Android စက်အဟောင်းဖြင့် ချိတ်ရန် Morse မှ တည်နေရာဝန်ဆောင်မှုများ ဖွင့်ထားရန် လိုအပ်ပါသည်။</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">သင့် Android စက်အဟောင်းအား ရှာဖွေချိတ်ဆက်ရန် Morse မှ ဝိုင်ဖိုင်ဖွင့်ထားခြင်း လိုအပ်ပါသည်။ ဝိုင်ဖိုင်ဖွင့်ထားရန်သာ လိုအပ်ပြီး ဝိုင်ဖိုင်လိုင်းပေါ်တက်ခြင်း မလိုအပ်ပါ။</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">တောင်းပန်ပါသည်၊ ကြည့်ရတာ ဤစက်သည် ဝိုင်ဖိုင်တိုက်ရိုက် ဝန်ဆောင်မှုအား မပံ့ပိုးပါ။ သင့် Android စက်အဟောင်းအား ရှာဖွေချိတ်ဆက်ရန် Morse မှ ဝိုင်ဖိုင်တိုက်ရိုက် အသုံးပြုရပါသည်။  သင့် Android စက်အဟောင်းမှ အကောင့်အား ပြန်လည်ရယူရန် နောက်ခံအရန်အား ပြန်လည်တည်ထောင်နိုင်ပါသည်။</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">နောက်ခံအရန်အား ပြန်လည်တည်ထောင်မယ်</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">သင့် Android စက်အဟောင်းဖြင့် ချိတ်ရန်ကြိုးစားနေစဥ် မမျှော်လင့်ထားသော ချို့ယွင်းချက်တစ်ခု ဖြစ်ခဲ့ပါသည်။</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Android စက်အသစ်အား ရှာဖွေနေပါသည်…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">သင့် Android စက်အသစ်ဖြင့် ချိတ်ရန် Signal မှ တည်နေရာအသုံးပြုရန်ခွင့် လိုအပ်ပါသည်။</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">သင့် Android စက်အသစ်ဖြင့် ချိတ်ရန် Signal မှ တည်နေရာဝန်ဆောင်မှုများ ဖွင့်ထားရန် လိုအပ်ပါသည်။</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">သင့် Android စက်အသစ်အား ရှာဖွေချိတ်ဆက်ရန် Signal မှ ဝိုင်ဖိုင်ဖွင့်ထားခြင်း လိုအပ်ပါသည်။ ဝိုင်ဖိုင်ဖွင့်ထားရန်သာ လိုအပ်ပြီး ဝိုင်ဖိုင်လိုင်းပေါ်တက်ခြင်း မလိုအပ်ပါ။</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">တောင်းပန်ပါသည်၊ ကြည့်ရတာ ဤစက်သည် ဝိုင်ဖိုင်တိုက်ရိုက် ဝန်ဆောင်မှုအား မပံ့ပိုးပါ။ သင့် Android စက်အသစ်အား ရှာဖွေချိတ်ဆက်ရန် Signal မှ ဝိုင်ဖိုင်တိုက်ရိုက် အသုံးပြုရပါသည်။ သင့် Android စက်အသစ်မှ အကောင့်အား ပြန်လည်ရယူရန် နောက်ခံအရန်အား တည်ထောင်နိုင်ပါသည်။</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">သင့် Android စက်အသစ်ဖြင့် ချိတ်ရန် Morse မှ တည်နေရာအသုံးပြုရန်ခွင့် လိုအပ်ပါသည်။</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">သင့် Android စက်အသစ်ဖြင့် ချိတ်ရန် Morse မှ တည်နေရာဝန်ဆောင်မှုများ ဖွင့်ထားရန် လိုအပ်ပါသည်။</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">သင့် Android စက်အသစ်အား ရှာဖွေချိတ်ဆက်ရန် Morse မှ ဝိုင်ဖိုင်ဖွင့်ထားခြင်း လိုအပ်ပါသည်။ ဝိုင်ဖိုင်ဖွင့်ထားရန်သာ လိုအပ်ပြီး ဝိုင်ဖိုင်လိုင်းပေါ်တက်ခြင်း မလိုအပ်ပါ။</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">တောင်းပန်ပါသည်၊ ကြည့်ရတာ ဤစက်သည် ဝိုင်ဖိုင်တိုက်ရိုက် ဝန်ဆောင်မှုအား မပံ့ပိုးပါ။ သင့် Android စက်အသစ်အား ရှာဖွေချိတ်ဆက်ရန် Morse မှ ဝိုင်ဖိုင်တိုက်ရိုက် အသုံးပြုရပါသည်။ သင့် Android စက်အသစ်မှ အကောင့်အား ပြန်လည်ရယူရန် နောက်ခံအရန်အား တည်ထောင်နိုင်ပါသည်။</string>
   <string name="OldDeviceTransferSetup__create_a_backup">နောက်ခံအရန်အား တည်ထောင်မယ်</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">သင့် Android စက်အသစ်ဖြင့် ချိတ်ရန်ကြိုးစားနေစဥ် မမျှော်လင့်ထားသော ချို့ယွင်းချက်တစ်ခု ဖြစ်ခဲ့ပါသည်။</string>
   <!--DeviceTransferSetupFragment-->
@@ -2441,10 +2441,10 @@
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">သင့် တခြားစက်ပေါ်တွင် \"ဆက်လုပ်ရန်\" ခလုတ်အားနှိပ်၍ လွှဲပြောင်းမှု စတင်လိုက်ပါ။</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">သင့် တခြားစက်ပေါ်တွင် \"ဆက်လုပ်ရန်\" နှိပ်ပါ…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Signal ဗားရှင်းအသစ်များမှ မလွှဲပြောင်းနိုင်ပါ</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Morse ဗားရှင်းအသစ်များမှ မလွှဲပြောင်းနိုင်ပါ</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">ဒေတာများ လွှဲပြောင်းနေပါသည်</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">စက် ၂ ခုလုံးအား နီးကပ်စွာ ထားရှိပေးပါ။ စက်များမပိတ်၍ Signal အားဖွင့်ထားပါ။ လွှဲပြောင်းမှုများကို အစအဆုံး ကုဒ်ဖြင့်ပြောင်းလဲထားပါသည်။</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">စက် ၂ ခုလုံးအား နီးကပ်စွာ ထားရှိပေးပါ။ စက်များမပိတ်၍ Morse အားဖွင့်ထားပါ။ လွှဲပြောင်းမှုများကို အစအဆုံး ကုဒ်ဖြင့်ပြောင်းလဲထားပါသည်။</string>
   <string name="DeviceTransfer__d_messages_so_far">မက်ဆေ့ %1$d ခု လုပ်ဆောင်ပြီး…</string>
   <string name="DeviceTransfer__cancel">ပယ်ဖျက်မယ်</string>
   <string name="DeviceTransfer__try_again">ထပ်မံကြိုးစားမည် </string>
@@ -2455,9 +2455,9 @@
   <string name="DeviceTransfer__unable_to_transfer">လွှဲပြောင်း၍ မရပါ</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">အကောင့်ကို လွှဲပြောင်းမယ်</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Android စက်အသစ်ပေါ်တွင် Signal တင်သွင်းလျှင် သင့် Signal အကောင့်အား လွှဲပြောင်းနိုင်ပါသည်။ ဆက်မလုပ်မီ -</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Android စက်အသစ်ပေါ်တွင် Morse တင်သွင်းလျှင် သင့် Morse အကောင့်အား လွှဲပြောင်းနိုင်ပါသည်။ ဆက်မလုပ်မီ -</string>
   <string name="OldDeviceTransferInstructions__first_bullet">၁။</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">သင့် Android စက်အသစ်ပေါ်သို့ Signal ဒေါင်းလုပ်ဆွဲပါ</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">သင့် Android စက်အသစ်ပေါ်သို့ Morse ဒေါင်းလုပ်ဆွဲပါ</string>
   <string name="OldDeviceTransferInstructions__second_bullet">၂။</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">\"အကောင့် လွှဲပြောင်းမယ် သို့ ပြန်လည်ရယူမယ်\" ကိုနှိပ်ပါ</string>
   <string name="OldDeviceTransferInstructions__third_bullet">၃။</string>
@@ -2466,7 +2466,7 @@
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">လွှဲပြောင်းမှု ပြီးဆုံးပြီ</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">သင့် စက်အသစ်စီသို့ သွားပါ</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">သင့် စက်အသစ်ပေါ်သို့ သင့် Signal အကောင့်အား လွှဲပြောင်းပြီးပါပြီ။ သို့သော်လည်း လွှဲပြောင်းခြင်းပြီးစီးရန် သင့် စက်အသစ်ပေါ်တွင် လော့အင်ဝင်ရပါမည်။</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">သင့် စက်အသစ်ပေါ်သို့ သင့် Morse အကောင့်အား လွှဲပြောင်းပြီးပါပြီ။ သို့သော်လည်း လွှဲပြောင်းခြင်းပြီးစီးရန် သင့် စက်အသစ်ပေါ်တွင် လော့အင်ဝင်ရပါမည်။</string>
   <string name="OldDeviceTransferComplete__close">ပိတ်မယ်</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">လွှဲပြောင်းခြင်း အောင်မြင်သည်</string>
@@ -2483,7 +2483,7 @@
   <string name="DeviceToDeviceTransferService_status_service_connected">အကောင့်အား လွှဲပြောင်းနေသည်…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">သင့် စက်အသစ်ပေါ်တွင် လော့အင်ဝင်ခြင်း ပြီးဆုံးပေးပါ။</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">သင့် စက်အသစ်ပေါ်သို့ သင့် Signal အကောင့်အား လွှဲပြောင်းပြီးပါပြီ။ သို့သော်လည်း သင်သည် လော့အင်ဝင်ခြင်း ပြီးဆုံးရပါမည်။ ဤစက်ပေါ်တွင် Signal အလုပ်မဝင်တော့ပါ။</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">သင့် စက်အသစ်ပေါ်သို့ သင့် Morse အကောင့်အား လွှဲပြောင်းပြီးပါပြီ။ သို့သော်လည်း သင်သည် လော့အင်ဝင်ခြင်း ပြီးဆုံးရပါမည်။ ဤစက်ပေါ်တွင် Morse အလုပ်မဝင်တော့ပါ။</string>
   <string name="OldDeviceTransferLockedDialog__done">ပြီးပြီ </string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">ပယ်ဖျက်ပြီး ဤစက်အား ဖွင့်မယ်</string>
   <!--AdvancedPreferenceFragment-->
@@ -2517,12 +2517,12 @@
   <string name="GroupsLearnMore_what_are_legacy_groups">အမွေအဖွဲ့ ဆိုတာ ဘာပါလဲ?</string>
   <string name="GroupsLearnMore_paragraph_1">အမွေအဖွဲ့များသည် အဖွဲ့အသစ်များ၌ စီမံသူများ နှင့် အဖွဲ့ဖော်ပြချက်များကဲ့သို့ အင်္ဂါရပ်များနှင့် မလိုက်လျောသော အဖွဲ့များဖြစ်သည်။</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">အမွေအဖွဲ့ကို အဆင့်မြှင့်လို့ရမလား?</string>
-  <string name="GroupsLearnMore_paragraph_2">အမွေအဖွဲ့များကို အဖွဲ့သစ်များသို့ အဆင့်မြှင့်တင်၍ မရပါ၊ သို့သော် အကယ်၍ နောက်ဆုံး Signal ဗားရှင်းရှိလျှင်အဖွဲ့ ၀င်များအတူတူပင် အဖွဲ့သစ်တစ်ခုကိုသင် ဖန်တီးနိုင်သည်</string>
-  <string name="GroupsLearnMore_paragraph_3">အနာဂတ်၌ အမွေအဖွဲ့များ အဆင့်မြှင့်တင်ရန်အတွက် Signal ကကမ်းလှမ်းလိမ့်မည်</string>
+  <string name="GroupsLearnMore_paragraph_2">အမွေအဖွဲ့များကို အဖွဲ့သစ်များသို့ အဆင့်မြှင့်တင်၍ မရပါ၊ သို့သော် အကယ်၍ နောက်ဆုံး Morse ဗားရှင်းရှိလျှင်အဖွဲ့ ၀င်များအတူတူပင် အဖွဲ့သစ်တစ်ခုကိုသင် ဖန်တီးနိုင်သည်</string>
+  <string name="GroupsLearnMore_paragraph_3">အနာဂတ်၌ အမွေအဖွဲ့များ အဆင့်မြှင့်တင်ရန်အတွက် Morse ကကမ်းလှမ်းလိမ့်မည်</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">၎င်းလင့်ခ်ဖြင့် မည်သူမဆို အဖွဲ့၏အမည်နှင့်ဓာတ်ပုံကိုကြည့်ပြီး အဖွဲ့ထဲဝင်ရန် တောင်းဆိုနိုင်သည်။ သင်ယုံကြည်ရသောလူများနှင့် မျှဝေပါ။</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">ဤလင့်ခ်ဖြင့် မည်သူမဆို အဖွဲ့၏ အမည်နှင့်ဓာတ်ပုံကိုကြည့်ပြီး အဖွဲ့ထဲဝင်ရောက်နိုင်သည်။ သင်ယုံကြည်ရသောလူများနှင့်မျှဝေပါ။</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Signal မှတဆင့်မျှဝေမည်</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Morse မှတဆင့်မျှဝေမည်</string>
   <string name="GroupLinkBottomSheet_copy">ကူးမည်</string>
   <string name="GroupLinkBottomSheet_qr_code">QR ကုဒ်</string>
   <string name="GroupLinkBottomSheet_share">ဝေမျှမည်</string>
@@ -2585,7 +2585,7 @@
   <string name="DeleteAccountFragment__no_number">နံပါတ်သတ်မှတ်ထားခြင်း မရှိပါ</string>
   <string name="DeleteAccountFragment__the_phone_number">သင်ရိုက်ထည့်ထားသော ဖုန်းနံပါတ်သည် သင့်အကောင့်အတွင်းရှိ နံပါတ်နှင့် မကိုက်ညီပါ။</string>
   <string name="DeleteAccountFragment__are_you_sure">သင့်အကောင့်ကို ဖျက်သိမ်းချင်သည်မှာသေချာပါသလား?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">ဤလုပ်ဆောင်ချက်သည် သင့် Signal အကောင့်ကို ဖျက်သိမ်းပြီး အပ္ပလီကေးရှင်းကို ရီစက် ​(reset) ချပါမည်။​ ၎င်း အပ္ပလီကေးရှင်းသည် ဤလုပ်ဆောင်မှုပြီးလျှင် ပိတ်သွားပါမည်။</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">ဤလုပ်ဆောင်ချက်သည် သင့် Morse အကောင့်ကို ဖျက်သိမ်းပြီး အပ္ပလီကေးရှင်းကို ရီစက် ​(reset) ချပါမည်။​ ၎င်း အပ္ပလီကေးရှင်းသည် ဤလုပ်ဆောင်မှုပြီးလျှင် ပိတ်သွားပါမည်။</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">အကောင့်ဖျက်ခြင်း မအောင်မြင်ပါ။ သင့်တွင် လိုင်းချိတ်ဆက်မှု ရှိပါသလား?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">စက်တွင်းရှိဒေတာဖျက်ခြင်း မအောင်မြင်ပါ။ စနစ် အပ္ပလီကေးရှင်း အပြင်အဆင်များထဲတွင် သင်ကိုယ်တိုင်သွား ရှင်းနိုင်ပါသည်။</string>
   <string name="DeleteAccountFragment__launch_app_settings">ဖုန်းဆက်တင်ကိုဖွင့်မည်</string>
@@ -2596,7 +2596,7 @@
   <!--ShareActivity-->
   <string name="ShareActivity__share">ဝေမျှမည်</string>
   <string name="ShareActivity__send">ပေးပို့မည်</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">စကားပြောဆိုမှုပေါင်းစုံများနှင့် ဝေမျှခြင်းအတွက် Signal မက်ဆေ့ချ်များကိုသာ ပံ့ပိုးပါသည်</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">စကားပြောဆိုမှုပေါင်းစုံများနှင့် ဝေမျှခြင်းအတွက် Morse မက်ဆေ့ချ်များကိုသာ ပံ့ပိုးပါသည်</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">အသုံးပြုသူများသို့ပေးပို့ရန်မအောင်မြင်ပါ</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">စကားပြောဆိုမှု %1$d ခုထိသာ မျှဝေနိုင်ပါသည်</string>
@@ -2634,7 +2634,7 @@
   <string name="payment_info_card_about_mobilecoin">MobileCoin အကြောင်း</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin သည် ပုဂ္ဂိုလ်လုံခြုံရေးကို အလေးထားသော ဒစ်ဂျစ်တယ်ငွေကြေးအသစ် ဖြစ်ပါသည်။</string>
   <string name="payment_info_card_adding_funds">ငွေဖြည့်နေသည်</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">သင့် ပိုက်ဆံအိတ် wallet လိပ်စာသို့ MobileCoin ပို့၍ Signal တွင် သုံးရန် ငွေဖြည့်နိုင်ပါသည်။</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">သင့် ပိုက်ဆံအိတ် wallet လိပ်စာသို့ MobileCoin ပို့၍ Morse တွင် သုံးရန် ငွေဖြည့်နိုင်ပါသည်။</string>
   <string name="payment_info_card_cashing_out">ငွေထုတ်ယူခြင်း</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">မည်သည့်အချိတ်မဆို MobileCoin ပံ့ပိုးသော ငွေလဲလှယ်သည့်နေရာတွင် MobileCoin ငွေထုတ်ယူလို့ရပါသည်။ ၎င်းငွေလဲလှယ်သည့်နေရာတွင် သင့်အကောင့်သို့ လွှဲလိုက်ပါ။</string>
   <string name="payment_info_card_hide_this_card">၎င်းကဒ်ကို ပုန်းမည်လား?</string>
@@ -2648,18 +2648,18 @@
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">ပိုက်ဆံအိတ် Wallet ကို ပိတ်မယ်</string>
   <string name="DeactivateWalletFragment__your_balance">သင့်လက်ကျန်ငွေ</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">ပိုက်ဆံအိတ် Wallet ကို မပိတ်မီ အခြား ပိုက်ဆံအိတ် Wallet သို့ သင့်ငွေများကို လွှဲထားရန် အကြံပြုပါသည်။ ယခု မလွှဲထားလျှင် သင်မှ ငွေပေးချေမှုများ ပြန်ဖွင်ခဲ့သည့်အချိန်တွင် ၎င်းငွေများသည် Signal နှင့်ချိတ်ထားသော ပိုက်ဆံအိတ် Wallet တွင်ကျန်ရှိနေပါမည်။ </string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">ပိုက်ဆံအိတ် Wallet ကို မပိတ်မီ အခြား ပိုက်ဆံအိတ် Wallet သို့ သင့်ငွေများကို လွှဲထားရန် အကြံပြုပါသည်။ ယခု မလွှဲထားလျှင် သင်မှ ငွေပေးချေမှုများ ပြန်ဖွင်ခဲ့သည့်အချိန်တွင် ၎င်းငွေများသည် Morse နှင့်ချိတ်ထားသော ပိုက်ဆံအိတ် Wallet တွင်ကျန်ရှိနေပါမည်။ </string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">ကျန်ရှိသောလက်ကျန်ငွေကို လွှဲပြောင်းမယ်</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">မလွှဲဘဲ ပိတ်ပါမယ်</string>
   <string name="DeactivateWalletFragment__deactivate">ပိတ်မယ်</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">မလွှဲဘဲ ပိတ်မည်လား?</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">သင်မှ ငွေပေးချေမှုများကို ပြန်ဖွင့်ခဲ့လျှင် သင့် လက်ကျန်ငွေသည် Signal နှင့် ချိတ်ထားသော သင့်ပိုက်ဆံအိတ် wallet ထဲတွင် ကျန်ရှိနေပါမည်။</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">သင်မှ ငွေပေးချေမှုများကို ပြန်ဖွင့်ခဲ့လျှင် သင့် လက်ကျန်ငွေသည် Morse နှင့် ချိတ်ထားသော သင့်ပိုက်ဆံအိတ် wallet ထဲတွင် ကျန်ရှိနေပါမည်။</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">ပိုက်ဆံအိတ် wallet ပိတ်ခြင်းတွင် ပျက်ကွက်မှုဖြစ်</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">ပြန်လည်ရယူရန် စာပုဒ်တို</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">ပြန်လည်ရယူရန် စာပုဒ်တိုကို ကြည့်ရှုမယ်</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">ပြန်လည်ရယူ စာပုဒ်တိုကို ရိုက်ထည့်ပါ</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Signal ပြန်တင်သွင်းသည့်အချိန်တွင် သင်မှသင့် Signal ပင်နံပါတ်ကို အတည်ပြုခဲ့လျှင် သင့် လက်ကျန်ငွေကို အလိုအလျောက်ပြန်လည် ရရှိပါမည်။ ပြန်လည်ရယူရန် စာပုဒ်တိုဖြင့်လည်း သင့်လက်ကျန်ငွေကို ပြန်ရယူနိုင်ပါသည်။ ၎င်းသည် သင့်အတွက်သာ ထူးခြားသာ စာလုံး %1$d လုံး ရှိသော စာပုဒ်တိုဖြစ်ပါသည်။ ရေးသားမှတ်ထားပြီး လုံခြုံသောတစ်နေရာတွင် ဝှက်ထားပါ။</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Morse ပြန်တင်သွင်းသည့်အချိန်တွင် သင်မှသင့် Morse ပင်နံပါတ်ကို အတည်ပြုခဲ့လျှင် သင့် လက်ကျန်ငွေကို အလိုအလျောက်ပြန်လည် ရရှိပါမည်။ ပြန်လည်ရယူရန် စာပုဒ်တိုဖြင့်လည်း သင့်လက်ကျန်ငွေကို ပြန်ရယူနိုင်ပါသည်။ ၎င်းသည် သင့်အတွက်သာ ထူးခြားသာ စာလုံး %1$d လုံး ရှိသော စာပုဒ်တိုဖြစ်ပါသည်။ ရေးသားမှတ်ထားပြီး လုံခြုံသောတစ်နေရာတွင် ဝှက်ထားပါ။</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">သင်၏ ပြန်လည်ရယူရန် စာပုဒ်တိုသည် သင့်အတွက်သာ ထူးခြားသော  စကားလုံး %1$d လုံးရှိသော စာပုဒ်တိုဖြစ်ပါသည်။ ၎င်းစာပုဒ်တိုကိုသုံး၍ သင့် လက်ကျန်ငွေ ပြန်ရယူလိုက်ပါ။</string>
   <string name="PaymentsRecoveryStartFragment__start">စမယ်</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">ကိုယ်တိုင်ရိုက်ထည့်ပါ</string>
@@ -2743,7 +2743,7 @@
   <string name="NotificationsSettingsFragment__messages">မက်ဆေ့ချ်များ</string>
   <string name="NotificationsSettingsFragment__calls">ဖုန်းခေါ်ဆိုမှုများ</string>
   <string name="NotificationsSettingsFragment__notify_when">ဖြစ်ခဲ့လျှင် အသိပေးပါ…</string>
-  <string name="NotificationsSettingsFragment__contact_joins_signal">အဆက်အသွယ်သည် Signal ပေါ်သို့ တက်ရောက်ပါမည်။</string>
+  <string name="NotificationsSettingsFragment__contact_joins_signal">အဆက်အသွယ်သည် Morse ပေါ်သို့ တက်ရောက်ပါမည်။</string>
   <!--PrivacySettingsFragment-->
   <string name="PrivacySettingsFragment__blocked">ပိတ်ပယ်ထားသည်</string>
   <string name="PrivacySettingsFragment__messaging">မက်ဆေ့ချ်ပေးပို့ခြင်း</string>

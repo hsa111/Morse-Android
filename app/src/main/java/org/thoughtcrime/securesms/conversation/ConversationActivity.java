@@ -906,13 +906,14 @@ public class ConversationActivity extends PassphraseRequiredActivity
       if (isSecureText) inflater.inflate(R.menu.conversation_callable_secure, menu);
       else              inflater.inflate(R.menu.conversation_callable_insecure, menu);
     } else if (isGroupConversation()) {
-      if (isActiveV2Group && Build.VERSION.SDK_INT > 19) {
-        inflater.inflate(R.menu.conversation_callable_groupv2, menu);
-        if (groupCallViewModel != null && Boolean.TRUE.equals(groupCallViewModel.hasActiveGroupCall().getValue())) {
-          hideMenuItem(menu, R.id.menu_video_secure);
-        }
-        showGroupCallingTooltip();
-      }
+//      if (isActiveV2Group && Build.VERSION.SDK_INT > 19) {
+//        inflater.inflate(R.menu.conversation_callable_groupv2, menu);
+////        if (groupCallViewModel != null && Boolean.TRUE.equals(groupCallViewModel.hasActiveGroupCall().getValue())) {
+////          hideMenuItem(menu, R.id.menu_video_secure);
+////        }
+//        hideMenuItem(menu, R.id.menu_video_secure);
+//        showGroupCallingTooltip();
+//      }
 
       inflater.inflate(R.menu.conversation_group_options, menu);
 
@@ -2312,6 +2313,10 @@ public class ConversationActivity extends PassphraseRequiredActivity
   }
 
   private void showGroupCallingTooltip() {
+    if (true){
+      return;
+    }
+
     if (Build.VERSION.SDK_INT == 19 || !SignalStore.tooltips().shouldShowGroupCallingTooltip() || callingTooltipShown) {
       return;
     }

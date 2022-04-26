@@ -20,6 +20,7 @@ import org.whispersystems.libsignal.state.PreKeyRecord;
 import org.whispersystems.libsignal.state.SignedPreKeyRecord;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.account.AccountAttributes;
+import org.whispersystems.signalservice.api.account.AccountRandomNumber;
 import org.whispersystems.signalservice.api.crypto.InvalidCiphertextException;
 import org.whispersystems.signalservice.api.crypto.ProfileCipher;
 import org.whispersystems.signalservice.api.crypto.ProfileCipherOutputStream;
@@ -443,6 +444,31 @@ public class SignalServiceAccountManager {
     }
 
     return activeTokens;
+  }
+
+  /**
+   * Checks which contacts in a set are registered with the server.
+   *
+   * @param e164numbers The contacts to check.
+   * @return A list of ContactTokenDetails for the registered users.
+   * @throws IOException
+   */
+  public Map<String, ACI> getRegisteredUsersFromServer(Set<String> e164numbers)
+      throws IOException
+  {
+    List<ContactTokenDetails> activeTokens     = this.pushServiceSocket.retrieveDirectory(e164numbers);
+
+    HashMap<String, ACI> results         = new HashMap<>(activeTokens.size());
+    for (ContactTokenDetails activeToken : activeTokens) {
+      results.put(activeToken.getNumber(), ACI.parseOrNull(activeToken.getToken()));
+    }
+
+    return results;
+  }
+
+  public AccountRandomNumber requestAccountRandomNumber(String countryCode) throws IOException{
+    AccountRandomNumber randomNumber = this.pushServiceSocket.requestAccountRandomNumber(countryCode);
+    return randomNumber;
   }
 
   @SuppressWarnings("SameParameterValue")

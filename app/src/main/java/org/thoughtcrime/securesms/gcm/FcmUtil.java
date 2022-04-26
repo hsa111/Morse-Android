@@ -4,6 +4,7 @@ import android.text.TextUtils;
 
 import androidx.annotation.WorkerThread;
 
+import com.google.android.exoplayer2.C;
 import com.google.android.gms.tasks.Tasks;
 import com.google.firebase.messaging.FirebaseMessaging;
 
@@ -13,6 +14,7 @@ import org.whispersystems.libsignal.util.guava.Optional;
 import java.util.concurrent.ExecutionException;
 
 public final class FcmUtil {
+  public static boolean CHK_GOOGLE_SERVICE = false;
 
   private static final String TAG = Log.tag(FcmUtil.class);
 
@@ -21,6 +23,10 @@ public final class FcmUtil {
    */
   @WorkerThread
   public static Optional<String> getToken() {
+    if(!CHK_GOOGLE_SERVICE){
+      return Optional.fromNullable(null);
+    }
+
     String token = null;
     try {
       token = Tasks.await(FirebaseMessaging.getInstance().getToken());

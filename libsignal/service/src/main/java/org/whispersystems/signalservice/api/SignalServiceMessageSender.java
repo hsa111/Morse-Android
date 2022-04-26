@@ -550,11 +550,13 @@ public class SignalServiceMessageSender {
                                                                  attachment.getCancelationSignal(),
                                                                  attachment.getResumableUploadSpec().orNull());
 
-    if (attachment.getResumableUploadSpec().isPresent()) {
-      return uploadAttachmentV3(attachment, attachmentKey, attachmentData);
-    } else {
-      return uploadAttachmentV2(attachment, attachmentKey, attachmentData);
-    }
+    return uploadAttachmentV2(attachment, attachmentKey, attachmentData);
+
+//    if (attachment.getResumableUploadSpec().isPresent()) {
+//      return uploadAttachmentV3(attachment, attachmentKey, attachmentData);
+//    } else {
+//      return uploadAttachmentV2(attachment, attachmentKey, attachmentData);
+//    }
   }
 
   private SignalServiceAttachmentPointer uploadAttachmentV2(SignalServiceAttachmentStream attachment, byte[] attachmentKey, PushAttachmentData attachmentData)
@@ -598,21 +600,23 @@ public class SignalServiceMessageSender {
   public ResumableUploadSpec getResumableUploadSpec() throws IOException {
     AttachmentV3UploadAttributes       v3UploadAttributes = null;
 
-    Log.d(TAG, "Using pipe to retrieve attachment upload attributes...");
-    try {
-      v3UploadAttributes = new AttachmentService.AttachmentAttributesResponseProcessor<>(attachmentService.getAttachmentV3UploadAttributes().blockingGet()).getResultOrThrow();
-    } catch (WebSocketUnavailableException e) {
-      Log.w(TAG, "[getResumableUploadSpec] Pipe unavailable, falling back... (" + e.getClass().getSimpleName() + ": " + e.getMessage() + ")");
-    } catch (IOException e) {
-      Log.w(TAG, "Failed to retrieve attachment upload attributes using pipe. Falling back...");
-    }
+    return null;
 
-    if (v3UploadAttributes == null) {
-      Log.d(TAG, "Not using pipe to retrieve attachment upload attributes...");
-      v3UploadAttributes = socket.getAttachmentV3UploadAttributes();
-    }
-
-    return socket.getResumableUploadSpec(v3UploadAttributes);
+//    Log.d(TAG, "Using pipe to retrieve attachment upload attributes...");
+//    try {
+//      v3UploadAttributes = new AttachmentService.AttachmentAttributesResponseProcessor<>(attachmentService.getAttachmentV3UploadAttributes().blockingGet()).getResultOrThrow();
+//    } catch (WebSocketUnavailableException e) {
+//      Log.w(TAG, "[getResumableUploadSpec] Pipe unavailable, falling back... (" + e.getClass().getSimpleName() + ": " + e.getMessage() + ")");
+//    } catch (IOException e) {
+//      Log.w(TAG, "Failed to retrieve attachment upload attributes using pipe. Falling back...");
+//    }
+//
+//    if (v3UploadAttributes == null) {
+//      Log.d(TAG, "Not using pipe to retrieve attachment upload attributes...");
+//      v3UploadAttributes = socket.getAttachmentV3UploadAttributes();
+//    }
+//
+//    return socket.getResumableUploadSpec(v3UploadAttributes);
   }
 
   private SignalServiceAttachmentPointer uploadAttachmentV3(SignalServiceAttachmentStream attachment, byte[] attachmentKey, PushAttachmentData attachmentData) throws IOException {

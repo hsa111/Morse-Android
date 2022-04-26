@@ -259,8 +259,8 @@
             <action android:name="android.intent.action.VIEW" />
             <category android:name="android.intent.category.DEFAULT" />
             <category android:name="android.intent.category.BROWSABLE" />
-            <data android:scheme="sgnl"
-                  android:host="signal.group" />
+            <data android:scheme="mrse"
+                  android:host="morse-group.devplusone.com" />
         </intent-filter>
 
         <intent-filter android:autoVerify="true"
@@ -269,7 +269,7 @@
             <category android:name="android.intent.category.DEFAULT" />
             <category android:name="android.intent.category.BROWSABLE" />
             <data android:scheme="https"
-                  android:host="signal.group"/>
+                  android:host="morse.group.devplusone.com"/>
         </intent-filter>
 
         <intent-filter>

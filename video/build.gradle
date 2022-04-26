@@ -3,7 +3,6 @@ apply plugin: 'witness'
 apply from: 'witness-verifications.gradle'
 
 android {
-    buildToolsVersion BUILD_TOOL_VERSION
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

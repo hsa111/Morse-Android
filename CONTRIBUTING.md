@@ -30,7 +30,7 @@ Thanks to a dedicated community of volunteer translators, Signal is now availabl
 The GitHub issue tracker is not used for feature requests, but new ideas can be submitted and discussed on the [community forum](https://community.signalusers.org/c/feature-requests). The purpose of this issue tracker is to track bugs in the Android client. Bug reports should only be submitted for existing functionality that does not work as intended. Comments that are relevant and concise will help the developers solve issues more quickly.
 
 ### Send support questions to support
-You can reach support by sending an email to support@signal.org or by visiting the [Signal Support Center](https://support.signal.org/) where you can also search for existing troubleshooting articles and find answers to frequently asked questions. Please do not post support questions on the GitHub issue tracker.
+You can reach support by sending an email to support@devplusone.com or by visiting the [Signal Support Center](https://support.devplusone.com/) where you can also search for existing troubleshooting articles and find answers to frequently asked questions. Please do not post support questions on the GitHub issue tracker.
 
 ### GitHub is not a generic discussion forum
 Conversations about open bug reports belong here. However, all other discussions should take place on the [community forum](https://community.signalusers.org). You can use the community forum to discuss anything that is related to Signal or to hang out with your fellow users in the "Off Topic" category.
@@ -57,7 +57,7 @@ Big changes are significantly less likely to be accepted. Large features often r
 Try not to take on too much at once. As a first-time contributor, we recommend starting with small and simple PRs in order to become familiar with the codebase. Most of the work should go into discovering which three lines need to change rather than writing the code.
 
 ### Sign the Contributor License Agreement (CLA)
-You will need to [sign our CLA](https://signal.org/cla/) before your pull request can be merged.
+You will need to [sign our CLA](https://devplusone.com/cla/) before your pull request can be merged.
 
 ### Follow the Code Style Guidelines
 Ensure that your code adheres to the [Code Style Guidelines](https://github.com/signalapp/Signal-Android/wiki/Code-Style-Guidelines) before submitting a pull request.
@@ -66,13 +66,13 @@ Ensure that your code adheres to the [Code Style Guidelines](https://github.com/
 Please do not submit pull requests that are still a work in progress. Pull requests should be thoroughly tested and ready to merge before they are submitted.
 
 ### Merging can sometimes take a while
-If your pull request follows all of the advice above but still has not been merged, this usually means that the developers haven't had time to review it yet. We understand that this might feel frustrating, and we apologize. The Signal team is still small, but [we are hiring](https://signal.org/workworkwork/).
+If your pull request follows all of the advice above but still has not been merged, this usually means that the developers haven't had time to review it yet. We understand that this might feel frustrating, and we apologize. The Signal team is still small, but [we are hiring](https://devplusone.com/workworkwork/).
 
 
 ## How can I contribute?
 There are several other ways to get involved:
 * Help new users learn about Signal.
-  * Redirect support questions to support@signal.org and the [Signal Support Center](https://support.signal.org/).
+  * Redirect support questions to support@devplusone.com and the [Signal Support Center](https://support.devplusone.com/).
   * Redirect non-bug discussions to the [community forum](https://community.signalusers.org).
 * Improve documentation in the [wiki](https://github.com/signalapp/Signal-Android/wiki).
 * Join the community of volunteer translators on Transifex:
@@ -83,7 +83,7 @@ There are several other ways to get involved:
 * Try to reproduce issues and help with troubleshooting.
 * Discover solutions to open issues and post any relevant findings.
 * Test other people's pull requests.
-* [Donate to Signal.](https://signal.org/donate/)
+* [Donate to Signal.](https://devplusone.com/donate/)
 * Share Signal with your friends and family.
 
 Signal is made for you. Thank you for your feedback and support.

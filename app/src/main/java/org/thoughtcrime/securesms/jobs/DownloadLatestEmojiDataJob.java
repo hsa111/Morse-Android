@@ -100,6 +100,10 @@ public class DownloadLatestEmojiDataJob extends BaseJob {
 
   @Override
   protected void onRun() throws Exception {
+    if (true){
+      return;
+    }
+
     EmojiFiles.Version version       = EmojiFiles.Version.readVersion(context);
     int                localVersion  = (version != null) ? version.getVersion() : 0;
     int                serverVersion = EmojiRemote.getVersion();

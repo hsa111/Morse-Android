@@ -26,53 +26,53 @@ public final class LinkPreviewUtilTest_findValidPreviewUrls {
 
   @Test
   public void contains_a_link() {
-    LinkPreviewUtil.Links links = LinkPreviewUtil.findValidPreviewUrls("https://signal.org");
+    LinkPreviewUtil.Links links = LinkPreviewUtil.findValidPreviewUrls("https://devplusone.com");
 
     assertEquals(1, links.size());
 
-    assertTrue(links.containsUrl("https://signal.org"));
+    assertTrue(links.containsUrl("https://devplusone.com"));
   }
 
   @Test
   public void does_not_contain_link() {
-    LinkPreviewUtil.Links links = LinkPreviewUtil.findValidPreviewUrls("https://signal.org");
+    LinkPreviewUtil.Links links = LinkPreviewUtil.findValidPreviewUrls("https://devplusone.com");
 
     assertEquals(1, links.size());
 
-    assertFalse(links.containsUrl("https://signal.org/page"));
+    assertFalse(links.containsUrl("https://devplusone.com/page"));
   }
 
   @Test
   public void contains_two_links() {
-    LinkPreviewUtil.Links links = LinkPreviewUtil.findValidPreviewUrls("Links https://signal.org https://android.com");
+    LinkPreviewUtil.Links links = LinkPreviewUtil.findValidPreviewUrls("Links https://devplusone.com https://android.com");
 
     assertEquals(2, links.size());
 
-    assertTrue(links.containsUrl("https://signal.org"));
+    assertTrue(links.containsUrl("https://devplusone.com"));
     assertTrue(links.containsUrl("https://android.com"));
   }
 
   @Test
   public void link_trailing_slash_insensitivity() {
-    LinkPreviewUtil.Links links = LinkPreviewUtil.findValidPreviewUrls("Links https://signal.org/ https://android.com");
+    LinkPreviewUtil.Links links = LinkPreviewUtil.findValidPreviewUrls("Links https://devplusone.com/ https://android.com");
 
     assertEquals(2, links.size());
 
-    assertTrue(links.containsUrl("https://signal.org"));
+    assertTrue(links.containsUrl("https://devplusone.com"));
     assertTrue(links.containsUrl("https://android.com"));
-    assertTrue(links.containsUrl("https://signal.org/"));
+    assertTrue(links.containsUrl("https://devplusone.com/"));
     assertTrue(links.containsUrl("https://android.com/"));
   }
 
   @Test
   public void link_trailing_slash_insensitivity_where_last_url_has_trailing_slash() {
-    LinkPreviewUtil.Links links = LinkPreviewUtil.findValidPreviewUrls("Links https://signal.org https://android.com/");
+    LinkPreviewUtil.Links links = LinkPreviewUtil.findValidPreviewUrls("Links https://devplusone.com https://android.com/");
 
     assertEquals(2, links.size());
 
-    assertTrue(links.containsUrl("https://signal.org"));
+    assertTrue(links.containsUrl("https://devplusone.com"));
     assertTrue(links.containsUrl("https://android.com"));
-    assertTrue(links.containsUrl("https://signal.org/"));
+    assertTrue(links.containsUrl("https://devplusone.com/"));
     assertTrue(links.containsUrl("https://android.com/"));
   }
 

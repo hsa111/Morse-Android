@@ -93,7 +93,8 @@ public class PhoneNumberFormatter {
           localNumber.get().countryCode == parsedNumber.getCountryCode() &&
           NATIONAL_FORMAT_COUNTRY_CODES.contains(localNumber.get().getCountryCode()))
       {
-        return StringUtil.isolateBidi(phoneNumberUtil.format(parsedNumber, PhoneNumberUtil.PhoneNumberFormat.NATIONAL));
+        //return StringUtil.isolateBidi(phoneNumberUtil.format(parsedNumber, PhoneNumberUtil.PhoneNumberFormat.NATIONAL));
+        return StringUtil.isolateBidi(phoneNumberUtil.format(parsedNumber, PhoneNumberUtil.PhoneNumberFormat.INTERNATIONAL));
       } else {
         return StringUtil.isolateBidi(phoneNumberUtil.format(parsedNumber, PhoneNumberUtil.PhoneNumberFormat.INTERNATIONAL));
       }

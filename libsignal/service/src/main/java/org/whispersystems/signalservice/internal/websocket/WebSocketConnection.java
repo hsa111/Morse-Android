@@ -13,6 +13,7 @@ import org.whispersystems.signalservice.api.websocket.HealthMonitor;
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState;
 import org.whispersystems.signalservice.internal.configuration.SignalProxy;
 import org.whispersystems.signalservice.internal.configuration.SignalServiceConfiguration;
+import org.whispersystems.signalservice.internal.push.SSLSocketClient;
 import org.whispersystems.signalservice.internal.util.BlacklistingTrustManager;
 import org.whispersystems.signalservice.internal.util.Util;
 
@@ -120,8 +121,10 @@ public class WebSocketConnection extends WebSocketListener {
 
       Pair<SSLSocketFactory, X509TrustManager> socketFactory = createTlsSocketFactory(trustStore);
 
-      OkHttpClient.Builder clientBuilder = new OkHttpClient.Builder().sslSocketFactory(new Tls12SocketFactory(socketFactory.first()),
-                                                                                       socketFactory.second())
+      OkHttpClient.Builder clientBuilder = new OkHttpClient.Builder()
+          //.sslSocketFactory(new Tls12SocketFactory(socketFactory.first()), socketFactory.second())
+          .sslSocketFactory(SSLSocketClient.getSSLSocketFactory(), (X509TrustManager)SSLSocketClient.getTrustManager()[0])
+          .hostnameVerifier(SSLSocketClient.getHostnameVerifier())
                                                                      .connectionSpecs(Util.immutableList(ConnectionSpec.RESTRICTED_TLS))
                                                                      .readTimeout(KEEPALIVE_TIMEOUT_SECONDS + 10, TimeUnit.SECONDS)
                                                                      .dns(dns.or(Dns.SYSTEM))

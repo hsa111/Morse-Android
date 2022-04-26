@@ -50,7 +50,7 @@ public final class WifiDirect {
   }};
 
   private static final String  EXTRA_INFO_PLACEHOLDER    = "%%EXTRA_INFO%%";
-  private static final String  SERVICE_INSTANCE_TEMPLATE = "_devicetransfer" + EXTRA_INFO_PLACEHOLDER + "._signal.org";
+  private static final String  SERVICE_INSTANCE_TEMPLATE = "_devicetransfer" + EXTRA_INFO_PLACEHOLDER + "._devplusone.com";
   private static final Pattern SERVICE_INSTANCE_PATTERN  = Pattern.compile("_devicetransfer(\\._(.+))?\\._signal\\.org");
   private static final String  SERVICE_REG_TYPE          = "_presence._tcp";
 

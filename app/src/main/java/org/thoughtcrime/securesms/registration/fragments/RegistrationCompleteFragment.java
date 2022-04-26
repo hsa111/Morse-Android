@@ -1,5 +1,6 @@
 package org.thoughtcrime.securesms.registration.fragments;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -23,11 +24,13 @@ import org.thoughtcrime.securesms.jobs.ProfileUploadJob;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
 import org.thoughtcrime.securesms.pin.PinRestoreActivity;
+import org.thoughtcrime.securesms.pin.PinState;
 import org.thoughtcrime.securesms.profiles.AvatarHelper;
 import org.thoughtcrime.securesms.profiles.edit.EditProfileActivity;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.registration.RegistrationUtil;
 import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel;
+import org.thoughtcrime.securesms.util.concurrent.SimpleTask;
 
 import java.util.Arrays;
 
@@ -52,7 +55,9 @@ public final class RegistrationCompleteFragment extends LoggingFragment {
       activity.startActivity(new Intent(activity, PinRestoreActivity.class));
     } else if (!viewModel.isReregister()) {
       boolean needsProfile = Recipient.self().getProfileName().isEmpty() || !AvatarHelper.hasAvatar(activity, Recipient.self().getId());
-      boolean needsPin     = !SignalStore.kbsValues().hasPin();
+      //boolean needsPin     = !SignalStore.kbsValues().hasPin();
+      boolean needsPin     = false;
+      disablePinFeature(this.getContext());
 
       Log.i(TAG, "Pin restore flow not required." +
                  " profile name: "   + Recipient.self().getProfileName().isEmpty() +
@@ -89,4 +94,14 @@ public final class RegistrationCompleteFragment extends LoggingFragment {
     sourceIntent.putExtra("next_intent", nextIntent);
     return sourceIntent;
   }
+
+  public static void disablePinFeature(Context context){
+    SimpleTask.run(() -> {
+      PinState.onPinOptOut();
+      return null;
+    }, success -> {
+      RegistrationUtil.maybeMarkRegistrationComplete(context);
+    });
+  }
+
 }

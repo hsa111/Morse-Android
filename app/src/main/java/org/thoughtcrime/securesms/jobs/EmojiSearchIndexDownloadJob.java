@@ -95,7 +95,10 @@ public final class EmojiSearchIndexDownloadJob extends BaseJob {
 
   @Override
   protected void onRun() throws Exception {
-    OkHttpClient client = ApplicationDependencies.getOkHttpClient();
+    //do nothing
+    return;
+
+    /*OkHttpClient client = ApplicationDependencies.getOkHttpClient();
 
     Manifest manifest = downloadManifest(client);
 
@@ -117,7 +120,7 @@ public final class EmojiSearchIndexDownloadJob extends BaseJob {
     SignalStore.emojiValues().onSearchIndexUpdated(manifest.getVersion(), remoteLanguage);
     SignalStore.emojiValues().setLastSearchIndexCheck(System.currentTimeMillis());
 
-    Log.i(TAG, "Success! Now at version: " + manifest.getVersion() + ", language: " + remoteLanguage);
+    Log.i(TAG, "Success! Now at version: " + manifest.getVersion() + ", language: " + remoteLanguage);*/
   }
 
   @Override
@@ -131,14 +134,14 @@ public final class EmojiSearchIndexDownloadJob extends BaseJob {
   }
 
   private static @NonNull Manifest downloadManifest(@NonNull OkHttpClient client) throws IOException {
-    String url  = "https://updates.signal.org/dynamic/android/emoji/search/manifest.json";
+    String url  = "https://updates.devplusone.com/dynamic/android/emoji/search/manifest.json";
     String body = downloadFile(client, url);
 
     return JsonUtil.fromJson(body, Manifest.class);
   }
 
   private static @NonNull List<EmojiSearchData> downloadSearchIndex(@NonNull OkHttpClient client, int version, @NonNull String language) throws IOException {
-    String url  = "https://updates.signal.org/static/android/emoji/search/" + version + "/" + language + ".json";
+    String url  = "https://updates.devplusone.com/static/android/emoji/search/" + version + "/" + language + ".json";
     String body = downloadFile(client, url);
 
     return Arrays.asList(JsonUtil.fromJson(body, EmojiSearchData[].class));

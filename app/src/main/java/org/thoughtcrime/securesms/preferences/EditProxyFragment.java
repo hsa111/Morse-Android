@@ -76,7 +76,7 @@ public class EditProxyFragment extends Fragment {
 
     LearnMoreTextView description = view.findViewById(R.id.edit_proxy_switch_title_description);
     description.setLearnMoreVisible(true);
-    description.setOnLinkClickListener(v -> CommunicationActions.openBrowserLink(requireContext(), "https://support.signal.org/hc/articles/360056052052"));
+    description.setOnLinkClickListener(v -> CommunicationActions.openBrowserLink(requireContext(), "https://support.devplusone.com/hc/articles/360056052052"));
 
     requireActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
   }

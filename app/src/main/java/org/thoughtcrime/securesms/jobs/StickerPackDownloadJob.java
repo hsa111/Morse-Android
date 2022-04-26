@@ -102,6 +102,10 @@ public class StickerPackDownloadJob extends BaseJob {
 
   @Override
   protected void onRun() throws IOException, InvalidMessageException {
+    if (true){
+      return;
+    }
+
     if (isReferencePack && !DatabaseFactory.getAttachmentDatabase(context).containsStickerPackId(packId) && !BlessedPacks.contains(packId)) {
       Log.w(TAG, "There are no attachments with the requested packId present for this reference pack. Skipping.");
       return;

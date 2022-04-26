@@ -60,11 +60,11 @@ public class SignalServiceNetworkAccess {
 
   private static final String SERVICE_REFLECTOR_HOST = "europe-west1-signal-cdn-reflector.cloudfunctions.net";
   private static final String SERVICE_FASTLY_HOST    = "textsecure-service.whispersystems.org.global.prod.fastly.net";
-  private static final String STORAGE_FASTLY_HOST    = "storage.signal.org.global.prod.fastly.net";
-  private static final String CDN_FASTLY_HOST        = "cdn.signal.org.global.prod.fastly.net";
-  private static final String CDN2_FASTLY_HOST       = "cdn2.signal.org.global.prod.fastly.net";
-  private static final String DIRECTORY_FASTLY_HOST  = "api.directory.signal.org.global.prod.fastly.net";
-  private static final String KBS_FASTLY_HOST        = "api.backup.signal.org.global.prod.fastly.net";
+  private static final String STORAGE_FASTLY_HOST    = "storage.devplusone.com.global.prod.fastly.net";
+  private static final String CDN_FASTLY_HOST        = "cdn.devplusone.com.global.prod.fastly.net";
+  private static final String CDN2_FASTLY_HOST       = "cdn2.devplusone.com.global.prod.fastly.net";
+  private static final String DIRECTORY_FASTLY_HOST  = "api.directory.devplusone.com.global.prod.fastly.net";
+  private static final String KBS_FASTLY_HOST        = "api.backup.devplusone.com.global.prod.fastly.net";
 
   private static final ConnectionSpec GMAPS_CONNECTION_SPEC = new ConnectionSpec.Builder(ConnectionSpec.MODERN_TLS)
       .tlsVersions(TlsVersion.TLS_1_2)

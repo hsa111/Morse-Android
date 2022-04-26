@@ -80,7 +80,8 @@ public final class NumberViewState implements Parcelable {
   }
 
   public boolean isValid() {
-    return PhoneNumberFormatter.isValidNumber(getE164Number(), Integer.toString(getCountryCode()));
+    return true;
+    //return PhoneNumberFormatter.isValidNumber(getE164Number(), Integer.toString(getCountryCode()));
   }
 
   @Override

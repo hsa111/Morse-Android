@@ -14,7 +14,7 @@ include ':image-editor-app'
 include ':donations'
 include ':donations-app'
 
-project(':app').name = 'Signal-Android'
+project(':app').name = 'Morse-Android'
 project(':paging').projectDir = file('paging/lib')
 project(':paging-app').projectDir = file('paging/app')
 

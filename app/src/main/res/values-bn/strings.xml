@@ -15,17 +15,17 @@
   <string name="ApplicationPreferencesActivity_currently_s">বর্তমানে: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">আপনি এখনও কোনো পাসফ্রেজ স্থাপন করেন নি!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">পাসফ্রেজ নিষ্ক্রিয় করবেন?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">এটি স্থায়ীভাবে Signal এবং বার্তা নোটিফিকেশনগুলিকে আনলক করবে।</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">এটি স্থায়ীভাবে Morse এবং বার্তা নোটিফিকেশনগুলিকে আনলক করবে।</string>
   <string name="ApplicationPreferencesActivity_disable">নিষ্ক্রিয় করুন</string>
   <string name="ApplicationPreferencesActivity_unregistering">নিবন্ধন বাতিল করা হচ্ছে</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Signal এর বার্তা ও কল সমূহ থেকে নিবন্ধন বাতিল করা হচ্ছে…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal বার্তা ও কল বন্ধ করবেন?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Signal বার্তা ও কল সমূহ বন্ধ করতে সার্ভার থেকে নিবন্ধন বাতিল করুন। ভবিষ্যতে পুনরায় ব্যাবহার করতে হলে আপনাকে আপনার ফোন নাম্বার পুনঃ নিবন্ধন করতে হবে।</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Morse এর বার্তা ও কল সমূহ থেকে নিবন্ধন বাতিল করা হচ্ছে…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Morse বার্তা ও কল বন্ধ করবেন?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Morse বার্তা ও কল সমূহ বন্ধ করতে সার্ভার থেকে নিবন্ধন বাতিল করুন। ভবিষ্যতে পুনরায় ব্যাবহার করতে হলে আপনাকে আপনার ফোন নাম্বার পুনঃ নিবন্ধন করতে হবে।</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">সার্ভারের সাথে সংযোগ স্থাপনে ব্যর্থ!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS সক্রিয়</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">আপনার স্বাভাবিক SMS অ্যাপ পরিবর্তন করতে স্পর্শ করুন</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS নিষ্ক্রিয়</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Signal কে আপনার স্বাভাবিক SMS অ্যাপ বানাতে স্পর্শ করুন</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Morse কে আপনার স্বাভাবিক SMS অ্যাপ বানাতে স্পর্শ করুন</string>
   <string name="ApplicationPreferencesActivity_on">চালু</string>
   <string name="ApplicationPreferencesActivity_On">চালু</string>
   <string name="ApplicationPreferencesActivity_off">বন্ধ</string>
@@ -58,14 +58,14 @@
   <string name="AttachmentKeyboard_file">ফাইল</string>
   <string name="AttachmentKeyboard_contact">পরিচিতি</string>
   <string name="AttachmentKeyboard_location">স্থান</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">আপনার ছবি এবং ভিডিও দেখানোর জন্য Signal-এর অনুমতি প্রয়োজন।</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">আপনার ছবি এবং ভিডিও দেখানোর জন্য Morse-এর অনুমতি প্রয়োজন।</string>
   <string name="AttachmentKeyboard_give_access">অ্যাক্সেসের অনুমতি দিন</string>
   <string name="AttachmentKeyboard_payment">পেমেন্ট</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">মিডিয়া নির্বাচন করার জন্য কোন অ্যাপ খুঁজে পাওয়া যায়নি।</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">ছবি, ভিডিও অথবা অডিও সংযুক্ত করার জন্য Signal এর স্টোরেজ ব্যাবহারের অনুমতির প্রয়োজন কিন্তু এর উপর স্থায়ী নিষেধাজ্ঞা জারি করা হয়েছে। দয়া করে আ্যপ সেটিংস-এ যান, \"অনুমতি\" নির্বাচন করুন এবং \"স্টোরেজ\"  সক্ষম করুন।</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">পরিচিতিসমূহের তথ্য সংযুক্ত করার জন্য Signal এর পরিচিতিসমূহ ব্যাবহারের অনুমতির প্রয়োজন কিন্তু এর উপর স্থায়ী নিষেধাজ্ঞা জারি করা হয়েছে। দয়া করে আ্যপ সেটিংসে যান, \"অনুমতি\" নির্বাচন করুন এবং \"পরিচিতিসমূহ\" সক্ষম করুন।</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">স্থান সংযুক্ত করার জন্য Signal এর স্থান ব্যাবহারের অনুমতির প্রয়োজন কিন্তু এর উপর স্থায়ী নিষেধাজ্ঞা জারি করা হয়েছে। দয়া করে আ্যপ সেটিংসে যান, \"অনুমতি\" নির্বাচন করুন এবং \"স্থান\" সক্ষম করুন।</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">ছবি, ভিডিও অথবা অডিও সংযুক্ত করার জন্য Morse এর স্টোরেজ ব্যাবহারের অনুমতির প্রয়োজন কিন্তু এর উপর স্থায়ী নিষেধাজ্ঞা জারি করা হয়েছে। দয়া করে আ্যপ সেটিংস-এ যান, \"অনুমতি\" নির্বাচন করুন এবং \"স্টোরেজ\"  সক্ষম করুন।</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">পরিচিতিসমূহের তথ্য সংযুক্ত করার জন্য Morse এর পরিচিতিসমূহ ব্যাবহারের অনুমতির প্রয়োজন কিন্তু এর উপর স্থায়ী নিষেধাজ্ঞা জারি করা হয়েছে। দয়া করে আ্যপ সেটিংসে যান, \"অনুমতি\" নির্বাচন করুন এবং \"পরিচিতিসমূহ\" সক্ষম করুন।</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">স্থান সংযুক্ত করার জন্য Morse এর স্থান ব্যাবহারের অনুমতির প্রয়োজন কিন্তু এর উপর স্থায়ী নিষেধাজ্ঞা জারি করা হয়েছে। দয়া করে আ্যপ সেটিংসে যান, \"অনুমতি\" নির্বাচন করুন এবং \"স্থান\" সক্ষম করুন।</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">মিডিয়া আপলোড হচ্ছে…</string>
   <string name="AttachmentUploadJob_compressing_video_start">ভিডিও সংকোচন করা হচ্ছে…</string>
@@ -109,26 +109,26 @@
   <string name="CameraXFragment_open_gallery_description">গ্যালারী খুলুন</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">সাম্প্রতিক যোগাযোগ</string>
-  <string name="CameraContacts_signal_contacts">Signal পরিচিতিসমূহ</string>
-  <string name="CameraContacts_signal_groups">Signal গ্রুপসমূহ</string>
+  <string name="CameraContacts_signal_contacts">Morse পরিচিতিসমূহ</string>
+  <string name="CameraContacts_signal_groups">Morse গ্রুপসমূহ</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">আপনি সর্বাধিক %dটি কথোপকথনে শেয়ার করতে পারবেন।</string>
-  <string name="CameraContacts_select_signal_recipients">Signal প্রাপকসমূহ নির্বাচন করুন</string>
-  <string name="CameraContacts_no_signal_contacts">কোনও Signal পরিচিতি নেই</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">শুধুমাত্র Signal পরিচিতিদের ছবি পাঠাতে ক্যামেরা বোতাম ব্যবহার করতে পারবেন। </string>
+  <string name="CameraContacts_select_signal_recipients">Morse প্রাপকসমূহ নির্বাচন করুন</string>
+  <string name="CameraContacts_no_signal_contacts">কোনও Morse পরিচিতি নেই</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">শুধুমাত্র Morse পরিচিতিদের ছবি পাঠাতে ক্যামেরা বোতাম ব্যবহার করতে পারবেন। </string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">আপনি যাকে খুঁজছেন তাকে খুঁজে পাচ্ছেন না?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Signal -এ যোগ দিতে একটি পরিচিতিকে আমন্ত্রণ জানান</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Morse -এ যোগ দিতে একটি পরিচিতিকে আমন্ত্রণ জানান</string>
   <string name="CameraContacts__menu_search">খুঁজুন</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">সরান</string>
   <string name="ClearProfileActivity_remove_profile_photo">প্রোফাইলের ছবিটি সরিয়ে ফেলবেন?</string>
   <string name="ClearProfileActivity_remove_group_photo">গ্রুপ ফটো সরাবেন?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Signal আপডেট করুন</string>
+  <string name="ClientDeprecatedActivity_update_signal">Morse আপডেট করুন</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">এই অ্যাপের এই সংস্করণ আর সাহায্য পাবে না। বার্তা পেতে ও পাঠাতে সর্বনতুন সংস্করণে হালনাগাদ(আপডেট) করো।</string>
   <string name="ClientDeprecatedActivity_update">আপডেট করুন</string>
   <string name="ClientDeprecatedActivity_dont_update">আপডেট করবেন না</string>
   <string name="ClientDeprecatedActivity_warning">সতর্কবার্তা</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">আপনার Signal-এর সংস্করণটি পুরোনো হয়ে গেছে। যতখন না আপনি আপডেট করছেন, আপনি পুরোনো বার্তাগুলো দেখতে পাবেন, কিন্তু নতুন বার্তা দেখতে বা পাঠাতে পারবেন না।</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">আপনার Morse-এর সংস্করণটি পুরোনো হয়ে গেছে। যতখন না আপনি আপডেট করছেন, আপনি পুরোনো বার্তাগুলো দেখতে পাবেন, কিন্তু নতুন বার্তা দেখতে বা পাঠাতে পারবেন না।</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">কোন ওয়েব ব্রাউজার পাওয়া যায়নি।</string>
   <string name="CommunicationActions_send_email">ইমেইল পাঠান</string>
@@ -137,9 +137,9 @@
   <string name="CommunicationActions_cancel">বাতিল</string>
   <string name="CommunicationActions_call">কল করুন</string>
   <string name="CommunicationActions_insecure_call">অনিরাপদ কল</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">আপনার টেলিফোন কেরিয়ার টাকা কাটতে পারে। যে নম্বরটিতে কল করছেন সেটি Signal-এর সাথে রেজিস্টার করা নেই। তাই কলটি টেলিফোন কেরিয়ারের মাধ্যমে করা হবে, ইন্টারনেটের মাধ্যমে না।</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">আপনার টেলিফোন কেরিয়ার টাকা কাটতে পারে। যে নম্বরটিতে কল করছেন সেটি Morse-এর সাথে রেজিস্টার করা নেই। তাই কলটি টেলিফোন কেরিয়ারের মাধ্যমে করা হবে, ইন্টারনেটের মাধ্যমে না।</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">%1$s এর সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে। এর মানে এটা হতে পারে যে কেউ আপনার যোগাযোগে বাধা দেওয়ার চেষ্টা করছে কিংবা %2$s পুনরায় Signal ইনস্টল করেছে।</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">%1$s এর সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে। এর মানে এটা হতে পারে যে কেউ আপনার যোগাযোগে বাধা দেওয়ার চেষ্টা করছে কিংবা %2$s পুনরায় Morse ইনস্টল করেছে।</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">আপনি হয়ত এই পরিচিতির সাথে আপনার নিরাপত্তা নাম্বার যাচাই করতে চাইবেন।</string>
   <string name="ConfirmIdentityDialog_accept">গ্রহণ করুন</string>
   <!--ContactsCursorLoader-->
@@ -150,7 +150,7 @@
   <string name="ContactsCursorLoader_username_search">ইউজারনেম খুঁজুন</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">%sটি বার্তা</string>
-  <string name="ContactsDatabase_signal_call_s">%sটি Signal কল</string>
+  <string name="ContactsDatabase_signal_call_s">%sটি Morse কল</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">প্রদত্ত নাম</string>
   <string name="ContactNameEditActivity_family_name">পারিবারিক নাম</string>
@@ -173,7 +173,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">পাঠাতে ব্যর্থ, অসুরক্ষিত পন্থা অবলম্বনের জন্য চাপুন</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">অনাবৃত SMS অবলম্বন করবেন?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">অনাবৃত MMS অবলম্বন করবেন?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">এই বার্তাটি গোপনীয় হবে <b>না</b> কারণ গ্রাহক আর Signal এর ব্যবহারকারী নয়। অসুরক্ষিত বার্তা পাঠাবেন?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">এই বার্তাটি গোপনীয় হবে <b>না</b> কারণ গ্রাহক আর Morse এর ব্যবহারকারী নয়। অসুরক্ষিত বার্তা পাঠাবেন?</string>
   <string name="ConversationItem_unable_to_open_media">এই মিডিয়াটি খোলার জন্য কোন অ্যাপ খুঁজে পাওয়া যায়নি।</string>
   <string name="ConversationItem_copied_text">%s প্রতিলিপি করা হয়েছে</string>
   <string name="ConversationItem_from_s">%s থেকে</string>
@@ -198,8 +198,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">এই ডিভাইস ডায়াল ক্রিয়া সমর্থন করে বলে মনে হচ্ছে না।</string>
   <string name="ConversationActivity_transport_insecure_sms">অনিরাপদ এসএমএস</string>
   <string name="ConversationActivity_transport_insecure_mms">অনিরাপদ এমএমএস</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">চলুন Signal এ যোগ দেই %1$s</string>
+  <string name="ConversationActivity_transport_signal">Morse</string>
+  <string name="ConversationActivity_lets_switch_to_signal">চলুন Morse এ যোগ দেই %1$s</string>
   <string name="ConversationActivity_specify_recipient">দয়া করে একটি পরিচিতি চয়ন করুন</string>
   <string name="ConversationActivity_unblock">আনব্লক করুন</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">আপনি যে বার্তা প্রেরণ করছেন সংযুক্তি তার আকারের সীমা অতিক্রম করেছে।</string>
@@ -213,17 +213,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">আপনার ডিভাইসে এই লিঙ্কটি পরিচালনা করার মত কোনও অ্যাপ পাওয়া যাচ্ছে না।</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">আপনার গ্রুপে ঢোকার অনুরোধ গ্রুপের অ্যাডমিনদের কাছে পাঠানো হয়েছে। তারা কোনো পদক্ষেপ নিলে আপনাকে জানানো হবে।</string>
   <string name="ConversationActivity_cancel_request">অনুরোধ বাতিল করুন</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">অডিও বার্তা পাঠাতে Signal কে আপনার মাইক্রোফোন ব্যাবহারের অনুমতি দিন।</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">অডিও বার্তাগুলি প্রেরণের জন্য Signal এর মাইক্রোফোনের অনুমতি প্রয়োজন, কিন্তু এর উপর স্থায়ীভাবে নিষেধাজ্ঞা আরোপ করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"মাইক্রোফোন\" সক্ষম করুন|</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">%s  কে ফোন করতে Signal এর মাইক্রোফোন এবং ক্যামেরা ব্যাবহারের অনুমতির প্রয়োজন, কিন্তু এর উপর স্থায়ীভাবে নিষেধাজ্ঞা আরোপ করা হয়েছে। দয়া করে এপ সেটিংসে যান, \"অনুমতি\" নির্বাচন করুন এবং \"মাইক্রোফোন\" ও \"ক্যামেরা\" এর অনুমতি সক্ষম করুন।</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ছবি ও ভিডিও তুলতে Signal কে ক্যামেরা ব্যাবহারের অনুমতি দিন।</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">ছবি অথবা ভিডিও তুলতে Signal এর ক্যামেরা ব্যাবহারের অনুমতির প্রয়োজন, কিন্তু এর উপর স্থায়ীভাবে নিষেধাজ্ঞা আরোপ করা হয়েছে। দয়া করে অ্যাপ সেটিংসে যান, \"অনুমতি\" নির্বাচন করুন এবং \"ক্যামেরা\" এর অনুমতি সক্ষম করুন।</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">ছবি অথবা ভিডিও তুলতে Signal এর ক্যামেরা ব্যাবহারের অনুমতির প্রয়োজন।</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">অডিও বার্তা পাঠাতে Morse কে আপনার মাইক্রোফোন ব্যাবহারের অনুমতি দিন।</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">অডিও বার্তাগুলি প্রেরণের জন্য Morse এর মাইক্রোফোনের অনুমতি প্রয়োজন, কিন্তু এর উপর স্থায়ীভাবে নিষেধাজ্ঞা আরোপ করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"মাইক্রোফোন\" সক্ষম করুন|</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">%s  কে ফোন করতে Morse এর মাইক্রোফোন এবং ক্যামেরা ব্যাবহারের অনুমতির প্রয়োজন, কিন্তু এর উপর স্থায়ীভাবে নিষেধাজ্ঞা আরোপ করা হয়েছে। দয়া করে এপ সেটিংসে যান, \"অনুমতি\" নির্বাচন করুন এবং \"মাইক্রোফোন\" ও \"ক্যামেরা\" এর অনুমতি সক্ষম করুন।</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ছবি ও ভিডিও তুলতে Morse কে ক্যামেরা ব্যাবহারের অনুমতি দিন।</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">ছবি অথবা ভিডিও তুলতে Morse এর ক্যামেরা ব্যাবহারের অনুমতির প্রয়োজন, কিন্তু এর উপর স্থায়ীভাবে নিষেধাজ্ঞা আরোপ করা হয়েছে। দয়া করে অ্যাপ সেটিংসে যান, \"অনুমতি\" নির্বাচন করুন এবং \"ক্যামেরা\" এর অনুমতি সক্ষম করুন।</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">ছবি অথবা ভিডিও তুলতে Morse এর ক্যামেরা ব্যাবহারের অনুমতির প্রয়োজন।</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">শব্দ সহ ভিডিও ধারন করতে মাইক্রোফোন অনুমতি সক্ষম করুন।</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">ভিডিও রেকর্ড করতে Signal এর মাইক্রোফোনের অনুমতি প্রয়োজন, তবে সেগুলি অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে যান এবং, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"মাইক্রোফোন\" এবং \"ক্যামেরা\" সক্ষম করুন|</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">ভিডিও রেকর্ড করতে Signal এর ক্যামেরা ব্যাবহারের অনুমতির প্রয়োজন।</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">ভিডিও রেকর্ড করতে Morse এর মাইক্রোফোনের অনুমতি প্রয়োজন, তবে সেগুলি অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে যান এবং, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"মাইক্রোফোন\" এবং \"ক্যামেরা\" সক্ষম করুন|</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">ভিডিও রেকর্ড করতে Morse এর ক্যামেরা ব্যাবহারের অনুমতির প্রয়োজন।</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal এসএমএস / এমএমএস বার্তাগুলি প্রেরণ করতে পারে না কারণ এটি আপনার ডিফল্ট এসএমএস অ্যাপ নয়। আপনি কি আপনার অ্যানড্রয়েড সেটিংসে এটি পরিবর্তন করতে চান?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Morse এসএমএস / এমএমএস বার্তাগুলি প্রেরণ করতে পারে না কারণ এটি আপনার ডিফল্ট এসএমএস অ্যাপ নয়। আপনি কি আপনার অ্যানড্রয়েড সেটিংসে এটি পরিবর্তন করতে চান?</string>
   <string name="ConversationActivity_yes">হ্যাঁ</string>
   <string name="ConversationActivity_no">না</string>
   <string name="ConversationActivity_search_position">%1$d এর %2$d</string>
@@ -237,7 +237,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">আপনি এই গ্রুপ ছেড়ে চলে যাবেন এবং এটি আপনার সমস্ত ডিভাইস থেকে মুছে ফেলা হবে।</string>
   <string name="ConversationActivity_delete">মুছে দিন</string>
   <string name="ConversationActivity_delete_and_leave">মুছুন এবং ছেড়ে যান</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">%1$s কে ফোন করতে Signal কে আপনার মাইক্রোফোন ব্যাবহার করতে হবে।</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">%1$s কে ফোন করতে Morse কে আপনার মাইক্রোফোন ব্যাবহার করতে হবে।</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">\"গ্রুপ সেটিংস\" এ এখন আরো অপশন আছে</string>
   <string name="ConversationActivity_join">যোগদান করুন</string>
   <string name="ConversationActivity_full">ভর্তি</string>
@@ -272,14 +272,14 @@
     <item quantity="other">%1$dসংযুক্তি সমুহ স্টোরেজে সংক্ষরন করা হচ্ছে…</item>
   </plurals>
   <string name="ConversationFragment_pending">অমীমাংসিত…</string>
-  <string name="ConversationFragment_push">ডাটা (Signal)</string>
+  <string name="ConversationFragment_push">ডাটা (Morse)</string>
   <string name="ConversationFragment_mms">এমএমএস</string>
   <string name="ConversationFragment_sms">এসএমএস</string>
   <string name="ConversationFragment_deleting">মোছা হচ্ছে</string>
   <string name="ConversationFragment_deleting_messages">বার্তা সমূহ মোছা হচ্ছে…</string>
   <string name="ConversationFragment_delete_for_me">আমার জন্য মুছুন</string>
   <string name="ConversationFragment_delete_for_everyone">প্রত্যেকের জন্য মুছুন</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">এই বার্তাটি কথোপকথনের প্রত্যেকের জন্য মুছে ফেলা হবে যদি তারা Signal এর সাম্প্রতিক সংস্করণ ব্যাবহার করে। তারা দেখতে পাবে যে, আপনি কোনও বার্তা মুছে ফেলেছেন।</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">এই বার্তাটি কথোপকথনের প্রত্যেকের জন্য মুছে ফেলা হবে যদি তারা Morse এর সাম্প্রতিক সংস্করণ ব্যাবহার করে। তারা দেখতে পাবে যে, আপনি কোনও বার্তা মুছে ফেলেছেন।</string>
   <string name="ConversationFragment_quoted_message_not_found">মূল বার্তাটি পাওয়া যায়নি</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">মূল বার্তাটি আর পাওয়া যাচ্ছে না</string>
   <string name="ConversationFragment_failed_to_open_message">বার্তা দেখাতে ব্যর্থ</string>
@@ -291,12 +291,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">গ্রুপের %1$d জনের একই নাম আছে।</string>
   <string name="ConversationFragment__tap_to_review">পর্যালোচনা করতে চাপুন</string>
   <string name="ConversationFragment__review_requests_carefully">তোমার অনুরোধ ভালোভাবে দেখো</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal একই নামের আরেকটা কন্ট্যাক্ট পাওয়া গেছে।</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Morse একই নামের আরেকটা কন্ট্যাক্ট পাওয়া গেছে।</string>
   <string name="ConversationFragment_contact_us">আমাদের সাথে যোগাযোগ করুন</string>
   <string name="ConversationFragment_verify">যাচাই করুন</string>
   <string name="ConversationFragment_not_now">এখন না</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">%s এর সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">%s এর সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে, সম্ভবত তারা Signal পুনরায় ইনস্টল করেছেন বা ডিভাইস পরিবর্তিত হয়েছে। নতুন নিরাপত্তা নাম্বার যাচাই করতে আলতো চাপুন। এটি ঐচ্ছিক।</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">%s এর সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে, সম্ভবত তারা Morse পুনরায় ইনস্টল করেছেন বা ডিভাইস পরিবর্তিত হয়েছে। নতুন নিরাপত্তা নাম্বার যাচাই করতে আলতো চাপুন। এটি ঐচ্ছিক।</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">বাছাইকৃত কথোপকথনটি মুছে ফেলবেন?</item>
     <item quantity="other">বাছাইকৃত কথোপকথনগুলো মুছে ফেলবেন?</item>
@@ -399,11 +399,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">আপনার ব্যাকআপ পাসফ্রেজটি পরীক্ষা করুন এবং এটি মিলছে কিনা তা যাচাই করুন</string>
   <string name="BackupsPreferenceFragment__turn_on">চালু করুন</string>
   <string name="BackupsPreferenceFragment__turn_off">বন্ধ করুন</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">একটি ব্যাকআপ পুনরুদ্ধার করতে, নতুন করে Signal  ইনস্টল করুন। অ্যাপ্লিকেশনটি খুলুন এবং \" ব্যাকআপ পুনরুদ্ধার করুন\" বাটনে আলতো চাপুন, তারপরে ব্যাকআপ ফাইলটি সনাক্ত করুন। %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">একটি ব্যাকআপ পুনরুদ্ধার করতে, নতুন করে Morse  ইনস্টল করুন। অ্যাপ্লিকেশনটি খুলুন এবং \" ব্যাকআপ পুনরুদ্ধার করুন\" বাটনে আলতো চাপুন, তারপরে ব্যাকআপ ফাইলটি সনাক্ত করুন। %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">আরও জানুন</string>
   <string name="BackupsPreferenceFragment__in_progress">চলমান…</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d এখন অব্দি…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">ব্যাকআপগুলি তৈরি করতে Signal এর জন্য বাহ্যিক স্টোরেজ অনুমতি প্রয়োজন, তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংস যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"স্টোরেজ\" সক্ষম করুন।</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">ব্যাকআপগুলি তৈরি করতে Morse এর জন্য বাহ্যিক স্টোরেজ অনুমতি প্রয়োজন, তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংস যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"স্টোরেজ\" সক্ষম করুন।</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">প্রথা ব্যবহৃত : %s</string>
   <string name="CustomDefaultPreference_using_default">ডিফল্ট ব্যবহৃত: %s</string>
@@ -422,7 +422,7 @@
   <string name="DateUtils_yesterday">গতকাল</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">চ্যাট সেশনটি পুনরায় লোড হয়েছে</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal এক প্রান্ত থেকে অপর প্রান্ত এনক্রিপশন ব্যবহার করে এবং কখনও কখনও আপনার চ্যাট সেশনটি পুনরায় লোড করার প্রয়োজন হতে পারে। এটি আপনার চ্যাটের সুরক্ষাকে প্রভাবিত করবে না, তবে আপনি এই পরিচিতির কোনও বার্তা না পেয়ে থাকলে এবং আপনি তাদের এটি পুনরায় পাঠাতে বলতে পারেন।</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Morse এক প্রান্ত থেকে অপর প্রান্ত এনক্রিপশন ব্যবহার করে এবং কখনও কখনও আপনার চ্যাট সেশনটি পুনরায় লোড করার প্রয়োজন হতে পারে। এটি আপনার চ্যাটের সুরক্ষাকে প্রভাবিত করবে না, তবে আপনি এই পরিচিতির কোনও বার্তা না পেয়ে থাকলে এবং আপনি তাদের এটি পুনরায় পাঠাতে বলতে পারেন।</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">\'%s\' বিচ্ছিন্ন করা হবে?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">এই ডিভাইস বিচ্ছিন্ন করা হলে, এটি আর বার্তা প্রেরণ বা গ্রহণ করতে সক্ষম হবে না।</string>
@@ -439,8 +439,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">নামহীন ফাইল</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Signal -এ দান করুন</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal আপনার মত লোক দ্বারা পরিচালিত। আজকেই আপনার সমর্থন জানান!</string>
+  <string name="DonateMegaphone_donate_to_signal">Morse -এ দান করুন</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Morse আপনার মত লোক দ্বারা পরিচালিত। আজকেই আপনার সমর্থন জানান!</string>
   <string name="DonateMegaphone_donate">অনুদান</string>
   <string name="DonateMegaphone_no_thanks">না ধন্যবাদ</string>
   <!--GroupCallingMegaphone-->
@@ -448,9 +448,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">বিনামূল্যে এনক্রিপ্ট করা গ্রুপ কল শুরু করতে একটি নতুন গ্রুপ খুলুন</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">অনুপস্থিত প্লে সার্ভিসের জন্য অনুকুল করা</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">এই ডিভাইস প্লে সার্ভিস সমর্থন করে না। সিস্টেম ব্যাটারি অপ্টিমাইজেশন অক্ষম করতে আলতো চাপুন, যা নিষ্ক্রিয় অবস্থায় বার্তা পুনরুদ্ধার থেকে Signal -কে বাধা দেয়।</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">এই ডিভাইস প্লে সার্ভিস সমর্থন করে না। সিস্টেম ব্যাটারি অপ্টিমাইজেশন অক্ষম করতে আলতো চাপুন, যা নিষ্ক্রিয় অবস্থায় বার্তা পুনরুদ্ধার থেকে Morse -কে বাধা দেয়।</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">আপনার Signal সংস্করণটির মেয়াদ শেষ হয়ে গেছে। বার্তা প্রেরণ এবং গ্রহণ করতে এখনই আপডেট করুন।</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">আপনার Morse সংস্করণটির মেয়াদ শেষ হয়ে গেছে। বার্তা প্রেরণ এবং গ্রহণ করতে এখনই আপডেট করুন।</string>
   <string name="ExpiredBuildReminder_update_now">আপডেট করুন</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -463,8 +463,8 @@
   <string name="ShareActivity_multiple_attachments_are_only_supported">একাধিক সংযুক্তি সমূহ শুধু ছবি ও ভিডিওর ক্ষেত্রে সম্ভব</string>
   <string name="ShareActivity_you_do_not_have_permission_to_send_to_this_group">এই গ্রুপে পাঠানোর জন্য আপনার অনুমতি নেই।</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Signal স্থায়ীভাবে যোগাযোগ স্থাপনে ব্যর্থ!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal গুগল প্লে পরিষেবাদিতে নিবন্ধন করতে অক্ষম ছিল। Signal বার্তা এবং কল সমূহ অক্ষম করা হয়েছে, দয়া করে পুনরায় নিবন্ধকরণ চেষ্টা করুন সেটিংস &gt;  উন্নত।</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Morse স্থায়ীভাবে যোগাযোগ স্থাপনে ব্যর্থ!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Morse গুগল প্লে পরিষেবাদিতে নিবন্ধন করতে অক্ষম ছিল। Morse বার্তা এবং কল সমূহ অক্ষম করা হয়েছে, দয়া করে পুনরায় নিবন্ধকরণ চেষ্টা করুন সেটিংস &gt;  উন্নত।</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">সম্পূর্ণ রেজোলিউশনে GIF পুনরুদ্ধার করার সময় ত্রুটি</string>
   <!--GiphyFragmentPageAdapter-->
@@ -622,7 +622,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">এই ঘরটি পূরণ বাঞ্ছনীয়</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">গ্রুপ তৈরিকরণ ব্যার্থ হয়েছে</string>
   <string name="AddGroupDetailsFragment__try_again_later">পরবর্তীতে পুনরায় চেষ্টা করুন।</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">আপনি এমন একটি কন্টাক্ট নির্বাচন করেছেন যা Signal গ্রুপ সহায়ক না। তাই এটি এমএমএস গ্রুপ হবে।</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">আপনি এমন একটি কন্টাক্ট নির্বাচন করেছেন যা Morse গ্রুপ সহায়ক না। তাই এটি এমএমএস গ্রুপ হবে।</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">কাস্টম এমএমএস গ্রুপের নাম এবং ছবিগুলি কেবল আপনার কাছে দৃশ্যমান হবে।</string>
   <string name="AddGroupDetailsFragment__remove">সরান</string>
   <string name="AddGroupDetailsFragment__sms_contact">এসএমএস কন্টাক্ট</string>
@@ -636,15 +636,15 @@
     <item quantity="other">%d জন সদস্য নতুন গ্রুপ সমর্থন করে না, সুতরাং এই গ্রুপটি তৈরি করা যাবে না।</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">একটি লিগ্যাসি গ্রুপ তৈরি করা হবে কারণ \"%1$s\" Signal এর একটি পুরানো সংস্করণ ব্যবহার করছে। তারা Signal আপডেট করার পরে আপনি তাদের সাথে একটি নতুন ধরনের গ্রুপ তৈরি করতে পারেন বা গ্রুপ তৈরির আগে তাদের সরিয়ে ফেলতে পারেন।</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">একটি লিগ্যাসি গ্রুপ তৈরি করা হবে কারণ \"%1$s\" Morse এর একটি পুরানো সংস্করণ ব্যবহার করছে। তারা Morse আপডেট করার পরে আপনি তাদের সাথে একটি নতুন ধরনের গ্রুপ তৈরি করতে পারেন বা গ্রুপ তৈরির আগে তাদের সরিয়ে ফেলতে পারেন।</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">একটি লিগ্যাসি গ্রুপ তৈরি করা হবে কারণ %1$d জন সদস্য Signal এর একটি পুরানো সংস্করণ ব্যবহার করছে। তারা Signal আপডেট করার পরে আপনি তাদের সাথে একটি নতুন ধরনের গ্রুপ তৈরি করতে পারেন বা এই গ্রুপটি তৈরির আগে তাদের সরিয়ে ফেলতে পারেন।</item>
-    <item quantity="other">একটি লিগ্যাসি গ্রুপ তৈরি করা হবে কারণ %1$d জন সদস্য Signal এর একটি পুরানো সংস্করণ ব্যবহার করছে। তারা Signal আপডেট করার পরে আপনি তাদের সাথে একটি নতুন ধরনের গ্রুপ তৈরি করতে পারেন বা এই গ্রুপটি তৈরির আগে তাদের সরিয়ে ফেলতে পারেন।</item>
+    <item quantity="one">একটি লিগ্যাসি গ্রুপ তৈরি করা হবে কারণ %1$d জন সদস্য Morse এর একটি পুরানো সংস্করণ ব্যবহার করছে। তারা Morse আপডেট করার পরে আপনি তাদের সাথে একটি নতুন ধরনের গ্রুপ তৈরি করতে পারেন বা এই গ্রুপটি তৈরির আগে তাদের সরিয়ে ফেলতে পারেন।</item>
+    <item quantity="other">একটি লিগ্যাসি গ্রুপ তৈরি করা হবে কারণ %1$d জন সদস্য Morse এর একটি পুরানো সংস্করণ ব্যবহার করছে। তারা Morse আপডেট করার পরে আপনি তাদের সাথে একটি নতুন ধরনের গ্রুপ তৈরি করতে পারেন বা এই গ্রুপটি তৈরির আগে তাদের সরিয়ে ফেলতে পারেন।</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">এই গ্রুপটি তৈরি করা যাবে না কারণ \"%1$s\" Signal এর একটি পুরানো সংস্করণ ব্যবহার করছে। গ্রুপ তৈরির আগে আপনাকে তাদের সরিয়ে ফেলতে হবে।</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">এই গ্রুপটি তৈরি করা যাবে না কারণ \"%1$s\" Morse এর একটি পুরানো সংস্করণ ব্যবহার করছে। গ্রুপ তৈরির আগে আপনাকে তাদের সরিয়ে ফেলতে হবে।</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">এই গ্রুপটি তৈরি করা যাবে না কারণ %1$dজন সদস্য Signal এর একটি পুরানো সংস্করণ ব্যবহার করছে। গ্রুপ তৈরির আগে অবশ্যই আপনাকে তাদের সরিয়ে ফেলতে হবে।</item>
-    <item quantity="other">এই গ্রুপটি তৈরি করা যাবে না কারণ %1$d জন সদস্য  Signal এর একটি পুরানো সংস্করণ ব্যবহার করছে। গ্রুপ তৈরির আগে অবশ্যই আপনাকে তাদের সরিয়ে ফেলতে হবে।</item>
+    <item quantity="one">এই গ্রুপটি তৈরি করা যাবে না কারণ %1$dজন সদস্য Morse এর একটি পুরানো সংস্করণ ব্যবহার করছে। গ্রুপ তৈরির আগে অবশ্যই আপনাকে তাদের সরিয়ে ফেলতে হবে।</item>
+    <item quantity="other">এই গ্রুপটি তৈরি করা যাবে না কারণ %1$d জন সদস্য  Morse এর একটি পুরানো সংস্করণ ব্যবহার করছে। গ্রুপ তৈরির আগে অবশ্যই আপনাকে তাদের সরিয়ে ফেলতে হবে।</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">সদস্যদের অনুরোধ &amp; আমন্ত্রণ সমূহ</string>
@@ -674,8 +674,8 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">কেবল প্রশাসকরা নতুন সদস্যদের অনুমোদনের বিকল্পটি সক্ষম বা অক্ষম করতে পারবেন।</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">কেবল প্রশাসকগণই শেয়ার করার উপযোগী গ্রুপের লিঙ্কটি পুনরায় সেট করতে পারবেন।</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">আপনার এটা করার অধিকার নেই</string>
-  <string name="ManageGroupActivity_not_capable">আপনি এমন কাউকে যুক্ত করেছেন যার Signal App নতুন গ্রুপ সহায়ক নয়। তার Signal আপডেট করা প্রয়োজন।</string>
-  <string name="ManageGroupActivity_not_announcement_capable">আপনি এমন কাউকে যুক্ত করেছেন যে প্রচার গ্রুপ সহায়ক নয়। তার Signal আপডেট করা প্রয়োজন।</string>
+  <string name="ManageGroupActivity_not_capable">আপনি এমন কাউকে যুক্ত করেছেন যার Morse App নতুন গ্রুপ সহায়ক নয়। তার Morse আপডেট করা প্রয়োজন।</string>
+  <string name="ManageGroupActivity_not_announcement_capable">আপনি এমন কাউকে যুক্ত করেছেন যে প্রচার গ্রুপ সহায়ক নয়। তার Morse আপডেট করা প্রয়োজন।</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">গ্রুপ আপডেটকরণ ব্যার্থ হয়েছে</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">আপনি গ্রুপটির সদস্য নন</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">গ্রুপটি আপডেট করতে ব্যর্থ হয়েছে দয়া করে পরে আবার চেষ্টা করুন</string>
@@ -686,7 +686,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">এটি একটি লিগ্যাসি গ্রুপ। @মেনশন এবং এডমিনের মতো নতুন বৈশিষ্ট্যগুলি অ্যাক্সেস করতে,</string>
   <string name="ManageGroupActivity_legacy_group_too_large">এই লিগ্যাসি গ্রুপটি একটি নতুন গ্রুপে আপগ্রেড করা যাবে না কারণ এটি অনেক বড়। সর্বাধিক গ্রুপের আকার %1$d।</string>
   <string name="ManageGroupActivity_upgrade_this_group">এই গ্রুপটি আপগ্রেড করুন। </string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">এটি একটি অনিরাপদ এমএমএস গ্রুপ। ব্যক্তিগতভাবে চ্যাট করতে, আপনার পরিচিতিগুলিকে Signal এ আমন্ত্রণ জানান।</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">এটি একটি অনিরাপদ এমএমএস গ্রুপ। ব্যক্তিগতভাবে চ্যাট করতে, আপনার পরিচিতিগুলিকে Morse এ আমন্ত্রণ জানান।</string>
   <string name="ManageGroupActivity_invite_now">এখনই আমন্ত্রণ জানান</string>
   <string name="ManageGroupActivity_more">আরও</string>
   <string name="ManageGroupActivity_add_group_description">গ্রুপের বিবরণ যুক্ত করুন …</string>
@@ -761,10 +761,10 @@
     <item quantity="other">গ্রুপ। %1$d সদস্যগণ</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">গ্রুপ লিঙ্কগুলি ব্যবহার করার জন্য Signal আপডেট করুন</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">আপনি যে Signal ব্যবহার করছেন তার সংস্করণ এই গ্রুপের লিঙ্কটিকে সমর্থন করে না। লিঙ্কের মাধ্যমে এই গ্রুপে যোগদানের জন্য সর্বশেষতম সংস্করণে আপডেট করুন।</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Signal আপডেট করুন</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">আপনার সংযুক্ত এক বা একাধিক ডিভাইস Signal এর এমন একটি সংস্করণ চলছে যা গ্রুপ লিঙ্কগুলিকে সমর্থন করে না। এই গ্রুপে যোগদানের জন্য আপনার সংযুক্ত ডিভাইস(গুলিতে) Signal আপডেট করুন।</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">গ্রুপ লিঙ্কগুলি ব্যবহার করার জন্য Morse আপডেট করুন</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">আপনি যে Morse ব্যবহার করছেন তার সংস্করণ এই গ্রুপের লিঙ্কটিকে সমর্থন করে না। লিঙ্কের মাধ্যমে এই গ্রুপে যোগদানের জন্য সর্বশেষতম সংস্করণে আপডেট করুন।</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Morse আপডেট করুন</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">আপনার সংযুক্ত এক বা একাধিক ডিভাইস Morse এর এমন একটি সংস্করণ চলছে যা গ্রুপ লিঙ্কগুলিকে সমর্থন করে না। এই গ্রুপে যোগদানের জন্য আপনার সংযুক্ত ডিভাইস(গুলিতে) Morse আপডেট করুন।</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">গ্রুপ লিঙ্কটি বৈধ নয়</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">বন্ধুদের আমন্ত্রণ করুন</string>
@@ -794,13 +794,13 @@
   <string name="InviteActivity_cancel">বাতিল</string>
   <string name="InviteActivity_sending">পাঠানো হচ্ছে</string>
   <string name="InviteActivity_invitations_sent">আমন্ত্রণ পাঠানো হয়েছে!</string>
-  <string name="InviteActivity_invite_to_signal">Signal এ আমন্ত্রণ জানান</string>
+  <string name="InviteActivity_invite_to_signal">Morse এ আমন্ত্রণ জানান</string>
   <string name="InviteActivity_send_sms">এসএমএস পাঠান (%d)</string>
   <plurals name="InviteActivity_send_sms_invites">
     <item quantity="one"> %d টি নিমন্ত্রন এসএমএস পাঠান?</item>
     <item quantity="other">%d টি নিমন্ত্রন এসএমএস পাঠান?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">চলুন Signal এ যোগ দেইঃ %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">চলুন Morse এ যোগ দেইঃ %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">আপনার কাছে শেয়ার করতে পারবেন এমন কোন অ্যাপ নেই।</string>
   <!--LearnMoreTextView-->
   <string name="LearnMoreTextView_learn_more">আরও জানুন</string>
@@ -809,7 +809,7 @@
   <string name="LongMessageActivity_message_from_s">%1$s থেকে বার্তা</string>
   <string name="LongMessageActivity_your_message">আপনার বার্তা</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Morse</string>
   <string name="MessageRetrievalService_background_connection_enabled">পটভূমির সংযোগ সক্ষম করা হয়েছে</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">ওয়্যারলেস সরবরাহকারীর এমএমএস সেটিংস পড়তে ত্রুটি</string>
@@ -864,7 +864,7 @@
   <string name="Megaphones_introducing_reactions">প্রতিক্রিয়া\'র সাথে পরিচিত হন</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">দ্রুত আপনার অনুভূতি শেয়ার করতে কোন বার্তা আলতো চেপে ধরে রাখুন।</string>
   <string name="Megaphones_remind_me_later">আমাকে পরে মনে করিয়ে দিবেন</string>
-  <string name="Megaphones_verify_your_signal_pin">আপনার Signal পিন যাচাই করুন</string>
+  <string name="Megaphones_verify_your_signal_pin">আপনার Morse পিন যাচাই করুন</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">আমরা আপনাকে মাঝে মাঝে আপনার পিনটি যাচাই করতে বলব যাতে আপনি এটি মনে রাখতে পারেন।</string>
   <string name="Megaphones_verify_pin">পিন যাচাই করুন</string>
   <string name="Megaphones_get_started">শুরু করা যাক</string>
@@ -874,11 +874,11 @@
   <string name="Megaphones_appearance">অ্যাপিয়ারেন্স</string>
   <string name="Megaphones_add_photo">ছবি যুক্ত করুন</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal কল চলমান </string>
-  <string name="NotificationBarManager__establishing_signal_call">Signal কল স্থাপন করা হচ্ছে</string>
-  <string name="NotificationBarManager__incoming_signal_call">আগত Signal কল</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Morse কল চলমান </string>
+  <string name="NotificationBarManager__establishing_signal_call">Morse কল স্থাপন করা হচ্ছে</string>
+  <string name="NotificationBarManager__incoming_signal_call">আগত Morse কল</string>
   <string name="NotificationBarManager__incoming_signal_group_call">ইনকামিং সিগন্যাল গ্রুপ কল</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">Signal কল সার্ভিস বন্ধ করা হচ্ছে</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">Morse কল সার্ভিস বন্ধ করা হচ্ছে</string>
   <string name="NotificationBarManager__decline_call">কল প্রত্যাখ্যান করুন</string>
   <string name="NotificationBarManager__answer_call">কল গ্রহণ করুন</string>
   <string name="NotificationBarManager__end_call">কল শেষ করুন</string>
@@ -905,8 +905,8 @@
   <string name="MediaSendActivity_message_to_s">%s এর জন্য বার্তা</string>
   <string name="MediaSendActivity_message">বার্তা</string>
   <string name="MediaSendActivity_select_recipients">প্রাপক নির্বাচন করুন</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal আপনার পরিচিতি সমূহ প্রদর্শন করতে তাদের প্রবেশাধিকার প্রয়োজন।</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">আপনার পরিচিতি সমূহ দেখানোর জন্য Signal এর পরিচিতি পাঠের অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে চলতে থাক, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"পরিচিতি\" সক্ষম করুন।</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Morse আপনার পরিচিতি সমূহ প্রদর্শন করতে তাদের প্রবেশাধিকার প্রয়োজন।</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">আপনার পরিচিতি সমূহ দেখানোর জন্য Morse এর পরিচিতি পাঠের অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে চলতে থাক, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"পরিচিতি\" সক্ষম করুন।</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">%d টার বেশী জিনিষ শেয়ার করতে পারবেন না।</item>
     <item quantity="other">%dটার বেশী জিনিষ শেয়ার করতে পারবেন না।</item>
@@ -921,7 +921,7 @@
   <string name="MessageDecryptionUtil_tap_to_send_a_debug_log">একটি ডিবাগ লগ প্রেরণ করতে আলতো চাপুন</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">অজানা</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Signal এর একটি পুরানো সংস্করণ ব্যবহার করে এনক্রিপ্ট করা একটি বার্তা পেয়েছেন যা আর সমর্থিত নয়। দয়া করে প্রেরককে অতি সাম্প্রতিক সংস্করণে আপডেট করতে এবং বার্তাটি পুনরায় পাঠাতে বলুন।</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Morse এর একটি পুরানো সংস্করণ ব্যবহার করে এনক্রিপ্ট করা একটি বার্তা পেয়েছেন যা আর সমর্থিত নয়। দয়া করে প্রেরককে অতি সাম্প্রতিক সংস্করণে আপডেট করতে এবং বার্তাটি পুনরায় পাঠাতে বলুন।</string>
   <string name="MessageRecord_left_group">আপনি গ্রুপ ত্যাগ করেছেন।</string>
   <string name="MessageRecord_you_updated_group">আপনি গ্রুপ আপডেট করেছেন।</string>
   <string name="MessageRecord_the_group_was_updated">গ্রুপটি আপডেট করা হয়েছিল।</string>
@@ -930,7 +930,7 @@
   <string name="MessageRecord_missed_video_call_date">ভিডিও কল মিস করেছেন। %1$s</string>
   <string name="MessageRecord_s_updated_group">%s গ্রুপ আপডেট করেছে।</string>
   <string name="MessageRecord_s_called_you_date">%1$s আপনাকে কল করেছিল। %2$s</string>
-  <string name="MessageRecord_s_joined_signal">%s Signal এ যোগ দিয়েছেন!</string>
+  <string name="MessageRecord_s_joined_signal">%s Morse এ যোগ দিয়েছেন!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">আপনি অদৃশ্য হয়ে যাওয়া বার্তাগুলি অক্ষম করেছেন।</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s অদৃশ্য হয়ে যাওয়া বার্তা অক্ষম করেছেন।</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">আপনি অদৃশ্য হয়ে যাওয়া বার্তার সময়কাল %1$s নির্ধারন করেছেন।</string>
@@ -1157,24 +1157,24 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">অকার্যকর QR কোড।</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">দুঃখিত, ইতিমধ্যে আপনার সাথে সংযুক্ত অনেকগুলি ডিভাইস রয়েছে, কিছু সরানোর চেষ্টা করুন</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">দুঃখিত, এটি কোনও বৈধ ডিভাইসের লিঙ্ক কিউআর কোড নয়।</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">একটি Signal ডিভাইস লিঙ্ক করবেন?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">দেখে মনে হচ্ছে আপনি ৩য় পক্ষের স্ক্যানার ব্যবহার করে একটি Signal  ডিভাইস লিঙ্ক করার চেষ্টা করছেন। আপনার সুরক্ষার জন্য, দয়া করে Signal এর মধ্যে থেকে আবার কোডটি স্ক্যান করুন।</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">কোনও কিউআর কোড স্ক্যান করার জন্য Signal এর ক্যামেরা অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ সেটিংসে যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"ক্যামেরা\" সক্ষম করুন।</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">একটি Morse ডিভাইস লিঙ্ক করবেন?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">দেখে মনে হচ্ছে আপনি ৩য় পক্ষের স্ক্যানার ব্যবহার করে একটি Morse  ডিভাইস লিঙ্ক করার চেষ্টা করছেন। আপনার সুরক্ষার জন্য, দয়া করে Morse এর মধ্যে থেকে আবার কোডটি স্ক্যান করুন।</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">কোনও কিউআর কোড স্ক্যান করার জন্য Morse এর ক্যামেরা অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ সেটিংসে যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"ক্যামেরা\" সক্ষম করুন।</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">ক্যামেরা অনুমতি ব্যতীত কোনও কিউআর কোড স্ক্যান করতে অক্ষম</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">আপডেট করুন</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Signal-এর এই সংস্করণটির মেয়াদ আজ শেষ হয়ে যাবে। সর্বশেষ সংস্করণে আপডেট করুন।</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Morse-এর এই সংস্করণটির মেয়াদ আজ শেষ হয়ে যাবে। সর্বশেষ সংস্করণে আপডেট করুন।</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">Signal-এর এই সংস্করণটি আগামীকাল মেয়াদোত্তীর্ণ হয়ে যাবে। সাম্প্রতিকতম সংস্করণে আপডেট করুন।</item>
-    <item quantity="other">Signal-এর এই সংস্করণটির মেয়াদ %d দিনের মধ্যে শেষ হয়ে যাবে। সর্বশেষ সংস্করণে আপডেট করুন।</item>
+    <item quantity="one">Morse-এর এই সংস্করণটি আগামীকাল মেয়াদোত্তীর্ণ হয়ে যাবে। সাম্প্রতিকতম সংস্করণে আপডেট করুন।</item>
+    <item quantity="other">Morse-এর এই সংস্করণটির মেয়াদ %d দিনের মধ্যে শেষ হয়ে যাবে। সর্বশেষ সংস্করণে আপডেট করুন।</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">পাসফ্রেজ প্রবেশ করান</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal আইকন</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Morse আইকন</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">পাসফ্রেজ সাবমিট করুন</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">অকার্যকর পাসফ্রেজ!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Signal আনলক করুন</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal অ্যান্ড্রয়েড - লক স্ক্রিন</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Morse আনলক করুন</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Morse অ্যান্ড্রয়েড - লক স্ক্রিন</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">ম্যাপ</string>
   <string name="PlacePickerActivity_drop_pin">ড্রপ পিন</string>
@@ -1195,16 +1195,16 @@
     <item quantity="one">আপনার %1$d টি প্রচেষ্টা বাকী আছে। আপনার প্রচেষ্টার সীমা শেষ হয়ে গেলে, আপনি একটি নতুন পিন তৈরি করতে পারবেন। আপনি নিবন্ধন করতে ও আপনার অ্যাকাউন্ট ব্যবহার করতে পারবেন কিন্তু আপনি আপনার প্রোফাইল তথ্যের মতো সঞ্চিত কিছু সেটিংস হারাবেন।</item>
     <item quantity="other">আপনার %1$d টি প্রচেষ্টা বাকী আছে। আপনার প্রচেষ্টার সীমা শেষ হয়ে গেলে, আপনি একটি নতুন পিন তৈরি করতে পারবেন। আপনি আপনার অ্যাকাউন্ট রেজিস্টার করে ব্যবহার করতে পারবেন কিন্তু আপনি আপনার প্রোফাইলের তথ্যের মতো কিছু সেভ করা সেটিংস হারাবেন।</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal নিবন্ধন - অ্যানড্রয়েড এর জন্য PIN এর ব্যাপারে সাহায্য প্রয়োজন</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Morse নিবন্ধন - অ্যানড্রয়েড এর জন্য PIN এর ব্যাপারে সাহায্য প্রয়োজন</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">বর্ণানুক্রমিক পিন প্রবেশ করান</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">সংখ্যার পিন প্রবেশ করান</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">আপনার পিন তৈরি করুন</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">আপনার পিন অনুমান করার প্রচেষ্টার সংখ্যা শেষ হয়ে গেছে, কিন্তু আপনি একটি নতুন পিন তৈরি করে এখনও আপনার Signal অ্যাকাউন্টে প্রবেশ করতে পারবেন। আপনার অ্যাকাউন্টের গোপনীয়তা ও নিরাপত্তারর জন্য সেভ করে রাখা প্রোফাইলের তথ্য বা সেটিংস-এর তথ্য ছাড়াই আপনার অ্যাকাউন্টটি পুনর্বহাল করা হবে।</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">আপনার পিন অনুমান করার প্রচেষ্টার সংখ্যা শেষ হয়ে গেছে, কিন্তু আপনি একটি নতুন পিন তৈরি করে এখনও আপনার Morse অ্যাকাউন্টে প্রবেশ করতে পারবেন। আপনার অ্যাকাউন্টের গোপনীয়তা ও নিরাপত্তারর জন্য সেভ করে রাখা প্রোফাইলের তথ্য বা সেটিংস-এর তথ্য ছাড়াই আপনার অ্যাকাউন্টটি পুনর্বহাল করা হবে।</string>
   <string name="PinRestoreLockedFragment_create_new_pin">PIN তৈরি করুন</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">সতর্কতা</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">আপনি পিনটি নিষ্ক্রিয় করলে, আপনি Signal-এ সেভ করা ডেটা ম্যানুয়ালি ব্যাক-আপ ও পুনরুদ্ধার না করলে, পুনরায় Signal-এ রেজিস্টার করার সময় আপনি সমস্ত সেভ করা ডেটা হারাবেন। পিন নিষ্ক্রিয় থাকা অবস্থায় আপনি রেজিস্ট্রেশন লক চালু করতে পারবেন না।</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">আপনি পিনটি নিষ্ক্রিয় করলে, আপনি Morse-এ সেভ করা ডেটা ম্যানুয়ালি ব্যাক-আপ ও পুনরুদ্ধার না করলে, পুনরায় Morse-এ রেজিস্টার করার সময় আপনি সমস্ত সেভ করা ডেটা হারাবেন। পিন নিষ্ক্রিয় থাকা অবস্থায় আপনি রেজিস্ট্রেশন লক চালু করতে পারবেন না।</string>
   <string name="PinOptOutDialog_disable_pin">পিন নিষ্ক্রিয় করুন</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">এই এপটিকে রেটিং দিন</string>
@@ -1220,7 +1220,7 @@
   <string name="ReactionsRecipientAdapter_you">আপনি</string>
   <!--RecaptchaRequiredBottomSheetFragment-->
   <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">মেসেজ পাঠানো চালিয়ে যেতে ভেরিফাই করুন</string>
-  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Signal-এ স্প্যাম প্রতিরোধ করতে, অনুগ্রহ করে যাচাইকরণ সম্পূর্ণ করুন।</string>
+  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Morse-এ স্প্যাম প্রতিরোধ করতে, অনুগ্রহ করে যাচাইকরণ সম্পূর্ণ করুন।</string>
   <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">যাচাই করার পর, আপনি মেসেজ পাঠানো চালিয়ে যেতে পারবেন। স্থগিত করা যেকোনো বার্তা স্বয়ংক্রিয়ভাবে পাঠানো হবে।</string>
   <!--Recipient-->
   <string name="Recipient_you">আপনি</string>
@@ -1241,12 +1241,12 @@
   <string name="RedPhone_got_it">বুঝতে পেরেছি</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">আপনার ভিডিও চালু করতে এখানে আলতো চাপুন</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$s কে ফোন করতে Signal কে আপনার ক্যামেরা ব্যাবহার করতে হবে।</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$s কে ফোন করতে Morse কে আপনার ক্যামেরা ব্যাবহার করতে হবে।</string>
+  <string name="WebRtcCallActivity__signal_s">Morse %1$s</string>
   <string name="WebRtcCallActivity__calling">কল করা হচ্ছে…</string>
   <string name="WebRtcCallActivity__group_is_too_large_to_ring_the_participants">অংশগ্রহণকারীদের রিং করার জন্য গ্রুপটি খুব বড়।</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_call">Signal কল</string>
+  <string name="WebRtcCallView__signal_call">Morse কল</string>
   <string name="WebRtcCallView__signal_video_call">সিগন্যাল ভিডিও কল</string>
   <string name="WebRtcCallView__start_call">কল শুরু করুন</string>
   <string name="WebRtcCallView__join_call">কলে যোগ দিন</string>
@@ -1334,13 +1334,13 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">উপরে প্রদর্শিত আপনার ফোন নম্বরটি কি সঠিক?</string>
   <string name="RegistrationActivity_edit_number">নম্বর সম্পাদনা</string>
   <string name="RegistrationActivity_missing_google_play_services">গুগল প্লে সার্ভিস নিখোজ</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">এই ডিভাইস টিতে গুগল প্লে পরিষেবাদি অনুপস্থিত। আপনি এখনও সিগন্যাল ব্যবহার করতে পারেন, তবে এই কনফিগারেশনের ফলে নির্ভরযোগ্যতা বা কার্যকারিতা হ্রাস পেতে পারে। \n\ আপনি যদি এ্যাডভান্স ব্যবহারকারী না হন,  তাছাড়া কোনও পরিবর্তিত অ্যানড্রয়েড রম চালিয়ে যাচ্ছেন না, বা মনে করছেন যে, আপনি এই ত্রুটি ভুল  করে দেখছেন। দয়া করে সমস্যা সমাধানের জন্য support@signal.org ঠিকানায় পরিচিতি করুন।</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">এই ডিভাইস টিতে গুগল প্লে পরিষেবাদি অনুপস্থিত। আপনি এখনও সিগন্যাল ব্যবহার করতে পারেন, তবে এই কনফিগারেশনের ফলে নির্ভরযোগ্যতা বা কার্যকারিতা হ্রাস পেতে পারে। \n\ আপনি যদি এ্যাডভান্স ব্যবহারকারী না হন,  তাছাড়া কোনও পরিবর্তিত অ্যানড্রয়েড রম চালিয়ে যাচ্ছেন না, বা মনে করছেন যে, আপনি এই ত্রুটি ভুল  করে দেখছেন। দয়া করে সমস্যা সমাধানের জন্য support@devplusone.com ঠিকানায় পরিচিতি করুন।</string>
   <string name="RegistrationActivity_i_understand">আমি বুঝতে পেরেছি</string>
   <string name="RegistrationActivity_play_services_error">প্লে সার্ভিস সমস্যা</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">গুগল প্লে পরিষেবাদি আপডেট করছে বা অস্থায়ীভাবে অনুপলব্ধ। অনুগ্রহপূর্বক আবার চেষ্টা করুন।</string>
   <string name="RegistrationActivity_terms_and_privacy">শর্তাদি এবং গোপনীয়তা নীতি</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">বন্ধুদের সাথে সংযোগ করতে, বার্তা বিনিময় করতে এবং সুরক্ষিত কল সমূহ করার জন্য Signal এর আপনার পরিচিতি এবংমিডিয়া অ্যাক্সেস প্রয়োজন</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">বন্ধুদের সাথে সংযোগ করতে, বার্তাগুলি বিনিময় করতে এবং সুরক্ষিত কল করার জন্য Signal\'র আপনার পরিচিতিগুলিতে প্রবেশ করা প্রয়োজন</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">বন্ধুদের সাথে সংযোগ করতে, বার্তা বিনিময় করতে এবং সুরক্ষিত কল সমূহ করার জন্য Morse এর আপনার পরিচিতি এবংমিডিয়া অ্যাক্সেস প্রয়োজন</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">বন্ধুদের সাথে সংযোগ করতে, বার্তাগুলি বিনিময় করতে এবং সুরক্ষিত কল করার জন্য Morse\'র আপনার পরিচিতিগুলিতে প্রবেশ করা প্রয়োজন</string>
   <string name="RegistrationActivity_rate_limited_to_service">আপনি এই নম্বরটি নিবন্ধন করার জন্য অনেকবার চেষ্টা করেছেন। দয়া করে পরে আবার চেষ্টা করুন।</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">পরিষেবাতে সংযোগ করতে অক্ষম। নেটওয়ার্ক সংযোগ পরীক্ষা করুন এবং আবার চেষ্টা করুন।</string>
   <string name="RegistrationActivity_call_requested">কল অনুরোধ করা হয়েছে</string>
@@ -1363,7 +1363,7 @@
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">রেজিস্ট্রেশন লক চালু করবেন?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">রেজিস্ট্রেশন লক বন্ধ করবেন?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">আবার Signal নিবন্ধকরণ করার সময় আপনি যদি নিজের Signal পিনটি ভুলে যান তবে আপনাকে ৭ দিনের জন্য আপনার অ্যাকাউন্ট থেকে লক আউট করা হবে।</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">আবার Morse নিবন্ধকরণ করার সময় আপনি যদি নিজের Morse পিনটি ভুলে যান তবে আপনাকে ৭ দিনের জন্য আপনার অ্যাকাউন্ট থেকে লক আউট করা হবে।</string>
   <string name="RegistrationLockV2Dialog_turn_on">চালু করুন</string>
   <string name="RegistrationLockV2Dialog_turn_off">বন্ধ করুন</string>
   <!--RevealableMessageView-->
@@ -1379,16 +1379,16 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">পরিচিতি যুক্ত করুন</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Signal এ আমন্ত্রণ জানান</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal বার্তা</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal কল</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Morse এ আমন্ত্রণ জানান</string>
+  <string name="SharedContactDetailsActivity_signal_message">Morse বার্তা</string>
+  <string name="SharedContactDetailsActivity_signal_call">Morse কল</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">পরিচিতিতে যুক্ত করুন</string>
-  <string name="SharedContactView_invite_to_signal">Signal এ আমন্ত্রণ জানান</string>
-  <string name="SharedContactView_message">Signal বার্তা</string>
-  <!--SignalBottomActionBar-->
+  <string name="SharedContactView_invite_to_signal">Morse এ আমন্ত্রণ জানান</string>
+  <string name="SharedContactView_message">Morse বার্তা</string>
+  <!--MorseBottomActionBar-->
   <string name="SignalBottomActionBar_more">আরও</string>
-  <!--SignalPinReminders-->
+  <!--MorsePinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">আমরা আপনাকে পরে আবারও মনে করিয়ে দেব।</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">আমরা আগামীকাল আপনাকে আবারও স্মরণ করিয়ে দেব।</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">আমরা আপনাকে কয়েক দিনের মধ্যে আবারও স্মরণ করিয়ে দেব।</string>
@@ -1409,14 +1409,14 @@
   <string name="SmsMessageRecord_secure_session_reset">আপনি নিরাপদ সেশনটি পুন:স্থাপন করেছেন।</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s নিরাপদ সেশনটি পুন:স্থাপন করেছেন</string>
   <string name="SmsMessageRecord_duplicate_message">ডুপ্লিকেট মেসেজ</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">এই বার্তাটি প্রক্রিয়া করা যায়নি কারণ এটি Signal এর  একটি নতুন সংস্করণ থেকে প্রেরণ করা হয়েছিল। আপনি আপডেট হওয়ার পরে আপনার পরিচিতি কে এই বার্তাটি আবার প্রেরণ করতে বলতে পারেন।</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">এই বার্তাটি প্রক্রিয়া করা যায়নি কারণ এটি Morse এর  একটি নতুন সংস্করণ থেকে প্রেরণ করা হয়েছিল। আপনি আপডেট হওয়ার পরে আপনার পরিচিতি কে এই বার্তাটি আবার প্রেরণ করতে বলতে পারেন।</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">আগত বার্তা পরিচালনা করার সময় ত্রুটি।</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">স্টিকার সমূহ</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">ইনস্টলকৃত স্টিকার</string>
   <string name="StickerManagementAdapter_stickers_you_received">আপনার প্রাপ্ত স্টিকার</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signal  শিল্পী সিরিজ</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Morse  শিল্পী সিরিজ</string>
   <string name="StickerManagementAdapter_no_stickers_installed">কোনো স্টিকার ইনস্টল করা নেই</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">আগত বার্তাগুলির স্টিকারসমূহ এখানে দেখা যাবে</string>
   <string name="StickerManagementAdapter_untitled">নামহীন</string>
@@ -1442,8 +1442,8 @@
   <string name="SupportEmailUtil_filter">ফিল্টার:</string>
   <string name="SupportEmailUtil_device_info">ডিভাইস-এর তথ্য:</string>
   <string name="SupportEmailUtil_android_version">অ্যান্ড্রয়েড সংস্করণ:</string>
-  <string name="SupportEmailUtil_signal_version">Signal সংস্করণ:</string>
-  <string name="SupportEmailUtil_signal_package">Signal প্যাকেজ:</string>
+  <string name="SupportEmailUtil_signal_version">Morse সংস্করণ:</string>
+  <string name="SupportEmailUtil_signal_package">Morse প্যাকেজ:</string>
   <string name="SupportEmailUtil_registration_lock">রেজিস্ট্রেশন লক</string>
   <string name="SupportEmailUtil_locale">স্থান:</string>
   <!--ThreadRecord-->
@@ -1462,7 +1462,7 @@
   <string name="ThreadRecord_view_once_media">একবার দেখা যাবে এমন মিডিয়া</string>
   <string name="ThreadRecord_this_message_was_deleted">এই বার্তাটি মুছে ফেলা হয়েছে।</string>
   <string name="ThreadRecord_you_deleted_this_message">আপনি এই বার্তাটি মুছে দিয়েছিলেন। </string>
-  <string name="ThreadRecord_s_is_on_signal">%s Signal এ যোগ দিয়েছেন!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s Morse এ যোগ দিয়েছেন!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">অদৃশ্য হওয়া বার্তাগুলি অক্ষম করা হয়েছে</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">অদৃশ্য হয়ে যাওয়া বার্তার সময়টি %s এ সেট করা হয়েছে</string>
   <string name="ThreadRecord_safety_number_changed">নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে</string>
@@ -1479,8 +1479,8 @@
   <string name="ThreadRecord_video">ভিডিও</string>
   <string name="ThreadRecord_chat_session_refreshed">চ্যাট সেশনটি পুনরায় লোড হয়েছে</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal আপডেট</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Signal এর একটি নতুন ভার্সন পাওয়া যাচ্ছে, অাপডেট করতে ট্যাপ করুন</string>
+  <string name="UpdateApkReadyListener_Signal_update">Morse আপডেট</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Morse এর একটি নতুন ভার্সন পাওয়া যাচ্ছে, অাপডেট করতে ট্যাপ করুন</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">বার্তা পাঠান?</string>
   <string name="UntrustedSendDialog_send">পাঠান</string>
@@ -1499,20 +1499,20 @@
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">ব্যবহারকারীর নাম সংখ্যা দিয়ে শুরু করতে পারে না।</string>
   <string name="UsernameEditFragment_username_is_invalid">ব্যবহারকারীর নাম অবৈধ|</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">ব্যবহারকারীর নামগুলি অবশ্যই %1$d এবং %2$d অক্ষরের মধ্যে থাকতে হবে।</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Signal-এ ইউজারনেম হল অপশনাল। আপনি একটি ইউজারনেম তৈরি করতে চাইলে, Signal-এর অন্য ইউজাররা এই ইউজারনেম দিয়ে আপনাকে খুঁজে বের করতে পারবেন এবং আপনার ফোন নম্বর জানা ছাড়াই আপনার সাথে যোগাযোগ করতে পারবেন।</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Morse-এ ইউজারনেম হল অপশনাল। আপনি একটি ইউজারনেম তৈরি করতে চাইলে, Morse-এর অন্য ইউজাররা এই ইউজারনেম দিয়ে আপনাকে খুঁজে বের করতে পারবেন এবং আপনার ফোন নম্বর জানা ছাড়াই আপনার সাথে যোগাযোগ করতে পারবেন।</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%d টি কন্ট্যাক্ট Signal ব্যবহার করছে!</item>
-    <item quantity="other">%d জন কন্ট্যাক্ট Signal ব্যবহার করছেন!</item>
+    <item quantity="one">%d টি কন্ট্যাক্ট Morse ব্যবহার করছে!</item>
+    <item quantity="other">%d জন কন্ট্যাক্ট Morse ব্যবহার করছেন!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">আপনার পরিচিতি Signal এর একটি পুরানো সংস্করণ চলাচ্ছেন। আপনার নিরাপত্তা নাম্বার যাচাই করার আগে দয়া করে তাকে আপডেট করতে বলুন।</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">আপনার পরিচিতি Morse এর একটি পুরানো সংস্করণ চলাচ্ছেন। আপনার নিরাপত্তা নাম্বার যাচাই করার আগে দয়া করে তাকে আপডেট করতে বলুন।</string>
   <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">আপনার পরিচিতি একটি অসঙ্গত QR কোড ফর্ম্যাট সহ সিগন্যালের একটি নতুন সংস্করণ চলাচ্ছেন। তুলনা করার জন্য আপডেট করুন।</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">স্ক্যান করা কিউআর কোডটি সঠিকভাবে ফর্ম্যাট করা নিরাপত্তা নাম্বার যাচাইকরণ কোড নয়। আবার স্ক্যান করার চেষ্টা করুন।</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">যার মাধ্যমে নিরাপত্তা নম্বর শেয়ার করতে চান…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">আমাদের Signal নিরাপত্তা নাম্বার:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">আমাদের Morse নিরাপত্তা নাম্বার:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">আপনার কাছে শেয়ার করতে পারবেন এমন কোন অ্যাপ নেই।</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">ক্লিপবোর্ডে তুলনার মতো কোনও নিরাপত্তা নাম্বার পাওয়া যায় নি</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">কোনও কিউআর কোড স্ক্যান করার জন্য Signal এর ক্যামেরা অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ সেটিংসে যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"ক্যামেরা\" সক্ষম করুন।</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">কোনও কিউআর কোড স্ক্যান করার জন্য Morse এর ক্যামেরা অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ সেটিংসে যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"ক্যামেরা\" সক্ষম করুন।</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">ক্যামেরা অনুমতি ছাড়া কিউআর কোড স্ক্যান করা সম্ভব নয়</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">%1$s-এর নিরাপত্তা নাম্বার দেখতে আপনাকে প্রথমে তার সাথে মেসেজ আদান-প্রদান করতে হবে।</string>
   <!--ViewOnceMessageActivity-->
@@ -1531,13 +1531,13 @@
   <string name="ApplicationMigrationService_system_database_import_is_complete">সিস্টেম ডাটাবেস আমদানি সম্পন্ন হয়েছে।</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">খোলার জন্য স্পর্শ করুন।</string>
-  <string name="KeyCachingService_passphrase_cached">Signal আনলক করা আছে</string>
-  <string name="KeyCachingService_lock">Signal লক্ করুন</string>
+  <string name="KeyCachingService_passphrase_cached">Morse আনলক করা আছে</string>
+  <string name="KeyCachingService_lock">Morse লক্ করুন</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">আপনি</string>
   <string name="MediaPreviewActivity_unssuported_media_type">অসমর্থিত ধরনের মিডিয়া</string>
   <string name="MediaPreviewActivity_draft">খসড়া</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">বাহ্যিক স্টোরেজে সংরক্ষণের জন্য Signalএর স্টোরেজের অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"স্টোরেজ\" সক্ষম করুন।</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">বাহ্যিক স্টোরেজে সংরক্ষণের জন্য Morseএর স্টোরেজের অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"স্টোরেজ\" সক্ষম করুন।</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">অনুমতি ব্যতীত বাহ্যিক স্টোরেজে সংরক্ষণ করতে অক্ষম</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">বার্তা মুছে দিন?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">স্থায়ীভাবে এই বার্তাটি মুছে দিন।</string>
@@ -1552,17 +1552,17 @@
   <string name="MessageNotifier_failed_to_deliver_message">বার্তা পৌছে দিতে ব্যর্থ।</string>
   <string name="MessageNotifier_error_delivering_message">বার্তা পৌছানোর সময় ত্রুটি।</string>
   <string name="MessageNotifier_message_delivery_paused">মেসেজ পাঠানো পজ করা আছে।</string>
-  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Signal-এ মেসেজ পাঠানো চালিউয়ে যেতে যাচাই করুন।</string>
+  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Morse-এ মেসেজ পাঠানো চালিউয়ে যেতে যাচাই করুন।</string>
   <string name="MessageNotifier_mark_all_as_read">সবগুলো পঠিত বলে সনাক্ত কর।</string>
   <string name="MessageNotifier_mark_read">পঠিত বলে সনাক্ত কর</string>
   <string name="MessageNotifier_turn_off_these_notifications">এই নোটিফিকেশনগুলো বন্ধ করতে চান?</string>
   <string name="MessageNotifier_view_once_photo">একবার দেখার যোগ্য ছবি</string>
   <string name="MessageNotifier_view_once_video">একবার দেখার যোগ্য ভিডিও</string>
   <string name="MessageNotifier_reply">প্রত্যুত্তর</string>
-  <string name="MessageNotifier_signal_message">Signal বার্তা</string>
+  <string name="MessageNotifier_signal_message">Morse বার্তা</string>
   <string name="MessageNotifier_unsecured_sms">অনিরাপদ এসএমএস</string>
   <string name="MessageNotifier_you_may_have_new_messages">আপনার কাছে নতুন বার্তা থাকতে পারে</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">সাম্প্রতিক নোটিফিকেশনগুলি দেখার জন্য Signal খুলুন।</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">সাম্প্রতিক নোটিফিকেশনগুলি দেখার জন্য Morse খুলুন।</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">পরিচিতি</string>
   <string name="MessageNotifier_reacted_s_to_s"> \"%2$s\" তে %1$s প্রতিক্রিয়া|</string>
@@ -1574,7 +1574,7 @@
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">আপনার একবার-দেখা মিডিয়ায় %1$s প্রতিক্রিয়া দেখিয়েছে।</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">আপনার স্টিকারে %1$s প্রতিক্রিয়া জানিয়েছে|</string>
   <string name="MessageNotifier_this_message_was_deleted">এই বার্তাটি মুছে ফেলা হয়েছে।</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">কন্ট্যাক্টের Signal-এ যোগ দেওয়ার নোটিফিকেশনটি বন্ধ করবেন? আপনি Signal &gt; সেটিংস &gt; নোটিফিকেশন অপশনে গিয়ে এটি চালু করতে পারবেন।</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">কন্ট্যাক্টের Morse-এ যোগ দেওয়ার নোটিফিকেশনটি বন্ধ করবেন? আপনি Morse &gt; সেটিংস &gt; নোটিফিকেশন অপশনে গিয়ে এটি চালু করতে পারবেন।</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">বার্তাসমূহ</string>
   <string name="NotificationChannel_calls">কল সমূহ</string>
@@ -1586,11 +1586,11 @@
   <string name="NotificationChannel_group_chats">আলাপসমূহ</string>
   <string name="NotificationChannel_missing_display_name">অজানা</string>
   <string name="NotificationChannel_voice_notes">ভয়েস নোট</string>
-  <string name="NotificationChannel_contact_joined_signal">পরিচিতি Signal এ যোগ দিয়েছে</string>
+  <string name="NotificationChannel_contact_joined_signal">পরিচিতি Morse এ যোগ দিয়েছে</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">নোটিফিকেশন চ্যানেল সেটিংস খোলার কোন কার্যকলাপ উপলভ্য নেই।</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Signal লক্ করা থাকলে দ্রুত প্রত্যুত্তর দেওয়া সম্ভব নয়!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Morse লক্ করা থাকলে দ্রুত প্রত্যুত্তর দেওয়া সম্ভব নয়!</string>
   <string name="QuickResponseService_problem_sending_message">বার্তা প্রেরণে সমস্যা!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">%sএ সংরক্ষন করা হয়েছে</string>
@@ -1601,7 +1601,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">অকার্যকর শর্টকাট</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Morse</string>
   <string name="SingleRecipientNotificationBuilder_new_message">নতুন বার্তা</string>
   <string name="SingleRecipientNotificationBuilder_message_request">মেসেজের অনুরোধ</string>
   <string name="SingleRecipientNotificationBuilder_you">আপনি</string>
@@ -1615,10 +1615,10 @@
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">ডিভাইস আর নিবন্ধিত নেই</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">সম্ভবত আপনি অন্য ডিভাইসে Signal এর সাথে আপনার ফোন নাম্বার নিবন্ধভুক্ত করেছেন। পুনরায় নিবন্ধন করতে আলতো চাপুন।</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">সম্ভবত আপনি অন্য ডিভাইসে Morse এর সাথে আপনার ফোন নাম্বার নিবন্ধভুক্ত করেছেন। পুনরায় নিবন্ধন করতে আলতো চাপুন।</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%sএর থেকে কল উত্তর দিতে, Signal কে আপনার মাইক্রোফোনে অ্যাক্সেস দিন।</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">কল সমূহ করতে বা গ্রহণের জন্য Signal এর মাইক্রোফোন এবং ক্যামেরা ব্যবহারের অনুমতি প্রয়োজন, তবে সেগুলি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে যান এবং \"অনুমতিগুলি\" নির্বাচন করুন এবং \"মাইক্রোফোন\" এবং \"ক্যামেরা\" সক্ষম করুন |</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%sএর থেকে কল উত্তর দিতে, Morse কে আপনার মাইক্রোফোনে অ্যাক্সেস দিন।</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">কল সমূহ করতে বা গ্রহণের জন্য Morse এর মাইক্রোফোন এবং ক্যামেরা ব্যবহারের অনুমতি প্রয়োজন, তবে সেগুলি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে যান এবং \"অনুমতিগুলি\" নির্বাচন করুন এবং \"মাইক্রোফোন\" এবং \"ক্যামেরা\" সক্ষম করুন |</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">সংযুক্ত ডিভাইসে উত্তর দেওয়া হয়েছে।</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">সংযুক্ত ডিভাইসে অস্বীকার করা হয়েছে।</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">সংযুক্ত ডিভাইসে ব্যাস্ত।</string>
@@ -1642,7 +1642,7 @@
   <string name="change_passphrase_activity__repeat_new_passphrase">নতুন পাসফ্রেজ পুনরাবৃত্তি করুন</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">নাম বা নাম্বার লিখুন</string>
-  <string name="contact_selection_activity__invite_to_signal">Signal এ নিমন্ত্রণ করুন</string>
+  <string name="contact_selection_activity__invite_to_signal">Morse এ নিমন্ত্রণ করুন</string>
   <string name="contact_selection_activity__new_group">নতুন গ্রুপ</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">প্রবেশ করা লেখা মুছুন</string>
@@ -1654,21 +1654,21 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">পরিচিতির ছবি</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">আপনার পরিচিতিসমূহ দেখানোর জন্য Signal এর পরিচিতি পাঠের অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে যান এবং \"অনুমতিগুলি\" নির্বাচন করুন এবং \"পরিচিতি\" সক্ষম করুন।</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">আপনার পরিচিতিসমূহ দেখানোর জন্য Morse এর পরিচিতি পাঠের অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। দয়া করে অ্যাপ্লিকেশন সেটিংসে যান এবং \"অনুমতিগুলি\" নির্বাচন করুন এবং \"পরিচিতি\" সক্ষম করুন।</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">পরিচিতি পুনরুদ্ধারে ত্রুটি, আপনার নেটওয়ার্ক সংযোগটি পরীক্ষা করুন</string>
   <string name="ContactSelectionListFragment_username_not_found">ব্যবহারকারীর নাম খুঁজে পাওয়া যায়নি</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" কোনও Signal ব্যবহারকারী নয়। দয়া করে ব্যবহারকারীর নামটি পরীক্ষা করুন এবং আবার চেষ্টা করুন।</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" কোনও Morse ব্যবহারকারী নয়। দয়া করে ব্যবহারকারীর নামটি পরীক্ষা করুন এবং আবার চেষ্টা করুন।</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">আপনার নিজেকে এই গ্রুপটিতে যোগ করার দরকার নেই</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">গ্রুপের সদস্য সর্বোচ্চ সংখ্যায় পৌঁছেছে</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal গ্রুপে সর্বোচ্চ %1$d জন সদস্য থাকতে পারবে।</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Morse গ্রুপে সর্বোচ্চ %1$d জন সদস্য থাকতে পারবে।</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">সুপারিশকৃত সদস্য সর্বোচ্চ সীমায় পৌঁছেছে</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal গ্রুপ %1$d বা তার কম সদস্য সংখ্যায় সবচেয়ে ভালো কাজ করে। আরও সদস্য যোগ করলে মেসেজ পাঠানো ও গ্রহণে বিলম্ব হবে।</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Morse গ্রুপ %1$d বা তার কম সদস্য সংখ্যায় সবচেয়ে ভালো কাজ করে। আরও সদস্য যোগ করলে মেসেজ পাঠানো ও গ্রহণে বিলম্ব হবে।</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">%1$d জন সদস্য</item>
     <item quantity="other">%1$d জন সদস্য</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal আপনার পরিচিতিসমূহ প্রদর্শন করতে তাদের প্রবেশাধিকার প্রয়োজন।</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Morse আপনার পরিচিতিসমূহ প্রদর্শন করতে তাদের প্রবেশাধিকার প্রয়োজন।</string>
   <string name="contact_selection_list_fragment__show_contacts">পরিচিতিসমূহ দেখান</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1676,7 +1676,7 @@
     <item quantity="other">%1$d জন সদস্য</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal বার্তা</string>
+  <string name="conversation_activity__type_message_push">Morse বার্তা</string>
   <string name="conversation_activity__type_message_sms_insecure">অনিরাপদ এসএমএস</string>
   <string name="conversation_activity__type_message_mms_insecure">অনিরাপদ এমএমএস</string>
   <string name="conversation_activity__from_sim_name">%1$s থেকে</string>
@@ -1688,7 +1688,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">দ্রুত ক্যামেরা সংযুক্তি ড্রয়ারটি টগল করুন</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">অডিও সংযুক্তি রেকর্ড এবং প্রেরণ করুন</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">অডিও সংযুক্তি রেকর্ডিং লক্ করুন</string>
-  <string name="conversation_activity__enable_signal_for_sms">এসএমএসের জন্য Signal সক্ষম করুন</string>
+  <string name="conversation_activity__enable_signal_for_sms">এসএমএসের জন্য Morse সক্ষম করুন</string>
   <string name="conversation_activity__message_could_not_be_sent">মেসেজ পাঠানো যায়নি। আপনার সংযোগটি পরীক্ষা করুন ও পুনরায় চেষ্টা করুন।</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">বাতিল করতে স্লাইড করুন</string>
@@ -1796,9 +1796,9 @@
   <string name="IdentityUtil_unverified_banner_one">%sএর  সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে এবং যাচাইকৃত নয়</string>
   <string name="IdentityUtil_unverified_banner_two">%1$s এবং%2$s সাথে আপনার নিরাপত্তা নম্বরগুলি আর যাচাইকৃত নেই</string>
   <string name="IdentityUtil_unverified_banner_many">%1$s,%2$sএবং%3$sএর সাথে আপনার নিরাপত্তা নম্বরগুলি আর যাচাইকৃত নেই</string>
-  <string name="IdentityUtil_unverified_dialog_one">%1$s এর সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে। এর অর্থ হয় যে কেউ আপনার যোগাযোগ বাধা দেওয়ার চেষ্টা করছে, বা %1$s কেবল Signal পুনরায় ইনস্টল করেছে।</string>
-  <string name="IdentityUtil_unverified_dialog_two">%1$sএবং %2$s এর সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে। এর অর্থ হয় যে কেউ আপনার যোগাযোগ বাধা দেওয়ার চেষ্টা করছে, বা তারা কেবল Signal পুনরায় ইনস্টল করেছে।</string>
-  <string name="IdentityUtil_unverified_dialog_many">%1$s, %2$sএবং%3$s এর সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে। এর অর্থ হয় যে কেউ আপনার যোগাযোগ বাধা দেওয়ার চেষ্টা করছে, বা  তারা কেবল Signal পুনরায় ইনস্টল করেছে।</string>
+  <string name="IdentityUtil_unverified_dialog_one">%1$s এর সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে। এর অর্থ হয় যে কেউ আপনার যোগাযোগ বাধা দেওয়ার চেষ্টা করছে, বা %1$s কেবল Morse পুনরায় ইনস্টল করেছে।</string>
+  <string name="IdentityUtil_unverified_dialog_two">%1$sএবং %2$s এর সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে। এর অর্থ হয় যে কেউ আপনার যোগাযোগ বাধা দেওয়ার চেষ্টা করছে, বা তারা কেবল Morse পুনরায় ইনস্টল করেছে।</string>
+  <string name="IdentityUtil_unverified_dialog_many">%1$s, %2$sএবং%3$s এর সাথে আপনার নিরাপত্তা নাম্বার পরিবর্তিত হয়েছে। এর অর্থ হয় যে কেউ আপনার যোগাযোগ বাধা দেওয়ার চেষ্টা করছে, বা  তারা কেবল Morse পুনরায় ইনস্টল করেছে।</string>
   <string name="IdentityUtil_untrusted_dialog_one">%s এর সাথে আপনার নিরাপত্তা নাম্বার মাত্রই পরিবর্তিত হয়েছে। </string>
   <string name="IdentityUtil_untrusted_dialog_two">%1$sএবং%2$s এর সাথে আপনার নিরাপত্তা নাম্বার মাত্রই পরিবর্তিত হয়েছে। </string>
   <string name="IdentityUtil_untrusted_dialog_many">%1$s,%2$sএবং%3$s এর সাথে আপনার নিরাপত্তা নাম্বার মাত্রই পরিবর্তিত হয়েছে। </string>
@@ -1811,7 +1811,7 @@
   <!--giphy_fragment-->
   <string name="giphy_fragment__nothing_found">কিছুই পাওয়া যায়নি</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">আপনি কি Signal এর এনক্রিপ্ট করা ডাটাবেস এর মধ্যে আপনার বিদ্যমান পাঠ্য বার্তাগুলি আমদানি করতে চান?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">আপনি কি Morse এর এনক্রিপ্ট করা ডাটাবেস এর মধ্যে আপনার বিদ্যমান পাঠ্য বার্তাগুলি আমদানি করতে চান?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">ডিফল্ট সিস্টেম ডাটাবেস কোনওভাবেই পরিবর্তন বা পরিবর্তন করা হবে না।</string>
   <string name="database_migration_activity__skip">বাদ দিয়ে যান</string>
   <string name="database_migration_activity__import">আমদানী</string>
@@ -1874,7 +1874,7 @@
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>একটি নাম বা নাম্বার লিখুন</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[%s এর সাথে আপনার সর্বশেষ সীমা এনক্রিপশনের নিরাপত্তা যাচাই করতে, তাদের ডিভাইসের সাথে উপরের নম্বরগুলি তুলনা করুন। আপনি তাদের ফোনে কোড স্ক্যান করতে পারেন। <a href="https://signal.org/redirect/safety-numbers">আরও জানুন।</a>]]></string>
+  <string name="verify_display_fragment__to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[%s এর সাথে আপনার সর্বশেষ সীমা এনক্রিপশনের নিরাপত্তা যাচাই করতে, তাদের ডিভাইসের সাথে উপরের নম্বরগুলি তুলনা করুন। আপনি তাদের ফোনে কোড স্ক্যান করতে পারেন। <a href="https://devplusone.com/redirect/safety-numbers">আরও জানুন।</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">স্ক্যান করতে আলতো চাপুন</string>
   <string name="verify_display_fragment__successful_match">সফল ম্যাচ</string>
   <string name="verify_display_fragment__failed_to_verify_safety_number">নিরাপত্তা নম্বর যাচাই করতে ব্যর্থ হয়েছে</string>
@@ -1931,7 +1931,7 @@
   <string name="HelpFragment__how_do_you_feel">আপনার অনুভূতি কী? (ঐচ্ছিক)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">কেন আপনি মেসেজ পাঠাচ্ছেন তা বলুন।</string>
   <string name="HelpFragment__support_info">সহায়ক তথ্য</string>
-  <string name="HelpFragment__signal_android_support_request">Signal অ্যানড্রয়েড সহায়তা আবেদন</string>
+  <string name="HelpFragment__signal_android_support_request">Morse অ্যানড্রয়েড সহায়তা আবেদন</string>
   <string name="HelpFragment__debug_log">ডিবাগ লগ:</string>
   <string name="HelpFragment__could_not_upload_logs">লগসমূহ আপলোড করা যায়নি</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">আমরা যাতে সমস্যাটি বুঝতে পারি সেজন্য যতটা সম্ভব বিস্তারিত বলুন।</string>
@@ -1983,8 +1983,8 @@
   <string name="preferences__sms_mms">এসএমএস এবং এমএমএস</string>
   <string name="preferences__pref_all_sms_title">সমস্ত এসএমএস পান</string>
   <string name="preferences__pref_all_mms_title">সমস্ত এমএমএস পান</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">সমস্ত আগত পাঠ্য বার্তাগুলির জন্য Signal ব্যবহার করুন</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">সমস্ত আগত মাল্টিমিডিয়া বার্তাগুলির জন্য Signal ব্যবহার করুন</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">সমস্ত আগত পাঠ্য বার্তাগুলির জন্য Morse ব্যবহার করুন</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">সমস্ত আগত মাল্টিমিডিয়া বার্তাগুলির জন্য Morse ব্যবহার করুন</string>
   <string name="preferences__pref_enter_sends_title">এন্টার কী পাঠাবে</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">এন্টার কী টিপলে পাঠ্য বার্তা প্রেরণ করা হবে</string>
   <string name="preferences__pref_use_address_book_photos">অ্যাড্রেস বুকের ছবি ব্যবহার করুন</string>
@@ -1999,7 +1999,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">একটি পাসফ্রেজ দিয়ে স্ক্রিন এবং নোটিফিকেশনসমুহ লক্ করুন</string>
   <string name="preferences__screen_security">স্ক্রীন সুরক্ষা</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">সাম্প্রতিক অ্যাপ তালিকা থেকে স্ক্রীনশট ব্লক করুন</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">নির্দিষ্ট সময়ের নিষ্ক্রিয়তার পরে Signal  অটো-লক্ করুন</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">নির্দিষ্ট সময়ের নিষ্ক্রিয়তার পরে Morse  অটো-লক্ করুন</string>
   <string name="preferences__inactivity_timeout_passphrase">নিষ্ক্রিয়তার সময়সীমার পাসফ্রেজ</string>
   <string name="preferences__inactivity_timeout_interval">নিষ্ক্রিয়তার সময়সীমা</string>
   <string name="preferences__notifications">নোটিফিকেশনসমুহ</string>
@@ -2030,7 +2030,7 @@
   <string name="preferences__slow">ধীর</string>
   <string name="preferences__help">সাহায্য</string>
   <string name="preferences__advanced">উন্নততর</string>
-  <string name="preferences__donate_to_signal">Signal -এ দান করুন</string>
+  <string name="preferences__donate_to_signal">Morse -এ দান করুন</string>
   <string name="preferences__subscription">সাবস্ক্রিপশন</string>
   <string name="preferences__signal_boost">সিগন্যাল বুস্ট</string>
   <string name="preferences__privacy">গোপনীয়তা</string>
@@ -2059,13 +2059,13 @@
   <string name="preferences__chat_color_and_wallpaper">চ্যাটের রং ও ওয়ালপেপার</string>
   <string name="preferences__disable_pin">পিন নিষ্ক্রিয় করুন</string>
   <string name="preferences__enable_pin">পিন সক্রিয় করুন</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">আপনি পিনটি নিষ্ক্রিয় করলে, আপনি Signal-এ সেভ করা ডেটা ম্যানুয়ালি ব্যাক-আপ ও পুনরুদ্ধার না করলে, পুনরায় Signal-এ রেজিস্টার করার সময় আপনি সমস্ত সেভ করা ডেটা হারাবেন। পিন নিষ্ক্রিয় থাকা অবস্থায় আপনি রেজিস্ট্রেশন লক চালু করতে পারবেন না।</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">পিনগুলি এনক্রিপ্ট করা Signal-এর সাথে তথ্য সঞ্চয় করে রাখে যাতে কেবলমাত্র আপনিই সেগুলি পড়তে পারেন। আপনি পুনরায় ইনস্টল করার পর আপনার প্রোফাইল, সেটিংস ও কন্ট্যাক্টগুলি পুনর্বহাল হবে। অ্যাপটি চালু করতে আপনার পিনের দরকার হবে না।</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">আপনি পিনটি নিষ্ক্রিয় করলে, আপনি Morse-এ সেভ করা ডেটা ম্যানুয়ালি ব্যাক-আপ ও পুনরুদ্ধার না করলে, পুনরায় Morse-এ রেজিস্টার করার সময় আপনি সমস্ত সেভ করা ডেটা হারাবেন। পিন নিষ্ক্রিয় থাকা অবস্থায় আপনি রেজিস্ট্রেশন লক চালু করতে পারবেন না।</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">পিনগুলি এনক্রিপ্ট করা Morse-এর সাথে তথ্য সঞ্চয় করে রাখে যাতে কেবলমাত্র আপনিই সেগুলি পড়তে পারেন। আপনি পুনরায় ইনস্টল করার পর আপনার প্রোফাইল, সেটিংস ও কন্ট্যাক্টগুলি পুনর্বহাল হবে। অ্যাপটি চালু করতে আপনার পিনের দরকার হবে না।</string>
   <string name="preferences__system_default">সিস্টেম ডিফল্ট</string>
   <string name="preferences__language">ভাষা</string>
-  <string name="preferences__signal_messages_and_calls">Signal বার্তাসমূহ এবং কল সমূহ</string>
+  <string name="preferences__signal_messages_and_calls">Morse বার্তাসমূহ এবং কল সমূহ</string>
   <string name="preferences__advanced_pin_settings">অ্যাডভান্সড পিন সেটিংস</string>
-  <string name="preferences__free_private_messages_and_calls">Signal  ব্যবহারকারীদের জন্য বিনামূল্যে ব্যক্তিগত বার্তা এবং কল সমূহ</string>
+  <string name="preferences__free_private_messages_and_calls">Morse  ব্যবহারকারীদের জন্য বিনামূল্যে ব্যক্তিগত বার্তা এবং কল সমূহ</string>
   <string name="preferences__submit_debug_log">ডিবাগ লগ সাবমিট করুন</string>
   <string name="preferences__delete_account">অ্যাকাউন্ট মুছে ফেলুন</string>
   <string name="preferences__support_wifi_calling">\'ওয়াইফাই কলিং\' সামঞ্জস্যতা ধরন</string>
@@ -2105,8 +2105,8 @@
   <string name="preferences_storage__s_messages">%1$s বার্তা</string>
   <string name="preferences_storage__custom">নির্বাচিত</string>
   <string name="preferences_advanced__use_system_emoji">সিস্টেম ইমোজি ব্যবহার করুন</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Signal এর অন্তর্নির্মিত ইমোজি সমর্থন অক্ষম করুন</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">আপনার যোগাযোগের আইপি ঠিকানাটি প্রকাশ না করার জন্য Signal সার্ভারের মাধ্যমে কল সমূহ রিলে করুন। সক্ষম করা কল এর মান হ্রাস পাবে|</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Morse এর অন্তর্নির্মিত ইমোজি সমর্থন অক্ষম করুন</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">আপনার যোগাযোগের আইপি ঠিকানাটি প্রকাশ না করার জন্য Morse সার্ভারের মাধ্যমে কল সমূহ রিলে করুন। সক্ষম করা কল এর মান হ্রাস পাবে|</string>
   <string name="preferences_advanced__always_relay_calls">কল সমূহ সবসময় রিলে করুন</string>
   <string name="preferences_app_protection__who_can">যে পারে …</string>
   <string name="preferences_app_protection__app_access">অ্যাপ প্রবেশাধীকার</string>
@@ -2126,9 +2126,9 @@
   <string name="preferences_notifications__calls">কল সমূহ</string>
   <string name="preferences_notifications__ringtone">রিংটোন</string>
   <string name="preferences_chats__show_invitation_prompts">আমন্ত্রণের অনুরোধ দেখান</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Signal ছাড়া পরিচিতিগুলোর জন্য আমন্ত্রণের অনুরোধ প্রদর্শন করুন</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Morse ছাড়া পরিচিতিগুলোর জন্য আমন্ত্রণের অনুরোধ প্রদর্শন করুন</string>
   <string name="preferences_chats__message_text_size">বার্তার হরফের আকার</string>
-  <string name="preferences_events__contact_joined_signal">পরিচিতি Signal এ যোগ দিয়েছে</string>
+  <string name="preferences_events__contact_joined_signal">পরিচিতি Morse এ যোগ দিয়েছে</string>
   <string name="preferences_notifications__priority">অগ্রাধিকার</string>
   <string name="preferences_communication__category_sealed_sender">সিলযুক্ত প্রেরক</string>
   <string name="preferences_communication__sealed_sender_display_indicators">প্রদর্শন সূচকসমূহ</string>
@@ -2142,7 +2142,7 @@
   <string name="preferences_off">বন্ধ</string>
   <string name="preferences_on">চালু</string>
   <string name="preferences_proxy_address">প্রক্সি ঠিকানা</string>
-  <string name="preferences_only_use_a_proxy_if">আপনি যদি মোবাইল ডেটা বা ওয়াই-ফাইতে Signal এর সাথে সংযোগ রাখতে সক্ষম না হন তবেই কেবল প্রক্সি ব্যবহার করুন।</string>
+  <string name="preferences_only_use_a_proxy_if">আপনি যদি মোবাইল ডেটা বা ওয়াই-ফাইতে Morse এর সাথে সংযোগ রাখতে সক্ষম না হন তবেই কেবল প্রক্সি ব্যবহার করুন।</string>
   <string name="preferences_share">শেয়ার করুন</string>
   <string name="preferences_save">সংরক্ষন</string>
   <string name="preferences_connecting_to_proxy">প্রক্সিতে সংযুক্ত হচ্ছে …</string>
@@ -2161,7 +2161,7 @@
   <string name="PaymentsAllActivityFragment__sent">পাঠানো হয়েছে</string>
   <string name="PaymentsAllActivityFragment__received">গৃহীত</string>
   <string name="PaymentsHomeFragment__introducing_payments">পেমেন্ট উপস্থাপন করা হচ্ছে (বিটা)</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">গোপনীয়তাকে গুরুত্ব দেয় এমন একটি নতুন ডিজিটাল মুদ্রা MobileCoin পাঠাতে ও গ্রহণ করতে Signal ব্যবহার করুন। শুরু করতে সক্রিয় করুন।</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">গোপনীয়তাকে গুরুত্ব দেয় এমন একটি নতুন ডিজিটাল মুদ্রা MobileCoin পাঠাতে ও গ্রহণ করতে Morse ব্যবহার করুন। শুরু করতে সক্রিয় করুন।</string>
   <string name="PaymentsHomeFragment__activate_payments">অর্থ প্রদানের উপায় সক্রিয় করুন</string>
   <string name="PaymentsHomeFragment__activating_payments">অর্থ প্রদানের উপায় সক্রিয় করা হচ্ছে</string>
   <string name="PaymentsHomeFragment__restore_payments_account">পেমেন্ট অ্যাকাউন্ট পুনর্বহাল করুন</string>
@@ -2188,17 +2188,17 @@
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">আপনার অঞ্চল থেকে অর্থ প্রদান উপলভ্য নয়।</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">অর্থ প্রদান করা সক্ষম করা যায়নি। পরে আবার চেষ্টা করুন।</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">পেমেন্ট বন্ধ করবেন?</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">আপনি পেমেন্ট বন্ধ করলে Signal-এ Mobilecoin পাঠাতে বা গ্রহণ করতে পারবেন না।</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">আপনি পেমেন্ট বন্ধ করলে Morse-এ Mobilecoin পাঠাতে বা গ্রহণ করতে পারবেন না।</string>
   <string name="PaymentsHomeFragment__deactivate">বন্ধ করুন</string>
   <string name="PaymentsHomeFragment__continue">চলতে থাকুন</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">ব্যালেন্স বর্তমানে উপলভ্য নয়।</string>
   <string name="PaymentsHomeFragment__payments_deactivated">পেমেন্ট বন্ধ করা হয়েছে।</string>
   <string name="PaymentsHomeFragment__payment_failed">পেমেন্ট ব্যর্থ হয়েছে</string>
   <string name="PaymentsHomeFragment__details">খুঁটিনাটি</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">আপনি MobileCoin পাঠাতে এবং গ্রহণ করতে Signal ব্যবহার করতে পারেন। সমস্ত পেমেন্ট MobileCoin এবং MobileCoin ওয়ালেট ব্যবহারের শর্তাবলীর উপর নির্ভর করবে। এটি একটি বিটা ফিচার তাই আপনি কিছু সমস্যার মুখোমুখি হতে পারেন এবং আপনার পেমেন্ট বা ব্যালেন্স হারিয়ে যেতে পারে যা পুনরুদ্ধার করা যাবে না।</string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">আপনি MobileCoin পাঠাতে এবং গ্রহণ করতে Morse ব্যবহার করতে পারেন। সমস্ত পেমেন্ট MobileCoin এবং MobileCoin ওয়ালেট ব্যবহারের শর্তাবলীর উপর নির্ভর করবে। এটি একটি বিটা ফিচার তাই আপনি কিছু সমস্যার মুখোমুখি হতে পারেন এবং আপনার পেমেন্ট বা ব্যালেন্স হারিয়ে যেতে পারে যা পুনরুদ্ধার করা যাবে না।</string>
   <string name="PaymentsHomeFragment__activate">সক্রিয় করুন</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">MobileCoin-এর শর্তাবলী দেখুন</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Signal-এ পেমেন্ট আর উপলভ্য নেই। আপনি এখনও কোনও এক্সচেঞ্জে আপনার ফান্ডগুলি ট্রান্সফার করতে পারেন তবে আপনি আর পেমেন্টগুলি প্রেরণ এবং গ্রহণ করতে বা ফান্ড যোগ করতে পারবেন না।</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Morse-এ পেমেন্ট আর উপলভ্য নেই। আপনি এখনও কোনও এক্সচেঞ্জে আপনার ফান্ডগুলি ট্রান্সফার করতে পারেন তবে আপনি আর পেমেন্টগুলি প্রেরণ এবং গ্রহণ করতে বা ফান্ড যোগ করতে পারবেন না।</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">ফান্ড যোগ করুন</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">আপনার ওয়ালেট ঠিকানা</string>
@@ -2235,10 +2235,10 @@
   <string name="PaymentsTransferFragment__next">পরবর্তী</string>
   <string name="PaymentsTransferFragment__invalid_address">ভুল ঠিকানা</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">আপনি যে ওয়ালেটের ঠিকানাতে স্থানান্তর করার চেষ্টা করছেন তা পরীক্ষা করে আবার চেষ্টা করুন।</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">আপনি নিজের Signal ওয়ালেট ঠিকানায় স্থানান্তর করতে পারবেন না। একটি সমর্থিত এক্সচেঞ্জ এ আপনার অ্যাকাউন্ট থেকে ওয়ালেট ঠিকানা লিখুন।</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">কোনও কিউআর কোড স্ক্যান করতে Signal এর ক্যামেরা অ্যাক্সেস করা দরকার।</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">একটি কিউআর কোড ক্যাপচারের জন্য Signal এর ক্যামেরার অনুমতি প্রয়োজন। সেটিংসে যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"ক্যামেরা\" সক্ষম করুন।</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">কোনও কিউআর কোড স্ক্যান করতে Signal এর ক্যামেরা অ্যাক্সেস করা দরকার।</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">আপনি নিজের Morse ওয়ালেট ঠিকানায় স্থানান্তর করতে পারবেন না। একটি সমর্থিত এক্সচেঞ্জ এ আপনার অ্যাকাউন্ট থেকে ওয়ালেট ঠিকানা লিখুন।</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">কোনও কিউআর কোড স্ক্যান করতে Morse এর ক্যামেরা অ্যাক্সেস করা দরকার।</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">একটি কিউআর কোড ক্যাপচারের জন্য Morse এর ক্যামেরার অনুমতি প্রয়োজন। সেটিংসে যান, \"অনুমতিগুলি\" নির্বাচন করুন এবং \"ক্যামেরা\" সক্ষম করুন।</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">কোনও কিউআর কোড স্ক্যান করতে Morse এর ক্যামেরা অ্যাক্সেস করা দরকার।</string>
   <string name="PaymentsTransferFragment__settings">সেটিংস</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">ঠিকানা কিউআর কোডটি স্ক্যান করুন</string>
@@ -2296,8 +2296,8 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">কল করুন</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal কল</string>
-  <string name="conversation_callable_secure__menu_video">Signal ভিডিও কল</string>
+  <string name="conversation_callable_secure__menu_call">Morse কল</string>
+  <string name="conversation_callable_secure__menu_video">Morse ভিডিও কল</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">বার্তার খুঁটিনাটি</string>
   <string name="conversation_context__menu_copy_text">টেক্সট কপি করুন</string>
@@ -2369,10 +2369,10 @@
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">ক্লিপবোর্ডের সাথে তুলনা করুন</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">সিস্টেম এসএমএস আমদানি করুন</string>
-  <string name="reminder_header_sms_import_text">Signal এর এনক্রিপ্ট করা ডাটাবেস এর মধ্যে আপনার ফোনের এসএমএস বার্তাগুলি অনুলিপি করতে আলতো চাপুন।</string>
-  <string name="reminder_header_push_title"> Signal বার্তা এবং কল সমূহ সক্ষম করুন</string>
+  <string name="reminder_header_sms_import_text">Morse এর এনক্রিপ্ট করা ডাটাবেস এর মধ্যে আপনার ফোনের এসএমএস বার্তাগুলি অনুলিপি করতে আলতো চাপুন।</string>
+  <string name="reminder_header_push_title"> Morse বার্তা এবং কল সমূহ সক্ষম করুন</string>
   <string name="reminder_header_push_text">আপনার যোগাযোগ অভিজ্ঞতা আপগ্রেড করুন।</string>
-  <string name="reminder_header_service_outage_text">Signal  প্রযুক্তিগত অসুবিধাগুলি অনুভব করছে। আমরা যত তাড়াতাড়ি সম্ভব সেবা পুনরুদ্ধার করতে কঠোর পরিশ্রম করছি।</string>
+  <string name="reminder_header_service_outage_text">Morse  প্রযুক্তিগত অসুবিধাগুলি অনুভব করছে। আমরা যত তাড়াতাড়ি সম্ভব সেবা পুনরুদ্ধার করতে কঠোর পরিশ্রম করছি।</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">সংরক্ষণ</string>
@@ -2388,22 +2388,22 @@
   <string name="Insights__percent">%</string>
   <string name="Insights__title">অন্তর্দৃষ্টি</string>
   <string name="InsightsDashboardFragment__title">অন্তর্দৃষ্টি</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signal প্রোটোকল গত %2$d দিনগুলিতে স্বয়ংক্রিয়ভাবে আপনার বহির্গামী বার্তাগুলির %1$d%% সুরক্ষিত করেছে। Signal ব্যবহারকারীদের মধ্যে কথোপকথন সর্বদা এক প্রান্ত থেকে অপর প্রান্ত এনক্রিপ্ট থাকে।</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Signal প্রচার করা</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Morse প্রোটোকল গত %2$d দিনগুলিতে স্বয়ংক্রিয়ভাবে আপনার বহির্গামী বার্তাগুলির %1$d%% সুরক্ষিত করেছে। Morse ব্যবহারকারীদের মধ্যে কথোপকথন সর্বদা এক প্রান্ত থেকে অপর প্রান্ত এনক্রিপ্ট থাকে।</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Morse প্রচার করা</string>
   <string name="InsightsDashboardFragment__not_enough_data">পর্যাপ্ত তথ্য নেই</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">আপনার অন্তর্দৃষ্টি শতাংশ বিগত %1$d দিনের মধ্যে বহির্গামী বার্তাগুলির উপর ভিত্তি করে গণনা করা হয় যা নিখোঁজ হয়নি বা মোছা হয়নি।</string>
   <string name="InsightsDashboardFragment__start_a_conversation">একটি কথোপকথন শুরু করুন</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">সুরক্ষিতভাবে যোগাযোগ শুরু করুন এবং Signal যোগ দেওয়ার জন্য আরও পরিচিতিগুলিকে আমন্ত্রণ জানিয়ে এনক্রিপ্ট করা এসএমএস বার্তাগুলির সীমা ছাড়িয়ে যাওয়ার মতো নতুন বৈশিষ্ট্য সক্ষম করুন|</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">সুরক্ষিতভাবে যোগাযোগ শুরু করুন এবং Morse যোগ দেওয়ার জন্য আরও পরিচিতিগুলিকে আমন্ত্রণ জানিয়ে এনক্রিপ্ট করা এসএমএস বার্তাগুলির সীমা ছাড়িয়ে যাওয়ার মতো নতুন বৈশিষ্ট্য সক্ষম করুন|</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">এই পরিসংখ্যানগুলি স্থানীয়ভাবে আপনার ডিভাইসে তৈরি হয়েছিল এবং কেবলমাত্র আপনার দ্বারা দেখা যেতে পারে। এগুলি কখনই কোথাও সঞ্চারিত হয় না।</string>
   <string name="InsightsDashboardFragment__encrypted_messages">এনক্রিপ্ট করা বার্তা</string>
   <string name="InsightsDashboardFragment__cancel">বাতিল</string>
   <string name="InsightsDashboardFragment__send">পাঠান</string>
   <string name="InsightsModalFragment__title">অন্তর্দৃষ্টি উপস্থাপন করছি</string>
-  <string name="InsightsModalFragment__description">আপনার কতগুলি বহির্গামী বার্তাগুলি সুরক্ষিতভাবে প্রেরণ করা হয়েছে তা সন্ধান করুন, তারপরে আপনার Signal শতাংশকে বাড়িয়ে তুলতে দ্রুত নতুন পরিচিতিকে আমন্ত্রণ জানান।</string>
+  <string name="InsightsModalFragment__description">আপনার কতগুলি বহির্গামী বার্তাগুলি সুরক্ষিতভাবে প্রেরণ করা হয়েছে তা সন্ধান করুন, তারপরে আপনার Morse শতাংশকে বাড়িয়ে তুলতে দ্রুত নতুন পরিচিতিকে আমন্ত্রণ জানান।</string>
   <string name="InsightsModalFragment__view_insights">অন্তর্দৃষ্টি দেখুন</string>
-  <string name="FirstInviteReminder__title">Signal এ আমন্ত্রন জানান</string>
+  <string name="FirstInviteReminder__title">Morse এ আমন্ত্রন জানান</string>
   <string name="FirstInviteReminder__description">আপনি %1$d%% দ্বারা প্রেরিত এনক্রিপ্ট হওয়া বার্তাগুলির সংখ্যা বাড়িয়ে দিতে পারেন</string>
-  <string name="SecondInviteReminder__title">আপনার Signal প্রচার করুন</string>
+  <string name="SecondInviteReminder__title">আপনার Morse প্রচার করুন</string>
   <string name="SecondInviteReminder__description">%1$s কে আমন্ত্রণ জানান</string>
   <string name="InsightsReminder__view_insights">অন্তর্দৃষ্টি দেখুন</string>
   <string name="InsightsReminder__invite">আমন্ত্রণ</string>
@@ -2424,7 +2424,7 @@
   <string name="CreateKbsPinFragment__create_a_new_pin">একটি নতুন পিন তৈরি করুন</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">এই ডিভাইসটি নিবন্ধিত থাকা অবধি আপনি আপনার পিন পরিবর্তন করতে পারবেন।</string>
   <string name="CreateKbsPinFragment__create_your_pin">আপনার পিন তৈরি করুন</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">পিনগুলি Signal -এ সঞ্চিত তথ্য এনক্রিপ্ট করে রাখে যাতে কেবল আপনি এটি অ্যাক্সেস করতে পারবেন। আপনি যখন পুনরায় ইনস্টল করবেন তখন আপনার প্রোফাইল, সেটিংস এবং পরিচিতিগুলি পুনরুদ্ধার করবে। অ্যাপটি খোলার জন্য আপনার পিনের দরকার হবে না।</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">পিনগুলি Morse -এ সঞ্চিত তথ্য এনক্রিপ্ট করে রাখে যাতে কেবল আপনি এটি অ্যাক্সেস করতে পারবেন। আপনি যখন পুনরায় ইনস্টল করবেন তখন আপনার প্রোফাইল, সেটিংস এবং পরিচিতিগুলি পুনরুদ্ধার করবে। অ্যাপটি খোলার জন্য আপনার পিনের দরকার হবে না।</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">একটি শক্তিশালী পিন চয়ন করুন</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">পিনগুলি মেলে না। আবার চেষ্টা করুন|</string>
@@ -2436,7 +2436,7 @@
   <string name="ConfirmKbsPinFragment__creating_pin">পিন তৈরি করা হচ্ছে …</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">পিনের সাথে পরিচিত হন</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">পিনগুলি Signal -এ সঞ্চিত তথ্য এনক্রিপ্ট করে রাখে যাতে কেবল আপনি এটি অ্যাক্সেস করতে পারবেন। আপনি যখন পুনরায় ইনস্টল করবেন তখন আপনার প্রোফাইল, সেটিংস এবং পরিচিতিগুলি পুনরুদ্ধার করবে। অ্যাপটি খোলার জন্য আপনার পিনের দরকার হবে না।</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">পিনগুলি Morse -এ সঞ্চিত তথ্য এনক্রিপ্ট করে রাখে যাতে কেবল আপনি এটি অ্যাক্সেস করতে পারবেন। আপনি যখন পুনরায় ইনস্টল করবেন তখন আপনার প্রোফাইল, সেটিংস এবং পরিচিতিগুলি পুনরুদ্ধার করবে। অ্যাপটি খোলার জন্য আপনার পিনের দরকার হবে না।</string>
   <string name="KbsSplashFragment__learn_more">আরও জানুন</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">রেজিস্ট্রেশন লক = পিন</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">আপনার রেজিস্ট্রেশন লক এখন পিন নামে পরিচিত এবং এটি আরও অন্যান্য কাজ করে। এখনই এটি আপডেট করুন। </string>
@@ -2445,7 +2445,7 @@
   <string name="KbsSplashFragment__learn_more_about_pins">পিনগুলি সম্পর্কে আরও জানুন</string>
   <string name="KbsSplashFragment__disable_pin">পিন নিষ্ক্রিয় করুন</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">আপনার Signal পিন প্রবেশ করান</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">আপনার Morse পিন প্রবেশ করান</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">আপনাকে আপনার পিন মুখস্ত করতে সহায়তা করতে আমরা আপনাকে মাঝে মাঝে এটি প্রবেশ করাতে বলব। আমরা সময়ের সাথে সাথে  জিজ্ঞাসা করা কমিয়ে দেব।</string>
   <string name="KbsReminderDialog__skip">বাদ দিয়ে যান</string>
   <string name="KbsReminderDialog__submit">সাবমিট</string>
@@ -2466,8 +2466,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">ভুল পিন</string>
   <string name="RegistrationLockFragment__forgot_your_pin">পিন ভুলে গেছেন?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">খুব একটা বেশী সুযোগ বাকি নেই</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal নিবন্ধন - অ্যান্ড্রয়েডের জন্য পিনের সাহায্য প্রয়োজন (v1 পিন)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal রেজিস্ট্রেশন - Android-এর জন্য পিনের সাহায্য প্রয়োজন (v2 পিন)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Morse নিবন্ধন - অ্যান্ড্রয়েডের জন্য পিনের সাহায্য প্রয়োজন (v1 পিন)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Morse রেজিস্ট্রেশন - Android-এর জন্য পিনের সাহায্য প্রয়োজন (v2 পিন)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">আপনার গোপনীয়তা এবং সুরক্ষার জন্য, আপনার পিনটি পুনরুদ্ধার করার কোনও উপায় নেই। আপনি যদি আপনার পিনটি ভুলে যান তবে আপনি নিষ্ক্রিয়তার %1$d দিন পরে এসএমএস\'র মাধ্যমে পুনরায় যাচাই করতে পারবেন। এই ক্ষেত্রে, আপনার অ্যাকাউন্টটি পরিস্কার করার পাশাপাশি সমস্ত সামগ্রী মুছে ফেলা হবে।</item>
     <item quantity="other">আপনার গোপনীয়তা এবং সুরক্ষার জন্য, আপনার পিনটি পুনরুদ্ধার করার কোনও উপায় নেই। আপনি যদি আপনার পিনটি ভুলে যান তবে আপনি নিষ্ক্রিয়তার %1$d দিন পরে এসএমএস\'র মাধ্যমে পুনরায় যাচাই করতে পারবেন। এই ক্ষেত্রে, আপনার অ্যাকাউন্টটি পরিস্কার করার পাশাপাশি সমস্ত সামগ্রী মুছে ফেলা হবে।</item>
@@ -2492,15 +2492,15 @@
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s একটি বার্তা অনুরোধ পাবে। বার্তা অনুরোধটি মঞ্জুর করা মাত্র আপনি কল করতে পারবেন।</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">একটি পিন তৈরি করুন</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">পিনগুলি Signal -এ সঞ্চিত তথ্য এনক্রিপ্ট করে রাখে। </string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">পিনগুলি Morse -এ সঞ্চিত তথ্য এনক্রিপ্ট করে রাখে। </string>
   <string name="KbsMegaphone__create_pin">পিন তৈরি করুন</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">আপনি কি মনে করেন তা Signal -কে জানান</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Signal -কে গ্রহের সেরা বার্তাপ্রেরণ অ্যাপ তৈরি করতে, আমরা আপনার মতামত শুনতে আগ্রহী।</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">আপনি কি মনে করেন তা Morse -কে জানান</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Morse -কে গ্রহের সেরা বার্তাপ্রেরণ অ্যাপ তৈরি করতে, আমরা আপনার মতামত শুনতে আগ্রহী।</string>
   <string name="ResearchMegaphone_learn_more">আরও জানুন</string>
   <string name="ResearchMegaphone_dismiss">বাতিল</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Signal গবেষণা</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>আমরা গোপনীয়তায় বিশ্বাস করি।</b></p><p>Signal আপনাকে অনুসরণ করে না বা আপনার তথ্য সংগ্রহ করে না। সবার জন্য Signal উন্নত করতে আমরা ব্যবহারকারীর প্রতিক্রিয়ার উপর নির্ভর করি<b> এবং আমরা আপনার কথাও পছন্দ করব।</b></p><p>  আপনি কীভাবে Signal ব্যবহার করেন তা বোঝার জন্য আমরা একটি সমীক্ষা চালিয়ে যাচ্ছি। আমাদের সমীক্ষা এমন কোনও তথ্য সংগ্রহ করে না যা আপনাকে সনাক্ত করবে। আপনি যদি অতিরিক্ত প্রতিক্রিয়া শেয়ার করতে আগ্রহী হন তবে আপনার সাথে যোগাযোগের তথ্য সরবরাহ করার বিকল্প থাকবে। </p><p> যদি আপনার কাছে কয়েক মিনিট সময় এবং জানানোর মত প্রতিক্রিয়া থাকে তবে আমরা আপনার কাছ থেকে শুনতে আগ্রহী।</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Morse গবেষণা</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>আমরা গোপনীয়তায় বিশ্বাস করি।</b></p><p>Morse আপনাকে অনুসরণ করে না বা আপনার তথ্য সংগ্রহ করে না। সবার জন্য Morse উন্নত করতে আমরা ব্যবহারকারীর প্রতিক্রিয়ার উপর নির্ভর করি<b> এবং আমরা আপনার কথাও পছন্দ করব।</b></p><p>  আপনি কীভাবে Morse ব্যবহার করেন তা বোঝার জন্য আমরা একটি সমীক্ষা চালিয়ে যাচ্ছি। আমাদের সমীক্ষা এমন কোনও তথ্য সংগ্রহ করে না যা আপনাকে সনাক্ত করবে। আপনি যদি অতিরিক্ত প্রতিক্রিয়া শেয়ার করতে আগ্রহী হন তবে আপনার সাথে যোগাযোগের তথ্য সরবরাহ করার বিকল্প থাকবে। </p><p> যদি আপনার কাছে কয়েক মিনিট সময় এবং জানানোর মত প্রতিক্রিয়া থাকে তবে আমরা আপনার কাছ থেকে শুনতে আগ্রহী।</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">জরিপে অংশ নিন</string>
   <string name="ResearchMegaphoneDialog_no_thanks">না ধন্যবাদ</string>
   <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">নিরাপদ ডোমেইন surveys.signalusers.org এই সমীক্ষাটি Alchemer দ্বারা হোস্ট করা হয়েছে</string>
@@ -2509,11 +2509,11 @@
   <string name="ConversationListFragment_loading">লোড হচ্ছে…</string>
   <string name="CallNotificationBuilder_connecting">সংযুক্ত হচ্ছে …</string>
   <string name="Permissions_permission_required">অনুমতি প্রয়োজন</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">এসএমএস প্রেরণের জন্য Signal এর এসএমএসের অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। অ্যাপ্লিকেশন সেটিংসে যান এবং \"অনুমতি\" নির্বাচন করুন এবং \"এসএমএস\" সক্ষম করুন।</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">এসএমএস প্রেরণের জন্য Morse এর এসএমএসের অনুমতি প্রয়োজন তবে এটি স্থায়ীভাবে অস্বীকার করা হয়েছে। অ্যাপ্লিকেশন সেটিংসে যান এবং \"অনুমতি\" নির্বাচন করুন এবং \"এসএমএস\" সক্ষম করুন।</string>
   <string name="Permissions_continue">চলুন</string>
   <string name="Permissions_not_now">এখন না</string>
   <string name="conversation_activity__enable_signal_messages">SIGNAL বার্তা সক্ষম করুন</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal ডাটাবেস ডাটাবেস স্থানান্তরিত হচ্ছে</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Morse ডাটাবেস ডাটাবেস স্থানান্তরিত হচ্ছে</string>
   <string name="PushDecryptJob_new_locked_message">নতুন লক্ করা বার্তা</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">মুলতুবি থাকা বার্তাগুলি দেখার জন্য লক্ খুলুন</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">পাসফ্রেজ ব্যাকঅাপ করুন</string>
@@ -2531,7 +2531,7 @@
   <string name="preferences_chats__transfer_account_to_a_new_android_device">একটি নতুন অ্যান্ড্রয়েড ডিভাইসে অ্যাকাউন্ট স্থানান্তর করুন</string>
   <string name="RegistrationActivity_enter_backup_passphrase">ব্যাকঅাপ পাসফ্রেজ প্রবেশ করান</string>
   <string name="RegistrationActivity_restore">পুনরুদ্ধার</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Signal এর নতুন সংস্করণগুলি থেকে ব্যাকআপ আমদানি করা যাবে না</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Morse এর নতুন সংস্করণগুলি থেকে ব্যাকআপ আমদানি করা যাবে না</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">ব্যাকঅাপ পাসফ্রেজ সঠিক নয়</string>
   <string name="RegistrationActivity_checking">পরীক্ষা করা হচ্ছে …</string>
   <string name="RegistrationActivity_d_messages_so_far">%dএখন পর্যন্ত বার্তা …</string>
@@ -2562,8 +2562,8 @@
   <string name="ProgressPreference_d_messages_so_far">এযাবৎ %d টি বার্তা</string>
   <string name="RegistrationActivity_wrong_number">ভুল নাম্বার</string>
   <string name="RegistrationActivity_call_me_instead_available_in">পরিবর্তে আমাকে কল করুন \n (%1$02d:%2$02d পাওয়া যাচ্ছে)</string>
-  <string name="RegistrationActivity_contact_signal_support">Signal সহায়তায় যোগাযোগ করুন</string>
-  <string name="RegistrationActivity_code_support_subject">Signal নিবন্ধন - অ্যানড্রয়েড এর জন্য যাচাইকরণ কোড</string>
+  <string name="RegistrationActivity_contact_signal_support">Morse সহায়তায় যোগাযোগ করুন</string>
+  <string name="RegistrationActivity_code_support_subject">Morse নিবন্ধন - অ্যানড্রয়েড এর জন্য যাচাইকরণ কোড</string>
   <string name="RegistrationActivity_incorrect_code">ভুল কোড</string>
   <string name="BackupUtil_never">কখনোই না</string>
   <string name="BackupUtil_unknown">অজানা</string>
@@ -2573,21 +2573,21 @@
   <string name="PhoneNumberPrivacy_my_contacts">আমার পরিচিতিগুলি</string>
   <string name="PhoneNumberPrivacy_nobody">কেউ না</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">আপনার ফোন নম্বরটি সকল মানুষ এবং গ্রুপগুলির কাছে দৃশ্যমান হবে। </string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">যার পরিচিতিতে আপনার ফোন নম্বর রয়েছে সে আপনাকে Signal পরিচিতিতে দেখবে। অন্যরা আপনাকে অনুসন্ধানে খুঁজে পেতে সক্ষম হবে।</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">যার পরিচিতিতে আপনার ফোন নম্বর রয়েছে সে আপনাকে Morse পরিচিতিতে দেখবে। অন্যরা আপনাকে অনুসন্ধানে খুঁজে পেতে সক্ষম হবে।</string>
   <string name="preferences_app_protection__screen_lock">স্ক্রীন এর লক্</string>
   <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">অ্যানড্রয়েড স্ক্রীন এর লক্ বা ফিঙ্গারপ্রিন্ট লক দিয়ে সিগন্যাল লক্ করুন </string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">স্ক্রীন এর লক্ নিষ্ক্রিয়তার সময়সীমা</string>
-  <string name="preferences_app_protection__signal_pin">Signal পিন</string>
+  <string name="preferences_app_protection__signal_pin">Morse পিন</string>
   <string name="preferences_app_protection__create_a_pin">পিন তৈরি করুন</string>
   <string name="preferences_app_protection__change_your_pin">আপনার পিন পরিবর্তন করুন</string>
   <string name="preferences_app_protection__pin_reminders">PIN অনুস্মারক</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">পিনগুলি Signal-এ সঞ্চিত তথ্য এনক্রিপ্ট করে রাখে যাতে কেবল আপনি এটি অ্যাক্সেস করতে পারবেন। আপনি যখন Signal পুনরায় ইনস্টল করবেন তখন আপনার প্রোফাইল, সেটিংস এবং পরিচিতিগুলি পুনরুদ্ধার করবে।</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Signal-এ আপনার ফোন নাম্বারটি পুনরায় রেজিস্টার করতে আপনার Signal PIN আবশ্যক করার মাধ্যমে বাড়তি নিরাপত্তা যোগ করুন।</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">পিনগুলি Morse-এ সঞ্চিত তথ্য এনক্রিপ্ট করে রাখে যাতে কেবল আপনি এটি অ্যাক্সেস করতে পারবেন। আপনি যখন Morse পুনরায় ইনস্টল করবেন তখন আপনার প্রোফাইল, সেটিংস এবং পরিচিতিগুলি পুনরুদ্ধার করবে।</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Morse-এ আপনার ফোন নাম্বারটি পুনরায় রেজিস্টার করতে আপনার Morse PIN আবশ্যক করার মাধ্যমে বাড়তি নিরাপত্তা যোগ করুন।</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">পিনটি পুনরুদ্ধার করা যাবে না বিধায় রিমাইন্ডার আপনার পিন মনে রাখতে সহায়তা করে। ধীরে ধীরে আপনাকে পিন কম জিজ্ঞেস করা হবে।</string>
   <string name="preferences_app_protection__turn_off">বন্ধ করুন</string>
   <string name="preferences_app_protection__confirm_pin">পিনটি সমর্থন করুন</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">আপনার Signal পিনটি নিশ্চিত করুন</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">পিনটি পুনরুদ্ধার করা যাবে না বিধায় নিশ্চিত করুন যে আপনি এটি মুখস্ত করেছেন বা সুরক্ষিতভাবে সংরক্ষণ করেছেন। পিনটি ভুলে গেলে, আপনার Signal অ্যাকাউন্ট পুনরায় রেজিস্টার  করার সময় আপনি ডেটা হারাতে পারেন।</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">আপনার Morse পিনটি নিশ্চিত করুন</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">পিনটি পুনরুদ্ধার করা যাবে না বিধায় নিশ্চিত করুন যে আপনি এটি মুখস্ত করেছেন বা সুরক্ষিতভাবে সংরক্ষণ করেছেন। পিনটি ভুলে গেলে, আপনার Morse অ্যাকাউন্ট পুনরায় রেজিস্টার  করার সময় আপনি ডেটা হারাতে পারেন।</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">ভুল পিন। আবার চেষ্টা করুন|</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">রেজিস্ট্রেশন লক সক্রিয় করতে ব্যার্থ।</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">রেজিস্ট্রেশন লক নিষ্ক্রিয় করতে ব্যার্থ।</string>
@@ -2600,19 +2600,19 @@
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">আপনি অনেক বেশী প্রচেষ্টা চালিয়েছেন। দয়াকরে পরবর্তীতে আবার চেষ্টা করুন।</string>
   <string name="RegistrationActivity_error_connecting_to_service">পরিষেবাতে সংযোগ করার সময় ত্রুটি</string>
   <string name="preferences_chats__backups">ব্যাকআপ সমূহ</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal লক্ করা আছে</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Morse লক্ করা আছে</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">লক্ খুলতে ট্যাপ করুন</string>
   <string name="Recipient_unknown">অজানা</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">অ্যাকাউন্ট ট্রান্সফার করুন বা পুনরুদ্ধার করুন</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">আপনি আগে একটি Signal অ্যাকাউন্টে রেজিস্টার করলে, আপনি আপনার অ্যাকাউন্ট বা মেসেজ ট্রান্সফার বা পুনরুদ্ধার করতে পারবেন</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">আপনি আগে একটি Morse অ্যাকাউন্টে রেজিস্টার করলে, আপনি আপনার অ্যাকাউন্ট বা মেসেজ ট্রান্সফার বা পুনরুদ্ধার করতে পারবেন</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Android ডিভাইস থেকে ট্রান্সফার করুন</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">আপনার পুরনো Android ডিভাইস থেকে আপনার অ্যাকাউন্ট ও মেসেজ ট্রান্সফার করুন। আপনার পুরনো ডিভাইসে আপনার অ্যাক্সেস থাকতে হবে।</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">আপনার পুরনো ডিভাইসে আপনার অ্যাক্সেস থাকতে হবে।</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">ব্যাকআপ থেকে পুনরুদ্ধার করুন</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">একটি স্থানীয় ব্যাকআপ থেকে আপনার মেসেজগুলো পুনরুদ্ধার করুন। আপনি এখনই পুনরুদ্ধার না করলে, পরে আর করতে পারবেন না।</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">আপনার পুরনো Android ফোনে Signal খুলুন</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">আপনার পুরনো Android ফোনে Morse খুলুন</string>
   <string name="NewDeviceTransferInstructions__continue">চলতে থাকুন</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">সেটিংস খুলতে উপরের বাম কোণে আপনার প্রোফাইল ছবির উপর ট্যাপ করুন</string>
@@ -2624,18 +2624,18 @@
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">পুরনো Android ডিভাইসের সাথে সংযোগের প্রস্তুতি নিচ্ছে…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">কিছু সময় নিচ্ছে, শীঘ্রই প্রস্তুত হয়ে যাবে</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">পুরনো Android ডিভাইসের সংযোগের জন্য অপেক্ষা করছে…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">আপনার পুরনো Android ডিভাইস খুঁজে পেতে  ও সংযুক্ত করতে Signal-এর লোকেশনের অনুমতি আবশ্যক।</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">আপনার পুরনো Android ডিভাইস খুঁজে পেতে ও সংযুক্ত করতে Signal-এর জন্য লোকেশন পরিষেবাটি চালু থাকতে হবে।</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">আপনার পুরনো Android ডিভাইস খুঁজে পেতে ও সংযুক্ত করতে Signal-এর ওয়াই-ফাই চালু থাকতে হবে। ওয়াই-ফাই চালু থাকতে হবে, কিন্তু এটি কোন ওয়াই-ফাই নেটওয়ার্কের সাথে সংযুক্ত থাকার দরকার নেই।</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">দুঃখিত, মনে হচ্ছে এই ডিভাইসটি Wi-Fi Direct-কে সমর্থন করে না। Signal আপনার পুরানো Android ডিভাইসটি খুঁজে পেতে এবং সংযোগ করতে Wi-Fi Direct ব্যবহার করে। আপনার পুরানো Android ডিভাইস থেকে আপনার অ্যাকাউন্টটি পুনরুদ্ধার করতে আপনি এখনও একটি ব্যাকআপ পুনরুদ্ধার করতে পারেন।</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">আপনার পুরনো Android ডিভাইস খুঁজে পেতে  ও সংযুক্ত করতে Morse-এর লোকেশনের অনুমতি আবশ্যক।</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">আপনার পুরনো Android ডিভাইস খুঁজে পেতে ও সংযুক্ত করতে Morse-এর জন্য লোকেশন পরিষেবাটি চালু থাকতে হবে।</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">আপনার পুরনো Android ডিভাইস খুঁজে পেতে ও সংযুক্ত করতে Morse-এর ওয়াই-ফাই চালু থাকতে হবে। ওয়াই-ফাই চালু থাকতে হবে, কিন্তু এটি কোন ওয়াই-ফাই নেটওয়ার্কের সাথে সংযুক্ত থাকার দরকার নেই।</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">দুঃখিত, মনে হচ্ছে এই ডিভাইসটি Wi-Fi Direct-কে সমর্থন করে না। Morse আপনার পুরানো Android ডিভাইসটি খুঁজে পেতে এবং সংযোগ করতে Wi-Fi Direct ব্যবহার করে। আপনার পুরানো Android ডিভাইস থেকে আপনার অ্যাকাউন্টটি পুনরুদ্ধার করতে আপনি এখনও একটি ব্যাকআপ পুনরুদ্ধার করতে পারেন।</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">একটি ব্যাকআপ পুনরুদ্ধার করুন</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">আপনার পুরনো Android ডিভাইসে সংযুক্ত হওয়ার চেষ্টাকালীন একটি অপ্রত্যাশিত সমস্যা হয়েছে।</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">নতুন Android ডিভাইস খোঁজা হচ্ছে…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">আপনার নতুন Android ডিভাইসটি খুঁজে পেতে এবং সংযোগ করতে Signal-এর লোকেশনের অনুমতি প্রয়োজন।</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">আপনার নতুন Android ডিভাইসটি খুঁজে পেতে এবং সংযোগের জন্য Signal-এর জন্য লোকেশন পরিষেবা চালু থাকতে হবে।</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">আপনার নতুন Android ডিভাইসটি খুঁজে পেতে এবং সংযুক্ত করতে Signal-এর ওয়াই-ফাই প্রয়োজন। ওয়াই-ফাই চালু থাকা প্রয়োজন তবে এটি কোনও ওয়াই-ফাই নেটওয়ার্কের সাথে সংযুক্ত থাকার দরকার নেই।</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">দুঃখিত, মনে হচ্ছে এটি এই ডিভাইসটি Wi-Fi Direct-কে সমর্থন করে না। Signal আপনার নতুন Android ডিভাইসটি খুঁজে পেতে এবং সংযুক্ত করতে Wi-Fi Direct ব্যবহার করে। আপনার নতুন Android ডিভাইসে আপনার অ্যাকাউন্টটি পুনরুদ্ধার করতে আপনি এখনও একটি ব্যাকআপ তৈরি করতে পারেন।</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">আপনার নতুন Android ডিভাইসটি খুঁজে পেতে এবং সংযোগ করতে Morse-এর লোকেশনের অনুমতি প্রয়োজন।</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">আপনার নতুন Android ডিভাইসটি খুঁজে পেতে এবং সংযোগের জন্য Morse-এর জন্য লোকেশন পরিষেবা চালু থাকতে হবে।</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">আপনার নতুন Android ডিভাইসটি খুঁজে পেতে এবং সংযুক্ত করতে Morse-এর ওয়াই-ফাই প্রয়োজন। ওয়াই-ফাই চালু থাকা প্রয়োজন তবে এটি কোনও ওয়াই-ফাই নেটওয়ার্কের সাথে সংযুক্ত থাকার দরকার নেই।</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">দুঃখিত, মনে হচ্ছে এটি এই ডিভাইসটি Wi-Fi Direct-কে সমর্থন করে না। Morse আপনার নতুন Android ডিভাইসটি খুঁজে পেতে এবং সংযুক্ত করতে Wi-Fi Direct ব্যবহার করে। আপনার নতুন Android ডিভাইসে আপনার অ্যাকাউন্টটি পুনরুদ্ধার করতে আপনি এখনও একটি ব্যাকআপ তৈরি করতে পারেন।</string>
   <string name="OldDeviceTransferSetup__create_a_backup">একটি ব্যাকআপ তৈরি করুন</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">আপনার নতুন Android ডিভাইসে সংযোগ দেওয়ার চেষ্টা করার সময় একটি অপ্রত্যাশিত ত্রুটি ঘটেছে।</string>
   <!--DeviceTransferSetupFragment-->
@@ -2670,10 +2670,10 @@
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">ট্রান্সফার করা শুরু করতে আপনার অন্য ডিভাইসে চালিয়ে যান অপশনে ট্যাপ করুন।</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">আপনার অন্য ডিভাইসে চালিয়ে যান অপশনটিতে ট্যাপ করুন…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Signal নতুন সংস্করণ থেকে স্থানান্তর করা যায় না</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Morse নতুন সংস্করণ থেকে স্থানান্তর করা যায় না</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">তথ্য স্থানান্তর করা হচ্ছে</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">উভয় ডিভাইসকে একে অপরের কাছাকাছি রাখুন। ডিভাইসগুলো বন্ধ করবেন না এবং Signal চালু রাখুন। ট্রান্সফারগুলো এক প্রান্ত থেকে অপর প্রান্তে এনক্রিপ্ট করা অবস্থায় থাকে।</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">উভয় ডিভাইসকে একে অপরের কাছাকাছি রাখুন। ডিভাইসগুলো বন্ধ করবেন না এবং Morse চালু রাখুন। ট্রান্সফারগুলো এক প্রান্ত থেকে অপর প্রান্তে এনক্রিপ্ট করা অবস্থায় থাকে।</string>
   <string name="DeviceTransfer__d_messages_so_far">এখন পর্যন্ত %1$dটি মেসেজ…</string>
   <string name="DeviceTransfer__cancel">বাতিল</string>
   <string name="DeviceTransfer__try_again">আবারো চেষ্টা করুন</string>
@@ -2684,9 +2684,9 @@
   <string name="DeviceTransfer__unable_to_transfer">স্থানান্তর করতে অক্ষম</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">অ্যাকাউন্ট স্থানান্তর করুন</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">নতুন Android ডিভাইসে Signal সেটআপ করার সময় আপনি নিজের Signal অ্যাকাউন্টটি ট্রান্সফার করতে পারবেন। শুরু করার আগে:</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">নতুন Android ডিভাইসে Morse সেটআপ করার সময় আপনি নিজের Morse অ্যাকাউন্টটি ট্রান্সফার করতে পারবেন। শুরু করার আগে:</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">আপনার নতুন Android ডিভাইসে Signal ডাউনলোড করুন</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">আপনার নতুন Android ডিভাইসে Morse ডাউনলোড করুন</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">\"অ্যাকাউন্ট ট্রান্সফার বা পুনর্বহাল করুন\"-এ ট্যাপ করুন</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2695,7 +2695,7 @@
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">স্থানান্তর সম্পূর্ণ</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">আপনার নতুন ডিভাইসে যান</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">আপনার Signal তথ্য আপনার নতুন ডিভাইসে স্থানান্তরিত হয়েছে। স্থানান্তর প্রক্রিয়াটি সম্পূর্ণ করতে, আপনাকে অবশ্যই আপনার নতুন ডিভাইসে নিবন্ধকরণ চালিয়ে যেতে হবে।</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">আপনার Morse তথ্য আপনার নতুন ডিভাইসে স্থানান্তরিত হয়েছে। স্থানান্তর প্রক্রিয়াটি সম্পূর্ণ করতে, আপনাকে অবশ্যই আপনার নতুন ডিভাইসে নিবন্ধকরণ চালিয়ে যেতে হবে।</string>
   <string name="OldDeviceTransferComplete__close">বন্ধ</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">স্থানান্তর সফল</string>
@@ -2712,7 +2712,7 @@
   <string name="DeviceToDeviceTransferService_status_service_connected">অ্যাকাউন্ট স্থানান্তর করা হচ্ছে …</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">আপনার নতুন ডিভাইসে নিবন্ধকরণ সম্পূর্ণ করুন</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">আপনার Signal অ্যাকাউন্টটি আপনার নতুন ডিভাইসে স্থানান্তরিত হয়েছে, তবে চালিয়ে যাওয়ার জন্য আপনাকে অবশ্যই এটিতে নিবন্ধকরণ সম্পূর্ণ করতে হবে। এই ডিভাইসে Signal নিষ্ক্রিয় হবে।</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">আপনার Morse অ্যাকাউন্টটি আপনার নতুন ডিভাইসে স্থানান্তরিত হয়েছে, তবে চালিয়ে যাওয়ার জন্য আপনাকে অবশ্যই এটিতে নিবন্ধকরণ সম্পূর্ণ করতে হবে। এই ডিভাইসে Morse নিষ্ক্রিয় হবে।</string>
   <string name="OldDeviceTransferLockedDialog__done">শেষ</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">বাতিল করুন এবং এই ডিভাইসটি সক্রিয় করুন</string>
   <!--AdvancedPreferenceFragment-->
@@ -2747,12 +2747,12 @@
   <string name="GroupsLearnMore_what_are_legacy_groups">লিগ্যাসি গ্রুপ কি?</string>
   <string name="GroupsLearnMore_paragraph_1">লিগ্যাসি গ্রুপ হল এমন গ্রুপ যা অ্যাডমিন এবং আরও বর্ণনামূলক গ্রুপ আপডেটগুলির মতো নতুন গ্রুপ ফিচারের সাথে সামঞ্জস্যপূর্ণ নয়।</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">আমি কি একটি লিগ্যাসি গ্রুপ আপগ্রেড করতে পারি?</string>
-  <string name="GroupsLearnMore_paragraph_2">লিগ্যাসি গ্রুপগুলো এখনও নতুন গ্রুপে আপগ্রেড করা যাবে না, তবে যদি তারা Signal-এর সর্বশেষ সংস্করণটি ব্যবহার করেন তাহলে তাদের নিয়ে নতুন একটি গ্রুপ তৈরি করতে পারবেন।</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal ভবিষ্যতে লিগ্যাসি গ্রুপগুলি আপগ্রেড করার একটি উপায় প্রস্তাব করবে।</string>
+  <string name="GroupsLearnMore_paragraph_2">লিগ্যাসি গ্রুপগুলো এখনও নতুন গ্রুপে আপগ্রেড করা যাবে না, তবে যদি তারা Morse-এর সর্বশেষ সংস্করণটি ব্যবহার করেন তাহলে তাদের নিয়ে নতুন একটি গ্রুপ তৈরি করতে পারবেন।</string>
+  <string name="GroupsLearnMore_paragraph_3">Morse ভবিষ্যতে লিগ্যাসি গ্রুপগুলি আপগ্রেড করার একটি উপায় প্রস্তাব করবে।</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">এই লিঙ্ক থেকে যে কেউ গ্রুপের নাম এবং ফটো দেখতে এবং যোগদানের জন্য অনুরোধ করতে পারেন। আপনার বিশ্বস্ত মানুষের সাথে এটি শেয়ার করুন।</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">এই লিংকে যেয়ে যে কেউ গ্রুপটির নাম ও ছবি দেখতে এবং গ্রুপটিতে যোগ দিতে পারবেন। আপনার বিশ্বস্ত লোকদের সাথে এটি শেয়ার করুন।</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Signal এর মাধ্যমে শেয়ার করুন</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Morse এর মাধ্যমে শেয়ার করুন</string>
   <string name="GroupLinkBottomSheet_copy">অনুলিপি</string>
   <string name="GroupLinkBottomSheet_qr_code">কিউআর কোড</string>
   <string name="GroupLinkBottomSheet_share">শেয়ার করুন</string>
@@ -2818,7 +2818,7 @@
   <string name="DeleteAccountFragment__no_number">কোনও নম্বর নির্দিষ্ট করা হয়নি</string>
   <string name="DeleteAccountFragment__the_phone_number">আপনি যে ফোন নম্বরটি লিখেছেন তা আপনার অ্যাকাউন্টের সাথে মেলে না।</string>
   <string name="DeleteAccountFragment__are_you_sure">আপনি কি নিশ্চিত, আপনি আপনার অ্যাকাউন্ট মুছে ফেলতে চান?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">এটি আপনার Signal অ্যাকাউন্ট মুছে ফেলবে এবং অ্যাপ্লিকেশনটি পুনরায় সেট করবে। প্রক্রিয়াটি শেষ হওয়ার পরে অ্যাপটি বন্ধ হয়ে যাবে।</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">এটি আপনার Morse অ্যাকাউন্ট মুছে ফেলবে এবং অ্যাপ্লিকেশনটি পুনরায় সেট করবে। প্রক্রিয়াটি শেষ হওয়ার পরে অ্যাপটি বন্ধ হয়ে যাবে।</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">অ্যাকাউন্ট মুছতে ব্যর্থ। আপনার কি নেটওয়ার্ক সংযোগ আছে?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">স্থানীয় তথ্য মুছতে ব্যর্থ। আপনি এটিকে ম্যানুয়ালি সিস্টেম অ্যাপ্লিকেশন সেটিংস থেকে সাফ করতে পারেন।</string>
   <string name="DeleteAccountFragment__launch_app_settings">অ্যাপ্লিকেশন সেটিংস চালু করুন</string>
@@ -2834,7 +2834,7 @@
   <string name="ShareActivity__share">শেয়ার করুন</string>
   <string name="ShareActivity__send">পাঠান</string>
   <string name="ShareActivity__comma_s">, %1$s</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">একাধিক চ্যাটে শেয়ার করা কেবল Signal-এর মেসেজের ক্ষেত্রে সমর্থিত</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">একাধিক চ্যাটে শেয়ার করা কেবল Morse-এর মেসেজের ক্ষেত্রে সমর্থিত</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">কিছু ব্যবহারকারীর কাছে প্রেরণে ব্যর্থ হয়েছে</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">আপনি কেবল %1$d জন পর্যন্ত চ্যাট শেয়ার করতে পারেন</string>
@@ -2884,7 +2884,7 @@
   <string name="payment_info_card_about_mobilecoin">MobileCoin সম্পর্কে</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin হল গোপনীয়তার উপর গুরুত্ব দেয় এমন একটি নতুন ডিজিটাল মুদ্রা।</string>
   <string name="payment_info_card_adding_funds">ফান্ড যোগ করছে</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">আপনার ওয়ালেটের ঠিকানায় MobileCoin পাঠানোর মাধ্যমে আপনি Signal-এ ব্যবহারের জন্য ফান্ড পাঠাতে পারেন।</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">আপনার ওয়ালেটের ঠিকানায় MobileCoin পাঠানোর মাধ্যমে আপনি Morse-এ ব্যবহারের জন্য ফান্ড পাঠাতে পারেন।</string>
   <string name="payment_info_card_cashing_out">ক্যাশ আউট</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">MobileCoin-কে সাপোর্ট করে এমন যেকোনও কিছুর বিনিময়ে আপনি MobileCoin ক্যাশ আউট করতে পারবেন। কেবল সেটির বিনিময়ে আপনার অ্যাকাউন্টে টাকা ট্রান্সফার করুন।</string>
   <string name="payment_info_card_hide_this_card">এই কার্ডটি লুকাবেন?</string>
@@ -2898,18 +2898,18 @@
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">ওয়ালেট বন্ধ করুন</string>
   <string name="DeactivateWalletFragment__your_balance">আপনার ব্যালেন্স</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">পেমেন্ট বন্ধ করার পূর্বে আপনাকে আপনার টাকা অন্য ওয়ালেটের ঠিকানায় পাঠানোর সুপারিশ করা হচ্ছে। আপনি এখন আপনার টাকা ট্রান্সফার করতে না চাইলে, আপনি পেমেন্ট পুনরায় চালু করলে সেগুলো আপনার Signal-এর সাথে লিংক করা ওয়ালেটেই থাকবে।</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">পেমেন্ট বন্ধ করার পূর্বে আপনাকে আপনার টাকা অন্য ওয়ালেটের ঠিকানায় পাঠানোর সুপারিশ করা হচ্ছে। আপনি এখন আপনার টাকা ট্রান্সফার করতে না চাইলে, আপনি পেমেন্ট পুনরায় চালু করলে সেগুলো আপনার Morse-এর সাথে লিংক করা ওয়ালেটেই থাকবে।</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">অবশিষ্ট ব্যালেন্স ট্রান্সফার করুন</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">ট্রান্সফার না করেই বন্ধ করুন</string>
   <string name="DeactivateWalletFragment__deactivate">বন্ধ করুন</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">ট্রান্সফার না করেই বন্ধ করবেন?</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">আপনি পেমেন্ট পুনঃসক্রিয় করা বেছে নিলে আপনার ব্যালান্স Signal-এর সাথে লিঙ্ক করা আপনার ওয়ালেটে থাকবে।</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">আপনি পেমেন্ট পুনঃসক্রিয় করা বেছে নিলে আপনার ব্যালান্স Morse-এর সাথে লিঙ্ক করা আপনার ওয়ালেটে থাকবে।</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">ওয়ালেট বন্ধ করতে ত্রুটি।</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">রিকভার করার বাক্যাংশ</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">রিকভারি ফ্রেজ দেখুন</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">রিকভারি ফ্রেজটি লিখুন</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">আপনি Signal-এর পিন নিশ্চিত করে Signal পুনরায় ইনস্টল করলে আপনার ব্যালেন্স স্বয়ংক্রিয়ভাবে পুনরুদ্ধার হবে। এছাড়াও আপনি রিকভার করা বাক্যাংশ ব্যবহার করেও আপনার ব্যালেন্স পুনরুদ্ধার করতে পারেন, যা %1$d-শব্দ বিশিষ্ট যা কেবল আপনি জানেন। এটি লিখে একটি নিরাপদ স্থানে সেভ করুন।</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">আপনি Morse-এর পিন নিশ্চিত করে Morse পুনরায় ইনস্টল করলে আপনার ব্যালেন্স স্বয়ংক্রিয়ভাবে পুনরুদ্ধার হবে। এছাড়াও আপনি রিকভার করা বাক্যাংশ ব্যবহার করেও আপনার ব্যালেন্স পুনরুদ্ধার করতে পারেন, যা %1$d-শব্দ বিশিষ্ট যা কেবল আপনি জানেন। এটি লিখে একটি নিরাপদ স্থানে সেভ করুন।</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">আপনার রিকভার করার বাক্যাংশটি %1$d-শব্দ বিশিষ্ট যা কেবল আপনি জানেন। আপনার ব্যালেন্স পুনরুদ্ধার করতে এই বাক্যাংশটি ব্যবহার করুন।</string>
   <string name="PaymentsRecoveryStartFragment__start">শুরু করুন</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">ম্যানুয়ালি লিখুন</string>
@@ -2978,7 +2978,7 @@
   <!--AccountSettingsFragment-->
   <string name="AccountSettingsFragment__account"> অ্যাকাউন্ট</string>
   <string name="AccountSettingsFragment__youll_be_asked_less_frequently">আপনাকে মাঝে মাঝে জিজ্ঞেস করা হবে</string>
-  <string name="AccountSettingsFragment__require_your_signal_pin">Signal-এ আপনার ফোন নম্বরটি রেজিস্টার করতে আপনার Signal-এর পিনটি আবশ্যক</string>
+  <string name="AccountSettingsFragment__require_your_signal_pin">Morse-এ আপনার ফোন নম্বরটি রেজিস্টার করতে আপনার Morse-এর পিনটি আবশ্যক</string>
   <string name="AccountSettingsFragment__change_phone_number">ফোন নম্বর পরিবর্তন করুন</string>
   <!--ChangeNumberFragment-->
   <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">আপনার বর্তমান ফোন নম্বরটি একটি নতুন ফোন নম্বরে পরিবর্তন করতে এটি ব্যবহার করুন। আপনি এই পরিবর্তনটি পূর্বাবস্থায় ফেরাতে পারবেন না।\n\nচালিয়ে যাওয়ার আগে, নিশ্চিত করুন যে আপনার নতুন নম্বরটি SMS বা কল পেতে পারে।</string>
@@ -3029,7 +3029,7 @@
   <string name="NotificationsSettingsFragment__messages">বার্তাসমূহ</string>
   <string name="NotificationsSettingsFragment__calls">কল সমূহ</string>
   <string name="NotificationsSettingsFragment__notify_when">জানান, যখন…</string>
-  <string name="NotificationsSettingsFragment__contact_joins_signal">কন্ট্যাক্ট Signal-এ যোগদান করেছেন</string>
+  <string name="NotificationsSettingsFragment__contact_joins_signal">কন্ট্যাক্ট Morse-এ যোগদান করেছেন</string>
   <!--PrivacySettingsFragment-->
   <string name="PrivacySettingsFragment__blocked">অবরূদ্ধ আছে</string>
   <string name="PrivacySettingsFragment__d_contacts">%1$d পরিচিতিসমূহ</string>
@@ -3037,7 +3037,7 @@
   <string name="PrivacySettingsFragment__disappearing_messages">অদৃশ্য বার্তা</string>
   <string name="PrivacySettingsFragment__app_security">অ্যাপ এর নিরাপত্তা</string>
   <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">সাম্প্রতিক অ্যাপ তালিকা থেকে স্ক্রীনশট ব্লক করুন</string>
-  <string name="PrivacySettingsFragment__signal_message_and_calls">Signal মেসেজ ও কল করে, সবসময় কল রিলে করে এবং প্রেরককে সিল করে রাখে</string>
+  <string name="PrivacySettingsFragment__signal_message_and_calls">Morse মেসেজ ও কল করে, সবসময় কল রিলে করে এবং প্রেরককে সিল করে রাখে</string>
   <string name="PrivacySettingsFragment__default_timer_for_new_changes">নতুন চ্যাটের জন্য ডিফল্ট টাইমার</string>
   <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">আপনার শুরু করা সব নতুন চ্যাটের জন্য মেসেজ অদৃশ্য হওয়ার ডিফল্ট সময় সেট করুন।</string>
   <!--AdvancedPrivacySettingsFragment-->
@@ -3068,7 +3068,7 @@
   <string name="HelpSettingsFragment__version">সংস্করণ</string>
   <string name="HelpSettingsFragment__debug_log">ডিবাগ লগ</string>
   <string name="HelpSettingsFragment__terms_amp_privacy_policy">শর্তাদি এবং গোপনীয়তা নীতি</string>
-  <string name="HelpFragment__copyright_signal_messenger">Signal Messenger এর কপিরাইট</string>
+  <string name="HelpFragment__copyright_signal_messenger">Morse Messenger এর কপিরাইট</string>
   <string name="HelpFragment__licenced_under_the_gplv3">GPLv3 লাইসেন্সে নথিভুক্ত</string>
   <!--DataAndStorageSettingsFragment-->
   <string name="DataAndStorageSettingsFragment__media_quality">মিডিয়ার মান</string>
@@ -3289,7 +3289,7 @@
   <string name="SelectFeaturedBadgeFragment__failed_to_update_profile">প্রোফাইল আপডেট করতে ব্যর্থ হয়েছে</string>
   <string name="ViewBadgeBottomSheetDialogFragment__become_a_sustainer">দীর্ঘমেয়াদী হয়ে উঠুন</string>
   <string name="ImageView__badge">ব্যাজ</string>
-  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Signal আপনার মতো ব্যক্তির সহায়তায় পরিচালিত হয়।</string>
+  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Morse আপনার মতো ব্যক্তির সহায়তায় পরিচালিত হয়।</string>
   <string name="SubscribeFragment__support_technology_that_is_built_for_you">আপনার জন্য নির্মিত প্রযুক্তি সমর্থন করুন - আপনার তথ্যের জন্য নয় - এটিকে টিকিয়ে রাখে এমন লোকেদের সম্প্রদায়ে যোগদানের মাধ্যমে।</string>
   <!-- Removed by excludeNonTranslatables <string name="SubscribeFragment__donation_amount">অনুদানের পরিমাণ</string> -->
   <string name="SubscribeFragment__more_payment_options">আরও পেমেন্ট অপশন</string>
@@ -3327,7 +3327,7 @@
   <string name="BoostFragment__say_thanks_and_earn">ধন্যবাদ বলুন এবং %1$d দিনের জন্য বুস্ট ব্যাজ অর্জন করুন।</string>
   <string name="Boost__enter_custom_amount">কাস্টম পরিমাণ লিখুন</string>
   <string name="Boost__one_time_contribution">এককালীন অবদান</string>
-  <string name="MySupportPreference__add_a_signal_boost">একটি Signal বুস্ট যোগ করুন</string>
+  <string name="MySupportPreference__add_a_signal_boost">একটি Morse বুস্ট যোগ করুন</string>
   <string name="MySupportPreference__s_per_month">%1$s/মাস</string>
   <string name="MySupportPreference__renews_s">%1$s রিনিউ</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__your_badge_has_expired">আপনার ব্যাজের মেয়াদ শেষ হয়ে গেছে</string>

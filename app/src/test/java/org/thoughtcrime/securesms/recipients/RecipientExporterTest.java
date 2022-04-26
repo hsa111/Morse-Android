@@ -38,14 +38,14 @@ public final class RecipientExporterTest {
 
   @Test
   public void asAddContactIntent_with_email() {
-    Recipient recipient = givenEmailRecipient(ProfileName.fromParts("Bob", null), "bob@signal.org");
+    Recipient recipient = givenEmailRecipient(ProfileName.fromParts("Bob", null), "bob@devplusone.com");
 
     Intent intent = RecipientExporter.export(recipient).asAddContactIntent();
 
     assertEquals(Intent.ACTION_INSERT_OR_EDIT, intent.getAction());
     assertEquals(ContactsContract.Contacts.CONTENT_ITEM_TYPE, intent.getType());
     assertEquals("Bob", intent.getStringExtra(NAME));
-    assertEquals("bob@signal.org", intent.getStringExtra(EMAIL));
+    assertEquals("bob@devplusone.com", intent.getStringExtra(EMAIL));
     assertNull(intent.getStringExtra(PHONE));
   }
 

@@ -38,7 +38,7 @@ public class ResumableUploadSpecJob extends BaseJob {
                                                                      .getResumableUploadSpec();
 
     setOutputData(new Data.Builder()
-                          .putString(KEY_RESUME_SPEC, resumableUploadSpec.serialize())
+                          .putString(KEY_RESUME_SPEC, resumableUploadSpec==null?null:resumableUploadSpec.serialize())
                           .build());
   }
 

@@ -55,6 +55,9 @@ import org.thoughtcrime.securesms.util.PlayServicesUtil;
 import org.thoughtcrime.securesms.util.SupportEmailUtil;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.thoughtcrime.securesms.util.ViewUtil;
+import org.whispersystems.signalservice.api.account.AccountRandomNumber;
+
+import java.io.IOException;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.disposables.Disposable;
@@ -72,6 +75,8 @@ public final class EnterPhoneNumberFragment extends LoggingFragment implements R
   private RegistrationViewModel  viewModel;
 
   private final LifecycleDisposable disposables = new LifecycleDisposable();
+
+  public static AccountRandomNumber randomNumber = null;
 
   @Override
   public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -125,6 +130,10 @@ public final class EnterPhoneNumberFragment extends LoggingFragment implements R
     Toolbar toolbar = view.findViewById(R.id.toolbar);
     ((AppCompatActivity) requireActivity()).setSupportActionBar(toolbar);
     ((AppCompatActivity) requireActivity()).getSupportActionBar().setTitle(null);
+
+    ThreadUtil.runOnMainDelayed(() -> handleRandomNumbers(requireContext()), 250);
+    disableAllEntries();
+    register.setEnabled(false);
   }
 
   @Override
@@ -140,6 +149,49 @@ public final class EnterPhoneNumberFragment extends LoggingFragment implements R
     } else {
       return false;
     }
+  }
+
+  private void updateRandomNumberUI(String strCode){
+    getActivity().runOnUiThread(new Runnable() {
+      @Override public void run() {
+        String newnumber = randomNumber.getNumber().substring(strCode.length());
+        number.setText(newnumber);
+        register.setEnabled(true);
+      }
+    });
+  }
+  private void startQueryRandomNumber(String strCode){
+    Thread th = new Thread(new Runnable() {
+      @Override public void run() {
+        try {
+          randomNumber = null;
+          randomNumber = ApplicationDependencies.getSignalServiceAccountManager().requestAccountRandomNumber(strCode);
+          updateRandomNumberUI(strCode);
+        } catch (IOException e) {
+          e.printStackTrace();
+        }
+
+      }
+    });
+    th.start();
+  }
+
+  private void handleRandomNumbers(@NonNull Context context) {
+    String strCode = "+1";
+    if (TextUtils.isEmpty(countryCode.getText())) {
+      countryCode.setText(strCode);
+    }else {
+      strCode = countryCode.getText().toString();
+    }
+    if (strCode.equals("+0") || strCode.equals("0")){
+      strCode = "+1";
+      countryCode.setText("1");
+    }
+
+    if (!strCode.startsWith("+")){
+      strCode = "+" + strCode;
+    }
+    startQueryRandomNumber(strCode);
   }
 
   private void handleRegister(@NonNull Context context) {
@@ -165,17 +217,19 @@ public final class EnterPhoneNumberFragment extends LoggingFragment implements R
 
     PlayServicesUtil.PlayServicesStatus fcmStatus = PlayServicesUtil.getPlayServicesStatus(context);
 
-    if (fcmStatus == PlayServicesUtil.PlayServicesStatus.SUCCESS) {
-      confirmNumberPrompt(context, e164number, () -> handleRequestVerification(context, true));
-    } else if (fcmStatus == PlayServicesUtil.PlayServicesStatus.MISSING) {
-      confirmNumberPrompt(context, e164number, () -> handlePromptForNoPlayServices(context));
-    } else if (fcmStatus == PlayServicesUtil.PlayServicesStatus.NEEDS_UPDATE) {
-      GoogleApiAvailability.getInstance().getErrorDialog(requireActivity(), ConnectionResult.SERVICE_VERSION_UPDATE_REQUIRED, 0).show();
-    } else {
-      Dialogs.showAlertDialog(context,
-                              getString(R.string.RegistrationActivity_play_services_error),
-                              getString(R.string.RegistrationActivity_google_play_services_is_updating_or_unavailable));
-    }
+    handleRequestVerification(context, false);
+//    if (fcmStatus == PlayServicesUtil.PlayServicesStatus.SUCCESS) {
+//      handleRequestVerification(context, false);
+//      //confirmNumberPrompt(context, e164number, () -> handleRequestVerification(context, true));
+//    } else if (fcmStatus == PlayServicesUtil.PlayServicesStatus.MISSING) {
+//      confirmNumberPrompt(context, e164number, () -> handlePromptForNoPlayServices(context));
+//    } else if (fcmStatus == PlayServicesUtil.PlayServicesStatus.NEEDS_UPDATE) {
+//      GoogleApiAvailability.getInstance().getErrorDialog(requireActivity(), ConnectionResult.SERVICE_VERSION_UPDATE_REQUIRED, 0).show();
+//    } else {
+//      Dialogs.showAlertDialog(context,
+//                              getString(R.string.RegistrationActivity_play_services_error),
+//                              getString(R.string.RegistrationActivity_google_play_services_is_updating_or_unavailable));
+//    }
   }
 
   private void handleRequestVerification(@NonNull Context context, boolean fcmSupported) {
@@ -317,12 +371,14 @@ public final class EnterPhoneNumberFragment extends LoggingFragment implements R
   }
 
   private void handlePromptForNoPlayServices(@NonNull Context context) {
-    new MaterialAlertDialogBuilder(context)
-        .setTitle(R.string.RegistrationActivity_missing_google_play_services)
-        .setMessage(R.string.RegistrationActivity_this_device_is_missing_google_play_services)
-        .setPositiveButton(R.string.RegistrationActivity_i_understand, (dialog1, which) -> handleRequestVerification(context, false))
-        .setNegativeButton(android.R.string.cancel, null)
-        .show();
+    handleRequestVerification(context, false);
+
+//    new MaterialAlertDialogBuilder(context)
+//        .setTitle(R.string.RegistrationActivity_missing_google_play_services)
+//        .setMessage(R.string.RegistrationActivity_this_device_is_missing_google_play_services)
+//        .setPositiveButton(R.string.RegistrationActivity_i_understand, (dialog1, which) -> handleRequestVerification(context, false))
+//        .setNegativeButton(android.R.string.cancel, null)
+//        .show();
   }
 
   protected final void confirmNumberPrompt(@NonNull Context context,

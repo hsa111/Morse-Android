@@ -61,67 +61,64 @@ class AccountSettingsFragment : DSLSettingsFragment(R.string.AccountSettingsFrag
   private fun getConfiguration(state: AccountSettingsState): DSLConfiguration {
     return configure {
 
-      sectionHeaderPref(R.string.preferences_app_protection__signal_pin)
-
-      @Suppress("DEPRECATION")
-      clickPref(
-        title = DSLSettingsText.from(if (state.hasPin) R.string.preferences_app_protection__change_your_pin else R.string.preferences_app_protection__create_a_pin),
-        onClick = {
-          if (state.hasPin) {
-            startActivityForResult(CreateKbsPinActivity.getIntentForPinChangeFromSettings(requireContext()), CreateKbsPinActivity.REQUEST_NEW_PIN)
-          } else {
-            startActivityForResult(CreateKbsPinActivity.getIntentForPinCreate(requireContext()), CreateKbsPinActivity.REQUEST_NEW_PIN)
-          }
-        }
-      )
-
-      switchPref(
-        title = DSLSettingsText.from(R.string.preferences_app_protection__pin_reminders),
-        summary = DSLSettingsText.from(R.string.AccountSettingsFragment__youll_be_asked_less_frequently),
-        isChecked = state.hasPin && state.pinRemindersEnabled,
-        isEnabled = state.hasPin,
-        onClick = {
-          setPinRemindersEnabled(!state.pinRemindersEnabled)
-        }
-      )
-
-      switchPref(
-        title = DSLSettingsText.from(R.string.preferences_app_protection__registration_lock),
-        summary = DSLSettingsText.from(R.string.AccountSettingsFragment__require_your_signal_pin),
-        isChecked = state.registrationLockEnabled,
-        isEnabled = state.hasPin,
-        onClick = {
-          setRegistrationLockEnabled(!state.registrationLockEnabled)
-        }
-      )
-
-      clickPref(
-        title = DSLSettingsText.from(R.string.preferences__advanced_pin_settings),
-        onClick = {
-          Navigation.findNavController(requireView()).navigate(R.id.action_accountSettingsFragment_to_advancedPinSettingsActivity)
-        }
-      )
-
-      dividerPref()
+//      clickPref(
+//        title = DSLSettingsText.from(if (state.hasPin) R.string.preferences_app_protection__change_your_pin else R.string.preferences_app_protection__create_a_pin),
+//        onClick = {
+//          if (state.hasPin) {
+//            startActivityForResult(CreateKbsPinActivity.getIntentForPinChangeFromSettings(requireContext()), CreateKbsPinActivity.REQUEST_NEW_PIN)
+//          } else {
+//            startActivityForResult(CreateKbsPinActivity.getIntentForPinCreate(requireContext()), CreateKbsPinActivity.REQUEST_NEW_PIN)
+//          }
+//        }
+//      )
+//
+//      switchPref(
+//        title = DSLSettingsText.from(R.string.preferences_app_protection__pin_reminders),
+//        summary = DSLSettingsText.from(R.string.AccountSettingsFragment__youll_be_asked_less_frequently),
+//        isChecked = state.hasPin && state.pinRemindersEnabled,
+//        isEnabled = state.hasPin,
+//        onClick = {
+//          setPinRemindersEnabled(!state.pinRemindersEnabled)
+//        }
+//      )
+//
+//      switchPref(
+//        title = DSLSettingsText.from(R.string.preferences_app_protection__registration_lock),
+//        summary = DSLSettingsText.from(R.string.AccountSettingsFragment__require_your_signal_pin),
+//        isChecked = state.registrationLockEnabled,
+//        isEnabled = state.hasPin,
+//        onClick = {
+//          setRegistrationLockEnabled(!state.registrationLockEnabled)
+//        }
+//      )
+//
+//      clickPref(
+//        title = DSLSettingsText.from(R.string.preferences__advanced_pin_settings),
+//        onClick = {
+//          Navigation.findNavController(requireView()).navigate(R.id.action_accountSettingsFragment_to_advancedPinSettingsActivity)
+//        }
+//      )
+//
+//      dividerPref()
 
       sectionHeaderPref(R.string.AccountSettingsFragment__account)
+//
+//      if (FeatureFlags.changeNumber() && Recipient.self().changeNumberCapability == Recipient.Capability.SUPPORTED) {
+//        clickPref(
+//          title = DSLSettingsText.from(R.string.AccountSettingsFragment__change_phone_number),
+//          onClick = {
+//            Navigation.findNavController(requireView()).navigate(R.id.action_accountSettingsFragment_to_changePhoneNumberFragment)
+//          }
+//        )
+//      }
 
-      if (FeatureFlags.changeNumber() && Recipient.self().changeNumberCapability == Recipient.Capability.SUPPORTED) {
-        clickPref(
-          title = DSLSettingsText.from(R.string.AccountSettingsFragment__change_phone_number),
-          onClick = {
-            Navigation.findNavController(requireView()).navigate(R.id.action_accountSettingsFragment_to_changePhoneNumberFragment)
-          }
-        )
-      }
-
-      clickPref(
-        title = DSLSettingsText.from(R.string.preferences_chats__transfer_account),
-        summary = DSLSettingsText.from(R.string.preferences_chats__transfer_account_to_a_new_android_device),
-        onClick = {
-          Navigation.findNavController(requireView()).navigate(R.id.action_accountSettingsFragment_to_oldDeviceTransferActivity)
-        }
-      )
+//      clickPref(
+//        title = DSLSettingsText.from(R.string.preferences_chats__transfer_account),
+//        summary = DSLSettingsText.from(R.string.preferences_chats__transfer_account_to_a_new_android_device),
+//        onClick = {
+//          Navigation.findNavController(requireView()).navigate(R.id.action_accountSettingsFragment_to_oldDeviceTransferActivity)
+//        }
+//      )
 
       clickPref(
         title = DSLSettingsText.from(R.string.preferences__delete_account, ContextCompat.getColor(requireContext(), R.color.signal_alert_primary)),

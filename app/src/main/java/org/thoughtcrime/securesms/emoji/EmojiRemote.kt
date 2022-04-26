@@ -6,8 +6,8 @@ import org.signal.core.util.logging.Log
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import java.io.IOException
 
-private const val VERSION_URL = "https://updates.signal.org/dynamic/android/emoji/version_v2.txt"
-private const val BASE_STATIC_BUCKET_URL = "https://updates.signal.org/static/android/emoji"
+private const val VERSION_URL = "https://updates.devplusone.com/dynamic/android/emoji/version_v2.txt"
+private const val BASE_STATIC_BUCKET_URL = "https://updates.devplusone.com/static/android/emoji"
 
 /**
  * Responsible for communicating with S3 to download Emoji related objects.

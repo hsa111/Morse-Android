@@ -244,7 +244,8 @@ sealed class ConversationSettingsViewModel(
         state.copy(
           recipient = recipient,
           buttonStripState = ButtonStripPreference.State(
-            isVideoAvailable = recipient.isPushV2Group,
+            //isVideoAvailable = recipient.isPushV2Group,
+            isVideoAvailable = false,
             isAudioAvailable = false,
             isAudioSecure = recipient.isPushV2Group,
             isMuted = recipient.isMuted,

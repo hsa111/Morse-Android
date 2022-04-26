@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">Jauna ziņa</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal atjaunina informāciju…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Morse atjaunina informāciju…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Pašlaik: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Jūs vēl neesat iestatījuši pieejas frāzi!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Atspējot paroļfrāzi?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Šī opcija permanenti atslēgs Signal aplikāciju un paziņojumus par jaunām ziņām.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Šī opcija permanenti atslēgs Morse aplikāciju un paziņojumus par jaunām ziņām.</string>
   <string name="ApplicationPreferencesActivity_disable">Atspējot</string>
   <string name="ApplicationPreferencesActivity_unregistering">Atreģistrēties</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Atreģistrējos no Signal ziņām un zvaniem…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Atspējot Signal ziņas un zvanus?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Atspējot Signal ziņas un zvanus, atreģistrējoties no servera. Lai šīs opcijas atsāktu lietot, Jums nākotnē būs atkārtoti jāreģistrē savs tālruņa numurs.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Atreģistrējos no Morse ziņām un zvaniem…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Atspējot Morse ziņas un zvanus?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Atspējot Morse ziņas un zvanus, atreģistrējoties no servera. Lai šīs opcijas atsāktu lietot, Jums nākotnē būs atkārtoti jāreģistrē savs tālruņa numurs.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Nebija iespējams savienoties ar serveri!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS iespējots</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Pieskarieties lai izvēlētos savu noklusējuma SMS aplikāciju</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS atspējots</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Pieskarieties, lai iestatītu Signal kā savu noklusējuma SMS aplikāciju</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Pieskarieties, lai iestatītu Morse kā savu noklusējuma SMS aplikāciju</string>
   <string name="ApplicationPreferencesActivity_on">ieslēgts</string>
   <string name="ApplicationPreferencesActivity_On">Ieslēgts</string>
   <string name="ApplicationPreferencesActivity_off">izslēgts</string>
@@ -59,14 +59,14 @@
   <string name="AttachmentKeyboard_file">Fails</string>
   <string name="AttachmentKeyboard_contact">Kontakts</string>
   <string name="AttachmentKeyboard_location">Atrašanās vieta</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal ir nepieciešama atļauja rādīt jūsu fotoattēlus un videoklipus.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Morse ir nepieciešama atļauja rādīt jūsu fotoattēlus un videoklipus.</string>
   <string name="AttachmentKeyboard_give_access">Piešķirt piekļuvi</string>
   <string name="AttachmentKeyboard_payment">Maksājums</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Nevar atrast aplikāciju, ar kuru iespējams izvēlēties pievienojamo mediju failu.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Lai pievienoto fotogrāfijas, videoierakstus un audioierakstus, Signal nepieciešama atļauja pieejai pie Noliktavas, bet tā ir liegta. Dodieties uz lietotnes iestatījumu izvēlni, izvēlieties \"Atļaujas\" un iespējojiet opciju \"Noliktava\".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal nepieciešama atļauja pieejai pie Kontaktiem, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kontakti\".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal nepieciešama atļauja pieejai pie atrašanās vietas pakalpojumiem, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Atrašanās vieta\".</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Lai pievienoto fotogrāfijas, videoierakstus un audioierakstus, Morse nepieciešama atļauja pieejai pie Noliktavas, bet tā ir liegta. Dodieties uz lietotnes iestatījumu izvēlni, izvēlieties \"Atļaujas\" un iespējojiet opciju \"Noliktava\".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Morse nepieciešama atļauja pieejai pie Kontaktiem, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kontakti\".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Morse nepieciešama atļauja pieejai pie atrašanās vietas pakalpojumiem, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Atrašanās vieta\".</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Notiek multivides faila augšupielāde…</string>
   <string name="AttachmentUploadJob_compressing_video_start">Notiek video saspiešana…</string>
@@ -110,21 +110,21 @@
   <string name="CameraXFragment_open_gallery_description">Atvērt galeriju</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Pēdējie kontakti</string>
-  <string name="CameraContacts_signal_contacts">Signal kontakti</string>
-  <string name="CameraContacts_signal_groups">Signal grupas</string>
+  <string name="CameraContacts_signal_contacts">Morse kontakti</string>
+  <string name="CameraContacts_signal_groups">Morse grupas</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">Jūs variet dalīties ar maksimums %dsarunām. </string>
-  <string name="CameraContacts_select_signal_recipients">Izvēlēties Signal adresātus</string>
-  <string name="CameraContacts_no_signal_contacts">Nav Signal kontaktu</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Jūs variet izmantot kameru tikai, lai sūtītu attēlus Signal kontaktiem.</string>
+  <string name="CameraContacts_select_signal_recipients">Izvēlēties Morse adresātus</string>
+  <string name="CameraContacts_no_signal_contacts">Nav Morse kontaktu</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Jūs variet izmantot kameru tikai, lai sūtītu attēlus Morse kontaktiem.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Neatradāt, ko Jūs meklējāt?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Uzaicināt kontaktu pievienoties Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Uzaicināt kontaktu pievienoties Morse</string>
   <string name="CameraContacts__menu_search">Meklēt</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Noņemt</string>
   <string name="ClearProfileActivity_remove_profile_photo">Vai noņemt profila attēlu?</string>
   <string name="ClearProfileActivity_remove_group_photo">Noņemt grupas bildi?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Atjaunināt Signal</string>
+  <string name="ClientDeprecatedActivity_update_signal">Atjaunināt Morse</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Šī lietotnes versija vairs netiek atbalstīta. Lai turpinātu sūtīt un saņemt ziņas, aktualizējiet uz pēdējo versiju.</string>
   <string name="ClientDeprecatedActivity_update">Aktualizēt</string>
   <string name="ClientDeprecatedActivity_dont_update">Neaktualizēt</string>
@@ -138,9 +138,9 @@
   <string name="CommunicationActions_cancel">Atcelt</string>
   <string name="CommunicationActions_call">Zvanīt</string>
   <string name="CommunicationActions_insecure_call">Nedrošs zvans</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Var tikt piemēroti mobilā tīkla operatora maksas. Numuram, uz kuru zvanāt, nav instalēta Signal aplikācija. Tādēļ šis zvans tiks veikts izmantojot jūsu mobilo sakaru operatoru, nevis internetu.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Var tikt piemēroti mobilā tīkla operatora maksas. Numuram, uz kuru zvanāt, nav instalēta Morse aplikācija. Tādēļ šis zvans tiks veikts izmantojot jūsu mobilo sakaru operatoru, nevis internetu.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Jūsu drošības numurs ar %1$s ir mainījies. Tas nozīmē, ka kāds mēģina noklausīties jūsu saziņu vai ka %2$s ir pārinstalējis Signal aplikāciju.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Jūsu drošības numurs ar %1$s ir mainījies. Tas nozīmē, ka kāds mēģina noklausīties jūsu saziņu vai ka %2$s ir pārinstalējis Morse aplikāciju.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Iespējams, Jūs vēlaties salīdzināt savu drošības numuru ar šo kontaktu.</string>
   <string name="ConfirmIdentityDialog_accept">Apstiprināt</string>
   <!--ContactsCursorLoader-->
@@ -151,7 +151,7 @@
   <string name="ContactsCursorLoader_username_search">Lietotājvārda meklēšana</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Ziņa %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal zvans %s</string>
+  <string name="ContactsDatabase_signal_call_s">Morse zvans %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Vārds</string>
   <string name="ContactNameEditActivity_family_name">Uzvārds</string>
@@ -174,7 +174,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Sūtīšana neizdevās, pieskarieties, lai veiktu nedrošu sūtījumu, izmantojot rezerves kanālu</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Pāriet uz nedrošu saziņu, lietojot nešifrētu SMS?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Pāriet uz nedrošu saziņu, lietojot nešifrētu MMS?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Šī ziņa <b>netiks</b> šifrēta, jo saņēmējs vairs nav Signal lietotājs.\n\nSūtīt nedrošu ziņu?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Šī ziņa <b>netiks</b> šifrēta, jo saņēmējs vairs nav Morse lietotājs.\n\nSūtīt nedrošu ziņu?</string>
   <string name="ConversationItem_unable_to_open_media">Nevarēja atrast aplikāciju, ar kuru iespējams atvērt šo saturu/failu.</string>
   <string name="ConversationItem_copied_text">Nokopēts %s</string>
   <string name="ConversationItem_from_s">no %s</string>
@@ -199,8 +199,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Izskatās, ka šī ierīce neatbalsta zvanu veikšanu.</string>
   <string name="ConversationActivity_transport_insecure_sms">Nedrošs SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Nedrošs MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Pārslēdzamies uz Signal messenger %1$s!</string>
+  <string name="ConversationActivity_transport_signal">Morse</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Pārslēdzamies uz Morse messenger %1$s!</string>
   <string name="ConversationActivity_specify_recipient">Lūdzu, izvēlaties kontaktu!</string>
   <string name="ConversationActivity_unblock">Atbloķēt</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">Pielikuma izmērs pārsniedz ierobežojumu šāda veida ziņai, kuru sūtāt.</string>
@@ -214,17 +214,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Jūsu ierīcē nav uzstādītas lietotnes, kas ļautu atvērt šo saiti.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Jūsu pieprasījums pievienoties ir nosūtīts grupas administratoriem. Jums tiks paziņots, kad viņi veiks kādu darbību.</string>
   <string name="ConversationActivity_cancel_request">Atcelt pieprasījumu</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Lai nosūtītu audio ziņu, ļaujiet Signal piekļūt ierīces mikrofonam.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Lai nosūtītu audio ziņas, Signal nepieciešama atļauja pieejai mikrofonam, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Mikrofons\".</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Lai zvanītu %s, Signal nepieciešama atļauja piekļuvei mikrofonam un kamerai, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Mikrofons\" un \"Kamera\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Lai uzņemtu fotogrāfijas un video, ļaujiet Signal piekļūt kamerai.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Lai uzņemtu fotogrāfijas vai video, Signal nepieciešama atļauja piekļūt kamerai, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kamera\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Lai uzņemtu fotogrāfijas vai video, Signal nepieciešama atļauja piekļūt kamerai</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Lai nosūtītu audio ziņu, ļaujiet Morse piekļūt ierīces mikrofonam.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Lai nosūtītu audio ziņas, Morse nepieciešama atļauja pieejai mikrofonam, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Mikrofons\".</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Lai zvanītu %s, Morse nepieciešama atļauja piekļuvei mikrofonam un kamerai, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Mikrofons\" un \"Kamera\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Lai uzņemtu fotogrāfijas un video, ļaujiet Morse piekļūt kamerai.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Lai uzņemtu fotogrāfijas vai video, Morse nepieciešama atļauja piekļūt kamerai, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kamera\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Lai uzņemtu fotogrāfijas vai video, Morse nepieciešama atļauja piekļūt kamerai</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Dodiet mikrofona atļauju, lai video tiktu uzņemts ar skaņu.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal ir vajadzīgas mikrofona atļaujas video ierakstīšanai, taču tās tika liegtas. Lūdzu, dodieties uz lietotnes iestatījumiem, izvēlieties “Atļaujas” un iespējojiet “Mikrofons” un “Kamera”.</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal nepieciešamas mikrofona atļaujas, lai ierakstītu video.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Morse ir vajadzīgas mikrofona atļaujas video ierakstīšanai, taču tās tika liegtas. Lūdzu, dodieties uz lietotnes iestatījumiem, izvēlieties “Atļaujas” un iespējojiet “Mikrofons” un “Kamera”.</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Morse nepieciešamas mikrofona atļaujas, lai ierakstītu video.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal nevar sūtīt SMS/MMS ziņas, jo tas nav iestatīts kā Jūsu noklusējuma SMS lietotne. Vai vēlaties to izdarīt Android iestatījumos?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Morse nevar sūtīt SMS/MMS ziņas, jo tas nav iestatīts kā Jūsu noklusējuma SMS lietotne. Vai vēlaties to izdarīt Android iestatījumos?</string>
   <string name="ConversationActivity_yes">Jā</string>
   <string name="ConversationActivity_no">Nē</string>
   <string name="ConversationActivity_search_position">%1$d no %2$d</string>
@@ -238,7 +238,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Jūs pametīsiet šo grupu, un tā tiks izdzēsta no visām jūsu ierīcēm.</string>
   <string name="ConversationActivity_delete">Dzēst</string>
   <string name="ConversationActivity_delete_and_leave">Dzēst un pamest</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Lai veiktu zvanu%1$s, Signal ir nepieciešama piekļuve Jūsu mikrofonam.</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Lai veiktu zvanu%1$s, Morse ir nepieciešama piekļuve Jūsu mikrofonam.</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">Vairāk opciju tagad sadaļā \"Grupas iestatījumi\"</string>
   <string name="ConversationActivity_join">Pievienoties</string>
   <string name="ConversationActivity_full">Pilns</string>
@@ -279,7 +279,7 @@
     <item quantity="other">Saglabā %1$d pielikumus noliktavā…</item>
   </plurals>
   <string name="ConversationFragment_pending">Tiek gaidīts / gaidīšanas statusā…</string>
-  <string name="ConversationFragment_push">Dati (Signal)</string>
+  <string name="ConversationFragment_push">Dati (Morse)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Tiek dzēsts</string>
@@ -435,8 +435,8 @@
   <string name="ShareActivity_multiple_attachments_are_only_supported">Vairāku pielikumu sūtīšana ir atbalstīta tikai attēliem un video</string>
   <string name="ShareActivity_you_do_not_have_permission_to_send_to_this_group">Jums nav atļauju sūtīt šai grupai</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Signal sakaru permanenta kļūme!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal neizdevās reģistrēties Google Play pakalpojumos. Signal ziņas un zvani ir atspējoti. Lūdzu, mēģiniet vēlreiz piereģistrēties sadaļā Iestatījumi -&gt; Papildu.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Morse sakaru permanenta kļūme!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Morse neizdevās reģistrēties Google Play pakalpojumos. Morse ziņas un zvani ir atspējoti. Lūdzu, mēģiniet vēlreiz piereģistrēties sadaļā Iestatījumi -&gt; Papildu.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Kļūme iegūstot pilnas izšķirtspējas GIF</string>
   <!--GiphyFragmentPageAdapter-->
@@ -610,7 +610,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">Šis lauks ir nepieciešams.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">Grupas izveidē notikusi kļūme.</string>
   <string name="AddGroupDetailsFragment__try_again_later">Lūdzu, mēģiniet vēlāk.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Jūs atzīmējāt kontaktu, kurš neatbalsta Signal grupas, tāpēc šī būs MMS grupa.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Jūs atzīmējāt kontaktu, kurš neatbalsta Morse grupas, tāpēc šī būs MMS grupa.</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Pielāgotie MMS grupu nosaukumi un fotoattēli būs redzami tikai jums.</string>
   <string name="AddGroupDetailsFragment__remove">Noņemt/Izņemt</string>
   <string name="AddGroupDetailsFragment__sms_contact">Īsziņu kontakts</string>
@@ -626,17 +626,17 @@
     <item quantity="other">%d dalībnieki neatbalsta jaunas grupas, tādēļ šo grupu nav iespējams izveidot.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Tiks izveidota vecā tipa grupa, jo “%1$s” izmanto veco Signal versiju. Jauna veida grupu varēsiet izveidot, kad attiecīgais dalībnieks atjauninās lietotni Signal, vai arī pirms grupas izveides dzēsiet šo dalībnieku.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Tiks izveidota vecā tipa grupa, jo “%1$s” izmanto veco Morse versiju. Jauna veida grupu varēsiet izveidot, kad attiecīgais dalībnieks atjauninās lietotni Morse, vai arī pirms grupas izveides dzēsiet šo dalībnieku.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="zero">Tiks izveidota vecā tipa grupa, jo %1$d dalībnieks izmanto veco Signal versiju. Kad attiecīgie dalībnieki ir atjauninājuši lietotni Signal, varat izveidot jauna veida grupu vai arī pirms grupas izveides varat dzēst šos dalībniekus.</item>
-    <item quantity="one">Tiks izveidota vecā tipa grupa, jo %1$d dalībnieks izmanto veco Signal versiju. Kad attiecīgie dalībnieki ir atjauninājuši lietotni Signal, varat izveidot jauna veida grupu vai arī pirms grupas izveides varat dzēst šos dalībniekus.</item>
-    <item quantity="other">Tiks izveidota vecā tipa grupa, jo %1$d dalībnieki izmanto veco Signal versiju. Jauna veida grupu varēsiet izveidot, kad attiecīgie dalībnieki atjauninās lietotni Signal, vai arī pirms grupas izveides dzēsiet šos dalībniekus.</item>
+    <item quantity="zero">Tiks izveidota vecā tipa grupa, jo %1$d dalībnieks izmanto veco Morse versiju. Kad attiecīgie dalībnieki ir atjauninājuši lietotni Morse, varat izveidot jauna veida grupu vai arī pirms grupas izveides varat dzēst šos dalībniekus.</item>
+    <item quantity="one">Tiks izveidota vecā tipa grupa, jo %1$d dalībnieks izmanto veco Morse versiju. Kad attiecīgie dalībnieki ir atjauninājuši lietotni Morse, varat izveidot jauna veida grupu vai arī pirms grupas izveides varat dzēst šos dalībniekus.</item>
+    <item quantity="other">Tiks izveidota vecā tipa grupa, jo %1$d dalībnieki izmanto veco Morse versiju. Jauna veida grupu varēsiet izveidot, kad attiecīgie dalībnieki atjauninās lietotni Morse, vai arī pirms grupas izveides dzēsiet šos dalībniekus.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Šo grupu nevar izveidot, jo “%1$s” izmanto veco Signal versiju. Pirms šīs grupas izveides attiecīgais dalībnieks ir jādzēš.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Šo grupu nevar izveidot, jo “%1$s” izmanto veco Morse versiju. Pirms šīs grupas izveides attiecīgais dalībnieks ir jādzēš.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="zero">Šo grupu nevar izveidot, jo %1$d dalībnieks izmanto veco Signal versiju. Pirms šīs grupas izveides attiecīgie dalībnieki ir jādzēš.</item>
-    <item quantity="one">Šo grupu nevar izveidot, jo %1$d dalībnieks izmanto veco Signal versiju. Pirms šīs grupas izveides attiecīgie dalībnieki ir jādzēš.</item>
-    <item quantity="other">Šo grupu nevar izveidot, jo %1$d dalībnieki izmanto veco Signal versiju. Pirms šīs grupas izveides attiecīgie dalībnieki ir jādzēš.</item>
+    <item quantity="zero">Šo grupu nevar izveidot, jo %1$d dalībnieks izmanto veco Morse versiju. Pirms šīs grupas izveides attiecīgie dalībnieki ir jādzēš.</item>
+    <item quantity="one">Šo grupu nevar izveidot, jo %1$d dalībnieks izmanto veco Morse versiju. Pirms šīs grupas izveides attiecīgie dalībnieki ir jādzēš.</item>
+    <item quantity="other">Šo grupu nevar izveidot, jo %1$d dalībnieki izmanto veco Morse versiju. Pirms šīs grupas izveides attiecīgie dalībnieki ir jādzēš.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">Dalības pieprasījumi &amp; uzaicinājumi</string>
@@ -667,8 +667,8 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">Tikai administratori var iespējot vai atspējot dalībnieku apstiprināšanas opciju.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Tikai administratori var atiestatīt kopīgojamo grupas saiti.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Jums nav tiesību veikt šīs darbības</string>
-  <string name="ManageGroupActivity_not_capable">Kāds no pievienotajiem dalībniekiem neatbalsta Signal jaunās grupas. Nepieciešama Signal atjaunināšana</string>
-  <string name="ManageGroupActivity_not_announcement_capable">Kāds no pievienotajiem dalībniekiem neatbalsta paziņojumu grupas, un šim dalībniekam ir jāatjaunina Signal.</string>
+  <string name="ManageGroupActivity_not_capable">Kāds no pievienotajiem dalībniekiem neatbalsta Morse jaunās grupas. Nepieciešama Morse atjaunināšana</string>
+  <string name="ManageGroupActivity_not_announcement_capable">Kāds no pievienotajiem dalībniekiem neatbalsta paziņojumu grupas, un šim dalībniekam ir jāatjaunina Morse.</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Grupas atjaunināšanā notikusi kļūda</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Jūs neesat grupas dalībnieks</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Neizdevās atjaunināt grupu. Vēlāk mēģiniet vēlreiz.</string>
@@ -757,10 +757,10 @@
     <item quantity="other">Grupas · %1$d dalībnieki</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Atjauniniet Signal, lai izmantotu grupas saites</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Jūsu izmantotā Signal versija neatbalsta šīs grupas saiti. Atjauniniet uz jaunāko versiju, lai pievienotos šai grupai, izmantojot saiti.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Atjauniniet Morse, lai izmantotu grupas saites</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Jūsu izmantotā Morse versija neatbalsta šīs grupas saiti. Atjauniniet uz jaunāko versiju, lai pievienotos šai grupai, izmantojot saiti.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Aktualizēt Signālu</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Vienā vai vairākās jūsu saistītajās ierīcēs tiek izmantota Signal versija, kura neatbalsta grupu saites. Atjauniniet Signal savās saistītajās ierīcēs, lai pievienotos šai grupai.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Vienā vai vairākās jūsu saistītajās ierīcēs tiek izmantota Morse versija, kura neatbalsta grupu saites. Atjauniniet Morse savās saistītajās ierīcēs, lai pievienotos šai grupai.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Grupas saite nav derīga</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Uzaicināt draugus</string>
@@ -795,7 +795,7 @@
     <item quantity="one">Sūtīt %d SMS Ielūgumu?</item>
     <item quantity="other">Sūtīt %d SMS uzaicinājumus?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Pārejam uz drošu saziņu, pārejam uz Signal: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Pārejam uz drošu saziņu, pārejam uz Morse: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Izskatās, ka Tev nav nevienas aplikācijas, caur kuru dalīties.</string>
   <!--LearnMoreTextView-->
   <string name="LearnMoreTextView_learn_more">Lasīt vairāk</string>
@@ -849,7 +849,7 @@
   <string name="Megaphones_introducing_reactions">Iepazīstinām ar reakcijām</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Pieskarieties un turiet jebkuru ziņojumu, lai ātri kopīgotu savas domas.</string>
   <string name="Megaphones_remind_me_later">Atgādināt vēlāk</string>
-  <string name="Megaphones_verify_your_signal_pin">Signal PIN verificēšana</string>
+  <string name="Megaphones_verify_your_signal_pin">Morse PIN verificēšana</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Dažreiz mēs Jums pieprasīsim pārbaudīt jūsu PIN, lai Jūs to atcerētos.</string>
   <string name="Megaphones_verify_pin">Pārbaudīt PIN</string>
   <string name="Megaphones_get_started">Sākt</string>
@@ -861,7 +861,7 @@
   <!--NotificationBarManager-->
   <string name="NotificationBarManager_signal_call_in_progress">Tiek veikts Signāla zvans </string>
   <string name="NotificationBarManager__establishing_signal_call">Signāla zvana savienojuma izveide</string>
-  <string name="NotificationBarManager__incoming_signal_call">Ienākošs Signal zvans</string>
+  <string name="NotificationBarManager__incoming_signal_call">Ienākošs Morse zvans</string>
   <string name="NotificationBarManager__stopping_signal_call_service">Tiek apturēts Sigāla zvana pakalpojums</string>
   <string name="NotificationBarManager__answer_call">Atbildēt</string>
   <string name="NotificationBarManager__end_call">Beigt zvanu</string>
@@ -888,8 +888,8 @@
   <string name="MediaSendActivity_message_to_s">Ziņa %s</string>
   <string name="MediaSendActivity_message">Sūtīt/ziņa</string>
   <string name="MediaSendActivity_select_recipients">Izvēlēties adresātus</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal ir nepieciešama piekļuve Jūsu kontaktiem, lai tos parādītu.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal ir nepieciešama piekļuve kontaktiem, lai parādītu Jūsu kontaktpersonas, bet tā ir neatgriezeniski noraidīta.  Lūdzu, dodieties uz aplikāciju iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kontakti\"</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Morse ir nepieciešama piekļuve Jūsu kontaktiem, lai tos parādītu.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Morse ir nepieciešama piekļuve kontaktiem, lai parādītu Jūsu kontaktpersonas, bet tā ir neatgriezeniski noraidīta.  Lūdzu, dodieties uz aplikāciju iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kontakti\"</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="zero">Jūs Nevariet dalīties ar vairāk kā %d elementus.</item>
     <item quantity="one">Jūs Nevariet dalīties ar vairāk %d elementu.</item>
@@ -905,7 +905,7 @@
   <string name="MessageDecryptionUtil_tap_to_send_a_debug_log">Pieskarieties, lai nosūtītu atkļūdošanas žurnālu</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Nezināms</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Saņemta ziņa, kas šifrēta, izmantojot vecāku Signal versiju, kura vairs netiek atbalstīta. Palūdziet sūtītājam aktualizēt Signal uz jaunāko versiju un nosūtīt ziņu vēlreiz.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Saņemta ziņa, kas šifrēta, izmantojot vecāku Morse versiju, kura vairs netiek atbalstīta. Palūdziet sūtītājam aktualizēt Morse uz jaunāko versiju un nosūtīt ziņu vēlreiz.</string>
   <string name="MessageRecord_left_group">Jūs pametāt grupu.</string>
   <string name="MessageRecord_you_updated_group">Jūs aktualizējāt grupu.</string>
   <string name="MessageRecord_the_group_was_updated">Šī grupa tika aktualizēta.</string>
@@ -1153,17 +1153,17 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Nederīgs QR kods.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Piedodiet, bet Jums piesaistītas pārāk daudz ierīces , lūdzu kādu atsaistiet</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Piedodiet, bet šis nav derīgs ierīces QR kods.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Piesaistīt Signal ierīci?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Izskatās, ka Jūs mēģināt piesaistīt Signal ierīci, izmantojot svešas aplikācijas skeneri. Jūsu drošībai, lūdzu, skenējiet kodu vēlreiz, izmantojot Signal.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal ir nepieciešama piekļuve kamerai, lai skenētu QR kodu, bet tai nav dotas šādas atļaujas. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kamera\". </string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Piesaistīt Morse ierīci?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Izskatās, ka Jūs mēģināt piesaistīt Morse ierīci, izmantojot svešas aplikācijas skeneri. Jūsu drošībai, lūdzu, skenējiet kodu vēlreiz, izmantojot Morse.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Morse ir nepieciešama piekļuve kamerai, lai skenētu QR kodu, bet tai nav dotas šādas atļaujas. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kamera\". </string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nav iespējams skenēt QR kodu bez kameras lietošanas atļaujas</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">Aktualizēt tagad</string>
   <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Šīs Signāla versijas lietošanas termiņš beigsies šodien. Aktualizējiet uz nesenāku versiju.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="zero">Šīs Signal versijas lietošanas termiņš beigsies pēc %d dienas. Atjauniniet uz jaunāku versiju.</item>
-    <item quantity="one">Šīs Signal versijas lietošanas termiņš beigsies rīt. Atjauniniet uz jaunāku versiju.</item>
-    <item quantity="other">Šīs Signal versijas lietošanas termiņš beigsies pēc %d dienām. Atjauniniet uz jaunāku versiju.</item>
+    <item quantity="zero">Šīs Morse versijas lietošanas termiņš beigsies pēc %d dienas. Atjauniniet uz jaunāku versiju.</item>
+    <item quantity="one">Šīs Morse versijas lietošanas termiņš beigsies rīt. Atjauniniet uz jaunāku versiju.</item>
+    <item quantity="other">Šīs Morse versijas lietošanas termiņš beigsies pēc %d dienām. Atjauniniet uz jaunāku versiju.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Ievadiet paroles frāzi</string>
@@ -1171,7 +1171,7 @@
   <string name="PassphrasePromptActivity_ok_button_content_description">Iesniegt paroles frāzi</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Nepareiza paroles frāze</string>
   <string name="PassphrasePromptActivity_unlock_signal">Atbloķēt Signālu</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - bloķēt ekrānu</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Morse Android - bloķēt ekrānu</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Karte</string>
   <string name="PlacePickerActivity_drop_pin">Nomest atzīmi/piespraudi</string>
@@ -1193,7 +1193,7 @@
     <item quantity="one">Jums atlikuši %1$d mēģinājums. Ja jums beidzas mēģinājumi, varat izveidot jaunu PIN. Varat reģistrēties un izmantot savu kontu, taču zaudēsiet saglabātos iestatījumus, piemēram, profila informāciju.</item>
     <item quantity="other">Jums atlikuši %1$d mēģinājumi. Ja jums beidzas mēģinājumi, varat izveidot jaunu PIN. Varat reģistrēties un izmantot savu kontu, taču zaudēsiet saglabātos iestatījumus, piemēram, profila informāciju.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal reģistrācija - Nepieciešama palīdziba ar PIN priekš Android</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Morse reģistrācija - Nepieciešama palīdziba ar PIN priekš Android</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Ievadiet no burtiem un cipariem sastāvošu PIN</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">Izveido ciparisku PIN</string>
   <!--PinRestoreLockedFragment-->
@@ -1202,7 +1202,7 @@
   <string name="PinRestoreLockedFragment_create_new_pin">Izveidot jaunu PIN</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">Brīdinājums</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Ja atspējosiet PIN, jūs zaudēsiet visus datus, atkārtoti reģistrējoties lietotnē Signal, ja vien manuāli tos nedublēsiet un neatjaunosiet. Reģistrācijas bloķēšanu nevar ieslēgt, kamēr PIN ir atspējots.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Ja atspējosiet PIN, jūs zaudēsiet visus datus, atkārtoti reģistrējoties lietotnē Morse, ja vien manuāli tos nedublēsiet un neatjaunosiet. Reģistrācijas bloķēšanu nevar ieslēgt, kamēr PIN ir atspējots.</string>
   <string name="PinOptOutDialog_disable_pin">Atspējot PIN</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Novērtējiet šo lietotni</string>
@@ -1218,7 +1218,7 @@
   <string name="ReactionsRecipientAdapter_you">Jūs</string>
   <!--RecaptchaRequiredBottomSheetFragment-->
   <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Verificēt, lai turpinātu ziņapmaiņu</string>
-  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Lai lietotnē Signal novērstu surogātpasta saņemšanu, pabeidziet verifikāciju.</string>
+  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Lai lietotnē Morse novērstu surogātpasta saņemšanu, pabeidziet verifikāciju.</string>
   <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Pēc verifikācijas varat turpināt ziņapmaiņu. Visas pauzētās ziņas tiks automātiski nosūtītas.</string>
   <!--Recipient-->
   <string name="Recipient_you">Jūs</string>
@@ -1239,12 +1239,12 @@
   <string name="RedPhone_got_it">Skaidrīte</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Pieskarieties, lai ieslēgtu video</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Lai zvanītu %1$s, Signal ir nepieciešama piekļuve Jūsu kamerai</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Lai zvanītu %1$s, Morse ir nepieciešama piekļuve Jūsu kamerai</string>
+  <string name="WebRtcCallActivity__signal_s">Morse %1$s</string>
   <string name="WebRtcCallActivity__calling">Zvana…</string>
   <!--WebRtcCallView-->
   <string name="WebRtcCallView__signal_call">Zvana signāls</string>
-  <string name="WebRtcCallView__signal_video_call">Signal videozvans</string>
+  <string name="WebRtcCallView__signal_video_call">Morse videozvans</string>
   <string name="WebRtcCallView__start_call">Sākt zvanu</string>
   <string name="WebRtcCallView__join_call">Pievienoties zvanam/sarunai</string>
   <string name="WebRtcCallView__call_is_full">Zvana/sarunas dalībnieku limits izsmelts</string>
@@ -1307,13 +1307,13 @@ tālruņa numurs
   <string name="RegistrationActivity_is_your_phone_number_above_correct">Vai iepriekš norādītais jūsu tālruņa numurs ir pareizs?</string>
   <string name="RegistrationActivity_edit_number">Rediģēt numuru</string>
   <string name="RegistrationActivity_missing_google_play_services">Jocīgi, trūkst izspiegojošo Google Play pakalpojumu</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Šai ierīcei trūkst izspiegojošo Google Play pakalpojumu. Jūs varat izmantot Signal, taču šī ierīces konfigurācija, iespējams, var rezultēties samazinātā sasniedzamībā.\n\nJa, Jūs neesiet zinošs un advancēts lietotājs, ierīcē neizmantojiet drošāku \"pēctirgus\" Android operētājsistēmu vai arī uzskatiet, ka šo paziņojumu redziet kļūdas pēc, lūdzu, sazinieties ar support@signal.org, lai saņemtu palīdzību.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Šai ierīcei trūkst izspiegojošo Google Play pakalpojumu. Jūs varat izmantot Morse, taču šī ierīces konfigurācija, iespējams, var rezultēties samazinātā sasniedzamībā.\n\nJa, Jūs neesiet zinošs un advancēts lietotājs, ierīcē neizmantojiet drošāku \"pēctirgus\" Android operētājsistēmu vai arī uzskatiet, ka šo paziņojumu redziet kļūdas pēc, lūdzu, sazinieties ar support@devplusone.com, lai saņemtu palīdzību.</string>
   <string name="RegistrationActivity_i_understand">Skaidrīte</string>
   <string name="RegistrationActivity_play_services_error">Google Play pakalpojumu kļūme</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play pakalpojumi tiek aktualizēti vai īslaicīgi nav pieejami. Lūdzu, mēģiniet vēlreiz.</string>
   <string name="RegistrationActivity_terms_and_privacy">Noteikumi &amp; privātuma politika</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal ir nepieciešama piekļuve Jūsu kontaktpersonām un multividei, lai sazinātos ar draugiem, apmainītos ar ziņām un veiktu drošus zvanus</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Lietotnei Signal ir nepieciešama piekļuve jūsu kontaktpersonām, lai jūs varētu sazināties ar draugiem, apmainīties ar ziņām un veikt drošus zvanus</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Morse ir nepieciešama piekļuve Jūsu kontaktpersonām un multividei, lai sazinātos ar draugiem, apmainītos ar ziņām un veiktu drošus zvanus</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Lietotnei Morse ir nepieciešama piekļuve jūsu kontaktpersonām, lai jūs varētu sazināties ar draugiem, apmainīties ar ziņām un veikt drošus zvanus</string>
   <string name="RegistrationActivity_rate_limited_to_service">Pārāk daudz šī numura reģistrēšanas mēģinājumu. Vēlāk mēģiniet vēlreiz.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Nevar izveidot savienojumu ar pakalpojumu. Lūdzu, pārbaudiet tīkla savienojumu un mēģiniet vēlreiz.</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1336,7 +1336,7 @@ tālruņa numurs
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Ieslēgt reģistrācijas bloķēšanu?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Izslēgt reģistrācijas bloķēšanu?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Ja aizmirsīsiet savu Signal PIN reģistrējoties Signal no jauna, jūs tiksiet bloķēts piekļuvei Jūsu kontam uz 7 dienām.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Ja aizmirsīsiet savu Morse PIN reģistrējoties Morse no jauna, jūs tiksiet bloķēts piekļuvei Jūsu kontam uz 7 dienām.</string>
   <string name="RegistrationLockV2Dialog_turn_on">Ieslēgt</string>
   <string name="RegistrationLockV2Dialog_turn_off">Izslēgt</string>
   <!--RevealableMessageView-->
@@ -1352,16 +1352,16 @@ tālruņa numurs
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Pievienot kontaktiem</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Uzaicināt uz Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal ziņa</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal zvans</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Uzaicināt uz Morse</string>
+  <string name="SharedContactDetailsActivity_signal_message">Morse ziņa</string>
+  <string name="SharedContactDetailsActivity_signal_call">Morse zvans</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Pievienot kontaktiem</string>
-  <string name="SharedContactView_invite_to_signal">Uzaicināt uz Signal</string>
-  <string name="SharedContactView_message">Signal ziņa</string>
-  <!--SignalBottomActionBar-->
+  <string name="SharedContactView_invite_to_signal">Uzaicināt uz Morse</string>
+  <string name="SharedContactView_message">Morse ziņa</string>
+  <!--MorseBottomActionBar-->
   <string name="SignalBottomActionBar_more">Vēl</string>
-  <!--SignalPinReminders-->
+  <!--MorsePinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">Vēlāk atgādināsim vēlreiz.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">Atkārtoti atgādināsim rīt.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">Atkārtoti atgādināsim pēc dažām dienām.</string>
@@ -1384,14 +1384,14 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="SmsMessageRecord_secure_session_reset">Jūs atstatāt drošo sesiju.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s atstatīja drošo sesiju.</string>
   <string name="SmsMessageRecord_duplicate_message">Duplicēta (dubulta) ziņa.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Šī ziņa nevarēja tikt apstrādāta, jo tā tika nosūtīta no jaunākas Signal versijas. Aktualizējiet savu Signal lietotni un palūdziet sūtītājam, lai atsūta šo ziņu atkārtoti.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Šī ziņa nevarēja tikt apstrādāta, jo tā tika nosūtīta no jaunākas Morse versijas. Aktualizējiet savu Morse lietotni un palūdziet sūtītājam, lai atsūta šo ziņu atkārtoti.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">Kļūda saņemot ziņojumu.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Uzlīmes</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Instalētās uzlīmes</string>
   <string name="StickerManagementAdapter_stickers_you_received">Jūsu saņemtās uzlīmes</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signal mākslinieku sērijas uzlīmes</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Morse mākslinieku sērijas uzlīmes</string>
   <string name="StickerManagementAdapter_no_stickers_installed">Nav instalētu uzlīmju</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Šeit parādīsies uzlīmes no ienākošajām ziņām</string>
   <string name="StickerManagementAdapter_untitled">Nenosaukts</string>
@@ -1418,7 +1418,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="SupportEmailUtil_device_info">Iekārtas informācija:</string>
   <string name="SupportEmailUtil_android_version">Androīda versija:</string>
   <string name="SupportEmailUtil_signal_version">Signāla versija:</string>
-  <string name="SupportEmailUtil_signal_package">Signal pakete:</string>
+  <string name="SupportEmailUtil_signal_package">Morse pakete:</string>
   <string name="SupportEmailUtil_registration_lock">Reģistrācijas bloķēšana:</string>
   <string name="SupportEmailUtil_locale">Lokāle (valoda):</string>
   <!--ThreadRecord-->
@@ -1454,8 +1454,8 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="ThreadRecord_video">Video</string>
   <string name="ThreadRecord_chat_session_refreshed">Sarunas (čata) sesija atsvaidzināta</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal aktualizējums</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Ir pieejama jauna Signal versija, pieskarieties, lai atjauninātu</string>
+  <string name="UpdateApkReadyListener_Signal_update">Morse aktualizējums</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Ir pieejama jauna Morse versija, pieskarieties, lai atjauninātu</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">Sūtīt ziņu?</string>
   <string name="UntrustedSendDialog_send">Sūtīt</string>
@@ -1474,21 +1474,21 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Lietotājvārdi nevar sākties ar skaitli.</string>
   <string name="UsernameEditFragment_username_is_invalid">Lietotājvārds nav derīgs.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Lietotājvārdiem jābūt starp %1$d un %2$d rakstzīmēm.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Lietotājvārdi lietotnē Signal nav obligāti. Ja izvēlaties izveidot lietotājvārdu, citi Signal lietotāji jūs varēs atrast ar šo lietotājvārdu un sazināties ar jums, nezinot jūsu tālruņa numuru.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Lietotājvārdi lietotnē Morse nav obligāti. Ja izvēlaties izveidot lietotājvārdu, citi Morse lietotāji jūs varēs atrast ar šo lietotājvārdu un sazināties ar jums, nezinot jūsu tālruņa numuru.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="zero">%d kontaktpersona lieto Signal!</item>
-    <item quantity="one">%d kontaktpersona lieto Signal!</item>
-    <item quantity="other">%d kontaktpersonas lieto Signal!</item>
+    <item quantity="zero">%d kontaktpersona lieto Morse!</item>
+    <item quantity="one">%d kontaktpersona lieto Morse!</item>
+    <item quantity="other">%d kontaktpersonas lieto Morse!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Jūsu kontaktpersona izmanto novecojušu Signal versiju. Pirms apstipriniet drošības kodu,  palūdziet, lai to aktualizē.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Jūsu kontaktpersona izmanto jaunāku Signal versiju, ar nesaderīgu QR koda formātu. Lūdzu atjaunojiet Signal lietotni savā ierīcē, lai turpinātu.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Jūsu kontaktpersona izmanto novecojušu Morse versiju. Pirms apstipriniet drošības kodu,  palūdziet, lai to aktualizē.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Jūsu kontaktpersona izmanto jaunāku Morse versiju, ar nesaderīgu QR koda formātu. Lūdzu atjaunojiet Morse lietotni savā ierīcē, lai turpinātu.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Noskanētais QR kods nav pareizi formatēts drošības numura apstiprināšanas kods. Lūdzu, mēģiniet vēlreiz.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Dalīties ar drošības numuru izmantojot…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Mūsu Signal drošības numurs:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Mūsu Morse drošības numurs:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Izskatās, ka Tev nav nevienas aplikācijas, caur kurām dalīties.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Starpenē netika atrasts drošības kods</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal ir nepieciešama piekļuve kamerai, lai skenētu QR kodu, bet tā nav dota. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kamera\". </string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Morse ir nepieciešama piekļuve kamerai, lai skenētu QR kodu, bet tā nav dota. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kamera\". </string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Nebija iespējams noskenēt QR kodu bez kameras lietošanas atļaujas</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Lai skatītu %1$s drošības numuru, vispirms jums savstarpēji ir jāapmainās ar ziņām.</string>
   <!--ViewOnceMessageActivity-->
@@ -1507,13 +1507,13 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="ApplicationMigrationService_system_database_import_is_complete">Sistēmas datubāzes importēšana ir pabeigta.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Pieskarieties, lai atvērtu.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal ir atslēgts</string>
-  <string name="KeyCachingService_lock">Noslēgt Signal</string>
+  <string name="KeyCachingService_passphrase_cached">Morse ir atslēgts</string>
+  <string name="KeyCachingService_lock">Noslēgt Morse</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Jūs</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Neatbalstīts faila tips</string>
   <string name="MediaPreviewActivity_draft">Melnraksts</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal ir nepieciešama pieeja glabātuvei, lai saglabātu ārējā glabātuvē, bet pieeja nav dota. Dodieties uz lietotņu iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Krātuve\".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Morse ir nepieciešama pieeja glabātuvei, lai saglabātu ārējā glabātuvē, bet pieeja nav dota. Dodieties uz lietotņu iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Krātuve\".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nav iespējams saglabāt ārējā glabātuvē bez atļaujas.</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Izdzēst ziņu?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Šis neatgriezeniski izdzēsīs ziņu.</string>
@@ -1528,7 +1528,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="MessageNotifier_failed_to_deliver_message">Neizdevās piegādāt ziņu.</string>
   <string name="MessageNotifier_error_delivering_message">Kļūda piegādājot ziņu.</string>
   <string name="MessageNotifier_message_delivery_paused">Ziņas piegāde pauzēta.</string>
-  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Verificējiet, lai turpinātu ziņapmaiņu lietotnē Signal.</string>
+  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Verificējiet, lai turpinātu ziņapmaiņu lietotnē Morse.</string>
   <string name="MessageNotifier_mark_all_as_read">Atzīmēt visas kā lasītas</string>
   <string name="MessageNotifier_mark_read">Atzīmēt kā lasītu</string>
   <string name="MessageNotifier_turn_off_these_notifications">Izslēgt šos paziņojumus</string>
@@ -1549,7 +1549,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">Uz jūsu vienreiz skatāmo multivides vienumu reaģēja %1$s.</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">Reaģēja %1$s uz Jūsu uzlīmi. </string>
   <string name="MessageNotifier_this_message_was_deleted">Ziņojums ir izdzēsts.</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Vai izslēgt paziņojumus par kontaktpersonām, kas sākušās lietot Signal? Paziņojumus var atkal iespējot sadaļā Signal &gt; Iestatījumi &gt; Paziņojumi.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Vai izslēgt paziņojumus par kontaktpersonām, kas sākušās lietot Morse? Paziņojumus var atkal iespējot sadaļā Morse &gt; Iestatījumi &gt; Paziņojumi.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">Ziņas</string>
   <string name="NotificationChannel_calls">Zvani</string>
@@ -1561,7 +1561,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="NotificationChannel_group_chats">Sarunas</string>
   <string name="NotificationChannel_missing_display_name">Nezināms</string>
   <string name="NotificationChannel_voice_notes">Balss piezīmes</string>
-  <string name="NotificationChannel_contact_joined_signal">Kontakts pievienojās Signal</string>
+  <string name="NotificationChannel_contact_joined_signal">Kontakts pievienojās Morse</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">Paziņojumu kanāla iestatījumu atvēršanai nav pieejama neviena darbība.</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
@@ -1636,9 +1636,9 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" nav Signāla lietotājs. Lūdzu, pārbaudiet, vai lietotājvārds uzrakstīts pareizi.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Jums nav jāpievieno sevi grupai</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">Sasniegts maks. grupas lielums</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Dalībnieku skaits Signal grupās nedrīkst pārsniegt %1$d.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Dalībnieku skaits Morse grupās nedrīkst pārsniegt %1$d.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">Ieteicamais dalībnieku limits sasniegts</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal grupas vislabāk darbojas, ja dalībnieku skaits nepārsniedz %1$d vai ir mazāks. Ja pievienosiet vairāk dalībnieku, ziņu sūtīšana un saņemšana aizkavēsies.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Morse grupas vislabāk darbojas, ja dalībnieku skaits nepārsniedz %1$d vai ir mazāks. Ja pievienosiet vairāk dalībnieku, ziņu sūtīšana un saņemšana aizkavēsies.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="zero">%1$d dalībnieks</item>
     <item quantity="one">%1$d dalībnieks</item>
@@ -1795,7 +1795,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <!--giphy_fragment-->
   <string name="giphy_fragment__nothing_found">Nekas netika atrasts</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Vai Jūs vēlaties importēt savas eksistējošās teksta ziņas Signal šifrētajā datubāzē?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Vai Jūs vēlaties importēt savas eksistējošās teksta ziņas Morse šifrētajā datubāzē?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Noklusējuma sistēmas datubāze nekādā veidā netiks modificēta.</string>
   <string name="database_migration_activity__skip">Izlaist</string>
   <string name="database_migration_activity__import">Importēt</string>
@@ -1819,7 +1819,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Atbloķēt</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal ir nepieciešami MMS iestatījumi, lai nogādātu mediju failus un grupu ziņas caur operatora tīklu. Jūsu ierīce nesniedz šādu informāciju, kas dažreiz notiek operatoru slēgtām ierīcēm un citām liedzošām konfigurācijām.  </string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Morse ir nepieciešami MMS iestatījumi, lai nogādātu mediju failus un grupu ziņas caur operatora tīklu. Jūsu ierīce nesniedz šādu informāciju, kas dažreiz notiek operatoru slēgtām ierīcēm un citām liedzošām konfigurācijām.  </string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Lai nosūtītu multivides un grupas ziņas, spiediet \'OK\' un izpildiet pieprasītos uzstādījumus. Jūsu mobilo sakaru operatora MMS iestatījumus parasti var atrast, meklējot “Jūsu pakalpojumu sniedzēja APN”. Jums tas būs jādara tikai vienreiz.</string>
   <!--BadDecryptLearnMoreDialog-->
   <string name="BadDecryptLearnMoreDialog_delivery_issue">Piegādes problēma</string>
@@ -1908,7 +1908,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="HelpFragment__how_do_you_feel">Kā jūtaties? (fakultatīvs)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">Pastāstiet, par ko raizējaties.</string>
   <string name="HelpFragment__support_info">Atbalsta info</string>
-  <string name="HelpFragment__signal_android_support_request">Signal Android atbalsta pieprasījums</string>
+  <string name="HelpFragment__signal_android_support_request">Morse Android atbalsta pieprasījums</string>
   <string name="HelpFragment__debug_log">Atkļūdošanas žurnāls:</string>
   <string name="HelpFragment__could_not_upload_logs">Nebija iespējams augšuplādēt žurnālus</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Lūdzu, esiet pēc iespējas aprakstošāks, lai palīdzētu mums izprast problēmu.</string>
@@ -1961,8 +1961,8 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="preferences__sms_mms">SMS un MMS</string>
   <string name="preferences__pref_all_sms_title">Saņemt visus SMS</string>
   <string name="preferences__pref_all_mms_title">Saņemt visus MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Izmantot Signal visām ienākošajām teksta ziņām.</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Izmantot Signal visiām ienākošajām multimedija ziņām.</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Izmantot Morse visām ienākošajām teksta ziņām.</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Izmantot Morse visiām ienākošajām multimedija ziņām.</string>
   <string name="preferences__pref_enter_sends_title">Pogas Enter funkcija</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Enter poga - nosūtīs ziņu</string>
   <string name="preferences__pref_use_address_book_photos">Izmantot adrešu grāmatas foto</string>
@@ -1977,7 +1977,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Aizslēgt ekrānu un paziņojumus ar ieejas frāzi</string>
   <string name="preferences__screen_security">Ekrāna aizsardzība</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Bloķēt ekrānuzņēmumus pēdējo sarakstā un programmā</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automātiski slēgt Signal pēc noteikta neaktivitātes intervāla</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automātiski slēgt Morse pēc noteikta neaktivitātes intervāla</string>
   <string name="preferences__inactivity_timeout_passphrase">Neaktivitātes taimauta parole.</string>
   <string name="preferences__inactivity_timeout_interval">Neaktivitātes taimauta intervāls</string>
   <string name="preferences__notifications">Paziņojumi</string>
@@ -2035,13 +2035,13 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="preferences__chat_color_and_wallpaper">Tērzētavas krāsa un fona tapete</string>
   <string name="preferences__disable_pin">Atspējot PIN</string>
   <string name="preferences__enable_pin">Iespējot PIN</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Ja atspējosiet PIN, jūs zaudēsiet visus datus, atkārtoti reģistrējoties lietotnē Signal, ja vien manuāli tos nedublēsiet un neatjaunosiet. Reģistrācijas bloķēšanu nevar ieslēgt, kamēr PIN ir atspējots.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN kodos ir informācija, kas lietotnē Signal ir šifrēta, lai šai informācijai varētu piekļūt tikai jūs. Veicot atkārtotu instalēšanu, jūsu profils, iestatījumi un kontaktpersonas tiks atjaunotas. Lai atvērtu lietotni, PIN kods nebūs nepieciešams.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Ja atspējosiet PIN, jūs zaudēsiet visus datus, atkārtoti reģistrējoties lietotnē Morse, ja vien manuāli tos nedublēsiet un neatjaunosiet. Reģistrācijas bloķēšanu nevar ieslēgt, kamēr PIN ir atspējots.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN kodos ir informācija, kas lietotnē Morse ir šifrēta, lai šai informācijai varētu piekļūt tikai jūs. Veicot atkārtotu instalēšanu, jūsu profils, iestatījumi un kontaktpersonas tiks atjaunotas. Lai atvērtu lietotni, PIN kods nebūs nepieciešams.</string>
   <string name="preferences__system_default">Sistēmas noklusējums</string>
   <string name="preferences__language">Valoda</string>
-  <string name="preferences__signal_messages_and_calls">Signal ziņas un zvani</string>
+  <string name="preferences__signal_messages_and_calls">Morse ziņas un zvani</string>
   <string name="preferences__advanced_pin_settings">Advancētie PIN iestatījumi</string>
-  <string name="preferences__free_private_messages_and_calls">Bezmaksas privātās ziņas un zvani Signal lietotājiem</string>
+  <string name="preferences__free_private_messages_and_calls">Bezmaksas privātās ziņas un zvani Morse lietotājiem</string>
   <string name="preferences__submit_debug_log">Iesniegt kļūdas labošanas ierakstu.</string>
   <string name="preferences__delete_account">Dzēst kontu</string>
   <string name="preferences__support_wifi_calling">\"WiFi zvanīšana\" saderības režīms</string>
@@ -2081,8 +2081,8 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="preferences_storage__s_messages">%1$s ziņas</string>
   <string name="preferences_storage__custom">Pielāgots</string>
   <string name="preferences_advanced__use_system_emoji">Lietot sistēmas emoji</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Izslēgt Signal emoji</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Pārraidiet visus zvanus caur Signal serveri, lai izvairītos no IP adreses atklāšanas kontaktpersonai. Aktivizēšana samazinās zvanu kvalitāti.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Izslēgt Morse emoji</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Pārraidiet visus zvanus caur Morse serveri, lai izvairītos no IP adreses atklāšanas kontaktpersonai. Aktivizēšana samazinās zvanu kvalitāti.</string>
   <string name="preferences_advanced__always_relay_calls">Vienmēr pārslēgt zvanus</string>
   <string name="preferences_app_protection__who_can">Kas var…</string>
   <string name="preferences_app_protection__app_access">Programmas piekļuve</string>
@@ -2104,7 +2104,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="preferences_chats__show_invitation_prompts">Rādīt uzaicinājuma pamudinājumu</string>
   <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Rādīs logu, kas ļauj aicināt citus lietot Signālu</string>
   <string name="preferences_chats__message_text_size">Ziņu fonta lielums</string>
-  <string name="preferences_events__contact_joined_signal">Kontakts pievienojās Signal</string>
+  <string name="preferences_events__contact_joined_signal">Kontakts pievienojās Morse</string>
   <string name="preferences_notifications__priority">Prioritāte</string>
   <string name="preferences_communication__category_sealed_sender">Aizzīmogots sūtītājs</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Parādīt indikatorus</string>
@@ -2118,7 +2118,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="preferences_off">Izslēgts</string>
   <string name="preferences_on">Ieslēgts</string>
   <string name="preferences_proxy_address">Starpniekservera adrese</string>
-  <string name="preferences_only_use_a_proxy_if">Izmantojiet starpniekserveri tikai tad, ja, lietojot mobilos datus vai Wi-Fi, nevar izveidot savienojumu ar Signal.</string>
+  <string name="preferences_only_use_a_proxy_if">Izmantojiet starpniekserveri tikai tad, ja, lietojot mobilos datus vai Wi-Fi, nevar izveidot savienojumu ar Morse.</string>
   <string name="preferences_share">Kopīgot</string>
   <string name="preferences_save">Saglabāt</string>
   <string name="preferences_connecting_to_proxy">Veido savienojumu ar starpniekserveri…</string>
@@ -2137,7 +2137,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="PaymentsAllActivityFragment__sent">Nosūtītās</string>
   <string name="PaymentsAllActivityFragment__received">Saņemtās</string>
   <string name="PaymentsHomeFragment__introducing_payments">Maksājumu ieviešana (Beta)</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Izmantojiet lietotni Signal, lai nosūtītu un saņemtu MobileCoin - jaunu uz privātumu vērstu digitālo valūtu. Aktivizējiet, lai sāktu.</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Izmantojiet lietotni Morse, lai nosūtītu un saņemtu MobileCoin - jaunu uz privātumu vērstu digitālo valūtu. Aktivizējiet, lai sāktu.</string>
   <string name="PaymentsHomeFragment__activate_payments">Aktivizēt maksājumus</string>
   <string name="PaymentsHomeFragment__activating_payments">Tiek aktivizēti maksājumi…</string>
   <string name="PaymentsHomeFragment__restore_payments_account">Atgriezt maksājumu kontu</string>
@@ -2164,17 +2164,17 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Maksājumi jūsu reģionā nav pieejami.</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">Nevarējām iespējot maksājumus. Mēģiniet vēlāk.</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">Deaktivēt maksājumus?</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Deaktivizējot maksājumus, jūs nevarēsiet nosūtīt vai saņemt MobileCoin lietotnē Signal.</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Deaktivizējot maksājumus, jūs nevarēsiet nosūtīt vai saņemt MobileCoin lietotnē Morse.</string>
   <string name="PaymentsHomeFragment__deactivate">Deaktivēt</string>
   <string name="PaymentsHomeFragment__continue">Turpināt</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">Atlikums pašlaik nav pieejams.</string>
   <string name="PaymentsHomeFragment__payments_deactivated">Maksājumi deaktivēti</string>
   <string name="PaymentsHomeFragment__payment_failed">Paksājums neizdevās</string>
   <string name="PaymentsHomeFragment__details">Sīkāki dati / Rekvizīti</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Lietotni Signal var izmantot, lai nosūtītu un saņemtu MobileCoin. Uz visiem maksājumiem attiecas MobileCoins un MobileCoin Wallet lietošanas noteikumi. Šī ir beta funkcija, tādēļ var rasties dažas problēmas, un maksājumus vai atlikumus, kurus iespējams zaudēt, nevar atgūt.</string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Lietotni Morse var izmantot, lai nosūtītu un saņemtu MobileCoin. Uz visiem maksājumiem attiecas MobileCoins un MobileCoin Wallet lietošanas noteikumi. Šī ir beta funkcija, tādēļ var rasties dažas problēmas, un maksājumus vai atlikumus, kurus iespējams zaudēt, nevar atgūt.</string>
   <string name="PaymentsHomeFragment__activate">Aktivēt</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">Skatīt MobileCoin lietošanas noteikumus</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Maksājumu opcija lietotnē Signal vairs nav pieejama. Jūs joprojām varat pārskaitīt līdzekļus uz biržu, bet vairs nevarat nosūtīt un saņemt maksājumus vai pievienot līdzekļus.</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Maksājumu opcija lietotnē Morse vairs nav pieejama. Jūs joprojām varat pārskaitīt līdzekļus uz biržu, bet vairs nevarat nosūtīt un saņemt maksājumus vai pievienot līdzekļus.</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">Papildināt līdzekļus</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">Jūsu maciņa adrese</string>
@@ -2211,10 +2211,10 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="PaymentsTransferFragment__next">Nākošais/Tālāk</string>
   <string name="PaymentsTransferFragment__invalid_address">Nederīga adrese</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">Pārbaudiet naudas maka adresi, uz kuru mēģināt pārsūtīt, un mēģiniet vēlreiz.</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Jūs nevarat veikt pārskaitījumu uz savu Signal naudas maka adresi. Ievadiet naudas maka adresi no sava konta atbalstītā biržā.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Lai skenētu QR kodu, lietotnei Signal ir nepieciešama piekļuve kamerai.</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Lai uzņemtu fotoattēlus vai video, lietotnei Signal ir nepieciešama atļauja piekļūt kamerai. Atveriet iestatījumus, atlasiet Atļaujas un iespējojiet Kamera.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Lai skenētu QR kodu, lietotnei Signal ir nepieciešama piekļuve kamerai.</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Jūs nevarat veikt pārskaitījumu uz savu Morse naudas maka adresi. Ievadiet naudas maka adresi no sava konta atbalstītā biržā.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Lai skenētu QR kodu, lietotnei Morse ir nepieciešama piekļuve kamerai.</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Lai uzņemtu fotoattēlus vai video, lietotnei Morse ir nepieciešama atļauja piekļūt kamerai. Atveriet iestatījumus, atlasiet Atļaujas un iespējojiet Kamera.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Lai skenētu QR kodu, lietotnei Morse ir nepieciešama piekļuve kamerai.</string>
   <string name="PaymentsTransferFragment__settings">Iestatījumi</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Skenēt adreses QR kodu</string>
@@ -2402,7 +2402,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="CreateKbsPinFragment__create_a_new_pin">Izveidot jaunu PIN</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">Varat labot PIN kamēr ierīce ir reģistrēta.</string>
   <string name="CreateKbsPinFragment__create_your_pin">Izveido savu PIN </string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN kodos ir informācija, kas lietotnē Signal ir šifrēta, lai šai informācijai varētu piekļūt tikai jūs. Veicot atkārtotu instalēšanu, jūsu profils, iestatījumi un kontaktpersonas tiks atjaunotas. Lai atvērtu lietotni, PIN kods nebūs nepieciešams.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN kodos ir informācija, kas lietotnē Morse ir šifrēta, lai šai informācijai varētu piekļūt tikai jūs. Veicot atkārtotu instalēšanu, jūsu profils, iestatījumi un kontaktpersonas tiks atjaunotas. Lai atvērtu lietotni, PIN kods nebūs nepieciešams.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Izveidojiet sarežģītāku PIN</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PINi nesakrīt. Mēģiniet vēlreiz.</string>
@@ -2414,7 +2414,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="ConfirmKbsPinFragment__creating_pin">Tiek veidots jauns PIN…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">Iepazīstinām ar PINiem</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN kodos ir informācija, kas lietotnē Signal ir šifrēta, lai šai informācijai varētu piekļūt tikai jūs. Veicot atkārtotu instalēšanu, jūsu profils, iestatījumi un kontaktpersonas tiks atjaunotas. Lai atvērtu lietotni, PIN kods nebūs nepieciešams.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN kodos ir informācija, kas lietotnē Morse ir šifrēta, lai šai informācijai varētu piekļūt tikai jūs. Veicot atkārtotu instalēšanu, jūsu profils, iestatījumi un kontaktpersonas tiks atjaunotas. Lai atvērtu lietotni, PIN kods nebūs nepieciešams.</string>
   <string name="KbsSplashFragment__learn_more">Uzziniet vairāk.</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">Reģistrācijas atslēga (Registration Lock) = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Jūsu Reģistrācijas atslēga tagad tiek saukta par PIN, un tā kļuvusi funkcionālāka. Aktualizējiet to tūlīt.</string>
@@ -2444,8 +2444,8 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="RegistrationLockFragment__incorrect_pin">Nepareizs PIN</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Aizmirsāt jūsu PIN?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Vairs nav daudz mēģinājumu atlicis!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal reģistrācija - Vajadzīga palīdzība ar PIN Android ierīcēm (v1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal reģistrācija - Vajadzīga palīdzība ar PIN Android ierīcēm (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Morse reģistrācija - Vajadzīga palīdzība ar PIN Android ierīcēm (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Morse reģistrācija - Vajadzīga palīdzība ar PIN Android ierīcēm (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="zero">Jūsu privātuma un drošības apsvērumu dēļ jūsu PIN nav iespējams atkopt. Ja neatceraties savu PIN, pēc %1$d dienas neaktivitātes perioda varēsiet to atkārtoti verificēt ar īsziņu. Šādā gadījumā jūsu konts tiks iztīrīts un viss saturs tiks dzēsts.</item>
     <item quantity="one">Jūsu privātuma un drošības apsvērumu dēļ jūsu PIN nav iespējams atkopt. Ja neatceraties savu PIN, pēc %1$d dienas neaktivitātes perioda varēsiet to atkārtoti verificēt ar īsziņu. Šādā gadījumā jūsu konts tiks iztīrīts un viss saturs tiks dzēsts.</item>
@@ -2475,15 +2475,15 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$ssaņems no Jums pieprasījuma ziņojumu. Jūs varēsiet zvanīt tiklīdz piekļuves ziņojumus tiks akceptēts.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">Izveidot PINu</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN noglabā Signal informāciju šifrētā veidā.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN noglabā Morse informāciju šifrētā veidā.</string>
   <string name="KbsMegaphone__create_pin">Izveidot PINu</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Paudiet savu viedokli par Signal</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Lai padarītu Signal par labāko ziņapmaiņas lietotni uz planētas, mēs ar prieku uzklausīsim jūsu atsauksmes.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Paudiet savu viedokli par Morse</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Lai padarītu Morse par labāko ziņapmaiņas lietotni uz planētas, mēs ar prieku uzklausīsim jūsu atsauksmes.</string>
   <string name="ResearchMegaphone_learn_more">Lasīt vairāk</string>
   <string name="ResearchMegaphone_dismiss">Nerādīt</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Signal izpēte</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Mēs ticam privātumam.</b></p><p>Lietotne Signal jūs neizseko un neapkopo jūsu datus. Lai uzlabotu Signal atbilstoši katra lietotāja vēlmēm, mēs ņemam vērā lietotāju atsauksmes, <b>un mēs labprāt uzklausīsim arī jūsu viedokli un ieteikumus.</b></p><p>Mēs veicam aptauju, lai noskaidrotu, kā lietotni Signal izmantojat jūs. Mūsu aptaujā netiek apkopoti dati, pēc kuriem jūs varētu identificēt. Ja vēlaties sniegt papildu atsauksmes, jums ir iespēja norādīt savu kontaktinformāciju.</p><p>Ja jums ir dažas minūtes laika un viedoklis, ko paust, mēs labprāt to uzklausīsim.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Morse izpēte</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Mēs ticam privātumam.</b></p><p>Lietotne Morse jūs neizseko un neapkopo jūsu datus. Lai uzlabotu Morse atbilstoši katra lietotāja vēlmēm, mēs ņemam vērā lietotāju atsauksmes, <b>un mēs labprāt uzklausīsim arī jūsu viedokli un ieteikumus.</b></p><p>Mēs veicam aptauju, lai noskaidrotu, kā lietotni Morse izmantojat jūs. Mūsu aptaujā netiek apkopoti dati, pēc kuriem jūs varētu identificēt. Ja vēlaties sniegt papildu atsauksmes, jums ir iespēja norādīt savu kontaktinformāciju.</p><p>Ja jums ir dažas minūtes laika un viedoklis, ko paust, mēs labprāt to uzklausīsim.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">Piekrist aptaujai</string>
   <string name="ResearchMegaphoneDialog_no_thanks">Nē, paldies</string>
   <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Šo aptauju rīko uzņēmums Alchemer drošā domēnā surveys.signalusers.org</string>
@@ -2556,7 +2556,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="PhoneNumberPrivacy_my_contacts">Manas kontaktpersonas</string>
   <string name="PhoneNumberPrivacy_nobody">Neviens</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">PIN atgādinātāji</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">Ikviens, kura kontaktpersonu katalogā ir jūsu tālruņa numurs, redzēs jūs kā kontaktpersonu lietotnē Signal. Savukārt citas personas jūs varēs atrast, izmantojot meklēšanas iespēju,</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">Ikviens, kura kontaktpersonu katalogā ir jūsu tālruņa numurs, redzēs jūs kā kontaktpersonu lietotnē Morse. Savukārt citas personas jūs varēs atrast, izmantojot meklēšanas iespēju,</string>
   <string name="preferences_app_protection__screen_lock">Ekrāna bloķēšana</string>
   <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Liegt Signālam piekļuvi, izmantojot Android ekrāna bloķētāju vai pirkstu nospiedumu</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Neaktivitātes termiņš, kuram paejot tie bloķēts ekrāns </string>
@@ -2564,13 +2564,13 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="preferences_app_protection__create_a_pin">Izveidot PINu</string>
   <string name="preferences_app_protection__change_your_pin">Labot Jūsu PIN</string>
   <string name="preferences_app_protection__pin_reminders">PIN atgādinātāji</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN noglabā Signal informāciju šifrētā veidā tā, ka tikai Jūs varat tai piekļūt. Jūsu profils, uzstādījumu un kontakti tiks atjaunoti, ja uzstādīsiet Signal no jauna.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Pievienojiet papildus drošību ievadīt PIN reģistrējoties Signal no jauna.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN noglabā Morse informāciju šifrētā veidā tā, ka tikai Jūs varat tai piekļūt. Jūsu profils, uzstādījumu un kontakti tiks atjaunoti, ja uzstādīsiet Morse no jauna.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Pievienojiet papildus drošību ievadīt PIN reģistrējoties Morse no jauna.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Atgādinājumi jums palīdz atcerēties PIN, jo to nevar atgūt. Laika gaitā atgādināšana būs retāka.</string>
   <string name="preferences_app_protection__turn_off">Izslēgt</string>
   <string name="preferences_app_protection__confirm_pin">Apstiprināt PIN</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Apstipriniet Signal PIN</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Pārliecinieties, ka atceraties PIN un vai uzglabājat to droši, jo PIN nevar atgūt. PIN aizmiršanas gadījumā, iespējams, zaudēsiet datus, atkārtoti reģistrējot Signal kontu.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Apstipriniet Morse PIN</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Pārliecinieties, ka atceraties PIN un vai uzglabājat to droši, jo PIN nevar atgūt. PIN aizmiršanas gadījumā, iespējams, zaudēsiet datus, atkārtoti reģistrējot Morse kontu.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">Nepareizs PIN. Mēģiniet vēlreiz.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Reģistrācijas bloķēšanas iestatīšanas laikā notikusi kļūda.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Reģistrācijas bloķēšanas atiestatīšanas laikā notikusi kļūda.</string>
@@ -2588,14 +2588,14 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="Recipient_unknown">Nezināms</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Nodot vai atgūt kontu</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ja iepriekš reģistrējāt Signal kontu, varat pārsūtīt vai atjaunot savu kontu un ziņas</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ja iepriekš reģistrējāt Morse kontu, varat pārsūtīt vai atjaunot savu kontu un ziņas</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Pārsūtīt no Android ierīces</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Pārsūtiet savu kontu un ziņas no vecās Android ierīces. Jums ir nepieciešama piekļuve vecajai ierīcei.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Jums ir nepieciešama piekļuve vecajai ierīcei.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Atgūt no dublikāta</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Atjaunojiet ziņas no lokāla dublējuma. Ja neatjaunosiet tagad, vēlāk to vairs nebūs iespējams izdarīt.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Atvērt Signal vecajā Android ierīcē</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Atvērt Morse vecajā Android ierīcē</string>
   <string name="NewDeviceTransferInstructions__continue">Turpināt</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Pieskarieties sava profila fotoattēlam augšējā kreisajā stūrī, lai atvērtu iestatījumus</string>
@@ -2607,18 +2607,18 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Gatavojas savienojuma izveidei ar veco Android ierīci…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Brīdi uzgaidiet, drīz viss būs kārtībā</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Gaida savienojumu ar veco Android ierīci…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Lietotnei Signal ir nepieciešama atrašanās vietas atļauja, lai atrastu veco Android ierīci un izveidotu ar to savienojumu.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Lietotnē Signal ir jābūt iespējotiem atrašanās vietas pakalpojumiem, lai atrastu veco Android ierīci un izveidotu ar to savienojumu.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Lietotnē Signal ir jāieslēdz Wi-Fi, lai varētu noteikt veco Android ierīci un izveidot ar to savienojumu. Wi-Fi ir jābūt ieslēgtam, bet ierīcei nav jābūt pievienotai Wi-Fi tīklam.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Diemžēl šķiet, ka šī ierīce neatbalsta Wi-Fi Direct. Lietotne Signal izmanto Wi-Fi Direct, lai noteiktu veco Android ierīci un izveidotu ar to savienojumu. Joprojām varat atjaunot dublējumu konta atjaunošanai no vecās Android ierīces.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Lietotnei Morse ir nepieciešama atrašanās vietas atļauja, lai atrastu veco Android ierīci un izveidotu ar to savienojumu.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Lietotnē Morse ir jābūt iespējotiem atrašanās vietas pakalpojumiem, lai atrastu veco Android ierīci un izveidotu ar to savienojumu.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Lietotnē Morse ir jāieslēdz Wi-Fi, lai varētu noteikt veco Android ierīci un izveidot ar to savienojumu. Wi-Fi ir jābūt ieslēgtam, bet ierīcei nav jābūt pievienotai Wi-Fi tīklam.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Diemžēl šķiet, ka šī ierīce neatbalsta Wi-Fi Direct. Lietotne Morse izmanto Wi-Fi Direct, lai noteiktu veco Android ierīci un izveidotu ar to savienojumu. Joprojām varat atjaunot dublējumu konta atjaunošanai no vecās Android ierīces.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">Atjaunot dublējumu</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Mēģinot izveidot savienojumu ar veco Android ierīci, radās neparedzēta kļūda.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Meklē jaunu Android ierīci…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Lietotnei Signal ir nepieciešama atrašanās vietas atļauja, lai atrastu jauno Android ierīci un izveidotu ar to savienojumu.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Lietotnē Signal ir jābūt iespējotiem atrašanās vietas pakalpojumiem, lai atrastu jauno Android ierīci un izveidotu ar to savienojumu.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Lietotnē Signal ir jāieslēdz Wi-Fi, lai varētu noteikt jauno Android ierīci un izveidot ar to savienojumu. Wi-Fi ir jābūt ieslēgtam, bet ierīcei nav jābūt pievienotai Wi-Fi tīklam.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Diemžēl šķiet, ka šī ierīce neatbalsta Wi-Fi Direct. Lietotne Signal izmanto Wi-Fi Direct, lai noteiktu jauno Android ierīci un izveidotu ar to savienojumu. Joprojām varat izveidot dublējumu konta atjaunošanai jaunajā Android ierīcē.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Lietotnei Morse ir nepieciešama atrašanās vietas atļauja, lai atrastu jauno Android ierīci un izveidotu ar to savienojumu.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Lietotnē Morse ir jābūt iespējotiem atrašanās vietas pakalpojumiem, lai atrastu jauno Android ierīci un izveidotu ar to savienojumu.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Lietotnē Morse ir jāieslēdz Wi-Fi, lai varētu noteikt jauno Android ierīci un izveidot ar to savienojumu. Wi-Fi ir jābūt ieslēgtam, bet ierīcei nav jābūt pievienotai Wi-Fi tīklam.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Diemžēl šķiet, ka šī ierīce neatbalsta Wi-Fi Direct. Lietotne Morse izmanto Wi-Fi Direct, lai noteiktu jauno Android ierīci un izveidotu ar to savienojumu. Joprojām varat izveidot dublējumu konta atjaunošanai jaunajā Android ierīcē.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">Izveidot dublējumu</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Mēģinot izveidot savienojumu ar jauno Android ierīci, radās neparedzēta kļūda.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2653,10 +2653,10 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Pieskarieties pie Turpināt otrā ierīcē, lai sāktu pārsūtīšanu.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Pieskarieties pie Turpināt otrā ierīcē…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Nevar pārsūtīt no jaunākām Signal versijām</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Nevar pārsūtīt no jaunākām Morse versijām</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">Notiek datu pārsūtīšana</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">Turiet abas ierīces tuvu vienu otrai. Neslēdziet ārā nevienu no ierīcēm un neaizveriet lietotni Signal. Pārsūtīšana ir pilnībā šifrēta.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">Turiet abas ierīces tuvu vienu otrai. Neslēdziet ārā nevienu no ierīcēm un neaizveriet lietotni Morse. Pārsūtīšana ir pilnībā šifrēta.</string>
   <string name="DeviceTransfer__d_messages_so_far">Pagaidām %1$d ziņas…</string>
   <string name="DeviceTransfer__cancel">Atcelt</string>
   <string name="DeviceTransfer__try_again">Mēģiniet vēlreiz</string>
@@ -2667,9 +2667,9 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="DeviceTransfer__unable_to_transfer">Nevar pārsūtīt</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">Pārnest kontu</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Signal kontu var pārsūtīt, kad lietotni Signal iestata jaunā Android ierīcē. Pirms turpināt, rīkojieties šādi.</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Morse kontu var pārsūtīt, kad lietotni Morse iestata jaunā Android ierīcē. Pirms turpināt, rīkojieties šādi.</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Lejupielādēt Signal jaunajā Android ierīcē</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Lejupielādēt Morse jaunajā Android ierīcē</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">Pieskarieties pie Pārsūtīt vai atjaunot kontu</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2678,7 +2678,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">Pārsūtīšana pabeigta</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">Doties uz jauno ierīci</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Signal dati ir pārsūtīti uz jauno ierīci. Lai pabeigtu pārsūtīšanas procesu, jums jāturpina reģistrācija savā jaunajā ierīcē.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Morse dati ir pārsūtīti uz jauno ierīci. Lai pabeigtu pārsūtīšanas procesu, jums jāturpina reģistrācija savā jaunajā ierīcē.</string>
   <string name="OldDeviceTransferComplete__close">Aizvērt</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">Pārsūtīšana izdevās</string>
@@ -2695,7 +2695,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="DeviceToDeviceTransferService_status_service_connected">Pārsūta kontu…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Pabeidziet reģistrāciju jaunajā ierīcē</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Jūsu Signal konts ir pārsūtīts uz jūsu jauno ierīci, taču, lai turpinātu, jaunajā ierīcē ir jāpabeidz reģistrācija. Lietotne Signal šajā ierīcē nebūs aktīva.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Jūsu Morse konts ir pārsūtīts uz jūsu jauno ierīci, taču, lai turpinātu, jaunajā ierīcē ir jāpabeidz reģistrācija. Lietotne Morse šajā ierīcē nebūs aktīva.</string>
   <string name="OldDeviceTransferLockedDialog__done">Gatavs</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Atcelt un aktivizēt šo ierīci</string>
   <!--AdvancedPreferenceFragment-->
@@ -2730,12 +2730,12 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="GroupsLearnMore_what_are_legacy_groups">Kas ir mantotās grupas?</string>
   <string name="GroupsLearnMore_paragraph_1">Mantotās jeb vecā tipa grupas ir grupas, kas nav saderīgas ar jaunās grupas funkcijām, piemēram, administratoriem un konkrētākiem grupu atjauninājumiem.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Vai var jaunināt mantoto jeb vecā tipa grupu?</string>
-  <string name="GroupsLearnMore_paragraph_2">Vecā tipa grupas vēl nevar jaunināt uz jaunām grupām, taču varat izveidot jaunu grupu ar tiem pašiem dalībniekiem, ja dalībnieki izmanto jaunāko lietotnes Signal versiju.</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal piedāvās veidu, kā turpmāk jaunināt vecā tipa grupas.</string>
+  <string name="GroupsLearnMore_paragraph_2">Vecā tipa grupas vēl nevar jaunināt uz jaunām grupām, taču varat izveidot jaunu grupu ar tiem pašiem dalībniekiem, ja dalībnieki izmanto jaunāko lietotnes Morse versiju.</string>
+  <string name="GroupsLearnMore_paragraph_3">Morse piedāvās veidu, kā turpmāk jaunināt vecā tipa grupas.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Ikviens ar šo saiti var skatīt grupas nosaukumu un fotoattēlu un nosūtīt pieprasījumu tai pievienoties. Nosūtiet šo saiti tikai cilvēkiem, kuriem uzticaties.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Ikviens ar šo saiti var skatīt grupas nosaukumu un fotoattēlu un pievienoties šai grupai. Nosūtiet šo saiti tikai cilvēkiem, kuriem uzticaties.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Koplietot, izmantojot Signal</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Koplietot, izmantojot Morse</string>
   <string name="GroupLinkBottomSheet_copy">Kopēt</string>
   <string name="GroupLinkBottomSheet_qr_code">QR kods</string>
   <string name="GroupLinkBottomSheet_share">Kopīgot</string>
@@ -2803,7 +2803,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="DeleteAccountFragment__no_number">Nav norādīts numurs</string>
   <string name="DeleteAccountFragment__the_phone_number">Ievadītais tālruņa numurs neatbilst jūsu kontā norādītajam.</string>
   <string name="DeleteAccountFragment__are_you_sure">Vai tiešām vēlaties dzēst savu kontu?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Veicot šo darbību, tiks dzēsts jūsu Signal konts un lietotne tiks atiestatīta. Pēc šī procesa pabeigšanas lietotne tiks aizvērta.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Veicot šo darbību, tiks dzēsts jūsu Morse konts un lietotne tiks atiestatīta. Pēc šī procesa pabeigšanas lietotne tiks aizvērta.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">Neizdevās izdzēst kontu. Vai jums ir savienojumus ar tīklu?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Neizdevās izdzēst lokālos datus. Tos var manuāli dzēst sistēmas lietojumprogrammas iestatījumos.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Atvērt lietotnes iestatījumus</string>
@@ -2820,7 +2820,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="ShareActivity__share">Kopīgot</string>
   <string name="ShareActivity__send">Sūtīt</string>
   <string name="ShareActivity__comma_s">, %1$s</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">Kopīgošana vairākās tērzēšanas sarunās tiek atbalstīta tikai Signal ziņām</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">Kopīgošana vairākās tērzēšanas sarunās tiek atbalstīta tikai Morse ziņām</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">Neizdevās nosūtīt dažiem lietotājiem</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">Var kopīgot tikai %1$d tērzēšanas</string>
@@ -2870,7 +2870,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="payment_info_card_about_mobilecoin">Par MobileCoin</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin ir jauna uz privātumu vērsta digitālā valūta.</string>
   <string name="payment_info_card_adding_funds">Līdzekļu papildināšana</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">Naudas līdzekļus izmantošanai lietotnē Signal varat pievienot, nosūtot MobileCoin uz sava naudas maka adresi. </string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">Naudas līdzekļus izmantošanai lietotnē Morse varat pievienot, nosūtot MobileCoin uz sava naudas maka adresi. </string>
   <string name="payment_info_card_cashing_out">Naudas izmaksa</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">Jūs varat izņemt MobileCoin jebkurā laikā biržā, kas atbalsta MobileCoin. Vienkārši veiciet pārskaitījumu uz savu kontu attiecīgajā biržā.</string>
   <string name="payment_info_card_hide_this_card">Vai paslēpt šo karti?</string>
@@ -2884,18 +2884,18 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">Deaktivizēt naudas maku</string>
   <string name="DeactivateWalletFragment__your_balance">Jūsu atlikums</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">Pirms maksājumu deaktivizēšanas ieteicams pārskaitīt līdzekļus uz citu naudas maka adresi. Ja izvēlēsieties nepārskaitīt savus līdzekļus tūlīt, tie paliks ar lietotni Signal saistītajā naudas makā, ja atkārtoti aktivizēsiet maksājumus.</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">Pirms maksājumu deaktivizēšanas ieteicams pārskaitīt līdzekļus uz citu naudas maka adresi. Ja izvēlēsieties nepārskaitīt savus līdzekļus tūlīt, tie paliks ar lietotni Morse saistītajā naudas makā, ja atkārtoti aktivizēsiet maksājumus.</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">Pārskaitīt atlikumu</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">Deaktivizēt, neveicot pārskaitīšanu</string>
   <string name="DeactivateWalletFragment__deactivate">Deaktivēt</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Vai deaktivizēt, neveicot pārskaitīšanu?</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">Ja izvēlēsieties atkārtoti aktivizēt maksājumus, atlikums paliks jūsu ar lietotni Signal saistītajā naudas makā.</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">Ja izvēlēsieties atkārtoti aktivizēt maksājumus, atlikums paliks jūsu ar lietotni Morse saistītajā naudas makā.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Naudas maka deaktivizēšanas kļūda.</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Atgūšanas frāze</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Skatīt atgūšanas frāzi</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Ievadiet atgūšanas frāzi</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Jūsu atlikums tiks automātiski atjaunots, atkārtoti instalējot Signal, ja apstiprināsiet savu lietotnes Signal PIN. Atlikumu var arī atjaunot, izmantojot atgūšanas frāzi, kas ir tikai jums raksturīga %1$d vārdu frāze. Pierakstiet to un glabājiet drošā vietā.</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Jūsu atlikums tiks automātiski atjaunots, atkārtoti instalējot Morse, ja apstiprināsiet savu lietotnes Morse PIN. Atlikumu var arī atjaunot, izmantojot atgūšanas frāzi, kas ir tikai jums raksturīga %1$d vārdu frāze. Pierakstiet to un glabājiet drošā vietā.</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">Jūsu atgūšanas frāze ir tikai jums raksturīga %1$d vārdu frāze. Izmantojiet šo frāzi, lai atjaunotu atlikumu.</string>
   <string name="PaymentsRecoveryStartFragment__start">Sākt</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">Ievadīt manuāli</string>
@@ -2964,7 +2964,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <!--AccountSettingsFragment-->
   <string name="AccountSettingsFragment__account">Konts</string>
   <string name="AccountSettingsFragment__youll_be_asked_less_frequently">Laika gaitā jums tiks jautāts retāk</string>
-  <string name="AccountSettingsFragment__require_your_signal_pin">Pieprasīt savu Signal PIN, lai vēlreiz reģistrētu savu tālruņa numuru lietotnē Signal</string>
+  <string name="AccountSettingsFragment__require_your_signal_pin">Pieprasīt savu Morse PIN, lai vēlreiz reģistrētu savu tālruņa numuru lietotnē Morse</string>
   <!--ChangeNumberFragment-->
   <string name="ChangeNumberFragment__continue">Turpināt</string>
   <!--ChangeNumberEnterPhoneNumberFragment-->
@@ -2990,7 +2990,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="NotificationsSettingsFragment__messages">Ziņas</string>
   <string name="NotificationsSettingsFragment__calls">Zvani</string>
   <string name="NotificationsSettingsFragment__notify_when">Paziņot, ja…</string>
-  <string name="NotificationsSettingsFragment__contact_joins_signal">Kontaktpersona pievienojas lietotnei Signal</string>
+  <string name="NotificationsSettingsFragment__contact_joins_signal">Kontaktpersona pievienojas lietotnei Morse</string>
   <!--PrivacySettingsFragment-->
   <string name="PrivacySettingsFragment__blocked">Bloķēti</string>
   <string name="PrivacySettingsFragment__d_contacts">%1$d kontaktpersonas</string>
@@ -2998,7 +2998,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="PrivacySettingsFragment__disappearing_messages">Gaistošās ziņas</string>
   <string name="PrivacySettingsFragment__app_security">Lietotnes aizsardzība</string>
   <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">Bloķēt ekrānuzņēmumus pēdējo sarakstā un programmā</string>
-  <string name="PrivacySettingsFragment__signal_message_and_calls">Signal ziņas un zvani, pastāvīga zvanu pārsūtīšana un šifrēts sūtītājs</string>
+  <string name="PrivacySettingsFragment__signal_message_and_calls">Morse ziņas un zvani, pastāvīga zvanu pārsūtīšana un šifrēts sūtītājs</string>
   <string name="PrivacySettingsFragment__default_timer_for_new_changes">Noklusējuma taimeris jaunām tērzēšanām</string>
   <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">Iestatiet noklusējuma ziņu dzēšanas taimeri visām jaunajām jūsu sāktajām tērzēšanām.</string>
   <!--AdvancedPrivacySettingsFragment-->
@@ -3029,7 +3029,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="HelpSettingsFragment__version">Versija</string>
   <string name="HelpSettingsFragment__debug_log">Atkļūdošanas žurnāls</string>
   <string name="HelpSettingsFragment__terms_amp_privacy_policy">Noteikumi &amp; privātuma politika</string>
-  <string name="HelpFragment__copyright_signal_messenger">Autortiesības Signal Messenger</string>
+  <string name="HelpFragment__copyright_signal_messenger">Autortiesības Morse Messenger</string>
   <string name="HelpFragment__licenced_under_the_gplv3">Licencēta saskaņā ar GPLv3</string>
   <!--DataAndStorageSettingsFragment-->
   <string name="DataAndStorageSettingsFragment__sending_high_quality_media_will_use_more_data">Sūtot augstas kvalitātes multivides saturu, tiks izmantots vairāk datu.</string>
@@ -3203,7 +3203,7 @@ Saņemts nederīgas protokola versijas atslēgas apmaiņas ziņojums.
   <string name="MediaReviewSelectedItem__tap_to_select">Pieskarieties, lai izvēlētos</string>
   <string name="MediaReviewImagePageFragment__discard">Atmest</string>
   <string name="SelectFeaturedBadgeFragment__preview">Priekšskatīt</string>
-  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Signal attīsta un uzlabo tādi cilvēki kā jūs.</string>
+  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Morse attīsta un uzlabo tādi cilvēki kā jūs.</string>
   <!-- Removed by excludeNonTranslatables <string name="SubscribeFragment__donation_amount">Ziedojuma summa</string> -->
   <string name="SubscribeFragment__not_now">Ne tagad</string>
   <string name="SubscribeFragment__confirm">Apstiprināt</string>

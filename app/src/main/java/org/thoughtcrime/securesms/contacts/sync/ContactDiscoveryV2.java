@@ -64,14 +64,17 @@ class ContactDiscoveryV2 {
     }
 
     SignalServiceAccountManager accountManager = ApplicationDependencies.getSignalServiceAccountManager();
-    KeyStore                    iasKeyStore    = getIasKeyStore(context);
+    //KeyStore                    iasKeyStore    = getIasKeyStore(context);
 
     try {
-      Map<String, ACI>                    results      = accountManager.getRegisteredUsers(iasKeyStore, sanitizedNumbers, BuildConfig.CDS_MRENCLAVE);
+      //Map<String, ACI>                    results      = accountManager.getRegisteredUsers(iasKeyStore, sanitizedNumbers, BuildConfig.CDS_MRENCLAVE);
+      Map<String, ACI> results = accountManager.getRegisteredUsersFromServer(sanitizedNumbers);
+
       FuzzyPhoneNumberHelper.OutputResult outputResult = FuzzyPhoneNumberHelper.generateOutput(results, inputResult);
 
       return new DirectoryResult(outputResult.getNumbers(), outputResult.getRewrites(), ignoredNumbers);
-    } catch (SignatureException | UnauthenticatedQuoteException | UnauthenticatedResponseException | Quote.InvalidQuoteFormatException |InvalidKeyException e) {
+      //} catch (SignatureException | UnauthenticatedQuoteException | UnauthenticatedResponseException | Quote.InvalidQuoteFormatException |InvalidKeyException e) {
+    }catch (Exception e){
       Log.w(TAG, "Attestation error.", e);
       throw new IOException(e);
     }

@@ -15,17 +15,17 @@
   <string name="ApplicationPreferencesActivity_currently_s">اوس مهال: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">تاسې لا تر اوسه پورې یو پټ عبارت نه دی جوړ کړی!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">غواړئ پټ عبارت غیرفعال کړئ؟</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">دا کار به Signal او د پیغام خبرتیاووې د تل لپاره خلاصې کړي.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">دا کار به Morse او د پیغام خبرتیاووې د تل لپاره خلاصې کړي.</string>
   <string name="ApplicationPreferencesActivity_disable">غیرفعالول</string>
   <string name="ApplicationPreferencesActivity_unregistering">د غړیتوب له منځه وړل</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">د Signal له پیغامونو او اړیکو څخه د غړیتوب له منځه وړل…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">د Signal د بیغامونو او اړیکو غیرفعاله کول غواړئ؟</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">له سرور څخه د غړیتوب د له منځه وړلو له لارې د Signal د پیغامونو او اړیکو غیر فعاله کول. تاسې به اړتیا ولری تر څو خپل د ټلیفون شمېره بیرته ثبت کړئ تر څو هغه په راتلونکې کې بیا وکاروئ. </string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">د Morse له پیغامونو او اړیکو څخه د غړیتوب له منځه وړل…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">د Morse د بیغامونو او اړیکو غیرفعاله کول غواړئ؟</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">له سرور څخه د غړیتوب د له منځه وړلو له لارې د Morse د پیغامونو او اړیکو غیر فعاله کول. تاسې به اړتیا ولری تر څو خپل د ټلیفون شمېره بیرته ثبت کړئ تر څو هغه په راتلونکې کې بیا وکاروئ. </string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">له سرور سره د نښلیدو تیروتنه!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS فعال شوی</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">لمس یې کړئ تر څو خپل عادي د SMS اپلیکیشن بدل کړئ</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS غیر فعال شوی</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">لمس یې کړئ تر څو Signal خپل عادي د SMS اپلیکیشن وګرځوئ</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">لمس یې کړئ تر څو Morse خپل عادي د SMS اپلیکیشن وګرځوئ</string>
   <string name="ApplicationPreferencesActivity_on">روښانه </string>
   <string name="ApplicationPreferencesActivity_On">روښانه </string>
   <string name="ApplicationPreferencesActivity_off">خاموش</string>
@@ -58,14 +58,14 @@
   <string name="AttachmentKeyboard_file">فایل</string>
   <string name="AttachmentKeyboard_contact">اړیکه</string>
   <string name="AttachmentKeyboard_location">موقعیت</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal اجازې ته اړتیا لري تر څو ستاسې انځورونه او ویډیوګانې ښکاره کړي.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Morse اجازې ته اړتیا لري تر څو ستاسې انځورونه او ویډیوګانې ښکاره کړي.</string>
   <string name="AttachmentKeyboard_give_access">لاسرسی ورکول</string>
   <string name="AttachmentKeyboard_payment">پرداخت</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">د رسنیو د ټاکلو لپاره کوم اپلیکیشن و نه موندل شو.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal د زیرمه کولو لپاره اجازې ته اړتیا لري تر څو انځورونه، ویډیوګانې، یا غږیږ فایل ضمیمه کړي، خو هغه د تل لپاره مردود شوی دی. د مهرباني له مخې د اپلیکیشن د تنظیماتو مینو ته ورشئ، او د \"اجازو\" په ټاکلو سره \"زیرمه\" فعاله کړئ.</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal د اړیکو د لیست اجازې ته اړتیا لري تر څو د اړیکو معلومات ضمیمه کړي، خو هغه د تل لپاره مردود شوی دی. د مهرباني له مخې د اپلیکیشن د تنظیماتو مینو ته ورشئ، او د \"اجازو\" په ټاکلو سره \"زیرمه\" فعاله کړئ.</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal د موقعیت اجازې ته اړتیا لري تر څو یو موقعیت ضمیمه کړي، خو هغه د تل لپاره مردود شوی دی. د مهرباني له مخې د اپلیکیشن د تنظیماتو مینو ته ورشئ، او د \"اجازو\" په ټاکلو سره \"زیرمه\" فعاله کړئ.</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Morse د زیرمه کولو لپاره اجازې ته اړتیا لري تر څو انځورونه، ویډیوګانې، یا غږیږ فایل ضمیمه کړي، خو هغه د تل لپاره مردود شوی دی. د مهرباني له مخې د اپلیکیشن د تنظیماتو مینو ته ورشئ، او د \"اجازو\" په ټاکلو سره \"زیرمه\" فعاله کړئ.</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Morse د اړیکو د لیست اجازې ته اړتیا لري تر څو د اړیکو معلومات ضمیمه کړي، خو هغه د تل لپاره مردود شوی دی. د مهرباني له مخې د اپلیکیشن د تنظیماتو مینو ته ورشئ، او د \"اجازو\" په ټاکلو سره \"زیرمه\" فعاله کړئ.</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Morse د موقعیت اجازې ته اړتیا لري تر څو یو موقعیت ضمیمه کړي، خو هغه د تل لپاره مردود شوی دی. د مهرباني له مخې د اپلیکیشن د تنظیماتو مینو ته ورشئ، او د \"اجازو\" په ټاکلو سره \"زیرمه\" فعاله کړئ.</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">رسنۍ د پورته کېدو په حال کې ده…</string>
   <string name="AttachmentUploadJob_compressing_video_start">ویډیو د کامپریس کېدو په حال کې ده…</string>
@@ -109,26 +109,26 @@
   <string name="CameraXFragment_open_gallery_description">د ګالري پرانیستل</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">وروستي مخاطبین</string>
-  <string name="CameraContacts_signal_contacts">د Signal مخاطبین</string>
-  <string name="CameraContacts_signal_groups">د Signal ګروپونه</string>
+  <string name="CameraContacts_signal_contacts">د Morse مخاطبین</string>
+  <string name="CameraContacts_signal_groups">د Morse ګروپونه</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">تاسې کولای شئ چې حداکثر  %d محاورې شریکې کړئ.</string>
-  <string name="CameraContacts_select_signal_recipients">د Signal تر لاسه کوونکي کسان وټاکئ</string>
-  <string name="CameraContacts_no_signal_contacts">د Signal هېڅ مخاطبین نشته</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">تاسې یوازې کولای شئ چې د کیمرې د بټن په کارولو سره د Signal مخاطبینو ته انځورونه ولیږئ.</string>
+  <string name="CameraContacts_select_signal_recipients">د Morse تر لاسه کوونکي کسان وټاکئ</string>
+  <string name="CameraContacts_no_signal_contacts">د Morse هېڅ مخاطبین نشته</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">تاسې یوازې کولای شئ چې د کیمرې د بټن په کارولو سره د Morse مخاطبینو ته انځورونه ولیږئ.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">د هغه کس په لټه کې چې یاست هغه مو پیدا نه کړ؟</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">د مخاطبینو له لیست څخه یو کس په Signal کې د یو ځای کېدو لپاره راوبولئ</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">د مخاطبینو له لیست څخه یو کس په Morse کې د یو ځای کېدو لپاره راوبولئ</string>
   <string name="CameraContacts__menu_search">پلټنه</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">ایسته کول</string>
   <string name="ClearProfileActivity_remove_profile_photo">غواړئ د پروفایل انځور لري کړئ؟</string>
   <string name="ClearProfileActivity_remove_group_photo">غواړئ د ګروپ انځور لري کړئ؟</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">د Signal اپډیټ کول</string>
+  <string name="ClientDeprecatedActivity_update_signal">د Morse اپډیټ کول</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">د اپلیکیشن دغه نسخه نوره نه چلیږي. د دې لپاره چې پیغامونه ولیږئ او تر لاسه یې کړئ نو وروستۍ نسخه یې اپډیټ کړئ.</string>
   <string name="ClientDeprecatedActivity_update">اپډیټ کول</string>
   <string name="ClientDeprecatedActivity_dont_update">مه یې اپډیټ کوه</string>
   <string name="ClientDeprecatedActivity_warning">خبرداری</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">ستاسې د Signal نسخه منقضي شوې ده. تاسې کولای شئ خپل د پیغام تاریخچه ووینئ، خو تر هغه چې اپډیټ یې نه کړئ نشئ کولای چې پیغام ولیږئ یا تر لاسه یې کړئ.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">ستاسې د Morse نسخه منقضي شوې ده. تاسې کولای شئ خپل د پیغام تاریخچه ووینئ، خو تر هغه چې اپډیټ یې نه کړئ نشئ کولای چې پیغام ولیږئ یا تر لاسه یې کړئ.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">هېڅ وېب براوزر ونه موندل شو.</string>
   <string name="CommunicationActions_send_email">د برېښنالیک لیږل</string>
@@ -137,9 +137,9 @@
   <string name="CommunicationActions_cancel">لغوه کول</string>
   <string name="CommunicationActions_call">اړیکه</string>
   <string name="CommunicationActions_insecure_call">ناخوندې اړیکه</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">د مخابراتي شبکې لګښتونه د عملي کېدو وړ دي. هغې شمېرې ته چې زنګ وهئ له Signal سره نه ده ثبت. نو ستاسې اړیکه به ستاسې د موبایل د مخابراتي شبکې له خوا پر مخ ولاړه شي نه د انټرنېټ له لارې. </string>
+  <string name="CommunicationActions_carrier_charges_may_apply">د مخابراتي شبکې لګښتونه د عملي کېدو وړ دي. هغې شمېرې ته چې زنګ وهئ له Morse سره نه ده ثبت. نو ستاسې اړیکه به ستاسې د موبایل د مخابراتي شبکې له خوا پر مخ ولاړه شي نه د انټرنېټ له لارې. </string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">ستاسې خوندي شمېره له %1$s سره بدله شوې ده. دا په دې معنی چې یا کوم کس غواړي چې ستاسې مکالمه اخلال کړي، یا هم دا چې %2$sیوازې Signal بیرته له سره انسټال کړئ.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">ستاسې خوندي شمېره له %1$s سره بدله شوې ده. دا په دې معنی چې یا کوم کس غواړي چې ستاسې مکالمه اخلال کړي، یا هم دا چې %2$sیوازې Morse بیرته له سره انسټال کړئ.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">تاسې کولای شئ خپل د خوندیتوب شمېره له دغه مخاطب سره تایید کړئ.</string>
   <string name="ConfirmIdentityDialog_accept">منل </string>
   <!--ContactsCursorLoader-->
@@ -150,7 +150,7 @@
   <string name="ContactsCursorLoader_username_search">د کارن د نوم پلټنه</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">پیغام %s</string>
-  <string name="ContactsDatabase_signal_call_s">د Signal اړیکه%s</string>
+  <string name="ContactsDatabase_signal_call_s">د Morse اړیکه%s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">نوم</string>
   <string name="ContactNameEditActivity_family_name">کورنی نوم</string>
@@ -173,7 +173,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">لیږل ناکامه شو، ناخوندي اړیکې ته د ورګرځیدو لپاره کلیک وکړئ</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">غواړئ ناانکریپټ شوي SMS ته بیرته را وګرځئ؟</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">غواړئ ناانکریپټ شوي MMS ته بیرته را وګرځئ؟</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">دغه پیغام به انکریپټ <b>نشي</b>، ځکه چې تر لاسه کوونکی کس نور د Signal کارونکی نه دی./n/n ناخوندي پیغام لیږل غواړئ؟</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">دغه پیغام به انکریپټ <b>نشي</b>، ځکه چې تر لاسه کوونکی کس نور د Morse کارونکی نه دی./n/n ناخوندي پیغام لیږل غواړئ؟</string>
   <string name="ConversationItem_unable_to_open_media">داسې کوم اپلیکیشن و نه موندل شو تر څو دا پرانیزي.</string>
   <string name="ConversationItem_copied_text">%sکاپي شو</string>
   <string name="ConversationItem_from_s">%sله </string>
@@ -198,8 +198,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">دا وسیله داسې نه ښکاري چې د ډایل کول پکې ممکن وي.</string>
   <string name="ConversationActivity_transport_insecure_sms">ناخوندي SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">ناخوندي MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">راځئ چې د Signal %1$sته واوړو</string>
+  <string name="ConversationActivity_transport_signal">Morse</string>
+  <string name="ConversationActivity_lets_switch_to_signal">راځئ چې د Morse %1$sته واوړو</string>
   <string name="ConversationActivity_specify_recipient">مهرباني وکړئ یو مخاطب وټاکئ</string>
   <string name="ConversationActivity_unblock">له بلاک څخه ایستل </string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">د دې ډول پیغام لپاره چې تاسې یې لیږئ ستاسې ضمیمه له ټاکل شوې اندازې څخه زیات حجم لري.</string>
@@ -213,17 +213,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">ستاسې په وسیله کې داسې اپلیکیشن نشته چې دغه لینک مدیریت کړي.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">ستاسې د یو ځای کېدو غوښتنه د ګروپ اډمین ته واستول شوه. کله چې هغوی لاس په کار شول نو تاسې ته به خبر درکړل شي.</string>
   <string name="ConversationActivity_cancel_request">غوښتنه لغوه کړئ</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">د دې لپاره چې غږیز پیغامونه ولیږئ، نو Signal ته اجازه ورکړئ تر څو ستاسې مایکروفون ته لاسرسی ولري.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">د دې لپاره چې غږیز پیغامونه ولیږل شي نو Signal ستاسې د مایکروفون اجازې ته اړتیا لري، خو هغه د تل لپاره رد شوی دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مایکروفون\" فعال کړئ.</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">د دې لپاره چې %sزنګ ووهئ نو Signal د مایکروفون او کیمرې اجازې ته اړتیا لري، خو هغه د تل لپاره رد شوي دي. مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مایکروفون\" او \"کیمره\" فعاله کړئ.</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">د دې لپاره چې انځورونه او ویډیو کپچر کړئ، نو Signal ته اجازه ورکړئ چې کیمرې ته لاسرسی ولري.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">د انځورونو او ویډیو د اخیستو لپاره Signal د کیمرې اجازې ته اړتیا لري، خو دا د تل لپاره رد شوی دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"کیمره\" فعاله کړئ.</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal د انځورونو او ویډیو اخیستو لپاره د کیمرې اجازې ته اړتیا لري.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">د دې لپاره چې غږیز پیغامونه ولیږئ، نو Morse ته اجازه ورکړئ تر څو ستاسې مایکروفون ته لاسرسی ولري.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">د دې لپاره چې غږیز پیغامونه ولیږل شي نو Morse ستاسې د مایکروفون اجازې ته اړتیا لري، خو هغه د تل لپاره رد شوی دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مایکروفون\" فعال کړئ.</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">د دې لپاره چې %sزنګ ووهئ نو Morse د مایکروفون او کیمرې اجازې ته اړتیا لري، خو هغه د تل لپاره رد شوي دي. مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مایکروفون\" او \"کیمره\" فعاله کړئ.</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">د دې لپاره چې انځورونه او ویډیو کپچر کړئ، نو Morse ته اجازه ورکړئ چې کیمرې ته لاسرسی ولري.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">د انځورونو او ویډیو د اخیستو لپاره Morse د کیمرې اجازې ته اړتیا لري، خو دا د تل لپاره رد شوی دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"کیمره\" فعاله کړئ.</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Morse د انځورونو او ویډیو اخیستو لپاره د کیمرې اجازې ته اړتیا لري.</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">د ویډیوګانو او غږ د کپچر کولو لپاره د مایکروفون د اجازې فعالول.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">د ویډیو د ثبتولو لپاره Signal د مایکروفون اجازې ته اړتیا لري، خو هغه رد شوی دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مایکروفون\" او \"کیمره\" فعاله کړئ.</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">د ویډیوګانو د ثبتولو لپاره Signal د مایکروفون اجازې ته اړتیا لري.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">د ویډیو د ثبتولو لپاره Morse د مایکروفون اجازې ته اړتیا لري، خو هغه رد شوی دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مایکروفون\" او \"کیمره\" فعاله کړئ.</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">د ویډیوګانو د ثبتولو لپاره Morse د مایکروفون اجازې ته اړتیا لري.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal نشي کولای چې SMS/MMS پیغامونه ولیږلی شي، ځکه چې دا ستاسې دي د SMS اپلیکیشن نه دی. ایا غواړئ چې دا د خپل Android په تنظیماتو کې بدل کړئ؟</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Morse نشي کولای چې SMS/MMS پیغامونه ولیږلی شي، ځکه چې دا ستاسې دي د SMS اپلیکیشن نه دی. ایا غواړئ چې دا د خپل Android په تنظیماتو کې بدل کړئ؟</string>
   <string name="ConversationActivity_yes">هو </string>
   <string name="ConversationActivity_no">نه </string>
   <string name="ConversationActivity_search_position">%1$d د %2$d</string>
@@ -237,7 +237,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">تاسې به دا ګروپ پریږدئ او هغه به ستاسې له ټولو وسیلو څخه پاک شي.</string>
   <string name="ConversationActivity_delete">پاک کول</string>
   <string name="ConversationActivity_delete_and_leave">پاک کول او پریښودل</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">د دې لپاره چې %1$s ته زنګ ووهئ، نو Signal ستاسې مایکروفون لپاره لاسرسي ته اړتیا لري.</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">د دې لپاره چې %1$s ته زنګ ووهئ، نو Morse ستاسې مایکروفون لپاره لاسرسي ته اړتیا لري.</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">د \"ګروپ په تنظیماتو\" کې اوس ډېر تنظیمات شته</string>
   <string name="ConversationActivity_join">یو ځای کېدل</string>
   <string name="ConversationActivity_full">ډک</string>
@@ -272,14 +272,14 @@
     <item quantity="other">زیرمې ته د ضمیمو %1$d ثبت…</item>
   </plurals>
   <string name="ConversationFragment_pending">د ځنډ په حال کې ده…</string>
-  <string name="ConversationFragment_push">اطلاعات (Signal)</string>
+  <string name="ConversationFragment_push">اطلاعات (Morse)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">د پاکولو په حال کې ده</string>
   <string name="ConversationFragment_deleting_messages">پیغامونه د پاکولو په حال کې دي…</string>
   <string name="ConversationFragment_delete_for_me">زما لپاره یې پاک کړه</string>
   <string name="ConversationFragment_delete_for_everyone">د هر چا لپاره یې پاک کړه</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">دا پیغام به په محاوره کې د هر چا لپاره پاک شي که چیرته هغوی د Signal وروستۍ نسخه کاروي. هغوی به وکولای شي وویني چې تاسې یو پیغام پاک کړ.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">دا پیغام به په محاوره کې د هر چا لپاره پاک شي که چیرته هغوی د Morse وروستۍ نسخه کاروي. هغوی به وکولای شي وویني چې تاسې یو پیغام پاک کړ.</string>
   <string name="ConversationFragment_quoted_message_not_found">اصلي پیغام و نه موندل شو</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">اصلي پیغام نور د لاسرسي وړ نه دی</string>
   <string name="ConversationFragment_failed_to_open_message">د پیغام پرانیستل له ناکامۍ سره مخ شو</string>
@@ -291,12 +291,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$dد ګروپ غړي ورته نوم لري.</string>
   <string name="ConversationFragment__tap_to_review">کلیک وکړئ تر څو تر نظر یې تیر کړئ</string>
   <string name="ConversationFragment__review_requests_carefully">غوښتنې په دقت سره تر نظر تیرې کړئ</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal یو بل مخاطب په ورته نوم سره وموند.</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Morse یو بل مخاطب په ورته نوم سره وموند.</string>
   <string name="ConversationFragment_contact_us">موږ سره اړیکه ونیسئ</string>
   <string name="ConversationFragment_verify">تایید </string>
   <string name="ConversationFragment_not_now">اوس نه</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">ستاسې د خوندیتوب شمېره له %s سره بدله شوې ده</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">ستاسې د خوندیتوب شمېره له %s سره بدله شوې ده، احتمال لري چې هغوی Signal له سره انسټال کړی وي یا هم وسیله یې بدله کړې وي. د نوي خوندیتوب د شمېرې د تصدیق لپاره پر تایید باندې کلیک وکړئ. دا کار اختیاري ده.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">ستاسې د خوندیتوب شمېره له %s سره بدله شوې ده، احتمال لري چې هغوی Morse له سره انسټال کړی وي یا هم وسیله یې بدله کړې وي. د نوي خوندیتوب د شمېرې د تصدیق لپاره پر تایید باندې کلیک وکړئ. دا کار اختیاري ده.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">غواړئ ټاکل شوی پیغام پاک کړئ؟</item>
     <item quantity="other">غواړئ ټاکل شوي پیغامونه پاک کړئ؟</item>
@@ -359,11 +359,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">خپل د بک اپ پټ عبارت وازمویئ او وګورئ چې دواړه یو شان دي که نه</string>
   <string name="BackupsPreferenceFragment__turn_on">روښانه يې کړئ</string>
   <string name="BackupsPreferenceFragment__turn_off">بند يې کړئ</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">د بک اپ د بیرته را ګرځولو لپاره، د Signal نوې کاپي انسټال کړئ. اپلیکیشن پرانیزئ او پر \"بک اپ تر لاسه کول\" باندې کلیک وکړئ، وروسته د بک اپ فایل ته ځای وټاکئ. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">د بک اپ د بیرته را ګرځولو لپاره، د Morse نوې کاپي انسټال کړئ. اپلیکیشن پرانیزئ او پر \"بک اپ تر لاسه کول\" باندې کلیک وکړئ، وروسته د بک اپ فایل ته ځای وټاکئ. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">لا زیات زده کړئ </string>
   <string name="BackupsPreferenceFragment__in_progress">د پرمختګ په حال کې ده…</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d تر اوسه پورې…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">د بک اپونو د رامنځته کولو لپاره Signal د بهرنۍ زیرمې اجازې ته اړتیا لري، خو هغه د تل لپاره رد شوې ده.، نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"زیرمه\" فعاله کړئ.</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">د بک اپونو د رامنځته کولو لپاره Morse د بهرنۍ زیرمې اجازې ته اړتیا لري، خو هغه د تل لپاره رد شوې ده.، نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"زیرمه\" فعاله کړئ.</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">د سفارشي حالت کارولو لپاره: %s</string>
   <string name="CustomDefaultPreference_using_default">د عادي حالت کارولو لپاره:%s</string>
@@ -382,7 +382,7 @@
   <string name="DateUtils_yesterday">پرون ورځ</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">د چټ غونډه ریفریش شوې</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal سرتاسري انکریپشن کاروي او ښایي ځینې وختونه ستاسې د چټ غونډې ریفریش کولو ته اړتیا ولري. دا کار ستاسې د چټ امنیت نه اغیزمنوي، خو کېدای شي تاسې د خپل مخاطب پیغام له لاسه ورکړئ، نو کولای شئ له هغوی وغواړئ چې بیرته یې درته ولیږي. </string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Morse سرتاسري انکریپشن کاروي او ښایي ځینې وختونه ستاسې د چټ غونډې ریفریش کولو ته اړتیا ولري. دا کار ستاسې د چټ امنیت نه اغیزمنوي، خو کېدای شي تاسې د خپل مخاطب پیغام له لاسه ورکړئ، نو کولای شئ له هغوی وغواړئ چې بیرته یې درته ولیږي. </string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">برعکس د \'%s\'؟</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">د همدې وسیلې د لینک په پرې کولو سره، به نور ونشئ کولای چې پیغامونه ولیږئ یا یې تر لاسه کړئ.</string>
@@ -399,8 +399,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">بې نومه فایل</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Signal سره مرسته کول</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal ستاسې په څیر خلکو له خوا ځواکمن شوی دی. همدا نن مو خپل ملاتړ وښیئ!</string>
+  <string name="DonateMegaphone_donate_to_signal">Morse سره مرسته کول</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Morse ستاسې په څیر خلکو له خوا ځواکمن شوی دی. همدا نن مو خپل ملاتړ وښیئ!</string>
   <string name="DonateMegaphone_donate">مرسته کول</string>
   <string name="DonateMegaphone_no_thanks">نه مننه</string>
   <!--GroupCallingMegaphone-->
@@ -408,9 +408,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">یو نوی ګروپ پرانیزئ تر څو وړیا انکریپټ شوی ګروپی زنګ پیل کړئ</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">د له لاسه ورکړل شوي Play Services مطلوب ګرځول</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">دغه وسیله د Play له خدماتو نه ملاتړ نه کوي. د سیستم د بطري د مطلوبیت د غیر فعالولو لپاره کلیک وکړئ کوم چې کله هغه غیرفعال وي نو Signal نه پریږدي چې پیغامونه راولي.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">دغه وسیله د Play له خدماتو نه ملاتړ نه کوي. د سیستم د بطري د مطلوبیت د غیر فعالولو لپاره کلیک وکړئ کوم چې کله هغه غیرفعال وي نو Morse نه پریږدي چې پیغامونه راولي.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">د Signal دغه نسخه منقضي شوې ده. همدا اوس یې اپډیټ کړئ تر څو پیغامونه ولیږئ او تر لاسه یې کړئ.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">د Morse دغه نسخه منقضي شوې ده. همدا اوس یې اپډیټ کړئ تر څو پیغامونه ولیږئ او تر لاسه یې کړئ.</string>
   <string name="ExpiredBuildReminder_update_now">همدا اوس یې اپډیټ کړئ</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -423,8 +423,8 @@
   <string name="ShareActivity_multiple_attachments_are_only_supported">ګڼ شمېر ضمیمې یوازې د انځورونو او ویډیوګانو لپاره دي</string>
   <string name="ShareActivity_you_do_not_have_permission_to_send_to_this_group">تاسې اجازه نه لری چې دغه ګروپ ته یې ولیږئ</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">د Signal د مکالمې دایمي خرابوالی!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal د دې جوګه نه و تر څو له Google Play خدماتو سره ثبت شی. د Signal پیغامونه او اړیکې  غیرفعالې دي، د مهرباني له مخې په تنظیماتو کې بیاځلې نوم لیکنه وکړئ &amp;gt؛ پرمختللی.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">د Morse د مکالمې دایمي خرابوالی!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Morse د دې جوګه نه و تر څو له Google Play خدماتو سره ثبت شی. د Morse پیغامونه او اړیکې  غیرفعالې دي، د مهرباني له مخې په تنظیماتو کې بیاځلې نوم لیکنه وکړئ &amp;gt؛ پرمختللی.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">د GIF د بشپړ ریزولوشن په تر لاسه کولو کې تیروتنه</string>
   <!--GiphyFragmentPageAdapter-->
@@ -582,7 +582,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">دغه برخه اړینه ده.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">د ګروپ جوړول له ناکامۍ سره مخ شو.</string>
   <string name="AddGroupDetailsFragment__try_again_later">وروسته هڅه وکړئ.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">تاسې هغه مخاطب ټاکلی کوم چې د Signal ګروپونو څخه ملاتړ نه کوي، نو دا ګروپ به MMS وي.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">تاسې هغه مخاطب ټاکلی کوم چې د Morse ګروپونو څخه ملاتړ نه کوي، نو دا ګروپ به MMS وي.</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">د فرمایشي MMS ګروپ نومونه او انځورونه به یوازې تاسې ته د لیدو وړ وي.</string>
   <string name="AddGroupDetailsFragment__remove">ایسته کول</string>
   <string name="AddGroupDetailsFragment__sms_contact">مخاطب ته SMS کول</string>
@@ -596,15 +596,15 @@
     <item quantity="other">%d غړي له نويو ګروپونو څخه ملاتړ نه کوي، نو دا ګروپ نشي رامنځته کېدای.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">یو پخوانی ګروپ به رامنځته شي ځکه چې”%1$s“ د Signal پخوانۍ نسخه کاروي. تاسې کولای شئ له هغوی سره د نوي سټایل ګروپ رامنځته کړئ کله چې هغوی Signal اپډیټ کړ، یا هم د ګروپ له جوړولو وړاندې یې رامنځته کړ.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">یو پخوانی ګروپ به رامنځته شي ځکه چې”%1$s“ د Morse پخوانۍ نسخه کاروي. تاسې کولای شئ له هغوی سره د نوي سټایل ګروپ رامنځته کړئ کله چې هغوی Morse اپډیټ کړ، یا هم د ګروپ له جوړولو وړاندې یې رامنځته کړ.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">یو پخوانی ګروپ به رامنځته شي ځکه چې %1$d غړی د Signal پخوانۍ نسخه کاروي. تاسې کولای شئ له هغوی سره د نوي سټایل ګروپ رامنځته کړئ کله چې هغوی Signal اپډیټ کړ، یا هم د ګروپ له جوړولو وړاندې یې ایسته کړئ.</item>
-    <item quantity="other">یو پخوانی ګروپ به رامنځته شي ځکه چې %1$d غړي د Signal پخوانۍ نسخه کاروي. کله چې هغوی Signal اپډیټ کړ نو تاسې کولای شئ له هغوی سره د نوي سټایل ګروپ رامنځته کړئ یا هم د ګروپ له جوړولو وړاندې یې له منځه یوسئ.</item>
+    <item quantity="one">یو پخوانی ګروپ به رامنځته شي ځکه چې %1$d غړی د Morse پخوانۍ نسخه کاروي. تاسې کولای شئ له هغوی سره د نوي سټایل ګروپ رامنځته کړئ کله چې هغوی Morse اپډیټ کړ، یا هم د ګروپ له جوړولو وړاندې یې ایسته کړئ.</item>
+    <item quantity="other">یو پخوانی ګروپ به رامنځته شي ځکه چې %1$d غړي د Morse پخوانۍ نسخه کاروي. کله چې هغوی Morse اپډیټ کړ نو تاسې کولای شئ له هغوی سره د نوي سټایل ګروپ رامنځته کړئ یا هم د ګروپ له جوړولو وړاندې یې له منځه یوسئ.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">دا ګروپ نشي جوړیدای، ځکه چې ”%1$s“ د Signal زړه نسخه کاروي. تاسې باید هغه د ګروپ له جوړولو وړاندې ایسته کړئ.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">دا ګروپ نشي جوړیدای، ځکه چې ”%1$s“ د Morse زړه نسخه کاروي. تاسې باید هغه د ګروپ له جوړولو وړاندې ایسته کړئ.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">دغه ګروپ نشي جوړیدای ځکه چې %1$d غړی د Signal زړه نسخه کاروي. تاسې باید د ګروپ له جوړولو وړاندې هغه ایسته کړئ.</item>
-    <item quantity="other">دا ګروپ نشي جوړیدای، ځکه چې د %1$d غړي د Signal زړه نسخه کاروي. تاسې باید هغه د ګروپ له جوړولو وړاندې ایسته کړئ.</item>
+    <item quantity="one">دغه ګروپ نشي جوړیدای ځکه چې %1$d غړی د Morse زړه نسخه کاروي. تاسې باید د ګروپ له جوړولو وړاندې هغه ایسته کړئ.</item>
+    <item quantity="other">دا ګروپ نشي جوړیدای، ځکه چې د %1$d غړي د Morse زړه نسخه کاروي. تاسې باید هغه د ګروپ له جوړولو وړاندې ایسته کړئ.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">د غړي غوښتنې او بلنې</string>
@@ -634,8 +634,8 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">یوازې اډمینان کولای شي د نویو غړو د منلو غوراوی فعال یا غیرفعال کړي.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">یوازې اډمینان کولای شي د شریک کېدو وړ ګروپ لینک تنظیم کړي.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">تاسې د دې حق نه لرئ چې دا کار وکړئ</string>
-  <string name="ManageGroupActivity_not_capable">کوم کس چې تاسې اضافه کړی دی هغه نوي ګروپونه نشي کارولای او باید چې Signal اپډیټ کړي</string>
-  <string name="ManageGroupActivity_not_announcement_capable">کوم کس چې تاسې اضافه کړی دی هغه د خبرتیاوو ګروپونه نشي کارولای او باید چې Signal اپډیټ کړي</string>
+  <string name="ManageGroupActivity_not_capable">کوم کس چې تاسې اضافه کړی دی هغه نوي ګروپونه نشي کارولای او باید چې Morse اپډیټ کړي</string>
+  <string name="ManageGroupActivity_not_announcement_capable">کوم کس چې تاسې اضافه کړی دی هغه د خبرتیاوو ګروپونه نشي کارولای او باید چې Morse اپډیټ کړي</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">د ګروپ اپډیټ کول ناکام شو</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">تاسې د دغه ګروپ غړی نه یاست</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">د ګروپ اپډیټ کول ناکام شو مهرباني وکړئ بیا هڅه وکړئ</string>
@@ -646,7 +646,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">دا یو پخوانی ګروپ دی. تر څو  @تذکراتو او اډمینانو په څیر نویو ځانګړنو ته لاسرسی ولرو،</string>
   <string name="ManageGroupActivity_legacy_group_too_large">پخوانی ګروپ په نوي ګروپ باندې نشي اپګریډ کېدای، ځکه چې دا ډېر ستر دی. د ګروپ حداکثر اندازه ده %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">د دغه ګروپ اپګریډ کول.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">دا یو نا خوندي د MMS ګروپ دی. د شخصي چټ کولو لپاره، خپل مخاطبین Signal ته راوبولئ.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">دا یو نا خوندي د MMS ګروپ دی. د شخصي چټ کولو لپاره، خپل مخاطبین Morse ته راوبولئ.</string>
   <string name="ManageGroupActivity_invite_now">همدا اوس یې راوبولئ</string>
   <string name="ManageGroupActivity_more">زیات</string>
   <string name="ManageGroupActivity_add_group_description">د ګروپ توضیحات اضافه کړئ…</string>
@@ -721,10 +721,10 @@
     <item quantity="other">ګروپ. %1$d غړي</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Signal اپډیټ کړئ تر څو د ګروپ لینکونه وکاروئ</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">د Signal هغه نسخه چې تاسې یې کاروئ د دغه ګروپ لینک نشي ملاتړ کولای. وروستۍ نسخه یې اپډیټ کړئ تر څو له دغه ګروپ سره د لینک له لارې یو ځای شئ.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Signal اپډيټ کول</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">ستاسې یو یا له یوه نه زیات لینک شوې وسیلې د Signal هغه نسخه کاروي کوم چې د ګروپ لینکونه نه ملاتړ کوی. په خپل لینک شوې وسیله (و) کې مو Signal اپډیټ کړئ تر څو له دې ګروپ سره یو ځای شئ.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Morse اپډیټ کړئ تر څو د ګروپ لینکونه وکاروئ</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">د Morse هغه نسخه چې تاسې یې کاروئ د دغه ګروپ لینک نشي ملاتړ کولای. وروستۍ نسخه یې اپډیټ کړئ تر څو له دغه ګروپ سره د لینک له لارې یو ځای شئ.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Morse اپډيټ کول</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">ستاسې یو یا له یوه نه زیات لینک شوې وسیلې د Morse هغه نسخه کاروي کوم چې د ګروپ لینکونه نه ملاتړ کوی. په خپل لینک شوې وسیله (و) کې مو Morse اپډیټ کړئ تر څو له دې ګروپ سره یو ځای شئ.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">د ګروپ لینک معتبر نه دی</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">ملګري راوبولئ</string>
@@ -754,13 +754,13 @@
   <string name="InviteActivity_cancel">فسخه کول</string>
   <string name="InviteActivity_sending">د لیږلو په حال کې ده…</string>
   <string name="InviteActivity_invitations_sent">بلنې ولیږل شوې!</string>
-  <string name="InviteActivity_invite_to_signal">Signal ته رابلل</string>
+  <string name="InviteActivity_invite_to_signal">Morse ته رابلل</string>
   <string name="InviteActivity_send_sms">د SMS لیږل (%d)</string>
   <plurals name="InviteActivity_send_sms_invites">
     <item quantity="one">غواړئ  %d SMS بلنه ولیږئ؟</item>
     <item quantity="other">غواړئ%d SMS بلنې ولیږئ؟</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">راځئ چې Signal ته واوړو: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">راځئ چې Morse ته واوړو: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">داسې ښکاري چې تاسې داسې کوم اپلیکیشنونه نه لری تر څو هغه شریک کړئ.</string>
   <!--LearnMoreTextView-->
   <string name="LearnMoreTextView_learn_more">لا زیات زده کړئ</string>
@@ -769,7 +769,7 @@
   <string name="LongMessageActivity_message_from_s">پیغام د %1$s له خوا</string>
   <string name="LongMessageActivity_your_message">ستاسې پیغام</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Morse</string>
   <string name="MessageRetrievalService_background_connection_enabled">د بکګراونډ اتصال فعال شوی</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">د MMS د تنظیماتو د بې سیم وړاندې کوونکي په لوستلو کې تیروتنه</string>
@@ -812,7 +812,7 @@
   <string name="Megaphones_introducing_reactions">د غبرګونونو پیژندنه</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">پر هر پیغام باندې کلیک وکړئ او ویې نیسئ تر څو خپل احساس په چټکۍ سره شریک کړئ.</string>
   <string name="Megaphones_remind_me_later">وروسته یې را په یاد کړه</string>
-  <string name="Megaphones_verify_your_signal_pin">د Signal اړوند PIN تایید کړئ</string>
+  <string name="Megaphones_verify_your_signal_pin">د Morse اړوند PIN تایید کړئ</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">موږ به کله نا کله له تاسې دا وغواړو چې خپل PIN مو تایید کړئ تر څو مو په یاد پاتې شی.</string>
   <string name="Megaphones_verify_pin">د PIN تایید</string>
   <string name="Megaphones_get_started">پيل یې کړئ</string>
@@ -822,11 +822,11 @@
   <string name="Megaphones_appearance">د پروګرام ظاهر</string>
   <string name="Megaphones_add_photo">د انځور اضافه کول</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">د Signal زنګ د پرمختګ په حال کې ده</string>
-  <string name="NotificationBarManager__establishing_signal_call">د Signal زنګ رامنځته کول</string>
-  <string name="NotificationBarManager__incoming_signal_call">د Signal راغلی زنګ</string>
-  <string name="NotificationBarManager__incoming_signal_group_call">د Signal راغلی ګروپي زنګ</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">د Signal  د زنګ د خدماتو بندول</string>
+  <string name="NotificationBarManager_signal_call_in_progress">د Morse زنګ د پرمختګ په حال کې ده</string>
+  <string name="NotificationBarManager__establishing_signal_call">د Morse زنګ رامنځته کول</string>
+  <string name="NotificationBarManager__incoming_signal_call">د Morse راغلی زنګ</string>
+  <string name="NotificationBarManager__incoming_signal_group_call">د Morse راغلی ګروپي زنګ</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">د Morse  د زنګ د خدماتو بندول</string>
   <string name="NotificationBarManager__decline_call">د زنګ بندول</string>
   <string name="NotificationBarManager__answer_call">د زنګ ځوابول</string>
   <string name="NotificationBarManager__end_call"> د زنګ پای ته رسول</string>
@@ -853,8 +853,8 @@
   <string name="MediaSendActivity_message_to_s">%s ته پیغام وکړئ</string>
   <string name="MediaSendActivity_message">پیغام</string>
   <string name="MediaSendActivity_select_recipients">تر لاسه کېدونکي کسان وټاکئ</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">د دې لپاره چې هغوی ښکاره کړي نو Signal ستاسې مخاطبینو ته د لاسرسي لرلو لپاره اړتیا لري.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal د مخاطبینو اجازې ته اړتیا لري تر څو ستاسې مخاطبین وښیي، خو هغه د تل لپاره رد شوی دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مخاطبین\" فعاله کړئ.</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">د دې لپاره چې هغوی ښکاره کړي نو Morse ستاسې مخاطبینو ته د لاسرسي لرلو لپاره اړتیا لري.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Morse د مخاطبینو اجازې ته اړتیا لري تر څو ستاسې مخاطبین وښیي، خو هغه د تل لپاره رد شوی دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مخاطبین\" فعاله کړئ.</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">تاسې نشئ کولای چې له %d څخه زیات توکی شریک کړئ.</item>
     <item quantity="other">تاسې نشئ کولای چې له %d څخه زیات توکي شریک کړئ.</item>
@@ -869,7 +869,7 @@
   <string name="MessageDecryptionUtil_tap_to_send_a_debug_log">د ستونزې د هواري د رپوټ د لیږلو لپاره دلته کلیک وکړئ</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">ناپیژانده</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">د Signal د زړې نسخې د کارولو له کبله مو انکریپټ شوی پیغام تر لاسه کړی دی کوم چې دلته نه خلاصیږي. مهرباني وکړئ له لیږونکي کس څخه وغواړئ چې خپله نسخه اپډیټ کړي او پیغام بیرته له سره ولیږي.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">د Morse د زړې نسخې د کارولو له کبله مو انکریپټ شوی پیغام تر لاسه کړی دی کوم چې دلته نه خلاصیږي. مهرباني وکړئ له لیږونکي کس څخه وغواړئ چې خپله نسخه اپډیټ کړي او پیغام بیرته له سره ولیږي.</string>
   <string name="MessageRecord_left_group">تاسې دا ګروپ پرېښود.</string>
   <string name="MessageRecord_you_updated_group">تاسې ګروپ اپډیټ کړ.</string>
   <string name="MessageRecord_the_group_was_updated">ګروپ اپډیټ شو.</string>
@@ -878,7 +878,7 @@
   <string name="MessageRecord_missed_video_call_date">له لاسه وتلی ویډیو زنګ. %1$s</string>
   <string name="MessageRecord_s_updated_group">%s ګروپ اپډیټ کړ.</string>
   <string name="MessageRecord_s_called_you_date">%1$s تاسې ته زنګ وهلی و. %2$s</string>
-  <string name="MessageRecord_s_joined_signal"> %s په Signal کې ده!</string>
+  <string name="MessageRecord_s_joined_signal"> %s په Morse کې ده!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">تاسې د پیغامونو د ورک کېدو غوراوی غیرفعاله کړی دی.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s ورک کېدونکي پیغامونه غیرفعاله شوي دي.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">تاسې د ورک کېدونکي پیغام ټایمر %1$s ته تنظیم کړی.</string>
@@ -1106,24 +1106,24 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">ناسم د QR کوډ.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">وبښئ، تاسې ډېرې زیاتې وسیلې دې سره لینک کړي دي، هڅه وکړئ ځینې یې لري کړئ</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">وبښئ، دا د وسیلې د لینک د QR معتبر کوډ نه دی.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">غواړئ د Signal  وسیله لینک کړئ؟</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">داسې ښکاري چې تاسې هڅه کوئ تر څو د Signal وسیله د درېیمګړې غاړې د سکینر په کارولو سره لینک کړئ. ستاسې د ساتنې لپاره، مهرباني وکړئ دغه کوډ بیا له Signal څخه دننه سکن کړئ.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal د کیمرې اجازې ته اړتیا لري تر څو د QR کوډ سکن کړي، خو هغه د تل لپاره رد شوې ده. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"کیمره\" فعاله کړئ.</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">غواړئ د Morse  وسیله لینک کړئ؟</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">داسې ښکاري چې تاسې هڅه کوئ تر څو د Morse وسیله د درېیمګړې غاړې د سکینر په کارولو سره لینک کړئ. ستاسې د ساتنې لپاره، مهرباني وکړئ دغه کوډ بیا له Morse څخه دننه سکن کړئ.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Morse د کیمرې اجازې ته اړتیا لري تر څو د QR کوډ سکن کړي، خو هغه د تل لپاره رد شوې ده. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"کیمره\" فعاله کړئ.</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">د کیمرې د اجازې پرته نشي کولای چې د QR کوډ سکن کړي</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">همدا اوس یې اپډیټ کړئ</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">د Signal نسخه به نن منقضي شي. تر ټولو وروستۍ نسخې له مخې یې اپډیټ کړئ.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">د Morse نسخه به نن منقضي شي. تر ټولو وروستۍ نسخې له مخې یې اپډیټ کړئ.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">د Signal دغه نسخه به سبا منقضي شي. تر ټولو وروستۍ نسخې له مخې یې اپډیټ کړئ. </item>
-    <item quantity="other">د Signal دغه نسخه به په %d ورځو کې منقضي شي. تر ټولو وروستۍ نسخې له مخې یې اپډیټ کړئ. </item>
+    <item quantity="one">د Morse دغه نسخه به سبا منقضي شي. تر ټولو وروستۍ نسخې له مخې یې اپډیټ کړئ. </item>
+    <item quantity="other">د Morse دغه نسخه به په %d ورځو کې منقضي شي. تر ټولو وروستۍ نسخې له مخې یې اپډیټ کړئ. </item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">د پټ عبارت دننه کول</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">د Signal ایکن</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">د Morse ایکن</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">د پټ عبارت تسلیمول</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">ناسم پټ عبارت!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">له قفل حالت څخه د Signal  ایستل</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - قفل شوی سکرین</string>
+  <string name="PassphrasePromptActivity_unlock_signal">له قفل حالت څخه د Morse  ایستل</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Morse Android - قفل شوی سکرین</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">نقشه</string>
   <string name="PlacePickerActivity_drop_pin">د سنجاق اچول</string>
@@ -1144,16 +1144,16 @@
     <item quantity="one">ستاسې%1$d هڅه پاته ده. که چیرته تاسې د نورو هڅو د کولو حق نه لری، نو کولای شئ نوی PIN جوړ کړئ. تاسې کولای شئ خپل اکاونټ ثبت او ویې کاروئ خو ځینې ثبت شوي تنظیمات لکه خپل د پروفایل معلومات به له لاسه ورکړئ.</item>
     <item quantity="other">ستاسې %1$d هڅې پاتې دي. که چیرته تاسې د نورو هڅو د کولو حق نه لری، نو کولای شئ نوی PIN جوړ کړئ. تاسې کولای شئ خپل اکاونټ ثبت او ویې کاروئ خو ځینې ثبت شوي تنظیمات لکه خپل د پروفایل معلومات به له لاسه ورکړئ.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">د Signal  نوم لیکنه - د Android لپاره له PIN سره مرستې ته اړتیا لرئ</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">د Morse  نوم لیکنه - د Android لپاره له PIN سره مرستې ته اړتیا لرئ</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">د تورو او شمېرو ګډ PIN دننه کړئ </string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">د شمېرو PIN دننه کړئ</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">خپل PIN جوړ کړئ</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses"> د PIN په اړه ستاسې ګومانونه پای ته رسیدلي دي، خو تاسې بیا هم کولای شئ چې خپل د Signal اکاونټ ته د نوي PIN په جوړولو سره لاسرسی ولری. ستاسې د محرمیت او خوندیتوب په خاطر به ستاسې اکاونټ به د پروفایل د ثبت شویو معلوماتو او تنظیماتو پرته بیرته راوګرځول شي.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses"> د PIN په اړه ستاسې ګومانونه پای ته رسیدلي دي، خو تاسې بیا هم کولای شئ چې خپل د Morse اکاونټ ته د نوي PIN په جوړولو سره لاسرسی ولری. ستاسې د محرمیت او خوندیتوب په خاطر به ستاسې اکاونټ به د پروفایل د ثبت شویو معلوماتو او تنظیماتو پرته بیرته راوګرځول شي.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">د نوي PIN جوړول</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">خبرداری</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">که مو چیرته PIN غیرفعاله کړی وي، نو د Signal په بیرته ثبتولو سره به ټول اطلاعات له لاسه ورکړئ، مګر دا چې تاسې یې په خپل لاس بک اپ او بیرته راوګرځوئ. کله چې PIN غیرفعال وي نو تاسې نشئ کولای چې د نوم لیکنې قفل یې روښانه کړئ.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">که مو چیرته PIN غیرفعاله کړی وي، نو د Morse په بیرته ثبتولو سره به ټول اطلاعات له لاسه ورکړئ، مګر دا چې تاسې یې په خپل لاس بک اپ او بیرته راوګرځوئ. کله چې PIN غیرفعال وي نو تاسې نشئ کولای چې د نوم لیکنې قفل یې روښانه کړئ.</string>
   <string name="PinOptOutDialog_disable_pin">د PIN غیرفعاله کول</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">اپلیکیشن ته نمره ورکول</string>
@@ -1169,7 +1169,7 @@
   <string name="ReactionsRecipientAdapter_you">تاسې</string>
   <!--RecaptchaRequiredBottomSheetFragment-->
   <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">تایید یې کړئ چې پیغام ورکولو ته ادامه ورکړئ</string>
-  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">په Signal کې د سپم د مخنیوي سره د مرستې لپاره، مهرباني وکړئ تایید یې بشپړ کړئ.</string>
+  <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">په Morse کې د سپم د مخنیوي سره د مرستې لپاره، مهرباني وکړئ تایید یې بشپړ کړئ.</string>
   <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">له تاییدولو وروسته، تاسې کولای شئ پیغام ورکولو ته ادامه ورکړئ. هر هغه پیغام چې درول شوی و هغه به په اتومات ډول سره ولیږل شی.</string>
   <!--Recipient-->
   <string name="Recipient_you">تاسې</string>
@@ -1190,13 +1190,13 @@
   <string name="RedPhone_got_it">پوه شوئ</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">د خپلې ویډیو د روښانولو لپاره دلته کلیک وکړئ</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">د دې لپاره چې %1$s سره اړیکه ونیسئ، Signal ستاسې کیمرې ته لاسرسي لرلو ته اړتیا لري</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">د دې لپاره چې %1$s سره اړیکه ونیسئ، Morse ستاسې کیمرې ته لاسرسي لرلو ته اړتیا لري</string>
+  <string name="WebRtcCallActivity__signal_s">Morse %1$s</string>
   <string name="WebRtcCallActivity__calling">د اړیکې نیولو په حالت کې…</string>
   <string name="WebRtcCallActivity__group_is_too_large_to_ring_the_participants">دا چې ګروپ ډېر ستر دی نو ټولو ګډون والو ته زنګ نشي وهل کېدای</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_call">د Signal اړیکه</string>
-  <string name="WebRtcCallView__signal_video_call">د Signal ویډیو کال</string>
+  <string name="WebRtcCallView__signal_call">د Morse اړیکه</string>
+  <string name="WebRtcCallView__signal_video_call">د Morse ویډیو کال</string>
   <string name="WebRtcCallView__start_call">د اړیکې پیلول</string>
   <string name="WebRtcCallView__join_call">له اړیکې سره یو ځای کېدل</string>
   <string name="WebRtcCallView__call_is_full">اړیکه ډکه شوې</string>
@@ -1206,11 +1206,11 @@
   <string name="WebRtcCallView__reconnecting">بیرته وصل کېږي…</string>
   <string name="WebRtcCallView__joining">یو ځای کېږي…</string>
   <string name="WebRtcCallView__disconnected">اتصال یې پرې شوی</string>
-  <string name="WebRtcCallView__signal_will_ring_s">Signal به %1$s ته زنګ ووهي</string>
-  <string name="WebRtcCallView__signal_will_ring_s_and_s">Signal به %1$s او %2$s ته زنګ ووهي</string>
+  <string name="WebRtcCallView__signal_will_ring_s">Morse به %1$s ته زنګ ووهي</string>
+  <string name="WebRtcCallView__signal_will_ring_s_and_s">Morse به %1$s او %2$s ته زنګ ووهي</string>
   <plurals name="WebRtcCallView__signal_will_ring_s_s_and_d_others">
-    <item quantity="one">Signal به %1$s، %2$s، او %3$d نورو ته زنګ ووهي</item>
-    <item quantity="other">Signal به %1$s، %2$s، او %3$d نورو خلکو ته زنګ ووهي</item>
+    <item quantity="one">Morse به %1$s، %2$s، او %3$d نورو ته زنګ ووهي</item>
+    <item quantity="other">Morse به %1$s، %2$s، او %3$d نورو خلکو ته زنګ ووهي</item>
   </plurals>
   <string name="WebRtcCallView__s_will_be_notified">%1$s ته به خبر ورکړل شي</string>
   <string name="WebRtcCallView__s_and_s_will_be_notified">%1$s او %2$s ته به خبر ورکړل شي</string>
@@ -1286,13 +1286,13 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">ایا ستاسې پورتنۍ د تلیفون شمېره سمه ده؟</string>
   <string name="RegistrationActivity_edit_number">شمېره اېډېټ کړئ</string>
   <string name="RegistrationActivity_missing_google_play_services">د Google Play Services شتون نه لري</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">په دغه وسيله کې د Google Play Services شتون نه لري. تاسو لا هم کولای شئ Signal وکاروئ، خو دغه کانفیګوریشن ښایي په اعتماد یا اجراآتو کې د کموالي سبب وګرځي. \n\nIf که تاسو پرمختللی کارن نه یاست، او د Andriod له پېر وروسته ROM څخه استفاده نه کوئ، یا دا چې داسې باور ولرئ چې دا په تیروتنې سره وينئ، مهرباني وکړئ د مرستې او د ستونزې د هواري لپاره لهsupport@signal.org سره په اړيکه کې شئ. </string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">په دغه وسيله کې د Google Play Services شتون نه لري. تاسو لا هم کولای شئ Morse وکاروئ، خو دغه کانفیګوریشن ښایي په اعتماد یا اجراآتو کې د کموالي سبب وګرځي. \n\nIf که تاسو پرمختللی کارن نه یاست، او د Andriod له پېر وروسته ROM څخه استفاده نه کوئ، یا دا چې داسې باور ولرئ چې دا په تیروتنې سره وينئ، مهرباني وکړئ د مرستې او د ستونزې د هواري لپاره لهsupport@devplusone.com سره په اړيکه کې شئ. </string>
   <string name="RegistrationActivity_i_understand">زه پوهیږم</string>
   <string name="RegistrationActivity_play_services_error">د Play خدماتو تېروتنه</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">د Google Play خدمات د اپډېټ کېدو په حال کې دي یا په مؤقت ډول موجود نه دي. مهرباني وکړئ بیا کوښښ وکړئ. </string>
   <string name="RegistrationActivity_terms_and_privacy">شرایط او ضوابط؛ د محرمیت تګلاره</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal اړتیا لري ستاسو مخاطبينو او میډیا ته لاسرسی ولري ترڅو وکولای شئ له خپلو ملګرو سره وصل شئ، پیغامونه سره تبادله کړئ او خوندي اړيکې ټینګې کړئ</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal اړتیا لري ستاسو مخاطبينو ته لاسرسی ولري ترڅو وکولای شئ له خپلو ملګرو سره وصل شئ، پیغامونه سره تبادله کړئ او خوندي اړيکې ټینګې کړئ</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Morse اړتیا لري ستاسو مخاطبينو او میډیا ته لاسرسی ولري ترڅو وکولای شئ له خپلو ملګرو سره وصل شئ، پیغامونه سره تبادله کړئ او خوندي اړيکې ټینګې کړئ</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Morse اړتیا لري ستاسو مخاطبينو ته لاسرسی ولري ترڅو وکولای شئ له خپلو ملګرو سره وصل شئ، پیغامونه سره تبادله کړئ او خوندي اړيکې ټینګې کړئ</string>
   <string name="RegistrationActivity_rate_limited_to_service">تاسو ډېر ځله کوښښ کړی چې دغه شمېره ثبت کړئ. مهرباني وکړئ وروسته بیا کوښښ وکړئ.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">نشئ کولای له خدمتاتو سره وصل شئ. مهرباني وکړئ خپل اتصال چک کړئ او بیا کوښښ وکړئ.</string>
   <string name="RegistrationActivity_call_requested">د اړیکې نیولو غوښتنه شوې</string>
@@ -1315,7 +1315,7 @@
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">غواړئ د نوم لیکنې قفل روښانه شي؟</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">غواړئ د نوم لیکنې قفل خاموشه شي؟</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">کله چې مو له بیا غوښتل له Signal سره نوم لیکنه وکړئ او خپل د Signal Pin مو هیر شوی وي، نو تاسې به له خپل اکاونټ څخه د 7 ورځو لپاره بې برخې یئ.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">کله چې مو له بیا غوښتل له Morse سره نوم لیکنه وکړئ او خپل د Morse Pin مو هیر شوی وي، نو تاسې به له خپل اکاونټ څخه د 7 ورځو لپاره بې برخې یئ.</string>
   <string name="RegistrationLockV2Dialog_turn_on">روښانه يې کړئ</string>
   <string name="RegistrationLockV2Dialog_turn_off">خاموشه يې کړئ</string>
   <!--RevealableMessageView-->
@@ -1331,16 +1331,16 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">مخاطبینو کې اضافه کول</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Signal ته رابلل</string>
-  <string name="SharedContactDetailsActivity_signal_message">د Signal پیغام</string>
-  <string name="SharedContactDetailsActivity_signal_call">د Signal زنګ وهل</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Morse ته رابلل</string>
+  <string name="SharedContactDetailsActivity_signal_message">د Morse پیغام</string>
+  <string name="SharedContactDetailsActivity_signal_call">د Morse زنګ وهل</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">مخاطبینو کې اضافه کول</string>
-  <string name="SharedContactView_invite_to_signal">Signal ته رابلل</string>
-  <string name="SharedContactView_message">د Signal پیغام</string>
-  <!--SignalBottomActionBar-->
+  <string name="SharedContactView_invite_to_signal">Morse ته رابلل</string>
+  <string name="SharedContactView_message">د Morse پیغام</string>
+  <!--MorseBottomActionBar-->
   <string name="SignalBottomActionBar_more">زیات</string>
-  <!--SignalPinReminders-->
+  <!--MorsePinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">موږ به تاسې ته وروسته بیرته در په یاد کړو.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">موږ به تاسې ته سبا بیرته در په یاد کړو.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">موږ به تاسې ته بیرته په څو ورځو کې در په یاد کړو.</string>
@@ -1363,14 +1363,14 @@
   <string name="SmsMessageRecord_secure_session_reset">تاسې خوندي غونډه له سره تنظیم کړه.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s خوندي غونډه یې له سره تنظیم کړه.</string>
   <string name="SmsMessageRecord_duplicate_message">دوګونی پیغام.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">دغه پیغام پروسیس نشو ځکه چې هغه د Signal له یوې نوې نسخې څخه لیږل شوی و. تاسې کولای شئ له خپل مخاطب څخه وغواړئ چې د خپلې نسخې له اپډیټ کېدو وروسته دغه پیغام بیرته تاسې ته ولیږي.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">دغه پیغام پروسیس نشو ځکه چې هغه د Morse له یوې نوې نسخې څخه لیږل شوی و. تاسې کولای شئ له خپل مخاطب څخه وغواړئ چې د خپلې نسخې له اپډیټ کېدو وروسته دغه پیغام بیرته تاسې ته ولیږي.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">د راغلو پیغامونو په مدیریت کې تیروتنه.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">سټیکرونه</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">انسټال شوي سټیکرونه</string>
   <string name="StickerManagementAdapter_stickers_you_received">هغه سټیکرونه چې تاسې تر لاسه کړي</string>
-  <string name="StickerManagementAdapter_signal_artist_series">د Signal د هنرمندانو سټیکرونه</string>
+  <string name="StickerManagementAdapter_signal_artist_series">د Morse د هنرمندانو سټیکرونه</string>
   <string name="StickerManagementAdapter_no_stickers_installed">هېڅ سټیکر نه دی انسټال شوی</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">د راغلو پیغامونو سټیکرونه به دلته شکاره شي</string>
   <string name="StickerManagementAdapter_untitled">بې عنوانه</string>
@@ -1396,8 +1396,8 @@
   <string name="SupportEmailUtil_filter">فلټر:</string>
   <string name="SupportEmailUtil_device_info">د وسیلې په اړه معلومات:</string>
   <string name="SupportEmailUtil_android_version">د Android نسخه:</string>
-  <string name="SupportEmailUtil_signal_version">د Signal نسخه:</string>
-  <string name="SupportEmailUtil_signal_package">د Signal کڅوړه:</string>
+  <string name="SupportEmailUtil_signal_version">د Morse نسخه:</string>
+  <string name="SupportEmailUtil_signal_package">د Morse کڅوړه:</string>
   <string name="SupportEmailUtil_registration_lock">د نومليکنې قفل:</string>
   <string name="SupportEmailUtil_locale">سیمه ایزه ژبه</string>
   <!--ThreadRecord-->
@@ -1416,7 +1416,7 @@
   <string name="ThreadRecord_view_once_media">هغه میډیا چې یو ځل لیدل کېږي</string>
   <string name="ThreadRecord_this_message_was_deleted">دغه پیغام پاک شو</string>
   <string name="ThreadRecord_you_deleted_this_message">دا پیغام تاسې پاک کړ.</string>
-  <string name="ThreadRecord_s_is_on_signal"> %s په Signal کې ده!</string>
+  <string name="ThreadRecord_s_is_on_signal"> %s په Morse کې ده!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">له منځه تلونکي پیغامونه غیرفعال شوي دي</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">د له منځه تلونکي پیغام وخت تنظیم شو %s</string>
   <string name="ThreadRecord_safety_number_changed">د خوندیتوب شمېره بدله شوه</string>
@@ -1433,8 +1433,8 @@
   <string name="ThreadRecord_video">ویډیو</string>
   <string name="ThreadRecord_chat_session_refreshed">د چټ غونډه ریفریش شوې</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">د Signal اپډیټ کول</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">د Signal نوې نسخه د لاسرسي وړ ده، د اپډیټ کولو لپاره کلیک وکړئ</string>
+  <string name="UpdateApkReadyListener_Signal_update">د Morse اپډیټ کول</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">د Morse نوې نسخه د لاسرسي وړ ده، د اپډیټ کولو لپاره کلیک وکړئ</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">غواړئ پیغام ولیږئ؟</string>
   <string name="UntrustedSendDialog_send">لیږل</string>
@@ -1453,20 +1453,20 @@
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">کارن نوم نه باید په عدد سره پیل شي.</string>
   <string name="UsernameEditFragment_username_is_invalid">کارن نوم نامعتبر دی.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">کارن نومونه باید له %1$d تر %2$d تورو پورې وی.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">په Signal کې کارن نومونه اختیاري دي. که غواړئ چې یو کارن نوم جوړ کړئ، د Signal نور کارنونه به وکولای شي چې تاسې د همدې کارن نوم په مټ ومومي او پرته له دې چې ستاسې د ټلیفون شمېره ولري، تاسې سره اړیکه کې شي.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">په Morse کې کارن نومونه اختیاري دي. که غواړئ چې یو کارن نوم جوړ کړئ، د Morse نور کارنونه به وکولای شي چې تاسې د همدې کارن نوم په مټ ومومي او پرته له دې چې ستاسې د ټلیفون شمېره ولري، تاسې سره اړیکه کې شي.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%d مخاطب په Signal کې ده!</item>
-    <item quantity="other">%d مخاطبین په Signal کې دي!</item>
+    <item quantity="one">%d مخاطب په Morse کې ده!</item>
+    <item quantity="other">%d مخاطبین په Morse کې دي!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">ستاسې مخاطب د Signal زړه نسخه کاروي. له هغه نه وغواړئ چې ستاسې د خوندیتوب د شمېرې له تاییدولو وړاندې خپله نسخه اپډیټ کړي.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">ستاسې مخاطب د Signal نوې نسخه خو د ناسازګاره QR کوډ په فارمټ کې کاروي. د مهرباني له مخې اپډیټ یې کړئ تر څو یې پرتله کړئ.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">ستاسې مخاطب د Morse زړه نسخه کاروي. له هغه نه وغواړئ چې ستاسې د خوندیتوب د شمېرې له تاییدولو وړاندې خپله نسخه اپډیټ کړي.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">ستاسې مخاطب د Morse نوې نسخه خو د ناسازګاره QR کوډ په فارمټ کې کاروي. د مهرباني له مخې اپډیټ یې کړئ تر څو یې پرتله کړئ.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">د QR سکن شوی کوډ د خوندیتوب د شمېرې په سمه توګه سره فارمټ شوی د تاییدي د کوډ نه دی. مهرباني وکړئ بیا یې سکن کړئ.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">د خوندیتوب شمېره د … له لارې شریکه کړئ</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">زموږ د Signal د خوندیتوب شمېره:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">زموږ د Morse د خوندیتوب شمېره:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">داسې ښکاري چې تاسې داسې کوم اپلیکیشنونه نه لری تر څو هغه شریک کړئ.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">په کلیپبورډ کې د پرتلې لپاره داسې کوم د خوندیتوب شمېره و نه موندل شوه</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal د کیمرې اجازې ته اړتیا لري تر څو د QR کوډ سکن کړي، خو هغه د تل لپاره رد شوې ده. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"کېمره\" فعاله کړئ.</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Morse د کیمرې اجازې ته اړتیا لري تر څو د QR کوډ سکن کړي، خو هغه د تل لپاره رد شوې ده. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"کېمره\" فعاله کړئ.</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">د کیمرې له اجازې پرته د QR کوډ نشي سکن کېدای</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">تاسې باید لومړی پیغامونه سره تبادله کړئ تر څو وکولای شئ د %1$s د خوندیتوب شمېره ووینئ.</string>
   <!--ViewOnceMessageActivity-->
@@ -1485,13 +1485,13 @@
   <string name="ApplicationMigrationService_system_database_import_is_complete">د سیستم د ډیتابیز واردول بشپړ شوی.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">د پرانیستلو لپاره یې لمس کړئ.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal قفل نه دی</string>
-  <string name="KeyCachingService_lock">د Signal قفل کول</string>
+  <string name="KeyCachingService_passphrase_cached">Morse قفل نه دی</string>
+  <string name="KeyCachingService_lock">د Morse قفل کول</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">تاسې</string>
   <string name="MediaPreviewActivity_unssuported_media_type">د نه ملاتړ کېدونکي میډیا ډول</string>
   <string name="MediaPreviewActivity_draft">مخلیکنه</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal د زیرمې اجازې ته اړتیا لري تر څو یې په بهرنۍ زیرمه کې ثبت کړي، خو هغه د تل لپاره رد شوې ده. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او بیا \"ذخیره\" فعاله کړئ.</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Morse د زیرمې اجازې ته اړتیا لري تر څو یې په بهرنۍ زیرمه کې ثبت کړي، خو هغه د تل لپاره رد شوې ده. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او بیا \"ذخیره\" فعاله کړئ.</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">له اجازې پرته په بهرنۍ زیرمه کې یې نشي ثبتولای</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">غواړئ پیغام پاک کړئ؟</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">دا کار به پیغام د تل لپاره پاک کړي.</string>
@@ -1506,17 +1506,17 @@
   <string name="MessageNotifier_failed_to_deliver_message">د پیغام په لیږلو کې پاتې راتلل.</string>
   <string name="MessageNotifier_error_delivering_message">د پیغام په لیږلو کې تیروتنه.</string>
   <string name="MessageNotifier_message_delivery_paused">د پیغام لیږل ودرول شو.</string>
-  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">تایید یې کړئ تر څو په Signal کې د پیغام لیږلو ته ادامه ورکړئ.</string>
+  <string name="MessageNotifier_verify_to_continue_messaging_on_signal">تایید یې کړئ تر څو په Morse کې د پیغام لیږلو ته ادامه ورکړئ.</string>
   <string name="MessageNotifier_mark_all_as_read">ټول د لوستل شویو په توګه په نښه کړئ</string>
   <string name="MessageNotifier_mark_read">لوستل شوي په توګه یې په نښه کړئ</string>
   <string name="MessageNotifier_turn_off_these_notifications">دغه خبرتیاووې خاموښه کړئ</string>
   <string name="MessageNotifier_view_once_photo">هغه انځور چې یو ځل لیدل کېږي</string>
   <string name="MessageNotifier_view_once_video">هغه ویډیو چې یو ځل لیدل کېږي</string>
   <string name="MessageNotifier_reply">بیا پلي کول</string>
-  <string name="MessageNotifier_signal_message">د Signal پیغام</string>
+  <string name="MessageNotifier_signal_message">د Morse پیغام</string>
   <string name="MessageNotifier_unsecured_sms">ناخوندي SMS</string>
   <string name="MessageNotifier_you_may_have_new_messages">ښایې تاسې نوي بیغامونه ولرئ</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Signal پرانیزئ تر څو تازه خبرتیاووې ووینئ</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Morse پرانیزئ تر څو تازه خبرتیاووې ووینئ</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">مخاطب</string>
   <string name="MessageNotifier_reacted_s_to_s">\"%2$s\" ته یې %1$s ورکړ</string>
@@ -1528,7 +1528,7 @@
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">ستاسې یو ځل لیدونکي میډیا ته یې %1$s ورکړ.</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">ستاسې سټیکر ته یې %1$s ورکړ.</string>
   <string name="MessageNotifier_this_message_was_deleted">دغه پیغام پاک شوی ده.</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">غواړئ له Signal سره د مخاطب د یو ځای کېدو خبرتیاووې خاموښه کړئ؟</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">غواړئ له Morse سره د مخاطب د یو ځای کېدو خبرتیاووې خاموښه کړئ؟</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">پیغامونه</string>
   <string name="NotificationChannel_calls">ټلیفوني اړیکې</string>
@@ -1540,11 +1540,11 @@
   <string name="NotificationChannel_group_chats">چټونه</string>
   <string name="NotificationChannel_missing_display_name">ناپیژانده</string>
   <string name="NotificationChannel_voice_notes">غږیز یاددښتونه</string>
-  <string name="NotificationChannel_contact_joined_signal">مخاطب Signal سره یو ځای شو</string>
+  <string name="NotificationChannel_contact_joined_signal">مخاطب Morse سره یو ځای شو</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">د چاینل د تنظیماتو د خبرتیاوو د پرانیستلو لپاره هېڅ راز فعالیت نشته.</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">کله چې Signal قفل شوی وي نو چټک ځواب موجود نه وي!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">کله چې Morse قفل شوی وي نو چټک ځواب موجود نه وي!</string>
   <string name="QuickResponseService_problem_sending_message">د پیغام په لیږلو کې ستونزه!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">په %s کې ثبت شو</string>
@@ -1555,7 +1555,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">ناسم شارټ کټ</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Morse</string>
   <string name="SingleRecipientNotificationBuilder_new_message">نوی پیغام</string>
   <string name="SingleRecipientNotificationBuilder_message_request">د پیغام غوښتنه</string>
   <string name="SingleRecipientNotificationBuilder_you">تاسې</string>
@@ -1569,10 +1569,10 @@
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">دغه وسیله نوره ثبت شوې نه ده</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">احتمالاً دا په دې خاطر ده چې تاسې خپله د ټلیفون شمېره له Signal سره په بله وسیله کې ثبت کړې ده. د بیا نوم لیکنې لپاره کلیک وکړه.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">احتمالاً دا په دې خاطر ده چې تاسې خپله د ټلیفون شمېره له Morse سره په بله وسیله کې ثبت کړې ده. د بیا نوم لیکنې لپاره کلیک وکړه.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">د دې لپاره چې د %s اړیکه ځواب کړي، نو Signal ته اجازه ورکړه چې ستاسې مایکروفون ته لاسرسی ولري.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal د مایکروفون او کیمرې اجازې ته اړتیا لري تر څو ټلیفوني اړیکې تر سره یا تر لاسه کړي، خو هغه د تل لپاره رد شوې دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مایکروفون\" او \"کېمره\" فعاله کړئ.</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">د دې لپاره چې د %s اړیکه ځواب کړي، نو Morse ته اجازه ورکړه چې ستاسې مایکروفون ته لاسرسی ولري.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Morse د مایکروفون او کیمرې اجازې ته اړتیا لري تر څو ټلیفوني اړیکې تر سره یا تر لاسه کړي، خو هغه د تل لپاره رد شوې دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مایکروفون\" او \"کېمره\" فعاله کړئ.</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">په لینک شوې وسیله کې ځواب شوی ده.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">په لینک شوې وسیله کې قطع شوی ده.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">په لینک شوې وسیله کې بوخت ده.</string>
@@ -1596,7 +1596,7 @@
   <string name="change_passphrase_activity__repeat_new_passphrase">د نوي پټ عبارت تکرار</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">نوم یا شمېره دننه کړئ</string>
-  <string name="contact_selection_activity__invite_to_signal">Signal ته رابلل</string>
+  <string name="contact_selection_activity__invite_to_signal">Morse ته رابلل</string>
   <string name="contact_selection_activity__new_group">نوی ګروپ</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">لیکل شوی متن پاک کړئ</string>
@@ -1608,21 +1608,21 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">د مخاطب انځور</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal د مخاطبینو اجازې ته اړتیا لري تر څو ستاسې مخاطبین ښکاره کړي، خو هغه د تل لپاره رد شوی دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مخاطبین\" فعاله کړئ.</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Morse د مخاطبینو اجازې ته اړتیا لري تر څو ستاسې مخاطبین ښکاره کړي، خو هغه د تل لپاره رد شوی دی. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"مخاطبین\" فعاله کړئ.</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">د مخاطبینو په تر لاسه کولو کې تیروتنه شوې، خپل د نیټورک اتصال وګورئ</string>
   <string name="ContactSelectionListFragment_username_not_found">کارن نوم و نه موندل شو</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" د Signal کارن نه دی. مهرباني وکړئ کارن نوم وګورئ او بیا هڅه وکړئ.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" د Morse کارن نه دی. مهرباني وکړئ کارن نوم وګورئ او بیا هڅه وکړئ.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">تاسې اړتیا نه لری چې خپل ځان ګروپ کې اضافه کړئ</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">د ګروپ حداکثر اندازه ډکه شوه</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">د Signal ګروپونه حداکثر %1$d غړي لرلای شي.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">د Morse ګروپونه حداکثر %1$d غړي لرلای شي.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">د سپارښت شویو غړو اندازه ډکه شوه</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">د Signal ګروپونه له %1$d غړیو یا کمو سره ښه کار ورکوي. د زیات شمېر غړو اضافه کول به د پیغامونو لیږل او تر لاسه کول وځنډوي.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">د Morse ګروپونه له %1$d غړیو یا کمو سره ښه کار ورکوي. د زیات شمېر غړو اضافه کول به د پیغامونو لیږل او تر لاسه کول وځنډوي.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">%1$d غړی</item>
     <item quantity="other">%1$d غړي</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">د دې لپاره چې هغوی ښکاره کړي نو Signal ستاسې مخاطبینو ته د لاسرسي لرلو لپاره اړتیا لري.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">د دې لپاره چې هغوی ښکاره کړي نو Morse ستاسې مخاطبینو ته د لاسرسي لرلو لپاره اړتیا لري.</string>
   <string name="contact_selection_list_fragment__show_contacts">د مخاطبینو ښکاره کول</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1630,7 +1630,7 @@
     <item quantity="other">%1$d غړي</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">د Signal پیغام</string>
+  <string name="conversation_activity__type_message_push">د Morse پیغام</string>
   <string name="conversation_activity__type_message_sms_insecure">ناخوندي SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">ناخوندي MMS</string>
   <string name="conversation_activity__from_sim_name">%1$s له خوا</string>
@@ -1642,7 +1642,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">د کیمرې د ضمیمې روک په چټکۍ سره واړوئ</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">اډیويي ضمیمه ثبت او ویې لیږئ</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">د اډیويي ضمیمې ثبت قفل کړئ</string>
-  <string name="conversation_activity__enable_signal_for_sms">د SMS لپاره  Signal فعال کړئ</string>
+  <string name="conversation_activity__enable_signal_for_sms">د SMS لپاره  Morse فعال کړئ</string>
   <string name="conversation_activity__message_could_not_be_sent">پیغام و نه لیږل شو. خپل اتصال وګورئ او بیا هڅه وکړئ.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">کش یې کړئ چې لغوه شي</string>
@@ -1750,9 +1750,9 @@
   <string name="IdentityUtil_unverified_banner_one">ستاسې د خوندیتوب شمېره له %s سره بدله شوې ده او نوره باوري نه ده</string>
   <string name="IdentityUtil_unverified_banner_two">ستاسې د خوندیتوب شمېرې له %1$s او %2$s سره نور باوري نه دي</string>
   <string name="IdentityUtil_unverified_banner_many">ستاسې د خوندیتوب شمېرې له %1$s، %2$s، او %3$s سره نور باوري نه دي</string>
-  <string name="IdentityUtil_unverified_dialog_one">ستاسې خوندي شمېره له %1$s سره بدله شوې ده. دا په دې معنی چې یا کوم کس غواړي چې ستاسې مکالمه اخلال کړي، یا هم دا چې %1$sیوازې Signal بیرته له سره انسټال کړئ.</string>
-  <string name="IdentityUtil_unverified_dialog_two">ستاسې د خوندیتوب شمېرې له %1$s او %2$s سره نور خوندي نه دي. دا په دې معنی چې یا کوم کس غواړي چې ستاسې مکالمه اخلال کړي، یا دا چې هغوی Signal له سره انسټال کړی دی.</string>
-  <string name="IdentityUtil_unverified_dialog_many">ستاسې د خوندیتوب شمېرې له %1$s، %2$s او %3$s سره نور خوندي نه دي. دا په دې معنی چې یا کوم کس غواړي چې ستاسې مکالمه اخلال کړي، یا دا چې هغوی Signal له سره انسټال کړی دی.</string>
+  <string name="IdentityUtil_unverified_dialog_one">ستاسې خوندي شمېره له %1$s سره بدله شوې ده. دا په دې معنی چې یا کوم کس غواړي چې ستاسې مکالمه اخلال کړي، یا هم دا چې %1$sیوازې Morse بیرته له سره انسټال کړئ.</string>
+  <string name="IdentityUtil_unverified_dialog_two">ستاسې د خوندیتوب شمېرې له %1$s او %2$s سره نور خوندي نه دي. دا په دې معنی چې یا کوم کس غواړي چې ستاسې مکالمه اخلال کړي، یا دا چې هغوی Morse له سره انسټال کړی دی.</string>
+  <string name="IdentityUtil_unverified_dialog_many">ستاسې د خوندیتوب شمېرې له %1$s، %2$s او %3$s سره نور خوندي نه دي. دا په دې معنی چې یا کوم کس غواړي چې ستاسې مکالمه اخلال کړي، یا دا چې هغوی Morse له سره انسټال کړی دی.</string>
   <string name="IdentityUtil_untrusted_dialog_one">ستاسې د خوندیتوب شمېره له %s سره تازه بدله شوې ده.</string>
   <string name="IdentityUtil_untrusted_dialog_two">ستاسې د خوندیتوب شمېرې له %1$s او %2$s سره تازه بدلې شوي دي.</string>
   <string name="IdentityUtil_untrusted_dialog_many">ستاسې د خوندیتوب شمېرې له %1$s، %2$s او %3$s سره تازه بدلې شوي دی.</string>
@@ -1765,7 +1765,7 @@
   <!--giphy_fragment-->
   <string name="giphy_fragment__nothing_found">هېڅ و نه موندل شو</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">غواړئ چې خپل شته لیکل شوي پیغامونه مو د Signal انکریپټ شوي ډیټابیز ته راوړئ؟</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">غواړئ چې خپل شته لیکل شوي پیغامونه مو د Morse انکریپټ شوي ډیټابیز ته راوړئ؟</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">د ډیتابیز عادي سیستم به تعدیل نشي یا هم په هر صورت سره بدل به نشي.</string>
   <string name="database_migration_activity__skip">ترې تیر شئ</string>
   <string name="database_migration_activity__import">را وارد یې کړئ</string>
@@ -1788,7 +1788,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">له قفل حالت څخه ایستل</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal د MMS تنظیماتو ته اړتیا لري تر څو ستاسې د بېسیم مخابراتي شرکت له لارې میډیا او د ګروپ بیغامونه ولیږي. ستاسې وسیله دغه معلومات نه لري، چې دا کار زیاتره د قفل شویو وسیلو او نورو محدود شویو کانفیګوریشنونو له کبله رامنځته کېږي.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Morse د MMS تنظیماتو ته اړتیا لري تر څو ستاسې د بېسیم مخابراتي شرکت له لارې میډیا او د ګروپ بیغامونه ولیږي. ستاسې وسیله دغه معلومات نه لري، چې دا کار زیاتره د قفل شویو وسیلو او نورو محدود شویو کانفیګوریشنونو له کبله رامنځته کېږي.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">د میډیا او د ګروپ د پیغامونو د لیږلو لپاره، پر \'OK\' کلیک وکړئ او اړین تنظیمات یې بشپړ کړئ. ستاسې د مخابراتي شبکې د MMS تنظیمات معمولاً ستاسې \'د مخابراتي شبکې د APN\' په پلټلو سره موقعیت یابي کېدای شي. تاسې باید یوازې یو ځل دا کار وکړئ.</string>
   <!--BadDecryptLearnMoreDialog-->
   <string name="BadDecryptLearnMoreDialog_delivery_issue">د لیږلو ستونزه</string>
@@ -1828,7 +1828,7 @@
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>د نوم یا شمېرې دننه کول</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[ له %s سره د سرتاسري انکریپشن د امنیت د تایید لپاره، پورتنۍ شمېرې د هغوی له وسیلې سره پرتله کړئ. همداشان تاسې کولای شئ چې د هغوی په ټلیفون کې دا کوډ سکن کړئ. <a href="https://signal.org/redirect/safety-numbers">لا زیات زده کړئ.</a>]]></string>
+  <string name="verify_display_fragment__to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[ له %s سره د سرتاسري انکریپشن د امنیت د تایید لپاره، پورتنۍ شمېرې د هغوی له وسیلې سره پرتله کړئ. همداشان تاسې کولای شئ چې د هغوی په ټلیفون کې دا کوډ سکن کړئ. <a href="https://devplusone.com/redirect/safety-numbers">لا زیات زده کړئ.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">د سکن لپاره کلیک وکړئ</string>
   <string name="verify_display_fragment__successful_match">همخواني بریالۍ وه</string>
   <string name="verify_display_fragment__failed_to_verify_safety_number">د خوندیتوب د شمېرې تایید تر سره نشو</string>
@@ -1885,7 +1885,7 @@
   <string name="HelpFragment__how_do_you_feel">څه احساس کوی؟ (اختیاري)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">موږ ته ووایاست چې ولې لاس په کار شوي یاست.</string>
   <string name="HelpFragment__support_info">مرستندویه معلومات</string>
-  <string name="HelpFragment__signal_android_support_request">د Signal د Android د مرستې غوښتنه</string>
+  <string name="HelpFragment__signal_android_support_request">د Morse د Android د مرستې غوښتنه</string>
   <string name="HelpFragment__debug_log">د ستونزې د هواري رپوټ:</string>
   <string name="HelpFragment__could_not_upload_logs">رپوټونه یې اپلوډ نشو کړای</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">د ستونزې په اړه د پوهیدو لپاره مهرباني وکړئ د امکان تر بریده پورې سهي تشریح راکړئ.</string>
@@ -1937,8 +1937,8 @@
   <string name="preferences__sms_mms">SMS او MMS</string>
   <string name="preferences__pref_all_sms_title">ټول SMS تر لاسه کول</string>
   <string name="preferences__pref_all_mms_title">ټول MMS تر لاسه کول</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">د ټولو راتلونکو لیکلو پیغامونو لپاره د Signal کارول</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">د ټولو راتلونکو ګڼ رسنیزو پیغامونو لپاره د Signal کارول</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">د ټولو راتلونکو لیکلو پیغامونو لپاره د Morse کارول</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">د ټولو راتلونکو ګڼ رسنیزو پیغامونو لپاره د Morse کارول</string>
   <string name="preferences__pref_enter_sends_title">د لیږلو لپاره د Enter د دکمې کارول</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">د Enter د دکمې په کېکاږلو سره به لیکلي پیغام ولیږل شي</string>
   <string name="preferences__pref_use_address_book_photos">د کتاب د پتې د انځورونو کارول</string>
@@ -1953,7 +1953,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">سکرین او خبرتیاووې په پټ نوم سره قفل کړئ</string>
   <string name="preferences__screen_security">د سکرین امنیت</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">په وروستي لیست او په اپلیکیشن کې دننه د سکرین شاټونو بلاک کول</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">د فعالیت نه لرلو د یوه مشخص زماني وخت نه وروسته په اتومات ډول د Signal قفل کېدل</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">د فعالیت نه لرلو د یوه مشخص زماني وخت نه وروسته په اتومات ډول د Morse قفل کېدل</string>
   <string name="preferences__inactivity_timeout_passphrase">د نه فعالیت لرلو د وخت پټ عبارت</string>
   <string name="preferences__inactivity_timeout_interval">د نه فعالیت لرلو د وخت موده</string>
   <string name="preferences__notifications">خبرتیاووې</string>
@@ -1984,9 +1984,9 @@
   <string name="preferences__slow">ورو</string>
   <string name="preferences__help">مرسته</string>
   <string name="preferences__advanced">پرمختللی</string>
-  <string name="preferences__donate_to_signal">Signal سره مرسته کول</string>
+  <string name="preferences__donate_to_signal">Morse سره مرسته کول</string>
   <string name="preferences__subscription">ګډون</string>
-  <string name="preferences__signal_boost">د Signal پیاوړی کول</string>
+  <string name="preferences__signal_boost">د Morse پیاوړی کول</string>
   <string name="preferences__privacy">محرمیت</string>
   <string name="preferences__mms_user_agent">د MMS د کارن استازی</string>
   <string name="preferences__advanced_mms_access_point_names">د MMS لاسي تنظیمات</string>
@@ -2013,13 +2013,13 @@
   <string name="preferences__chat_color_and_wallpaper">د چټ رنګ او والپیپر</string>
   <string name="preferences__disable_pin">د PIN غیرفعاله کول</string>
   <string name="preferences__enable_pin">د PIN فعالول</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">که مو چیرته PIN غیرفعاله کړی وي، نو د Signal په بیرته ثبتولو سره به ټول اطلاعات له لاسه ورکړئ، مګر دا چې تاسې یې په خپل لاس بک اپ او بیرته راوګرځوئ. کله چې PIN غیرفعال وي نو تاسې نشئ کولای چې د نوم لیکنې قفل یې روښانه کړئ.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PINs له Signal سره زیرمه شوي معلومات انکریپټ شوي ساتي تر څو یوازې تاسې ورته لاسرسی ولری. ستاسې پروفایل، تنظیمات او مخاطبین به هغه له بیاځلې انسټال وروسته بیرته تر لاسه کړي. د همدې اپلیکیشن د پرانیستلو لپاره به تاسې خپل PIN ته اړتیا و نه لرئ.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">که مو چیرته PIN غیرفعاله کړی وي، نو د Morse په بیرته ثبتولو سره به ټول اطلاعات له لاسه ورکړئ، مګر دا چې تاسې یې په خپل لاس بک اپ او بیرته راوګرځوئ. کله چې PIN غیرفعال وي نو تاسې نشئ کولای چې د نوم لیکنې قفل یې روښانه کړئ.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PINs له Morse سره زیرمه شوي معلومات انکریپټ شوي ساتي تر څو یوازې تاسې ورته لاسرسی ولری. ستاسې پروفایل، تنظیمات او مخاطبین به هغه له بیاځلې انسټال وروسته بیرته تر لاسه کړي. د همدې اپلیکیشن د پرانیستلو لپاره به تاسې خپل PIN ته اړتیا و نه لرئ.</string>
   <string name="preferences__system_default">عادي سیستم</string>
   <string name="preferences__language">ژبه</string>
-  <string name="preferences__signal_messages_and_calls">د Signal پیغامونه او ټلیفوني اړیکې</string>
+  <string name="preferences__signal_messages_and_calls">د Morse پیغامونه او ټلیفوني اړیکې</string>
   <string name="preferences__advanced_pin_settings">د PIN پرمختللي تنظیمات</string>
-  <string name="preferences__free_private_messages_and_calls">د Signal کاروونکو لپاره وړیا خصوصي پیغامونه او ټلیفوني اړیکې</string>
+  <string name="preferences__free_private_messages_and_calls">د Morse کاروونکو لپاره وړیا خصوصي پیغامونه او ټلیفوني اړیکې</string>
   <string name="preferences__submit_debug_log">د ستونزې د هواري د رپوټ تسلیمول</string>
   <string name="preferences__delete_account">د اکاونټ له منځه وړل</string>
   <string name="preferences__support_wifi_calling">د \'WiFi له لارې د زنګ وهلو\' د سازګاري حالت</string>
@@ -2059,8 +2059,8 @@
   <string name="preferences_storage__s_messages">%1$s پیغامونه</string>
   <string name="preferences_storage__custom">سفارشي</string>
   <string name="preferences_advanced__use_system_emoji">د سیستم emoji وکاروئ</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">په Signal کې دننه جوړ شوي emoji غیرفعال کړئ</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">خپلې ټولې اړیکې د Signal د سرور له لارې تیرې کړئ تر څو ستاسې مخاطب ته ستاسې د IP پتې د ښکاره کېدو مخنیوی وکړي. د دې غوراوي فعالول به د اړیکې کیفیت راټیټ کړي.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">په Morse کې دننه جوړ شوي emoji غیرفعال کړئ</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">خپلې ټولې اړیکې د Morse د سرور له لارې تیرې کړئ تر څو ستاسې مخاطب ته ستاسې د IP پتې د ښکاره کېدو مخنیوی وکړي. د دې غوراوي فعالول به د اړیکې کیفیت راټیټ کړي.</string>
   <string name="preferences_advanced__always_relay_calls">تل د اړیکو تیرول</string>
   <string name="preferences_app_protection__who_can">څوک کولای شي چې…</string>
   <string name="preferences_app_protection__app_access">اپلیکیشن ته لاسرسی</string>
@@ -2080,9 +2080,9 @@
   <string name="preferences_notifications__calls">ټلیفوني اړیکې</string>
   <string name="preferences_notifications__ringtone">د زنګ اواز</string>
   <string name="preferences_chats__show_invitation_prompts">د بلنلیک د غوراوي ښودل</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">د هغو مخاطبینو لپاره کوم چې د Signal غړي نه دي هغوی ته د بلنې د غوراوي ښودل</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">د هغو مخاطبینو لپاره کوم چې د Morse غړي نه دي هغوی ته د بلنې د غوراوي ښودل</string>
   <string name="preferences_chats__message_text_size">د پیغام د فونټ اندازه</string>
-  <string name="preferences_events__contact_joined_signal">مخاطب Signal سره یو ځای شو</string>
+  <string name="preferences_events__contact_joined_signal">مخاطب Morse سره یو ځای شو</string>
   <string name="preferences_notifications__priority">لومړیتوب</string>
   <string name="preferences_communication__category_sealed_sender">ناپیژانده لیږونکی</string>
   <string name="preferences_communication__sealed_sender_display_indicators">د شاخصونو ښودل</string>
@@ -2096,7 +2096,7 @@
   <string name="preferences_off">خاموش</string>
   <string name="preferences_on">روښانه</string>
   <string name="preferences_proxy_address">د پراکسي پته</string>
-  <string name="preferences_only_use_a_proxy_if">که چیرته تاسې نشئ کولای چې له Signal سره د موبایل په ډیټا یا وای فای کې وصل شئ، نو بیا یوازې پراکسي وکاروئ.</string>
+  <string name="preferences_only_use_a_proxy_if">که چیرته تاسې نشئ کولای چې له Morse سره د موبایل په ډیټا یا وای فای کې وصل شئ، نو بیا یوازې پراکسي وکاروئ.</string>
   <string name="preferences_share">شریکول</string>
   <string name="preferences_save">ثبت</string>
   <string name="preferences_connecting_to_proxy">له پراکسي سره نښلول کېږي…</string>
@@ -2115,7 +2115,7 @@
   <string name="PaymentsAllActivityFragment__sent">لیږل شوی</string>
   <string name="PaymentsAllActivityFragment__received">راورسیدي</string>
   <string name="PaymentsHomeFragment__introducing_payments">د پرداختونو پیزندنه (بیټا)</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">له Signal څخه د MobileCoin د لیږد او تر لاسه کولو لپاره کار واخلئ، کوم چې پر خصوصي حریم باندې یو متمرکز ډیجیټالي اسعار دي. د پیلولو لپاره یې فعال کړئ.</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">له Morse څخه د MobileCoin د لیږد او تر لاسه کولو لپاره کار واخلئ، کوم چې پر خصوصي حریم باندې یو متمرکز ډیجیټالي اسعار دي. د پیلولو لپاره یې فعال کړئ.</string>
   <string name="PaymentsHomeFragment__activate_payments">د پرداختونو فعالول</string>
   <string name="PaymentsHomeFragment__activating_payments">پرداختونه د فعاله کېدو په حال کې دي…</string>
   <string name="PaymentsHomeFragment__restore_payments_account">د اکاونټ د پرداختونو بیرته تر لاسه کول</string>
@@ -2142,17 +2142,17 @@
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">ستاسې په سیمه کې پرداختونه د لاسرسي وړ نه دي.</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">پرداختونه یې فعاله کېدای نشي. وروسته بیا هڅه وکړئ.</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">غواړئ پرداختونه غیرفعاله کړئ؟</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">که چیرته تاسې پرداختونه غیرفعال کړئ نو تاسې به ونشئ کړای چې MobileCoin په خپل Signal کې ولیږئ یا تر لاسه یې کړئ.</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">که چیرته تاسې پرداختونه غیرفعال کړئ نو تاسې به ونشئ کړای چې MobileCoin په خپل Morse کې ولیږئ یا تر لاسه یې کړئ.</string>
   <string name="PaymentsHomeFragment__deactivate">غیرفعاله کول</string>
   <string name="PaymentsHomeFragment__continue">ادامه</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">اوسمهال کوم بېلانس نشته.</string>
   <string name="PaymentsHomeFragment__payments_deactivated">پرداختونه غیرفعاله شول.</string>
   <string name="PaymentsHomeFragment__payment_failed">پرداخت تر سره نشو</string>
   <string name="PaymentsHomeFragment__details">سپړنې</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">تاسې کولای شئ چې Signal د MobileCoin د لیږد او تر لاسه کولو لپاره وکاروئ. ټول پرداختونه د MobileCoin د کارولو شرایطو او د MobileCoin جیبي بکسک ته تابع دي. دا د بیټا یوه وړتیا ده، له همدې کبله ښایي تاسې له ځینو ستونزو سره مخ شئ او هغه پرداختونه او بېلانسونه چې تاسې یې ښایي له لاسه ورکړئ، د بیرته تر لاسه کولو وړ و نه اوسي. </string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">تاسې کولای شئ چې Morse د MobileCoin د لیږد او تر لاسه کولو لپاره وکاروئ. ټول پرداختونه د MobileCoin د کارولو شرایطو او د MobileCoin جیبي بکسک ته تابع دي. دا د بیټا یوه وړتیا ده، له همدې کبله ښایي تاسې له ځینو ستونزو سره مخ شئ او هغه پرداختونه او بېلانسونه چې تاسې یې ښایي له لاسه ورکړئ، د بیرته تر لاسه کولو وړ و نه اوسي. </string>
   <string name="PaymentsHomeFragment__activate">فعالول</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">د MobileCoin د شرایطو لیدل</string>
-  <string name="PaymentsHomeFragment__payments_not_available">په Signal کې پرداخت نور د لاسرسي وړ نه دی. خو تاسې بیا هم کولای شئ چې پیسې یوې صرافۍ ته ولیږئ خو تاسې به نور ونشئ کولای چې پرداختونه ولیږئ یا یې تر لاسه کړئ یا هم پیسې اضافه کړئ.</string>
+  <string name="PaymentsHomeFragment__payments_not_available">په Morse کې پرداخت نور د لاسرسي وړ نه دی. خو تاسې بیا هم کولای شئ چې پیسې یوې صرافۍ ته ولیږئ خو تاسې به نور ونشئ کولای چې پرداختونه ولیږئ یا یې تر لاسه کړئ یا هم پیسې اضافه کړئ.</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">د پیسو اضافه کول</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">ستاسې د جیبي بکسک پته</string>
@@ -2189,10 +2189,10 @@
   <string name="PaymentsTransferFragment__next">بل</string>
   <string name="PaymentsTransferFragment__invalid_address">ناسمه پته</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">د هغه جیبي بکسک پته چې ورته د لیږد په حال کې یاست بیا وګورئ او یو ځل بیا هڅه وکړئ.</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">تاسې نشئ کولای چې خپل د Signal جیبي بکسک ته پیسې ولیږئ. له خپل اکاونټ څخه د جیبي بکسک پته په یوه پشتیباني شوي صرافي کې دننه کړئ.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">د QR کوډ د سکن کولو لپاره، Signal کیمرې ته لاسرسي لرلو لپاره اړتیا لري.</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Signal د QR کوډ د اخیستلو لپاره د کیمرې اجازې ته اړتیا لري. تنظیماتو ته ولاړ شئ، \"اجازې\" وټاکئ او \"کیمره\" فعاله کړئ.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">د QR کوډ د سکن کولو لپاره، Signal کیمرې ته لاسرسي لرلو لپاره اړتیا لري.</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">تاسې نشئ کولای چې خپل د Morse جیبي بکسک ته پیسې ولیږئ. له خپل اکاونټ څخه د جیبي بکسک پته په یوه پشتیباني شوي صرافي کې دننه کړئ.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">د QR کوډ د سکن کولو لپاره، Morse کیمرې ته لاسرسي لرلو لپاره اړتیا لري.</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Morse د QR کوډ د اخیستلو لپاره د کیمرې اجازې ته اړتیا لري. تنظیماتو ته ولاړ شئ، \"اجازې\" وټاکئ او \"کیمره\" فعاله کړئ.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">د QR کوډ د سکن کولو لپاره، Morse کیمرې ته لاسرسي لرلو لپاره اړتیا لري.</string>
   <string name="PaymentsTransferFragment__settings">تنظیمات</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">د QR د کوډ پته سکن کړئ</string>
@@ -2250,8 +2250,8 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">ټلیفوني اړیکه</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">د Signal ټلیفوني اړیکه</string>
-  <string name="conversation_callable_secure__menu_video">د Signal ویډیويي اړیکه</string>
+  <string name="conversation_callable_secure__menu_call">د Morse ټلیفوني اړیکه</string>
+  <string name="conversation_callable_secure__menu_video">د Morse ویډیويي اړیکه</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">د پیغام جزئیات</string>
   <string name="conversation_context__menu_copy_text">د متن کاپي کول</string>
@@ -2323,10 +2323,10 @@
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">له کلیپبورد سره پرتله کول</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">د سیستم SMS واردول</string>
-  <string name="reminder_header_sms_import_text">کلیک وکړئ تر څو د خپل ټلیفون د SMS پیغامونه د Signal انکریپټ شوي ډیټابیز ته کاپي کړئ.</string>
-  <string name="reminder_header_push_title">د Signal د پیغامونو او ټلیفوني اړیکو فعالول</string>
+  <string name="reminder_header_sms_import_text">کلیک وکړئ تر څو د خپل ټلیفون د SMS پیغامونه د Morse انکریپټ شوي ډیټابیز ته کاپي کړئ.</string>
+  <string name="reminder_header_push_title">د Morse د پیغامونو او ټلیفوني اړیکو فعالول</string>
   <string name="reminder_header_push_text">خپله د محاورې تجبه مو اپګریډ کړئ.</string>
-  <string name="reminder_header_service_outage_text">Signal تخنیکي ستونزې سره مخ شوی. موږ په بیړه سره پر دې کار کوو تر څو هر څه ژر چې ممکن وي خپل خدمات بیرته عادي حالت ته راوګرځوو.</string>
+  <string name="reminder_header_service_outage_text">Morse تخنیکي ستونزې سره مخ شوی. موږ په بیړه سره پر دې کار کوو تر څو هر څه ژر چې ممکن وي خپل خدمات بیرته عادي حالت ته راوګرځوو.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">ثبت </string>
@@ -2342,22 +2342,22 @@
   <string name="Insights__percent">٪</string>
   <string name="Insights__title">لیدلوري</string>
   <string name="InsightsDashboardFragment__title">لیدلوري</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">د Signal پروتوکول په اتومات ډول په تیرو %2$d ورځو کې ستاسې %1$d%% تلونکي پیغامونه خوندي کړي دي. د Signal د کاروونکو تر منځ محاورې تل په سرتاسري بڼه سره انکریپټ شوي دي.</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">د Signal پیاوړی کول</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">د Morse پروتوکول په اتومات ډول په تیرو %2$d ورځو کې ستاسې %1$d%% تلونکي پیغامونه خوندي کړي دي. د Morse د کاروونکو تر منځ محاورې تل په سرتاسري بڼه سره انکریپټ شوي دي.</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">د Morse پیاوړی کول</string>
   <string name="InsightsDashboardFragment__not_enough_data">کافي ډیټا نشته</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">ستاسې د لیدلوري فیصدي په تیرو %1$d ورځو کې د تلونکو نه ورک کېدونکو یا نه پاک شویو تلونکو پیغامونو له مخې محاسبه کېږی.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">محاوره پیل کړئ</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts"> Signal ته د زیاتو مخاطبینو په رابللو سره په خوندي توګه مو مکالمې پیل کړئ او نوي ځانګړنې مو فعالې کړئ کوم چې د نه انکریپټ شویو SMS پیغامونو له محدودې څخه لري دي.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts"> Morse ته د زیاتو مخاطبینو په رابللو سره په خوندي توګه مو مکالمې پیل کړئ او نوي ځانګړنې مو فعالې کړئ کوم چې د نه انکریپټ شویو SMS پیغامونو له محدودې څخه لري دي.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">دغه احصائیه په سیمه ایزه توګه ستاسې په وسیله کې رامنځته شوي دي او یوازې ستاسې له خوا لیدل کېدای شي. هغوی بل هیڅ چیرې نه لیږل کېږي.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">انکریپټ شوي پیغامونه</string>
   <string name="InsightsDashboardFragment__cancel">لغوه کول</string>
   <string name="InsightsDashboardFragment__send">لیږل</string>
   <string name="InsightsModalFragment__title">د لیدلورو پیژندنه</string>
-  <string name="InsightsModalFragment__description">دا ومومئ چې ستاسې څومره تلونکي پیغامونه په خوندي توګه لیږل شوي دي، وروسته په چټکۍ سره نوي مخاطبین راوبولئ تر څو د خپل Signal فیصدي پیاوړي کړئ.</string>
+  <string name="InsightsModalFragment__description">دا ومومئ چې ستاسې څومره تلونکي پیغامونه په خوندي توګه لیږل شوي دي، وروسته په چټکۍ سره نوي مخاطبین راوبولئ تر څو د خپل Morse فیصدي پیاوړي کړئ.</string>
   <string name="InsightsModalFragment__view_insights">لیدلوري ووینئ</string>
-  <string name="FirstInviteReminder__title">Signal ته رابلل</string>
+  <string name="FirstInviteReminder__title">Morse ته رابلل</string>
   <string name="FirstInviteReminder__description">تاسې کولای شئ چې ستاسې له خوا د لیږل شویو انکریپټ پیغامونو شمېر %1$d%% زیاته کړئ</string>
-  <string name="SecondInviteReminder__title">خپل Signal پیاوړی کړئ</string>
+  <string name="SecondInviteReminder__title">خپل Morse پیاوړی کړئ</string>
   <string name="SecondInviteReminder__description">%1$s راوبولئ</string>
   <string name="InsightsReminder__view_insights">لیدلوري ووینئ</string>
   <string name="InsightsReminder__invite">بلنه</string>
@@ -2378,7 +2378,7 @@
   <string name="CreateKbsPinFragment__create_a_new_pin">یو نوی PIN جوړ کړئ</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">تر څو چې دا وسیله ثبت شوې وي تاسې کولای شئ چې خپل PIN بدل کړئ.</string>
   <string name="CreateKbsPinFragment__create_your_pin">خپل PIN جوړ کړئ</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PINs له Signal سره زیرمه شوي معلومات انکریپټ شوي ساتي تر څو یوازې تاسې ورته لاسرسی ولری. ستاسې پروفایل، تنظیمات او مخاطبین به هغه له بیاځلې انسټال وروسته بیرته تر لاسه کړي. د همدې اپلیکیشن د پرانیستلو لپاره به تاسې خپل PIN ته اړتیا و نه لرئ.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PINs له Morse سره زیرمه شوي معلومات انکریپټ شوي ساتي تر څو یوازې تاسې ورته لاسرسی ولری. ستاسې پروفایل، تنظیمات او مخاطبین به هغه له بیاځلې انسټال وروسته بیرته تر لاسه کړي. د همدې اپلیکیشن د پرانیستلو لپاره به تاسې خپل PIN ته اړتیا و نه لرئ.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">یو پیاوړی PIN وټاکئ</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PINs له یوه بل سره ورته نه دي. بیا هڅه وکړئ.</string>
@@ -2390,7 +2390,7 @@
   <string name="ConfirmKbsPinFragment__creating_pin">PIN د رامنځته کېدو په حال کې ده…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">د PINs پيژندنه</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PINs له Signal سره زیرمه شوي معلومات انکریپټ شوي ساتي تر څو یوازې تاسې ورته لاسرسی ولری. ستاسې پروفایل، تنظیمات او مخاطبین به هغه له بیاځلې انسټال وروسته بیرته تر لاسه کړي. د همدې اپلیکیشن د پرانیستلو لپاره به تاسې خپل PIN ته اړتیا و نه لرئ.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PINs له Morse سره زیرمه شوي معلومات انکریپټ شوي ساتي تر څو یوازې تاسې ورته لاسرسی ولری. ستاسې پروفایل، تنظیمات او مخاطبین به هغه له بیاځلې انسټال وروسته بیرته تر لاسه کړي. د همدې اپلیکیشن د پرانیستلو لپاره به تاسې خپل PIN ته اړتیا و نه لرئ.</string>
   <string name="KbsSplashFragment__learn_more">لا زیات زده کړئ </string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">د نومليکنې قفل = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">ستاسو د نومليکنې قفل اوس د PIN په نوم یادېږي او دا ډېر څه کولای شي. اوس يې اپډېټ کړئ. </string>
@@ -2399,7 +2399,7 @@
   <string name="KbsSplashFragment__learn_more_about_pins">د PINs په اړه لا ډېر زده کړئ</string>
   <string name="KbsSplashFragment__disable_pin">د PIN غیرفعاله کول</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">خپل د Signal PIN دننه کړئ</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">خپل د Morse PIN دننه کړئ</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">دا چې له تاسې سره د خپل PIN په یاد ساتلو کې مرسته وکړو، نو موږ به له تاسې څخه وغواړو چې هغه وخت ناوخته دننه کړئ. د وخت په تیریدو سره به دا پوښتنه کمه در څخه کوو.</string>
   <string name="KbsReminderDialog__skip">ترې تیر شئ</string>
   <string name="KbsReminderDialog__submit">تسلیمول</string>
@@ -2420,8 +2420,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">ناسم PIN</string>
   <string name="RegistrationLockFragment__forgot_your_pin">خپل PIN مو هېر کړی؟</string>
   <string name="RegistrationLockFragment__not_many_tries_left">ډېرې هڅې مو نه دي پاتې!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">د Signal نوملیکنه – د Android لپاره په PIN سره مرستې ته اړتیا لرئ (v1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">د Signal نوملیکنه – د Android لپاره په PIN سره مرستې ته اړتیا لرئ (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">د Morse نوملیکنه – د Android لپاره په PIN سره مرستې ته اړتیا لرئ (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">د Morse نوملیکنه – د Android لپاره په PIN سره مرستې ته اړتیا لرئ (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one"> ستا د محرمیت او امنیت لپاره، هېڅ داسې لاره شتون نه لري چې خپل پېن بیا ترلاسه کړی. که خپل پېن په یاد ونلری، ته کولای شی د اېس اېم اېس له طریقه يې د غیرفعالیتوب له %1$dورځ څخه وروسته بیا تصديق کړی. په دې صورت کې به، ستا حساب پاکېږي او ټول محتویات به يې توږل کېږي. </item>
     <item quantity="other">ستاسو د محرمیت او امنیت لپاره، هېڅ داسې لاره نشته چې خپل PIN بیا ترلاسه کړئ. که خپل PIN په یاد ونلرئ، تاسو کولای شئ د SMS له طریقه يې د غیرفعالیتوب له %1$dورځو څخه وروسته بیا تصديق کړئ. په دې صورت کې به، ستاسو حساب پاکېږي او ټول محتویات به يې له منځه ولاړ شي. </item>
@@ -2446,15 +2446,15 @@
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s به له تاسې څخه د پیغام غوښتنه تر لاسه کړي. کله چې ستاسې د پیغام غوښتنه ومنل شوه نو بیا تاسې کولای شئ چې ټلیفون اړیکه ورسره ونیسئ.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">د PIN جوړول</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PINs هغه معلومات ساتي کوم چې له Signal سره په انکریپټ ډول زیرمه شوي دي.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PINs هغه معلومات ساتي کوم چې له Morse سره په انکریپټ ډول زیرمه شوي دي.</string>
   <string name="KbsMegaphone__create_pin">د PIN جوړول</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">دا چې تاسې څه فکر کوئ نو Signal ته ووایاست</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">د دې لپاه چې Signal په نړۍ کې د پیغام لیږلو لپاره غوره اپلیکیشن وګرځوو، نو موږ ستاسې نظریات په ورین تندي منو.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">دا چې تاسې څه فکر کوئ نو Morse ته ووایاست</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">د دې لپاه چې Morse په نړۍ کې د پیغام لیږلو لپاره غوره اپلیکیشن وګرځوو، نو موږ ستاسې نظریات په ورین تندي منو.</string>
   <string name="ResearchMegaphone_learn_more">لا زیات زده کړئ</string>
   <string name="ResearchMegaphone_dismiss">مرخص کول</string>
-  <string name="ResearchMegaphoneDialog_signal_research">د Signal څېړنه</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>موږ پر محرمیت باندې باور لرو. </b></p><p>Signal تاسې نه تعقیبوي نه هم ستاسې ډیټا را ټولوي. د هر چا لپاره د Signal د ښه والي په خاطر، موږ د کارن پر فیډبک باندې تکیه کوو، <b> او هغو سره مینه کوو. </b></p><p> موږ داسې یوه سروې پر لاره اچولې تر څو پوه شو چې تاسې له Signal څخه څرنګه کار اخلئ. زموږ سروې ستاسې داسې کومه ډیټا نه را ټولوي چې له کبله یې تاسې وپیژندل شئ. که چیرته د اضافي فیډبک له شریکولو سره لېواله یاست، نو تاسې به دا غوراوی ولری چې د اړیکو معلومات وړاندې کړئ. </p><p> که چیرته تاسې څو دقیقې وخت او کوم فیډبک ولری، نو موږ به یې په مینه له تاسې واورو.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">د Morse څېړنه</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>موږ پر محرمیت باندې باور لرو. </b></p><p>Morse تاسې نه تعقیبوي نه هم ستاسې ډیټا را ټولوي. د هر چا لپاره د Morse د ښه والي په خاطر، موږ د کارن پر فیډبک باندې تکیه کوو، <b> او هغو سره مینه کوو. </b></p><p> موږ داسې یوه سروې پر لاره اچولې تر څو پوه شو چې تاسې له Morse څخه څرنګه کار اخلئ. زموږ سروې ستاسې داسې کومه ډیټا نه را ټولوي چې له کبله یې تاسې وپیژندل شئ. که چیرته د اضافي فیډبک له شریکولو سره لېواله یاست، نو تاسې به دا غوراوی ولری چې د اړیکو معلومات وړاندې کړئ. </p><p> که چیرته تاسې څو دقیقې وخت او کوم فیډبک ولری، نو موږ به یې په مینه له تاسې واورو.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">سروې واخلئ</string>
   <string name="ResearchMegaphoneDialog_no_thanks">نه مننه</string>
   <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">د دغې سروې کوربه توب د Alchemer له خوا په خوندي ډومین کې کېږي surveys.signalusers.org</string>
@@ -2463,11 +2463,11 @@
   <string name="ConversationListFragment_loading">را ښکته کېږي…</string>
   <string name="CallNotificationBuilder_connecting">د وصل کېدو په حال کې…</string>
   <string name="Permissions_permission_required">اجازې ته اړتیا ده</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal د SMS اجازې ته اړتیا لري تر څو یو SMS ولیږي، خو هغه د تل لپاره رد شوی ده. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"SMS\" فعال کړئ.</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Morse د SMS اجازې ته اړتیا لري تر څو یو SMS ولیږي، خو هغه د تل لپاره رد شوی ده. نو مهرباني وکړئ د اپلیکیشن تنظیماتو ته ورشئ، \"اجازې\" وټاکئ او \"SMS\" فعال کړئ.</string>
   <string name="Permissions_continue">ادامه</string>
   <string name="Permissions_not_now">اوس نه</string>
-  <string name="conversation_activity__enable_signal_messages">د Signal د پیغامونو فعالول</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">د Signal د ډیټابیز کډه کول</string>
+  <string name="conversation_activity__enable_signal_messages">د Morse د پیغامونو فعالول</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">د Morse د ډیټابیز کډه کول</string>
   <string name="PushDecryptJob_new_locked_message">نوی قفل شوی پیغام</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">خلاص یې کړئ تر څو ځنډول شوي پیغامونه ووینئ</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">د بک اپ پټ عبارت</string>
@@ -2485,7 +2485,7 @@
   <string name="preferences_chats__transfer_account_to_a_new_android_device">د Android نوې وسیلې ته اکاونټ ولیږئ</string>
   <string name="RegistrationActivity_enter_backup_passphrase">د بک اپ پټ عبارت دننه کړئ</string>
   <string name="RegistrationActivity_restore">تر لاسه کول</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">د Signal له نوې نسخې څخه بک اپ بېرته نه را وارد کېږي</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">د Morse له نوې نسخې څخه بک اپ بېرته نه را وارد کېږي</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">د بک اپ ناسم پټ عبارت</string>
   <string name="RegistrationActivity_checking">د کتلو په حال کې…</string>
   <string name="RegistrationActivity_d_messages_so_far">تر دې دمه %d پیغامونه…</string>
@@ -2516,8 +2516,8 @@
   <string name="ProgressPreference_d_messages_so_far">تر اوسه پورې %d پیغامونه</string>
   <string name="RegistrationActivity_wrong_number">غلطه شمېره</string>
   <string name="RegistrationActivity_call_me_instead_available_in">د دې پر ځای زنګ راته ووهه/n (په %1$02d:%2$02d کې موجود دي)</string>
-  <string name="RegistrationActivity_contact_signal_support">د Signal له مرستې سره اړیکه</string>
-  <string name="RegistrationActivity_code_support_subject">د Signal نوم لیکنه - د Android لپاره د تاییدي کوډ</string>
+  <string name="RegistrationActivity_contact_signal_support">د Morse له مرستې سره اړیکه</string>
+  <string name="RegistrationActivity_code_support_subject">د Morse نوم لیکنه - د Android لپاره د تاییدي کوډ</string>
   <string name="RegistrationActivity_incorrect_code">ناسم کوډ</string>
   <string name="BackupUtil_never">هېڅکله</string>
   <string name="BackupUtil_unknown">ناپیژانده</string>
@@ -2527,21 +2527,21 @@
   <string name="PhoneNumberPrivacy_my_contacts">زما مخاطبین</string>
   <string name="PhoneNumberPrivacy_nobody">هېڅ کس</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">ستاسې د ټلیفون شمېره به ټولو هغو خلکو او ګروپونو ته د لیدلو وړ وي کوم چې تاسې ورته پیغام لیږئ.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">هر هغه څوک چې ستاسې د ټلیفون شمېره ورسره ثبت وي هغوی به تاسې په Signal کې د یوه مخاطب په توګه وویني. نور بیا کولای شي تاسې په پلټنه کې ومومي.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">هر هغه څوک چې ستاسې د ټلیفون شمېره ورسره ثبت وي هغوی به تاسې په Morse کې د یوه مخاطب په توګه وویني. نور بیا کولای شي تاسې په پلټنه کې ومومي.</string>
   <string name="preferences_app_protection__screen_lock">سکرین لاک</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Signal ته لاسرسی د Android د سکرین لاک یا ګوتې د نښو په مټ سره قفل کړئ</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Morse ته لاسرسی د Android د سکرین لاک یا ګوتې د نښو په مټ سره قفل کړئ</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">د سکرین لاک د نه فعالیت وخت</string>
-  <string name="preferences_app_protection__signal_pin">Signal PIN</string>
+  <string name="preferences_app_protection__signal_pin">Morse PIN</string>
   <string name="preferences_app_protection__create_a_pin">د PIN رامنځته کول</string>
   <string name="preferences_app_protection__change_your_pin">د خپل PIN بدلول</string>
   <string name="preferences_app_protection__pin_reminders">د PIN په یاد راوړونکي</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PINs په Signal کې زیرمه شوي معلومات انکریپټ شوي ساتي، چې په دې سره یوازې تاسې ورته لاسرسی لری.  ستاسې پروفایل، تنظیمات او مخاطبین به کله چې بیرته Signal انسټالوئ، بیرته تر لاسه شي.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">د خپل Signal PIN په تر لاسه کولو سره یو ځل بیا له  Signal سره د خپلې ټلیفون شمېرې په ثبتولو سره اضافي امنیت اضافه کړئ.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PINs په Morse کې زیرمه شوي معلومات انکریپټ شوي ساتي، چې په دې سره یوازې تاسې ورته لاسرسی لری.  ستاسې پروفایل، تنظیمات او مخاطبین به کله چې بیرته Morse انسټالوئ، بیرته تر لاسه شي.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">د خپل Morse PIN په تر لاسه کولو سره یو ځل بیا له  Morse سره د خپلې ټلیفون شمېرې په ثبتولو سره اضافي امنیت اضافه کړئ.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">په یاد راوړونکي له تاسې سره مرسته کوي تر څو خپل PIN په یاد راوړئ ځکه چې هغه بیرته نشي تر لاسه کېدای. له تاسې څخه به د وخت په تیریدو ډېر کم دا وپوښتنه وشي.</string>
   <string name="preferences_app_protection__turn_off">خاموشه یې کړئ</string>
   <string name="preferences_app_protection__confirm_pin">د PIN تایید</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">خپل د Signal PIN تایید کړئ</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">ځان ډاډه کړئ چې تاسې خپل PIN په یاد کړی یا هم په خوندي ځای کې مو ساتلی، ځکه چې هغه بیرته نشي تر لاسه کېدای. که مو چیرته خپل PIN هیر شوی وي، نو د Signal د اکاونټ د بیا نوم لیکنې په مهال به خپله ډیټا له لاسه ورکړئ.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">خپل د Morse PIN تایید کړئ</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">ځان ډاډه کړئ چې تاسې خپل PIN په یاد کړی یا هم په خوندي ځای کې مو ساتلی، ځکه چې هغه بیرته نشي تر لاسه کېدای. که مو چیرته خپل PIN هیر شوی وي، نو د Morse د اکاونټ د بیا نوم لیکنې په مهال به خپله ډیټا له لاسه ورکړئ.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">ناسم PIN. بیا کوښښ وکړئ.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">د نومليکنې د قفل فعالول ناکام شول.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">د نومليکنې د قفل غیرفعالول ناکام شول.</string>
@@ -2554,19 +2554,19 @@
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">تاسو ګڼ شمېر هڅې ترسره کړې دي. مهرباني وکړئ وروسته بیا کوښښ وکړئ. </string>
   <string name="RegistrationActivity_error_connecting_to_service">له خدمت سره په اتصال کې ستونزه رامنځ ته شوه</string>
   <string name="preferences_chats__backups">بک اپونه</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal قفل شوی</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Morse قفل شوی</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">د خلاصولو لپاره کلیک وکړئ</string>
   <string name="Recipient_unknown">ناپیژانده</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">د اکاونټ لیږل یا تر لاسه کول</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">که چیرته تاسې پخوا کوم د Signal اکاونټ درلود، نو کولای شئ چې خپل اکاونټ او پیغامونه مو ولیږئ یا یې تر لاسه کړئ.</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">که چیرته تاسې پخوا کوم د Morse اکاونټ درلود، نو کولای شئ چې خپل اکاونټ او پیغامونه مو ولیږئ یا یې تر لاسه کړئ.</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">د Android له وسیلې څخه یې ولیږئ</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">خپل اکاونټ او پیغامونه مو د Android له پخوانۍ وسیلې څخه ولیږئ. تاسې د خپلې پخوانۍ وسیلې لاسرسي ته اړتیا لری.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">تاسې د خپلې پخوانۍ وسیلې لاسرسي ته اړتیا لری.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">له بک اپ څخه یې تر لاسه کړئ</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">خپل پیغامونه له یوه سیمه ایز بک اپ څخه تر لاسه کړئ. که یې چیرته اوس تر لاسه نه کړئ، نو وروسته به ونشئ کړای چې تر لاسه یې کړئ.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">په خپل پخوانی Android کې مو Signal پرانیزئ</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">په خپل پخوانی Android کې مو Morse پرانیزئ</string>
   <string name="NewDeviceTransferInstructions__continue">ادامه</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">پر خپل پروفایل انځور باندې پورته کېڼې خوا ته کلیک وکړئ تر څو د تنظیماتو برخه خلاصه شي</string>
@@ -2578,18 +2578,18 @@
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">دې ته چمتووالی نیسي تر څو د Android له پخوانۍ وسیلې سره ونښلول شي…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">یوه شیبه وخت نیسي، ډېر ژر به چمتو شو</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">د Android پخوانۍ وسیلې ته منتظر دی تر څو ورسره ونښلي…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal د موقعیت اجازې ته اړتیا لري تر څو ستاسې د Android پخوانۍ وسیله کشف او ورسره ونښلي.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal د موقعیت خدماتو ته اړتیا لري تر څو فعال واوسي تر څو ستاسې د Android پخوانۍ وسیله کشف او ورسره ونښلي.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal روښانه Wi-Fi ته اړتیا لري تر څو ستاسې د Android پخوانۍ وسیله کشف او ورسره ونښلي. Wi-Fi باید روښانه وي خو دې ته اړتیا نشته چې باید د Wi-Fi له نیټورک سره نښتی واوسي.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">وبښئ، داسې ښکاري چې دغه وسیله مخامخ Wi-Fi نه مني. Signal له مخامخ Wi-Fi نه کار اخلي تر څو تر څو ستاسې د Android پخوانۍ وسیله کشف او ورسره ونښلي. تاسې لا بیا هم کولای شئ چې بک اپ تر لاسه کړئ تر څو خپل اکاونټ د خپل Android له پخوانۍ وسیلې څخه تر لاسه کړئ.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Morse د موقعیت اجازې ته اړتیا لري تر څو ستاسې د Android پخوانۍ وسیله کشف او ورسره ونښلي.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Morse د موقعیت خدماتو ته اړتیا لري تر څو فعال واوسي تر څو ستاسې د Android پخوانۍ وسیله کشف او ورسره ونښلي.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Morse روښانه Wi-Fi ته اړتیا لري تر څو ستاسې د Android پخوانۍ وسیله کشف او ورسره ونښلي. Wi-Fi باید روښانه وي خو دې ته اړتیا نشته چې باید د Wi-Fi له نیټورک سره نښتی واوسي.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">وبښئ، داسې ښکاري چې دغه وسیله مخامخ Wi-Fi نه مني. Morse له مخامخ Wi-Fi نه کار اخلي تر څو تر څو ستاسې د Android پخوانۍ وسیله کشف او ورسره ونښلي. تاسې لا بیا هم کولای شئ چې بک اپ تر لاسه کړئ تر څو خپل اکاونټ د خپل Android له پخوانۍ وسیلې څخه تر لاسه کړئ.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">د بک اپ بیرته تر لاسه کول</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">ستاسې د Android له پخوانۍ وسیلې سره د نښلولو په مهال یوه نه غوښتل شوې تیروتنه رامنځته شوې ده.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">د Android د نوې وسیلې پلټنه…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal د موقعیت اجازې ته اړتیا لري تر څو ستاسې د Android نوې وسیله کشف او ورسره ونښلي.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal د موقعیت خدماتو ته اړتیا لري تر څو فعال واوسي تر څو ستاسې د Android نوې وسیله کشف او ورسره ونښلي.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal روښانه Wi-Fi ته اړتیا لري تر څو ستاسې د Android نوې وسیله کشف او ورسره ونښلي. Wi-Fi باید روښانه وي تر څو خو دې ته اړتیا نشته چې باید د Wi-Fi له نیټورک سره نښتی واوسي.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">وبښئ، داسې ښکاري چې دغه وسیله مخامخ Wi-Fi نه مني. Signal له مخامخ Wi-Fi نه کار اخلي تر څو تر څو ستاسې د Android نوې وسیله کشف او ورسره ونښلي. تاسې لا بیا هم کولای شئ چې بک اپ جوړ کړئ تر څو خپل اکاونټ د خپل Android په نوې وسیله کې تر لاسه کړئ.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Morse د موقعیت اجازې ته اړتیا لري تر څو ستاسې د Android نوې وسیله کشف او ورسره ونښلي.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Morse د موقعیت خدماتو ته اړتیا لري تر څو فعال واوسي تر څو ستاسې د Android نوې وسیله کشف او ورسره ونښلي.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Morse روښانه Wi-Fi ته اړتیا لري تر څو ستاسې د Android نوې وسیله کشف او ورسره ونښلي. Wi-Fi باید روښانه وي تر څو خو دې ته اړتیا نشته چې باید د Wi-Fi له نیټورک سره نښتی واوسي.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">وبښئ، داسې ښکاري چې دغه وسیله مخامخ Wi-Fi نه مني. Morse له مخامخ Wi-Fi نه کار اخلي تر څو تر څو ستاسې د Android نوې وسیله کشف او ورسره ونښلي. تاسې لا بیا هم کولای شئ چې بک اپ جوړ کړئ تر څو خپل اکاونټ د خپل Android په نوې وسیله کې تر لاسه کړئ.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">د بک اپ جوړول</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">ستاسې د Android له نوې وسیلې سره د نښلولو په مهال یوه نه غوښتل شوې تیروتنه رامنځته شوې ده.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2624,10 +2624,10 @@
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">پر خپله بله وسیله کې پر ادامې باندې کلیک وکړئ تر څو لیږد پیل شي.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">په خپله بله وسیله کې پر ادامې باندې کلیک وکړئ…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">د Signal له نويو نسخو څخه لیږد نشي تر سره کېدای</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">د Morse له نويو نسخو څخه لیږد نشي تر سره کېدای</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">د ډیټا لیږل</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">دواړه وسیلې د یوه بل تر څنګ کېږدئ. هېڅ یوه وسیله بنده نه کړئ او په دواړو کې Signal خلاص پریږدئ. دا لیږد په سرتاسري ډول سره انکریپټ دی.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">دواړه وسیلې د یوه بل تر څنګ کېږدئ. هېڅ یوه وسیله بنده نه کړئ او په دواړو کې Morse خلاص پریږدئ. دا لیږد په سرتاسري ډول سره انکریپټ دی.</string>
   <string name="DeviceTransfer__d_messages_so_far">%1$d پیغامونه تر اوسه پورې…</string>
   <string name="DeviceTransfer__cancel">لغوه کول</string>
   <string name="DeviceTransfer__try_again">بیا هڅه وکړئ</string>
@@ -2638,9 +2638,9 @@
   <string name="DeviceTransfer__unable_to_transfer">لیږد نه تر سره کېږي</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">د اکاونټ لیږد</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">تاسي کولای شئ کله چې په خپله نوې د Android په وسیله کې Signal انسټالوئ خپل د Signal اکاونټ ورته ولیږئ. خو وړاندې تر دې چې مخکې ولاړ شئ:</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">تاسي کولای شئ کله چې په خپله نوې د Android په وسیله کې Morse انسټالوئ خپل د Morse اکاونټ ورته ولیږئ. خو وړاندې تر دې چې مخکې ولاړ شئ:</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">د Android پر خپله نوې وسیله کې Signal راښکته کړئ</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">د Android پر خپله نوې وسیله کې Morse راښکته کړئ</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">ّّّپر \"لیږد یا د اکاونټ پر بیرته تر لاسه کولو\" باندې کلیک وکړئ</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2649,7 +2649,7 @@
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">لېږد بشپړ شو</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">خپلې نوې وسیلې ته ورشئ</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">ستاسې د Signal ډیټا ستاسې نوې وسیلې ته ولیږل شوه. د لیږد د بهیر د بشپړولو لپاره، تاسې باید په خپله نوې وسیله کې نوم لیکنې ته دوام ورکړئ.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">ستاسې د Morse ډیټا ستاسې نوې وسیلې ته ولیږل شوه. د لیږد د بهیر د بشپړولو لپاره، تاسې باید په خپله نوې وسیله کې نوم لیکنې ته دوام ورکړئ.</string>
   <string name="OldDeviceTransferComplete__close">بندول</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">لیږد بریالی و</string>
@@ -2666,7 +2666,7 @@
   <string name="DeviceToDeviceTransferService_status_service_connected">د اکاونټ لیږل…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">په خپله نوې وسیله کې مو نوم لیکنه بشپړه کړئ</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">ستاسې د Signal اکاونټ ستاسې نوې وسیلې ته ولیږل شو، خو تاسې باید هلته خپله نوم لیکنه بشپړه کړئ تر څو مخکې ولاړ شئ. Signal به په دې وسیله کې غیرفعال وي.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">ستاسې د Morse اکاونټ ستاسې نوې وسیلې ته ولیږل شو، خو تاسې باید هلته خپله نوم لیکنه بشپړه کړئ تر څو مخکې ولاړ شئ. Morse به په دې وسیله کې غیرفعال وي.</string>
   <string name="OldDeviceTransferLockedDialog__done">تر سره شو</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">لغوه یې کړئ او دغه وسله فعاله کړئ</string>
   <!--AdvancedPreferenceFragment-->
@@ -2701,12 +2701,12 @@
   <string name="GroupsLearnMore_what_are_legacy_groups">پخواني ګروپونه یعنې څه؟</string>
   <string name="GroupsLearnMore_paragraph_1">پخواني ګروپونه هغه ګروپونه دي چې د نوي ګروپ له ځانګړنو سره جوړ نه دي لکه اډمینان او د ګروپ نور زیات تشریحي اپډیټونه.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">ایا کولای شم یو پخوانی ګروپ اپګریډ کړم؟</string>
-  <string name="GroupsLearnMore_paragraph_2">پخواني ګروپونه لا تر اوسه پورې نویو ګروپونو ته نه اپګریډ کېږي، خو تاسې کولای شئ چې له ورته غړو سره نوی ګروپ جوړ کړئ که چیرته هغوی د Signal وروستۍ نسخه لري.</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal به په راتلونکې کې د پخوانیو ګروپونو د اپګریډولو لپاره یوه لاره وړاندې کړي.</string>
+  <string name="GroupsLearnMore_paragraph_2">پخواني ګروپونه لا تر اوسه پورې نویو ګروپونو ته نه اپګریډ کېږي، خو تاسې کولای شئ چې له ورته غړو سره نوی ګروپ جوړ کړئ که چیرته هغوی د Morse وروستۍ نسخه لري.</string>
+  <string name="GroupsLearnMore_paragraph_3">Morse به په راتلونکې کې د پخوانیو ګروپونو د اپګریډولو لپاره یوه لاره وړاندې کړي.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">په دغه لینک سره هر څوک کولای شي د ګروپ نوم او انځور وویني او د یو ځای کېدو لپاره غوښتنه وکړي. له هغو کسانو سره یې شریک کړئ چې تاسې پرې باوري یاست.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">په دغه لینک سره هر څوک کولای شي د ګروپ نوم او انځور وویني او له ګروپ سره یو ځای شي. له هغو کسانو سره یې شریک کړئ چې تاسې پرې باوري یاست.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">د Signal له لارې شریکول</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">د Morse له لارې شریکول</string>
   <string name="GroupLinkBottomSheet_copy">کاپي</string>
   <string name="GroupLinkBottomSheet_qr_code">د QR کوډ</string>
   <string name="GroupLinkBottomSheet_share">شریکول</string>
@@ -2772,7 +2772,7 @@
   <string name="DeleteAccountFragment__no_number">هېڅ شمېره نه ده مشخص شوي</string>
   <string name="DeleteAccountFragment__the_phone_number">هغه شمېره چې تاسې دننه کړې ده ستاسې له اکاونټ سره سر نه لګوي.</string>
   <string name="DeleteAccountFragment__are_you_sure">ډاډه یاست چې غواړئ خپل اکاونټ مو له منځه یوسئ؟</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">دا کار به ستاسې د Signal اکاونټ له منځه یوسي او اپلیکیشن به له سره تنظیم کړي. دغه اپلیکیشن به د پروسې له بشپړیدو وروسته وتړل شی.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">دا کار به ستاسې د Morse اکاونټ له منځه یوسي او اپلیکیشن به له سره تنظیم کړي. دغه اپلیکیشن به د پروسې له بشپړیدو وروسته وتړل شی.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">د اکاونټ له منځه وړل تر سره نشو. ایا له انټرنېټ سره وصل یاست؟</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">د سیمه ایزې ډیټا پاکول تر سره نشو. تاسې کولای شئ هغه د سیستم د اپلیکیشن په تنظیماتو کې په خپل لاس پاک کړئ.</string>
   <string name="DeleteAccountFragment__launch_app_settings">د اپلیکیشن تنظیمات پرانیزئ</string>
@@ -2788,7 +2788,7 @@
   <string name="ShareActivity__share">شریکول</string>
   <string name="ShareActivity__send">لیږل</string>
   <string name="ShareActivity__comma_s">، %1$s</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">له ګڼو چټونو سره شریکول یوازې د Signal پیغامونو له خوا ممکن دي</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">له ګڼو چټونو سره شریکول یوازې د Morse پیغامونو له خوا ممکن دي</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">ځینو کارنونو ته و نه لیږل شو</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">تاسې یوازې کولای شئ تر %1$d پورې چټونه شریک کړئ</string>
@@ -2838,7 +2838,7 @@
   <string name="payment_info_card_about_mobilecoin">د MobileCoin په اړه</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin یو ډول نوی پر محرمیت تمرکز لرونکی ډیجیټالي اسعار دي.</string>
   <string name="payment_info_card_adding_funds">د پیسو اضافه کول</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">تاسې کولای شئ چې په Signal کې د کارولو لپاره خپل د جیبي بکسک پتې ته د MobileCoin په لیږلو سره پیسې اضافه کړئ.</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">تاسې کولای شئ چې په Morse کې د کارولو لپاره خپل د جیبي بکسک پتې ته د MobileCoin په لیږلو سره پیسې اضافه کړئ.</string>
   <string name="payment_info_card_cashing_out">د پیسو نغدي کول</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">تاسې هر وخت کولای شئ په هغه صرافي کې چې د MobileCoin خدمات لري خپلې پیسې له MobileCoin څخه نغدي کړئ. هلته یوازې خپلې پیسې خپل اکاونټ ته ولیږئ.</string>
   <string name="payment_info_card_hide_this_card">غواړئ دغه کارت پټ کړئ؟</string>
@@ -2852,18 +2852,18 @@
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">د جیبي بکسک غیرفعالول</string>
   <string name="DeactivateWalletFragment__your_balance">ستاسې بېلانس</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">سپارښتنه کېږي چې تاسې خپلې پیسې د پرداختونو له غیرفعالولو وړاندې د جیبي بکسک یوې بلې پتې ته ولیږئ. که چیرته تاسې همدا اوس خپلې پیسې و نه لیږئ، نو هغه به له Signal سره ستاسې په هغه لینک شوي جیبي بکسک کې پاتې شي که مو چیرته بیا غوښتل چې پرداختونه مو فعال کړئ.</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">سپارښتنه کېږي چې تاسې خپلې پیسې د پرداختونو له غیرفعالولو وړاندې د جیبي بکسک یوې بلې پتې ته ولیږئ. که چیرته تاسې همدا اوس خپلې پیسې و نه لیږئ، نو هغه به له Morse سره ستاسې په هغه لینک شوي جیبي بکسک کې پاتې شي که مو چیرته بیا غوښتل چې پرداختونه مو فعال کړئ.</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">پاتې بېلانس ولیږئ</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">له لیږلو پرته یې غیرفعاله کړئ</string>
   <string name="DeactivateWalletFragment__deactivate">غیرفعاله کول</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">غواړئ له لیږلو پرته یې غیرفعال کړئ؟</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">که چیرته غواړئ چې خپل پرداختونه بیرته فعال کړئ، نو ستاسې بېلانس به ستاسې په هغه جیبي بکسک کې پاتې وي کوم چې له Signal سره لینک شوی دی.</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">که چیرته غواړئ چې خپل پرداختونه بیرته فعال کړئ، نو ستاسې بېلانس به ستاسې په هغه جیبي بکسک کې پاتې وي کوم چې له Morse سره لینک شوی دی.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">د جیبي بکسک غیرفعالولو کې تیروتنه شوې.</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">د بیرته تر لاسه کولو عبارت</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">د بیرته تر لاسه کولو عبارت ووینئ</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">د بیرته تر لاسه کولو عبارت دننه کړئ</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">ستاسې بېلانس به په اتومات ډول بیرته تر لاسه شي کله چې تاسې Signal بیرته له سره انسټال کړئ او خپل د Signal PIN تایید کړئ. همداشان تاسې کولای شئ خپل بېلانس د بیرته تر لاسه کولو د عبارت په کارولو تر لاسه کړئ، کوم چې ستاسې لپاره یوه %1$d- بې سارې عبارتي کلیمه ده. هغه درسره ولیکئ او په یوه خوندي ځای کې یې وساتئ.</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">ستاسې بېلانس به په اتومات ډول بیرته تر لاسه شي کله چې تاسې Morse بیرته له سره انسټال کړئ او خپل د Morse PIN تایید کړئ. همداشان تاسې کولای شئ خپل بېلانس د بیرته تر لاسه کولو د عبارت په کارولو تر لاسه کړئ، کوم چې ستاسې لپاره یوه %1$d- بې سارې عبارتي کلیمه ده. هغه درسره ولیکئ او په یوه خوندي ځای کې یې وساتئ.</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">ستاسې د بیرته تر لاسه کولو عبارت ستاسې لپاره یوه %1$d -بې سارې عبارتې کلیمه ده. دغه عبارت وکاروئ تر څو خپل بېلانس تر لاسه کړئ.</string>
   <string name="PaymentsRecoveryStartFragment__start">پیل</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">په لاسي ډول یې دننه کړئ</string>
@@ -2932,7 +2932,7 @@
   <!--AccountSettingsFragment-->
   <string name="AccountSettingsFragment__account">اکاونټ</string>
   <string name="AccountSettingsFragment__youll_be_asked_less_frequently">د وخت په تیریدو سره به له تاسې څخه ډېر کم وپوښتل شي</string>
-  <string name="AccountSettingsFragment__require_your_signal_pin">دا چې بیا له Signal سره ستاسې د ټلیفون شمېره ثبت شي نو ستاسې د Signal Pin ته اړتیا ده</string>
+  <string name="AccountSettingsFragment__require_your_signal_pin">دا چې بیا له Morse سره ستاسې د ټلیفون شمېره ثبت شي نو ستاسې د Morse Pin ته اړتیا ده</string>
   <string name="AccountSettingsFragment__change_phone_number">د ټلیفوني شمېرې بدلول</string>
   <!--ChangeNumberFragment-->
   <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">خپله اوسنۍ ټلیفون شمېره مو نوې ټلیفون شمېرې ته د بدلولو لپاره دا وکاروئ. تاسې نشئ کولای چې دا کار بیرته اولي حالت ته راولئ./n/nتر وړاندې تګ مخکې، ځان ډاډه کړئ چې ستاسې نوې شمېره کولای شي لنډلیکلي پیغامونه یا ټلیفوني اړیکې تر لاسه کولای شي.</string>
@@ -2958,7 +2958,7 @@
   <string name="ChangeNumberConfirmFragment__you_are_about_to_change_your_phone_number_from_s_to_s">تاسې غواړئ چې خپله د ټلیفون شمېره له %1$s څخه %2$s ته بدله کړئ. /n/nوړاندې تر دې چې مخکې ولاړ شئ، مهرباني وکړئ دا تایید کړئ چې لاندنۍ شمېره سمه ده.</string>
   <string name="ChangeNumberConfirmFragment__edit_number">شمېره تصحیح کړئ</string>
   <!--ChangeNumberRegistrationLockFragment-->
-  <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">د Signal د شمېرې بدلول - د Android لپاره د PIN په خاطر مرستې ته اړتیا لری (v2 PIN)</string>
+  <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">د Morse د شمېرې بدلول - د Android لپاره د PIN په خاطر مرستې ته اړتیا لری (v2 PIN)</string>
   <!--ChangeNumberPinDiffersFragment-->
   <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PINs له یوه بل سره ورته نه دي</string>
   <string name="ChangeNumberPinDiffersFragment__the_pin_associated_with_your_new_number_is_different_from_the_pin_associated_with_your_old_one">ستاسې د نوې شمېرې PIN ستاسې د پخوانۍ شمېرې له PIN سره توپیر لري. غواړئ چې پخوانی PIN وساتئ او که غواړئ چې اپډیټ یې کړئ؟</string>
@@ -2983,7 +2983,7 @@
   <string name="NotificationsSettingsFragment__messages">پیغامونه</string>
   <string name="NotificationsSettingsFragment__calls">ټلیفوني اړیکې</string>
   <string name="NotificationsSettingsFragment__notify_when">خبر راکړئ کله چې…</string>
-  <string name="NotificationsSettingsFragment__contact_joins_signal">مخاطب له Signal سره یو ځای شو</string>
+  <string name="NotificationsSettingsFragment__contact_joins_signal">مخاطب له Morse سره یو ځای شو</string>
   <!--PrivacySettingsFragment-->
   <string name="PrivacySettingsFragment__blocked">بلاک شوي</string>
   <string name="PrivacySettingsFragment__d_contacts">%1$d مخاطبین</string>
@@ -2991,7 +2991,7 @@
   <string name="PrivacySettingsFragment__disappearing_messages">ورک کېدونکي پیغامونه</string>
   <string name="PrivacySettingsFragment__app_security">د اپلیکیشن امنیت</string>
   <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">په وروستي لیست او په اپلیکیشن کې دننه د سکرین شاټونو بلاک کول</string>
-  <string name="PrivacySettingsFragment__signal_message_and_calls">د Signal پیغامونه او ټلیفوني اړیکې، تل ټلیفوني اړیکې ریلي کړئ، او مهر شوی لیږونکی</string>
+  <string name="PrivacySettingsFragment__signal_message_and_calls">د Morse پیغامونه او ټلیفوني اړیکې، تل ټلیفوني اړیکې ریلي کړئ، او مهر شوی لیږونکی</string>
   <string name="PrivacySettingsFragment__default_timer_for_new_changes">د نویو چټونو لپاره عادي ټایمر</string>
   <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">ستاسې له خوا د پیلیدونکو ټولو نویو چټونو لپاره د پیغام د ورک کېدو عادي ټایمر وټاکئ.</string>
   <!--AdvancedPrivacySettingsFragment-->
@@ -3022,7 +3022,7 @@
   <string name="HelpSettingsFragment__version">نسخه</string>
   <string name="HelpSettingsFragment__debug_log">د ستونزې د هواري رپوټ</string>
   <string name="HelpSettingsFragment__terms_amp_privacy_policy">شرایط او د محرمیت تګلاره</string>
-  <string name="HelpFragment__copyright_signal_messenger">د Signal مسینجر د کاپي حق</string>
+  <string name="HelpFragment__copyright_signal_messenger">د Morse مسینجر د کاپي حق</string>
   <string name="HelpFragment__licenced_under_the_gplv3">د GPLv3 له مخې جواز ورکړل شوی</string>
   <!--DataAndStorageSettingsFragment-->
   <string name="DataAndStorageSettingsFragment__media_quality">د رسنۍ کیفیت</string>
@@ -3243,7 +3243,7 @@
   <string name="SelectFeaturedBadgeFragment__failed_to_update_profile">د پروفایل اپډیټ تر سره نشو</string>
   <string name="ViewBadgeBottomSheetDialogFragment__become_a_sustainer">یو ساتونکی شئ</string>
   <string name="ImageView__badge">بج</string>
-  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Signal ستاسې په څیر خلکو له خوا ځواکمن شوی دی.</string>
+  <string name="SubscribeFragment__signal_is_powered_by_people_like_you">Morse ستاسې په څیر خلکو له خوا ځواکمن شوی دی.</string>
   <string name="SubscribeFragment__support_technology_that_is_built_for_you">هغې تکنالوژي څخه ملاتړ کوي کوم چې ستاسې لپاره جوړه شوې ده - نه ستاسې د ډیټا لپاره - د هغو خلکو له ټولنې سره په یو ځای کېدو کوم چې ساتنه او پالنه یې کوي.</string>
   <!-- Removed by excludeNonTranslatables <string name="SubscribeFragment__donation_amount">د مرستې مقدار</string> -->
   <string name="SubscribeFragment__more_payment_options">د زیاتو پرداختونو غوراوي</string>
@@ -3257,13 +3257,13 @@
   <string name="SubscribeFragment__update">اپډیټ کول</string>
   <string name="Subscription__s_per_month">%s په میاشت کې</string>
   <string name="Subscription__s_per_month_dot_renews_s">%1$s په میاشت کې. %2$s کې نوی کېږي</string>
-  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_a_non_profit_with_no">Signal یو غیرانتفاعي پروګرام دی چې هېڅ اعلان ورکوونکی یا پانګه وال نه لري او یوازې د هغو کسانو له خوا چې کاروي یې او ورته ارزښت ورکوي، ساتل کېږي. هره میاشت خپله مرسته وکړئ او د خپل ملاتړ د ښودلو په خاطر د پروفایل بج تر لاسه کړئ.</string>
+  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_a_non_profit_with_no">Morse یو غیرانتفاعي پروګرام دی چې هېڅ اعلان ورکوونکی یا پانګه وال نه لري او یوازې د هغو کسانو له خوا چې کاروي یې او ورته ارزښت ورکوي، ساتل کېږي. هره میاشت خپله مرسته وکړئ او د خپل ملاتړ د ښودلو په خاطر د پروفایل بج تر لاسه کړئ.</string>
   <string name="SubscribeLearnMoreBottomSheetDialogFragment__why_contribute">ولې مرسته وکړئ؟</string>
-  <!-- Removed by excludeNonTranslatables <string name="SubscribeLearnMoreBottomSheetDialogFragment__the_team_at_signal_is_committed">د Signal ټیم د ازادي سرچینې د محرمیت تکنالوژۍ د جوړولو ماموریت ته ژمن دی کوم چې ازاده څرګندونه خوندي کوي او په نړیواله کچه مکالمې خوندي ساتي. ستاسې مرسته له دې ماموریت سره مرسته کولای شي. د اعلانونو نشتوالی. د تعقیب کوونکو نشتوالی. د ساعتیري نشتوالی.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SubscribeLearnMoreBottomSheetDialogFragment__the_team_at_signal_is_committed">د Morse ټیم د ازادي سرچینې د محرمیت تکنالوژۍ د جوړولو ماموریت ته ژمن دی کوم چې ازاده څرګندونه خوندي کوي او په نړیواله کچه مکالمې خوندي ساتي. ستاسې مرسته له دې ماموریت سره مرسته کولای شي. د اعلانونو نشتوالی. د تعقیب کوونکو نشتوالی. د ساعتیري نشتوالی.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="SubscribeLearnMoreBottomSheetDialogFragment__your_contribution_helps_pay">ستاسې مالي مرسته موږ سره مرسته کوي تر څو د هغه اپلیکیشن د پراختیا، سرورونو او بانډویټ لپاره چې په میلیونونو کسان یې په نړۍ کې د شخصي او همزمان محاورو لپاره کاروي، پرداخت وکړو.</string> -->
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support">ستاسې له مرستې څخه مننه!</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_the_boost">له پیاوړتیا څخه مننه!</string>
-  <!-- Removed by excludeNonTranslatables <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_s_badge">تاسې %s بج تر لاسه کړل! ستاسې د بج ښودل به هغو خلکو ته چې تاسې چټ ورسره کوئ دا وښیې چې تاسې له Signal سره مرسته کوئ.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_s_badge">تاسې %s بج تر لاسه کړل! ستاسې د بج ښودل به هغو خلکو ته چې تاسې چټ ورسره کوئ دا وښیې چې تاسې له Morse سره مرسته کوئ.</string> -->
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__display_on_profile">پر پروفایل ښودل</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__make_featured_badge">ځانګړی بج جوړول</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__done">تر سره شو</string>
@@ -3272,11 +3272,11 @@
   <string name="ManageDonationsFragment__badges">بجونه</string>
   <string name="ManageDonationsFragment__subscription_faq">د ګډون په اړه زیاتره پوښتل شوې پوښتنې</string>
   <string name="ManageDonationsFragment__error_getting_subscription">د ګډون په تر لاسه کولو کې تیروتنه شوې ده.</string>
-  <string name="BoostFragment__give_signal_a_boost">د Signal پیاوړتیا ورکړئ</string>
+  <string name="BoostFragment__give_signal_a_boost">د Morse پیاوړتیا ورکړئ</string>
   <string name="BoostFragment__say_thanks_and_earn"> \"مننه!\" ووایاست او د %1$d ورځو لپاره د پیاوړتیا بج تر لاسه کړئ.</string>
   <string name="Boost__enter_custom_amount">سفارشي مقدار دننه کړئ</string>
   <string name="Boost__one_time_contribution">پر وخت مرسته</string>
-  <string name="MySupportPreference__add_a_signal_boost">د Signal پیاوړی کوونکی اضافه کړئ</string>
+  <string name="MySupportPreference__add_a_signal_boost">د Morse پیاوړی کوونکی اضافه کړئ</string>
   <string name="MySupportPreference__s_per_month">%1$s په میاشت کې</string>
   <string name="MySupportPreference__renews_s">%1$s کې نوی کېږي</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__your_badge_has_expired">ستاسې بج منقضي شوی دی</string>

@@ -17,7 +17,7 @@ import java.net.URISyntaxException;
 
 public final class GroupInviteLinkUrl {
 
-  private static final String GROUP_URL_HOST   = "signal.group";
+  private static final String GROUP_URL_HOST   = "morse-group.devplusone.com";
   private static final String GROUP_URL_PREFIX = "https://" + GROUP_URL_HOST + "/#";
 
   private final GroupMasterKey    groupMasterKey;
@@ -85,7 +85,7 @@ public final class GroupInviteLinkUrl {
       URI url = new URI(urlString);
 
       if (!"https".equalsIgnoreCase(url.getScheme()) &&
-          !"sgnl".equalsIgnoreCase(url.getScheme()))
+          !"mrse".equalsIgnoreCase(url.getScheme()))
       {
         return null;
       }

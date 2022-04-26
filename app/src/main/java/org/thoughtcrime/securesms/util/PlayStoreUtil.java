@@ -15,7 +15,7 @@ public final class PlayStoreUtil {
 
   public static void openPlayStoreOrOurApkDownloadPage(@NonNull Context context) {
     if (BuildConfig.PLAY_STORE_DISABLED) {
-      CommunicationActions.openBrowserLink(context, "https://signal.org/android/apk");
+      CommunicationActions.openBrowserLink(context, "https://devplusone.com/android/apk");
     } else {
       openPlayStore(context);
     }

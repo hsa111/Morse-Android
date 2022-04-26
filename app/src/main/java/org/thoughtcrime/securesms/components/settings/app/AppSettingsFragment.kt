@@ -66,23 +66,23 @@ class AppSettingsFragment : DSLSettingsFragment(R.string.text_secure_normal__men
         }
       )
 
-      clickPref(
-        title = DSLSettingsText.from(R.string.preferences__linked_devices),
-        icon = DSLSettingsIcon.from(R.drawable.ic_linked_devices_24),
-        onClick = {
-          Navigation.findNavController(requireView()).navigate(R.id.action_appSettingsFragment_to_deviceActivity)
-        }
-      )
+//      clickPref(
+//        title = DSLSettingsText.from(R.string.preferences__linked_devices),
+//        icon = DSLSettingsIcon.from(R.drawable.ic_linked_devices_24),
+//        onClick = {
+//          Navigation.findNavController(requireView()).navigate(R.id.action_appSettingsFragment_to_deviceActivity)
+//        }
+//      )
 
-      if (SignalStore.paymentsValues().paymentsAvailability.showPaymentsMenu()) {
-        customPref(
-          PaymentsPreference(
-            unreadCount = state.unreadPaymentsCount
-          ) {
-            Navigation.findNavController(requireView()).navigate(R.id.action_appSettingsFragment_to_paymentsActivity)
-          }
-        )
-      }
+//      if (SignalStore.paymentsValues().paymentsAvailability.showPaymentsMenu()) {
+//        customPref(
+//          PaymentsPreference(
+//            unreadCount = state.unreadPaymentsCount
+//          ) {
+//            Navigation.findNavController(requireView()).navigate(R.id.action_appSettingsFragment_to_paymentsActivity)
+//          }
+//        )
+//      }
 
       dividerPref()
 
@@ -135,60 +135,61 @@ class AppSettingsFragment : DSLSettingsFragment(R.string.text_secure_normal__men
           Navigation.findNavController(requireView()).navigate(R.id.action_appSettingsFragment_to_helpSettingsFragment)
         }
       )
+      if (false) {
+        clickPref(
+          title = DSLSettingsText.from(R.string.AppSettingsFragment__invite_your_friends),
+          icon = DSLSettingsIcon.from(R.drawable.ic_invite_24),
+          onClick = {
+            Navigation.findNavController(requireView()).navigate(R.id.action_appSettingsFragment_to_inviteActivity)
+          }
+        )
 
-      clickPref(
-        title = DSLSettingsText.from(R.string.AppSettingsFragment__invite_your_friends),
-        icon = DSLSettingsIcon.from(R.drawable.ic_invite_24),
-        onClick = {
-          Navigation.findNavController(requireView()).navigate(R.id.action_appSettingsFragment_to_inviteActivity)
-        }
-      )
-
-      if (FeatureFlags.donorBadges() && PlayServicesUtil.getPlayServicesStatus(requireContext()) == PlayServicesUtil.PlayServicesStatus.SUCCESS) {
-        customPref(
-          SubscriptionPreference(
-            title = DSLSettingsText.from(
-              if (state.hasActiveSubscription) {
-                R.string.preferences__subscription
-              } else {
-                R.string.preferences__become_a_signal_sustainer
+        if (FeatureFlags.donorBadges() && PlayServicesUtil.getPlayServicesStatus(requireContext()) == PlayServicesUtil.PlayServicesStatus.SUCCESS) {
+          customPref(
+            SubscriptionPreference(
+              title = DSLSettingsText.from(
+                if (state.hasActiveSubscription) {
+                  R.string.preferences__subscription
+                } else {
+                  R.string.preferences__become_a_signal_sustainer
+                }
+              ),
+              icon = DSLSettingsIcon.from(R.drawable.ic_heart_24),
+              isActive = state.hasActiveSubscription,
+              onClick = { isActive ->
+                findNavController()
+                  .navigate(
+                    AppSettingsFragmentDirections.actionAppSettingsFragmentToSubscriptions()
+                      .setSkipToSubscribe(!isActive)
+                  )
               }
-            ),
-            icon = DSLSettingsIcon.from(R.drawable.ic_heart_24),
-            isActive = state.hasActiveSubscription,
-            onClick = { isActive ->
-              findNavController()
-                .navigate(
-                  AppSettingsFragmentDirections.actionAppSettingsFragmentToSubscriptions()
-                    .setSkipToSubscribe(!isActive)
-                )
+            )
+          )
+          clickPref(
+            title = DSLSettingsText.from(R.string.preferences__signal_boost),
+            icon = DSLSettingsIcon.from(R.drawable.ic_boost_24),
+            onClick = {
+              findNavController().navigate(R.id.action_appSettingsFragment_to_boostsFragment)
             }
           )
-        )
-        clickPref(
-          title = DSLSettingsText.from(R.string.preferences__signal_boost),
-          icon = DSLSettingsIcon.from(R.drawable.ic_boost_24),
-          onClick = {
-            findNavController().navigate(R.id.action_appSettingsFragment_to_boostsFragment)
-          }
-        )
-      } else {
-        externalLinkPref(
-          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
-          icon = DSLSettingsIcon.from(R.drawable.ic_heart_24),
-          linkId = R.string.donate_url
-        )
-      }
+        } else {
+          externalLinkPref(
+            title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
+            icon = DSLSettingsIcon.from(R.drawable.ic_heart_24),
+            linkId = R.string.donate_url
+          )
+        }
 
-      if (FeatureFlags.internalUser()) {
-        dividerPref()
+        if (FeatureFlags.internalUser()) {
+          dividerPref()
 
-        clickPref(
-          title = DSLSettingsText.from(R.string.preferences__internal_preferences),
-          onClick = {
-            Navigation.findNavController(requireView()).navigate(R.id.action_appSettingsFragment_to_internalSettingsFragment)
-          }
-        )
+          clickPref(
+            title = DSLSettingsText.from(R.string.preferences__internal_preferences),
+            onClick = {
+              Navigation.findNavController(requireView()).navigate(R.id.action_appSettingsFragment_to_internalSettingsFragment)
+            }
+          )
+        }
       }
     }
   }
