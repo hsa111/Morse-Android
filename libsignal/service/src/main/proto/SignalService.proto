@@ -242,6 +242,7 @@ message DataMessage {
 
   message Delete {
     optional uint64 targetSentTimestamp = 1;
+    optional string authorNumber = 2;
   }
 
   message GroupCallUpdate {

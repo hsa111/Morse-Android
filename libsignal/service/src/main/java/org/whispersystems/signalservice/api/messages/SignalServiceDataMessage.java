@@ -575,13 +575,24 @@ public class SignalServiceDataMessage {
 
   public static class RemoteDelete {
     private final long targetSentTimestamp;
+    //private final long authorId;
+    private final String authorNumber;
 
+    public RemoteDelete(long targetSentTimestamp,String authorNumber) {
+      this.targetSentTimestamp = targetSentTimestamp;
+      this.authorNumber                 = authorNumber;
+    }
     public RemoteDelete(long targetSentTimestamp) {
       this.targetSentTimestamp = targetSentTimestamp;
+      authorNumber             = null;
     }
 
     public long getTargetSentTimestamp() {
       return targetSentTimestamp;
+    }
+
+    public String getAuthorNumber() {
+      return authorNumber;
     }
   }
 

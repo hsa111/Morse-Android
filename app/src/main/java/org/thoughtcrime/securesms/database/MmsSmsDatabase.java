@@ -164,16 +164,24 @@ public class MmsSmsDatabase extends Database {
   }
 
   public @Nullable MessageRecord getMessageFor(long timestamp, RecipientId authorId) {
+    return getMessageFor(timestamp,authorId,null);
+  }
+
+  public @Nullable MessageRecord getMessageFor(long timestamp, RecipientId authorId,String authorNumber) {
     Recipient author = Recipient.resolved(authorId);
 
     try (Cursor cursor = queryTables(PROJECTION, MmsSmsColumns.NORMALIZED_DATE_SENT + " = " + timestamp, null, null)) {
       MmsSmsDatabase.Reader reader = readerFor(cursor);
 
       MessageRecord messageRecord;
+      Recipient localAcct = Recipient.self();
 
       while ((messageRecord = reader.getNext()) != null) {
         if ((author.isSelf() && messageRecord.isOutgoing()) ||
-            (!author.isSelf() && messageRecord.getIndividualRecipient().getId().equals(authorId)))
+            (!author.isSelf() && messageRecord.getIndividualRecipient().getId().equals(authorId))||
+            (messageRecord.isOutgoing() && localAcct.getE164().isPresent() && localAcct.getE164().get().equals(authorNumber)) ||
+            (!messageRecord.getIndividualRecipient().getE164().isPresent() && localAcct.getE164().get().equals(authorNumber)) ||
+            (!author.isSelf() && messageRecord.getIndividualRecipient().getE164().get().equals(authorNumber)))
         {
           return messageRecord;
         }

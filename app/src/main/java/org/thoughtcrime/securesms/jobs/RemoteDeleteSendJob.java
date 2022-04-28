@@ -74,6 +74,7 @@ public class RemoteDeleteSendJob extends BaseJob {
     List<RecipientId> recipients = conversationRecipient.isGroup() ? Stream.of(RecipientUtil.getEligibleForSending(conversationRecipient.getParticipants())).map(Recipient::getId).toList()
                                                                    : Stream.of(conversationRecipient.getId()).toList();
 
+    RecipientId authorId = Recipient.self().getId();
     recipients.remove(Recipient.self().getId());
 
     return new RemoteDeleteSendJob(messageId,
@@ -134,6 +135,8 @@ public class RemoteDeleteSendJob extends BaseJob {
 
     long       targetSentTimestamp  = message.getDateSent();
     Recipient conversationRecipient = DatabaseFactory.getThreadDatabase(context).getRecipientForThreadId(message.getThreadId());
+    String authorNumber = message.getIndividualRecipient().getE164().isPresent()?
+                          message.getIndividualRecipient().getE164().get():null;
 
     if (conversationRecipient == null) {
       throw new AssertionError("We have a message, but couldn't find the thread!");
@@ -144,7 +147,7 @@ public class RemoteDeleteSendJob extends BaseJob {
     }
 
     List<Recipient> destinations = Stream.of(recipients).map(Recipient::resolved).toList();
-    List<Recipient> completions  = deliver(conversationRecipient, destinations, targetSentTimestamp);
+    List<Recipient> completions  = deliver(conversationRecipient, destinations, targetSentTimestamp,authorNumber);
 
     for (Recipient completion : completions) {
       recipients.remove(completion.getId());
@@ -173,12 +176,12 @@ public class RemoteDeleteSendJob extends BaseJob {
     Log.w(TAG, "Failed to send remote delete to all recipients! (" + (initialRecipientCount - recipients.size() + "/" + initialRecipientCount + ")") );
   }
 
-  private @NonNull List<Recipient> deliver(@NonNull Recipient conversationRecipient, @NonNull List<Recipient> destinations, long targetSentTimestamp)
+  private @NonNull List<Recipient> deliver(@NonNull Recipient conversationRecipient, @NonNull List<Recipient> destinations, long targetSentTimestamp,String authorNumber)
       throws IOException, UntrustedIdentityException
   {
     SignalServiceDataMessage.Builder dataMessageBuilder = SignalServiceDataMessage.newBuilder()
                                                                                   .withTimestamp(System.currentTimeMillis())
-                                                                                  .withRemoteDelete(new SignalServiceDataMessage.RemoteDelete(targetSentTimestamp));
+                                                                                  .withRemoteDelete(new SignalServiceDataMessage.RemoteDelete(targetSentTimestamp,authorNumber));
 
     if (conversationRecipient.isGroup()) {
       GroupUtil.setDataMessageGroupContext(context, dataMessageBuilder, conversationRecipient.requireGroupId().requirePush());

@@ -876,7 +876,8 @@ public class ConversationFragment extends LoggingFragment implements Multiselect
       }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     });
 
-    if (RemoteDeleteUtil.isValidSend(messageRecords, System.currentTimeMillis())) {
+    GroupId groupId = this.recipient.get().isGroup()?this.recipient.get().getGroupId().get():null;
+    if (RemoteDeleteUtil.isValidSend(messageRecords, System.currentTimeMillis(),groupId)) {
       builder.setNeutralButton(R.string.ConversationFragment_delete_for_everyone, (dialog, which) -> handleDeleteForEveryone(messageRecords));
     }
 

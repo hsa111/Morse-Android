@@ -1009,7 +1009,7 @@ public final class SignalServiceContent {
 
     SignalServiceProtos.DataMessage.Delete delete = content.getDelete();
 
-    return new SignalServiceDataMessage.RemoteDelete(delete.getTargetSentTimestamp());
+    return new SignalServiceDataMessage.RemoteDelete(delete.getTargetSentTimestamp(),delete.getAuthorNumber());
   }
 
   private static SignalServiceDataMessage.GroupCallUpdate createGroupCallUpdate(SignalServiceProtos.DataMessage content) {

@@ -4,10 +4,13 @@ import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
+import org.thoughtcrime.securesms.database.GroupDatabase;
 import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.groups.GroupId;
 import org.thoughtcrime.securesms.recipients.Recipient;
 
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
 public final class RemoteDeleteUtil {
@@ -17,7 +20,7 @@ public final class RemoteDeleteUtil {
 
   private RemoteDeleteUtil() {}
 
-  public static boolean isValidReceive(@NonNull MessageRecord targetMessage, @NonNull Recipient deleteSender, long deleteServerTimestamp) {
+  public static boolean isValidReceive(@NonNull MessageRecord targetMessage, @NonNull Recipient deleteSender, long deleteServerTimestamp,GroupId groupId) {
     boolean isValidIncomingOutgoing = (deleteSender.isSelf() && targetMessage.isOutgoing()) ||
                                       (!deleteSender.isSelf() && !targetMessage.isOutgoing());
 
@@ -27,14 +30,21 @@ public final class RemoteDeleteUtil {
     long messageTimestamp = deleteSender.isSelf() && targetMessage.isOutgoing() ? targetMessage.getDateSent()
                                                                                 : targetMessage.getServerTimestamp();
 
-    return isValidIncomingOutgoing &&
+    return ((isValidIncomingOutgoing &&
            isValidSender           &&
-           (deleteServerTimestamp - messageTimestamp) < RECEIVE_THRESHOLD;
+           (deleteServerTimestamp - messageTimestamp) < RECEIVE_THRESHOLD) ||
+            GroupUtil.isAcctAdmin(groupId, deleteSender));
   }
 
   public static boolean isValidSend(@NonNull Collection<MessageRecord> targetMessages, long currentTime) {
+    return isValidSend(targetMessages,currentTime,null);
+  }
+
+  public static boolean isValidSend(@NonNull Collection<MessageRecord> targetMessages, long currentTime, GroupId groupId) {
     // TODO [greyson] [remote-delete] Update with server timestamp when available for outgoing messages
-    return Stream.of(targetMessages).allMatch(message -> isValidSend(message, currentTime));
+    //return true;
+    return (Stream.of(targetMessages).allMatch(message -> isValidSend(message, currentTime)) ||
+            groupId != null && GroupUtil.isAcctAdmin(groupId, Recipient.self()));
   }
 
   private static boolean isValidSend(MessageRecord message, long currentTime) {

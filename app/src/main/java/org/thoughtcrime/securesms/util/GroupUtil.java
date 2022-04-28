@@ -5,6 +5,9 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.Transformations;
 
 import com.google.protobuf.ByteString;
 
@@ -14,12 +17,16 @@ import org.signal.zkgroup.groups.GroupMasterKey;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.GroupDatabase;
+import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.groups.BadGroupIdException;
 import org.thoughtcrime.securesms.groups.GroupId;
+import org.thoughtcrime.securesms.groups.LiveGroup;
 import org.thoughtcrime.securesms.mms.MessageGroupContext;
 import org.thoughtcrime.securesms.mms.OutgoingGroupUpdateMessage;
+import org.thoughtcrime.securesms.recipients.LiveRecipient;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceContent;
 import org.whispersystems.signalservice.api.messages.SignalServiceDataMessage;
@@ -208,5 +215,27 @@ public final class GroupUtil {
 
     return result.toString();
     }
+  }
+
+  public static boolean isRecipientAdmin(Recipient msgRecipient,Recipient recipient){
+    if (msgRecipient.isGroup()){
+      return isAcctAdmin(msgRecipient.requireGroupId(),recipient);
+    }
+    return false;
+  }
+
+  public static boolean isAcctAdmin(GroupId groupId,Recipient recipient){
+     return isGroupAdmin(groupId,recipient);
+  }
+
+  private static boolean isGroupAdmin(GroupId groupId,Recipient recipient){
+    Context                        context       = ApplicationDependencies.getApplication();
+
+    GroupDatabase                       groupDatabase = DatabaseFactory.getGroupDatabase(context);
+    Optional<GroupDatabase.GroupRecord> groupRecord =  groupDatabase.getGroup(groupId);
+    if (groupRecord.isPresent()){
+      return groupRecord.get().isAdmin(recipient);
+    }
+    return false;
   }
 }

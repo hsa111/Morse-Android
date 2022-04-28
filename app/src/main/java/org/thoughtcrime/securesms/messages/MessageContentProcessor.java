@@ -14,6 +14,8 @@ import com.mobilecoin.lib.exceptions.SerializationException;
 
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallId;
+import org.signal.zkgroup.InvalidInputException;
+import org.signal.zkgroup.groups.GroupIdentifier;
 import org.signal.zkgroup.profiles.ProfileKey;
 import org.thoughtcrime.securesms.attachments.Attachment;
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
@@ -888,12 +890,28 @@ public final class MessageContentProcessor {
     return new MessageId(targetMessage.getId(), targetMessage.isMms());
   }
 
-  private @Nullable MessageId handleRemoteDelete(@NonNull SignalServiceContent content, @NonNull SignalServiceDataMessage message, @NonNull Recipient senderRecipient) {
+  private @Nullable MessageId handleRemoteDelete(@NonNull SignalServiceContent content,
+                                                 @NonNull SignalServiceDataMessage message,
+                                                 @NonNull Recipient senderRecipient) {
     SignalServiceDataMessage.RemoteDelete delete = message.getRemoteDelete().get();
 
-    MessageRecord targetMessage = DatabaseFactory.getMmsSmsDatabase(context).getMessageFor(delete.getTargetSentTimestamp(), senderRecipient.getId());
+    //MessageRecord targetMessage = DatabaseFactory.getMmsSmsDatabase(context).getMessageFor(delete.getTargetSentTimestamp(), senderRecipient.getId());
+    MessageRecord targetMessage = DatabaseFactory.getMmsSmsDatabase(context).
+        getMessageFor(delete.getTargetSentTimestamp(), senderRecipient.getId(),delete.getAuthorNumber());
 
-    if (targetMessage != null && RemoteDeleteUtil.isValidReceive(targetMessage, senderRecipient, content.getServerReceivedTimestamp())) {
+    GroupId groupId = null;
+    if (content.getGroupId().isPresent()) {
+      try {
+        GroupIdentifier groupIdentifier = new GroupIdentifier(content.getGroupId().get());
+        groupId = GroupId.v2(groupIdentifier);
+      } catch (InvalidInputException e) {
+        e.printStackTrace();
+      }
+    }
+
+    if (targetMessage != null && RemoteDeleteUtil.isValidReceive(targetMessage,
+                                                                   senderRecipient, content.getServerReceivedTimestamp(),
+                                                                   groupId)) {
       MessageDatabase db = targetMessage.isMms() ? DatabaseFactory.getMmsDatabase(context) : DatabaseFactory.getSmsDatabase(context);
       db.markAsRemoteDelete(targetMessage.getId());
       ApplicationDependencies.getMessageNotifier().updateNotification(context, targetMessage.getThreadId(), false);

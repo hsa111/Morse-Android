@@ -416,6 +416,7 @@ public class SignalServiceMessageSender {
 
     Content                 content = createMessageContent(message);
     Optional<byte[]>        groupId = message.getGroupId();
+
     List<SendMessageResult> results = sendGroupMessage(distributionId, recipients, unidentifiedAccess, message.getTimestamp(), content, contentHint, groupId.orNull(), false, sendEvents);
 
     sendEvents.onMessageSent();
@@ -880,8 +881,10 @@ public class SignalServiceMessageSender {
     }
 
     if (message.getRemoteDelete().isPresent()) {
+      String authorNumber = message.getRemoteDelete().get().getAuthorNumber();
       DataMessage.Delete delete = DataMessage.Delete.newBuilder()
                                                     .setTargetSentTimestamp(message.getRemoteDelete().get().getTargetSentTimestamp())
+                                                    .setAuthorNumber(authorNumber!= null? authorNumber:"")
                                                     .build();
       builder.setDelete(delete);
     }
