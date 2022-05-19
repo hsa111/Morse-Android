@@ -255,14 +255,24 @@ final class GroupsV2UpdateMessageProducer {
 
           }
         }
-      } else {
+      } else if (roleChange.getRole() == Member.Role.LISTENER) {
         if (editorIsYou) {
-          updates.add(updateDescription(roleChange.getUuid(), oldAdmin -> context.getString(R.string.MessageRecord_you_revoked_admin_privileges_from_s, oldAdmin), R.drawable.ic_update_group_role_16));
+          updates.add(updateDescription(roleChange.getUuid(), newAdmin -> context.getString(R.string.MessageRecord_you_made_s_a_listener, newAdmin), R.drawable.ic_update_group_role_16));
         } else {
           if (changedMemberIsYou) {
-            updates.add(updateDescription(change.getEditor(), editor -> context.getString(R.string.MessageRecord_s_revoked_your_admin_privileges, editor), R.drawable.ic_update_group_role_16));
+            updates.add(updateDescription(change.getEditor(), editor -> context.getString(R.string.MessageRecord_s_made_you_a_listener, editor), R.drawable.ic_update_group_role_16));
           } else {
-            updates.add(updateDescription(change.getEditor(), roleChange.getUuid(), (editor, oldAdmin) -> context.getString(R.string.MessageRecord_s_revoked_admin_privileges_from_s, editor, oldAdmin), R.drawable.ic_update_group_role_16));
+            updates.add(updateDescription(change.getEditor(), roleChange.getUuid(), (editor, newAdmin) -> context.getString(R.string.MessageRecord_s_made_s_a_listener, editor, newAdmin), R.drawable.ic_update_group_role_16));
+          }
+        }
+      } else {
+        if (editorIsYou) {
+          updates.add(updateDescription(roleChange.getUuid(), oldAdmin -> context.getString(R.string.MessageRecord_you_revoked_listener_privileges_from_s, oldAdmin), R.drawable.ic_update_group_role_16));
+        } else {
+          if (changedMemberIsYou) {
+            updates.add(updateDescription(change.getEditor(), editor -> context.getString(R.string.MessageRecord_s_revoked_your_listener_privileges, editor), R.drawable.ic_update_group_role_16));
+          } else {
+            updates.add(updateDescription(change.getEditor(), roleChange.getUuid(), (editor, oldAdmin) -> context.getString(R.string.MessageRecord_s_revoked_listener_privileges_from_s, editor, oldAdmin), R.drawable.ic_update_group_role_16));
           }
         }
       }
@@ -279,11 +289,17 @@ final class GroupsV2UpdateMessageProducer {
         } else {
           updates.add(updateDescription(roleChange.getUuid(), newAdmin -> context.getString(R.string.MessageRecord_s_is_now_an_admin, newAdmin), R.drawable.ic_update_group_role_16));
         }
+      } else if (roleChange.getRole() == Member.Role.LISTENER) {
+        if (changedMemberIsYou) {
+          updates.add(updateDescription(context.getString(R.string.MessageRecord_you_are_now_a_listener), R.drawable.ic_update_group_role_16));
+        } else {
+          updates.add(updateDescription(roleChange.getUuid(), newAdmin -> context.getString(R.string.MessageRecord_s_is_now_a_listener, newAdmin), R.drawable.ic_update_group_role_16));
+        }
       } else {
         if (changedMemberIsYou) {
-          updates.add(updateDescription(context.getString(R.string.MessageRecord_you_are_no_longer_an_admin), R.drawable.ic_update_group_role_16));
+          updates.add(updateDescription(context.getString(R.string.MessageRecord_you_are_normal_member), R.drawable.ic_update_group_role_16));
         } else {
-          updates.add(updateDescription(roleChange.getUuid(), oldAdmin -> context.getString(R.string.MessageRecord_s_is_no_longer_an_admin, oldAdmin), R.drawable.ic_update_group_role_16));
+          updates.add(updateDescription(roleChange.getUuid(), oldAdmin -> context.getString(R.string.MessageRecord_s_is_normal_member, oldAdmin), R.drawable.ic_update_group_role_16));
         }
       }
     }

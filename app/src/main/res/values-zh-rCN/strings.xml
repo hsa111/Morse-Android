@@ -3018,5 +3018,26 @@
   <string name="Subscription__contact_support">联系支持</string>
   <string name="SubscribeFragment__processing_payment">正在处理付款…</string>
   <string name="DonationsErrors__payment_failed">付款失败</string>
+
+  <string name="RecipientBottomSheet_s_will_be_able_become_listener">"%1$s" 将只能接收消息.</string>
+  <string name="RecipientBottomSheet_make_listener">禁言</string>
+  <string name="RecipientBottomSheet_remove_as_listener">取消禁言</string>
+  <string name="GroupRecipientListItem_listener">禁言</string>
+
+  <string name="RecipientBottomSheet_remove_s_as_group_listener">取消 %1$s 禁言?</string>
+
+  <!-- GV2 role change -->
+  <string name="MessageRecord_you_made_s_a_listener">你已将 %1$s 禁言.</string>
+  <string name="MessageRecord_s_made_s_a_listener">%1$s 将 %2$s 禁言.</string>
+  <string name="MessageRecord_s_made_you_a_listener">%1$s 将你禁言.</string>
+  <string name="MessageRecord_you_revoked_listener_privileges_from_s">你将 %1$s 设为普通成员.</string>
+  <string name="MessageRecord_s_revoked_your_listener_privileges">%1$s 将你设为普通成员.</string>
+  <string name="MessageRecord_s_revoked_listener_privileges_from_s">%1$s 将  %2$s 设为普通成员.</string>
+  <string name="MessageRecord_s_is_now_a_listener">%1$s 已被禁言.</string>
+  <string name="MessageRecord_you_are_now_a_listener">你已被禁言.</string>
+  <string name="MessageRecord_s_is_normal_member">%1$s 是普通成员了.</string>
+  <string name="MessageRecord_you_are_normal_member">你是普通成员了.</string>
+
+  <string name="ConversationActivity_block_listener_send_messages">你已被 %1$s 禁言.</string>
   <!--EOF-->
 </resources>

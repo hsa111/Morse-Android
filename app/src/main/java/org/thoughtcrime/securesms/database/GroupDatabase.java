@@ -1162,6 +1162,10 @@ private static final String[] GROUP_PROJECTION = {
       return isV2Group() && requireV2GroupProperties().isAdmin(recipient);
     }
 
+    public boolean isListener(@NonNull Recipient recipient) {
+      return isV2Group() && requireV2GroupProperties().isListener(recipient);
+    }
+
     public MemberLevel memberLevel(@NonNull Recipient recipient) {
       if (isV2Group()) {
         return requireV2GroupProperties().memberLevel(recipient);
@@ -1264,6 +1268,18 @@ private static final String[] GROUP_PROJECTION = {
                                .or(false);
     }
 
+    public boolean isListener(@NonNull Recipient recipient) {
+      Optional<ACI> aci = recipient.getAci();
+
+      if (!aci.isPresent()) {
+        return false;
+      }
+
+      return DecryptedGroupUtil.findMemberByUuid(getDecryptedGroup().getMembersList(), aci.get().uuid())
+                               .transform(t -> t.getRole() == Member.Role.LISTENER)
+                               .or(false);
+    }
+
     public @NonNull List<Recipient> getAdmins(@NonNull List<Recipient> members) {
       return members.stream().filter(this::isAdmin).collect(Collectors.toList());
     }
@@ -1280,7 +1296,9 @@ private static final String[] GROUP_PROJECTION = {
       return DecryptedGroupUtil.findMemberByUuid(decryptedGroup.getMembersList(), aci.get().uuid())
                                .transform(member -> member.getRole() == Member.Role.ADMINISTRATOR
                                                     ? MemberLevel.ADMINISTRATOR
-                                                    : MemberLevel.FULL_MEMBER)
+                                                    : (member.getRole() == Member.Role.LISTENER
+                                                       ?MemberLevel.LISTENER
+                                                       :MemberLevel.FULL_MEMBER))
                                .or(() -> DecryptedGroupUtil.findPendingByUuid(decryptedGroup.getPendingMembersList(), aci.get().uuid())
                                                            .transform(m -> MemberLevel.PENDING_MEMBER)
                                                            .or(() -> DecryptedGroupUtil.findRequestingByUuid(decryptedGroup.getRequestingMembersList(), aci.get().uuid())
@@ -1345,7 +1363,8 @@ private static final String[] GROUP_PROJECTION = {
     PENDING_MEMBER(false),
     REQUESTING_MEMBER(false),
     FULL_MEMBER(true),
-    ADMINISTRATOR(true);
+    ADMINISTRATOR(true),
+    LISTENER(true);
 
     private final boolean inGroup;
 

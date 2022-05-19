@@ -46,6 +46,8 @@ final class RecipientDialogViewModel extends ViewModel {
   private final LiveData<Boolean>               canAddToAGroup;
   private final MutableLiveData<Boolean>        adminActionBusy;
 
+  private final LiveData<ListenerActionStatus>     listenerActionStatus;
+
   private RecipientDialogViewModel(@NonNull Context context,
                                    @NonNull RecipientDialogRepository recipientDialogRepository)
   {
@@ -73,8 +75,17 @@ final class RecipientDialogViewModel extends ViewModel {
                                        inGroup && localAdmin && !recipientAdmin,
                                        inGroup && localAdmin && recipientAdmin);
         });
+      listenerActionStatus = LiveDataUtil.combineLatest(localIsAdmin, recipientMemberLevel,
+                                                     (localAdmin, memberLevel) -> {
+                                                       boolean inGroup        = memberLevel.isInGroup();
+                                                       boolean recipientListener = memberLevel == GroupDatabase.MemberLevel.LISTENER;
+
+                                                       return new ListenerActionStatus(inGroup && localAdmin && !recipientListener,
+                                                                                    inGroup && localAdmin && recipientListener);
+                                                     });
     } else {
       adminActionStatus = new MutableLiveData<>(new AdminActionStatus(false, false, false));
+      listenerActionStatus = new MutableLiveData<>(new ListenerActionStatus(false, false));
     }
 
     boolean isSelf = recipientDialogRepository.getRecipientId().equals(Recipient.self().getId());
@@ -100,6 +111,10 @@ final class RecipientDialogViewModel extends ViewModel {
 
   LiveData<AdminActionStatus> getAdminActionStatus() {
     return adminActionStatus;
+  }
+
+  LiveData<ListenerActionStatus> getListenerActionStatus() {
+    return listenerActionStatus;
   }
 
   LiveData<IdentityRecord> getIdentity() {
@@ -178,6 +193,42 @@ final class RecipientDialogViewModel extends ViewModel {
                    .show();
   }
 
+  void onMakeGroupListenerClicked(@NonNull Activity activity) {
+    new AlertDialog.Builder(activity)
+        .setMessage(context.getString(R.string.RecipientBottomSheet_s_will_be_able_become_listener, Objects.requireNonNull(recipient.getValue()).getDisplayName(context)))
+        .setPositiveButton(R.string.RecipientBottomSheet_make_listener,
+                           (dialog, which) -> {
+                             adminActionBusy.setValue(true);
+                             recipientDialogRepository.setMemberListener(true, result -> {
+                                                                           adminActionBusy.setValue(false);
+                                                                        if (!result) {
+                                                                          Toast.makeText(activity, R.string.ManageGroupActivity_failed_to_update_the_group, Toast.LENGTH_SHORT).show();
+                                                                        }
+                                                                      },
+                                                                      this::showErrorToast);
+                           })
+        .setNegativeButton(android.R.string.cancel, (dialog, which) -> {})
+        .show();
+  }
+
+  void onRemoveGroupListenerClicked(@NonNull Activity activity) {
+    new AlertDialog.Builder(activity)
+        .setMessage(context.getString(R.string.RecipientBottomSheet_remove_s_as_group_listener, Objects.requireNonNull(recipient.getValue()).getDisplayName(context)))
+        .setPositiveButton(R.string.RecipientBottomSheet_remove_as_listener,
+                           (dialog, which) -> {
+                             adminActionBusy.setValue(true);
+                             recipientDialogRepository.setMemberListener(false, result -> {
+                                                                           adminActionBusy.setValue(false);
+                                                                        if (!result) {
+                                                                          Toast.makeText(activity, R.string.ManageGroupActivity_failed_to_update_the_group, Toast.LENGTH_SHORT).show();
+                                                                        }
+                                                                      },
+                                                                      this::showErrorToast);
+                           })
+        .setNegativeButton(android.R.string.cancel, (dialog, which) -> {})
+        .show();
+  }
+
   void onRemoveFromGroupClicked(@NonNull Activity activity, @NonNull Runnable onSuccess) {
     new AlertDialog.Builder(activity)
                    .setMessage(context.getString(R.string.RecipientBottomSheet_remove_s_from_the_group, Objects.requireNonNull(recipient.getValue()).getDisplayName(context)))
@@ -230,6 +281,24 @@ final class RecipientDialogViewModel extends ViewModel {
 
     boolean isCanMakeNonAdmin() {
       return canMakeNonAdmin;
+    }
+  }
+
+  static class ListenerActionStatus {
+    private final boolean canMakeListener;
+    private final boolean canMakeNonListener;
+
+    ListenerActionStatus(boolean canMakeListener, boolean canMakeNonListener) {
+      this.canMakeListener    = canMakeListener;
+      this.canMakeNonListener = canMakeNonListener;
+    }
+
+    boolean isCanMakeListener() {
+      return canMakeListener;
+    }
+
+    boolean isCanMakeNonListener() {
+      return canMakeNonListener;
     }
   }
 

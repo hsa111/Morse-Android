@@ -104,6 +104,21 @@ final class RecipientDialogRepository {
                    onComplete::accept);
   }
 
+  void setMemberListener(boolean listener, @NonNull Consumer<Boolean> onComplete, @NonNull GroupChangeErrorCallback error) {
+    SimpleTask.run(SignalExecutors.UNBOUNDED,
+                   () -> {
+                     try {
+                       GroupManager.setMemberListener(context, Objects.requireNonNull(groupId).requireV2(), recipientId, listener);
+                       return true;
+                     } catch (GroupChangeException | IOException e) {
+                       Log.w(TAG, e);
+                       error.onError(GroupChangeFailureReason.fromException(e));
+                     }
+                     return false;
+                   },
+                   onComplete::accept);
+  }
+
   void getGroupMembership(@NonNull Consumer<List<RecipientId>> onComplete) {
     SimpleTask.run(SignalExecutors.UNBOUNDED,
                    () -> {

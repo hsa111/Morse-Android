@@ -78,7 +78,7 @@ public final class GroupMemberListView extends RecyclerView {
   }
 
   public void setDisplayOnlyMembers(@NonNull List<Recipient> recipients) {
-    membersAdapter.updateData(Stream.of(recipients).map(r -> new GroupMemberEntry.FullMember(r, false)).toList());
+    membersAdapter.updateData(Stream.of(recipients).map(r -> new GroupMemberEntry.FullMember(r, false,false)).toList());
   }
 
   @Override

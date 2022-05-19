@@ -415,6 +415,15 @@ final class GroupManagerV2 {
     }
 
     @WorkerThread
+    @NonNull GroupManager.GroupActionResult setMemberListener(@NonNull RecipientId recipientId,
+                                                           boolean listener)
+        throws GroupChangeFailedException, GroupInsufficientRightsException, IOException, GroupNotAMemberException
+    {
+      Recipient recipient = Recipient.resolved(recipientId);
+      return commitChangeWithConflictResolution(groupOperations.createChangeMemberRole(recipient.requireAci().uuid(), listener ? Member.Role.LISTENER : Member.Role.DEFAULT));
+    }
+    
+    @WorkerThread
     @NonNull GroupManager.GroupActionResult leaveGroup()
         throws GroupChangeFailedException, GroupInsufficientRightsException, IOException, GroupNotAMemberException
     {

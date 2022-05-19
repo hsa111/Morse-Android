@@ -550,7 +550,7 @@ public final class DecryptedGroupUtil {
   }
 
   private static void ensureKnownRole(Member.Role role) throws NotAbleToApplyGroupV2ChangeException {
-    if (role != Member.Role.ADMINISTRATOR && role != Member.Role.DEFAULT) {
+    if (role != Member.Role.ADMINISTRATOR && role != Member.Role.DEFAULT && role != Member.Role.LISTENER) {
       throw new NotAbleToApplyGroupV2ChangeException();
     }
   }

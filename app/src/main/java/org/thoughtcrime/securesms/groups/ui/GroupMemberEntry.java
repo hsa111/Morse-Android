@@ -71,10 +71,12 @@ public abstract class GroupMemberEntry {
 
     private final Recipient member;
     private final boolean   isAdmin;
+    private final boolean   isListener;
 
-    public FullMember(@NonNull Recipient member, boolean isAdmin) {
+    public FullMember(@NonNull Recipient member, boolean isAdmin,boolean isListener) {
       this.member  = member;
       this.isAdmin = isAdmin;
+      this.isListener = isListener;
     }
 
     public Recipient getMember() {
@@ -83,6 +85,10 @@ public abstract class GroupMemberEntry {
 
     public boolean isAdmin() {
       return isAdmin;
+    }
+
+    public boolean isListener() {
+      return isListener;
     }
 
     @Override
@@ -98,12 +104,13 @@ public abstract class GroupMemberEntry {
 
       FullMember other = (FullMember) obj;
       return other.member.equals(member) &&
-             other.isAdmin == isAdmin;
+             other.isAdmin == isAdmin &&
+             other.isListener == isListener;
     }
 
     @Override
     public int hashCode() {
-      return member.hashCode() * 31 + (isAdmin ? 1 : 0);
+      return member.hashCode() * 31 + (isAdmin ? 1 : 0) + (isListener ? 1 : 0);
     }
   }
 

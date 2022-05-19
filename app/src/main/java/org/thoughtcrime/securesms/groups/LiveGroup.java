@@ -91,7 +91,7 @@ public final class LiveGroup {
                                  g -> Stream.of(g.getMembers())
                                             .map(m -> {
                                               Recipient recipient = Recipient.resolved(m);
-                                              return new GroupMemberEntry.FullMember(recipient, g.isAdmin(recipient));
+                                              return new GroupMemberEntry.FullMember(recipient, g.isAdmin(recipient),g.isListener((recipient)));
                                             })
                                             .sorted(MEMBER_ORDER)
                                             .toList());

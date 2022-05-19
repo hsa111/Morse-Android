@@ -642,7 +642,7 @@ public final class GroupsV2Operations {
 
       Member.Role role = member.getMember().getRole();
 
-      if (role != Member.Role.ADMINISTRATOR && role != Member.Role.DEFAULT) {
+      if (role != Member.Role.ADMINISTRATOR && role != Member.Role.DEFAULT && role != Member.Role.LISTENER) {
         role = Member.Role.DEFAULT;
       }
 

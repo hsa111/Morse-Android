@@ -187,6 +187,7 @@ final class GroupMemberListAdapter extends LifecycleRecyclerAdapter<GroupMemberL
     @Nullable final AdminActionsListener       adminActionsListener;
     @Nullable final RecipientLongClickListener recipientLongClickListener;
               final boolean                    selectable;
+    @Nullable final View                       listener;
 
     ViewHolder(@NonNull View itemView,
                @Nullable RecipientClickListener recipientClickListener,
@@ -212,6 +213,8 @@ final class GroupMemberListAdapter extends LifecycleRecyclerAdapter<GroupMemberL
       this.adminActionsListener       = adminActionsListener;
       this.selectionChangeListener    = selectionChangeListener;
       this.selectable                 = selectable;
+      this.listener                      = itemView.findViewById(R.id.listener);
+
     }
 
     void bindRecipient(@NonNull Recipient recipient) {
@@ -314,6 +317,9 @@ final class GroupMemberListAdapter extends LifecycleRecyclerAdapter<GroupMemberL
       bindRecipientClick(fullMember.getMember());
       if (admin != null) {
         admin.setVisibility(fullMember.isAdmin() ? View.VISIBLE : View.INVISIBLE);
+      }
+      if (listener != null) {
+        listener.setVisibility(fullMember.isListener() ? View.VISIBLE : View.INVISIBLE);
       }
     }
   }

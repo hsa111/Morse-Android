@@ -4024,6 +4024,27 @@
 
     <string name="Boost__thank_you_for_your_donation" translatable="false">Thank you for your donation. Your contribution helps fuel the mission of developing open source privacy technology that protects free expression and enables secure global communication for millions around the world. Morse Technology Foundation is a tax-exempt nonprofit organization in the United States under section 501c3 of the Internal Revenue Code. Our Federal Tax ID is 82-4506840. No goods or services were provided in exchange for this donation. Please retain this receipt for your tax records.</string>
 
+    <string name="RecipientBottomSheet_s_will_be_able_become_listener">"%1$s" will only receive messages.</string>
+    <string name="RecipientBottomSheet_make_listener">Make listener</string>
+    <string name="RecipientBottomSheet_remove_as_listener">Remove as listener</string>
+    <string name="GroupRecipientListItem_listener">Listener</string>
+
+    <string name="RecipientBottomSheet_remove_s_as_group_listener">Remove %1$s as group listener?</string>
+
+    <!-- GV2 role change -->
+    <string name="MessageRecord_you_made_s_a_listener">You made %1$s a listener.</string>
+    <string name="MessageRecord_s_made_s_a_listener">%1$s made %2$s a listener.</string>
+    <string name="MessageRecord_s_made_you_a_listener">%1$s made you a listener.</string>
+    <string name="MessageRecord_you_revoked_listener_privileges_from_s">You make  %1$s a normal member.</string>
+    <string name="MessageRecord_s_revoked_your_listener_privileges">%1$s make you a normal member.</string>
+    <string name="MessageRecord_s_revoked_listener_privileges_from_s">%1$s make  %2$s a normal member.</string>
+    <string name="MessageRecord_s_is_now_a_listener">%1$s is now a listener.</string>
+    <string name="MessageRecord_you_are_now_a_listener">You are now a listener.</string>
+    <string name="MessageRecord_s_is_normal_member">%1$s is a normal member now.</string>
+    <string name="MessageRecord_you_are_normal_member">You are a normal member now.</string>
+
+    <string name="ConversationActivity_block_listener_send_messages">You have been set as a listener by %1$s.</string>
+
     <!-- EOF -->
 
 </resources>

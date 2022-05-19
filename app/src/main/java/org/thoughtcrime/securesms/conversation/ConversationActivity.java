@@ -1634,6 +1634,11 @@ public class ConversationActivity extends PassphraseRequiredActivity
             canSendMessages  = true;
             canCancelRequest = false;
             break;
+          case LISTENER:
+            leftGroup        = false;
+            canSendMessages  = false;
+            canCancelRequest = false;
+            break;
           default:
             throw new AssertionError();
         }
@@ -1642,9 +1647,15 @@ public class ConversationActivity extends PassphraseRequiredActivity
           canSendMessages = false;
           cannotSendInAnnouncementGroupBanner.get().setVisibility(View.VISIBLE);
           cannotSendInAnnouncementGroupBanner.get().setMovementMethod(LinkMovementMethod.getInstance());
-          cannotSendInAnnouncementGroupBanner.get().setText(SpanUtil.clickSubstring(this, R.string.ConversationActivity_only_s_can_send_messages, R.string.ConversationActivity_admins, v -> {
-            ShowAdminsBottomSheetDialog.show(getSupportFragmentManager(), getRecipient().requireGroupId().requireV2());
-          }));
+          if (selfMembership.getMemberLevel() == GroupDatabase.MemberLevel.LISTENER) {
+            cannotSendInAnnouncementGroupBanner.get().setText(SpanUtil.clickSubstring(this, R.string.ConversationActivity_block_listener_send_messages, R.string.ConversationActivity_admins, v -> {
+              ShowAdminsBottomSheetDialog.show(getSupportFragmentManager(), getRecipient().requireGroupId().requireV2());
+            }));
+          } else{
+            cannotSendInAnnouncementGroupBanner.get().setText(SpanUtil.clickSubstring(this, R.string.ConversationActivity_only_s_can_send_messages, R.string.ConversationActivity_admins, v -> {
+              ShowAdminsBottomSheetDialog.show(getSupportFragmentManager(), getRecipient().requireGroupId().requireV2());
+            }));
+          }
         } else if (cannotSendInAnnouncementGroupBanner.resolved()) {
           cannotSendInAnnouncementGroupBanner.get().setVisibility(View.GONE);
         }

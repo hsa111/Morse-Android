@@ -226,6 +226,18 @@ public final class GroupManager {
   }
 
   @WorkerThread
+  public static void setMemberListener(@NonNull Context context,
+                                    @NonNull GroupId.V2 groupId,
+                                    @NonNull RecipientId recipientId,
+                                    boolean listener)
+      throws GroupChangeBusyException, GroupChangeFailedException, GroupInsufficientRightsException, GroupNotAMemberException, IOException
+  {
+    try (GroupManagerV2.GroupEditor editor = new GroupManagerV2(context).edit(groupId.requireV2())) {
+      editor.setMemberListener(recipientId, listener);
+    }
+  }
+
+  @WorkerThread
   public static void updateSelfProfileKeyInGroup(@NonNull Context context, @NonNull GroupId.V2 groupId)
       throws IOException, GroupChangeBusyException, GroupInsufficientRightsException, GroupNotAMemberException, GroupChangeFailedException
   {

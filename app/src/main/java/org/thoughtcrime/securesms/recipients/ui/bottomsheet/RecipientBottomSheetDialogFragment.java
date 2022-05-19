@@ -79,6 +79,9 @@ public final class RecipientBottomSheetDialogFragment extends BottomSheetDialogF
   private View                     interactionsContainer;
   private BadgeImageView           badgeImageView;
 
+  private Button                   makeGroupListenerButton;
+  private Button                   removeListenerButton;
+
   public static BottomSheetDialogFragment create(@NonNull RecipientId recipientId,
                                                  @Nullable GroupId groupId)
   {
@@ -126,6 +129,9 @@ public final class RecipientBottomSheetDialogFragment extends BottomSheetDialogF
     buttonStrip            = view.findViewById(R.id.button_strip);
     interactionsContainer  = view.findViewById(R.id.interactions_container);
     badgeImageView         = view.findViewById(R.id.rbs_badge);
+
+    makeGroupListenerButton   = view.findViewById(R.id.rbs_make_group_listener_button);
+    removeListenerButton      = view.findViewById(R.id.rbs_remove_group_listener_button);
 
     return view;
   }
@@ -272,6 +278,11 @@ public final class RecipientBottomSheetDialogFragment extends BottomSheetDialogF
       removeFromGroupButton.setVisibility(adminStatus.isCanRemove() ? View.VISIBLE : View.GONE);
     });
 
+    viewModel.getListenerActionStatus().observe(getViewLifecycleOwner(), listenerStatus -> {
+      makeGroupListenerButton.setVisibility(listenerStatus.isCanMakeListener() ? View.VISIBLE : View.GONE);
+      removeListenerButton.setVisibility(listenerStatus.isCanMakeNonListener() ? View.VISIBLE : View.GONE);
+    });
+
     viewModel.getIdentity().observe(getViewLifecycleOwner(), identityRecord -> {
       viewSafetyNumberButton.setVisibility(identityRecord != null ? View.VISIBLE : View.GONE);
 
@@ -312,7 +323,14 @@ public final class RecipientBottomSheetDialogFragment extends BottomSheetDialogF
       makeGroupAdminButton.setEnabled(!busy);
       removeAdminButton.setEnabled(!busy);
       removeFromGroupButton.setEnabled(!busy);
+
+      makeGroupListenerButton.setEnabled(!busy);
+      removeListenerButton.setEnabled(!busy);
     });
+
+    makeGroupListenerButton.setOnClickListener(view -> viewModel.onMakeGroupListenerClicked(requireActivity()));
+    removeListenerButton.setOnClickListener(view -> viewModel.onRemoveGroupListenerClicked(requireActivity()));
+
   }
 
   @Override
