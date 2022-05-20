@@ -1088,6 +1088,22 @@ private static final String[] GROUP_PROJECTION = {
       }
     }
 
+    public boolean isAddFriendsAdminOnly() {
+      if (v2GroupProperties != null) {
+        return v2GroupProperties.getDecryptedGroup().getIsAddFriendsAdminOnly() == EnabledState.ENABLED;
+      } else {
+        return false;
+      }
+    }
+
+    public boolean isViewMembersAdminOnly() {
+      if (v2GroupProperties != null) {
+        return v2GroupProperties.getDecryptedGroup().getIsViewMembersAdminOnly() == EnabledState.ENABLED;
+      } else {
+        return false;
+      }
+    }
+
     public @NonNull List<RecipientId> getMembers() {
       return members;
     }

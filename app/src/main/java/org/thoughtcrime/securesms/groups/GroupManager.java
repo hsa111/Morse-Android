@@ -320,6 +320,28 @@ public final class GroupManager {
   }
 
   @WorkerThread
+  public static void applyAddFriendsAdminOnlyChange(@NonNull Context context,
+                                                  @NonNull GroupId.V2 groupId,
+                                                  @NonNull boolean isAddFriendsAdminOnly)
+      throws GroupChangeFailedException, GroupInsufficientRightsException, IOException, GroupNotAMemberException, GroupChangeBusyException
+  {
+    try (GroupManagerV2.GroupEditor editor = new GroupManagerV2(context).edit(groupId.requireV2())) {
+      editor.updateAddFriendsAdminOnly(isAddFriendsAdminOnly);
+    }
+  }
+
+  @WorkerThread
+  public static void applyViewMembersAdminOnlyChange(@NonNull Context context,
+                                                  @NonNull GroupId.V2 groupId,
+                                                  @NonNull boolean isViewMembersAdminOnly)
+      throws GroupChangeFailedException, GroupInsufficientRightsException, IOException, GroupNotAMemberException, GroupChangeBusyException
+  {
+    try (GroupManagerV2.GroupEditor editor = new GroupManagerV2(context).edit(groupId.requireV2())) {
+      editor.updateViewMembersAdminOnlyChange(isViewMembersAdminOnly);
+    }
+  }
+
+  @WorkerThread
   public static void cycleGroupLinkPassword(@NonNull Context context,
                                             @NonNull GroupId.V2 groupId)
       throws GroupChangeFailedException, GroupInsufficientRightsException, IOException, GroupNotAMemberException, GroupChangeBusyException

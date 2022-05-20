@@ -43,7 +43,9 @@ public final class GroupChangeUtil {
            change.getPromoteRequestingMembersCount() == 0 && // field 18
            !change.hasModifyInviteLinkPassword()          && // field 19
            !change.hasModifyDescription()                 && // field 20
-           !change.hasModifyAnnouncementsOnly();             // field 21
+           !change.hasModifyAnnouncementsOnly()           && // field 21
+           !change.hasModifyAddFriendsAdminOnly()         && // field 22
+           !change.hasModifyViewMembersAdminOnly();          // field 23
   }
 
   /**
@@ -138,6 +140,8 @@ public final class GroupChangeUtil {
     resolveField18PromoteRequestingMembers       (conflictingChange, changeSetModifier, requestingMembersByUuid);
     resolveField20ModifyDescription              (groupState, conflictingChange, changeSetModifier);
     resolveField21ModifyAnnouncementsOnly        (groupState, conflictingChange, changeSetModifier);
+    resolveField22ModifyAddFriendsAdminOnly      (groupState, conflictingChange, changeSetModifier);
+    resolveField23ModifyViewMembersAdminOnly     (groupState, conflictingChange, changeSetModifier);
   }
 
   private static void resolveField3AddMembers(DecryptedGroupChange conflictingChange, ChangeSetModifier result, HashMap<ByteString, DecryptedMember> fullMembersByUuid, HashMap<ByteString, DecryptedPendingMember> pendingMembersByUuid) {
@@ -317,6 +321,18 @@ public final class GroupChangeUtil {
   private static void resolveField21ModifyAnnouncementsOnly(DecryptedGroup groupState, DecryptedGroupChange conflictingChange, ChangeSetModifier result) {
     if (conflictingChange.getNewIsAnnouncementGroup().equals(groupState.getIsAnnouncementGroup())) {
       result.clearModifyAnnouncementsOnly();
+    }
+  }
+
+  private static void resolveField22ModifyAddFriendsAdminOnly(DecryptedGroup groupState, DecryptedGroupChange conflictingChange, ChangeSetModifier result) {
+    if (conflictingChange.getNewAddFriendsAdminOnly().equals(groupState.getIsAddFriendsAdminOnly())) {
+      result.clearModifyAddFriendsAdminOnly();
+    }
+  }
+
+  private static void resolveField23ModifyViewMembersAdminOnly(DecryptedGroup groupState, DecryptedGroupChange conflictingChange, ChangeSetModifier result) {
+    if (conflictingChange.getNewViewMembersAdminOnly().equals(groupState.getIsViewMembersAdminOnly())) {
+      result.clearModifyViewMembersAdminOnly();
     }
   }
 }

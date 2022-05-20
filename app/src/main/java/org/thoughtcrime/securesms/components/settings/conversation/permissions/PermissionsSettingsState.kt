@@ -5,5 +5,7 @@ data class PermissionsSettingsState(
   val nonAdminCanAddMembers: Boolean = false,
   val nonAdminCanEditGroupInfo: Boolean = false,
   val announcementGroupPermissionEnabled: Boolean = false,
-  val announcementGroup: Boolean = false
+  val announcementGroup: Boolean = false,
+  val addFriendsAdminOnlyGroup: Boolean = false,
+  val viewMembersAdminOnlyGroup: Boolean = false,
 )

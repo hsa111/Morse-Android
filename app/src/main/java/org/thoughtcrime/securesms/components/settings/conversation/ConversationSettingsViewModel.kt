@@ -316,6 +316,22 @@ sealed class ConversationSettingsViewModel(
         )
       }
 
+      store.update(liveGroup.isAddFriendsAdminOnly) { addFriendsAdminOnly, state ->
+        state.copy(
+          specificSettingsState = state.requireGroupSettingsState().copy(
+            isAddFriendsAdminOnly = addFriendsAdminOnly
+          )
+        )
+      }
+
+      store.update(liveGroup.isViewMembersAdminOnly) { viewMembersAdminOnly, state ->
+        state.copy(
+          specificSettingsState = state.requireGroupSettingsState().copy(
+            isViewMembersAdminOnly = viewMembersAdminOnly
+          )
+        )
+      }
+
       val isMessageRequestAccepted: LiveData<Boolean> = LiveDataUtil.mapAsync(liveGroup.groupRecipient) { r -> repository.isMessageRequestAccepted(r) }
       val descriptionState: LiveData<DescriptionState> = LiveDataUtil.combineLatest(liveGroup.description, isMessageRequestAccepted, ::DescriptionState)
 

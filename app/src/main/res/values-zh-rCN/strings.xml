@@ -925,6 +925,9 @@
   <string name="MessageRecord_you_allow_only_admins_to_send">您已将群组设置更改为仅允许管理员发送消息。</string>
   <string name="MessageRecord_allow_all_members_to_send">群组设置已更改为允许全部成员发送消息。</string>
   <string name="MessageRecord_allow_only_admins_to_send">群组设置已更改为仅允许管理员发送消息。</string>
+  <string name="MessageRecord_s_allow_all_members_to_send">%1$s 已将群组设置更改为允许全部成员发送消息。</string>
+  <string name="MessageRecord_s_allow_only_admins_to_send">%1$s 已将群组设置更改为仅允许管理员发送消息。</string>
+
   <!--GV2 group link invite access level change-->
   <string name="MessageRecord_you_turned_on_the_group_link_with_admin_approval_off">您打开了无需管理员认证的群组链接。</string>
   <string name="MessageRecord_you_turned_on_the_group_link_with_admin_approval_on">你已打开了启用管理员认证的群组链接。</string>
@@ -3039,5 +3042,31 @@
   <string name="MessageRecord_you_are_normal_member">你是普通成员了.</string>
 
   <string name="ConversationActivity_block_listener_send_messages">你已被 %1$s 禁言.</string>
+
+  <string name="PermissionsSettingsFragment__add_friends_admin_only">群组中加好友</string>
+  <string name="PermissionsSettingsFragment__view_members_admin_only">查看群成员</string>
+
+  <string name="PermissionsSettingsFragment__who_can_add_friends">选择谁能在群组中加好友?</string>
+  <string name="PermissionsSettingsFragment__who_can_view_members">选择谁能查看群成员?</string>
+
+  <!-- GV2 add friends group change -->
+  <string name="MessageRecord_you_allow_all_members_to_add_friends">你已将群组设置修改为允许全部成员在群组中加好友.</string>
+  <string name="MessageRecord_you_allow_only_admins_to_add_friends">你已将群组设置修改为仅允许管理员在群组中加好友.</string>
+  <string name="MessageRecord_s_allow_all_members_to_add_friends">%1$s 已将群组设置修改为允许全部成员在群组中加好友.</string>
+  <string name="MessageRecord_s_allow_only_admins_to_add_friends">%1$s 已将群组设置修改为仅允许管理员在群组中加好友.</string>
+  <string name="MessageRecord_allow_all_members_to_add_friends">群组设置已修改为允许全部成员在群组中加好友.</string>
+  <string name="MessageRecord_allow_only_admins_to_add_friends">群组设置已修改为仅允许管理员在群组中加好友.</string>
+
+  <!-- GV2 view members group change -->
+  <string name="MessageRecord_you_allow_all_members_to_view_members">你已将群组设置修改为允许全部成员查看群成员.</string>
+  <string name="MessageRecord_you_allow_only_admins_to_view_members">你已将群组设置修改为仅允许管理员查看群成员.</string>
+  <string name="MessageRecord_s_allow_all_members_to_view_members">%1$s 已将群组设置修改为允许全部成员查看群成员.</string>
+  <string name="MessageRecord_s_allow_only_admins_to_view_members">%1$s 已将群组设置修改为仅允许管理员查看群成员.</string>
+  <string name="MessageRecord_allow_all_members_to_view_members">群组设置已修改为允许全部成员查看群成员.</string>
+  <string name="MessageRecord_allow_only_admins_to_view_members">群组设置已修改为仅允许管理员查看群成员.</string>
+
+  <string name="PermissionsSettingsFragment__send_messages">发送消息</string>
+  <string name="PermissionsSettingsFragment__who_can_send_messages">选择群组中谁可以发送消息以及发起通话?</string>
+
   <!--EOF-->
 </resources>

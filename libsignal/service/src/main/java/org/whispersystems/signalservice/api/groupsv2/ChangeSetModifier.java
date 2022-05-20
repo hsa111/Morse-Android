@@ -40,4 +40,8 @@ public interface ChangeSetModifier {
   void clearModifyDescription();
 
   void clearModifyAnnouncementsOnly();
+
+  void clearModifyAddFriendsAdminOnly();
+
+  void clearModifyViewMembersAdminOnly();
 }

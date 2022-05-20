@@ -4045,6 +4045,28 @@
 
     <string name="ConversationActivity_block_listener_send_messages">You have been set as a listener by %1$s.</string>
 
+    <string name="PermissionsSettingsFragment__add_friends_admin_only">Add friends</string>
+    <string name="PermissionsSettingsFragment__view_members_admin_only">View members</string>
+
+    <string name="PermissionsSettingsFragment__who_can_add_friends">Who can add friends in this group?</string>
+    <string name="PermissionsSettingsFragment__who_can_view_members">Who can view members in this group?</string>
+
+    <!-- GV2 add friends group change -->
+    <string name="MessageRecord_you_allow_all_members_to_add_friends">You changed the group settings to allow all members to add friends.</string>
+    <string name="MessageRecord_you_allow_only_admins_to_add_friends">You changed the group settings to only allow admins to add friends.</string>
+    <string name="MessageRecord_s_allow_all_members_to_add_friends">%1$s changed the group settings to allow all members to add friends.</string>
+    <string name="MessageRecord_s_allow_only_admins_to_add_friends">%1$s changed the group settings to only allow admins to add friends.</string>
+    <string name="MessageRecord_allow_all_members_to_add_friends">The group settings were changed to allow all members to add friends.</string>
+    <string name="MessageRecord_allow_only_admins_to_add_friends">The group settings were changed to only allow admins to add friends.</string>
+
+    <!-- GV2 view members group change -->
+    <string name="MessageRecord_you_allow_all_members_to_view_members">You changed the group settings to allow all members to view members.</string>
+    <string name="MessageRecord_you_allow_only_admins_to_view_members">You changed the group settings to only allow admins to view members.</string>
+    <string name="MessageRecord_s_allow_all_members_to_view_members">%1$s changed the group settings to allow all members to view members.</string>
+    <string name="MessageRecord_s_allow_only_admins_to_view_members">%1$s changed the group settings to only allow admins to view members.</string>
+    <string name="MessageRecord_allow_all_members_to_view_members">The group settings were changed to allow all members to view members.</string>
+    <string name="MessageRecord_allow_only_admins_to_view_members">The group settings were changed to only allow admins to view members.</string>
+
     <!-- EOF -->
 
 </resources>

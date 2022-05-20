@@ -56,4 +56,32 @@ class PermissionsSettingsRepository(private val context: Context) {
       }
     }
   }
+
+  fun applyAddFriendsAdminOnlyChange(groupId: GroupId, isAddFriendsAdminOnlyp: Boolean, error: GroupChangeErrorCallback) {
+    SignalExecutors.UNBOUNDED.execute {
+      try {
+        GroupManager.applyAddFriendsAdminOnlyChange(context, groupId.requireV2(), isAddFriendsAdminOnlyp)
+      } catch (e: GroupChangeException) {
+        Log.w(TAG, e)
+        error.onError(GroupChangeFailureReason.fromException(e))
+      } catch (e: IOException) {
+        Log.w(TAG, e)
+        error.onError(GroupChangeFailureReason.fromException(e))
+      }
+    }
+  }
+
+  fun applyViewMembersAdminOnlyChange(groupId: GroupId, isViewMembersAdminOnly: Boolean, error: GroupChangeErrorCallback) {
+    SignalExecutors.UNBOUNDED.execute {
+      try {
+        GroupManager.applyViewMembersAdminOnlyChange(context, groupId.requireV2(), isViewMembersAdminOnly)
+      } catch (e: GroupChangeException) {
+        Log.w(TAG, e)
+        error.onError(GroupChangeFailureReason.fromException(e))
+      } catch (e: IOException) {
+        Log.w(TAG, e)
+        error.onError(GroupChangeFailureReason.fromException(e))
+      }
+    }
+  }
 }

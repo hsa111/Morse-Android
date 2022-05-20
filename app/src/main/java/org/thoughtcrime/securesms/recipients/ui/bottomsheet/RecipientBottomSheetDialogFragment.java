@@ -272,6 +272,17 @@ public final class RecipientBottomSheetDialogFragment extends BottomSheetDialogF
       addToGroupButton.setVisibility(canAdd ? View.VISIBLE : View.GONE);
     });
 
+    viewModel.getCanAddFriendsInGroup().observe(getViewLifecycleOwner(), canAddFriendsInGroup -> {
+      if (!canAddFriendsInGroup){
+        usernameNumber.setVisibility(View.GONE);
+        addToGroupButton.setVisibility(View.GONE);
+        removeFromGroupButton.setVisibility(View.GONE);
+        addContactButton.setVisibility(View.GONE);
+        viewSafetyNumberButton.setVisibility(View.GONE);
+        buttonStrip.setVisibility(View.GONE);
+      }
+    });
+
     viewModel.getAdminActionStatus().observe(getViewLifecycleOwner(), adminStatus -> {
       makeGroupAdminButton.setVisibility(adminStatus.isCanMakeAdmin() ? View.VISIBLE : View.GONE);
       removeAdminButton.setVisibility(adminStatus.isCanMakeNonAdmin() ? View.VISIBLE : View.GONE);

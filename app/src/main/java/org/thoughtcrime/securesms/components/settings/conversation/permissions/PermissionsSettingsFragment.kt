@@ -86,6 +86,30 @@ class PermissionsSettingsFragment : DSLSettingsFragment(
           }
         )
       }
+
+      radioListPref(
+        title = DSLSettingsText.from(R.string.PermissionsSettingsFragment__add_friends_admin_only),
+        isEnabled = state.selfCanEditSettings,
+        listItems = permissionsOptions,
+        dialogTitle = DSLSettingsText.from(R.string.PermissionsSettingsFragment__who_can_add_friends),
+        selected = getSelected(!state.addFriendsAdminOnlyGroup),
+        confirmAction = true,
+        onSelected = {
+          viewModel.setAddFriendsAdminOnly(it == 0)
+        }
+      )
+
+      radioListPref(
+        title = DSLSettingsText.from(R.string.PermissionsSettingsFragment__view_members_admin_only),
+        isEnabled = state.selfCanEditSettings,
+        listItems = permissionsOptions,
+        dialogTitle = DSLSettingsText.from(R.string.PermissionsSettingsFragment__who_can_view_members),
+        selected = getSelected(!state.viewMembersAdminOnlyGroup),
+        confirmAction = true,
+        onSelected = {
+          viewModel.setViewMembersAdminOnly(it == 0)
+        }
+      )
     }
   }
 

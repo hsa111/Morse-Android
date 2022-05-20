@@ -110,6 +110,8 @@ final class GroupsV2UpdateMessageProducer {
       describeUnknownEditorRequestingMembersApprovals(change, updates);
       describeUnknownEditorRequestingMembersDeletes(change, updates);
       describeUnknownEditorAnnouncementGroupChange(change, updates);
+      describeUnknownEditorAddFriendsAdminOnlyChange(change, updates);
+      describeUnknownEditorViewMembersAdminOnlyChange(change, updates);
 
       describeUnknownEditorMemberRemovals(change, updates);
 
@@ -135,6 +137,8 @@ final class GroupsV2UpdateMessageProducer {
       describeRequestingMembersApprovals(change, updates);
       describeRequestingMembersDeletes(change, updates);
       describeAnnouncementGroupChange(change, updates);
+      describeAddFriendsAdminOnlyChange(change, updates);
+      describeViewMembersAdminOnlyChange(change, updates);
 
       describeMemberRemovals(change, updates);
 
@@ -755,6 +759,58 @@ final class GroupsV2UpdateMessageProducer {
       updates.add(updateDescription(context.getString(R.string.MessageRecord_allow_only_admins_to_send), R.drawable.ic_update_group_role_16));
     } else if (change.getNewIsAnnouncementGroup() == EnabledState.DISABLED) {
       updates.add(updateDescription(context.getString(R.string.MessageRecord_allow_all_members_to_send), R.drawable.ic_update_group_role_16));
+    }
+  }
+
+  private void describeAddFriendsAdminOnlyChange(@NonNull DecryptedGroupChange change, @NonNull List<UpdateDescription> updates) {
+    boolean editorIsYou = change.getEditor().equals(selfUuidBytes);
+
+    if (change.getNewAddFriendsAdminOnly() == EnabledState.ENABLED) {
+      if (editorIsYou) {
+        updates.add(updateDescription(context.getString(R.string.MessageRecord_you_allow_only_admins_to_add_friends), R.drawable.ic_update_group_role_16));
+      } else {
+        updates.add(updateDescription(change.getEditor(), editor -> context.getString(R.string.MessageRecord_s_allow_only_admins_to_add_friends, editor), R.drawable.ic_update_group_role_16));
+      }
+    } else if (change.getNewAddFriendsAdminOnly() == EnabledState.DISABLED) {
+      if (editorIsYou) {
+        updates.add(updateDescription(context.getString(R.string.MessageRecord_you_allow_all_members_to_add_friends), R.drawable.ic_update_group_role_16));
+      } else {
+        updates.add(updateDescription(change.getEditor(), editor -> context.getString(R.string.MessageRecord_s_allow_all_members_to_add_friends, editor), R.drawable.ic_update_group_role_16));
+      }
+    }
+  }
+
+  private void describeUnknownEditorAddFriendsAdminOnlyChange(@NonNull DecryptedGroupChange change, @NonNull List<UpdateDescription> updates) {
+    if (change.getNewAddFriendsAdminOnly() == EnabledState.ENABLED) {
+      updates.add(updateDescription(context.getString(R.string.MessageRecord_you_allow_only_admins_to_add_friends), R.drawable.ic_update_group_role_16));
+    } else if (change.getNewAddFriendsAdminOnly() == EnabledState.DISABLED) {
+      updates.add(updateDescription(context.getString(R.string.MessageRecord_s_allow_all_members_to_add_friends), R.drawable.ic_update_group_role_16));
+    }
+  }
+
+  private void describeViewMembersAdminOnlyChange(@NonNull DecryptedGroupChange change, @NonNull List<UpdateDescription> updates) {
+    boolean editorIsYou = change.getEditor().equals(selfUuidBytes);
+
+    if (change.getNewViewMembersAdminOnly() == EnabledState.ENABLED) {
+      if (editorIsYou) {
+        updates.add(updateDescription(context.getString(R.string.MessageRecord_you_allow_only_admins_to_view_members), R.drawable.ic_update_group_role_16));
+      } else {
+        updates.add(updateDescription(change.getEditor(), editor -> context.getString(R.string.MessageRecord_s_allow_only_admins_to_view_members, editor), R.drawable.ic_update_group_role_16));
+      }
+    } else if (change.getNewViewMembersAdminOnly() == EnabledState.DISABLED) {
+      if (editorIsYou) {
+        updates.add(updateDescription(context.getString(R.string.MessageRecord_you_allow_all_members_to_view_members), R.drawable.ic_update_group_role_16));
+      } else {
+        updates.add(updateDescription(change.getEditor(), editor -> context.getString(R.string.MessageRecord_s_allow_all_members_to_view_members, editor), R.drawable.ic_update_group_role_16));
+      }
+    }
+  }
+
+  private void describeUnknownEditorViewMembersAdminOnlyChange(@NonNull DecryptedGroupChange change, @NonNull List<UpdateDescription> updates) {
+    if (change.getNewViewMembersAdminOnly() == EnabledState.ENABLED) {
+      updates.add(updateDescription(context.getString(R.string.MessageRecord_s_allow_only_admins_to_view_members), R.drawable.ic_update_group_role_16));
+    } else if (change.getNewViewMembersAdminOnly() == EnabledState.DISABLED) {
+      updates.add(updateDescription(context.getString(R.string.MessageRecord_s_allow_all_members_to_view_members), R.drawable.ic_update_group_role_16));
     }
   }
 

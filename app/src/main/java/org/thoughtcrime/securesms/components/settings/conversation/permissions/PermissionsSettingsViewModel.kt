@@ -42,6 +42,18 @@ class PermissionsSettingsViewModel(
       )
     }
 
+    store.update(liveGroup.isAddFriendsAdminOnly) { isAddFriendsAdminOnly, state ->
+      state.copy(
+        addFriendsAdminOnlyGroup = isAddFriendsAdminOnly
+      )
+    }
+
+    store.update(liveGroup.isViewMembersAdminOnly) { isViewMembersAdminOnly, state ->
+      state.copy(
+        viewMembersAdminOnlyGroup = isViewMembersAdminOnly
+      )
+    }
+
     store.update(liveGroup.groupRecipient) { groupRecipient, state ->
       val allHaveCapability = groupRecipient.participants.map { it.announcementGroupCapability }.all { it == Recipient.Capability.SUPPORTED }
       state.copy(announcementGroupPermissionEnabled = allHaveCapability || state.announcementGroup)
@@ -65,6 +77,19 @@ class PermissionsSettingsViewModel(
       internalEvents.postValue(PermissionsSettingsEvents.GroupChangeError(reason))
     }
   }
+
+  fun setAddFriendsAdminOnly(announcementGroup: Boolean) {
+    repository.applyAddFriendsAdminOnlyChange(groupId, announcementGroup) { reason ->
+      internalEvents.postValue(PermissionsSettingsEvents.GroupChangeError(reason))
+    }
+  }
+
+  fun setViewMembersAdminOnly(announcementGroup: Boolean) {
+    repository.applyViewMembersAdminOnlyChange(groupId, announcementGroup) { reason ->
+      internalEvents.postValue(PermissionsSettingsEvents.GroupChangeError(reason))
+    }
+  }
+
 
   private fun Boolean.asGroupAccessControl(): GroupAccessControl {
     return if (this) {

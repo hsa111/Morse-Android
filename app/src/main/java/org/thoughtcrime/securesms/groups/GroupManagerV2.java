@@ -345,6 +345,20 @@ final class GroupManagerV2 {
     }
 
     @WorkerThread
+    @NonNull GroupManager.GroupActionResult updateAddFriendsAdminOnly(boolean isAddFriendsAdminOnly)
+        throws GroupChangeFailedException, GroupInsufficientRightsException, IOException, GroupNotAMemberException
+    {
+      return commitChangeWithConflictResolution(groupOperations.createAddFriendsAdminOnlyChange(isAddFriendsAdminOnly));
+    }
+
+    @WorkerThread
+    @NonNull GroupManager.GroupActionResult updateViewMembersAdminOnlyChange(boolean isViewMembersAdminOnly)
+        throws GroupChangeFailedException, GroupInsufficientRightsException, IOException, GroupNotAMemberException
+    {
+      return commitChangeWithConflictResolution(groupOperations.createViewMembersAdminOnlyChange(isViewMembersAdminOnly));
+    }
+
+    @WorkerThread
     @NonNull GroupManager.GroupActionResult updateGroupTitleDescriptionAndAvatar(@Nullable String title, @Nullable String description, @Nullable byte[] avatarBytes, boolean avatarChanged)
       throws GroupChangeFailedException, GroupInsufficientRightsException, IOException, GroupNotAMemberException
     {

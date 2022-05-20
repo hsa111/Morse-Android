@@ -40,6 +40,14 @@ public final class GroupChangeReconstruct {
       builder.setNewIsAnnouncementGroup(toState.getIsAnnouncementGroup());
     }
 
+    if (!fromState.getIsAddFriendsAdminOnly().equals(toState.getIsAddFriendsAdminOnly())) {
+      builder.setNewAddFriendsAdminOnly(toState.getIsAddFriendsAdminOnly());
+    }
+
+    if (!fromState.getIsViewMembersAdminOnly().equals(toState.getIsViewMembersAdminOnly())) {
+      builder.setNewViewMembersAdminOnly(toState.getIsViewMembersAdminOnly());
+    }
+
     if (!fromState.getAvatar().equals(toState.getAvatar())) {
       builder.setNewAvatar(DecryptedString.newBuilder().setValue(toState.getAvatar()));
     }

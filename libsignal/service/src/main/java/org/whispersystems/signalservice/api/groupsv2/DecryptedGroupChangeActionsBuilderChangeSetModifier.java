@@ -133,6 +133,14 @@ final class DecryptedGroupChangeActionsBuilderChangeSetModifier implements Chang
     result.clearNewIsAnnouncementGroup();
   }
 
+  @Override public void clearModifyAddFriendsAdminOnly() {
+    result.clearNewAddFriendsAdminOnly();
+  }
+
+  @Override public void clearModifyViewMembersAdminOnly() {
+    result.clearNewViewMembersAdminOnly();
+  }
+
   private static List<ByteString> removeIndexFromByteStringList(List<ByteString> byteStrings, int i) {
     List<ByteString> modifiedList = new ArrayList<>(byteStrings);
 

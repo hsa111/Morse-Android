@@ -279,6 +279,9 @@ public final class DecryptedGroupUtil {
 
     applyModifyIsAnnouncementGroupAction(builder, change);
 
+    applyModifyIsAddFriendsAdminOnlyAction(builder, change);
+    applyModifyIsViewMembersAdminOnlyAction(builder, change);
+
     applyModifyAvatarAction(builder, change);
 
     applyModifyDisappearingMessagesTimerAction(builder, change);
@@ -420,6 +423,17 @@ public final class DecryptedGroupUtil {
     }
   }
 
+  protected static void applyModifyIsAddFriendsAdminOnlyAction(DecryptedGroup.Builder builder, DecryptedGroupChange change) {
+    if (change.getNewAddFriendsAdminOnly() != EnabledState.UNKNOWN) {
+      builder.setIsAddFriendsAdminOnly(change.getNewAddFriendsAdminOnly());
+    }
+  }
+
+  protected static void applyModifyIsViewMembersAdminOnlyAction(DecryptedGroup.Builder builder, DecryptedGroupChange change) {
+    if (change.getNewViewMembersAdminOnly() != EnabledState.UNKNOWN) {
+      builder.setIsViewMembersAdminOnly(change.getNewViewMembersAdminOnly());
+    }
+  }
 
   protected static void applyModifyAvatarAction(DecryptedGroup.Builder builder, DecryptedGroupChange change) {
     if (change.hasNewAvatar()) {
@@ -598,7 +612,9 @@ public final class DecryptedGroupUtil {
            change.getPromoteRequestingMembersCount() == 0 && // field 18
            change.getNewInviteLinkPassword().size()  == 0 && // field 19
            !change.hasNewDescription()                    && // field 20
-           isEmpty(change.getNewIsAnnouncementGroup());       // field 20
+           isEmpty(change.getNewIsAnnouncementGroup())    && // field 21
+           isEmpty(change.getNewAddFriendsAdminOnly())    && // field 22
+           isEmpty(change.getNewViewMembersAdminOnly());       // field 23
   }
 
   static boolean isEmpty(AccessControl.AccessRequired newAttributeAccess) {

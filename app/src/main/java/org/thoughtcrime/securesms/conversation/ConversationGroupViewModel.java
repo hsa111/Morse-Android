@@ -115,6 +115,11 @@ final class ConversationGroupViewModel extends ViewModel {
     return level != null && level.getMemberLevel() != GroupDatabase.MemberLevel.ADMINISTRATOR && level.isAnnouncementGroup();
   }
 
+  boolean cannotViewMembersInGroup() {
+    ConversationMemberLevel level = selfMembershipLevel.getValue();
+    return level != null && level.getMemberLevel() != GroupDatabase.MemberLevel.ADMINISTRATOR && level.isViewMembersAdminOnly();
+  }
+
   private static @Nullable GroupRecord getGroupRecordForRecipient(@Nullable Recipient recipient) {
     if (recipient != null && recipient.isGroup()) {
       Application context         = ApplicationDependencies.getApplication();
@@ -149,7 +154,7 @@ final class ConversationGroupViewModel extends ViewModel {
     if (record == null) {
       return null;
     }
-    return new ConversationMemberLevel(record.memberLevel(Recipient.self()), record.isAnnouncementGroup());
+    return new ConversationMemberLevel(record.memberLevel(Recipient.self()), record.isAnnouncementGroup(),record.isViewMembersAdminOnly());
   }
 
   @WorkerThread
@@ -261,10 +266,12 @@ final class ConversationGroupViewModel extends ViewModel {
   static final class ConversationMemberLevel {
     private final GroupDatabase.MemberLevel memberLevel;
     private final boolean                   isAnnouncementGroup;
+    private final boolean                   isViewMembersAdminOnly;
 
-    private ConversationMemberLevel(GroupDatabase.MemberLevel memberLevel, boolean isAnnouncementGroup) {
+    private ConversationMemberLevel(GroupDatabase.MemberLevel memberLevel, boolean isAnnouncementGroup,boolean isViewMembersAdminOnly) {
       this.memberLevel         = memberLevel;
       this.isAnnouncementGroup = isAnnouncementGroup;
+      this.isViewMembersAdminOnly = isViewMembersAdminOnly;
     }
 
     public @NonNull GroupDatabase.MemberLevel getMemberLevel() {
@@ -273,6 +280,9 @@ final class ConversationGroupViewModel extends ViewModel {
 
     public boolean isAnnouncementGroup() {
       return isAnnouncementGroup;
+    }
+    public boolean isViewMembersAdminOnly() {
+      return isViewMembersAdminOnly;
     }
   }
 

@@ -48,6 +48,8 @@ final class RecipientDialogViewModel extends ViewModel {
 
   private final LiveData<ListenerActionStatus>     listenerActionStatus;
 
+  private final  LiveData<Boolean>                   canAddFriendsInGroup;
+
   private RecipientDialogViewModel(@NonNull Context context,
                                    @NonNull RecipientDialogRepository recipientDialogRepository)
   {
@@ -83,9 +85,15 @@ final class RecipientDialogViewModel extends ViewModel {
                                                        return new ListenerActionStatus(inGroup && localAdmin && !recipientListener,
                                                                                     inGroup && localAdmin && recipientListener);
                                                      });
+      //isAddFriendsAdminOnly         = source.isAddFriendsAdminOnly();
+      canAddFriendsInGroup         =  LiveDataUtil.combineLatest(localIsAdmin, source.isAddFriendsAdminOnly(),
+                                 (localAdmin, groupIsAddFriendsAdminOnly) -> {
+                                   return localAdmin || !groupIsAddFriendsAdminOnly;
+                                 });
     } else {
       adminActionStatus = new MutableLiveData<>(new AdminActionStatus(false, false, false));
       listenerActionStatus = new MutableLiveData<>(new ListenerActionStatus(false, false));
+      canAddFriendsInGroup         = new MutableLiveData<>(true);
     }
 
     boolean isSelf = recipientDialogRepository.getRecipientId().equals(Recipient.self().getId());
@@ -107,6 +115,10 @@ final class RecipientDialogViewModel extends ViewModel {
 
   public LiveData<Boolean> getCanAddToAGroup() {
     return canAddToAGroup;
+  }
+
+  public LiveData<Boolean> getCanAddFriendsInGroup() {
+    return canAddFriendsInGroup;
   }
 
   LiveData<AdminActionStatus> getAdminActionStatus() {

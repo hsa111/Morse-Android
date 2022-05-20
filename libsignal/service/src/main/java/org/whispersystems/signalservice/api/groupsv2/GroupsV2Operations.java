@@ -60,7 +60,7 @@ public final class GroupsV2Operations {
   public static final UUID UNKNOWN_UUID = UuidUtil.UNKNOWN_UUID;
 
   /** Highest change epoch this class knows now to decrypt */
-  public static final int HIGHEST_KNOWN_EPOCH = 3;
+  public static final int HIGHEST_KNOWN_EPOCH = 5;
 
   private final ServerPublicParams        serverPublicParams;
   private final ClientZkProfileOperations clientZkProfileOperations;
@@ -343,6 +343,22 @@ public final class GroupsV2Operations {
                                                                        .setAnnouncementsOnly(isAnnouncementGroup));
     }
 
+    public GroupChange.Actions.Builder createAddFriendsAdminOnlyChange(boolean isAddFriendsAdminOnly) {
+      return GroupChange.Actions
+          .newBuilder()
+          .setModifyAddFriendsAdminOnly(GroupChange.Actions.ModifyAddFriendsAdminOnlyAction
+                                          .newBuilder()
+                                          .setAddFriendsAdminOnly(isAddFriendsAdminOnly));
+    }
+
+    public GroupChange.Actions.Builder createViewMembersAdminOnlyChange(boolean isViewMembersAdminOnly) {
+      return GroupChange.Actions
+          .newBuilder()
+          .setModifyViewMembersAdminOnly(GroupChange.Actions.ModifyViewMembersAdminOnlyAction
+                                          .newBuilder()
+                                          .setViewMembersAdminOnly(isViewMembersAdminOnly));
+    }
+
     private Member.Builder member(ProfileKeyCredential credential, Member.Role role) {
       ProfileKeyCredentialPresentation presentation = clientZkProfileOperations.createProfileKeyCredentialPresentation(new SecureRandom(), groupSecretParams, credential);
 
@@ -592,6 +608,16 @@ public final class GroupsV2Operations {
       // Field 21
       if (actions.hasModifyAnnouncementsOnly()) {
         builder.setNewIsAnnouncementGroup(actions.getModifyAnnouncementsOnly().getAnnouncementsOnly() ? EnabledState.ENABLED : EnabledState.DISABLED);
+      }
+
+      // Field 22
+      if (actions.hasModifyAddFriendsAdminOnly()) {
+        builder.setNewAddFriendsAdminOnly(actions.getModifyAddFriendsAdminOnly().getAddFriendsAdminOnly() ? EnabledState.ENABLED : EnabledState.DISABLED);
+      }
+
+      // Field 23
+      if (actions.hasModifyViewMembersAdminOnly()) {
+        builder.setNewViewMembersAdminOnly(actions.getModifyViewMembersAdminOnly().getViewMembersAdminOnly() ? EnabledState.ENABLED : EnabledState.DISABLED);
       }
 
       return builder.build();

@@ -555,8 +555,10 @@ public class ConversationFragment extends LoggingFragment implements Multiselect
                                                 .getQuantityString(R.plurals.MessageRequestProfileView_members_and_invited, memberCount,
                                                                    memberCount, pendingMemberCount));
         } else if (memberCount > 0) {
-          conversationBanner.setSubtitle(context.getResources().getQuantityString(R.plurals.MessageRequestProfileView_members, memberCount,
-                                                                                  memberCount));
+          if (!(this.groupViewModel!= null && this.groupViewModel.cannotViewMembersInGroup())) {
+            conversationBanner.setSubtitle(context.getResources().getQuantityString(R.plurals.MessageRequestProfileView_members, memberCount,
+                                                                                    memberCount));
+          }
         } else {
           conversationBanner.setSubtitle(null);
         }

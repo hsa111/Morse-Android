@@ -62,6 +62,9 @@ message DecryptedGroup {
            bytes                     inviteLinkPassword        = 10;
            string                    description               = 11;
            EnabledState              isAnnouncementGroup       = 12;
+           EnabledState            isAddFriendsAdminOnly       = 13;
+           EnabledState            isViewMembersAdminOnly      = 14;
+  // next: 15
 }
 
 // Decrypted version of message GroupChange.Actions
@@ -88,6 +91,8 @@ message DecryptedGroupChange {
            bytes                         newInviteLinkPassword    = 19;
            DecryptedString               newDescription           = 20;
            EnabledState                  newIsAnnouncementGroup   = 21;
+           EnabledState                newAddFriendsAdminOnly     = 22;  // change epoch = 4
+           EnabledState                newViewMembersAdminOnly    = 23;  // change epoch = 5
 }
 
 message DecryptedString {

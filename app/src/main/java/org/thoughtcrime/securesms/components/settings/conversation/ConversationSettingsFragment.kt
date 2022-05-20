@@ -563,48 +563,50 @@ class ConversationSettingsFragment : DSLSettingsFragment(
       }
 
       state.withGroupSettingsState { groupState ->
-        val memberCount = groupState.allMembers.size
+        if (!groupState.isViewMembersAdminOnly || groupState.isSelfAdmin) {
+          val memberCount = groupState.allMembers.size
 
-        if (groupState.canAddToGroup || memberCount > 0) {
-          dividerPref()
+          if (groupState.canAddToGroup || memberCount > 0) {
+            dividerPref()
 
-          sectionHeaderPref(DSLSettingsText.from(resources.getQuantityString(R.plurals.ContactSelectionListFragment_d_members, memberCount, memberCount)))
-        }
+            sectionHeaderPref(DSLSettingsText.from(resources.getQuantityString(R.plurals.ContactSelectionListFragment_d_members, memberCount, memberCount)))
+          }
 
-        if (groupState.canAddToGroup) {
-          customPref(
-            LargeIconClickPreference.Model(
-              title = DSLSettingsText.from(R.string.ConversationSettingsFragment__add_members),
-              icon = DSLSettingsIcon.from(R.drawable.add_to_a_group, NO_TINT),
-              onClick = {
-                viewModel.onAddToGroup()
-              }
+          if (groupState.canAddToGroup) {
+            customPref(
+              LargeIconClickPreference.Model(
+                title = DSLSettingsText.from(R.string.ConversationSettingsFragment__add_members),
+                icon = DSLSettingsIcon.from(R.drawable.add_to_a_group, NO_TINT),
+                onClick = {
+                  viewModel.onAddToGroup()
+                }
+              )
             )
-          )
-        }
+          }
 
-        for (member in groupState.members) {
-          customPref(
-            RecipientPreference.Model(
-              recipient = member.member,
-              isAdmin = member.isAdmin,
-              onClick = {
-                RecipientBottomSheetDialogFragment.create(member.member.id, groupState.groupId).show(parentFragmentManager, "BOTTOM")
-              }
+          for (member in groupState.members) {
+            customPref(
+              RecipientPreference.Model(
+                recipient = member.member,
+                isAdmin = member.isAdmin,
+                onClick = {
+                  RecipientBottomSheetDialogFragment.create(member.member.id, groupState.groupId).show(parentFragmentManager, "BOTTOM")
+                }
+              )
             )
-          )
-        }
+          }
 
-        if (groupState.canShowMoreGroupMembers) {
-          customPref(
-            LargeIconClickPreference.Model(
-              title = DSLSettingsText.from(R.string.ConversationSettingsFragment__see_all),
-              icon = DSLSettingsIcon.from(R.drawable.show_more, NO_TINT),
-              onClick = {
-                viewModel.revealAllMembers()
-              }
+          if (groupState.canShowMoreGroupMembers) {
+            customPref(
+              LargeIconClickPreference.Model(
+                title = DSLSettingsText.from(R.string.ConversationSettingsFragment__see_all),
+                icon = DSLSettingsIcon.from(R.drawable.show_more, NO_TINT),
+                onClick = {
+                  viewModel.revealAllMembers()
+                }
+              )
             )
-          )
+          }
         }
 
         if (state.recipient.isPushV2Group) {

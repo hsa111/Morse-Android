@@ -76,7 +76,9 @@ sealed class SpecificSettingsState {
     val groupLinkEnabled: Boolean = false,
     val membershipCountDescription: String = "",
     val legacyGroupState: LegacyGroupPreference.State = LegacyGroupPreference.State.NONE,
-    val isAnnouncementGroup: Boolean = false
+    val isAnnouncementGroup: Boolean = false,
+    val isAddFriendsAdminOnly: Boolean = false,
+    val isViewMembersAdminOnly: Boolean = false
   ) : SpecificSettingsState() {
 
     override val isLoaded: Boolean = groupTitleLoaded && groupDescriptionLoaded

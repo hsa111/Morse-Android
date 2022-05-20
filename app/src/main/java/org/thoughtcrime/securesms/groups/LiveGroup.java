@@ -134,6 +134,14 @@ public final class LiveGroup {
     return Transformations.map(groupRecord, GroupDatabase.GroupRecord::isAnnouncementGroup);
   }
 
+  public LiveData<Boolean> isAddFriendsAdminOnly() {
+    return Transformations.map(groupRecord, GroupDatabase.GroupRecord::isAddFriendsAdminOnly);
+  }
+
+  public LiveData<Boolean> isViewMembersAdminOnly() {
+    return Transformations.map(groupRecord, GroupDatabase.GroupRecord::isViewMembersAdminOnly);
+  }
+
   public LiveData<Recipient> getGroupRecipient() {
     return recipient;
   }

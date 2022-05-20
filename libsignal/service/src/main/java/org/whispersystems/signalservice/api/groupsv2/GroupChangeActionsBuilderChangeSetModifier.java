@@ -112,4 +112,12 @@ final class GroupChangeActionsBuilderChangeSetModifier implements ChangeSetModif
   public void clearModifyAnnouncementsOnly() {
     result.clearModifyAnnouncementsOnly();
   }
+
+  @Override public void clearModifyAddFriendsAdminOnly() {
+    result.clearModifyAddFriendsAdminOnly();
+  }
+
+  @Override public void clearModifyViewMembersAdminOnly() {
+    result.clearModifyViewMembersAdminOnly();
+  }
 }
