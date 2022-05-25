@@ -22,6 +22,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
 import androidx.core.content.ContextCompat;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.Observer;
 import androidx.vectordrawable.graphics.drawable.AnimatorInflaterCompat;
 
 import com.annimon.stream.Stream;
@@ -30,14 +32,22 @@ import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
 import org.thoughtcrime.securesms.components.emoji.EmojiImageView;
 import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
+import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
 import org.thoughtcrime.securesms.database.model.MessageRecord;
 import org.thoughtcrime.securesms.database.model.ReactionRecord;
+import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.groups.GroupManager;
+import org.thoughtcrime.securesms.groups.LiveGroup;
+import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.util.ThemeUtil;
 import org.thoughtcrime.securesms.util.Util;
 import org.thoughtcrime.securesms.util.ViewUtil;
 import org.thoughtcrime.securesms.util.WindowUtil;
+import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -474,6 +484,31 @@ public final class ConversationReactionOverlay extends RelativeLayout {
                  .orElse(null);
   }
 
+  private void checkInfoMenuItemViewable(@NonNull ConversationMessage conversationMessage){
+    LiveGroup liveGroup = null;
+    if (conversationMessage.getMessageRecord().getRecipient().getGroupId().isPresent()) {
+      liveGroup = new LiveGroup(
+          conversationMessage.getMessageRecord().getRecipient().getGroupId().get());
+    }else if (conversationMessage.getMessageRecord().getIndividualRecipient().getGroupId().isPresent()) {
+      liveGroup = new LiveGroup(
+          conversationMessage.getMessageRecord().getIndividualRecipient().getGroupId().get());
+    }
+    if (liveGroup != null){
+      LiveData<Boolean> canShowMessageDetails = LiveDataUtil.combineLatest(
+          liveGroup.isViewMembersAdminOnly(), liveGroup.isSelfAdmin(),
+          (isViewMembersAdminOnly, localAdmin) -> {
+            return localAdmin || !isViewMembersAdminOnly;
+          });
+
+      Observer<Boolean> canShowMessageDetailsChecker = m -> {
+        if (!m) {
+          toolbar.getMenu().findItem(R.id.action_info).setVisible(false);
+        }
+      };
+      canShowMessageDetails.observeForever(canShowMessageDetailsChecker);
+    }
+  }
+
   private void setupToolbarMenuItems(@NonNull ConversationMessage conversationMessage) {
     MenuState menuState = MenuState.getMenuState(conversationRecipient, conversationMessage.getMultiselectCollection().toSet(), false, isNonAdminInAnnouncementGroup);
 
@@ -481,6 +516,8 @@ public final class ConversationReactionOverlay extends RelativeLayout {
     toolbar.getMenu().findItem(R.id.action_download).setVisible(menuState.shouldShowSaveAttachmentAction());
     toolbar.getMenu().findItem(R.id.action_forward).setVisible(menuState.shouldShowForwardAction());
     toolbar.getMenu().findItem(R.id.action_reply).setVisible(menuState.shouldShowReplyAction());
+
+    checkInfoMenuItemViewable(conversationMessage);
   }
 
   private boolean handleToolbarItemClicked(@NonNull MenuItem menuItem) {

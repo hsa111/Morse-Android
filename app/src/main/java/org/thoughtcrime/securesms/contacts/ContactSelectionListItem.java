@@ -10,12 +10,16 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.Observer;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.badges.BadgeImageView;
 import org.thoughtcrime.securesms.components.AvatarImageView;
 import org.thoughtcrime.securesms.components.FromTextView;
+import org.thoughtcrime.securesms.conversation.ConversationMessage;
+import org.thoughtcrime.securesms.groups.LiveGroup;
 import org.thoughtcrime.securesms.mms.GlideRequests;
 import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
 import org.thoughtcrime.securesms.recipients.LiveRecipient;
@@ -24,6 +28,7 @@ import org.thoughtcrime.securesms.recipients.RecipientForeverObserver;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.util.Util;
 import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 public class ContactSelectionListItem extends ConstraintLayout implements RecipientForeverObserver {
@@ -154,6 +159,27 @@ public class ContactSelectionListItem extends ConstraintLayout implements Recipi
     }
   }
 
+  private void checkAndSetGroupMembersCnt(Recipient recipient, TextView textView){
+    LiveGroup liveGroup = new LiveGroup(recipient.getGroupId().get());
+
+    if (liveGroup != null){
+      LiveData<Boolean> canShowMessageDetails = LiveDataUtil.combineLatest(
+          liveGroup.isViewMembersAdminOnly(), liveGroup.isSelfAdmin(),
+          (isViewMembersAdminOnly, localAdmin) -> {
+            return localAdmin || !isViewMembersAdminOnly;
+          });
+
+      Observer<Boolean> canShowMessageDetailsChecker = m -> {
+        if (!m) {
+          textView.setVisibility(View.GONE);
+        }else{
+          textView.setText(getGroupMemberCount(recipient));
+        }
+      };
+      canShowMessageDetails.observeForever(canShowMessageDetailsChecker);
+    }
+  }
+
   @SuppressLint("SetTextI18n")
   private void setText(@Nullable Recipient recipient, int type, String name, String number, String label, @Nullable String about) {
     if (number == null || number.isEmpty()) {
@@ -162,7 +188,8 @@ public class ContactSelectionListItem extends ConstraintLayout implements Recipi
       this.labelView.setVisibility(View.GONE);
     } else if (recipient != null && recipient.isGroup()) {
       this.nameView.setEnabled(false);
-      this.numberView.setText(getGroupMemberCount(recipient));
+      //this.numberView.setText(getGroupMemberCount(recipient));
+      checkAndSetGroupMembersCnt(recipient,this.numberView);
       this.labelView.setVisibility(View.GONE);
     } else if (type == ContactRepository.PUSH_TYPE) {
       this.numberView.setText(!Util.isEmpty(about) ? about : number);

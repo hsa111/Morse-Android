@@ -269,7 +269,8 @@ public class LinkPreviewRepository {
           GroupDatabase.GroupRecord groupRecord = group.get();
           String                    title       = groupRecord.getTitle();
           int                       memberCount = groupRecord.getMembers().size();
-          String                    description = getMemberCountDescription(context, memberCount);
+          //String                    description = getMemberCountDescription(context, memberCount);
+          String                 description = "";
           Optional<Attachment>      thumbnail   = Optional.absent();
 
           if (AvatarHelper.hasAvatar(context, groupRecord.getRecipientId())) {
@@ -284,8 +285,9 @@ public class LinkPreviewRepository {
           Log.i(TAG, "Group is not locally available for preview generation, fetching from server");
 
           DecryptedGroupJoinInfo joinInfo    = GroupManager.getGroupJoinInfoFromServer(context, groupMasterKey, groupInviteLinkUrl.getPassword());
-          String                 description = getMemberCountDescription(context, joinInfo.getMemberCount());
-          Optional<Attachment>   thumbnail   = Optional.absent();
+          //String                 description = getMemberCountDescription(context, joinInfo.getMemberCount());
+          String                 description = "";
+              Optional<Attachment>   thumbnail   = Optional.absent();
           byte[]                 avatarBytes = AvatarGroupsV2DownloadJob.downloadGroupAvatarBytes(context, groupMasterKey, joinInfo.getAvatar());
 
           if (avatarBytes != null) {

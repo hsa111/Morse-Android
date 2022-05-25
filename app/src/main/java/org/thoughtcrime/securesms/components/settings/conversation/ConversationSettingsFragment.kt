@@ -285,7 +285,8 @@ class ConversationSettingsFragment : DSLSettingsFragment(
 
         val groupMembershipDescription = if (groupState.groupId.isV1) {
           String.format("%s · %s", groupState.membershipCountDescription, getString(R.string.ManageGroupActivity_legacy_group))
-        } else if (!groupState.canEditGroupAttributes && groupState.groupDescription.isNullOrEmpty()) {
+        } else if (!groupState.canEditGroupAttributes && groupState.groupDescription.isNullOrEmpty() &&
+          !(groupState.isViewMembersAdminOnly && !groupState.isSelfAdmin)) {
           groupState.membershipCountDescription
         } else {
           null

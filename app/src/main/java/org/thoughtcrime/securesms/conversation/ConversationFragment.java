@@ -111,6 +111,7 @@ import org.thoughtcrime.securesms.giph.mp4.GiphyMp4ProjectionPlayerHolder;
 import org.thoughtcrime.securesms.giph.mp4.GiphyMp4ProjectionRecycler;
 import org.thoughtcrime.securesms.groups.GroupId;
 import org.thoughtcrime.securesms.groups.GroupMigrationMembershipChange;
+import org.thoughtcrime.securesms.groups.LiveGroup;
 import org.thoughtcrime.securesms.groups.ui.invitesandrequests.invite.GroupLinkInviteFriendsBottomSheetDialogFragment;
 import org.thoughtcrime.securesms.groups.ui.managegroup.dialogs.GroupDescriptionDialog;
 import org.thoughtcrime.securesms.groups.ui.migration.GroupsV1MigrationInfoBottomSheetDialogFragment;
@@ -159,6 +160,7 @@ import org.thoughtcrime.securesms.util.Util;
 import org.thoughtcrime.securesms.util.ViewUtil;
 import org.thoughtcrime.securesms.util.WindowUtil;
 import org.thoughtcrime.securesms.util.concurrent.SimpleTask;
+import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
 import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
 import org.thoughtcrime.securesms.util.views.AdaptiveActionsToolbar;
 import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
@@ -748,7 +750,8 @@ public class ConversationFragment extends LoggingFragment implements Multiselect
 
     menu.findItem(R.id.menu_context_forward).setVisible(menuState.shouldShowForwardAction());
     menu.findItem(R.id.menu_context_reply).setVisible(menuState.shouldShowReplyAction());
-    menu.findItem(R.id.menu_context_details).setVisible(menuState.shouldShowDetailsAction());
+    menu.findItem(R.id.menu_context_details).setVisible(
+        menuState.shouldShowDetailsAction() && !groupViewModel.cannotViewMembersInGroup());
     menu.findItem(R.id.menu_context_save_attachment).setVisible(menuState.shouldShowSaveAttachmentAction());
     menu.findItem(R.id.menu_context_resend).setVisible(menuState.shouldShowResendAction());
     menu.findItem(R.id.menu_context_copy).setVisible(menuState.shouldShowCopyAction());
