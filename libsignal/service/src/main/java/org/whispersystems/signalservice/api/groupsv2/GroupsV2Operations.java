@@ -416,6 +416,8 @@ public final class GroupsV2Operations {
                            .setTitle(decryptTitle(group.getTitle()))
                            .setDescription(decryptDescription(group.getDescription()))
                            .setIsAnnouncementGroup(group.getAnnouncementsOnly() ? EnabledState.ENABLED : EnabledState.DISABLED)
+                           .setIsAddFriendsAdminOnly(group.getAddFriendsAdminOnly() ? EnabledState.ENABLED : EnabledState.DISABLED)
+                           .setIsViewMembersAdminOnly(group.getViewMembersAdminOnly() ? EnabledState.ENABLED : EnabledState.DISABLED)
                            .setAvatar(group.getAvatar())
                            .setAccessControl(group.getAccessControl())
                            .setRevision(group.getRevision())

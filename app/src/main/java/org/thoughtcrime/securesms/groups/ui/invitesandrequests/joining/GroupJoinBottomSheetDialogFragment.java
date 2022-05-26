@@ -104,8 +104,9 @@ public final class GroupJoinBottomSheetDialogFragment extends BottomSheetDialogF
 
     viewModel.getGroupDetails().observe(getViewLifecycleOwner(), details -> {
       groupName.setText(details.getGroupName());
-      groupDetails.setText(requireContext().getResources().getQuantityString(R.plurals.GroupJoinBottomSheetDialogFragment_group_dot_d_members, details.getGroupMembershipCount(), details.getGroupMembershipCount()));
 
+      //groupDetails.setText(requireContext().getResources().getQuantityString(R.plurals.GroupJoinBottomSheetDialogFragment_group_dot_d_members, details.getGroupMembershipCount(), details.getGroupMembershipCount()));
+      groupDetails.setVisibility(View.GONE);
       if (!TextUtils.isEmpty(details.getGroupDescription())) {
         updateGroupDescription(details.getGroupName(), details.getGroupDescription());
       }

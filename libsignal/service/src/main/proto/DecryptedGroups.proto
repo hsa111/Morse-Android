@@ -112,6 +112,8 @@ message DecryptedGroupJoinInfo {
   bool                         pendingAdminApproval = 7;
   string                       description          = 8;
   bool                         isAnnouncementGroup  = 9;
+  bool                         isAddFriendsAdminOnly  = 10;
+  bool                         isViewMembersAdminOnly = 11;
 }
 
 enum EnabledState {
