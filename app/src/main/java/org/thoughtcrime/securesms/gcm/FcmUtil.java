@@ -14,7 +14,7 @@ import org.whispersystems.libsignal.util.guava.Optional;
 import java.util.concurrent.ExecutionException;
 
 public final class FcmUtil {
-  public static boolean CHK_GOOGLE_SERVICE = false;
+  public static boolean CHK_GOOGLE_SERVICE = true;
 
   private static final String TAG = Log.tag(FcmUtil.class);
 
