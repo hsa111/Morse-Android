@@ -41,6 +41,7 @@ public class OutdatedBuildReminder extends Reminder {
   }
 
   private static int getDaysUntilExpiry() {
-    return (int) TimeUnit.MILLISECONDS.toDays(Util.getTimeUntilBuildExpiry());
+    return 60;
+    //return (int) TimeUnit.MILLISECONDS.toDays(Util.getTimeUntilBuildExpiry());
   }
 }
